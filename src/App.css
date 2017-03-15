@@ -34,6 +34,20 @@ select.form-control {
   outline: none;
   width: 100px;
   height: 30px;
+  font-size: medium;
+}
+
+.reset-button {
+  background-color: #e7e7e7;
+  outline: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
 }
 
 #unitName {
@@ -58,7 +72,6 @@ th, td {
 }
 
 th.unit-name {
-  text-align: left;
   width: 105px;
 }
 
@@ -76,14 +89,10 @@ th.unit-BST {
   width: 40px;
 }
 
-tr.skill-header {
-  text-align: left;
-}
-
 td.skill-type {
   width: 50px;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
   padding: 5px;
 }
 

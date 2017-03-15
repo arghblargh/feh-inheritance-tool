@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, moveIcon, weaponIcon, getUnitsWithSkill, getPossibleSkills, calcStats } from './helper.js';
+import { Dropdown, moveIcon, weaponIcon, parseSkill, getUnitsWithSkill, getPossibleSkills, calcStats } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -57,21 +57,14 @@ class SkillInfoTable extends Component {
     return list.join(', ');
   }
 
-  parseSkill(skill) {
-    if (/\//.test(skill)) 
-      return /\/([a-z1-9 -+]*)/i.exec(skill)[1];
-    else
-      return skill;
-  }
-
   render() {
     var skills = {};
-    skills.weapon = this.parseSkill(this.props.skills.weapon);
-    skills.assist = this.parseSkill(this.props.skills.assist);
-    skills.special = this.parseSkill(this.props.skills.special);
-    skills.passiveA = this.parseSkill(this.props.skills.passiveA);
-    skills.passiveB = this.parseSkill(this.props.skills.passiveB);
-    skills.passiveC = this.parseSkill(this.props.skills.passiveC);
+    skills.weapon = parseSkill(this.props.skills.weapon);
+    skills.assist = parseSkill(this.props.skills.assist);
+    skills.special = parseSkill(this.props.skills.special);
+    skills.passiveA = parseSkill(this.props.skills.passiveA);
+    skills.passiveB = parseSkill(this.props.skills.passiveB);
+    skills.passiveC = parseSkill(this.props.skills.passiveC);
 
     var skillOptions = getPossibleSkills(this.props.unitName);
     
@@ -207,19 +200,24 @@ class InheritanceTool extends Component {
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
+    this.handleResetClick = this.handleResetClick.bind(this);
   }
 
   handleUnitSelect(unitName) {
     var newSkills = JSON.parse(JSON.stringify(units[unitName].skills));
+    for (var s in newSkills) {
+      newSkills[s] = parseSkill(newSkills[s]);
+    }
     this.setState({
       unitName: unitName,
+      stats: JSON.parse(JSON.stringify(units[unitName].stats)),
       skills: newSkills
     });
   }
 
   handleSkillSelect(skillName, skillType) {
     var initSkills = JSON.parse(JSON.stringify(this.state.skills));
-    var newSkills = this.state.skills;
+    var newSkills = JSON.parse(JSON.stringify(this.state.skills));
     switch(skillType) {
       case 'weapon':
         newSkills.weapon = skillName;
@@ -248,6 +246,17 @@ class InheritanceTool extends Component {
     });
   }
 
+  handleResetClick() {
+    var skills = JSON.parse(JSON.stringify(units[this.state.unitName].skills));
+    for (var s in skills) {
+      skills[s] = parseSkill(skills[s]);
+    }
+    this.setState({
+      stats: calcStats(this.state.unitName, this.state.skills, skills),
+      skills: skills
+    })
+  }
+
   render() {
     return (
       <div className="tool">
@@ -260,6 +269,9 @@ class InheritanceTool extends Component {
           <SkillInfoTable unitName={this.state.unitName}
                           skills={this.state.skills}
                           onSkillSelect={this.handleSkillSelect} />
+        </div>
+        <div>
+          <button className="reset-button" onClick={this.handleResetClick}>Reset Skills</button>
         </div>
       </div>
     );

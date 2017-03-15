@@ -82,6 +82,14 @@ export const Dropdown = React.createClass({
     }
 });
 
+// Parses skills
+export function parseSkill(skill) {
+    if (/\//.test(skill)) 
+        return /\/([a-z1-9 -+]*)/i.exec(skill)[1];
+    else
+        return skill;
+}
+
 // Gets a string of all units that can learn a skill
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
