@@ -120,7 +120,7 @@ function buildSkillList(type) {
             }
         }
     }
-    return Array.from(skillList).sort();
+    return Array.from(skillList);
 }
 
 // Check inheritance restrictions.
@@ -160,7 +160,7 @@ export function getPossibleSkills(unit) {
     skills.specials = ['']; 
     skills.passivesA = ['']; 
     skills.passivesB = ['']; 
-    skills.passivesC = ['']; 
+    skills.passivesC = [''];
 
     var wpnList = buildSkillList('weapon');
     var astList = buildSkillList('assist');
@@ -206,6 +206,24 @@ export function getPossibleSkills(unit) {
             skills.passivesC.push(sklName);
         }
     }
+
+    if (!skills.weapons.includes(units[unit].skills.weapon))
+        skills.weapons.push(units[unit].skills.weapon); 
+    if (!skills.assists.includes(units[unit].skills.assist))
+        skills.assists.push(units[unit].skills.assist); 
+    if (!skills.specials.includes(units[unit].skills.special))
+        skills.specials.push(units[unit].skills.special); 
+    if (!skills.passivesA.includes(units[unit].skills.passiveA))
+        skills.passivesA.push(units[unit].skills.passiveA); 
+    if (!skills.passivesB.includes(units[unit].skills.passiveB))
+        skills.passivesB.push(units[unit].skills.passiveB); 
+    if (!skills.passivesC.includes(units[unit].skills.passiveC))
+        skills.passivesC.push(units[unit].skills.passiveC);
+
+    for (index in skills) {
+        skills[index] = skills[index].sort();
+    }
+
     return skills;
 }
 
