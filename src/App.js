@@ -83,7 +83,7 @@ class SkillInfoTable extends Component {
                         skillName={skills.weapon}
                         skillType='weapon'
                         options={skillOptions.weapons}
-                        effect={weapons[skills.weapon] ? 'Mt' + weapons[skills.weapon].might + '. ' + weapons[skills.weapon].effect : ''} 
+                        effect={weapons[skills.weapon] ? 'Might: ' + weapons[skills.weapon].might + '. ' + weapons[skills.weapon].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Assist' 
@@ -97,7 +97,7 @@ class SkillInfoTable extends Component {
                         skillName={skills.special}
                         skillType='special'
                         options={skillOptions.specials}
-                        effect={specials[skills.special] ? specials[skills.special].effect : ''} 
+                        effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='A' 

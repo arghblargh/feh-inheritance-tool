@@ -39,6 +39,7 @@ select.form-control {
 
 .reset-button {
   background-color: #e7e7e7;
+  border: 1px #0f0f0f;
   outline: none;
   color: black;
   padding: 10px 10px;
@@ -48,6 +49,11 @@ select.form-control {
   font-size: 14px;
   margin: 2px 2px;
   cursor: pointer;
+  box-shadow: 0px 0px 1px #454545;
+}
+
+.reset-button:active {
+  box-shadow: 0px 0px 2px #222;
 }
 
 #unitName {
@@ -61,14 +67,11 @@ select.form-control {
 table {
   margin: auto;
   border-collapse: collapse;
+  box-shadow: 0px 0px 1px #454545;
 }
 
 th, td {
-  border: 1px solid black;
-}
-
-.blank-cell {
-  border: none;
+  border: 1px solid #0f0f0f;
 }
 
 th.unit-name {
