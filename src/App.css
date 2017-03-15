@@ -11,6 +11,16 @@
   font-size: 0.7em;
 }
 
+#footer {
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
 .char-info {
   padding: 10px;
 }

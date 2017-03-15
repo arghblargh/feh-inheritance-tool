@@ -278,6 +278,10 @@ class App extends Component {
           </h1>
         </div>
         <InheritanceTool />
+        <div id="footer">
+          <i>Fire Emblem: Heroes</i> and all respective content are the 
+          sole property of Nintendo and Intelligent Systems.
+        </div>
       </div>
     );
   }
