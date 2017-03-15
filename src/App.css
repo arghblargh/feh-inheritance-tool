@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  height: 100px;
+  padding: 20px;
+}
+
+.sub-header {
+  font-size: 0.7em;
+}
+
+.char-info {
+  padding: 10px;
+}
+
+.skill-info {
+  padding: 10px;
+}
+
+select.form-control {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 30px;
+}
+
+#unitName {
+  width: 100px;
+}
+
+#skillName {
+  width: 150px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+.blank-cell {
+  border: none;
+}
+
+th.unit-name {
+  text-align: left;
+  width: 105px;
+}
+
+td.unit-type-sub {
+  width: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+th.unit-HP, th.unit-ATK, th.unit-SPD, th.unit-DEF, th.unit-RES {
+  width: 30px;
+}
+
+th.unit-BST {
+  width: 40px;
+}
+
+tr.skill-header {
+  text-align: left;
+}
+
+td.skill-type {
+  width: 50px;
+  text-align: center;
+  font-weight: normal;
+  padding: 5px;
+}
+
+td.skill-name {
+  width: 130px;
+  text-align: left;
+}
+
+.skill-effect, .skill-inherit {
+  width: 500px;
+  height: 40px;
+  text-align: left;
+  padding: 2px;
+}

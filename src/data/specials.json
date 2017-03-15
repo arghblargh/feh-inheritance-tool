@@ -1,0 +1,290 @@
+{
+  "Buckler":{
+    "cost":"100",
+    "count":"3",
+    "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
+    "restriction":""
+  },
+  "Escutcheon":{
+    "cost":"100",
+    "count":"2",
+    "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
+    "restriction":""
+  },
+  "Pavise":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Reduces damage inflicted by attacks from adjacent foes by 50%",
+    "restriction":""
+  },
+  "Holy Vestments":{
+    "cost":"100",
+    "count":"3",
+    "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
+    "restriction":""
+  },
+  "Sacred Cowl":{
+    "cost":"200",
+    "count":"2",
+    "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
+    "restriction":""
+  },
+  "Aegis":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 50%.",
+    "restriction":""
+  },
+  "Miracle":{
+    "cost":"200",
+    "count":"5",
+    "effect":"If HP > 1, survive a lethal attack with 1 HP remaining.",
+    "restriction":""
+  },
+  "Daylight":{
+    "cost":"100",
+    "count":"4",
+    "effect":"Heal 30% of damage dealt in your next attack.",
+    "restriction":""
+  },
+  "Noontime":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Heal 30% of damage dealt in your next attack.",
+    "restriction":""
+  },
+  "Sol":{
+    "cost":"200",
+    "count":"4",
+    "effect":"Heal 50% of damage dealt in your next attack.",
+    "restriction":""
+  },
+  "Aether":{
+    "cost":"500",
+    "count":"5",
+    "effect":"Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt",
+    "restriction":""
+  },
+  "New Moon":{
+    "cost":"100",
+    "count":"3",
+    "effect":"Resolve combat as if foe suffered Def/Res-30%",
+    "restriction":""
+  },
+  "Moonbow":{
+    "cost":"200",
+    "count":"2",
+    "effect":"Resolve combat as if foe suffered Def/Res-30%",
+    "restriction":""
+  },
+  "Luna":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Resolve combat as if foe suffered Def/Res-50%",
+    "restriction":""
+  },
+  "Night Sky":{
+    "cost":"100",
+    "count":"4",
+    "effect":"Grants +50% to damage dealt.",
+    "restriction":""
+  },
+  "Glimmer":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Grants +50% to damage dealt.",
+    "restriction":""
+  },
+  "Astra":{
+    "cost":"200",
+    "count":"5",
+    "effect":"Grants +150% to damage dealt.",
+    "restriction":""
+  },
+  "Galeforce":{
+    "cost":"500",
+    "count":"5",
+    "effect":"If this unit initiates an attack, it can take another action after combat. (Once per turn only.)",
+    "restriction":""
+  },
+  "Imbue":{
+    "cost":"50",
+    "count":"1",
+    "effect":"When healing an ally with a staff, increases recovered HP by 10.",
+    "restriction":""
+  },
+  "Heavenly Light":{
+    "cost":"150",
+    "count":"2",
+    "effect":"When healing an ally with a staff, heal every allies HP by 10.",
+    "restriction":""
+  },
+  "Solid-Earth Balm":{
+    "cost":"150",
+    "count":"1",
+    "effect":"When healing an ally with a staff, grants all allies Def +4 for 1 turn.",
+    "restriction":""
+  },
+  "Kindled-Fire Balm":{
+    "cost":"150",
+    "count":"1",
+    "effect":"When healing an ally with a staff, grants all allies Atk +4 for 1 turn",
+    "restriction":""
+  },
+  "Still-Water Balm":{
+    "cost":"150",
+    "count":"1",
+    "effect":"When healing an ally with a staff, grants all allies Res +4 for 1 turn",
+    "restriction":""
+  },
+  "Swift-Winds Balm":{
+    "cost":"150",
+    "count":"1",
+    "effect":"When healing an ally with a staff, grants all allies Spd +4 for 1 turn",
+    "restriction":""
+  },
+  "Dragon Gaze":{
+    "cost":"100",
+    "count":"4",
+    "effect":"Grants +30% to Atk.",
+    "restriction":""
+  },
+  "Draconic Aura":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Grants +30% to Atk.",
+    "restriction":""
+  },
+  "Dragon Fang":{
+    "cost":"200",
+    "count":"4",
+    "effect":"Grants +50% to Atk.",
+    "restriction":""
+  },
+  "Chilling Wind":{
+    "cost":"100",
+    "count":"4",
+    "effect":"Boosts damage dealt by 50% of unit's Res",
+    "restriction":""
+  },
+  "Iceberg":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Boosts damage dealt by 50% of unit's Res",
+    "restriction":""
+  },
+  "Glacies":{
+    "cost":"200",
+    "count":"4",
+    "effect":"Boosts damage dealt by 80% of unit's Res",
+    "restriction":""
+  },
+  "Glowing Ember":{
+    "cost":"100",
+    "count":"4",
+    "effect":"Boosts damage dealt by 50% of unit's Def",
+    "restriction":""
+  },
+  "Bonfire":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Boosts damage dealt by 50% of unit's Def",
+    "restriction":""
+  },
+  "Ignis":{
+    "cost":"200",
+    "count":"4",
+    "effect":"Boosts damage dealt by 80% of unit's Def",
+    "restriction":""
+  },
+  "Retribution":{
+    "cost":"100",
+    "count":"3",
+    "effect":"Grants bonus to damage dealt equal to 30% of damage suffered.",
+    "restriction":""
+  },
+  "Reprisal":{
+    "cost":"200",
+    "count":"2",
+    "effect":"Grants bonus to damage dealt equal to 30% of damage suffered.",
+    "restriction":""
+  },
+  "Vengeance":{
+    "cost":"200",
+    "count":"3",
+    "effect":"Grants bonus to damage dealt equal to 50% of damage suffered.",
+    "restriction":""
+  },
+  "Rising Wind":{
+    "cost":"150",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Growing Wind":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Blazing Wind":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Rising Light":{
+    "cost":"150",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Blazing Light":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Growing Light":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Rising Flame":{
+    "cost":"150",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Blazing Flame":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Growing Flame":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Rising Thunder":{
+    "cost":"150",
+    "count":"5",
+    "effect":"Before combat this unit initiates, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  },
+  "Blazing Thunder":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+    "restriction":""
+  },
+  "Growing Thunder":{
+    "cost":"300",
+    "count":"5",
+    "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
+    "restriction":""
+  }
+}
