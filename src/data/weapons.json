@@ -137,7 +137,7 @@
   },
   "Dark Breath+": {
     "color": "Blue",
-    "type": "Dragonstone",
+    "type": "Dragon",
     "cost": "300",
     "might": "13",
     "effect": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.",
@@ -217,7 +217,7 @@
   },
   "Flametongue+": {
     "color": "Red",
-    "type": "Dragonstone",
+    "type": "Dragon",
     "cost": "300",
     "might": "15",
     "effect": "",
@@ -329,7 +329,7 @@
   },
   "Light Breath+": {
     "color": "Green",
-    "type": "Dragonstone",
+    "type": "Dragon",
     "cost": "300",
     "might": "13",
     "effect": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.",
@@ -337,7 +337,7 @@
   },
   "Lightning Breath+": {
     "color": "Red, Blue",
-    "type": "Dragonstone",
+    "type": "Dragon",
     "cost": "300",
     "might": "11",
     "effect": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count +1)",

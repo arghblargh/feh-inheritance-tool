@@ -59,7 +59,7 @@ class SkillInfoTable extends Component {
 
   parseSkill(skill) {
     if (/\//.test(skill)) 
-      return /\/([a-z1-9 -]*)/i.exec(skill)[1];
+      return /\/([a-z1-9 -+]*)/i.exec(skill)[1];
     else
       return skill;
   }

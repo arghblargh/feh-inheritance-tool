@@ -88,7 +88,7 @@ export function getUnitsWithSkill(skill, type) {
 
     var reSkill = RegExp(escapeRegExp(skill));
     var unitList = [];
-    console.log(units);
+    
     for (var unit in units) {
         if (reSkill.test(units[unit].skills[type])) {
             unitList.push(unit);
@@ -116,14 +116,29 @@ function buildSkillList(type) {
 }
 
 // Check inheritance restrictions.
-function checkRestrictions(unit, restrictions) {
+function checkRestrictions(unit, restrictions, color = '') {
     var unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
     var rstr = restrictions.split(', ');
     var re;
     
+    if (color) {
+        var colorList = color.split(', ');
+        var containsColor = false;
+        for (var c in colorList) {
+            re = RegExp(colorList[c]);
+            if (re.test(unitData)) {
+                containsColor = true;
+                break;
+            }
+        }
+        if (!containsColor)
+            return false;
+    }
+
     for (var r in rstr) {
         re = RegExp(rstr[r]);
-        if (!re.test(unitData)) return false;
+        if (!re.test(unitData))
+            return false;
     }
     
     return true;
@@ -149,7 +164,7 @@ export function getPossibleSkills(unit) {
 
     for (index in wpnList) {
         sklName = wpnList[index];
-        if (checkRestrictions(unit, weapons[sklName].color + ', ' + weapons[sklName].type + ', ' + weapons[sklName].restriction)) {
+        if (checkRestrictions(unit, weapons[sklName].type + ', ' + weapons[sklName].restriction, weapons[sklName].color)) {
             skills.weapons.push(sklName);
         }
     }
