@@ -166,6 +166,15 @@ function checkRestrictions(unit, restrictions, color = '') {
             if (/Sword|Lance|Axe/.test(unitData))
                 return true;
         }
+        if (/Units/.test(rstr[r])) {
+            var unitRstr = /Units:(.*)\s?/.exec(rstr[r])[1].split(',');
+            var unitTest = false;
+            for (var index in unitRstr) {
+                if (RegExp(unitRstr[index]).test(unitData))
+                    unitTest = true;
+            }
+            return unitTest;
+        }
         if (/Color/.test(rstr[r])) {
             var flags = /Color:(.*)/.exec(rstr[r])[1];
             var colorTest = false;

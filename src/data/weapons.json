@@ -157,7 +157,7 @@
     "cost": "400",
     "might": "9",
     "effect": "Spd-5. Attack twice when initiating combat.",
-    "restriction": "Olwen, Reinhardt"
+    "restriction": "Units:Olwen,Reinhardt"
   },
   "Durandal": {
     "color": "Red",
@@ -189,7 +189,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP",
-    "restriction": "Chrom, Lucina, Marth"
+    "restriction": "Units:Chrom,Lucina,Marth"
   },
   "Fear": {
     "color": "Neutral",
