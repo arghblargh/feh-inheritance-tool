@@ -11,12 +11,30 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Brave Lance+",
-      "assist": "",
-      "special": "Aegis",
-      "passiveA": "HP +5",
-      "passiveB": "Swordbreaker 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Brave Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Aegis",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Swordbreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Alfonse": {
@@ -31,12 +49,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Fólkvangr",
-      "assist": "",
-      "special": "Sol",
-      "passiveA": "Death Blow 3",
-      "passiveB": "",
-      "passiveC": "Spur Atk 3"
+      "weapon": {
+        "name": "Fólkvangr",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Sol",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Death Blow 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Atk 3",
+        "unlock": 5
+      }
     }
   },
   "Anna": {
@@ -51,12 +87,30 @@
       "Res": 28
     },
     "skills": {
-      "weapon": "Nóatún",
-      "assist": "",
-      "special": "Astra",
-      "passiveA": "",
-      "passiveB": "Vantage 3",
-      "passiveC": "Spur Res 3"
+      "weapon": {
+        "name": "Nóatún",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Astra",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Vantage 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Spur Res 3",
+        "unlock": 4
+      }
     }
   },
   "Arthur": {
@@ -71,12 +125,30 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Emerald Axe+",
-      "assist": "Swap",
-      "special": "",
-      "passiveA": "HP +5",
-      "passiveB": "Lancebreaker 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Emerald Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Swap",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Lancebreaker 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Azama": {
@@ -91,12 +163,42 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Assault/Pain",
-      "assist": "Martyr",
-      "special": "Imbue/Solid-Earth Balm",
-      "passiveA": "",
-      "passiveB": "",
-      "passiveC": "Threaten Atk 3"
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Pain",
+          "unlock": 3
+        }
+      ],
+      "assist": {
+        "name": "Martyr",
+        "unlock": 4
+      },
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 1
+        },
+        {
+          "name": "Solid-Earth Balm",
+          "unlock": 3
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Atk 3",
+        "unlock": 5
+      }
     }
   },
   "Azura": {
@@ -111,12 +213,30 @@
       "Res": 28
     },
     "skills": {
-      "weapon": "Sapphire Lance+",
-      "assist": "Sing",
-      "special": "",
-      "passiveA": "Speed +3",
-      "passiveB": "",
-      "passiveC": "Fortify Res 3"
+      "weapon": {
+        "name": "Sapphire Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Sing",
+        "unlock": 5
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Speed +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Fortify Res 3",
+        "unlock": 5
+      }
     }
   },
   "Barst": {
@@ -131,12 +251,30 @@
       "Res": 13
     },
     "skills": {
-      "weapon": "Brave Axe+",
-      "assist": "Reposition",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Knock Back",
-      "passiveC": "Spur Atk 3"
+      "weapon": {
+        "name": "Brave Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Reposition",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Knock Back",
+        "unlock": 3
+      },
+      "passiveC": {
+        "name": "Spur Atk 3",
+        "unlock": 5
+      }
     }
   },
   "Bartre": {
@@ -151,12 +289,30 @@
       "Res": 16
     },
     "skills": {
-      "weapon": "Hammer+",
-      "assist": "Smite",
-      "special": "",
-      "passiveA": "Fury 3",
-      "passiveB": "Brash Assault 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Hammer+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Smite",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Fury 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Brash Assault 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Beruka": {
@@ -171,12 +327,30 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Killer Axe+",
-      "assist": "",
-      "special": "Glimmer",
-      "passiveA": "Defiant Def 3",
-      "passiveB": "Lunge",
-      "passiveC": ""
+      "weapon": {
+        "name": "Killer Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Glimmer",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Def 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Lunge",
+        "unlock": 3
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Caeda": {
@@ -191,12 +365,36 @@
       "Res": 34
     },
     "skills": {
-      "weapon": "Armorslayer+",
-      "assist": "Rally Speed",
-      "special": "",
-      "passiveA": "Darting Blow 3",
-      "passiveB": "",
-      "passiveC": "Fortify Res 2/Fortify Fliers"
+      "weapon": {
+        "name": "Armorslayer+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Speed",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Darting Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Fortify Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fortify Fliers",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Cain": {
@@ -211,12 +409,30 @@
       "Res": 21
     },
     "skills": {
-      "weapon": "Brave Sword+",
-      "assist": "",
-      "special": "Escutcheon",
-      "passiveA": "",
-      "passiveB": "Wings of Mercy 3",
-      "passiveC": "Threaten Atk 3"
+      "weapon": {
+        "name": "Brave Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Escutcheon",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Wings of Mercy 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Threaten Atk 3",
+        "unlock": 5
+      }
     }
   },
   "Camilla": {
@@ -231,12 +447,30 @@
       "Res": 31
     },
     "skills": {
-      "weapon": "Brave Axe+",
-      "assist": "",
-      "special": "Draconic Aura",
-      "passiveA": "Darting Blow 3",
-      "passiveB": "",
-      "passiveC": "Savage Blow 3"
+      "weapon": {
+        "name": "Brave Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Draconic Aura",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Darting Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Savage Blow 3",
+        "unlock": 4
+      }
     }
   },
   "Catria": {
@@ -251,12 +485,30 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Killer Lance+",
-      "assist": "",
-      "special": "Luna",
-      "passiveA": "Armored Blow 3",
-      "passiveB": "Seal Atk 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Killer Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Luna",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Armored Blow 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Seal Atk 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Cecilia": {
@@ -271,12 +523,30 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Gronnraven+",
-      "assist": "Rally Resistance",
-      "special": "",
-      "passiveA": "Attack +3",
-      "passiveB": "Escape Route 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Gronnraven+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Resistance",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Attack +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Escape Route 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Cherche": {
@@ -291,12 +561,30 @@
       "Res": 12
     },
     "skills": {
-      "weapon": "Hammer+",
-      "assist": "Pivot",
-      "special": "",
-      "passiveA": "Attack +3",
-      "passiveB": "",
-      "passiveC": "Fortify Def 3"
+      "weapon": {
+        "name": "Hammer+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Pivot",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Attack +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Fortify Def 3",
+        "unlock": 5
+      }
     }
   },
   "Chrom": {
@@ -311,12 +599,36 @@
       "Res": 17
     },
     "skills": {
-      "weapon": "Falchion",
-      "assist": "",
-      "special": "Aether/Sol",
-      "passiveA": "Defiant Def 3",
-      "passiveB": "",
-      "passiveC": "Spur Def 3"
+      "weapon": {
+        "name": "Falchion",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": [
+        {
+          "name": "Sol",
+          "unlock": 4
+        },
+        {
+          "name": "Aether",
+          "unlock": 5
+        }
+      ],
+      "passiveA": {
+        "name": "Defiant Def 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Def 3",
+        "unlock": 5
+      }
     }
   },
   "Clarine": {
@@ -331,12 +643,42 @@
       "Res": 32
     },
     "skills": {
-      "weapon": "Assault/Fear",
-      "assist": "Martyr",
-      "special": "Imbue/Swift-Winds Balm",
-      "passiveA": "Resistance +3",
-      "passiveB": "",
-      "passiveC": ""
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Fear",
+          "unlock": 3
+        }
+      ],
+      "assist": {
+        "name": "Martyr",
+        "unlock": 4
+      },
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 3
+        },
+        {
+          "name": "Swift-Winds Balm",
+          "unlock": 3
+        }
+      ],
+      "passiveA": {
+        "name": "Resistance +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Cordelia": {
@@ -351,12 +693,36 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Brave Lance+",
-      "assist": "",
-      "special": "Astra/Galeforce",
-      "passiveA": "Triangle Adept 3",
-      "passiveB": "Pass 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Brave Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": [
+        {
+          "name": "Astra",
+          "unlock": 4
+        },
+        {
+          "name": "Galeforce",
+          "unlock": 5
+        }
+      ],
+      "passiveA": {
+        "name": "Triangle Adept 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Pass 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Corrin(F)": {
@@ -371,12 +737,30 @@
       "Res": 21
     },
     "skills": {
-      "weapon": "Dark Breath+",
-      "assist": "",
-      "special": "Draconic Aura",
-      "passiveA": "",
-      "passiveB": "Seal Res 3",
-      "passiveC": "Hone Atk 3"
+      "weapon": {
+        "name": "Dark Breath+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Draconic Aura",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Seal Res 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Hone Atk 3",
+        "unlock": 4
+      }
     }
   },
   "Corrin(M)": {
@@ -391,12 +775,30 @@
       "Res": 24
     },
     "skills": {
-      "weapon": "Yato",
-      "assist": "",
-      "special": "Dragon Fang",
-      "passiveA": "Defense +3",
-      "passiveB": "Obstruct 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Yato",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Dragon Fang",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defense +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Obstruct 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Donnel": {
@@ -411,12 +813,30 @@
       "Res": 23
     },
     "skills": {
-      "weapon": "Brave Lance+",
-      "assist": "Reciprocal Aid",
-      "special": "",
-      "passiveA": "HP +5",
-      "passiveB": "Drag Back",
-      "passiveC": ""
+      "weapon": {
+        "name": "Brave Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Reciprocal Aid",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Drag Back",
+        "unlock": 3
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Draug": {
@@ -431,12 +851,36 @@
       "Res": 18
     },
     "skills": {
-      "weapon": "Brave Sword+",
-      "assist": "",
-      "special": "Pavise",
-      "passiveA": "",
-      "passiveB": "Lunge",
-      "passiveC": "Spur Def 2/Ward Armor"
+      "weapon": {
+        "name": "Brave Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Pavise",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Lunge",
+        "unlock": 3
+      },
+      "passiveC": [
+        {
+          "name": "Spur Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Ward Armor",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Effie": {
@@ -451,12 +895,30 @@
       "Res": 23
     },
     "skills": {
-      "weapon": "Silver Lance+",
-      "assist": "Smite",
-      "special": "",
-      "passiveA": "Death Blow 3",
-      "passiveB": "Wary Fighter 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Silver Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Smite",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Death Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Wary Fighter 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Eirika": {
@@ -471,12 +933,30 @@
       "Res": 28
     },
     "skills": {
-      "weapon": "Sieglinde",
-      "assist": "Pivot",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Drag Back",
-      "passiveC": "Hone Spd 3"
+      "weapon": {
+        "name": "Sieglinde",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Pivot",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Drag Back",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Hone Spd 3",
+        "unlock": 4
+      }
     }
   },
   "Eldigan": {
@@ -491,12 +971,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Mystletainn",
-      "assist": "",
-      "special": "Growing Light",
-      "passiveA": "Fury 3",
-      "passiveB": "Lunge",
-      "passiveC": ""
+      "weapon": {
+        "name": "Mystletainn",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Growing Light",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Fury 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Lunge",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Elise": {
@@ -511,12 +1009,42 @@
       "Res": 32
     },
     "skills": {
-      "weapon": "Assault/Gravity",
-      "assist": "Recover",
-      "special": "Imbue/Kindled-Fire Balm",
-      "passiveA": "",
-      "passiveB": "Live to Serve 3",
-      "passiveC": ""
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Gravity",
+          "unlock": 5
+        }
+      ],
+      "assist": {
+        "name": "Recover",
+        "unlock": 5
+      },
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Kindled-Fire Balm",
+          "unlock": 5
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Live to Serve 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Eliwood": {
@@ -531,12 +1059,36 @@
       "Res": 32
     },
     "skills": {
-      "weapon": "Durandal",
-      "assist": "",
-      "special": "Sacred Cowl",
-      "passiveA": "",
-      "passiveB": "Axebreaker 3",
-      "passiveC": "Spur Res 2/Ward Cavalry"
+      "weapon": {
+        "name": "Durandal",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Sacred Cowl",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Axebreaker 3",
+        "unlock": 5
+      },
+      "passiveC": [
+        {
+          "name": "Spur Res 2",
+          "unlock": 3
+        },
+        {
+          "name": "Ward Cavalry",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Ephraim": {
@@ -551,12 +1103,30 @@
       "Res": 20
     },
     "skills": {
-      "weapon": "Siegmund",
-      "assist": "",
-      "special": "Moonbow",
-      "passiveA": "",
-      "passiveB": "Seal Def 3",
-      "passiveC": "Threaten Def 3"
+      "weapon": {
+        "name": "Siegmund",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Moonbow",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Seal Def 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Threaten Def 3",
+        "unlock": 5
+      }
     }
   },
   "Est": {
@@ -571,12 +1141,30 @@
       "Res": 32
     },
     "skills": {
-      "weapon": "Heavy Spear+",
-      "assist": "Shove",
-      "special": "",
-      "passiveA": "Defiant Res 3",
-      "passiveB": "Seal Spd 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Heavy Spear+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Shove",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Defiant Res 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Seal Spd 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Fae": {
@@ -591,12 +1179,30 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Light Breath+",
-      "assist": "Draw Back",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Renewal 3",
-      "passiveC": "Threaten Atk 3"
+      "weapon": {
+        "name": "Light Breath+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Draw Back",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Renewal 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Threaten Atk 3",
+        "unlock": 5
+      }
     }
   },
   "Felicia": {
@@ -611,12 +1217,30 @@
       "Res": 38
     },
     "skills": {
-      "weapon": "Silver Dagger+",
-      "assist": "",
-      "special": "Glacies",
-      "passiveA": "Resistance +3",
-      "passiveB": "",
-      "passiveC": "Breath of Life 3"
+      "weapon": {
+        "name": "Silver Dagger+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Glacies",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Resistance +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Breath of Life 3",
+        "unlock": 4
+      }
     }
   },
   "Fir": {
@@ -631,12 +1255,30 @@
       "Res": 34
     },
     "skills": {
-      "weapon": "Killing Edge+",
-      "assist": "",
-      "special": "Glacies",
-      "passiveA": "Speed +3",
-      "passiveB": "Pass 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Killing Edge+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Glacies",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Speed +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Pass 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Florina": {
@@ -651,12 +1293,30 @@
       "Res": 34
     },
     "skills": {
-      "weapon": "Heavy Spear+",
-      "assist": "Ardent Sacrifice",
-      "special": "",
-      "passiveA": "Darting Blow 3",
-      "passiveB": "",
-      "passiveC": "Breath of Life 3"
+      "weapon": {
+        "name": "Heavy Spear+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Ardent Sacrifice",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Darting Blow 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Breath of Life 3",
+        "unlock": 5
+      }
     }
   },
   "Frederick": {
@@ -671,12 +1331,30 @@
       "Res": 14
     },
     "skills": {
-      "weapon": "Hammer+",
-      "assist": "",
-      "special": "Luna",
-      "passiveA": "",
-      "passiveB": "Wings of Mercy 3",
-      "passiveC": "Fortify Def 3"
+      "weapon": {
+        "name": "Hammer+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Luna",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Wings of Mercy 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Fortify Def 3",
+        "unlock": 4
+      }
     }
   },
   "Gaius": {
@@ -691,12 +1369,30 @@
       "Res": 19
     },
     "skills": {
-      "weapon": "Rogue Dagger+",
-      "assist": "Rally Speed",
-      "special": "",
-      "passiveA": "Defiant Atk 3",
-      "passiveB": "Pass 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Rogue Dagger+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Speed",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Defiant Atk 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Pass 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Gordin": {
@@ -711,12 +1407,30 @@
       "Res": 17
     },
     "skills": {
-      "weapon": "Brave Bow+",
-      "assist": "Shove",
-      "special": "",
-      "passiveA": "Attack +3",
-      "passiveB": "Vantage 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Brave Bow+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Shove",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Attack +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Vantage 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Gunter": {
@@ -731,12 +1445,36 @@
       "Res": 21
     },
     "skills": {
-      "weapon": "Silver Axe+",
-      "assist": "Harsh Command",
-      "special": "",
-      "passiveA": "Armored Blow 3",
-      "passiveB": "",
-      "passiveC": "Hone Atk 2/Hone Cavalry"
+      "weapon": {
+        "name": "Silver Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Harsh Command",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Armored Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Hone Atk 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Cavalry",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Gwendolyn": {
@@ -751,12 +1489,36 @@
       "Res": 24
     },
     "skills": {
-      "weapon": "Killer Lance+",
-      "assist": "",
-      "special": "Escutcheon",
-      "passiveA": "",
-      "passiveB": "Drag Back",
-      "passiveC": "Hone Atk 2/Hone Armor"
+      "weapon": {
+        "name": "Killer Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Escutcheon",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Drag Back",
+        "unlock": 3
+      },
+      "passiveC": [
+        {
+          "name": "Hone Atk 2",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Armor",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Hana": {
@@ -771,12 +1533,30 @@
       "Res": 21
     },
     "skills": {
-      "weapon": "Armorslayer+",
-      "assist": "Rally Attack",
-      "special": "",
-      "passiveA": "Life and Death 3",
-      "passiveB": "Obstruct 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Armorslayer+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Attack",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Life and Death 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Obstruct 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Hawkeye": {
@@ -791,12 +1571,30 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Killer Axe+",
-      "assist": "",
-      "special": "Growing Light",
-      "passiveA": "Death Blow 3",
-      "passiveB": "",
-      "passiveC": "Threaten Atk 3"
+      "weapon": {
+        "name": "Killer Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Growing Light",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Death Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Atk 3",
+        "unlock": 4
+      }
     }
   },
   "Hector": {
@@ -811,12 +1609,36 @@
       "Res": 19
     },
     "skills": {
-      "weapon": "Armads",
-      "assist": "",
-      "special": "Pavise",
-      "passiveA": "Distant Counter",
-      "passiveB": "",
-      "passiveC": "Spur Atk 2/Goad Armor"
+      "weapon": {
+        "name": "Armads",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Pavise",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Distant Counter",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Spur Atk 2",
+          "unlock": 5
+        },
+        {
+          "name": "Goad Armor",
+          "unlock": 5
+        }
+      ]
     }
   },
   "Henry": {
@@ -831,12 +1653,30 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Rauðrraven+",
-      "assist": "",
-      "special": "Ignis",
-      "passiveA": "Defiant Def 3",
-      "passiveB": "G Tomebreaker 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Rauðrraven+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Ignis",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Def 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "G Tomebreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Hinata": {
@@ -851,12 +1691,30 @@
       "Res": 21
     },
     "skills": {
-      "weapon": "Ruby Sword+",
-      "assist": "",
-      "special": "Pavise",
-      "passiveA": "Fury 3",
-      "passiveB": "Brash Assault 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Ruby Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Pavise",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Fury 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Brash Assault 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Hinoka": {
@@ -871,12 +1729,36 @@
       "Res": 24
     },
     "skills": {
-      "weapon": "Brave Lance+",
-      "assist": "",
-      "special": "Blazing Wind",
-      "passiveA": "Defiant Def 3",
-      "passiveB": "",
-      "passiveC": "Hone Spd 2/Hone Fliers"
+      "weapon": {
+        "name": "Brave Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Blazing Wind",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Defiant Def 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Hone Spd 2",
+          "unlock": 5
+        },
+        {
+          "name": "Hone Fliers",
+          "unlock": 5
+        }
+      ]
     }
   },
   "Jaffar": {
@@ -891,12 +1773,30 @@
       "Res": 17
     },
     "skills": {
-      "weapon": "Deathly Dagger",
-      "assist": "",
-      "special": "Glimmer",
-      "passiveA": "Life and Death 3",
-      "passiveB": "",
-      "passiveC": "Threaten Spd 3"
+      "weapon": {
+        "name": "Deathly Dagger",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Glimmer",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Life and Death 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Spd 3",
+        "unlock": 5
+      }
     }
   },
   "Jagen": {
@@ -911,12 +1811,36 @@
       "Res": 38
     },
     "skills": {
-      "weapon": "Silver Lance+",
-      "assist": "",
-      "special": "Aegis",
-      "passiveA": "Fury 3",
-      "passiveB": "",
-      "passiveC": "Fortify Res 2/Fortify Cavalry"
+      "weapon": {
+        "name": "Silver Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Aegis",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Fury 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Fortify Res 2",
+          "unlock": 3
+        },
+        {
+          "name": "Fortify Cavalry",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Jakob": {
@@ -931,12 +1855,30 @@
       "Res": 24
     },
     "skills": {
-      "weapon": "Silver Dagger+",
-      "assist": "Rally Resistance",
-      "special": "",
-      "passiveA": "Defense +3",
-      "passiveB": "Renewal 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Silver Dagger+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Resistance",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Defense +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Renewal 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Jeorge": {
@@ -951,12 +1893,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Parthia",
-      "assist": "",
-      "special": "Blazing Flame",
-      "passiveA": "",
-      "passiveB": "Seal Atk 3",
-      "passiveC": "Spur Spd 3"
+      "weapon": {
+        "name": "Parthia",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Blazing Flame",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Seal Atk 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Spur Spd 3",
+        "unlock": 4
+      }
     }
   },
   "Julia": {
@@ -971,12 +1931,30 @@
       "Res": 35
     },
     "skills": {
-      "weapon": "Naga",
-      "assist": "",
-      "special": "Dragon Fang",
-      "passiveA": "Resistance +3",
-      "passiveB": "",
-      "passiveC": "Breath of Life 3"
+      "weapon": {
+        "name": "Naga",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Dragon Fang",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Resistance +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Breath of Life 3",
+        "unlock": 5
+      }
     }
   },
   "Kagero": {
@@ -991,12 +1969,30 @@
       "Res": 28
     },
     "skills": {
-      "weapon": "Poison Dagger+",
-      "assist": "",
-      "special": "Reprisal",
-      "passiveA": "Warding Blow 3",
-      "passiveB": "Daggerbreaker 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Poison Dagger+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Reprisal",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Warding Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Daggerbreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Karel": {
@@ -1011,12 +2007,30 @@
       "Res": 20
     },
     "skills": {
-      "weapon": "Wo Dao+",
-      "assist": "",
-      "special": "Reprisal",
-      "passiveA": "Defiant Atk 3",
-      "passiveB": "Desperation 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Wo Dao+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Reprisal",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Defiant Atk 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Desperation 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Klein": {
@@ -1031,12 +2045,30 @@
       "Res": 24
     },
     "skills": {
-      "weapon": "Brave Bow+",
-      "assist": "",
-      "special": "Glacies",
-      "passiveA": "Death Blow 3",
-      "passiveB": "Quick Riposte 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Brave Bow+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Glacies",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Death Blow 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Quick Riposte 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Lachesis": {
@@ -1051,12 +2083,42 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Absorb",
-      "assist": "Physic",
-      "special": "Imbue/Solid-Earth Balm",
-      "passiveA": "",
-      "passiveB": "",
-      "passiveC": "Spur Res 3"
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Absorb",
+          "unlock": 5
+        }
+      ],
+      "assist": {
+        "name": "Physic",
+        "unlock": 5
+      },
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Solid-Earth Balm",
+          "unlock": 5
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Res 3",
+        "unlock": 5
+      }
     }
   },
   "Laslow": {
@@ -1071,12 +2133,30 @@
       "Res": 19
     },
     "skills": {
-      "weapon": "Silver Sword+",
-      "assist": "",
-      "special": "Noontime",
-      "passiveA": "",
-      "passiveB": "Axebreaker 3",
-      "passiveC": "Hone Spd 3"
+      "weapon": {
+        "name": "Silver Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Noontime",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Axebreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Hone Spd 3",
+        "unlock": 5
+      }
     }
   },
   "Leo": {
@@ -1091,12 +2171,30 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Brynhildr",
-      "assist": "",
-      "special": "Blazing Light",
-      "passiveA": "",
-      "passiveB": "Quick Riposte 3",
-      "passiveC": "Savage Blow 3"
+      "weapon": {
+        "name": "Brynhildr",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Blazing Light",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Quick Riposte 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Savage Blow 3",
+        "unlock": 5
+      }
     }
   },
   "Lilina": {
@@ -1111,12 +2209,30 @@
       "Res": 31
     },
     "skills": {
-      "weapon": "Bolganone+",
-      "assist": "",
-      "special": "Growing Flame",
-      "passiveA": "Attack +3",
-      "passiveB": "",
-      "passiveC": "Spur Atk 3"
+      "weapon": {
+        "name": "Bolganone+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Growing Flame",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Attack +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Atk 3",
+        "unlock": 4
+      }
     }
   },
   "Linde": {
@@ -1131,12 +2247,30 @@
       "Res": 27
     },
     "skills": {
-      "weapon": "Aura",
-      "assist": "Ardent Sacrifice",
-      "special": "",
-      "passiveA": "Speed +3",
-      "passiveB": "",
-      "passiveC": "Fortify Res 3"
+      "weapon": {
+        "name": "Aura",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Ardent Sacrifice",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Speed +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Fortify Res 3",
+        "unlock": 4
+      }
     }
   },
   "Lissa": {
@@ -1151,12 +2285,48 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Assault/Gravity",
-      "assist": "Reconcile/Rehabilitate",
-      "special": "Imbue/Kindled-Fire Balm",
-      "passiveA": "",
-      "passiveB": "Renewal 3",
-      "passiveC": ""
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Gravity",
+          "unlock": 3
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reconcile",
+          "unlock": 2
+        },
+        {
+          "name": "Rehabilitate",
+          "unlock": 4
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Kindled-Fire Balm",
+          "unlock": 3
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Renewal 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Lon'qu": {
@@ -1171,12 +2341,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Killing Edge+",
-      "assist": "",
-      "special": "Glimmer",
-      "passiveA": "Speed +3",
-      "passiveB": "Vantage 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Killing Edge+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Glimmer",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Speed +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Vantage 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Lucina": {
@@ -1191,12 +2379,36 @@
       "Res": 19
     },
     "skills": {
-      "weapon": "Falchion",
-      "assist": "",
-      "special": "Aether/Luna",
-      "passiveA": "Defiant Spd 3",
-      "passiveB": "",
-      "passiveC": "Spur Atk 3"
+      "weapon": {
+        "name": "Falchion",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": [
+        {
+          "name": "Luna",
+          "unlock": 5
+        },
+        {
+          "name": "Aether",
+          "unlock": 5
+        }
+      ],
+      "passiveA": {
+        "name": "Defiant Spd 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Atk 3",
+        "unlock": 5
+      }
     }
   },
   "Lucius": {
@@ -1211,12 +2423,42 @@
       "Res": 35
     },
     "skills": {
-      "weapon": "Pain",
-      "assist": "Martyr",
-      "special": "Imbue/Miracle",
-      "passiveA": "HP +5",
-      "passiveB": "",
-      "passiveC": ""
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Pain",
+          "unlock": 5
+        }
+      ],
+      "assist": {
+        "name": "Martyr",
+        "unlock": 5
+      },
+      "special": [
+        {
+        "name": "Imbue",
+        "unlock": 2
+      },
+      {
+        "name": "Miracle",
+        "unlock": 5
+      }
+      ],
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Lyn": {
@@ -1231,12 +2473,36 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Sol Katti",
-      "assist": "",
-      "special": "Astra/Galeforce",
-      "passiveA": "Defiant Atk 3",
-      "passiveB": "",
-      "passiveC": "Spur Spd 3"
+      "weapon": {
+        "name": "Sol Katti",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": [
+        {
+          "name": "Astra",
+          "unlock": 5
+        },
+        {
+          "name": "Galeforce",
+          "unlock": 5
+        }
+      ],
+      "passiveA": {
+        "name": "Defiant Atk 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Spd 3",
+        "unlock": 5
+      }
     }
   },
   "Maria": {
@@ -1251,12 +2517,42 @@
       "Res": 32
     },
     "skills": {
-      "weapon": "Assault/Panic",
-      "assist": "Physic",
-      "special": "Miracle/Imbue",
-      "passiveA": "",
-      "passiveB": "",
-      "passiveC": "Fortify Res 3"
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Panic",
+          "unlock": 4
+        }
+      ],
+      "assist": {
+        "name": "Physic",
+        "unlock": 4
+      },
+      "special": [
+        {
+        "name": "Imbue",
+        "unlock": 2
+      },
+      {
+        "name": "Miracle",
+        "unlock": 4
+      }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Fortify Res 3",
+        "unlock": 5
+      }
     }
   },
   "Marth": {
@@ -1271,12 +2567,30 @@
       "Res": 23
     },
     "skills": {
-      "weapon": "Falchion",
-      "assist": "Pivot",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Escape Route 3",
-      "passiveC": "Spur Spd 3"
+      "weapon": {
+        "name": "Falchion",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Pivot",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Escape Route 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Spur Spd 3",
+        "unlock": 4
+      }
     }
   },
   "Matthew": {
@@ -1291,12 +2605,30 @@
       "Res": 16
     },
     "skills": {
-      "weapon": "Rogue Dagger+",
-      "assist": "Reciprocal Aid",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Poison Strike 3",
-      "passiveC": "Hone Spd 3"
+      "weapon": {
+        "name": "Rogue Dagger+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Reciprocal Aid",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Poison Strike 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Hone Spd 3",
+        "unlock": 4
+      }
     }
   },
   "Merric": {
@@ -1311,12 +2643,30 @@
       "Res": 19
     },
     "skills": {
-      "weapon": "Excalibur",
-      "assist": "",
-      "special": "Growing Wind",
-      "passiveA": "HP +5",
-      "passiveB": "",
-      "passiveC": "Spur Res 3"
+      "weapon": {
+        "name": "Excalibur",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Growing Wind",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Res 3",
+        "unlock": 4
+      }
     }
   },
   "Minerva": {
@@ -1331,12 +2681,36 @@
       "Res": 17
     },
     "skills": {
-      "weapon": "Hauteclere",
-      "assist": "",
-      "special": "Sacred Cowl",
-      "passiveA": "Life and Death 3",
-      "passiveB": "",
-      "passiveC": "Spur Def 2/Ward Fliers"
+      "weapon": {
+        "name": "Hauteclere",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Sacred Cowl",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Life and Death 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Spur Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Ward Fliers",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Narcian": {
@@ -1351,12 +2725,30 @@
       "Res": 26
     },
     "skills": {
-      "weapon": "Emerald Axe+",
-      "assist": "",
-      "special": "Vengeance",
-      "passiveA": "",
-      "passiveB": "Lancebreaker 3",
-      "passiveC": "Savage Blow 3"
+      "weapon": {
+        "name": "Emerald Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Vengeance",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Lancebreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Savage Blow 3",
+        "unlock": 5
+      }
     }
   },
   "Niles": {
@@ -1371,12 +2763,30 @@
       "Res": 34
     },
     "skills": {
-      "weapon": "Killer Bow+",
-      "assist": "",
-      "special": "Iceberg",
-      "passiveA": "Warding Blow 3",
-      "passiveB": "",
-      "passiveC": "Spur Res 3"
+      "weapon": {
+        "name": "Killer Bow+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Iceberg",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Warding Blow 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Res 3",
+        "unlock": 5
+      }
     }
   },
   "Ninian": {
@@ -1391,12 +2801,36 @@
       "Res": 27
     },
     "skills": {
-      "weapon": "Light Breath+",
-      "assist": "Dance",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Escape Route 3",
-      "passiveC": "Fortify Def 2/Fortify Dragons"
+      "weapon": {
+        "name": "Light Breath+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Dance",
+        "unlock": 5
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Escape Route 3",
+        "unlock": 5
+      },
+      "passiveC": [
+        {
+          "name": "Fortify Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Dragons",
+          "unlock": 5
+        }
+      ]
     }
   },
   "Nino": {
@@ -1411,12 +2845,30 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Gronnblade+",
-      "assist": "Draw Back",
-      "special": "",
-      "passiveA": "Resistance +3",
-      "passiveB": "",
-      "passiveC": "Hone Atk 3"
+      "weapon": {
+        "name": "Gronnblade+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Draw Back",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Resistance +3",
+        "unlock": 3
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Hone Atk 3",
+        "unlock": 4
+      }
     }
   },
   "Nowi": {
@@ -1431,12 +2883,30 @@
       "Res": 27
     },
     "skills": {
-      "weapon": "Lightning Breath+",
-      "assist": "Rally Defense",
-      "special": "",
-      "passiveA": "Defense +3",
-      "passiveB": "",
-      "passiveC": "Threaten Res 3"
+      "weapon": {
+        "name": "Lightning Breath+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Defense",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Defense +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Res 3",
+        "unlock": 4
+      }
     }
   },
   "Oboro": {
@@ -1451,12 +2921,30 @@
       "Res": 24
     },
     "skills": {
-      "weapon": "Heavy Spear+",
-      "assist": "Rally Defense",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Seal Def 3",
-      "passiveC": "Threaten Res 3"
+      "weapon": {
+        "name": "Heavy Spear+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Defense",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Seal Def 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Threaten Res 3",
+        "unlock": 5
+      }
     }
   },
   "Odin": {
@@ -1471,12 +2959,30 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Blárblade+",
-      "assist": "",
-      "special": "Moonbow",
-      "passiveA": "Defiant Atk 3",
-      "passiveB": "R Tomebreaker 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Blárblade+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Moonbow",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Atk 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "R Tomebreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Ogma": {
@@ -1491,12 +2997,30 @@
       "Res": 13
     },
     "skills": {
-      "weapon": "Brave Sword+",
-      "assist": "",
-      "special": "Noontime",
-      "passiveA": "Defiant Atk 3",
-      "passiveB": "",
-      "passiveC": "Spur Atk 3"
+      "weapon": {
+        "name": "Brave Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Noontime",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Defiant Atk 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Atk 3",
+        "unlock": 4
+      }
     }
   },
   "Olivia": {
@@ -1511,12 +3035,30 @@
       "Res": 26
     },
     "skills": {
-      "weapon": "Silver Sword+",
-      "assist": "Dance",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Knock Back",
-      "passiveC": "Hone Atk 3"
+      "weapon": {
+        "name": "Silver Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Dance",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Knock Back",
+        "unlock": 3
+      },
+      "passiveC": {
+        "name": "Hone Atk 3",
+        "unlock": 4
+      }
     }
   },
   "Olwen": {
@@ -1531,12 +3073,36 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Dire Thunder",
-      "assist": "Reposition",
-      "special": "",
-      "passiveA": "Warding Blow 3",
-      "passiveB": "",
-      "passiveC": "Spur Res 2/Ward Cavalry"
+      "weapon": {
+        "name": "Dire Thunder",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Reposition",
+        "unlock": 5
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Warding Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Spur Res 2",
+          "unlock": 5
+        },
+        {
+          "name": "Ward Cavalry",
+          "unlock": 5
+        }
+      ]
     }
   },
   "Palla": {
@@ -1551,12 +3117,36 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Ruby Sword+",
-      "assist": "",
-      "special": "Moonbow",
-      "passiveA": "",
-      "passiveB": "Wings of Mercy 3",
-      "passiveC": "Spur Spd 2/Goad Fliers"
+      "weapon": {
+        "name": "Ruby Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Moonbow",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Wings of Mercy 3",
+        "unlock": 5
+      },
+      "passiveC": [
+        {
+          "name": "Spur Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Goad Fliers",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Peri": {
@@ -1571,12 +3161,30 @@
       "Res": 33
     },
     "skills": {
-      "weapon": "Killer Lance+",
-      "assist": "",
-      "special": "Glimmer",
-      "passiveA": "Resistance +3",
-      "passiveB": "",
-      "passiveC": "Threaten Def 3"
+      "weapon": {
+        "name": "Killer Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Glimmer",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Resistance +3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Def 3",
+        "unlock": 4
+      }
     }
   },
   "Priscilla": {
@@ -1591,12 +3199,48 @@
       "Res": 27
     },
     "skills": {
-      "weapon": "Panic",
-      "assist": "Reconcile/Rehabilitate",
-      "special": "Imbue/Still-Water Balm",
-      "passiveA": "",
-      "passiveB": "",
-      "passiveC": "Spur Def 3"
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Panic",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reconcile",
+          "unlock": 5
+        },
+        {
+          "name": "Rehabilitate",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Still-Water Balm",
+          "unlock": 5
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Def 3",
+        "unlock": 5
+      }
     }
   },
   "Raigh": {
@@ -1611,12 +3255,30 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Rauðrwolf+",
-      "assist": "Rally Attack",
-      "special": "",
-      "passiveA": "HP +5",
-      "passiveB": "Seal Res 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Rauðrwolf+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Attack",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Seal Res 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Raven": {
@@ -1631,12 +3293,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Brave Axe+",
-      "assist": "",
-      "special": "Sol",
-      "passiveA": "Defiant Spd 3",
-      "passiveB": "",
-      "passiveC": "Threaten Def 3"
+      "weapon": {
+        "name": "Brave Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Sol",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Spd 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Def 3",
+        "unlock": 5
+      }
     }
   },
   "Rebecca": {
@@ -1651,12 +3331,30 @@
       "Res": 27
     },
     "skills": {
-      "weapon": "Silver Bow+",
-      "assist": "Ardent Sacrifice",
-      "special": "",
-      "passiveA": "Darting Blow 3",
-      "passiveB": "Seal Atk 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Silver Bow+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Ardent Sacrifice",
+        "unlock": 5
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Darting Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Seal Atk 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Reinhardt": {
@@ -1671,12 +3369,36 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Dire Thunder",
-      "assist": "",
-      "special": "Blazing Thunder",
-      "passiveA": "",
-      "passiveB": "Vantage 3",
-      "passiveC": "Spur Atk 2/Goad Cavalry"
+      "weapon": {
+        "name": "Dire Thunder",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Blazing Thunder",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Vantage 3",
+        "unlock": 4
+      },
+      "passiveC": [
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Goad Cavalry",
+          "unlock": 5
+        }
+      ]
     }
   },
   "Robin (F)": {
@@ -1691,12 +3413,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Gronnwolf+",
-      "assist": "",
-      "special": "Ignis",
-      "passiveA": "Defiant Res 3",
-      "passiveB": "B Tomebreaker 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Gronnwolf+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Ignis",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Res 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "B Tomebreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Robin (M)": {
@@ -1711,12 +3451,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Blárraven+",
-      "assist": "",
-      "special": "Bonfire",
-      "passiveA": "Defiant Spd 3",
-      "passiveB": "",
-      "passiveC": "Spur Def 3"
+      "weapon": {
+        "name": "Blárraven+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Bonfire",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Spd 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Def 3",
+        "unlock": 4
+      }
     }
   },
   "Roy": {
@@ -1731,12 +3489,30 @@
       "Res": 28
     },
     "skills": {
-      "weapon": "Binding Blade",
-      "assist": "Shove",
-      "special": "",
-      "passiveA": "Triangle Adept 3",
-      "passiveB": "Seal Def 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Binding Blade",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Shove",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Triangle Adept 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Seal Def 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Ryoma": {
@@ -1751,12 +3527,30 @@
       "Res": 21
     },
     "skills": {
-      "weapon": "Raijinto",
-      "assist": "",
-      "special": "Astra",
-      "passiveA": "Defiant Atk 3",
-      "passiveB": "",
-      "passiveC": "Hone Spd 3"
+      "weapon": {
+        "name": "Raijinto",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Astra",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Defiant Atk 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Hone Spd 3",
+        "unlock": 5
+      }
     }
   },
   "Saizo": {
@@ -1771,12 +3565,30 @@
       "Res": 16
     },
     "skills": {
-      "weapon": "Smoke Dagger+",
-      "assist": "Harsh Command",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Poison Strike 3",
-      "passiveC": "Spur Spd 3"
+      "weapon": {
+        "name": "Smoke Dagger+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Harsh Command",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Poison Strike 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Spur Spd 3",
+        "unlock": 5
+      }
     }
   },
   "Sakura": {
@@ -1791,12 +3603,42 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Assault/Fear",
-      "assist": "Physic",
-      "special": "Imbue/Still-Water Balm",
-      "passiveA": "",
-      "passiveB": "",
-      "passiveC": "Fortify Def 3"
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Fear",
+          "unlock": 4
+        }
+      ],
+      "assist": {
+        "name": "Physic",
+        "unlock": 4
+      },
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 4
+        },
+        {
+          "name": "Still-Water Balm",
+          "unlock": 4
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Fortify Def 3",
+        "unlock": 5
+      }
     }
   },
   "Sanaki": {
@@ -1811,12 +3653,30 @@
       "Res": 34
     },
     "skills": {
-      "weapon": "Cymbeline",
-      "assist": "Harsh Command",
-      "special": "",
-      "passiveA": "Triangle Adept 3",
-      "passiveB": "",
-      "passiveC": "Hone Atk 3"
+      "weapon": {
+        "name": "Cymbeline",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Harsh Command",
+        "unlock": 5
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Triangle Adept 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Hone Atk 3",
+        "unlock": 5
+      }
     }
   },
   "Selena": {
@@ -1831,12 +3691,30 @@
       "Res": 28
     },
     "skills": {
-      "weapon": "Armorslayer+",
-      "assist": "Reposition",
-      "special": "",
-      "passiveA": "Triangle Adept 3",
-      "passiveB": "",
-      "passiveC": "Threaten Spd 3"
+      "weapon": {
+        "name": "Armorslayer+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Reposition",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Triangle Adept 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Spd 3",
+        "unlock": 4
+      }
     }
   },
   "Seliph": {
@@ -1851,12 +3729,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Tyrfing",
-      "assist": "Rally Speed",
-      "special": "",
-      "passiveA": "HP +5",
-      "passiveB": "Brash Assault 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Tyrfing",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Speed",
+        "unlock": 4
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Brash Assault 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Serra": {
@@ -1871,12 +3767,42 @@
       "Res": 33
     },
     "skills": {
-      "weapon": "Assault/Absorb",
-      "assist": "Recover",
-      "special": "Imbue/Swift-Winds Balm",
-      "passiveA": "",
-      "passiveB": "",
-      "passiveC": "Hone Atk 3"
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Absorb",
+          "unlock": 3
+        }
+      ],
+      "assist": {
+        "name": "Recover",
+        "unlock": 4
+      },
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Swift-Winds Balm",
+          "unlock": 3
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Hone Atk 3",
+        "unlock": 4
+      }
     }
   },
   "Setsuna": {
@@ -1891,12 +3817,30 @@
       "Res": 23
     },
     "skills": {
-      "weapon": "Assassin's Bow+",
-      "assist": "Reciprocal Aid",
-      "special": "",
-      "passiveA": "HP +5",
-      "passiveB": "Bowbreaker 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Assassin's Bow+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Reciprocal Aid",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "HP +5",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Bowbreaker 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Shanna": {
@@ -1911,12 +3855,30 @@
       "Res": 32
     },
     "skills": {
-      "weapon": "Killer Lance+",
-      "assist": "",
-      "special": "Iceberg",
-      "passiveA": "",
-      "passiveB": "Desperation 3",
-      "passiveC": "Threaten Spd 3"
+      "weapon": {
+        "name": "Killer Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Iceberg",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Desperation 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "Threaten Spd 3",
+        "unlock": 5
+      }
     }
   },
   "Sharena": {
@@ -1931,12 +3893,30 @@
       "Res": 22
     },
     "skills": {
-      "weapon": "Fensalir",
-      "assist": "Rally Attack",
-      "special": "",
-      "passiveA": "Speed +3",
-      "passiveB": "",
-      "passiveC": "Fortify Def 3"
+      "weapon": {
+        "name": "Fensalir",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Rally Attack",
+        "unlock": 2
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Speed +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Fortify Def 3",
+        "unlock": 5
+      }
     }
   },
   "Sheena": {
@@ -1951,12 +3931,36 @@
       "Res": 33
     },
     "skills": {
-      "weapon": "Killer Axe+",
-      "assist": "",
-      "special": "Escutcheon",
-      "passiveA": "Svalinn Shield",
-      "passiveB": "",
-      "passiveC": "Fortify Def 2/Fortify Armor"
+      "weapon": {
+        "name": "Killer Axe+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Escutcheon",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Svalinn Shield",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": [
+        {
+          "name": "Fortify Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fortify Armor",
+          "unlock": 4
+        }
+      ]
     }
   },
   "Sophia": {
@@ -1971,12 +3975,30 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Fenrir+",
-      "assist": "",
-      "special": "Dragon Fang",
-      "passiveA": "Warding Blow 3",
-      "passiveB": "",
-      "passiveC": "Fortify Res 3"
+      "weapon": {
+        "name": "Fenrir+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Dragon Fang",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Warding Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Fortify Res 3",
+        "unlock": 4
+      }
     }
   },
   "Stahl": {
@@ -1991,12 +4013,30 @@
       "Res": 19
     },
     "skills": {
-      "weapon": "Ruby Sword+",
-      "assist": "Swap",
-      "special": "",
-      "passiveA": "Defense +3",
-      "passiveB": "Obstruct 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Ruby Sword+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Swap",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Defense +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Obstruct 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Subaki": {
@@ -2011,12 +4051,30 @@
       "Res": 25
     },
     "skills": {
-      "weapon": "Sapphire Lance+",
-      "assist": "Swap",
-      "special": "",
-      "passiveA": "Resistance +3",
-      "passiveB": "Quick Riposte 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Sapphire Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Swap",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "Resistance +3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "Quick Riposte 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Sully": {
@@ -2031,12 +4089,30 @@
       "Res": 28
     },
     "skills": {
-      "weapon": "Sapphire Lance+",
-      "assist": "Draw Back",
-      "special": "",
-      "passiveA": "",
-      "passiveB": "Swordbreaker 3",
-      "passiveC": "Spur Def 3"
+      "weapon": {
+        "name": "Sapphire Lance+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "Draw Back",
+        "unlock": 3
+      },
+      "special": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Swordbreaker 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "Spur Def 3",
+        "unlock": 4
+      }
     }
   },
   "Takumi": {
@@ -2051,12 +4127,30 @@
       "Res": 18
     },
     "skills": {
-      "weapon": "Fujin Yumi",
-      "assist": "",
-      "special": "Vengeance",
-      "passiveA": "Close Counter",
-      "passiveB": "",
-      "passiveC": "Threaten Spd 3"
+      "weapon": {
+        "name": "Fujin Yumi",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Vengeance",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Close Counter",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Spd 3",
+        "unlock": 5
+      }
     }
   },
   "Tharja": {
@@ -2071,12 +4165,30 @@
       "Res": 20
     },
     "skills": {
-      "weapon": "Rauðrblade+",
-      "assist": "",
-      "special": "Vengeance",
-      "passiveA": "Darting Blow 3",
-      "passiveB": "",
-      "passiveC": "Spur Res 3"
+      "weapon": {
+        "name": "Rauðrblade+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Vengeance",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Darting Blow 3",
+        "unlock": 4
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Res 3",
+        "unlock": 5
+      }
     }
   },
   "Tiki": {
@@ -2091,12 +4203,30 @@
       "Res": 24
     },
     "skills": {
-      "weapon": "Lightning Breath+",
-      "assist": "",
-      "special": "Bonfire",
-      "passiveA": "Defiant Atk 3",
-      "passiveB": "",
-      "passiveC": "Spur Res 3"
+      "weapon": {
+        "name": "Lightning Breath+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Bonfire",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Atk 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Spur Res 3",
+        "unlock": 5
+      }
     }
   },
   "Tiki (Young)": {
@@ -2111,12 +4241,30 @@
       "Res": 29
     },
     "skills": {
-      "weapon": "Flametongue+",
-      "assist": "",
-      "special": "Growing Flame",
-      "passiveA": "Armored Blow 3",
-      "passiveB": "",
-      "passiveC": "Breath of Life 3"
+      "weapon": {
+        "name": "Flametongue+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Growing Flame",
+        "unlock": 5
+      },
+      "passiveA": {
+        "name": "Armored Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Breath of Life 3",
+        "unlock": 5
+      }
     }
   },
   "Ursula": {
@@ -2131,12 +4279,30 @@
       "Res": 30
     },
     "skills": {
-      "weapon": "Blárwolf+",
-      "assist": "",
-      "special": "Growing Thunder",
-      "passiveA": "Death Blow 3",
-      "passiveB": "",
-      "passiveC": "Threaten Res 3"
+      "weapon": {
+        "name": "Blárwolf+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Growing Thunder",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Death Blow 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveC": {
+        "name": "Threaten Res 3",
+        "unlock": 4
+      }
     }
   },
   "Virion": {
@@ -2151,12 +4317,30 @@
       "Res": 13
     },
     "skills": {
-      "weapon": "Silver Bow+",
-      "assist": "",
-      "special": "Astra",
-      "passiveA": "Defiant Res 3",
-      "passiveB": "Seal Spd 3",
-      "passiveC": ""
+      "weapon": {
+        "name": "Silver Bow+",
+        "unlock": 5
+      },
+      "assist": {
+        "name": "",
+        "unlock": 1
+      },
+      "special": {
+        "name": "Astra",
+        "unlock": 4
+      },
+      "passiveA": {
+        "name": "Defiant Res 3",
+        "unlock": 5
+      },
+      "passiveB": {
+        "name": "Seal Spd 3",
+        "unlock": 4
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   },
   "Wrys": {
@@ -2171,12 +4355,48 @@
       "Res": 33
     },
     "skills": {
-      "weapon": "Assault/Slow",
-      "assist": "Reconcile/Rehabilitate",
-      "special": "Imbue/Heavenly Light",
-      "passiveA": "",
-      "passiveB": "Live to Serve 3",
-      "passiveC": ""
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Slow",
+          "unlock": 3
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reconcile",
+          "unlock": 2
+        },
+        {
+          "name": "Rehabilitate",
+          "unlock": 4
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Heavenly Light",
+          "unlock": 3
+        }
+      ],
+      "passiveA": {
+        "name": "",
+        "unlock": 1
+      },
+      "passiveB": {
+        "name": "Live to Serve 3",
+        "unlock": 5
+      },
+      "passiveC": {
+        "name": "",
+        "unlock": 1
+      }
     }
   }
 }

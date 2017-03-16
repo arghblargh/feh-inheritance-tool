@@ -82,12 +82,23 @@ export const Dropdown = React.createClass({
     }
 });
 
-// Parses skills
-export function parseSkill(skill) {
-    if (/\//.test(skill)) 
-        return /\/([a-z1-9 -+]*)/i.exec(skill)[1];
-    else
-        return skill;
+// Parses skills. Returns an object of { skillType : skillName }
+export function parseSkills(skillData) {
+    var skills = {};
+    skills.weapon = Array.isArray(skillData.weapon) ? skillData.weapon[skillData.weapon.length-1].name 
+                                                    : skillData.weapon.name;
+    skills.assist = Array.isArray(skillData.assist) ? skillData.assist[skillData.assist.length-1].name 
+                                                    : skillData.assist.name;
+    skills.special = Array.isArray(skillData.special) ? skillData.special[skillData.special.length-1].name 
+                                                      : skillData.special.name;
+    skills.passiveA = Array.isArray(skillData.passiveA) ? skillData.passiveA[skillData.passiveA.length-1].name 
+                                                        : skillData.passiveA.name;
+    skills.passiveB = Array.isArray(skillData.passiveB) ? skillData.passiveB[skillData.passiveB.length-1].name 
+                                                        : skillData.passiveB.name;
+    skills.passiveC = Array.isArray(skillData.passiveC) ? skillData.passiveC[skillData.passiveC.length-1].name 
+                                                        : skillData.passiveC.name;
+    
+    return skills;
 }
 
 // Gets a string of all units that can learn a skill
@@ -98,14 +109,15 @@ export function getUnitsWithSkill(skill, type) {
     var unitList = [];
     
     for (var unit in units) {
-        // var skill = units[unit].skills[type];
-        // if (Array.isArray(skill)) {
-        //     for (var s in skill) {
-
-        //     }
-        // }
-        if (reSkill.test(units[unit].skills[type])) {
-            unitList.push(unit);
+        var skillData = units[unit].skills[type];
+        if (Array.isArray(skillData)) {
+            for (var index in skillData) {
+                if (reSkill.test(skillData[index].name)) {
+                    unitList.push(unit + ' (' + skillData[index].unlock + '*)');
+                }
+            }
+        } else if (reSkill.test(skillData.name) && !/Alfonse|Anna|Sharena/.test(unit)) {
+            unitList.push(unit + ' (' + skillData.unlock + '*)');
         }
     }
     return unitList;
@@ -115,14 +127,14 @@ export function getUnitsWithSkill(skill, type) {
 function buildSkillList(type) {
     var skillList = new Set();
     for (var unit in units) {
-        var skill = units[unit].skills[type];
-        if (skill !== '') {
-            if (/\//.test(skill)) {
-                var matches = /([a-z1-9 -]*)\/([a-z1-9 -]*)/i.exec(skill);
-                skillList.add(matches[1]);
-                skillList.add(matches[2]);
-            } else {
-                skillList.add(skill);
+        var skillData = units[unit].skills[type];
+        if (skillData !== '') {
+            if (Array.isArray(skillData)) {
+                for (var index in skillData) {
+                    skillList.add(skillData[index].name);
+                }
+            } else if (skillData.name) {
+                skillList.add(skillData.name);
             }
         }
     }
@@ -150,9 +162,21 @@ function checkRestrictions(unit, restrictions, color = '') {
     }
 
     for (var r in rstr) {
-        if (rstr[r] == "Melee") {
+        if (/Melee/.test(rstr[r])) {
             if (/Sword|Lance|Axe/.test(unitData))
                 return true;
+        }
+        if (/Color/.test(rstr[r])) {
+            var flags = /Color:(.*)/.exec(rstr[r])[1];
+            var colorTest = false;
+            if (/R/.test(flags) && /Red/.test(unitData))
+                colorTest = true;
+            else if (/B/.test(flags) && /Blue/.test(unitData))
+                colorTest = true;
+            else if (/G/.test(flags) && /Green/.test(unitData))
+                colorTest = true;
+                
+            return colorTest;
         }
         re = RegExp(rstr[r]);
         if (!re.test(unitData))

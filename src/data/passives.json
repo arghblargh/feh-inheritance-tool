@@ -223,7 +223,7 @@
     "Svalinn Shield":{
       "cost":"200",
       "effect":"Neutralizes 'effective against' bonuses.",
-      "restriction":""
+      "restriction":"Armored"
     },
     "Triangle Adept 1":{
       "cost":"50",
@@ -260,32 +260,32 @@
     "Axebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against an axe user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RG"
     },
     "Axebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against an axe user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RG"
     },
     "Axebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against an axe user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RG"
     },
     "B Tomebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:BG"
     },
     "B Tomebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:BG"
     },
     "B Tomebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:BG"
     },
     "Bowbreaker 1":{
       "cost":"50",
@@ -350,7 +350,7 @@
     "Drag Back":{
       "cost":"150",
       "effect":"If unit initiates attack, the unit moves 1 space away after combat. Foe moves into unit's previous space.",
-      "restriction":""
+      "restriction":"Melee"
     },
     "Escape Route 1":{
       "cost":"60",
@@ -370,37 +370,37 @@
     "G Tomebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a green tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RG"
     },
     "G Tomebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a green tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RG"
     },
     "G Tomebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RG"
     },
     "Knock Back":{
       "cost":"150",
       "effect":"If unit initiates attack, foe is moved 1 space away after combat.",
-      "restriction":""
+      "restriction":"Melee"
     },
     "Lancebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a lance user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:BG"
     },
     "Lancebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a lance user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:BG"
     },
     "Lancebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a lance user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:BG"
     },
     "Live to Serve 1":{
       "cost":"40",
@@ -485,17 +485,17 @@
     "R Tomebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a red tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RB"
     },
     "R Tomebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a red tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RB"
     },
     "R Tomebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a red tome user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RB"
     },
     "Renewal 1":{
       "cost":"60",
@@ -575,17 +575,17 @@
     "Swordbreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a sword user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RB"
     },
     "Swordbreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a sword user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RB"
     },
     "Swordbreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a sword user, unit makes a followup attack and foe cannot.",
-      "restriction":""
+      "restriction":"Color:RB"
     },
     "Vantage 1":{
       "cost":"50",
@@ -605,17 +605,17 @@
     "Wary Fighter 1":{
       "cost":"60",
       "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 90%.",
-      "restriction":""
+      "restriction":"Armored"
     },
     "Wary Fighter 2":{
       "cost":"120",
       "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 80%.",
-      "restriction":""
+      "restriction":"Armored"
     },
     "Wary Fighter 3":{
       "cost":"240",
       "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 70%.",
-      "restriction":""
+      "restriction":"Armored"
     },
     "Wings of Mercy 1":{
       "cost":"60",

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, moveIcon, weaponIcon, parseSkill, getUnitsWithSkill, getPossibleSkills, calcStats } from './helper.js';
+import { Dropdown, moveIcon, weaponIcon, parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -46,25 +46,24 @@ class SkillInfoTable extends Component {
   }
 
   getInheritList(unitName, skill, type) {
-    if (skill === '') return '';
-
-    var list = getUnitsWithSkill(skill, type);
-
-    if (list == null) console.log('getUnitsWithSkill: Undefined skill type');
-
-    if (list.includes(unitName)) return '';
+    if (!skill) return '';
     
-    return list.join(', ');
+    var list = getUnitsWithSkill(skill, type).join(', ');
+
+    if (RegExp(unitName).test(list))
+      return '';
+    
+    return list;
   }
 
   render() {
     var skills = {};
-    skills.weapon = parseSkill(this.props.skills.weapon);
-    skills.assist = parseSkill(this.props.skills.assist);
-    skills.special = parseSkill(this.props.skills.special);
-    skills.passiveA = parseSkill(this.props.skills.passiveA);
-    skills.passiveB = parseSkill(this.props.skills.passiveB);
-    skills.passiveC = parseSkill(this.props.skills.passiveC);
+    skills.weapon = this.props.skills.weapon;
+    skills.assist = this.props.skills.assist;
+    skills.special = this.props.skills.special;
+    skills.passiveA = this.props.skills.passiveA;
+    skills.passiveB = this.props.skills.passiveB;
+    skills.passiveC = this.props.skills.passiveC;
 
     var skillOptions = getPossibleSkills(this.props.unitName);
     
@@ -196,12 +195,12 @@ class InheritanceTool extends Component {
       unitName: 'Abel',
       stats: units.Abel.stats,
       skills: {
-        weapon: 'Brave Lance+',
-        assist: '',
-        special: 'Aegis',
-        passiveA: 'HP +5',
-        passiveB: 'Swordbreaker 3',
-        passiveC: ''
+        weapon: units.Abel.skills.weapon.name,
+        assist: units.Abel.skills.assist.name,
+        special: units.Abel.skills.special.name,
+        passiveA: units.Abel.skills.passiveA.name,
+        passiveB: units.Abel.skills.passiveB.name,
+        passiveC: units.Abel.skills.passiveC.name
       },
       rawStatsOn: false
     }
@@ -213,14 +212,11 @@ class InheritanceTool extends Component {
   }
 
   handleUnitSelect(unitName) {
-    var newSkills = JSON.parse(JSON.stringify(units[unitName].skills));
-    for (var s in newSkills) {
-      newSkills[s] = parseSkill(newSkills[s]);
-    }
+    var newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
     this.setState({
       unitName: unitName,
-      stats: this.state.rawStatsOn ? calcStats(unitName, JSON.parse(JSON.stringify(units[unitName].skills)), {}) 
-                                 : JSON.parse(JSON.stringify(units[unitName].stats)),
+      stats: this.state.rawStatsOn ? calcStats(unitName, newSkills, {}) 
+                                   : JSON.parse(JSON.stringify(units[unitName].stats)),
       skills: newSkills,
     });
   }
@@ -257,10 +253,7 @@ class InheritanceTool extends Component {
   }
 
   handleResetClick() {
-    var skills = JSON.parse(JSON.stringify(units[this.state.unitName].skills));
-    for (var s in skills) {
-      skills[s] = parseSkill(skills[s]);
-    }
+    var skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
       stats: this.state.rawStatsOn ? this.state.stats : calcStats(this.state.unitName, this.state.skills, skills),
       skills: skills
