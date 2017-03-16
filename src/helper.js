@@ -105,7 +105,7 @@ export function parseSkills(skillData) {
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
 
-    var reSkill = RegExp(escapeRegExp(skill));
+    var reSkill = RegExp(escapeRegExp(skill) + '$');
     var unitList = [];
     
     for (var unit in units) {
