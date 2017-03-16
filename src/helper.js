@@ -98,6 +98,12 @@ export function getUnitsWithSkill(skill, type) {
     var unitList = [];
     
     for (var unit in units) {
+        // var skill = units[unit].skills[type];
+        // if (Array.isArray(skill)) {
+        //     for (var s in skill) {
+
+        //     }
+        // }
         if (reSkill.test(units[unit].skills[type])) {
             unitList.push(unit);
         }
@@ -145,11 +151,11 @@ function checkRestrictions(unit, restrictions, color = '') {
 
     for (var r in rstr) {
         re = RegExp(rstr[r]);
-        if (!re.test(unitData))
-            return false;
+        if (re.test(unitData))
+            return true;
     }
     
-    return true;
+    return false;
 }
 
 // Returns an object containing lists of all inheritable skills for a unit

@@ -13,7 +13,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Unit makes a guaranteed followup attack when attacked at HP > 80%",
-    "restriction": ""
+    "restriction": "Hector"
   },
   "Armorslayer+": {
     "color": "Red",
@@ -45,7 +45,7 @@
     "cost": "400",
     "might": "14",
     "effect": "Restores 5 HP to adjacent allies after any combat this unit initiates.",
-    "restriction": ""
+    "restriction": "Linde"
   },
   "Binding Blade": {
     "color": "Red",
@@ -53,7 +53,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Grants Def/Res+2 when this unit is attacked",
-    "restriction": ""
+    "restriction": "Roy"
   },
   "Blárblade+": {
     "color": "Blue",
@@ -125,7 +125,7 @@
     "cost": "400",
     "might": "14",
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
-    "restriction": ""
+    "restriction": "Leo"
   },
   "Cymbeline": {
     "color": "Red",
@@ -133,7 +133,7 @@
     "cost": "400",
     "might": "14",
     "effect": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.",
-    "restriction": ""
+    "restriction": "Sanaki"
   },
   "Dark Breath+": {
     "color": "Blue",
@@ -149,7 +149,7 @@
     "cost": 300,
     "might": 11,
     "effect": "After combat, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, 7 damage to foe after battle.",
-    "restriction": ""
+    "restriction": "Jaffar"
   },
   "Dire Thunder": {
     "color": "Blue",
@@ -157,7 +157,7 @@
     "cost": "400",
     "might": "9",
     "effect": "Spd-5. Attack twice when initiating combat.",
-    "restriction": ""
+    "restriction": "Olwen, Reinhardt"
   },
   "Durandal": {
     "color": "Red",
@@ -165,7 +165,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Grants Atk+4 during combat if unit initiates attack.",
-    "restriction": ""
+    "restriction": "Eliwood"
   },
   "Emerald Axe+": {
     "color": "Green",
@@ -181,7 +181,7 @@
     "cost": "400",
     "might": "14",
     "effect": "Effective against Flying units",
-    "restriction": ""
+    "restriction": "Merric"
   },
   "Falchion": {
     "color": "Red",
@@ -189,7 +189,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP",
-    "restriction": "X"
+    "restriction": "Chrom, Lucina, Marth"
   },
   "Fear": {
     "color": "Neutral",
@@ -213,7 +213,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.",
-    "restriction": ""
+    "restriction": "Sharena"
   },
   "Flametongue+": {
     "color": "Red",
@@ -229,7 +229,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Grants Atk+5 at start of turn if unit's HP<50%",
-    "restriction": ""
+    "restriction": "Alfonse"
   },
   "Fujin Yumi": {
     "color": "Neutral",
@@ -237,7 +237,7 @@
     "cost": "400",
     "might": "14",
     "effect": "Effective against flying units. Unit can pass through foes if own HP>=50%",
-    "restriction": ""
+    "restriction": "Takumi"
   },
   "Gravity": {
     "color": "Neutral",
@@ -285,7 +285,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Accelerates Special trigger (cooldown count-1)",
-    "restriction": ""
+    "restriction": "Minerva"
   },
   "Heavy Spear+": {
     "color": "Blue",
@@ -349,7 +349,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Accelerates Special trigger (cooldown count-1).",
-    "restriction": ""
+    "restriction": "Eldigan"
   },
   "Naga": {
     "color": "Green",
@@ -357,7 +357,7 @@
     "cost": "400",
     "might": "14",
     "effect": "Grants Def/Res+2 when this unit is attacked.",
-    "restriction": ""
+    "restriction": "Julia"
   },
   "Nóatún": {
     "color": "Green",
@@ -365,7 +365,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Unit may move adjacent to any ally when HP <= 40%",
-    "restriction": ""
+    "restriction": "Anna"
   },
   "Pain": {
     "color": "Neutral",
@@ -389,7 +389,7 @@
     "cost": "400",
     "might": "14",
     "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack.",
-    "restriction": ""
+    "restriction": "Jeorge"
   },
   "Poison Dagger+": {
     "color": "Neutral",
@@ -405,7 +405,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Enables unit to counterattack regardless of distance to attacker.",
-    "restriction": "X"
+    "restriction": "Ryoma"
   },
   "Rauðrblade+": {
     "color": "Red",
@@ -461,7 +461,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
-    "restriction": ""
+    "restriction": "Eirika"
   },
   "Siegmund": {
     "color": "Blue",
@@ -469,7 +469,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
-    "restriction": ""
+    "restriction": "Ephraim"
   },
   "Silver Axe+": {
     "color": "Green",
@@ -533,7 +533,7 @@
     "cost": "400",
     "might": "16",
     "effect": "If wielder initiates attack at HP <=50% any followup occurs immediately.",
-    "restriction": ""
+    "restriction": "Lyn"
   },
   "Tyrfing": {
     "color": "Red",
@@ -541,7 +541,7 @@
     "cost": "400",
     "might": "16",
     "effect": "Grants Def+4 in battle if unit's HP ≤ 50%.",
-    "restriction": ""
+    "restriction": "Seliph"
   },
   "Wo Dao+": {
     "color": "Red",
@@ -557,6 +557,6 @@
     "cost": "400",
     "might": "16",
     "effect": "Grants Spd+4 during combat if unit initiates attack",
-    "restriction": ""
+    "restriction": "Corrin(M)"
   }
 }

@@ -3,37 +3,37 @@
     "cost":"100",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
-    "restriction":""
+    "restriction":"Sword, Lance, Axe"
   },
   "Escutcheon":{
     "cost":"100",
     "count":"2",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
-    "restriction":""
+    "restriction":"Sword, Lance, Axe"
   },
   "Pavise":{
     "cost":"200",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 50%",
-    "restriction":""
+    "restriction":"Sword, Lance, Axe"
   },
   "Holy Vestments":{
     "cost":"100",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
-    "restriction":""
+    "restriction":"Sword, Lance, Axe"
   },
   "Sacred Cowl":{
     "cost":"200",
     "count":"2",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
-    "restriction":""
+    "restriction":"Sword, Lance, Axe"
   },
   "Aegis":{
     "cost":"200",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 50%.",
-    "restriction":""
+    "restriction":"Sword, Lance, Axe"
   },
   "Miracle":{
     "cost":"200",
@@ -111,37 +111,37 @@
     "cost":"50",
     "count":"1",
     "effect":"When healing an ally with a staff, increases recovered HP by 10.",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Heavenly Light":{
     "cost":"150",
     "count":"2",
     "effect":"When healing an ally with a staff, heal every allies HP by 10.",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Solid-Earth Balm":{
     "cost":"150",
     "count":"1",
     "effect":"When healing an ally with a staff, grants all allies Def +4 for 1 turn.",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Kindled-Fire Balm":{
     "cost":"150",
     "count":"1",
     "effect":"When healing an ally with a staff, grants all allies Atk +4 for 1 turn",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Still-Water Balm":{
     "cost":"150",
     "count":"1",
     "effect":"When healing an ally with a staff, grants all allies Res +4 for 1 turn",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Swift-Winds Balm":{
     "cost":"150",
     "count":"1",
     "effect":"When healing an ally with a staff, grants all allies Spd +4 for 1 turn",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Dragon Gaze":{
     "cost":"100",

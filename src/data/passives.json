@@ -33,7 +33,7 @@
     "Close Counter":{
       "cost":"300",
       "effect":"Enables unit to counterattack regardless of distance to attacker.",
-      "restriction":"X"
+      "restriction":""
     },
     "Darting Blow 1":{
       "cost":"50",
@@ -143,7 +143,7 @@
     "Distant Counter":{
       "cost":"300",
       "effect":"Enables unit to counterattack regardless of distance to attacker.",
-      "restriction":"X"
+      "restriction":""
     },
     "Fury 1":{
       "cost":"50",
@@ -223,7 +223,7 @@
     "Svalinn Shield":{
       "cost":"200",
       "effect":"Neutralizes 'effective against' bonuses.",
-      "restriction":"X"
+      "restriction":""
     },
     "Triangle Adept 1":{
       "cost":"50",
@@ -350,7 +350,7 @@
     "Drag Back":{
       "cost":"150",
       "effect":"If unit initiates attack, the unit moves 1 space away after combat. Foe moves into unit's previous space.",
-      "restriction":"X"
+      "restriction":""
     },
     "Escape Route 1":{
       "cost":"60",
@@ -385,7 +385,7 @@
     "Knock Back":{
       "cost":"150",
       "effect":"If unit initiates attack, foe is moved 1 space away after combat.",
-      "restriction":"X"
+      "restriction":""
     },
     "Lancebreaker 1":{
       "cost":"50",
@@ -420,7 +420,7 @@
     "Lunge":{
       "cost":"150",
       "effect":"If unit initiates attack, after combat, unit and targeted foe swap places.",
-      "restriction":"X"
+      "restriction":""
     },
     "Obstruct 1":{
       "cost":"50",

@@ -7,7 +7,7 @@
   "Dance":{
     "cost":"150",
     "effect":"Enables target to take another action. Cannot be used on units with Sing or Dance.",
-    "restriction":""
+    "restriction":"X"
   },
   "Draw Back":{
     "cost":"150",
@@ -22,22 +22,22 @@
   "Heal":{
     "cost":"0",
     "effect":"Restores 5 HP.",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Martyr":{
     "cost":"200",
     "effect":"Restores HP=7+ this unit's suffered damage. Unit Heals HP=half suffered damage. Slows Special trigger (cooldown count +1).",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Mend":{
     "cost":"0",
     "effect":"Restores 10 HP.",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Physic":{
     "cost":"200",
     "effect":"Restores 8 HP. Rng:2.",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Pivot":{
     "cost":"150",
@@ -72,17 +72,17 @@
   "Reconcile":{
     "cost":"100",
     "effect":"Restores 7 HP each to target and this unit.",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Recover":{
     "cost":"200",
     "effect":"Restores 15 HP. Slows Special trigger (cooldown count +1).",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Rehabilitate":{
     "cost":"200",
     "effect":"Restores 7 HP or more the further below 50% the target's HP is. Slows Special trigger (cooldown count +1).",
-    "restriction":""
+    "restriction":"Staff"
   },
   "Reposition":{
     "cost":"150",
@@ -97,7 +97,7 @@
   "Sing":{
     "cost":"150",
     "effect":"Enables target to take another action. Cannot be used on units with Sing or Dance.",
-    "restriction":""
+    "restriction":"X"
   },
   "Smite":{
     "cost":"150",

@@ -180,7 +180,7 @@ class UnitInfo extends Component {
             <td>{this.props.stats.Def}</td>
             <td>{this.props.stats.Res}</td>
             <td>{Object.values(this.props.stats).reduce((a,b) => { return a + b; })}</td>
-            <td><input type="checkbox" onChange={this.handleRawStatsToggle} /></td>
+            <td><input type="checkbox" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} /></td>
           </tr>
         </tbody>
       </table>
@@ -203,7 +203,7 @@ class InheritanceTool extends Component {
         passiveB: 'Swordbreaker 3',
         passiveC: ''
       },
-      rawStats: false
+      rawStatsOn: false
     }
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
@@ -219,9 +219,9 @@ class InheritanceTool extends Component {
     }
     this.setState({
       unitName: unitName,
-      stats: this.state.rawStats ? calcStats(unitName, JSON.parse(JSON.stringify(units[unitName].stats)), {}) 
+      stats: this.state.rawStatsOn ? calcStats(unitName, JSON.parse(JSON.stringify(units[unitName].skills)), {}) 
                                  : JSON.parse(JSON.stringify(units[unitName].stats)),
-      skills: newSkills
+      skills: newSkills,
     });
   }
 
@@ -251,7 +251,7 @@ class InheritanceTool extends Component {
         break;
     }
     this.setState({ 
-      stats: this.state.rawStats ? this.state.stats : calcStats(this.state.unitName, initSkills, newSkills),
+      stats: this.state.rawStatsOn ? this.state.stats : calcStats(this.state.unitName, initSkills, newSkills),
       skills: newSkills 
     });
   }
@@ -262,7 +262,7 @@ class InheritanceTool extends Component {
       skills[s] = parseSkill(skills[s]);
     }
     this.setState({
-      stats: this.state.rawStats ? this.state.stats : calcStats(this.state.unitName, this.state.skills, skills),
+      stats: this.state.rawStatsOn ? this.state.stats : calcStats(this.state.unitName, this.state.skills, skills),
       skills: skills
     })
   }
@@ -270,12 +270,12 @@ class InheritanceTool extends Component {
   handleRawStatsToggle(isOn) {
     if (isOn) {
       this.setState({
-        rawStats: true,
+        rawStatsOn: true,
         stats: calcStats(this.state.unitName, this.state.skills, {})
       });
     } else {
       this.setState({
-        rawStats: false,
+        rawStatsOn: false,
         stats: calcStats(this.state.unitName, {}, this.state.skills)
       });
     }
@@ -287,6 +287,7 @@ class InheritanceTool extends Component {
         <div className="char-info">
           <UnitInfo unitName={this.state.unitName}
                     stats={this.state.stats}
+                    rawStatsOn={this.state.rawStatsOn}
                     onUnitSelect={this.handleUnitSelect}
                     onRawStatsToggle={this.handleRawStatsToggle} />
         </div>
