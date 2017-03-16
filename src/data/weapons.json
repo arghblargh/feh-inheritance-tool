@@ -136,7 +136,7 @@
     "restriction": "Sanaki"
   },
   "Dark Breath+": {
-    "color": "Blue",
+    "color": "",
     "type": "Dragon",
     "cost": "300",
     "might": "13",
@@ -216,7 +216,7 @@
     "restriction": "Sharena"
   },
   "Flametongue+": {
-    "color": "Red",
+    "color": "",
     "type": "Dragon",
     "cost": "300",
     "might": "15",
@@ -328,7 +328,7 @@
     "restriction": ""
   },
   "Light Breath+": {
-    "color": "Green",
+    "color": "",
     "type": "Dragon",
     "cost": "300",
     "might": "13",
@@ -336,7 +336,7 @@
     "restriction": ""
   },
   "Lightning Breath+": {
-    "color": "Red, Blue",
+    "color": "",
     "type": "Dragon",
     "cost": "300",
     "might": "11",

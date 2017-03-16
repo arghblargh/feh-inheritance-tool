@@ -420,7 +420,7 @@
     "Lunge":{
       "cost":"150",
       "effect":"If unit initiates attack, after combat, unit and targeted foe swap places.",
-      "restriction":""
+      "restriction":"Melee"
     },
     "Obstruct 1":{
       "cost":"50",
