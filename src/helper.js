@@ -150,12 +150,16 @@ function checkRestrictions(unit, restrictions, color = '') {
     }
 
     for (var r in rstr) {
+        if (rstr[r] == "Melee") {
+            if (/Sword|Lance|Axe/.test(unitData))
+                return true;
+        }
         re = RegExp(rstr[r]);
-        if (re.test(unitData))
-            return true;
+        if (!re.test(unitData))
+            return false;
     }
     
-    return false;
+    return true;
 }
 
 // Returns an object containing lists of all inheritable skills for a unit

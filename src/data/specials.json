@@ -3,37 +3,37 @@
     "cost":"100",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
-    "restriction":"Sword, Lance, Axe"
+    "restriction":"Melee"
   },
   "Escutcheon":{
     "cost":"100",
     "count":"2",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
-    "restriction":"Sword, Lance, Axe"
+    "restriction":"Melee"
   },
   "Pavise":{
     "cost":"200",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 50%",
-    "restriction":"Sword, Lance, Axe"
+    "restriction":"Melee"
   },
   "Holy Vestments":{
     "cost":"100",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
-    "restriction":"Sword, Lance, Axe"
+    "restriction":"Melee"
   },
   "Sacred Cowl":{
     "cost":"200",
     "count":"2",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
-    "restriction":"Sword, Lance, Axe"
+    "restriction":"Melee"
   },
   "Aegis":{
     "cost":"200",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 50%.",
-    "restriction":"Sword, Lance, Axe"
+    "restriction":"Melee"
   },
   "Miracle":{
     "cost":"200",
