@@ -84,7 +84,7 @@ td.unit-type-sub {
   border-bottom: 1px solid black;
 }
 
-th.unit-HP, th.unit-ATK, th.unit-SPD, th.unit-DEF, th.unit-RES {
+th.unit-stat {
   width: 30px;
 }
 

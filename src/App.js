@@ -131,10 +131,15 @@ class UnitInfo extends Component {
   constructor(props) {
     super(props);
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
+    this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
   }
 
   handleUnitSelect(unitName) {
     this.props.onUnitSelect(unitName);
+  }
+
+  handleRawStatsToggle(e) {
+    this.props.onRawStatsToggle(e.target.checked);
   }
 
   render() {
@@ -150,12 +155,13 @@ class UnitInfo extends Component {
           <tr>
             <th className="unit-name">Name</th>
             <th className="unit-type" colSpan="2">Type</th>
-            <th className="unit-HP">HP</th>
-            <th className="unit-ATK">ATK</th>
-            <th className="unit-SPD">SPD</th>
-            <th className="unit-DEF">DEF</th>
-            <th className="unit-RES">RES</th>
+            <th className="unit-stat">HP</th>
+            <th className="unit-stat">ATK</th>
+            <th className="unit-stat">SPD</th>
+            <th className="unit-stat">DEF</th>
+            <th className="unit-stat">RES</th>
             <th className="unit-BST">Total</th>
+            <th className="unit-toggle">Raw</th>
           </tr>
         </thead>
         <tbody>
@@ -174,6 +180,7 @@ class UnitInfo extends Component {
             <td>{this.props.stats.Def}</td>
             <td>{this.props.stats.Res}</td>
             <td>{Object.values(this.props.stats).reduce((a,b) => { return a + b; })}</td>
+            <td><input type="checkbox" onChange={this.handleRawStatsToggle} /></td>
           </tr>
         </tbody>
       </table>
@@ -195,12 +202,14 @@ class InheritanceTool extends Component {
         passiveA: 'HP +5',
         passiveB: 'Swordbreaker 3',
         passiveC: ''
-      }
+      },
+      rawStats: false
     }
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handleResetClick = this.handleResetClick.bind(this);
+    this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
   }
 
   handleUnitSelect(unitName) {
@@ -210,7 +219,8 @@ class InheritanceTool extends Component {
     }
     this.setState({
       unitName: unitName,
-      stats: JSON.parse(JSON.stringify(units[unitName].stats)),
+      stats: this.state.rawStats ? calcStats(unitName, JSON.parse(JSON.stringify(units[unitName].stats)), {}) 
+                                 : JSON.parse(JSON.stringify(units[unitName].stats)),
       skills: newSkills
     });
   }
@@ -241,7 +251,7 @@ class InheritanceTool extends Component {
         break;
     }
     this.setState({ 
-      stats: calcStats(this.state.unitName, initSkills, newSkills),
+      stats: this.state.rawStats ? this.state.stats : calcStats(this.state.unitName, initSkills, newSkills),
       skills: newSkills 
     });
   }
@@ -252,9 +262,23 @@ class InheritanceTool extends Component {
       skills[s] = parseSkill(skills[s]);
     }
     this.setState({
-      stats: calcStats(this.state.unitName, this.state.skills, skills),
+      stats: this.state.rawStats ? this.state.stats : calcStats(this.state.unitName, this.state.skills, skills),
       skills: skills
     })
+  }
+
+  handleRawStatsToggle(isOn) {
+    if (isOn) {
+      this.setState({
+        rawStats: true,
+        stats: calcStats(this.state.unitName, this.state.skills, {})
+      });
+    } else {
+      this.setState({
+        rawStats: false,
+        stats: calcStats(this.state.unitName, {}, this.state.skills)
+      });
+    }
   }
 
   render() {
@@ -263,7 +287,8 @@ class InheritanceTool extends Component {
         <div className="char-info">
           <UnitInfo unitName={this.state.unitName}
                     stats={this.state.stats}
-                    onUnitSelect={this.handleUnitSelect} />
+                    onUnitSelect={this.handleUnitSelect}
+                    onRawStatsToggle={this.handleRawStatsToggle} />
         </div>
         <div className="skill-info">
           <SkillInfoTable unitName={this.state.unitName}
