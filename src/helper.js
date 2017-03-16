@@ -98,14 +98,15 @@ export function getUnitsWithSkill(skill, type) {
     var unitList = [];
     
     for (var unit in units) {
-        // var skill = units[unit].skills[type];
-        // if (Array.isArray(skill)) {
-        //     for (var s in skill) {
-
-        //     }
-        // }
-        if (reSkill.test(units[unit].skills[type]) && !/Alfonse|Anna|Sharena/.test(unit)) {
-            unitList.push(unit);
+        var skillData = units[unit].skills[type];
+        if (Array.isArray(skillData)) {
+            for (var index in skillData) {
+                if (reSkill.test(skillData[index].name)) {
+                    unitList.push(unit + ' (' + skillData[index].unlock + '*)');
+                }
+            }
+        } else if (reSkill.test(skillData.name) && !/Alfonse|Anna|Sharena/.test(unit)) {
+            unitList.push(unit + ' (' + skillData.unlock + '*)');
         }
     }
     return unitList;
@@ -115,14 +116,14 @@ export function getUnitsWithSkill(skill, type) {
 function buildSkillList(type) {
     var skillList = new Set();
     for (var unit in units) {
-        var skill = units[unit].skills[type];
-        if (skill !== '') {
-            if (/\//.test(skill)) {
-                var matches = /([a-z1-9 -]*)\/([a-z1-9 -]*)/i.exec(skill);
-                skillList.add(matches[1]);
-                skillList.add(matches[2]);
-            } else {
-                skillList.add(skill);
+        var skillData = units[unit].skills[type];
+        if (skillData !== '') {
+            if (Array.isArray(skillData)) {
+                for (var index in skillData) {
+                    skillList.add(skillData[index].name);
+                }
+            } else if (skillData.name) {
+                skillList.add(skillData.name);
             }
         }
     }
@@ -150,7 +151,7 @@ function checkRestrictions(unit, restrictions, color = '') {
     }
 
     for (var r in rstr) {
-        if (rstr[r] == "Melee") {
+        if (rstr[r] === "Melee") {
             if (/Sword|Lance|Axe/.test(unitData))
                 return true;
         }

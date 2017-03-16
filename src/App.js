@@ -48,13 +48,12 @@ class SkillInfoTable extends Component {
   getInheritList(unitName, skill, type) {
     if (skill === '') return '';
 
-    var list = getUnitsWithSkill(skill, type);
+    var list = getUnitsWithSkill(skill, type).join(', ');
 
-    if (list == null) console.log('getUnitsWithSkill: Undefined skill type');
-
-    if (list.includes(unitName)) return '';
+    if (RegExp(unitName).test(list))
+      return '';
     
-    return list.join(', ');
+    return list;
   }
 
   render() {

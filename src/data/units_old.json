@@ -1,0 +1,2182 @@
+{
+  "Abel": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 44,
+      "Atk": 41,
+      "Spd": 27,
+      "Def": 25,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Brave Lance+",
+      "assist": "",
+      "special": "Aegis",
+      "passiveA": "HP +5",
+      "passiveB": "Swordbreaker 3",
+      "passiveC": ""
+    }
+  },
+  "Alfonse": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 51,
+      "Spd": 25,
+      "Def": 32,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Fólkvangr",
+      "assist": "",
+      "special": "Sol",
+      "passiveA": "Death Blow 3",
+      "passiveB": "",
+      "passiveC": "Spur Atk 3"
+    }
+  },
+  "Anna": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 45,
+      "Spd": 38,
+      "Def": 22,
+      "Res": 28
+    },
+    "skills": {
+      "weapon": "Nóatún",
+      "assist": "",
+      "special": "Astra",
+      "passiveA": "",
+      "passiveB": "Vantage 3",
+      "passiveC": "Spur Res 3"
+    }
+  },
+  "Arthur": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 48,
+      "Atk": 44,
+      "Spd": 29,
+      "Def": 30,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Emerald Axe+",
+      "assist": "Swap",
+      "special": "",
+      "passiveA": "HP +5",
+      "passiveB": "Lancebreaker 3",
+      "passiveC": ""
+    }
+  },
+  "Azama": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 31,
+      "Spd": 26,
+      "Def": 29,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Assault/Pain",
+      "assist": "Martyr",
+      "special": "Imbue/Solid-Earth Balm",
+      "passiveA": "",
+      "passiveB": "",
+      "passiveC": "Threaten Atk 3"
+    }
+  },
+  "Azura": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 36,
+      "Atk": 43,
+      "Spd": 36,
+      "Def": 21,
+      "Res": 28
+    },
+    "skills": {
+      "weapon": "Sapphire Lance+",
+      "assist": "Sing",
+      "special": "",
+      "passiveA": "Speed +3",
+      "passiveB": "",
+      "passiveC": "Fortify Res 3"
+    }
+  },
+  "Barst": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 46,
+      "Atk": 38,
+      "Spd": 27,
+      "Def": 30,
+      "Res": 13
+    },
+    "skills": {
+      "weapon": "Brave Axe+",
+      "assist": "Reposition",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Knock Back",
+      "passiveC": "Spur Atk 3"
+    }
+  },
+  "Bartre": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 49,
+      "Atk": 51,
+      "Spd": 28,
+      "Def": 36,
+      "Res": 16
+    },
+    "skills": {
+      "weapon": "Hammer+",
+      "assist": "Smite",
+      "special": "",
+      "passiveA": "Fury 3",
+      "passiveB": "Brash Assault 3",
+      "passiveC": ""
+    }
+  },
+  "Beruka": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "stats": {
+      "HP": 43,
+      "Atk": 40,
+      "Spd": 23,
+      "Def": 37,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Killer Axe+",
+      "assist": "",
+      "special": "Glimmer",
+      "passiveA": "Defiant Def 3",
+      "passiveB": "Lunge",
+      "passiveC": ""
+    }
+  },
+  "Caeda": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "stats": {
+      "HP": 36,
+      "Atk": 37,
+      "Spd": 37,
+      "Def": 24,
+      "Res": 34
+    },
+    "skills": {
+      "weapon": "Armorslayer+",
+      "assist": "Rally Speed",
+      "special": "",
+      "passiveA": "Darting Blow 3",
+      "passiveB": "",
+      "passiveC": "Fortify Res 2/Fortify Fliers"
+    }
+  },
+  "Cain": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 42,
+      "Atk": 40,
+      "Spd": 27,
+      "Def": 27,
+      "Res": 21
+    },
+    "skills": {
+      "weapon": "Brave Sword+",
+      "assist": "",
+      "special": "Escutcheon",
+      "passiveA": "",
+      "passiveB": "Wings of Mercy 3",
+      "passiveC": "Threaten Atk 3"
+    }
+  },
+  "Camilla": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "stats": {
+      "HP": 37,
+      "Atk": 38,
+      "Spd": 27,
+      "Def": 28,
+      "Res": 31
+    },
+    "skills": {
+      "weapon": "Brave Axe+",
+      "assist": "",
+      "special": "Draconic Aura",
+      "passiveA": "Darting Blow 3",
+      "passiveB": "",
+      "passiveC": "Savage Blow 3"
+    }
+  },
+  "Catria": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 39,
+      "Atk": 42,
+      "Spd": 34,
+      "Def": 29,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Killer Lance+",
+      "assist": "",
+      "special": "Luna",
+      "passiveA": "Armored Blow 3",
+      "passiveB": "Seal Atk 3",
+      "passiveC": ""
+    }
+  },
+  "Cecilia": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 36,
+      "Atk": 46,
+      "Spd": 22,
+      "Def": 22,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Gronnraven+",
+      "assist": "Rally Resistance",
+      "special": "",
+      "passiveA": "Attack +3",
+      "passiveB": "Escape Route 3",
+      "passiveC": ""
+    }
+  },
+  "Cherche": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "stats": {
+      "HP": 46,
+      "Atk": 56,
+      "Spd": 25,
+      "Def": 32,
+      "Res": 12
+    },
+    "skills": {
+      "weapon": "Hammer+",
+      "assist": "Pivot",
+      "special": "",
+      "passiveA": "Attack +3",
+      "passiveB": "",
+      "passiveC": "Fortify Def 3"
+    }
+  },
+  "Chrom": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 47,
+      "Atk": 53,
+      "Spd": 25,
+      "Def": 31,
+      "Res": 17
+    },
+    "skills": {
+      "weapon": "Falchion",
+      "assist": "",
+      "special": "Aether/Sol",
+      "passiveA": "Defiant Def 3",
+      "passiveB": "",
+      "passiveC": "Spur Def 3"
+    }
+  },
+  "Clarine": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 35,
+      "Atk": 37,
+      "Spd": 33,
+      "Def": 25,
+      "Res": 32
+    },
+    "skills": {
+      "weapon": "Assault/Fear",
+      "assist": "Martyr",
+      "special": "Imbue/Swift-Winds Balm",
+      "passiveA": "Resistance +3",
+      "passiveB": "",
+      "passiveC": ""
+    }
+  },
+  "Cordelia": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 40,
+      "Atk": 43,
+      "Spd": 30,
+      "Def": 22,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Brave Lance+",
+      "assist": "",
+      "special": "Astra/Galeforce",
+      "passiveA": "Triangle Adept 3",
+      "passiveB": "Pass 3",
+      "passiveC": ""
+    }
+  },
+  "Corrin(F)": {
+    "color": "Blue",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 40,
+      "Spd": 34,
+      "Def": 34,
+      "Res": 21
+    },
+    "skills": {
+      "weapon": "Dark Breath+",
+      "assist": "",
+      "special": "Draconic Aura",
+      "passiveA": "",
+      "passiveB": "Seal Res 3",
+      "passiveC": "Hone Atk 3"
+    }
+  },
+  "Corrin(M)": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 42,
+      "Atk": 48,
+      "Spd": 32,
+      "Def": 31,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": "Yato",
+      "assist": "",
+      "special": "Dragon Fang",
+      "passiveA": "Defense +3",
+      "passiveB": "Obstruct 3",
+      "passiveC": ""
+    }
+  },
+  "Donnel": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 48,
+      "Atk": 46,
+      "Spd": 24,
+      "Def": 32,
+      "Res": 23
+    },
+    "skills": {
+      "weapon": "Brave Lance+",
+      "assist": "Reciprocal Aid",
+      "special": "",
+      "passiveA": "HP +5",
+      "passiveB": "Drag Back",
+      "passiveC": ""
+    }
+  },
+  "Draug": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "stats": {
+      "HP": 50,
+      "Atk": 41,
+      "Spd": 24,
+      "Def": 39,
+      "Res": 18
+    },
+    "skills": {
+      "weapon": "Brave Sword+",
+      "assist": "",
+      "special": "Pavise",
+      "passiveA": "",
+      "passiveB": "Lunge",
+      "passiveC": "Spur Def 2/Ward Armor"
+    }
+  },
+  "Effie": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "stats": {
+      "HP": 50,
+      "Atk": 55,
+      "Spd": 22,
+      "Def": 33,
+      "Res": 23
+    },
+    "skills": {
+      "weapon": "Silver Lance+",
+      "assist": "Smite",
+      "special": "",
+      "passiveA": "Death Blow 3",
+      "passiveB": "Wary Fighter 3",
+      "passiveC": ""
+    }
+  },
+  "Eirika": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 42,
+      "Atk": 42,
+      "Spd": 35,
+      "Def": 26,
+      "Res": 28
+    },
+    "skills": {
+      "weapon": "Sieglinde",
+      "assist": "Pivot",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Drag Back",
+      "passiveC": "Hone Spd 3"
+    }
+  },
+  "Eldigan": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 45,
+      "Atk": 51,
+      "Spd": 27,
+      "Def": 37,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Mystletainn",
+      "assist": "",
+      "special": "Growing Light",
+      "passiveA": "Fury 3",
+      "passiveB": "Lunge",
+      "passiveC": ""
+    }
+  },
+  "Elise": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 30,
+      "Atk": 38,
+      "Spd": 32,
+      "Def": 19,
+      "Res": 32
+    },
+    "skills": {
+      "weapon": "Assault/Gravity",
+      "assist": "Recover",
+      "special": "Imbue/Kindled-Fire Balm",
+      "passiveA": "",
+      "passiveB": "Live to Serve 3",
+      "passiveC": ""
+    }
+  },
+  "Eliwood": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 39,
+      "Atk": 47,
+      "Spd": 30,
+      "Def": 23,
+      "Res": 32
+    },
+    "skills": {
+      "weapon": "Durandal",
+      "assist": "",
+      "special": "Sacred Cowl",
+      "passiveA": "",
+      "passiveB": "Axebreaker 3",
+      "passiveC": "Spur Res 2/Ward Cavalry"
+    }
+  },
+  "Ephraim": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 45,
+      "Atk": 51,
+      "Spd": 25,
+      "Def": 32,
+      "Res": 20
+    },
+    "skills": {
+      "weapon": "Siegmund",
+      "assist": "",
+      "special": "Moonbow",
+      "passiveA": "",
+      "passiveB": "Seal Def 3",
+      "passiveC": "Threaten Def 3"
+    }
+  },
+  "Est": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 36,
+      "Atk": 47,
+      "Spd": 30,
+      "Def": 24,
+      "Res": 32
+    },
+    "skills": {
+      "weapon": "Heavy Spear+",
+      "assist": "Shove",
+      "special": "",
+      "passiveA": "Defiant Res 3",
+      "passiveB": "Seal Spd 3",
+      "passiveC": ""
+    }
+  },
+  "Fae": {
+    "color": "Green",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 46,
+      "Atk": 46,
+      "Spd": 28,
+      "Def": 25,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Light Breath+",
+      "assist": "Draw Back",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Renewal 3",
+      "passiveC": "Threaten Atk 3"
+    }
+  },
+  "Felicia": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 34,
+      "Atk": 33,
+      "Spd": 37,
+      "Def": 18,
+      "Res": 38
+    },
+    "skills": {
+      "weapon": "Silver Dagger+",
+      "assist": "",
+      "special": "Glacies",
+      "passiveA": "Resistance +3",
+      "passiveB": "",
+      "passiveC": "Breath of Life 3"
+    }
+  },
+  "Fir": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 33,
+      "Spd": 39,
+      "Def": 24,
+      "Res": 34
+    },
+    "skills": {
+      "weapon": "Killing Edge+",
+      "assist": "",
+      "special": "Glacies",
+      "passiveA": "Speed +3",
+      "passiveB": "Pass 3",
+      "passiveC": ""
+    }
+  },
+  "Florina": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 42,
+      "Atk": 41,
+      "Spd": 28,
+      "Def": 25,
+      "Res": 34
+    },
+    "skills": {
+      "weapon": "Heavy Spear+",
+      "assist": "Ardent Sacrifice",
+      "special": "",
+      "passiveA": "Darting Blow 3",
+      "passiveB": "",
+      "passiveC": "Breath of Life 3"
+    }
+  },
+  "Frederick": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 43,
+      "Atk": 47,
+      "Spd": 25,
+      "Def": 36,
+      "Res": 14
+    },
+    "skills": {
+      "weapon": "Hammer+",
+      "assist": "",
+      "special": "Luna",
+      "passiveA": "",
+      "passiveB": "Wings of Mercy 3",
+      "passiveC": "Fortify Def 3"
+    }
+  },
+  "Gaius": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 39,
+      "Spd": 36,
+      "Def": 22,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": "Rogue Dagger+",
+      "assist": "Rally Speed",
+      "special": "",
+      "passiveA": "Defiant Atk 3",
+      "passiveB": "Pass 3",
+      "passiveC": ""
+    }
+  },
+  "Gordin": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 41,
+      "Spd": 20,
+      "Def": 32,
+      "Res": 17
+    },
+    "skills": {
+      "weapon": "Brave Bow+",
+      "assist": "Shove",
+      "special": "",
+      "passiveA": "Attack +3",
+      "passiveB": "Vantage 3",
+      "passiveC": ""
+    }
+  },
+  "Gunter": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 43,
+      "Atk": 43,
+      "Spd": 24,
+      "Def": 33,
+      "Res": 21
+    },
+    "skills": {
+      "weapon": "Silver Axe+",
+      "assist": "Harsh Command",
+      "special": "",
+      "passiveA": "Armored Blow 3",
+      "passiveB": "",
+      "passiveC": "Hone Atk 2/Hone Cavalry"
+    }
+  },
+  "Gwendolyn": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "stats": {
+      "HP": 49,
+      "Atk": 41,
+      "Spd": 24,
+      "Def": 41,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": "Killer Lance+",
+      "assist": "",
+      "special": "Escutcheon",
+      "passiveA": "",
+      "passiveB": "Drag Back",
+      "passiveC": "Hone Atk 2/Hone Armor"
+    }
+  },
+  "Hana": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 52,
+      "Spd": 41,
+      "Def": 18,
+      "Res": 21
+    },
+    "skills": {
+      "weapon": "Armorslayer+",
+      "assist": "Rally Attack",
+      "special": "",
+      "passiveA": "Life and Death 3",
+      "passiveB": "Obstruct 3",
+      "passiveC": ""
+    }
+  },
+  "Hawkeye": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 45,
+      "Atk": 44,
+      "Spd": 22,
+      "Def": 28,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Killer Axe+",
+      "assist": "",
+      "special": "Growing Light",
+      "passiveA": "Death Blow 3",
+      "passiveB": "",
+      "passiveC": "Threaten Atk 3"
+    }
+  },
+  "Hector": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "stats": {
+      "HP": 52,
+      "Atk": 52,
+      "Spd": 24,
+      "Def": 37,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": "Armads",
+      "assist": "",
+      "special": "Pavise",
+      "passiveA": "Distant Counter",
+      "passiveB": "",
+      "passiveC": "Spur Atk 2/Goad Armor"
+    }
+  },
+  "Henry": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 42,
+      "Atk": 34,
+      "Spd": 22,
+      "Def": 32,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Rauðrraven+",
+      "assist": "",
+      "special": "Ignis",
+      "passiveA": "Defiant Def 3",
+      "passiveB": "G Tomebreaker 3",
+      "passiveC": ""
+    }
+  },
+  "Hinata": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 47,
+      "Atk": 44,
+      "Spd": 27,
+      "Def": 42,
+      "Res": 21
+    },
+    "skills": {
+      "weapon": "Ruby Sword+",
+      "assist": "",
+      "special": "Pavise",
+      "passiveA": "Fury 3",
+      "passiveB": "Brash Assault 3",
+      "passiveC": ""
+    }
+  },
+  "Hinoka": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 41,
+      "Atk": 43,
+      "Spd": 27,
+      "Def": 25,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": "Brave Lance+",
+      "assist": "",
+      "special": "Blazing Wind",
+      "passiveA": "Defiant Def 3",
+      "passiveB": "",
+      "passiveC": "Hone Spd 2/Hone Fliers"
+    }
+  },
+  "Jaffar": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 38,
+      "Atk": 42,
+      "Spd": 41,
+      "Def": 20,
+      "Res": 17
+    },
+    "skills": {
+      "weapon": "Deathly Dagger",
+      "assist": "",
+      "special": "Glimmer",
+      "passiveA": "Life and Death 3",
+      "passiveB": "",
+      "passiveC": "Threaten Spd 3"
+    }
+  },
+  "Jagen": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 36,
+      "Atk": 45,
+      "Spd": 27,
+      "Def": 29,
+      "Res": 38
+    },
+    "skills": {
+      "weapon": "Silver Lance+",
+      "assist": "",
+      "special": "Aegis",
+      "passiveA": "Fury 3",
+      "passiveB": "",
+      "passiveC": "Fortify Res 2/Fortify Cavalry"
+    }
+  },
+  "Jakob": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 39,
+      "Spd": 31,
+      "Def": 28,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": "Silver Dagger+",
+      "assist": "Rally Resistance",
+      "special": "",
+      "passiveA": "Defense +3",
+      "passiveB": "Renewal 3",
+      "passiveC": ""
+    }
+  },
+  "Jeorge": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 46,
+      "Spd": 32,
+      "Def": 24,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Parthia",
+      "assist": "",
+      "special": "Blazing Flame",
+      "passiveA": "",
+      "passiveB": "Seal Atk 3",
+      "passiveC": "Spur Spd 3"
+    }
+  },
+  "Julia": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 38,
+      "Atk": 49,
+      "Spd": 26,
+      "Def": 17,
+      "Res": 35
+    },
+    "skills": {
+      "weapon": "Naga",
+      "assist": "",
+      "special": "Dragon Fang",
+      "passiveA": "Resistance +3",
+      "passiveB": "",
+      "passiveC": "Breath of Life 3"
+    }
+  },
+  "Kagero": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 31,
+      "Atk": 40,
+      "Spd": 32,
+      "Def": 22,
+      "Res": 28
+    },
+    "skills": {
+      "weapon": "Poison Dagger+",
+      "assist": "",
+      "special": "Reprisal",
+      "passiveA": "Warding Blow 3",
+      "passiveB": "Daggerbreaker 3",
+      "passiveC": ""
+    }
+  },
+  "Karel": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 47,
+      "Atk": 43,
+      "Spd": 35,
+      "Def": 25,
+      "Res": 20
+    },
+    "skills": {
+      "weapon": "Wo Dao+",
+      "assist": "",
+      "special": "Reprisal",
+      "passiveA": "Defiant Atk 3",
+      "passiveB": "Desperation 3",
+      "passiveC": ""
+    }
+  },
+  "Klein": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 40,
+      "Atk": 38,
+      "Spd": 28,
+      "Def": 20,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": "Brave Bow+",
+      "assist": "",
+      "special": "Glacies",
+      "passiveA": "Death Blow 3",
+      "passiveB": "Quick Riposte 3",
+      "passiveC": ""
+    }
+  },
+  "Lachesis": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 42,
+      "Spd": 25,
+      "Def": 22,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Absorb",
+      "assist": "Physic",
+      "special": "Imbue/Solid-Earth Balm",
+      "passiveA": "",
+      "passiveB": "",
+      "passiveC": "Spur Res 3"
+    }
+  },
+  "Laslow": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 44,
+      "Atk": 50,
+      "Spd": 26,
+      "Def": 33,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": "Silver Sword+",
+      "assist": "",
+      "special": "Noontime",
+      "passiveA": "",
+      "passiveB": "Axebreaker 3",
+      "passiveC": "Hone Spd 3"
+    }
+  },
+  "Leo": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 39,
+      "Atk": 43,
+      "Spd": 22,
+      "Def": 25,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Brynhildr",
+      "assist": "",
+      "special": "Blazing Light",
+      "passiveA": "",
+      "passiveB": "Quick Riposte 3",
+      "passiveC": "Savage Blow 3"
+    }
+  },
+  "Lilina": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 35,
+      "Atk": 53,
+      "Spd": 25,
+      "Def": 19,
+      "Res": 31
+    },
+    "skills": {
+      "weapon": "Bolganone+",
+      "assist": "",
+      "special": "Growing Flame",
+      "passiveA": "Attack +3",
+      "passiveB": "",
+      "passiveC": "Spur Atk 3"
+    }
+  },
+  "Linde": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 35,
+      "Atk": 49,
+      "Spd": 39,
+      "Def": 14,
+      "Res": 27
+    },
+    "skills": {
+      "weapon": "Aura",
+      "assist": "Ardent Sacrifice",
+      "special": "",
+      "passiveA": "Speed +3",
+      "passiveB": "",
+      "passiveC": "Fortify Res 3"
+    }
+  },
+  "Lissa": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 36,
+      "Spd": 25,
+      "Def": 28,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Assault/Gravity",
+      "assist": "Reconcile/Rehabilitate",
+      "special": "Imbue/Kindled-Fire Balm",
+      "passiveA": "",
+      "passiveB": "Renewal 3",
+      "passiveC": ""
+    }
+  },
+  "Lon'qu": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 45,
+      "Atk": 40,
+      "Spd": 42,
+      "Def": 22,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Killing Edge+",
+      "assist": "",
+      "special": "Glimmer",
+      "passiveA": "Speed +3",
+      "passiveB": "Vantage 3",
+      "passiveC": ""
+    }
+  },
+  "Lucina": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 50,
+      "Spd": 36,
+      "Def": 25,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": "Falchion",
+      "assist": "",
+      "special": "Aether/Luna",
+      "passiveA": "Defiant Spd 3",
+      "passiveB": "",
+      "passiveC": "Spur Atk 3"
+    }
+  },
+  "Lucius": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 42,
+      "Atk": 35,
+      "Spd": 30,
+      "Def": 13,
+      "Res": 35
+    },
+    "skills": {
+      "weapon": "Pain",
+      "assist": "Martyr",
+      "special": "Imbue/Miracle",
+      "passiveA": "HP +5",
+      "passiveB": "",
+      "passiveC": ""
+    }
+  },
+  "Lyn": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 44,
+      "Spd": 37,
+      "Def": 26,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Sol Katti",
+      "assist": "",
+      "special": "Astra/Galeforce",
+      "passiveA": "Defiant Atk 3",
+      "passiveB": "",
+      "passiveC": "Spur Spd 3"
+    }
+  },
+  "Maria": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 36,
+      "Atk": 37,
+      "Spd": 34,
+      "Def": 19,
+      "Res": 32
+    },
+    "skills": {
+      "weapon": "Assault/Panic",
+      "assist": "Physic",
+      "special": "Miracle/Imbue",
+      "passiveA": "",
+      "passiveB": "",
+      "passiveC": "Fortify Res 3"
+    }
+  },
+  "Marth": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 47,
+      "Spd": 34,
+      "Def": 29,
+      "Res": 23
+    },
+    "skills": {
+      "weapon": "Falchion",
+      "assist": "Pivot",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Escape Route 3",
+      "passiveC": "Spur Spd 3"
+    }
+  },
+  "Matthew": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 36,
+      "Spd": 34,
+      "Def": 27,
+      "Res": 16
+    },
+    "skills": {
+      "weapon": "Rogue Dagger+",
+      "assist": "Reciprocal Aid",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Poison Strike 3",
+      "passiveC": "Hone Spd 3"
+    }
+  },
+  "Merric": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 48,
+      "Atk": 40,
+      "Spd": 32,
+      "Def": 28,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": "Excalibur",
+      "assist": "",
+      "special": "Growing Wind",
+      "passiveA": "HP +5",
+      "passiveB": "",
+      "passiveC": "Spur Res 3"
+    }
+  },
+  "Minerva": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "stats": {
+      "HP": 40,
+      "Atk": 52,
+      "Spd": 38,
+      "Def": 27,
+      "Res": 17
+    },
+    "skills": {
+      "weapon": "Hauteclere",
+      "assist": "",
+      "special": "Sacred Cowl",
+      "passiveA": "Life and Death 3",
+      "passiveB": "",
+      "passiveC": "Spur Def 2/Ward Fliers"
+    }
+  },
+  "Narcian": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "stats": {
+      "HP": 42,
+      "Atk": 41,
+      "Spd": 29,
+      "Def": 32,
+      "Res": 26
+    },
+    "skills": {
+      "weapon": "Emerald Axe+",
+      "assist": "",
+      "special": "Vengeance",
+      "passiveA": "",
+      "passiveB": "Lancebreaker 3",
+      "passiveC": "Savage Blow 3"
+    }
+  },
+  "Niles": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 34,
+      "Spd": 34,
+      "Def": 17,
+      "Res": 34
+    },
+    "skills": {
+      "weapon": "Killer Bow+",
+      "assist": "",
+      "special": "Iceberg",
+      "passiveA": "Warding Blow 3",
+      "passiveB": "",
+      "passiveC": "Spur Res 3"
+    }
+  },
+  "Ninian": {
+    "color": "Blue",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 42,
+      "Atk": 37,
+      "Spd": 33,
+      "Def": 23,
+      "Res": 27
+    },
+    "skills": {
+      "weapon": "Light Breath+",
+      "assist": "Dance",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Escape Route 3",
+      "passiveC": "Fortify Def 2/Fortify Dragons"
+    }
+  },
+  "Nino": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 33,
+      "Atk": 46,
+      "Spd": 36,
+      "Def": 19,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Gronnblade+",
+      "assist": "Draw Back",
+      "special": "",
+      "passiveA": "Resistance +3",
+      "passiveB": "",
+      "passiveC": "Hone Atk 3"
+    }
+  },
+  "Nowi": {
+    "color": "Blue",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 45,
+      "Atk": 45,
+      "Spd": 27,
+      "Def": 33,
+      "Res": 27
+    },
+    "skills": {
+      "weapon": "Lightning Breath+",
+      "assist": "Rally Defense",
+      "special": "",
+      "passiveA": "Defense +3",
+      "passiveB": "",
+      "passiveC": "Threaten Res 3"
+    }
+  },
+  "Oboro": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 40,
+      "Atk": 44,
+      "Spd": 26,
+      "Def": 35,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": "Heavy Spear+",
+      "assist": "Rally Defense",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Seal Def 3",
+      "passiveC": "Threaten Res 3"
+    }
+  },
+  "Odin": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 35,
+      "Spd": 32,
+      "Def": 25,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Blárblade+",
+      "assist": "",
+      "special": "Moonbow",
+      "passiveA": "Defiant Atk 3",
+      "passiveB": "R Tomebreaker 3",
+      "passiveC": ""
+    }
+  },
+  "Ogma": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 47,
+      "Atk": 43,
+      "Spd": 29,
+      "Def": 28,
+      "Res": 13
+    },
+    "skills": {
+      "weapon": "Brave Sword+",
+      "assist": "",
+      "special": "Noontime",
+      "passiveA": "Defiant Atk 3",
+      "passiveB": "",
+      "passiveC": "Spur Atk 3"
+    }
+  },
+  "Olivia": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 36,
+      "Atk": 43,
+      "Spd": 33,
+      "Def": 27,
+      "Res": 26
+    },
+    "skills": {
+      "weapon": "Silver Sword+",
+      "assist": "Dance",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Knock Back",
+      "passiveC": "Hone Atk 3"
+    }
+  },
+  "Olwen": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 34,
+      "Atk": 35,
+      "Spd": 29,
+      "Def": 20,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Dire Thunder",
+      "assist": "Reposition",
+      "special": "",
+      "passiveA": "Warding Blow 3",
+      "passiveB": "",
+      "passiveC": "Spur Res 2/Ward Cavalry"
+    }
+  },
+  "Palla": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "stats": {
+      "HP": 42,
+      "Atk": 43,
+      "Spd": 31,
+      "Def": 24,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Ruby Sword+",
+      "assist": "",
+      "special": "Moonbow",
+      "passiveA": "",
+      "passiveB": "Wings of Mercy 3",
+      "passiveC": "Spur Spd 2/Goad Fliers"
+    }
+  },
+  "Peri": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 35,
+      "Atk": 44,
+      "Spd": 33,
+      "Def": 23,
+      "Res": 33
+    },
+    "skills": {
+      "weapon": "Killer Lance+",
+      "assist": "",
+      "special": "Glimmer",
+      "passiveA": "Resistance +3",
+      "passiveB": "",
+      "passiveC": "Threaten Def 3"
+    }
+  },
+  "Priscilla": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 37,
+      "Atk": 38,
+      "Spd": 34,
+      "Def": 24,
+      "Res": 27
+    },
+    "skills": {
+      "weapon": "Panic",
+      "assist": "Reconcile/Rehabilitate",
+      "special": "Imbue/Still-Water Balm",
+      "passiveA": "",
+      "passiveB": "",
+      "passiveC": "Spur Def 3"
+    }
+  },
+  "Raigh": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 42,
+      "Spd": 29,
+      "Def": 22,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Rauðrwolf+",
+      "assist": "Rally Attack",
+      "special": "",
+      "passiveA": "HP +5",
+      "passiveB": "Seal Res 3",
+      "passiveC": ""
+    }
+  },
+  "Raven": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 42,
+      "Spd": 30,
+      "Def": 25,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Brave Axe+",
+      "assist": "",
+      "special": "Sol",
+      "passiveA": "Defiant Spd 3",
+      "passiveB": "",
+      "passiveC": "Threaten Def 3"
+    }
+  },
+  "Rebecca": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 38,
+      "Spd": 34,
+      "Def": 24,
+      "Res": 27
+    },
+    "skills": {
+      "weapon": "Silver Bow+",
+      "assist": "Ardent Sacrifice",
+      "special": "",
+      "passiveA": "Darting Blow 3",
+      "passiveB": "Seal Atk 3",
+      "passiveC": ""
+    }
+  },
+  "Reinhardt": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 38,
+      "Atk": 41,
+      "Spd": 18,
+      "Def": 27,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Dire Thunder",
+      "assist": "",
+      "special": "Blazing Thunder",
+      "passiveA": "",
+      "passiveB": "Vantage 3",
+      "passiveC": "Spur Atk 2/Goad Cavalry"
+    }
+  },
+  "Robin (F)": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 40,
+      "Atk": 39,
+      "Spd": 29,
+      "Def": 29,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Gronnwolf+",
+      "assist": "",
+      "special": "Ignis",
+      "passiveA": "Defiant Res 3",
+      "passiveB": "B Tomebreaker 3",
+      "passiveC": ""
+    }
+  },
+  "Robin (M)": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 40,
+      "Atk": 40,
+      "Spd": 29,
+      "Def": 29,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Blárraven+",
+      "assist": "",
+      "special": "Bonfire",
+      "passiveA": "Defiant Spd 3",
+      "passiveB": "",
+      "passiveC": "Spur Def 3"
+    }
+  },
+  "Roy": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 44,
+      "Atk": 46,
+      "Spd": 31,
+      "Def": 25,
+      "Res": 28
+    },
+    "skills": {
+      "weapon": "Binding Blade",
+      "assist": "Shove",
+      "special": "",
+      "passiveA": "Triangle Adept 3",
+      "passiveB": "Seal Def 3",
+      "passiveC": ""
+    }
+  },
+  "Ryoma": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 50,
+      "Spd": 35,
+      "Def": 27,
+      "Res": 21
+    },
+    "skills": {
+      "weapon": "Raijinto",
+      "assist": "",
+      "special": "Astra",
+      "passiveA": "Defiant Atk 3",
+      "passiveB": "",
+      "passiveC": "Hone Spd 3"
+    }
+  },
+  "Saizo": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 36,
+      "Atk": 38,
+      "Spd": 34,
+      "Def": 33,
+      "Res": 16
+    },
+    "skills": {
+      "weapon": "Smoke Dagger+",
+      "assist": "Harsh Command",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Poison Strike 3",
+      "passiveC": "Spur Spd 3"
+    }
+  },
+  "Sakura": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 36,
+      "Atk": 38,
+      "Spd": 30,
+      "Def": 24,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Assault/Fear",
+      "assist": "Physic",
+      "special": "Imbue/Still-Water Balm",
+      "passiveA": "",
+      "passiveB": "",
+      "passiveC": "Fortify Def 3"
+    }
+  },
+  "Sanaki": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 33,
+      "Atk": 51,
+      "Spd": 26,
+      "Def": 17,
+      "Res": 34
+    },
+    "skills": {
+      "weapon": "Cymbeline",
+      "assist": "Harsh Command",
+      "special": "",
+      "passiveA": "Triangle Adept 3",
+      "passiveB": "",
+      "passiveC": "Hone Atk 3"
+    }
+  },
+  "Selena": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 37,
+      "Spd": 35,
+      "Def": 32,
+      "Res": 28
+    },
+    "skills": {
+      "weapon": "Armorslayer+",
+      "assist": "Reposition",
+      "special": "",
+      "passiveA": "Triangle Adept 3",
+      "passiveB": "",
+      "passiveC": "Threaten Spd 3"
+    }
+  },
+  "Seliph": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 52,
+      "Atk": 50,
+      "Spd": 24,
+      "Def": 30,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Tyrfing",
+      "assist": "Rally Speed",
+      "special": "",
+      "passiveA": "HP +5",
+      "passiveB": "Brash Assault 3",
+      "passiveC": ""
+    }
+  },
+  "Serra": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 33,
+      "Atk": 37,
+      "Spd": 31,
+      "Def": 21,
+      "Res": 33
+    },
+    "skills": {
+      "weapon": "Assault/Absorb",
+      "assist": "Recover",
+      "special": "Imbue/Swift-Winds Balm",
+      "passiveA": "",
+      "passiveB": "",
+      "passiveC": "Hone Atk 3"
+    }
+  },
+  "Setsuna": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 39,
+      "Spd": 37,
+      "Def": 22,
+      "Res": 23
+    },
+    "skills": {
+      "weapon": "Assassin's Bow+",
+      "assist": "Reciprocal Aid",
+      "special": "",
+      "passiveA": "HP +5",
+      "passiveB": "Bowbreaker 3",
+      "passiveC": ""
+    }
+  },
+  "Shanna": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 39,
+      "Atk": 37,
+      "Spd": 35,
+      "Def": 25,
+      "Res": 32
+    },
+    "skills": {
+      "weapon": "Killer Lance+",
+      "assist": "",
+      "special": "Iceberg",
+      "passiveA": "",
+      "passiveB": "Desperation 3",
+      "passiveC": "Threaten Spd 3"
+    }
+  },
+  "Sharena": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 48,
+      "Spd": 35,
+      "Def": 29,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": "Fensalir",
+      "assist": "Rally Attack",
+      "special": "",
+      "passiveA": "Speed +3",
+      "passiveB": "",
+      "passiveC": "Fortify Def 3"
+    }
+  },
+  "Sheena": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "stats": {
+      "HP": 45,
+      "Atk": 41,
+      "Spd": 25,
+      "Def": 36,
+      "Res": 33
+    },
+    "skills": {
+      "weapon": "Killer Axe+",
+      "assist": "",
+      "special": "Escutcheon",
+      "passiveA": "Svalinn Shield",
+      "passiveB": "",
+      "passiveC": "Fortify Def 2/Fortify Armor"
+    }
+  },
+  "Sophia": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 40,
+      "Atk": 46,
+      "Spd": 19,
+      "Def": 28,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Fenrir+",
+      "assist": "",
+      "special": "Dragon Fang",
+      "passiveA": "Warding Blow 3",
+      "passiveB": "",
+      "passiveC": "Fortify Res 3"
+    }
+  },
+  "Stahl": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 45,
+      "Atk": 46,
+      "Spd": 26,
+      "Def": 33,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": "Ruby Sword+",
+      "assist": "Swap",
+      "special": "",
+      "passiveA": "Defense +3",
+      "passiveB": "Obstruct 3",
+      "passiveC": ""
+    }
+  },
+  "Subaki": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 40,
+      "Atk": 37,
+      "Spd": 35,
+      "Def": 35,
+      "Res": 25
+    },
+    "skills": {
+      "weapon": "Sapphire Lance+",
+      "assist": "Swap",
+      "special": "",
+      "passiveA": "Resistance +3",
+      "passiveB": "Quick Riposte 3",
+      "passiveC": ""
+    }
+  },
+  "Sully": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 42,
+      "Atk": 38,
+      "Spd": 34,
+      "Def": 24,
+      "Res": 28
+    },
+    "skills": {
+      "weapon": "Sapphire Lance+",
+      "assist": "Draw Back",
+      "special": "",
+      "passiveA": "",
+      "passiveB": "Swordbreaker 3",
+      "passiveC": "Spur Def 3"
+    }
+  },
+  "Takumi": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 40,
+      "Atk": 46,
+      "Spd": 33,
+      "Def": 25,
+      "Res": 18
+    },
+    "skills": {
+      "weapon": "Fujin Yumi",
+      "assist": "",
+      "special": "Vengeance",
+      "passiveA": "Close Counter",
+      "passiveB": "",
+      "passiveC": "Threaten Spd 3"
+    }
+  },
+  "Tharja": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 45,
+      "Spd": 34,
+      "Def": 23,
+      "Res": 20
+    },
+    "skills": {
+      "weapon": "Rauðrblade+",
+      "assist": "",
+      "special": "Vengeance",
+      "passiveA": "Darting Blow 3",
+      "passiveB": "",
+      "passiveC": "Spur Res 3"
+    }
+  },
+  "Tiki": {
+    "color": "Red",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 40,
+      "Atk": 46,
+      "Spd": 23,
+      "Def": 35,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": "Lightning Breath+",
+      "assist": "",
+      "special": "Bonfire",
+      "passiveA": "Defiant Atk 3",
+      "passiveB": "",
+      "passiveC": "Spur Res 3"
+    }
+  },
+  "Tiki (Young)": {
+    "color": "Red",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 41,
+      "Atk": 46,
+      "Spd": 30,
+      "Def": 32,
+      "Res": 29
+    },
+    "skills": {
+      "weapon": "Flametongue+",
+      "assist": "",
+      "special": "Growing Flame",
+      "passiveA": "Armored Blow 3",
+      "passiveB": "",
+      "passiveC": "Breath of Life 3"
+    }
+  },
+  "Ursula": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 35,
+      "Atk": 39,
+      "Spd": 32,
+      "Def": 19,
+      "Res": 30
+    },
+    "skills": {
+      "weapon": "Blárwolf+",
+      "assist": "",
+      "special": "Growing Thunder",
+      "passiveA": "Death Blow 3",
+      "passiveB": "",
+      "passiveC": "Threaten Res 3"
+    }
+  },
+  "Virion": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 46,
+      "Atk": 44,
+      "Spd": 31,
+      "Def": 26,
+      "Res": 13
+    },
+    "skills": {
+      "weapon": "Silver Bow+",
+      "assist": "",
+      "special": "Astra",
+      "passiveA": "Defiant Res 3",
+      "passiveB": "Seal Spd 3",
+      "passiveC": ""
+    }
+  },
+  "Wrys": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 42,
+      "Atk": 34,
+      "Spd": 23,
+      "Def": 25,
+      "Res": 33
+    },
+    "skills": {
+      "weapon": "Assault/Slow",
+      "assist": "Reconcile/Rehabilitate",
+      "special": "Imbue/Heavenly Light",
+      "passiveA": "",
+      "passiveB": "Live to Serve 3",
+      "passiveC": ""
+    }
+  }
+}
