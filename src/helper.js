@@ -116,7 +116,7 @@ export function getUnitsWithSkill(skill, type) {
                     unitList.push(unit + ' (' + skillData[index].unlock + '*)');
                 }
             }
-        } else if (reSkill.test(skillData.name) && !/Alfonse|Anna|Sharena/.test(unit)) {
+        } else if (reSkill.test(skillData.name)) {
             unitList.push(unit + ' (' + skillData.unlock + '*)');
         }
     }

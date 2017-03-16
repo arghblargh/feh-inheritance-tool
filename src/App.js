@@ -48,12 +48,20 @@ class SkillInfoTable extends Component {
   getInheritList(unitName, skill, type) {
     if (!skill) return '';
     
-    var list = getUnitsWithSkill(skill, type).join(', ');
-
-    if (RegExp(unitName).test(list))
-      return '';
+    var list = getUnitsWithSkill(skill, type);
+    var exclude = [];
     
-    return list;
+    for (var i in list) {
+      if (/Alfonse|Anna|Sharena/.test(list[i]))
+        exclude.push(i);
+      if (RegExp(unitName).test(list[i]))
+        return '';
+    }
+
+    for (i in exclude)
+      list.splice(exclude[i], 1);
+    
+    return list.join(', ');
   }
 
   render() {
@@ -314,8 +322,10 @@ class App extends Component {
         </div>
         <InheritanceTool />
         <div id="footer">
-          <i>Fire Emblem: Heroes</i> and all respective content are the 
-          sole property of Nintendo and Intelligent Systems.
+          <p id="footer-content">
+            <i>Fire Emblem: Heroes</i> and all respective content are the 
+            sole property of Nintendo and Intelligent Systems.
+          </p>
         </div>
       </div>
     );

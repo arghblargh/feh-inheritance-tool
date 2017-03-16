@@ -12,6 +12,11 @@
 }
 
 #footer {
+  position: relative;
+  min-height: 300px;
+}
+
+#footer-content {
   font-size: 10px;
   position: absolute;
   right: 0;
