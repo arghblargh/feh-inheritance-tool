@@ -213,10 +213,14 @@ class InheritanceTool extends Component {
 
   handleUnitSelect(unitName) {
     var newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
+    var stats = JSON.parse(JSON.stringify(units[unitName].stats));
+    if (this.state.rawStatsOn) {
+      stats = calcStats(this.state.unitName, {}, this.state.skills)
+      stats = calcStats(unitName, newSkills, {});
+    }
     this.setState({
       unitName: unitName,
-      stats: this.state.rawStatsOn ? calcStats(unitName, newSkills, {}) 
-                                   : JSON.parse(JSON.stringify(units[unitName].stats)),
+      stats: stats,
       skills: newSkills,
     });
   }
