@@ -677,7 +677,7 @@
     "Fortify Dragons":{
       "cost":"200",
       "effect":"Grants adjacent dragon allies Def/Res+6 through their next actions at the start of each turn.",
-      "restriction":""
+      "restriction":"Dragon"
     },
     "Fortify Fliers":{
       "cost":"200",
