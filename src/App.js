@@ -22,7 +22,8 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, moveIcon, weaponIcon, parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats } from './helper.js';
+import { Dropdown, moveIcon, weaponIcon, parseSkills, 
+         getUnitsWithSkill, getPossibleSkills, calcStats, escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -76,7 +77,7 @@ class SkillInfoTable extends Component {
     for (var i in list) {
       if (/Alfonse|Anna|Sharena/.test(list[i]))
         exclude.push(i);
-      if (RegExp(unitName).test(list[i]))
+      if (RegExp(escapeRegExp(unitName)).test(list[i]))
         return '';
     }
 

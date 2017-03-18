@@ -29,7 +29,7 @@ const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
 
 // Escape RegExp string
-function escapeRegExp(str) {
+export function escapeRegExp(str) {
     // eslint-disable-next-line
     return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 }
