@@ -185,7 +185,7 @@ function checkRestrictions(unit, restrictions, color = '') {
 
     for (var r in rstr) {
         if (/Melee/.test(rstr[r])) {
-            if (/Sword|Lance|Axe/.test(unitData))
+            if (/Sword|Lance|Axe|Dragon/.test(unitData))
                 return true;
         }
         if (/Units/.test(rstr[r])) {
