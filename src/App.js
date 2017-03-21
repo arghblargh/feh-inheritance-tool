@@ -68,23 +68,61 @@ class SkillInfoTable extends Component {
     this.props.onSkillSelect(skillName, skillType);
   }
 
+  unitListToString(unitList) {
+    var result = '';
+
+    if (unitList[1]) {
+      result += '1*: ';
+      result += unitList[1].join(', ');
+      result += '. ';
+    }
+    if (unitList[2]) {
+      result += '2*: ';
+      result += unitList[2].join(', ');
+      result += '. ';
+    }
+    if (unitList[3]) {
+      result += '3*: ';
+      result += unitList[3].join(', ');
+      result += '. ';
+    }
+    if (unitList[4]) {
+      result += '4*: ';
+      result += unitList[4].join(', ');
+      result += '. ';
+    }
+    if (unitList[5]) {
+      result += '5*: ';
+      result += unitList[5].join(', ');
+      result += '.';
+    }
+
+    return result;
+  }
+
   getInheritList(unitName, skill, type) {
     if (!skill) return '';
     
     var list = getUnitsWithSkill(skill, type);
     var exclude = [];
 
-    for (var i in list) {
-      if (/Alfonse|Anna|Sharena/.test(list[i]))
-        exclude.push(i);
-      if (RegExp(escapeRegExp(unitName)).test(list[i]))
-        return '';
-    }
+    for (var rarity in list) {
+      for (var i in list[rarity]) {
+        if (/Alfonse|Anna|Sharena/.test(list[rarity][i]))
+          exclude.push(i);
+        if (RegExp(escapeRegExp(unitName)).test(list[rarity][i]))
+          return '';
+      }
 
-    for (i in exclude)
-      list.splice(exclude[i], 1);
+      for (i in exclude) {
+        list[rarity].splice(exclude[i], 1);
+        if (!list[rarity].length) {
+          delete list[rarity];
+        }
+      }
+    }
     
-    return list.join(', ');
+    return this.unitListToString(list);
   }
 
   render() {
@@ -226,12 +264,12 @@ class InheritanceTool extends Component {
       unitName: 'Abel',
       stats: units.Abel.stats,
       skills: {
-        weapon: units.Abel.skills.weapon.name,
-        assist: units.Abel.skills.assist.name,
-        special: units.Abel.skills.special.name,
-        passiveA: units.Abel.skills.passiveA.name,
-        passiveB: units.Abel.skills.passiveB.name,
-        passiveC: units.Abel.skills.passiveC.name
+        weapon: units.Abel.skills.weapon[units.Abel.skills.weapon.length-1].name,
+        assist: units.Abel.skills.assist[units.Abel.skills.assist.length-1].name,
+        special: units.Abel.skills.special[units.Abel.skills.special.length-1].name,
+        passiveA: units.Abel.skills.passiveA[units.Abel.skills.passiveA.length-1].name,
+        passiveB: units.Abel.skills.passiveB[units.Abel.skills.passiveB.length-1].name,
+        passiveC: units.Abel.skills.passiveC[units.Abel.skills.passiveC.length-1].name
       },
       rawStatsOn: false
     }

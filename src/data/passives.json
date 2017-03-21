@@ -175,6 +175,11 @@
       "effect":"Grants +5 to max HP.",
       "restriction":""
     },
+    "Iote's Shield":{
+      "cost":"200",
+      "effect":"Neutralizes 'effective against' bonuses.",
+      "restriction":"Flying"
+    },
     "Life and Death 1":{
       "cost":"50",
       "effect":"Grants Atk/Spd+3. Inflicts Def/Res-3.",

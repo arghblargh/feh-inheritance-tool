@@ -9,13 +9,15 @@
     "cost":"100",
     "count":"2",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
-    "restriction":"Melee"
+    "restriction":"Melee",
+    "require":"Buckler"
   },
   "Pavise":{
     "cost":"200",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from adjacent foes by 50%",
-    "restriction":"Melee"
+    "restriction":"Melee",
+    "require":"Buckler"
   },
   "Holy Vestments":{
     "cost":"100",
@@ -27,13 +29,15 @@
     "cost":"200",
     "count":"2",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
-    "restriction":"Melee"
+    "restriction":"Melee",
+    "require":"Holy Vestments"
   },
   "Aegis":{
     "cost":"200",
     "count":"3",
     "effect":"Reduces damage inflicted by attacks from foes 2 spaces away by 50%.",
-    "restriction":"Melee"
+    "restriction":"Melee",
+    "require":"Holy Vestments"
   },
   "Miracle":{
     "cost":"200",
@@ -51,19 +55,22 @@
     "cost":"200",
     "count":"3",
     "effect":"Heal 30% of damage dealt in your next attack.",
-    "restriction":""
+    "restriction":"",
+    "require":"Daylight"
   },
   "Sol":{
     "cost":"200",
     "count":"4",
     "effect":"Heal 50% of damage dealt in your next attack.",
-    "restriction":""
+    "restriction":"",
+    "require":"Daylight"
   },
   "Aether":{
     "cost":"500",
     "count":"5",
     "effect":"Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt",
-    "restriction":""
+    "restriction":"",
+    "require":"Daylight|New Moon"
   },
   "New Moon":{
     "cost":"100",
@@ -75,13 +82,15 @@
     "cost":"200",
     "count":"2",
     "effect":"Resolve combat as if foe suffered Def/Res-30%",
-    "restriction":""
+    "restriction":"",
+    "require":"New Moon"
   },
   "Luna":{
     "cost":"200",
     "count":"3",
     "effect":"Resolve combat as if foe suffered Def/Res-50%",
-    "restriction":""
+    "restriction":"",
+    "require":"New Moon"
   },
   "Night Sky":{
     "cost":"100",
@@ -93,19 +102,22 @@
     "cost":"200",
     "count":"3",
     "effect":"Grants +50% to damage dealt.",
-    "restriction":""
+    "restriction":"",
+    "require":"Night Sky"
   },
   "Astra":{
     "cost":"200",
     "count":"5",
     "effect":"Grants +150% to damage dealt.",
-    "restriction":""
+    "restriction":"",
+    "require":"Night Sky"
   },
   "Galeforce":{
     "cost":"500",
     "count":"5",
     "effect":"If this unit initiates an attack, it can take another action after combat. (Once per turn only.)",
-    "restriction":""
+    "restriction":"",
+    "require":"Night Sky"
   },
   "Imbue":{
     "cost":"50",
@@ -153,13 +165,15 @@
     "cost":"200",
     "count":"3",
     "effect":"Grants +30% to Atk.",
-    "restriction":""
+    "restriction":"",
+    "require":"Dragon Gaze"
   },
   "Dragon Fang":{
     "cost":"200",
     "count":"4",
     "effect":"Grants +50% to Atk.",
-    "restriction":""
+    "restriction":"",
+    "require":"Dragon Gaze"
   },
   "Chilling Wind":{
     "cost":"100",
@@ -171,13 +185,15 @@
     "cost":"200",
     "count":"3",
     "effect":"Boosts damage dealt by 50% of unit's Res",
-    "restriction":""
+    "restriction":"",
+    "require":"Chilling Wind"
   },
   "Glacies":{
     "cost":"200",
     "count":"4",
     "effect":"Boosts damage dealt by 80% of unit's Res",
-    "restriction":""
+    "restriction":"",
+    "require":"Chilling Wind"
   },
   "Glowing Ember":{
     "cost":"100",
@@ -189,13 +205,15 @@
     "cost":"200",
     "count":"3",
     "effect":"Boosts damage dealt by 50% of unit's Def",
-    "restriction":""
+    "restriction":"",
+    "require":"Glowing Ember"
   },
   "Ignis":{
     "cost":"200",
     "count":"4",
     "effect":"Boosts damage dealt by 80% of unit's Def",
-    "restriction":""
+    "restriction":"",
+    "require":"Glowing Ember"
   },
   "Retribution":{
     "cost":"100",
@@ -207,13 +225,15 @@
     "cost":"200",
     "count":"2",
     "effect":"Grants bonus to damage dealt equal to 30% of damage suffered.",
-    "restriction":""
+    "restriction":"",
+    "require":"Retribution"
   },
   "Vengeance":{
     "cost":"200",
     "count":"3",
     "effect":"Grants bonus to damage dealt equal to 50% of damage suffered.",
-    "restriction":""
+    "restriction":"",
+    "require":"Retribution"
   },
   "Rising Wind":{
     "cost":"150",
@@ -225,13 +245,15 @@
     "cost":"300",
     "count":"5",
     "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Wind"
   },
   "Blazing Wind":{
     "cost":"300",
     "count":"5",
     "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Wind"
   },
   "Rising Light":{
     "cost":"150",
@@ -243,13 +265,15 @@
     "cost":"300",
     "count":"5",
     "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Light"
   },
   "Growing Light":{
     "cost":"300",
     "count":"5",
     "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Light"
   },
   "Rising Flame":{
     "cost":"150",
@@ -261,13 +285,15 @@
     "cost":"300",
     "count":"5",
     "effect":"Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Flame"
   },
   "Growing Flame":{
     "cost":"300",
     "count":"5",
     "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Flame"
   },
   "Rising Thunder":{
     "cost":"150",
@@ -279,12 +305,14 @@
     "cost":"300",
     "count":"5",
     "effect":"Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Thunder"
   },
   "Growing Thunder":{
     "cost":"300",
     "count":"5",
     "effect":"Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-    "restriction":""
+    "restriction":"",
+    "require":"Rising Thunder"
   }
 }

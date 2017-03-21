@@ -123,23 +123,22 @@ export function parseSkills(skillData) {
     return skills;
 }
 
-// Gets a string of all units that can learn a skill
+// Gets an object of all units that can learn a skill { Rarity# : [UnitList] }
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
 
     var reSkill = RegExp(escapeRegExp(skill) + '$');
-    var unitList = [];
+    var unitList = {};
     
     for (var unit in units) {
         var skillData = units[unit].skills[type];
-        if (Array.isArray(skillData)) {
-            for (var index in skillData) {
-                if (reSkill.test(skillData[index].name)) {
-                    unitList.push(unit + ' (' + skillData[index].unlock + '*)');
+        for (var index in skillData) {
+            if (reSkill.test(skillData[index].name)) {
+                if (!unitList[skillData[index].unlock]) {
+                    unitList[skillData[index].unlock] = [];
                 }
+                unitList[skillData[index].unlock].push(unit);
             }
-        } else if (reSkill.test(skillData.name)) {
-            unitList.push(unit + ' (' + skillData.unlock + '*)');
         }
     }
     return unitList;
@@ -151,12 +150,10 @@ function buildSkillList(type) {
     for (var unit in units) {
         var skillData = units[unit].skills[type];
         if (skillData !== '') {
-            if (Array.isArray(skillData)) {
-                for (var index in skillData) {
+            for (var index in skillData) {
+                if (skillData[index].name) {
                     skillList.add(skillData[index].name);
                 }
-            } else if (skillData.name) {
-                skillList.add(skillData.name);
             }
         }
     }
