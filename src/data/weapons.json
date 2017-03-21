@@ -2,144 +2,232 @@
   "Absorb": {
     "color": "Neutral",
     "type": "Staff",
-    "cost": "150",
-    "might": "4",
+    "cost": 150,
+    "might": 4,
     "effect": "Recovers HP=50% of damage dealt.",
     "restriction": ""
   },
   "Armads": {
     "color": "Green",
     "type": "Axe",
-    "cost": "400",
-    "might": "16",
-    "effect": "Unit makes a guaranteed followup attack when attacked at HP > 80%",
+    "cost": 400,
+    "might": 16,
+    "effect": "Unit makes a guaranteed followup attack when attacked at HP > 80%.",
     "restriction": "Hector"
+  },
+  "Armorslayer": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against armored units.",
+    "restriction": ""
   },
   "Armorslayer+": {
     "color": "Red",
     "type": "Sword",
-    "cost": "300",
-    "might": "12",
+    "cost": 300,
+    "might": 12,
     "effect": "Effective against armored units.",
+    "restriction": ""
+  },
+  "Assassin's Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 7,
+    "effect": "Effective against fliers. If target has a dagger, it can't make a followup attack and this unit will.",
     "restriction": ""
   },
   "Assassin's Bow+": {
     "color": "Neutral",
     "type": "Bow",
-    "cost": "300",
-    "might": "11",
+    "cost": 300,
+    "might": 11,
     "effect": "Effective against fliers. If target has a dagger, it can't make a followup attack and this unit will.",
     "restriction": ""
   },
   "Assault": {
     "color": "Neutral",
     "type": "Staff",
-    "cost": "50",
-    "might": "10",
+    "cost": 50,
+    "might": 10,
     "effect": "",
     "restriction": ""
   },
   "Aura": {
     "color": "Blue",
     "type": "Tome",
-    "cost": "400",
-    "might": "14",
+    "cost": 400,
+    "might": 14,
     "effect": "Restores 5 HP to adjacent allies after any combat this unit initiates.",
     "restriction": "Linde"
   },
   "Binding Blade": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
-    "effect": "Grants Def/Res+2 when this unit is attacked",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def/Res+2 when this unit is attacked.",
     "restriction": "Roy"
+  },
+  "Blárblade": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
+    "restriction": ""
   },
   "Blárblade+": {
     "color": "Blue",
     "type": "Tome",
-    "cost": "300",
-    "might": "13",
+    "cost": 300,
+    "might": 13,
     "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
+    "restriction": ""
+  },
+  "Blárraven": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 7,
+    "effect": "Grants weapon advantage vs. colorless foes.",
     "restriction": ""
   },
   "Blárraven+": {
     "color": "Blue",
     "type": "Tome",
-    "cost": "300",
-    "might": "11",
-    "effect": "Grants weapon advantage vs colorless foes.",
+    "cost": 300,
+    "might": 11,
+    "effect": "Grants weapon advantage vs. colorless foes.",
+    "restriction": ""
+  },
+  "Blárwolf": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "Effective against cavalry units.",
     "restriction": ""
   },
   "Blárwolf+": {
     "color": "Blue",
     "type": "Tome",
-    "cost": "300",
-    "might": "10",
+    "cost": 300,
+    "might": 10,
     "effect": "Effective against cavalry units.",
+    "restriction": ""
+  },
+  "Bolganone": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": "",
     "restriction": ""
   },
   "Bolganone+": {
     "color": "Red",
     "type": "Tome",
-    "cost": "400",
-    "might": "13",
+    "cost": 400,
+    "might": 13,
     "effect": "",
+    "restriction": ""
+  },
+  "Brave Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 5,
+    "effect": "Spd-5. Attack twice when initiating combat.",
     "restriction": ""
   },
   "Brave Axe+": {
     "color": "Green",
     "type": "Axe",
-    "cost": "300",
-    "might": "8",
-    "effect": "Spd-5, attack twice when initiate",
+    "cost": 300,
+    "might": 8,
+    "effect": "Spd-5. Attack twice when initiating combat.",
+    "restriction": ""
+  },
+  "Brave Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 4,
+    "effect": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.",
     "restriction": ""
   },
   "Brave Bow+": {
     "color": "Neutral",
     "type": "Bow",
-    "cost": "300",
-    "might": "7",
+    "cost": 300,
+    "might": 7,
     "effect": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.",
+    "restriction": ""
+  },
+  "Brave Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 5,
+    "effect": "Spd-5. Attack twice when initiating combat.",
     "restriction": ""
   },
   "Brave Lance+": {
     "color": "Blue",
     "type": "Lance",
-    "cost": "300",
-    "might": "8",
-    "effect": "Spd-5, attacks twice when unit initiates.",
+    "cost": 300,
+    "might": 8,
+    "effect": "Spd-5. Attack twice when initiating combat.",
+    "restriction": ""
+  },
+  "Brave Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 5,
+    "effect": "Spd-5. Attack twice when initiating combat.",
     "restriction": ""
   },
   "Brave Sword+": {
     "color": "Red",
     "type": "Sword",
-    "cost": "300",
-    "might": "8",
-    "effect": "Spd-5. 2x Attack on the users turn.",
+    "cost": 300,
+    "might": 8,
+    "effect": "Spd-5. Attack twice when initiating combat.",
     "restriction": ""
   },
   "Brynhildr": {
     "color": "Red",
     "type": "Tome",
-    "cost": "400",
-    "might": "14",
+    "cost": 400,
+    "might": 14,
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
     "restriction": "Leo"
   },
   "Cymbeline": {
     "color": "Red",
     "type": "Tome",
-    "cost": "400",
-    "might": "14",
+    "cost": 400,
+    "might": 14,
     "effect": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.",
     "restriction": "Sanaki"
+  },
+  "Dark Breath": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 200,
+    "might": 9,
+    "effect": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.",
+    "restriction": ""
   },
   "Dark Breath+": {
     "color": "",
     "type": "Dragon",
-    "cost": "300",
-    "might": "13",
+    "cost": 300,
+    "might": 13,
     "effect": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.",
     "restriction": ""
   },
@@ -154,394 +242,794 @@
   "Dire Thunder": {
     "color": "Blue",
     "type": "Tome",
-    "cost": "400",
-    "might": "9",
+    "cost": 400,
+    "might": 9,
     "effect": "Spd-5. Attack twice when initiating combat.",
     "restriction": "Units:Olwen,Reinhardt"
   },
   "Durandal": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "Grants Atk+4 during combat if unit initiates attack.",
     "restriction": "Eliwood"
+  },
+  "Elfire": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 100,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Elthunder": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 100,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Elwind": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 100,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Emerald Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 8,
+    "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+    "restriction": ""
   },
   "Emerald Axe+": {
     "color": "Green",
     "type": "Axe",
-    "cost": "300",
-    "might": "12",
+    "cost": 300,
+    "might": 12,
     "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage",
     "restriction": ""
   },
   "Excalibur": {
     "color": "Green",
     "type": "Tome",
-    "cost": "400",
-    "might": "14",
-    "effect": "Effective against Flying units",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying units.",
     "restriction": "Merric"
   },
   "Falchion": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
-    "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP.",
     "restriction": "Units:Chrom,Lucina,Marth"
   },
   "Fear": {
     "color": "Neutral",
     "type": "Staff",
-    "cost": "150",
-    "might": "5",
-    "effect": "Inflicts Atk-6",
+    "cost": 150,
+    "might": 5,
+    "effect": "Inflicts Atk-6.",
+    "restriction": ""
+  },
+  "Fenrir": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": "",
     "restriction": ""
   },
   "Fenrir+": {
     "color": "Red",
     "type": "Tome",
-    "cost": "300",
-    "might": "13",
+    "cost": 300,
+    "might": 13,
     "effect": "",
     "restriction": ""
   },
   "Fensalir": {
     "color": "Blue",
     "type": "Lance",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.",
     "restriction": "Sharena"
+  },
+  "Fire": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 0,
+    "might": 4,
+    "effect": "",
+    "restriction": ""
+  },
+  "Fire Breath": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 0,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Fire Breath+": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 100,
+    "might": 8,
+    "effect": "",
+    "restriction": ""
+  },
+  "Flametongue": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 200,
+    "might": 11,
+    "effect": "",
+    "restriction": ""
   },
   "Flametongue+": {
     "color": "",
     "type": "Dragon",
-    "cost": "300",
-    "might": "15",
+    "cost": 300,
+    "might": 15,
+    "effect": "",
+    "restriction": ""
+  },
+  "Flux": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 0,
+    "might": 4,
     "effect": "",
     "restriction": ""
   },
   "Fólkvangr": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
-    "effect": "Grants Atk+5 at start of turn if unit's HP<50%",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
     "restriction": "Alfonse"
   },
   "Fujin Yumi": {
     "color": "Neutral",
     "type": "Bow",
-    "cost": "400",
-    "might": "14",
-    "effect": "Effective against flying units. Unit can pass through foes if own HP>=50%",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying units. Unit can pass through foes if own HP>=50%.",
     "restriction": "Takumi"
   },
   "Gravity": {
     "color": "Neutral",
     "type": "Staff",
-    "cost": "150",
-    "might": "6",
+    "cost": 150,
+    "might": 6,
     "effect": "After any combat, prevents foe from moving more than 1 space through its next action.",
+    "restriction": ""
+  },
+  "Gronnblade": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
     "restriction": ""
   },
   "Gronnblade+": {
     "color": "Green",
     "type": "Tome",
-    "cost": "300",
-    "might": "13",
+    "cost": 300,
+    "might": 13,
     "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
+    "restriction": ""
+  },
+  "Gronnraven": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 7,
+    "effect": "Grants weapon advantage vs. colorless foes.",
     "restriction": ""
   },
   "Gronnraven+": {
     "color": "Green",
     "type": "Tome",
-    "cost": "300",
-    "might": "11",
-    "effect": "Grants advantage vs Neutral",
+    "cost": 300,
+    "might": 11,
+    "effect": "Grants weapon advantage vs. colorless foes.",
+    "restriction": ""
+  },
+  "Gronnwolf": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "Effective against cavalry units.",
     "restriction": ""
   },
   "Gronnwolf+": {
     "color": "Green",
     "type": "Tome",
-    "cost": "300",
-    "might": "10",
+    "cost": 300,
+    "might": 10,
     "effect": "Effective against cavalry units.",
+    "restriction": ""
+  },
+  "Hammer": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against armored units.",
     "restriction": ""
   },
   "Hammer+": {
     "color": "Green",
     "type": "Axe",
-    "cost": "300",
-    "might": "12",
-    "effect": "Effective against armored units",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against armored units.",
     "restriction": ""
   },
   "Hauteclere": {
     "color": "Green",
     "type": "Axe",
-    "cost": "400",
-    "might": "16",
-    "effect": "Accelerates Special trigger (cooldown count-1)",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": "Minerva"
+  },
+  "Heavy Spear": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against armored units.",
+    "restriction": ""
   },
   "Heavy Spear+": {
     "color": "Blue",
     "type": "Lance",
-    "cost": "200",
-    "might": "12",
-    "effect": "Effective against armored units",
+    "cost": 200,
+    "might": 12,
+    "effect": "Effective against armored units.",
+    "restriction": ""
+  },
+  "Iron Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 0,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Iron Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 0,
+    "might": 4,
+    "effect": "Effective against flying units.",
+    "restriction": ""
+  },
+  "Iron Dagger": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 0,
+    "might": 3,
+    "effect": "After combat, inflicts Def/Res-3 on foe through its next action.",
+    "restriction": ""
+  },
+  "Iron Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 0,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Iron Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 0,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Killer Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 7,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": ""
   },
   "Killer Axe+": {
     "color": "Green",
     "type": "Axe",
-    "cost": "300",
-    "might": "11",
-    "effect": "Accelerates Special trigger (cooldown count-1)",
+    "cost": 300,
+    "might": 11,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Killer Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 5,
+    "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
     "restriction": ""
   },
   "Killer Bow+": {
     "color": "Neutral",
     "type": "Bow",
-    "cost": "300",
-    "might": "9",
-    "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1)",
+    "cost": 300,
+    "might": 9,
+    "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Killer Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 7,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": ""
   },
   "Killer Lance+": {
     "color": "Blue",
     "type": "Lance",
-    "cost": "300",
-    "might": "11",
-    "effect": "Accelerates Special trigger (cooldown count-1)",
+    "cost": 300,
+    "might": 11,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Killing Edge": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 7,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": ""
   },
   "Killing Edge+": {
     "color": "Red",
     "type": "Sword",
-    "cost": "300",
-    "might": "11",
-    "effect": "Special Trigger Time -1",
+    "cost": 300,
+    "might": 11,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Light Breath": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 200,
+    "might": 9,
+    "effect": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.",
     "restriction": ""
   },
   "Light Breath+": {
     "color": "",
     "type": "Dragon",
-    "cost": "300",
-    "might": "13",
+    "cost": 300,
+    "might": 13,
     "effect": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.",
+    "restriction": ""
+  },
+  "Lightning Breath": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 200,
+    "might": 7,
+    "effect": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).",
     "restriction": ""
   },
   "Lightning Breath+": {
     "color": "",
     "type": "Dragon",
-    "cost": "300",
-    "might": "11",
+    "cost": 300,
+    "might": 11,
     "effect": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count +1)",
     "restriction": ""
   },
   "Mystletainn": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": "Eldigan"
   },
   "Naga": {
     "color": "Green",
     "type": "Tome",
-    "cost": "400",
-    "might": "14",
+    "cost": 400,
+    "might": 14,
     "effect": "Grants Def/Res+2 when this unit is attacked.",
     "restriction": "Julia"
   },
   "Nóatún": {
     "color": "Green",
     "type": "Axe",
-    "cost": "400",
-    "might": "16",
-    "effect": "Unit may move adjacent to any ally when HP <= 40%",
+    "cost": 400,
+    "might": 16,
+    "effect": "Unit may move adjacent to any ally when HP <= 40%.",
     "restriction": "Anna"
   },
   "Pain": {
     "color": "Neutral",
     "type": "Staff",
-    "cost": "150",
-    "might": "3",
-    "effect": "Inflicts 10 damage on Foe after combat",
+    "cost": 150,
+    "might": 3,
+    "effect": "Inflicts 10 damage on Foe after combat.",
     "restriction": ""
   },
   "Panic": {
     "color": "Neutral",
     "type": "Staff",
-    "cost": "150",
-    "might": "7",
+    "cost": 150,
+    "might": 7,
     "effect": "After combat, bonuses on targeted foe become penalties through its next action.",
     "restriction": ""
   },
   "Parthia": {
     "color": "Neutral",
     "type": "Bow",
-    "cost": "400",
-    "might": "14",
+    "cost": 400,
+    "might": 14,
     "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack.",
     "restriction": "Jeorge"
+  },
+  "Poison Dagger": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 2,
+    "effect": "Effective against infantry units. Infantry foes suffer Def/Res-4 after combat through their next actions.",
+    "restriction": ""
   },
   "Poison Dagger+": {
     "color": "Neutral",
     "type": "Dagger",
-    "cost": "300",
-    "might": "5",
+    "cost": 300,
+    "might": 5,
     "effect": "Effective against infantry units. Infantry foes suffer Def/Res-6 after combat through their next actions.",
     "restriction": ""
   },
   "Raijinto": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "Enables unit to counterattack regardless of distance to attacker.",
     "restriction": "Ryoma"
+  },
+  "Rauðrblade": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
+    "restriction": ""
   },
   "Rauðrblade+": {
     "color": "Red",
     "type": "Tome",
-    "cost": "300",
-    "might": "13",
+    "cost": 300,
+    "might": 13,
     "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
+    "restriction": ""
+  },
+  "Rauðrraven": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 7,
+    "effect": "Grants weapon advantage vs. colorless foes.",
     "restriction": ""
   },
   "Rauðrraven+": {
     "color": "Red",
     "type": "Tome",
-    "cost": "300",
-    "might": "11",
+    "cost": 300,
+    "might": 11,
     "effect": "Grants weapon advantage vs. colorless foes.",
+    "restriction": ""
+  },
+  "Rauðrwolf": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "Effective against cavalry units.",
     "restriction": ""
   },
   "Rauðrwolf+": {
     "color": "Red",
     "type": "Tome",
-    "cost": "300",
-    "might": "10",
-    "effect": "Effective against Cavalry",
+    "cost": 300,
+    "might": 10,
+    "effect": "Effective against cavalry units.",
+    "restriction": ""
+  },
+  "Rexcalibur": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": "",
+    "restriction": ""
+  },
+  "Rogue Dagger": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 4,
+    "effect": "After combat, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn.",
     "restriction": ""
   },
   "Rogue Dagger+": {
     "color": "Neutral",
     "type": "Dagger",
-    "cost": "300",
-    "might": "7",
+    "cost": 300,
+    "might": 7,
     "effect": "After combat, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn.",
+    "restriction": ""
+  },
+  "Ruby Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 8,
+    "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
     "restriction": ""
   },
   "Ruby Sword+": {
     "color": "Red",
     "type": "Sword",
-    "cost": "300",
-    "might": "12",
-    "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage",
+    "cost": 300,
+    "might": 12,
+    "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+    "restriction": ""
+  },
+  "Ruin": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 100,
+    "might": 6,
+    "effect": "",
+    "restriction": ""
+  },
+  "Sapphire Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 8,
+    "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
     "restriction": ""
   },
   "Sapphire Lance+": {
     "color": "Blue",
     "type": "Lance",
-    "cost": "300",
-    "might": "12",
+    "cost": 300,
+    "might": 12,
     "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
     "restriction": ""
   },
   "Sieglinde": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
     "restriction": "Eirika"
   },
   "Siegmund": {
     "color": "Blue",
     "type": "Lance",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
     "restriction": "Ephraim"
+  },
+  "Silver Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 11,
+    "effect": "",
+    "restriction": ""
   },
   "Silver Axe+": {
     "color": "Green",
     "type": "Axe",
-    "cost": "300",
-    "might": "15",
+    "cost": 300,
+    "might": 15,
     "effect": "",
+    "restriction": ""
+  },
+  "Silver Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 9,
+    "effect": "Effective against flying units.",
     "restriction": ""
   },
   "Silver Bow+": {
     "color": "Neutral",
     "type": "Bow",
-    "cost": "300",
-    "might": "13",
-    "effect": "Effective against flying units",
+    "cost": 300,
+    "might": 13,
+    "effect": "Effective against flying units.",
+    "restriction": ""
+  },
+  "Silver Dagger": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 7,
+    "effect": "After combat, inflicts Def/Res-5 on foe through its next action.",
     "restriction": ""
   },
   "Silver Dagger+": {
     "color": "Neutral",
     "type": "Dagger",
-    "cost": "300",
-    "might": "10",
-    "effect": "After combat, inflicts Def/Res-7 on foe through its next action. ",
+    "cost": 300,
+    "might": 10,
+    "effect": "After combat, inflicts Def/Res-7 on foe through its next action.",
+    "restriction": ""
+  },
+  "Silver Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 11,
+    "effect": "",
     "restriction": ""
   },
   "Silver Lance+": {
     "color": "Blue",
     "type": "Lance",
-    "cost": "300",
-    "might": "15",
+    "cost": 300,
+    "might": 15,
+    "effect": "",
+    "restriction": ""
+  },
+  "Silver Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 11,
     "effect": "",
     "restriction": ""
   },
   "Silver Sword+": {
     "color": "Red",
     "type": "Sword",
-    "cost": "300",
-    "might": "15",
+    "cost": 300,
+    "might": 15,
     "effect": "",
     "restriction": ""
   },
   "Slow": {
     "color": "Neutral",
     "type": "Staff",
-    "cost": "150",
-    "might": "5",
+    "cost": 150,
+    "might": 5,
     "effect": "After any combat, inflicts Spd-6 on foe through its next action.",
+    "restriction": ""
+  },
+  "Smoke Dagger": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 6,
+    "effect": "After combat, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.",
     "restriction": ""
   },
   "Smoke Dagger+": {
     "color": "Neutral",
     "type": "Dagger",
-    "cost": "300",
-    "might": "9",
+    "cost": 300,
+    "might": 9,
     "effect": "After combat, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions.",
     "restriction": ""
   },
   "Sol Katti": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "If wielder initiates attack at HP <=50% any followup occurs immediately.",
     "restriction": "Lyn"
+  },
+  "Steel Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 100,
+    "might": 8,
+    "effect": "",
+    "restriction": ""
+  },
+  "Steel Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 100,
+    "might": 6,
+    "effect": "Effective against flying units.",
+    "restriction": ""
+  },
+  "Steel Dagger": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 100,
+    "might": 5,
+    "effect": "After combat, inflicts Def/Res-3 on foe through its next action.",
+    "restriction": ""
+  },
+  "Steel Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 100,
+    "might": 8,
+    "effect": "",
+    "restriction": ""
+  },
+  "Steel Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 100,
+    "might": 8,
+    "effect": "",
+    "restriction": ""
+  },
+  "Thoron": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": "",
+    "restriction": ""
+  },
+  "Thunder": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 0,
+    "might": 4,
+    "effect": "",
+    "restriction": ""
   },
   "Tyrfing": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
+    "cost": 400,
+    "might": 16,
     "effect": "Grants Def+4 in battle if unit's HP ≤ 50%.",
     "restriction": "Seliph"
+  },
+  "Wind": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 0,
+    "might": 4,
+    "effect": "",
+    "restriction": ""
+  },
+  "Wo Dao": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 9,
+    "effect": "Grants +10 to damage when Special triggers.",
+    "restriction": ""
   },
   "Wo Dao+": {
     "color": "Red",
@@ -554,9 +1042,9 @@
   "Yato": {
     "color": "Red",
     "type": "Sword",
-    "cost": "400",
-    "might": "16",
-    "effect": "Grants Spd+4 during combat if unit initiates attack",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Spd+4 during combat if unit initiates attack.",
     "restriction": "Corrin(M)"
   }
 }

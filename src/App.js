@@ -71,31 +71,16 @@ class SkillInfoTable extends Component {
   unitListToString(unitList) {
     var result = '';
 
-    if (unitList[1]) {
-      result += '1*: ';
-      result += unitList[1].join(', ');
-      result += '. ';
-    }
-    if (unitList[2]) {
-      result += '2*: ';
-      result += unitList[2].join(', ');
-      result += '. ';
-    }
-    if (unitList[3]) {
-      result += '3*: ';
-      result += unitList[3].join(', ');
-      result += '. ';
-    }
-    if (unitList[4]) {
-      result += '4*: ';
-      result += unitList[4].join(', ');
-      result += '. ';
-    }
-    if (unitList[5]) {
-      result += '5*: ';
-      result += unitList[5].join(', ');
-      result += '.';
-    }
+    if (unitList[1])
+      result += '1*: ' + unitList[1].join(', ') + '. ';
+    if (unitList[2])
+      result += '2*: ' + unitList[2].join(', ') + '. ';
+    if (unitList[3])
+      result += '3*: ' + unitList[3].join(', ') + '. ';
+    if (unitList[4])
+      result += '4*: ' + unitList[4].join(', ') + '. ';
+    if (unitList[5])
+      result += '5*: ' + unitList[5].join(', ') + '.';
 
     return result;
   }
@@ -116,9 +101,8 @@ class SkillInfoTable extends Component {
 
       for (i in exclude) {
         list[rarity].splice(exclude[i], 1);
-        if (!list[rarity].length) {
+        if (!list[rarity].length)
           delete list[rarity];
-        }
       }
     }
     

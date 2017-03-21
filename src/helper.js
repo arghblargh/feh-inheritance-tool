@@ -134,9 +134,8 @@ export function getUnitsWithSkill(skill, type) {
         var skillData = units[unit].skills[type];
         for (var index in skillData) {
             if (reSkill.test(skillData[index].name)) {
-                if (!unitList[skillData[index].unlock]) {
+                if (!unitList[skillData[index].unlock])
                     unitList[skillData[index].unlock] = [];
-                }
                 unitList[skillData[index].unlock].push(unit);
             }
         }
@@ -151,9 +150,8 @@ function buildSkillList(type) {
         var skillData = units[unit].skills[type];
         if (skillData !== '') {
             for (var index in skillData) {
-                if (skillData[index].name) {
+                if (skillData[index].name)
                     skillList.add(skillData[index].name);
-                }
             }
         }
     }
