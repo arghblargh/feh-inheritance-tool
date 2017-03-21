@@ -4,9 +4,9 @@
     "wpnType": "Lance",
     "movType": "Cavalry",
     "stats": {
-      "HP": 44,
-      "Atk": 41,
-      "Spd": 27,
+      "HP": 39,
+      "Atk": 33,
+      "Spd": 32,
       "Def": 25,
       "Res": 25
     },
@@ -55,7 +55,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 43,
-      "Atk": 51,
+      "Atk": 35,
       "Spd": 25,
       "Def": 32,
       "Res": 22
@@ -105,7 +105,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 45,
+      "Atk": 29,
       "Spd": 38,
       "Def": 22,
       "Res": 28
@@ -154,11 +154,11 @@
     "wpnType": "Axe",
     "movType": "Infantry",
     "stats": {
-      "HP": 48,
-      "Atk": 44,
+      "HP": 43,
+      "Atk": 32,
       "Spd": 29,
       "Def": 30,
-      "Res": 25
+      "Res": 24
     },
     "skills": {
       "weapon": [
@@ -205,10 +205,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 43,
-      "Atk": 31,
+      "Atk": 21,
       "Spd": 26,
-      "Def": 29,
-      "Res": 29
+      "Def": 32,
+      "Res": 25
     },
     "skills": {
       "weapon": [
@@ -263,8 +263,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 36,
-      "Atk": 43,
-      "Spd": 36,
+      "Atk": 31,
+      "Spd": 33,
       "Def": 21,
       "Res": 28
     },
@@ -313,10 +313,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 46,
-      "Atk": 38,
-      "Spd": 27,
+      "Atk": 33,
+      "Spd": 32,
       "Def": 30,
-      "Res": 13
+      "Res": 17
     },
     "skills": {
       "weapon": [
@@ -363,10 +363,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 49,
-      "Atk": 51,
-      "Spd": 28,
-      "Def": 36,
-      "Res": 16
+      "Atk": 36,
+      "Spd": 25,
+      "Def": 33,
+      "Res": 13
     },
     "skills": {
       "weapon": [
@@ -412,11 +412,11 @@
     "wpnType": "Axe",
     "movType": "Flying",
     "stats": {
-      "HP": 43,
-      "Atk": 40,
+      "HP": 46,
+      "Atk": 29,
       "Spd": 23,
       "Def": 37,
-      "Res": 25
+      "Res": 22
     },
     "skills": {
       "weapon": [
@@ -463,7 +463,7 @@
     "movType": "Flying",
     "stats": {
       "HP": 36,
-      "Atk": 37,
+      "Atk": 25,
       "Spd": 37,
       "Def": 24,
       "Res": 34
@@ -517,8 +517,8 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 42,
-      "Atk": 40,
-      "Spd": 27,
+      "Atk": 32,
+      "Spd": 32,
       "Def": 27,
       "Res": 21
     },
@@ -567,8 +567,8 @@
     "movType": "Flying",
     "stats": {
       "HP": 37,
-      "Atk": 38,
-      "Spd": 27,
+      "Atk": 30,
+      "Spd": 32,
       "Def": 28,
       "Res": 31
     },
@@ -617,7 +617,7 @@
     "movType": "Flying",
     "stats": {
       "HP": 39,
-      "Atk": 42,
+      "Atk": 31,
       "Spd": 34,
       "Def": 29,
       "Res": 25
@@ -667,8 +667,8 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 36,
-      "Atk": 46,
-      "Spd": 22,
+      "Atk": 32,
+      "Spd": 25,
       "Def": 22,
       "Res": 29
     },
@@ -717,10 +717,10 @@
     "movType": "Flying",
     "stats": {
       "HP": 46,
-      "Atk": 56,
+      "Atk": 38,
       "Spd": 25,
       "Def": 32,
-      "Res": 12
+      "Res": 16
     },
     "skills": {
       "weapon": [
@@ -767,7 +767,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 47,
-      "Atk": 53,
+      "Atk": 37,
       "Spd": 25,
       "Def": 31,
       "Res": 17
@@ -821,10 +821,10 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 35,
-      "Atk": 37,
+      "Atk": 25,
       "Spd": 33,
-      "Def": 25,
-      "Res": 32
+      "Def": 22,
+      "Res": 29
     },
     "skills": {
       "weapon": [
@@ -879,8 +879,8 @@
     "movType": "Flying",
     "stats": {
       "HP": 40,
-      "Atk": 43,
-      "Spd": 30,
+      "Atk": 35,
+      "Spd": 35,
       "Def": 22,
       "Res": 25
     },
@@ -927,13 +927,13 @@
       ]
     }
   },
-  "Corrin(F)": {
+  "Corrin (F)": {
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 40,
+      "Atk": 27,
       "Spd": 34,
       "Def": 34,
       "Res": 21
@@ -977,15 +977,15 @@
       ]
     }
   },
-  "Corrin(M)": {
+  "Corrin (M)": {
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
       "HP": 42,
-      "Atk": 48,
+      "Atk": 32,
       "Spd": 32,
-      "Def": 31,
+      "Def": 28,
       "Res": 24
     },
     "skills": {
@@ -1032,9 +1032,9 @@
     "wpnType": "Lance",
     "movType": "Infantry",
     "stats": {
-      "HP": 48,
-      "Atk": 46,
-      "Spd": 24,
+      "HP": 43,
+      "Atk": 35,
+      "Spd": 29,
       "Def": 32,
       "Res": 23
     },
@@ -1083,8 +1083,8 @@
     "movType": "Armored",
     "stats": {
       "HP": 50,
-      "Atk": 41,
-      "Spd": 24,
+      "Atk": 30,
+      "Spd": 32,
       "Def": 39,
       "Res": 18
     },
@@ -1137,7 +1137,7 @@
     "movType": "Armored",
     "stats": {
       "HP": 50,
-      "Atk": 55,
+      "Atk": 40,
       "Spd": 22,
       "Def": 33,
       "Res": 23
@@ -1187,7 +1187,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 42,
-      "Atk": 42,
+      "Atk": 26,
       "Spd": 35,
       "Def": 26,
       "Res": 28
@@ -1237,10 +1237,10 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 45,
-      "Atk": 51,
-      "Spd": 27,
-      "Def": 37,
-      "Res": 22
+      "Atk": 32,
+      "Spd": 24,
+      "Def": 34,
+      "Res": 19
     },
     "skills": {
       "weapon": [
@@ -1287,7 +1287,7 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 30,
-      "Atk": 38,
+      "Atk": 32,
       "Spd": 32,
       "Def": 19,
       "Res": 32
@@ -1345,7 +1345,7 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 39,
-      "Atk": 47,
+      "Atk": 31,
       "Spd": 30,
       "Def": 23,
       "Res": 32
@@ -1399,7 +1399,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 45,
-      "Atk": 51,
+      "Atk": 35,
       "Spd": 25,
       "Def": 32,
       "Res": 20
@@ -1449,7 +1449,7 @@
     "movType": "Flying",
     "stats": {
       "HP": 36,
-      "Atk": 47,
+      "Atk": 35,
       "Spd": 30,
       "Def": 24,
       "Res": 32
@@ -1499,7 +1499,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 46,
-      "Atk": 46,
+      "Atk": 33,
       "Spd": 28,
       "Def": 25,
       "Res": 30
@@ -1549,10 +1549,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 34,
-      "Atk": 33,
+      "Atk": 23,
       "Spd": 37,
       "Def": 18,
-      "Res": 38
+      "Res": 35
     },
     "skills": {
       "weapon": [
@@ -1599,10 +1599,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 33,
-      "Spd": 39,
+      "Atk": 25,
+      "Spd": 36,
       "Def": 24,
-      "Res": 34
+      "Res": 31
     },
     "skills": {
       "weapon": [
@@ -1649,7 +1649,7 @@
     "movType": "Flying",
     "stats": {
       "HP": 42,
-      "Atk": 41,
+      "Atk": 29,
       "Spd": 28,
       "Def": 25,
       "Res": 34
@@ -1699,7 +1699,7 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 43,
-      "Atk": 47,
+      "Atk": 35,
       "Spd": 25,
       "Def": 36,
       "Res": 14
@@ -1748,8 +1748,8 @@
     "wpnType": "Dagger",
     "movType": "Infantry",
     "stats": {
-      "HP": 39,
-      "Atk": 39,
+      "HP": 42,
+      "Atk": 29,
       "Spd": 36,
       "Def": 22,
       "Res": 19
@@ -1799,8 +1799,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 43,
-      "Atk": 41,
-      "Spd": 20,
+      "Atk": 31,
+      "Spd": 25,
       "Def": 32,
       "Res": 17
     },
@@ -1849,10 +1849,10 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 43,
-      "Atk": 43,
+      "Atk": 32,
       "Spd": 24,
       "Def": 33,
-      "Res": 21
+      "Res": 18
     },
     "skills": {
       "weapon": [
@@ -1903,10 +1903,10 @@
     "movType": "Armored",
     "stats": {
       "HP": 49,
-      "Atk": 41,
+      "Atk": 30,
       "Spd": 24,
-      "Def": 41,
-      "Res": 24
+      "Def": 38,
+      "Res": 28
     },
     "skills": {
       "weapon": [
@@ -1957,10 +1957,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 37,
-      "Atk": 52,
-      "Spd": 41,
-      "Def": 18,
-      "Res": 21
+      "Atk": 35,
+      "Spd": 36,
+      "Def": 23,
+      "Res": 26
     },
     "skills": {
       "weapon": [
@@ -2007,7 +2007,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 45,
-      "Atk": 44,
+      "Atk": 33,
       "Spd": 22,
       "Def": 28,
       "Res": 30
@@ -2057,7 +2057,7 @@
     "movType": "Armored",
     "stats": {
       "HP": 52,
-      "Atk": 52,
+      "Atk": 36,
       "Spd": 24,
       "Def": 37,
       "Res": 19
@@ -2110,11 +2110,11 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 42,
-      "Atk": 34,
+      "HP": 45,
+      "Atk": 23,
       "Spd": 22,
       "Def": 32,
-      "Res": 29
+      "Res": 25
     },
     "skills": {
       "weapon": [
@@ -2161,10 +2161,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 47,
-      "Atk": 44,
-      "Spd": 27,
-      "Def": 42,
-      "Res": 21
+      "Atk": 32,
+      "Spd": 24,
+      "Def": 36,
+      "Res": 18
     },
     "skills": {
       "weapon": [
@@ -2211,8 +2211,8 @@
     "movType": "Flying",
     "stats": {
       "HP": 41,
-      "Atk": 43,
-      "Spd": 27,
+      "Atk": 35,
+      "Spd": 32,
       "Def": 25,
       "Res": 24
     },
@@ -2264,11 +2264,11 @@
     "wpnType": "Dagger",
     "movType": "Infantry",
     "stats": {
-      "HP": 38,
-      "Atk": 42,
-      "Spd": 41,
-      "Def": 20,
-      "Res": 17
+      "HP": 41,
+      "Atk": 26,
+      "Spd": 33,
+      "Def": 25,
+      "Res": 22
     },
     "skills": {
       "weapon": [
@@ -2314,11 +2314,11 @@
     "wpnType": "Lance",
     "movType": "Cavalry",
     "stats": {
-      "HP": 36,
-      "Atk": 45,
-      "Spd": 27,
-      "Def": 29,
-      "Res": 38
+      "HP": 37,
+      "Atk": 27,
+      "Spd": 24,
+      "Def": 25,
+      "Res": 35
     },
     "skills": {
       "weapon": [
@@ -2369,9 +2369,9 @@
     "movType": "Infantry",
     "stats": {
       "HP": 39,
-      "Atk": 39,
+      "Atk": 29,
       "Spd": 31,
-      "Def": 28,
+      "Def": 25,
       "Res": 24
     },
     "skills": {
@@ -2419,7 +2419,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 37,
-      "Atk": 46,
+      "Atk": 32,
       "Spd": 32,
       "Def": 24,
       "Res": 22
@@ -2469,10 +2469,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 38,
-      "Atk": 49,
+      "Atk": 35,
       "Spd": 26,
       "Def": 17,
-      "Res": 35
+      "Res": 32
     },
     "skills": {
       "weapon": [
@@ -2519,7 +2519,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 31,
-      "Atk": 40,
+      "Atk": 35,
       "Spd": 32,
       "Def": 22,
       "Res": 28
@@ -2569,7 +2569,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 47,
-      "Atk": 43,
+      "Atk": 30,
       "Spd": 35,
       "Def": 25,
       "Res": 20
@@ -2619,8 +2619,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 40,
-      "Atk": 38,
-      "Spd": 28,
+      "Atk": 31,
+      "Spd": 33,
       "Def": 20,
       "Res": 24
     },
@@ -2669,7 +2669,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 39,
-      "Atk": 42,
+      "Atk": 32,
       "Spd": 25,
       "Def": 22,
       "Res": 30
@@ -2727,10 +2727,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 44,
-      "Atk": 50,
+      "Atk": 35,
       "Spd": 26,
-      "Def": 33,
-      "Res": 19
+      "Def": 30,
+      "Res": 22
     },
     "skills": {
       "weapon": [
@@ -2777,7 +2777,7 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 39,
-      "Atk": 43,
+      "Atk": 29,
       "Spd": 22,
       "Def": 25,
       "Res": 30
@@ -2827,7 +2827,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 35,
-      "Atk": 53,
+      "Atk": 37,
       "Spd": 25,
       "Def": 19,
       "Res": 31
@@ -2877,8 +2877,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 35,
-      "Atk": 49,
-      "Spd": 39,
+      "Atk": 35,
+      "Spd": 36,
       "Def": 14,
       "Res": 27
     },
@@ -2927,7 +2927,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 39,
-      "Atk": 36,
+      "Atk": 26,
       "Spd": 25,
       "Def": 28,
       "Res": 30
@@ -2989,8 +2989,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 45,
-      "Atk": 40,
-      "Spd": 42,
+      "Atk": 29,
+      "Spd": 39,
       "Def": 22,
       "Res": 22
     },
@@ -3039,7 +3039,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 43,
-      "Atk": 50,
+      "Atk": 34,
       "Spd": 36,
       "Def": 25,
       "Res": 19
@@ -3096,8 +3096,8 @@
     "wpnType": "Staff",
     "movType": "Infantry",
     "stats": {
-      "HP": 42,
-      "Atk": 35,
+      "HP": 37,
+      "Atk": 32,
       "Spd": 30,
       "Def": 13,
       "Res": 35
@@ -3159,7 +3159,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 37,
-      "Atk": 44,
+      "Atk": 28,
       "Spd": 37,
       "Def": 26,
       "Res": 29
@@ -3217,7 +3217,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 36,
-      "Atk": 37,
+      "Atk": 27,
       "Spd": 34,
       "Def": 19,
       "Res": 32
@@ -3283,7 +3283,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 47,
+      "Atk": 31,
       "Spd": 34,
       "Def": 29,
       "Res": 23
@@ -3333,10 +3333,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 36,
+      "Atk": 25,
       "Spd": 34,
-      "Def": 27,
-      "Res": 16
+      "Def": 30,
+      "Res": 18
     },
     "skills": {
       "weapon": [
@@ -3382,8 +3382,8 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 48,
-      "Atk": 40,
+      "HP": 43,
+      "Atk": 26,
       "Spd": 32,
       "Def": 28,
       "Res": 19
@@ -3433,7 +3433,7 @@
     "movType": "Flying",
     "stats": {
       "HP": 43,
-      "Atk": 50,
+      "Atk": 34,
       "Spd": 26,
       "Def": 35,
       "Res": 19
@@ -3483,10 +3483,10 @@
     "movType": "Flying",
     "stats": {
       "HP": 40,
-      "Atk": 52,
-      "Spd": 38,
-      "Def": 27,
-      "Res": 17
+      "Atk": 31,
+      "Spd": 33,
+      "Def": 32,
+      "Res": 22
     },
     "skills": {
       "weapon": [
@@ -3537,7 +3537,7 @@
     "movType": "Flying",
     "stats": {
       "HP": 42,
-      "Atk": 41,
+      "Atk": 29,
       "Spd": 29,
       "Def": 32,
       "Res": 26
@@ -3587,7 +3587,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 37,
-      "Atk": 34,
+      "Atk": 25,
       "Spd": 34,
       "Def": 17,
       "Res": 34
@@ -3637,7 +3637,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 42,
-      "Atk": 37,
+      "Atk": 24,
       "Spd": 33,
       "Def": 23,
       "Res": 27
@@ -3691,10 +3691,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 33,
-      "Atk": 46,
+      "Atk": 33,
       "Spd": 36,
       "Def": 19,
-      "Res": 29
+      "Res": 26
     },
     "skills": {
       "weapon": [
@@ -3741,9 +3741,9 @@
     "movType": "Infantry",
     "stats": {
       "HP": 45,
-      "Atk": 45,
+      "Atk": 34,
       "Spd": 27,
-      "Def": 33,
+      "Def": 30,
       "Res": 27
     },
     "skills": {
@@ -3791,7 +3791,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 40,
-      "Atk": 44,
+      "Atk": 32,
       "Spd": 26,
       "Def": 35,
       "Res": 24
@@ -3841,7 +3841,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 43,
-      "Atk": 35,
+      "Atk": 22,
       "Spd": 32,
       "Def": 25,
       "Res": 25
@@ -3891,8 +3891,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 47,
-      "Atk": 43,
-      "Spd": 29,
+      "Atk": 35,
+      "Spd": 34,
       "Def": 28,
       "Res": 13
     },
@@ -3941,7 +3941,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 36,
-      "Atk": 43,
+      "Atk": 28,
       "Spd": 33,
       "Def": 27,
       "Res": 26
@@ -3991,8 +3991,8 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 34,
-      "Atk": 35,
-      "Spd": 29,
+      "Atk": 26,
+      "Spd": 34,
       "Def": 20,
       "Res": 30
     },
@@ -4045,10 +4045,10 @@
     "movType": "Flying",
     "stats": {
       "HP": 42,
-      "Atk": 43,
+      "Atk": 31,
       "Spd": 31,
-      "Def": 24,
-      "Res": 30
+      "Def": 28,
+      "Res": 26
     },
     "skills": {
       "weapon": [
@@ -4099,10 +4099,10 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 35,
-      "Atk": 44,
+      "Atk": 33,
       "Spd": 33,
       "Def": 23,
-      "Res": 33
+      "Res": 30
     },
     "skills": {
       "weapon": [
@@ -4148,11 +4148,11 @@
     "wpnType": "Staff",
     "movType": "Cavalry",
     "stats": {
-      "HP": 37,
-      "Atk": 38,
-      "Spd": 34,
-      "Def": 24,
-      "Res": 27
+      "HP": 36,
+      "Atk": 29,
+      "Spd": 29,
+      "Def": 19,
+      "Res": 32
     },
     "skills": {
       "weapon": [
@@ -4210,8 +4210,8 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 41,
-      "Atk": 42,
+      "HP": 36,
+      "Atk": 32,
       "Spd": 29,
       "Def": 22,
       "Res": 29
@@ -4261,8 +4261,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 42,
-      "Spd": 30,
+      "Atk": 34,
+      "Spd": 35,
       "Def": 25,
       "Res": 22
     },
@@ -4311,9 +4311,9 @@
     "movType": "Infantry",
     "stats": {
       "HP": 37,
-      "Atk": 38,
+      "Atk": 29,
       "Spd": 34,
-      "Def": 24,
+      "Def": 21,
       "Res": 27
     },
     "skills": {
@@ -4361,8 +4361,8 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 38,
-      "Atk": 41,
-      "Spd": 18,
+      "Atk": 32,
+      "Spd": 23,
       "Def": 27,
       "Res": 25
     },
@@ -4415,7 +4415,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 40,
-      "Atk": 39,
+      "Atk": 29,
       "Spd": 29,
       "Def": 29,
       "Res": 22
@@ -4465,7 +4465,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 40,
-      "Atk": 40,
+      "Atk": 29,
       "Spd": 29,
       "Def": 29,
       "Res": 22
@@ -4515,7 +4515,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 44,
-      "Atk": 46,
+      "Atk": 30,
       "Spd": 31,
       "Def": 25,
       "Res": 28
@@ -4565,7 +4565,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 50,
+      "Atk": 34,
       "Spd": 35,
       "Def": 27,
       "Res": 21
@@ -4615,7 +4615,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 36,
-      "Atk": 38,
+      "Atk": 29,
       "Spd": 34,
       "Def": 33,
       "Res": 16
@@ -4665,7 +4665,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 36,
-      "Atk": 38,
+      "Atk": 28,
       "Spd": 30,
       "Def": 24,
       "Res": 30
@@ -4723,7 +4723,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 33,
-      "Atk": 51,
+      "Atk": 37,
       "Spd": 26,
       "Def": 17,
       "Res": 34
@@ -4773,7 +4773,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 37,
-      "Atk": 37,
+      "Atk": 25,
       "Spd": 35,
       "Def": 32,
       "Res": 28
@@ -4822,8 +4822,8 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 52,
-      "Atk": 50,
+      "HP": 47,
+      "Atk": 34,
       "Spd": 24,
       "Def": 30,
       "Res": 22
@@ -4873,7 +4873,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 33,
-      "Atk": 37,
+      "Atk": 30,
       "Spd": 31,
       "Def": 21,
       "Res": 33
@@ -4934,8 +4934,8 @@
     "wpnType": "Bow",
     "movType": "Infantry",
     "stats": {
-      "HP": 39,
-      "Atk": 39,
+      "HP": 37,
+      "Atk": 28,
       "Spd": 37,
       "Def": 22,
       "Res": 23
@@ -4985,10 +4985,10 @@
     "movType": "Flying",
     "stats": {
       "HP": 39,
-      "Atk": 37,
+      "Atk": 30,
       "Spd": 35,
       "Def": 25,
-      "Res": 32
+      "Res": 29
     },
     "skills": {
       "weapon": [
@@ -5035,8 +5035,8 @@
     "movType": "Infantry",
     "stats": {
       "HP": 43,
-      "Atk": 48,
-      "Spd": 35,
+      "Atk": 32,
+      "Spd": 32,
       "Def": 29,
       "Res": 22
     },
@@ -5085,7 +5085,7 @@
     "movType": "Armored",
     "stats": {
       "HP": 45,
-      "Atk": 41,
+      "Atk": 30,
       "Spd": 25,
       "Def": 36,
       "Res": 33
@@ -5139,7 +5139,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 40,
-      "Atk": 46,
+      "Atk": 33,
       "Spd": 19,
       "Def": 28,
       "Res": 29
@@ -5189,10 +5189,10 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 45,
-      "Atk": 46,
+      "Atk": 31,
       "Spd": 26,
-      "Def": 33,
-      "Res": 19
+      "Def": 30,
+      "Res": 22
     },
     "skills": {
       "weapon": [
@@ -5239,10 +5239,10 @@
     "movType": "Flying",
     "stats": {
       "HP": 40,
-      "Atk": 37,
+      "Atk": 25,
       "Spd": 35,
       "Def": 35,
-      "Res": 25
+      "Res": 22
     },
     "skills": {
       "weapon": [
@@ -5289,7 +5289,7 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 42,
-      "Atk": 38,
+      "Atk": 26,
       "Spd": 34,
       "Def": 24,
       "Res": 28
@@ -5339,7 +5339,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 40,
-      "Atk": 46,
+      "Atk": 32,
       "Spd": 33,
       "Def": 25,
       "Res": 18
@@ -5389,7 +5389,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 39,
-      "Atk": 45,
+      "Atk": 32,
       "Spd": 34,
       "Def": 23,
       "Res": 20
@@ -5439,7 +5439,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 40,
-      "Atk": 46,
+      "Atk": 35,
       "Spd": 23,
       "Def": 35,
       "Res": 24
@@ -5489,7 +5489,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 41,
-      "Atk": 46,
+      "Atk": 31,
       "Spd": 30,
       "Def": 32,
       "Res": 29
@@ -5539,7 +5539,7 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 35,
-      "Atk": 39,
+      "Atk": 29,
       "Spd": 32,
       "Def": 19,
       "Res": 30
@@ -5589,7 +5589,7 @@
     "movType": "Infantry",
     "stats": {
       "HP": 46,
-      "Atk": 44,
+      "Atk": 31,
       "Spd": 31,
       "Def": 26,
       "Res": 13
@@ -5639,10 +5639,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 42,
-      "Atk": 34,
+      "Atk": 24,
       "Spd": 23,
-      "Def": 25,
-      "Res": 33
+      "Def": 22,
+      "Res": 36
     },
     "skills": {
       "weapon": [

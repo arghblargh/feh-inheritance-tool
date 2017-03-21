@@ -245,7 +245,7 @@
     "cost": 400,
     "might": 9,
     "effect": "Spd-5. Attack twice when initiating combat.",
-    "restriction": "Units:Olwen,Reinhardt"
+    "restriction": "Olwen|Reinhardt"
   },
   "Durandal": {
     "color": "Red",
@@ -309,7 +309,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP.",
-    "restriction": "Units:Chrom,Lucina,Marth"
+    "restriction": "Chrom|Lucina|Marth"
   },
   "Fear": {
     "color": "Neutral",
@@ -485,7 +485,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Accelerates Special trigger (cooldown count-1).",
-    "restriction": "Minerva"
+    "restriction": "Minerva|Michalis"
   },
   "Heavy Spear": {
     "color": "Blue",

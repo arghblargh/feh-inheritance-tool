@@ -244,19 +244,7 @@ class InheritanceTool extends Component {
   constructor(props) {
     super(props);
     
-    this.state = {
-      unitName: 'Abel',
-      stats: units.Abel.stats,
-      skills: {
-        weapon: units.Abel.skills.weapon[units.Abel.skills.weapon.length-1].name,
-        assist: units.Abel.skills.assist[units.Abel.skills.assist.length-1].name,
-        special: units.Abel.skills.special[units.Abel.skills.special.length-1].name,
-        passiveA: units.Abel.skills.passiveA[units.Abel.skills.passiveA.length-1].name,
-        passiveB: units.Abel.skills.passiveB[units.Abel.skills.passiveB.length-1].name,
-        passiveC: units.Abel.skills.passiveC[units.Abel.skills.passiveC.length-1].name
-      },
-      rawStatsOn: false
-    }
+    this.initState('Abel');
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
@@ -264,13 +252,32 @@ class InheritanceTool extends Component {
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
   }
 
+  initState(initUnit) {
+    var initSkills = {
+        weapon: units[initUnit].skills.weapon[units[initUnit].skills.weapon.length-1].name,
+        assist: units[initUnit].skills.assist[units[initUnit].skills.assist.length-1].name,
+        special: units[initUnit].skills.special[units[initUnit].skills.special.length-1].name,
+        passiveA: units[initUnit].skills.passiveA[units[initUnit].skills.passiveA.length-1].name,
+        passiveB: units[initUnit].skills.passiveB[units[initUnit].skills.passiveB.length-1].name,
+        passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name
+      }
+    var initStats = calcStats(initUnit, initSkills);
+
+    this.state = {
+      unitName: initUnit,
+      stats: initStats,
+      skills: initSkills,
+      rawStatsOn: false
+    }
+  }
+
   handleUnitSelect(unitName) {
     var newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
     var stats = JSON.parse(JSON.stringify(units[unitName].stats));
-    if (this.state.rawStatsOn) {
-      stats = calcStats(this.state.unitName, {}, this.state.skills)
-      stats = calcStats(unitName, newSkills, {});
-    }
+
+    if (!this.state.rawStatsOn)
+      stats = calcStats(unitName, newSkills);
+
     this.setState({
       unitName: unitName,
       stats: stats,
@@ -279,7 +286,6 @@ class InheritanceTool extends Component {
   }
 
   handleSkillSelect(skillName, skillType) {
-    var initSkills = JSON.parse(JSON.stringify(this.state.skills));
     var newSkills = JSON.parse(JSON.stringify(this.state.skills));
     switch(skillType) {
       case 'weapon':
@@ -304,7 +310,7 @@ class InheritanceTool extends Component {
         break;
     }
     this.setState({ 
-      stats: this.state.rawStatsOn ? this.state.stats : calcStats(this.state.unitName, initSkills, newSkills),
+      stats: this.state.rawStatsOn ? JSON.parse(JSON.stringify(units[this.state.unitName].stats)) : calcStats(this.state.unitName, newSkills),
       skills: newSkills 
     });
   }
@@ -312,7 +318,7 @@ class InheritanceTool extends Component {
   handleResetClick() {
     var skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
-      stats: this.state.rawStatsOn ? this.state.stats : calcStats(this.state.unitName, this.state.skills, skills),
+      stats: this.state.rawStatsOn ? JSON.parse(JSON.stringify(units[this.state.unitName].stats)) : calcStats(this.state.unitName, skills),
       skills: skills
     })
   }
@@ -321,12 +327,12 @@ class InheritanceTool extends Component {
     if (isOn) {
       this.setState({
         rawStatsOn: true,
-        stats: calcStats(this.state.unitName, this.state.skills, {})
+        stats: JSON.parse(JSON.stringify(units[this.state.unitName].stats))
       });
     } else {
       this.setState({
         rawStatsOn: false,
-        stats: calcStats(this.state.unitName, {}, this.state.skills)
+        stats: calcStats(this.state.unitName, this.state.skills)
       });
     }
   }
