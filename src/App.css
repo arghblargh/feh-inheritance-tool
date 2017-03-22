@@ -84,7 +84,9 @@ th.unit-name {
 }
 
 td.unit-type-sub {
-  width: 30px;
+  width: 28px;
+  height: 30px;
+  padding: 5px 1px 1px;
   border: none;
   border-bottom: 1px solid black;
 }
