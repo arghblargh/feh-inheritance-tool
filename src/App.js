@@ -72,15 +72,15 @@ class SkillInfoTable extends Component {
     var result = '';
 
     if (unitList[1])
-      result += '1*: ' + unitList[1].join(', ') + '. ';
+      result += '1★: ' + unitList[1].join(', ') + '. ';
     if (unitList[2])
-      result += '2*: ' + unitList[2].join(', ') + '. ';
+      result += '2★: ' + unitList[2].join(', ') + '. ';
     if (unitList[3])
-      result += '3*: ' + unitList[3].join(', ') + '. ';
+      result += '3★: ' + unitList[3].join(', ') + '. ';
     if (unitList[4])
-      result += '4*: ' + unitList[4].join(', ') + '. ';
+      result += '4★: ' + unitList[4].join(', ') + '. ';
     if (unitList[5])
-      result += '5*: ' + unitList[5].join(', ') + '.';
+      result += '5★: ' + unitList[5].join(', ') + '.';
 
     return result;
   }
@@ -231,7 +231,13 @@ class UnitInfo extends Component {
             <td>{this.props.stats.Spd}</td>
             <td>{this.props.stats.Def}</td>
             <td>{this.props.stats.Res}</td>
-            <td>{Object.values(this.props.stats).reduce((a,b) => { return a + b; })}</td>
+            <td>
+              {Object.keys(this.props.stats).reduce((a,b) => {
+                if (Number.isInteger(a))
+                  return a + this.props.stats[b];
+                return this.props.stats[a] + this.props.stats[b];
+              })}
+            </td>
             <td><input type="checkbox" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} /></td>
           </tr>
         </tbody>
