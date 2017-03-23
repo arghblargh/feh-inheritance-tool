@@ -22,7 +22,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, moveIcon, weaponIcon, parseSkills, 
+import { Dropdown, moveIcon, weaponIcon, rarityIcon, parseSkills, 
          getUnitsWithSkill, getPossibleSkills, calcStats, escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
@@ -42,6 +42,13 @@ class SkillInfoRow extends Component {
   }
 
   render() {
+    let inheritList = this.props.inheritList.split('★');
+
+    for (let i = 0; i < inheritList.length-1; i += 2) {
+      let rarity = /[1-5]/.exec(inheritList[i]);
+      inheritList.splice(i+1,0,<img className="rarity-icon" src={rarityIcon[rarity]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />);
+    }
+
     return (
       <tr>
         <td className="skill-type">{this.props.category}</td>
@@ -52,7 +59,7 @@ class SkillInfoRow extends Component {
                     onChange={this.handleSkillSelect} />
         </td>
         <td className="skill-effect">{this.props.effect}</td>
-        <td className="skill-inherit">{this.props.inheritList}</td>
+        <td className="skill-inherit">{inheritList}</td>
       </tr>
     );
   }
@@ -69,7 +76,7 @@ class SkillInfoTable extends Component {
   }
 
   unitListToString(unitList) {
-    var result = '';
+    let result = '';
 
     if (unitList[1])
       result += '1★: ' + unitList[1].join(', ') + '. ';
@@ -88,18 +95,18 @@ class SkillInfoTable extends Component {
   getInheritList(unitName, skill, type) {
     if (!skill) return '';
     
-    var list = getUnitsWithSkill(skill, type);
-    var exclude = [];
+    let list = getUnitsWithSkill(skill, type);
+    let exclude = [];
 
-    for (var rarity in list) {
-      for (var i in list[rarity]) {
+    for (let rarity in list) {
+      for (let i in list[rarity]) {
         if (/Alfonse|Anna|Sharena/.test(list[rarity][i]))
           exclude.push(i);
         if (RegExp(escapeRegExp(unitName)).test(list[rarity][i]))
           return '';
       }
 
-      for (i in exclude) {
+      for (let i in exclude) {
         list[rarity].splice(exclude[i], 1);
         if (!list[rarity].length)
           delete list[rarity];
@@ -110,7 +117,7 @@ class SkillInfoTable extends Component {
   }
 
   render() {
-    var skills = {};
+    let skills = {};
     skills.weapon = this.props.skills.weapon;
     skills.assist = this.props.skills.assist;
     skills.special = this.props.skills.special;
@@ -118,7 +125,7 @@ class SkillInfoTable extends Component {
     skills.passiveB = this.props.skills.passiveB;
     skills.passiveC = this.props.skills.passiveC;
 
-    var skillOptions = getPossibleSkills(this.props.unitName);
+    let skillOptions = getPossibleSkills(this.props.unitName);
     
     return (
       <table>
@@ -195,11 +202,11 @@ class UnitInfo extends Component {
   }
 
   render() {
-    var name = this.props.unitName;
-    var color = units[name].color;
-    var wpnType = units[name].wpnType;
-    var movType = units[name].movType;
-    var fullWpnType = color + ' ' + wpnType;
+    let name = this.props.unitName;
+    let color = units[name].color;
+    let wpnType = units[name].wpnType;
+    let movType = units[name].movType;
+    let fullWpnType = color + ' ' + wpnType;
     
     return (
       <table>
@@ -259,7 +266,7 @@ class InheritanceTool extends Component {
   }
 
   initState(initUnit) {
-    var initSkills = {
+    let initSkills = {
         weapon: units[initUnit].skills.weapon[units[initUnit].skills.weapon.length-1].name,
         assist: units[initUnit].skills.assist[units[initUnit].skills.assist.length-1].name,
         special: units[initUnit].skills.special[units[initUnit].skills.special.length-1].name,
@@ -267,7 +274,7 @@ class InheritanceTool extends Component {
         passiveB: units[initUnit].skills.passiveB[units[initUnit].skills.passiveB.length-1].name,
         passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name
       }
-    var initStats = calcStats(initUnit, initSkills);
+    let initStats = calcStats(initUnit, initSkills);
 
     this.state = {
       unitName: initUnit,
@@ -278,8 +285,8 @@ class InheritanceTool extends Component {
   }
 
   handleUnitSelect(unitName) {
-    var newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
-    var stats = JSON.parse(JSON.stringify(units[unitName].stats));
+    let newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
+    let stats = JSON.parse(JSON.stringify(units[unitName].stats));
 
     if (!this.state.rawStatsOn)
       stats = calcStats(unitName, newSkills);
@@ -292,7 +299,7 @@ class InheritanceTool extends Component {
   }
 
   handleSkillSelect(skillName, skillType) {
-    var newSkills = JSON.parse(JSON.stringify(this.state.skills));
+    let newSkills = JSON.parse(JSON.stringify(this.state.skills));
     switch(skillType) {
       case 'weapon':
         newSkills.weapon = skillName;
@@ -322,7 +329,7 @@ class InheritanceTool extends Component {
   }
 
   handleResetClick() {
-    var skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
+    let skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
       stats: this.state.rawStatsOn ? JSON.parse(JSON.stringify(units[this.state.unitName].stats)) : calcStats(this.state.unitName, skills),
       skills: skills

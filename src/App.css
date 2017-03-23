@@ -117,3 +117,8 @@ td.skill-name {
   text-align: left;
   padding: 2px;
 }
+
+.rarity-icon {
+  vertical-align: top;
+  height: 16px;
+}

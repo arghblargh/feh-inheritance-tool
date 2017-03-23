@@ -66,6 +66,15 @@ export const weaponIcon = {
     }
 };
 
+// Load rarity icons from file
+export const rarityIcon = {
+    "1" : require('./img/icon/rarity/1.png'),
+    "2" : require('./img/icon/rarity/2.png'),
+    "3" : require('./img/icon/rarity/3.png'),
+    "4" : require('./img/icon/rarity/4.png'),
+    "5" : require('./img/icon/rarity/5.png')
+};
+
 // Dropdown list React component
 export const Dropdown = React.createClass({
     propTypes: {
@@ -81,8 +90,8 @@ export const Dropdown = React.createClass({
     },
 
     render: function() {
-        var self = this;
-        var options = self.props.options.map(function(option) {
+        let self = this;
+        let options = self.props.options.map(function(option) {
             return (
                 <option key={option} value={option}>
                     {option}
@@ -106,7 +115,7 @@ export const Dropdown = React.createClass({
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
-    var skills = {};
+    let skills = {};
     skills.weapon = Array.isArray(skillData.weapon) ? skillData.weapon[skillData.weapon.length-1].name 
                                                     : skillData.weapon.name;
     skills.assist = Array.isArray(skillData.assist) ? skillData.assist[skillData.assist.length-1].name 
@@ -127,12 +136,12 @@ export function parseSkills(skillData) {
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
 
-    var reSkill = RegExp(escapeRegExp(skill) + '$');
-    var unitList = {};
+    let reSkill = RegExp(escapeRegExp(skill) + '$');
+    let unitList = {};
     
-    for (var unit in units) {
-        var skillData = units[unit].skills[type];
-        for (var index in skillData) {
+    for (let unit in units) {
+        let skillData = units[unit].skills[type];
+        for (let index in skillData) {
             if (reSkill.test(skillData[index].name)) {
                 if (!unitList[skillData[index].unlock])
                     unitList[skillData[index].unlock] = [];
@@ -145,11 +154,11 @@ export function getUnitsWithSkill(skill, type) {
 
 // Builds list of max skills of a type
 function buildSkillList(type) {
-    var skillList = new Set();
-    for (var unit in units) {
-        var skillData = units[unit].skills[type];
+    let skillList = new Set();
+    for (let unit in units) {
+        let skillData = units[unit].skills[type];
         if (skillData !== '') {
-            for (var index in skillData) {
+            for (let index in skillData) {
                 if (skillData[index].name)
                     skillList.add(skillData[index].name);
             }
@@ -160,14 +169,14 @@ function buildSkillList(type) {
 
 // Check inheritance restrictions.
 function checkRestrictions(unit, restrictions, color = '') {
-    var unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
-    var rstr = restrictions.split(', ');
-    var re;
+    let unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
+    let rstr = restrictions.split(', ');
+    let re;
     
     if (color) {
-        var colorList = color.split(', ');
-        var containsColor = false;
-        for (var c in colorList) {
+        let colorList = color.split(', ');
+        let containsColor = false;
+        for (let c in colorList) {
             re = RegExp(colorList[c]);
             if (re.test(unitData)) {
                 containsColor = true;
@@ -178,14 +187,14 @@ function checkRestrictions(unit, restrictions, color = '') {
             return false;
     }
 
-    for (var r in rstr) {
+    for (let r in rstr) {
         if (/Melee/.test(rstr[r])) {
             if (/Sword|Lance|Axe|Dragon/.test(unitData))
                 return true;
         }
         if (/Color/.test(rstr[r])) {
-            var flags = /Color:(.*)/.exec(rstr[r])[1];
-            var colorTest = false;
+            let flags = /Color:(.*)/.exec(rstr[r])[1];
+            let colorTest = false;
             if (/R/.test(flags) && /Red/.test(unitData))
                 colorTest = true;
             else if (/B/.test(flags) && /Blue/.test(unitData))
@@ -205,7 +214,7 @@ function checkRestrictions(unit, restrictions, color = '') {
 
 // Returns an object containing lists of all inheritable skills for a unit
 export function getPossibleSkills(unit) {
-    var skills = {};
+    let skills = {};
     skills.weapons = ['']; 
     skills.assists = ['']; 
     skills.specials = ['']; 
@@ -213,13 +222,13 @@ export function getPossibleSkills(unit) {
     skills.passivesB = ['']; 
     skills.passivesC = [''];
 
-    var wpnList = buildSkillList('weapon');
-    var astList = buildSkillList('assist');
-    var spcList = buildSkillList('special');
-    var psAList = buildSkillList('passiveA');
-    var psBList = buildSkillList('passiveB');
-    var psCList = buildSkillList('passiveC');
-    var sklName, index;
+    let wpnList = buildSkillList('weapon');
+    let astList = buildSkillList('assist');
+    let spcList = buildSkillList('special');
+    let psAList = buildSkillList('passiveA');
+    let psBList = buildSkillList('passiveB');
+    let psCList = buildSkillList('passiveC');
+    let sklName, index;
 
     for (index in wpnList) {
         sklName = wpnList[index];
@@ -288,8 +297,8 @@ function addStatMods(stats, mod) {
 }
 
 export function calcStats(unit, skills) {
-    var totalMod = [0,0,0,0,0];
-    var temp;
+    let totalMod = [0,0,0,0,0];
+    let temp;
 
     if (skills.weapon)
         totalMod[1] += parseInt(weapons[skills.weapon].might, 10);
