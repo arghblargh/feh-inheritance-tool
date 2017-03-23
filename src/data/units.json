@@ -13,6 +13,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Lance",
+          "unlock": 4
+        },
+        {
           "name": "Brave Lance+",
           "unlock": 5
         }
@@ -25,17 +37,37 @@
       ],
       "special": [
         {
+          "name": "Holy Vestments",
+          "unlock": 4
+        },
+        {
           "name": "Aegis",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "HP +3",
+          "unlock": 4
+        },
+        {
+          "name": "HP +4",
+          "unlock": 4
+        },
+        {
           "name": "HP +5",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Swordbreaker 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swordbreaker 2",
+          "unlock": 4
+        },
         {
           "name": "Swordbreaker 3",
           "unlock": 4

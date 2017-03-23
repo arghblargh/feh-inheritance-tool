@@ -35,29 +35,82 @@ class SkillInfoRow extends Component {
   constructor(props) {
     super(props);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
+    this.handlePassiveSkillSelect = this.handlePassiveSkillSelect.bind(this);
+    this.handleSkillLevelSelect = this.handleSkillLevelSelect.bind(this);
   }
 
   handleSkillSelect(skillName) {
     this.props.onSkillSelect(skillName, this.props.skillType);
   }
 
+  handlePassiveSkillSelect(skillName) {
+    this.props.onSkillSelect(this.getPassiveLevels(skillName, true) ? this.getPassiveLevels(skillName, true) : skillName, this.props.skillType);
+  }
+
+  handleSkillLevelSelect(skillLevel) {
+    this.props.onSkillSelect(/[^1-9]*/.exec(this.props.skillName)[0] + skillLevel, this.props.skillType);
+  }
+
+  getPassiveLevels(skillName, getFullMaxPassive = false) {
+    let type = RegExp(skillName).test(Object.keys(passives.A).toString()) ? 'A' :
+               RegExp(skillName).test(Object.keys(passives.B).toString()) ? 'B' : 
+                                                                            'C';
+    let result = new Set();
+    for (let key in passives[type]) {
+      if (RegExp(skillName).test(key)) {
+        if (/[1-9]/.test(key))
+          result.add(/[1-9]/.exec(key)[0]);
+        else
+          return null;
+      }
+    }
+
+    if (getFullMaxPassive)
+      return skillName + [...result][2];
+
+    return [...result];
+  }
+
   render() {
     let inheritList = this.props.inheritList.split('★');
-
     for (let i = 0; i < inheritList.length-1; i += 2) {
       let rarity = /[1-5]/.exec(inheritList[i]);
       inheritList.splice(i+1,0,<img className="rarity-icon" src={rarityIcon[rarity]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />);
     }
 
-    return (
-      <tr>
-        <td className="skill-type">{this.props.category}</td>
+    let skillDropdown, skillLevel;
+    let hasSkillLevel = false;
+    if (/[1-9]/.test(this.props.skillName)) {
+      hasSkillLevel = true;
+      skillDropdown = 
         <td className="skill-name">
+          <Dropdown id='skillNameSub'
+                    options={this.props.options}
+                    value={/[^1-9]*/.exec(this.props.skillName)[0]}
+                    onChange={this.handlePassiveSkillSelect} />
+        </td>;
+      skillLevel =
+        <td className="skill-level">
+          <Dropdown id='skillLevel'
+                    options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0])}
+                    value={/[1-9]/.exec(this.props.skillName)[0]}
+                    onChange={this.handleSkillLevelSelect} />
+        </td>;
+    } else {
+      skillDropdown = 
+        <td className="skill-name" colSpan="2">
           <Dropdown id='skillName'
                     options={this.props.options}
                     value={this.props.skillName}
-                    onChange={this.handleSkillSelect} />
-        </td>
+                    onChange={/passive/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
+        </td>;
+    }
+
+    return (
+      <tr>
+        <td className="skill-type">{this.props.category}</td>
+        {skillDropdown}
+        {hasSkillLevel && skillLevel}
         <td className="skill-effect">{this.props.effect}</td>
         <td className="skill-inherit">{inheritList}</td>
       </tr>
@@ -132,7 +185,7 @@ class SkillInfoTable extends Component {
         <thead>
           <tr className="skill-header">
             <th className="blank-cell" />
-            <th>Skill</th>
+            <th colSpan="2">Skill</th>
             <th>Effect</th>
             <th>Inherited From</th>
           </tr>

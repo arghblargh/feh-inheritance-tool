@@ -37,7 +37,7 @@
 select.form-control {
   border: none;
   outline: none;
-  width: 100px;
+  width: 200px;
   height: 30px;
   font-size: medium;
 }
@@ -63,10 +63,6 @@ select.form-control {
 
 #unitName {
   width: 100px;
-}
-
-#skillName {
-  width: 150px;
 }
 
 table {
@@ -106,9 +102,20 @@ td.skill-type {
   padding: 5px;
 }
 
-td.skill-name {
-  width: 130px;
-  text-align: left;
+#skillName {
+  width: 200px;
+}
+
+#skillNameSub {
+  width: 165px;
+}
+
+#skillLevel {
+  width: 30px;
+}
+
+tr [colSpan="2"] {
+  text-align: center;
 }
 
 .skill-effect, .skill-inherit {

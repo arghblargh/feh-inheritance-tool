@@ -152,21 +152,6 @@ export function getUnitsWithSkill(skill, type) {
     return unitList;
 }
 
-// Builds list of max skills of a type
-function buildSkillList(type) {
-    let skillList = new Set();
-    for (let unit in units) {
-        let skillData = units[unit].skills[type];
-        if (skillData !== '') {
-            for (let index in skillData) {
-                if (skillData[index].name)
-                    skillList.add(skillData[index].name);
-            }
-        }
-    }
-    return Array.from(skillList);
-}
-
 // Check inheritance restrictions.
 function checkRestrictions(unit, restrictions, color = '') {
     let unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
@@ -215,61 +200,24 @@ function checkRestrictions(unit, restrictions, color = '') {
 // Returns an object containing lists of all inheritable skills for a unit
 export function getPossibleSkills(unit) {
     let skills = {};
-    skills.weapons = ['']; 
-    skills.assists = ['']; 
-    skills.specials = ['']; 
-    skills.passivesA = ['']; 
-    skills.passivesB = ['']; 
-    skills.passivesC = [''];
-
-    let wpnList = buildSkillList('weapon');
-    let astList = buildSkillList('assist');
-    let spcList = buildSkillList('special');
-    let psAList = buildSkillList('passiveA');
-    let psBList = buildSkillList('passiveB');
-    let psCList = buildSkillList('passiveC');
-    let sklName, index;
-
-    for (index in wpnList) {
-        sklName = wpnList[index];
-        if (checkRestrictions(unit, weapons[sklName].type + ', ' + weapons[sklName].restriction, weapons[sklName].color)) {
-            skills.weapons.push(sklName);
-        }
-    }
-    for (index in astList) {
-        sklName = astList[index];
-        if (checkRestrictions(unit, assists[sklName].restriction)) {
-            skills.assists.push(sklName);
-        }
-    }
-    for (index in spcList) {
-        sklName = spcList[index];
-        if (checkRestrictions(unit, specials[sklName].restriction)) {
-            skills.specials.push(sklName);
-        }
-    }
-    for (index in psAList) {
-        sklName = psAList[index];
-        if (checkRestrictions(unit, passives.A[sklName].restriction)) {
-            skills.passivesA.push(sklName);
-        }
-    }
-    for (index in psBList) {
-        sklName = psBList[index];
-        if (checkRestrictions(unit, passives.B[sklName].restriction)) {
-            skills.passivesB.push(sklName);
-        }
-    }
-    for (index in psCList) {
-        sklName = psCList[index];
-        if (checkRestrictions(unit, passives.C[sklName].restriction)) {
-            skills.passivesC.push(sklName);
-        }
-    }
-
-    for (index in skills) {
-        skills[index] = skills[index].sort();
-    }
+    skills.weapons = ['', ...new Set(Object.keys(weapons).filter(skill =>  
+        checkRestrictions(unit, weapons[skill].type + ', ' + weapons[skill].restriction, weapons[skill].color)))];
+    skills.assists = ['', ...new Set(Object.keys(assists).filter(skill =>
+        checkRestrictions(unit, assists[skill].restriction)))];
+    skills.specials = ['', ...new Set(Object.keys(specials).filter(skill =>
+        checkRestrictions(unit, specials[skill].restriction)))];
+    skills.passivesA = ['', ...new Set(Object.keys(passives.A).filter(skill =>
+        checkRestrictions(unit, passives.A[skill].restriction)).map(name => { 
+            return /[^1-9]*/i.exec(name)[0];
+        }))];
+    skills.passivesB = ['', ...new Set(Object.keys(passives.B).filter(skill =>
+        checkRestrictions(unit, passives.B[skill].restriction)).map(name => { 
+            return /[^1-9]*/i.exec(name)[0];
+        }))];
+    skills.passivesC = ['', ...new Set(Object.keys(passives.C).filter(skill =>
+        checkRestrictions(unit, passives.C[skill].restriction)).map(name => { 
+            return /[^1-9]*/i.exec(name)[0];
+        }))];
 
     return skills;
 }
@@ -301,7 +249,7 @@ export function calcStats(unit, skills) {
     let temp;
 
     if (skills.weapon)
-        totalMod[1] += parseInt(weapons[skills.weapon].might, 10);
+        totalMod[1] += weapons[skills.weapon].might;
 
     // Add stats from skills
     if (/Brave/.test(skills.weapon)) {
