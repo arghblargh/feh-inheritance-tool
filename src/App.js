@@ -83,7 +83,7 @@ class SkillInfoRow extends Component {
     if (/[1-9]/.test(this.props.skillName)) {
       hasSkillLevel = true;
       skillDropdown = 
-        <td className="skill-name">
+        <td className="skill-name-sub">
           <Dropdown id='skillNameSub'
                     options={this.props.options}
                     value={/[^1-9]*/.exec(this.props.skillName)[0]}
