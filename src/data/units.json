@@ -95,6 +95,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
           "name": "Fólkvangr",
           "unlock": 5
         }
@@ -107,11 +119,23 @@
       ],
       "special": [
         {
+          "name": "Daylight",
+          "unlock": 2
+        },
+        {
           "name": "Sol",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 2
+        },
         {
           "name": "Death Blow 3",
           "unlock": 4
@@ -124,6 +148,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Atk 3",
           "unlock": 5
@@ -145,6 +177,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
           "name": "Nóatún",
           "unlock": 5
         }
@@ -156,6 +200,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 2
+        },
         {
           "name": "Astra",
           "unlock": 4
@@ -169,11 +217,27 @@
       ],
       "passiveB": [
         {
+          "name": "Vantage 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 4
+        },
+        {
           "name": "Vantage 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 2
+        },
+        {
+          "name": "Spur Res 2",
+          "unlock": 2
+        },
         {
           "name": "Spur Res 3",
           "unlock": 4
@@ -195,6 +259,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Emerald Axe",
+          "unlock": 3
+        },
+        {
           "name": "Emerald Axe+",
           "unlock": 5
         }
@@ -213,11 +289,27 @@
       ],
       "passiveA": [
         {
+          "name": "HP +3",
+          "unlock": 3
+        },
+        {
+          "name": "HP +4",
+          "unlock": 3
+        },
+        {
           "name": "HP +5",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Lancebreaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "Lancebreaker 2",
+          "unlock": 4
+        },
         {
           "name": "Lancebreaker 3",
           "unlock": 5
@@ -255,6 +347,14 @@
       ],
       "assist": [
         {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 3
+        },
+        {
           "name": "Martyr",
           "unlock": 4
         }
@@ -262,7 +362,7 @@
       "special": [
         {
           "name": "Imbue",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Solid-Earth Balm",
@@ -282,6 +382,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Atk 3",
           "unlock": 5
@@ -303,6 +411,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Sapphire Lance",
+          "unlock": 5
+        },
+        {
           "name": "Sapphire Lance+",
           "unlock": 5
         }
@@ -321,6 +441,14 @@
       ],
       "passiveA": [
         {
+          "name": "Speed +1",
+          "unlock": 5
+        },
+        {
+          "name": "Speed +2",
+          "unlock": 5
+        },
+        {
           "name": "Speed +3",
           "unlock": 5
         }
@@ -332,6 +460,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 5
+        },
         {
           "name": "Fortify Res 3",
           "unlock": 5
@@ -352,6 +488,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Brave Axe",
+          "unlock": 3
+        },
         {
           "name": "Brave Axe+",
           "unlock": 5
@@ -383,6 +531,14 @@
       ],
       "passiveC": [
         {
+          "name": "Spur Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 3
+        },
+        {
           "name": "Spur Atk 3",
           "unlock": 4
         }
@@ -403,6 +559,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Hammer",
+          "unlock": 3
+        },
+        {
           "name": "Hammer+",
           "unlock": 5
         }
@@ -421,11 +589,27 @@
       ],
       "passiveA": [
         {
+          "name": "Fury 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 4
+        },
+        {
           "name": "Fury 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Brash Assault 1",
+          "unlock": 3
+        },
+        {
+          "name": "Brash Assault 2",
+          "unlock": 3
+        },
         {
           "name": "Brash Assault 3",
           "unlock": 4
@@ -453,6 +637,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Killer Axe",
+          "unlock": 3
+        },
+        {
           "name": "Killer Axe+",
           "unlock": 5
         }
@@ -465,11 +661,23 @@
       ],
       "special": [
         {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
           "name": "Glimmer",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Def 2",
+          "unlock": 3
+        },
         {
           "name": "Defiant Def 3",
           "unlock": 4
@@ -503,6 +711,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Armorslayer",
+          "unlock": 4
+        },
+        {
           "name": "Armorslayer+",
           "unlock": 5
         }
@@ -521,6 +741,14 @@
       ],
       "passiveA": [
         {
+          "name": "Darting Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 4
+        },
+        {
           "name": "Darting Blow 3",
           "unlock": 5
         }
@@ -532,6 +760,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 4
+        },
         {
           "name": "Fortify Res 2",
           "unlock": 4
@@ -557,6 +789,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Sword",
+          "unlock": 4
+        },
+        {
           "name": "Brave Sword+",
           "unlock": 5
         }
@@ -568,6 +812,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Buckler",
+          "unlock": 4
+        },
         {
           "name": "Escutcheon",
           "unlock": 4
@@ -581,11 +829,27 @@
       ],
       "passiveB": [
         {
+          "name": "Wings of Mercy 1",
+          "unlock": 4
+        },
+        {
+          "name": "Wings of Mercy 2",
+          "unlock": 4
+        },
+        {
           "name": "Wings of Mercy 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Atk 3",
           "unlock": 5
@@ -607,6 +871,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Axe",
+          "unlock": 4
+        },
+        {
           "name": "Brave Axe+",
           "unlock": 5
         }
@@ -619,11 +895,23 @@
       ],
       "special": [
         {
+          "name": "Dracon Gaze",
+          "unlock": 4
+        },
+        {
           "name": "Draconic Aura",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 4
+        },
         {
           "name": "Darting Blow 3",
           "unlock": 5
@@ -636,6 +924,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Savage Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Savage Blow 2",
+          "unlock": 4
+        },
         {
           "name": "Savage Blow 3",
           "unlock": 4
@@ -657,6 +953,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Killer Lance",
+          "unlock": 4
+        },
+        {
           "name": "Killer Lance+",
           "unlock": 5
         }
@@ -669,17 +977,37 @@
       ],
       "special": [
         {
+          "name": "New Moon",
+          "unlock": 4
+        },
+        {
           "name": "Luna",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Armored Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Armored Blow 2",
+          "unlock": 4
+        },
+        {
           "name": "Armored Blow 3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Seal Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Seal Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Seal Atk 3",
           "unlock": 5
@@ -707,6 +1035,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Gronnraven",
+          "unlock": 3
+        },
+        {
           "name": "Gronnraven+",
           "unlock": 5
         }
@@ -725,11 +1065,27 @@
       ],
       "passiveA": [
         {
+          "name": "Attack +1",
+          "unlock": 3
+        },
+        {
+          "name": "Attack +2",
+          "unlock": 4
+        },
+        {
           "name": "Attack +3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Escape Route 1",
+          "unlock": 1
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 2
+        },
         {
           "name": "Escape Route 3",
           "unlock": 4
@@ -757,6 +1113,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Hammer",
+          "unlock": 3
+        },
+        {
           "name": "Hammer+",
           "unlock": 5
         }
@@ -775,6 +1143,14 @@
       ],
       "passiveA": [
         {
+          "name": "Attack +1",
+          "unlock": 3
+        },
+        {
+          "name": "Attack +2",
+          "unlock": 3
+        },
+        {
           "name": "Attack +3",
           "unlock": 4
         }
@@ -786,6 +1162,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 4
+        },
         {
           "name": "Fortify Def 3",
           "unlock": 5
@@ -807,6 +1191,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
           "name": "Falchion",
           "unlock": 5
         }
@@ -819,6 +1215,10 @@
       ],
       "special": [
         {
+          "name": "Daylight",
+          "unlock": 4
+        },
+        {
           "name": "Sol",
           "unlock": 4
         },
@@ -828,6 +1228,14 @@
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Defiant Def 2",
+          "unlock": 4
+        },
         {
           "name": "Defiant Def 3",
           "unlock": 4
@@ -840,6 +1248,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Def 3",
           "unlock": 5
@@ -871,6 +1287,14 @@
       ],
       "assist": [
         {
+          "name": "Heal",
+          "unlock": 3
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 3
+        },
+        {
           "name": "Martyr",
           "unlock": 4
         }
@@ -886,6 +1310,14 @@
         }
       ],
       "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 3
+        },
+        {
+          "name": "Resistance +2",
+          "unlock": 4
+        },
         {
           "name": "Resistance +3",
           "unlock": 5
@@ -919,6 +1351,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Lance",
+          "unlock": 4
+        },
+        {
           "name": "Brave Lance+",
           "unlock": 5
         }
@@ -931,6 +1375,10 @@
       ],
       "special": [
         {
+          "name": "Night Sky",
+          "unlock": 4
+        },
+        {
           "name": "Astra",
           "unlock": 4
         },
@@ -941,11 +1389,27 @@
       ],
       "passiveA": [
         {
+          "name": "Triangle Adept 1",
+          "unlock": 4
+        },
+        {
+          "name": "Triangle Adept 2",
+          "unlock": 4
+        },
+        {
           "name": "Triangle Adept 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Pass 1",
+          "unlock": 4
+        },
+        {
+          "name": "Pass 2",
+          "unlock": 4
+        },
         {
           "name": "Pass 3",
           "unlock": 4
@@ -973,6 +1437,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Fire Breath",
+          "unlock": 3
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 3
+        },
+        {
+          "name": "Dark Breath",
+          "unlock": 3
+        },
+        {
           "name": "Dark Breath+",
           "unlock": 5
         }
@@ -984,6 +1460,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Dracon Gaze",
+          "unlock": 3
+        },
         {
           "name": "Draconic Aura",
           "unlock": 4
@@ -997,11 +1477,27 @@
       ],
       "passiveB": [
         {
+          "name": "Seal Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Seal Res 2",
+          "unlock": 4
+        },
+        {
           "name": "Seal Res 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 3
+        },
         {
           "name": "Hone Atk 3",
           "unlock": 4
@@ -1023,6 +1519,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
           "name": "Yato",
           "unlock": 5
         }
@@ -1035,17 +1543,37 @@
       ],
       "special": [
         {
+          "name": "Dragon Gaze",
+          "unlock": 4
+        },
+        {
           "name": "Dragon Fang",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Defense +1",
+          "unlock": 4
+        },
+        {
+          "name": "Defense +2",
+          "unlock": 4
+        },
+        {
           "name": "Defense +3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Obstruct 1",
+          "unlock": 4
+        },
+        {
+          "name": "Obstruct 2",
+          "unlock": 4
+        },
         {
           "name": "Obstruct 3",
           "unlock": 5
@@ -1073,6 +1601,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Brave Lance",
+          "unlock": 3
+        },
+        {
           "name": "Brave Lance+",
           "unlock": 5
         }
@@ -1090,6 +1630,14 @@
         }
       ],
       "passiveA": [
+        {
+          "name": "HP +3",
+          "unlock": 1
+        },
+        {
+          "name": "HP +4",
+          "unlock": 2
+        },
         {
           "name": "HP +5",
           "unlock": 4
@@ -1123,6 +1671,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Brave Sword",
+          "unlock": 3
+        },
+        {
           "name": "Brave Sword+",
           "unlock": 5
         }
@@ -1134,6 +1694,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Buckler",
+          "unlock": 3
+        },
         {
           "name": "Pavise",
           "unlock": 4
@@ -1152,6 +1716,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 2
+        },
         {
           "name": "Spur Def 2",
           "unlock": 2
@@ -1177,6 +1745,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 4
+        },
+        {
           "name": "Silver Lance+",
           "unlock": 5
         }
@@ -1195,11 +1775,27 @@
       ],
       "passiveA": [
         {
+          "name": "Death Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 4
+        },
+        {
           "name": "Death Blow 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 4
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 4
+        },
         {
           "name": "Wary Fighter 3",
           "unlock": 4
@@ -1226,6 +1822,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
         {
           "name": "Sieglinde",
           "unlock": 5
@@ -1257,6 +1865,14 @@
       ],
       "passiveC": [
         {
+          "name": "Hone Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 4
+        },
+        {
           "name": "Hone Spd 3",
           "unlock": 4
         }
@@ -1277,6 +1893,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Killing Edge",
+          "unlock": 5
+        },
+        {
           "name": "Mystletainn",
           "unlock": 5
         }
@@ -1289,11 +1917,23 @@
       ],
       "special": [
         {
+          "name": "Rising Light",
+          "unlock": 5
+        },
+        {
           "name": "Growing Light",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Fury 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 5
+        },
         {
           "name": "Fury 3",
           "unlock": 5
@@ -1328,7 +1968,7 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 1
+          "unlock": 5
         },
         {
           "name": "Gravity",
@@ -1337,6 +1977,14 @@
       ],
       "assist": [
         {
+          "name": "Heal",
+          "unlock": 5
+        },
+        {
+          "name": "Mend",
+          "unlock": 5
+        },
+        {
           "name": "Recover",
           "unlock": 5
         }
@@ -1344,7 +1992,7 @@
       "special": [
         {
           "name": "Imbue",
-          "unlock": 2
+          "unlock": 5
         },
         {
           "name": "Kindled-Fire Balm",
@@ -1358,6 +2006,14 @@
         }
       ],
       "passiveB": [
+        {
+          "name": "Live to Serve 1",
+          "unlock": 5
+        },
+        {
+          "name": "Live to Serve 2",
+          "unlock": 5
+        },
         {
           "name": "Live to Serve 3",
           "unlock": 5
@@ -1385,6 +2041,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
           "name": "Durandal",
           "unlock": 5
         }
@@ -1396,6 +2064,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Holy Vestments",
+          "unlock": 3
+        },
         {
           "name": "Sacred Cowl",
           "unlock": 4
@@ -1409,11 +2081,23 @@
       ],
       "passiveB": [
         {
+          "name": "Axebreaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "Axebreaker 2",
+          "unlock": 4
+        },
+        {
           "name": "Axebreaker 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 3
+        },
         {
           "name": "Spur Res 2",
           "unlock": 3
@@ -1439,6 +2123,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Heavy Spear",
+          "unlock": 5
+        },
+        {
           "name": "Siegmund",
           "unlock": 5
         }
@@ -1450,6 +2146,10 @@
         }
       ],
       "special": [
+        {
+          "name": "New Moon",
+          "unlock": 5
+        },
         {
           "name": "Moonbow",
           "unlock": 5
@@ -1463,11 +2163,27 @@
       ],
       "passiveB": [
         {
+          "name": "Seal Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Def 2",
+          "unlock": 5
+        },
+        {
           "name": "Seal Def 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Threaten Def 2",
+          "unlock": 5
+        },
         {
           "name": "Threaten Def 3",
           "unlock": 5
@@ -1489,6 +2205,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Heavy Spear",
+          "unlock": 3
+        },
+        {
           "name": "Heavy Spear+",
           "unlock": 5
         }
@@ -1507,11 +2235,27 @@
       ],
       "passiveA": [
         {
+          "name": "Defiant Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Res 2",
+          "unlock": 3
+        },
+        {
           "name": "Defiant Res 3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Seal Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Seal Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Seal Spd 3",
           "unlock": 5
@@ -1539,6 +2283,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Fire Breath",
+          "unlock": 4
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 4
+        },
+        {
+          "name": "Light Breath",
+          "unlock": 4
+        },
+        {
           "name": "Light Breath+",
           "unlock": 5
         }
@@ -1563,11 +2319,27 @@
       ],
       "passiveB": [
         {
+          "name": "Renewal 1",
+          "unlock": 4
+        },
+        {
+          "name": "Renewal 2",
+          "unlock": 4
+        },
+        {
           "name": "Renewal 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Atk 3",
           "unlock": 5
@@ -1589,6 +2361,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 3
+        },
+        {
           "name": "Silver Dagger+",
           "unlock": 5
         }
@@ -1601,11 +2385,23 @@
       ],
       "special": [
         {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
           "name": "Glacies",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 3
+        },
+        {
+          "name": "Resistance +2",
+          "unlock": 4
+        },
         {
           "name": "Resistance +3",
           "unlock": 5
@@ -1618,6 +2414,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Breath of Life 1",
+          "unlock": 1
+        },
+        {
+          "name": "Breath of Life 2",
+          "unlock": 2
+        },
         {
           "name": "Breath of Life 3",
           "unlock": 4
@@ -1639,6 +2443,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Killing Edge",
+          "unlock": 3
+        },
+        {
           "name": "Killing Edge+",
           "unlock": 5
         }
@@ -1651,17 +2467,37 @@
       ],
       "special": [
         {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
           "name": "Glacies",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Speed +1",
+          "unlock": 3
+        },
+        {
+          "name": "Speed +2",
+          "unlock": 4
+        },
+        {
           "name": "Speed +3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Pass 1",
+          "unlock": 3
+        },
+        {
+          "name": "Pass 2",
+          "unlock": 4
+        },
         {
           "name": "Pass 3",
           "unlock": 5
@@ -1689,6 +2525,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Heavy Spear",
+          "unlock": 3
+        },
+        {
           "name": "Heavy Spear+",
           "unlock": 5
         }
@@ -1707,6 +2555,14 @@
       ],
       "passiveA": [
         {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 3
+        },
+        {
           "name": "Darting Blow 3",
           "unlock": 4
         }
@@ -1718,6 +2574,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Breath of Life 1",
+          "unlock": 3
+        },
+        {
+          "name": "Breath of Life 2",
+          "unlock": 3
+        },
         {
           "name": "Breath of Life 3",
           "unlock": 5
@@ -1739,6 +2603,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Hammer",
+          "unlock": 3
+        },
+        {
           "name": "Hammer+",
           "unlock": 5
         }
@@ -1750,6 +2626,10 @@
         }
       ],
       "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
         {
           "name": "Luna",
           "unlock": 4
@@ -1763,11 +2643,27 @@
       ],
       "passiveB": [
         {
+          "name": "Wings of Mercy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wings of Mercy 2",
+          "unlock": 4
+        },
+        {
           "name": "Wings of Mercy 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 3
+        },
         {
           "name": "Fortify Def 3",
           "unlock": 4
@@ -1789,6 +2685,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Rogue Dagger",
+          "unlock": 3
+        },
+        {
           "name": "Rogue Dagger+",
           "unlock": 5
         }
@@ -1807,11 +2715,27 @@
       ],
       "passiveA": [
         {
+          "name": "Defiant Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Atk 2",
+          "unlock": 4
+        },
+        {
           "name": "Defiant Atk 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Pass 1",
+          "unlock": 3
+        },
+        {
+          "name": "Pass 2",
+          "unlock": 3
+        },
         {
           "name": "Pass 3",
           "unlock": 4
@@ -1839,6 +2763,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Brave Bow",
+          "unlock": 3
+        },
+        {
           "name": "Brave Bow+",
           "unlock": 5
         }
@@ -1857,11 +2793,27 @@
       ],
       "passiveA": [
         {
+          "name": "Attack +1",
+          "unlock": 3
+        },
+        {
+          "name": "Attack +2",
+          "unlock": 3
+        },
+        {
           "name": "Attack +3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Vantage 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 4
+        },
         {
           "name": "Vantage 3",
           "unlock": 5
@@ -1889,6 +2841,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
           "name": "Silver Axe+",
           "unlock": 5
         }
@@ -1907,6 +2871,14 @@
       ],
       "passiveA": [
         {
+          "name": "Armored Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armored Blow 2",
+          "unlock": 3
+        },
+        {
           "name": "Armored Blow 3",
           "unlock": 5
         }
@@ -1918,6 +2890,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 1
+        },
         {
           "name": "Hone Atk 2",
           "unlock": 2
@@ -1943,6 +2919,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Killer Lance",
+          "unlock": 3
+        },
+        {
           "name": "Killer Lance+",
           "unlock": 5
         }
@@ -1954,6 +2942,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Buckler",
+          "unlock": 3
+        },
         {
           "name": "Escutcheon",
           "unlock": 4
@@ -1972,6 +2964,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 3
+        },
         {
           "name": "Hone Atk 2",
           "unlock": 3
@@ -1997,6 +2993,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Armorslayer",
+          "unlock": 3
+        },
+        {
           "name": "Armorslayer+",
           "unlock": 5
         }
@@ -2015,11 +3023,27 @@
       ],
       "passiveA": [
         {
+          "name": "Life and Death 1",
+          "unlock": 3
+        },
+        {
+          "name": "Life and Death 2",
+          "unlock": 4
+        },
+        {
           "name": "Life and Death 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Obstruct 1",
+          "unlock": 1
+        },
+        {
+          "name": "Obstruct 2",
+          "unlock": 2
+        },
         {
           "name": "Obstruct 3",
           "unlock": 4
@@ -2047,6 +3071,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Killer Axe",
+          "unlock": 4
+        },
+        {
           "name": "Killer Axe+",
           "unlock": 5
         }
@@ -2059,11 +3095,23 @@
       ],
       "special": [
         {
+          "name": "Rising Light",
+          "unlock": 4
+        },
+        {
           "name": "Growing Light",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 4
+        },
         {
           "name": "Death Blow 3",
           "unlock": 5
@@ -2076,6 +3124,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Atk 3",
           "unlock": 4
@@ -2097,6 +3153,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 5
+        },
+        {
           "name": "Armads",
           "unlock": 5
         }
@@ -2108,6 +3176,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Buckler",
+          "unlock": 5
+        },
         {
           "name": "Pavise",
           "unlock": 5
@@ -2126,6 +3198,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 5
+        },
         {
           "name": "Spur Atk 2",
           "unlock": 5
@@ -2151,6 +3227,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Flux",
+          "unlock": 3
+        },
+        {
+          "name": "Ruin",
+          "unlock": 3
+        },
+        {
+          "name": "Rauðrraven",
+          "unlock": 3
+        },
+        {
           "name": "Rauðrraven+",
           "unlock": 5
         }
@@ -2163,17 +3251,37 @@
       ],
       "special": [
         {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
           "name": "Ignis",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Defiant Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Def 2",
+          "unlock": 4
+        },
+        {
           "name": "Defiant Def 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "G Tomebreaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "G Tomebreaker 2",
+          "unlock": 3
+        },
         {
           "name": "G Tomebreaker 3",
           "unlock": 4
@@ -2201,6 +3309,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Ruby Sword",
+          "unlock": 3
+        },
+        {
           "name": "Ruby Sword+",
           "unlock": 5
         }
@@ -2213,17 +3333,37 @@
       ],
       "special": [
         {
+          "name": "Buckler",
+          "unlock": 3
+        },
+        {
           "name": "Pavise",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Fury 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 2
+        },
+        {
           "name": "Fury 3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Brash Assault 1",
+          "unlock": 3
+        },
+        {
+          "name": "Brash Assault 2",
+          "unlock": 4
+        },
         {
           "name": "Brash Assault 3",
           "unlock": 5
@@ -2251,6 +3391,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Brave Lance",
+          "unlock": 5
+        },
+        {
           "name": "Brave Lance+",
           "unlock": 5
         }
@@ -2263,11 +3415,23 @@
       ],
       "special": [
         {
+          "name": "Rising Wind",
+          "unlock": 5
+        },
+        {
           "name": "Blazing Wind",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Defiant Def 2",
+          "unlock": 5
+        },
         {
           "name": "Defiant Def 3",
           "unlock": 5
@@ -2280,6 +3444,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 5
+        },
         {
           "name": "Hone Spd 2",
           "unlock": 5
@@ -2305,6 +3473,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Dagger",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 5
+        },
+        {
           "name": "Deathly Dagger",
           "unlock": 5
         }
@@ -2317,11 +3497,23 @@
       ],
       "special": [
         {
+          "name": "Night Sky",
+          "unlock": 5
+        },
+        {
           "name": "Glimmer",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Life and Death 1",
+          "unlock": 5
+        },
+        {
+          "name": "Life and Death 2",
+          "unlock": 5
+        },
         {
           "name": "Life and Death 3",
           "unlock": 5
@@ -2334,6 +3526,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Threaten Spd 2",
+          "unlock": 5
+        },
         {
           "name": "Threaten Spd 3",
           "unlock": 5
@@ -2355,6 +3555,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
           "name": "Silver Lance+",
           "unlock": 5
         }
@@ -2367,11 +3579,23 @@
       ],
       "special": [
         {
+          "name": "Holy Vestments",
+          "unlock": 3
+        },
+        {
           "name": "Aegis",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Fury 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 4
+        },
         {
           "name": "Fury 3",
           "unlock": 5
@@ -2384,6 +3608,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 3
+        },
         {
           "name": "Fortify Res 2",
           "unlock": 3
@@ -2409,6 +3637,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Dagger",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 4
+        },
+        {
           "name": "Silver Dagger+",
           "unlock": 5
         }
@@ -2427,11 +3667,27 @@
       ],
       "passiveA": [
         {
+          "name": "Defense +1",
+          "unlock": 4
+        },
+        {
+          "name": "Defense +2",
+          "unlock": 4
+        },
+        {
           "name": "Defense +3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Renewal 1",
+          "unlock": 4
+        },
+        {
+          "name": "Renewal 2",
+          "unlock": 4
+        },
         {
           "name": "Renewal 3",
           "unlock": 5
@@ -2459,6 +3715,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 4
+        },
+        {
           "name": "Parthia",
           "unlock": 5
         }
@@ -2470,6 +3738,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Rising Flame",
+          "unlock": 4
+        },
         {
           "name": "Blazing Flame",
           "unlock": 4
@@ -2483,11 +3755,27 @@
       ],
       "passiveB": [
         {
+          "name": "Seal Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Seal Atk 2",
+          "unlock": 4
+        },
+        {
           "name": "Seal Atk 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Spd 3",
           "unlock": 5
@@ -2509,6 +3797,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 5
+        },
+        {
           "name": "Naga",
           "unlock": 5
         }
@@ -2521,11 +3821,23 @@
       ],
       "special": [
         {
+          "name": "Dragon Gaze",
+          "unlock": 5
+        },
+        {
           "name": "Dragon Fang",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 5
+        },
+        {
+          "name": "Resistance +2",
+          "unlock": 5
+        },
         {
           "name": "Resistance +3",
           "unlock": 5
@@ -2538,6 +3850,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Breath of Life 1",
+          "unlock": 5
+        },
+        {
+          "name": "Breath of Life 2",
+          "unlock": 5
+        },
         {
           "name": "Breath of Life 3",
           "unlock": 5
@@ -2559,6 +3879,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Dagger",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 4
+        },
+        {
+          "name": "Poison Dagger",
+          "unlock": 4
+        },
+        {
           "name": "Poison Dagger+",
           "unlock": 5
         }
@@ -2571,17 +3903,37 @@
       ],
       "special": [
         {
+          "name": "Retribution",
+          "unlock": 4
+        },
+        {
           "name": "Reprisal",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Warding Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Warding Blow 2",
+          "unlock": 4
+        },
+        {
           "name": "Warding Blow 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Daggerbreaker 1",
+          "unlock": 4
+        },
+        {
+          "name": "Daggerbreaker 2",
+          "unlock": 4
+        },
         {
           "name": "Daggerbreaker 3",
           "unlock": 4
@@ -2609,6 +3961,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Wo Dao",
+          "unlock": 5
+        },
+        {
           "name": "Wo Dao+",
           "unlock": 5
         }
@@ -2621,17 +3985,37 @@
       ],
       "special": [
         {
+          "name": "Retribution",
+          "unlock": 5
+        },
+        {
           "name": "Reprisal",
           "unlock": 5
         }
       ],
       "passiveA": [
         {
+          "name": "Defiant Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Defiant Atk 2",
+          "unlock": 5
+        },
+        {
           "name": "Defiant Atk 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 5
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 5
+        },
         {
           "name": "Desperation 3",
           "unlock": 5
@@ -2659,6 +4043,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Bow",
+          "unlock": 4
+        },
+        {
           "name": "Brave Bow+",
           "unlock": 5
         }
@@ -2671,17 +4067,37 @@
       ],
       "special": [
         {
+          "name": "Chilling Wind",
+          "unlock": 4
+        },
+        {
           "name": "Glacies",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Death Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 4
+        },
+        {
           "name": "Death Blow 3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Quick Riposte 1",
+          "unlock": 4
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 4
+        },
         {
           "name": "Quick Riposte 3",
           "unlock": 5
@@ -2710,7 +4126,7 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 1
+          "unlock": 5
         },
         {
           "name": "Absorb",
@@ -2719,6 +4135,14 @@
       ],
       "assist": [
         {
+          "name": "Heal",
+          "unlock": 5
+        },
+        {
+          "name": "MEnd",
+          "unlock": 5
+        },
+        {
           "name": "Physic",
           "unlock": 5
         }
@@ -2726,7 +4150,7 @@
       "special": [
         {
           "name": "Imbue",
-          "unlock": 2
+          "unlock": 5
         },
         {
           "name": "Solid-Earth Balm",
@@ -2746,6 +4170,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Res 2",
+          "unlock": 5
+        },
         {
           "name": "Spur Res 3",
           "unlock": 5
@@ -2767,6 +4199,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
           "name": "Silver Sword+",
           "unlock": 5
         }
@@ -2778,6 +4222,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
         {
           "name": "Noontime",
           "unlock": 4
@@ -2791,11 +4239,27 @@
       ],
       "passiveB": [
         {
+          "name": "Axebreaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "Axebreaker 2",
+          "unlock": 3
+        },
+        {
           "name": "Axebreaker 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Hone Spd 3",
           "unlock": 5
@@ -2817,6 +4281,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Flux",
+          "unlock": 5
+        },
+        {
+          "name": "Ruin",
+          "unlock": 5
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 5
+        },
+        {
           "name": "Brynhildr",
           "unlock": 5
         }
@@ -2828,6 +4304,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Rising Light",
+          "unlock": 5
+        },
         {
           "name": "Blazing Light",
           "unlock": 5
@@ -2841,11 +4321,27 @@
       ],
       "passiveB": [
         {
+          "name": "Quick Riposte 1",
+          "unlock": 5
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 5
+        },
+        {
           "name": "Quick Riposte 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Savage Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Savage Blow 2",
+          "unlock": 5
+        },
         {
           "name": "Savage Blow 3",
           "unlock": 5
@@ -2867,6 +4363,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Fire",
+          "unlock": 4
+        },
+        {
+          "name": "Elfire",
+          "unlock": 4
+        },
+        {
+          "name": "Bolganone",
+          "unlock": 4
+        },
+        {
           "name": "Bolganone+",
           "unlock": 5
         }
@@ -2879,11 +4387,23 @@
       ],
       "special": [
         {
+          "name": "Rising Flame",
+          "unlock": 4
+        },
+        {
           "name": "Growing Flame",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 4
+        },
+        {
+          "name": "Attack +2",
+          "unlock": 4
+        },
         {
           "name": "Attack +3",
           "unlock": 5
@@ -2896,6 +4416,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Atk 3",
           "unlock": 4
@@ -2917,6 +4445,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Thoron",
+          "unlock": 5
+        },
+        {
           "name": "Aura",
           "unlock": 5
         }
@@ -2935,6 +4475,14 @@
       ],
       "passiveA": [
         {
+          "name": "Speed +1",
+          "unlock": 5
+        },
+        {
+          "name": "Speed +2",
+          "unlock": 5
+        },
+        {
           "name": "Speed +3",
           "unlock": 5
         }
@@ -2946,6 +4494,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 5
+        },
         {
           "name": "Fortify Res 3",
           "unlock": 5
@@ -2977,6 +4533,10 @@
       ],
       "assist": [
         {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
           "name": "Reconcile",
           "unlock": 2
         },
@@ -3002,6 +4562,14 @@
         }
       ],
       "passiveB": [
+        {
+          "name": "Renewal 1",
+          "unlock": 3
+        },
+        {
+          "name": "Renewal 2",
+          "unlock": 4
+        },
         {
           "name": "Renewal 3",
           "unlock": 5
@@ -3029,6 +4597,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Killing Edge",
+          "unlock": 3
+        },
+        {
           "name": "Killing Edge+",
           "unlock": 5
         }
@@ -3041,17 +4621,37 @@
       ],
       "special": [
         {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
           "name": "Glimmer",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Speed +1",
+          "unlock": 3
+        },
+        {
+          "name": "Speed +2",
+          "unlock": 4
+        },
+        {
           "name": "Speed +3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Vantage 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 3
+        },
         {
           "name": "Vantage 3",
           "unlock": 4
@@ -3079,6 +4679,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
           "name": "Falchion",
           "unlock": 5
         }
@@ -3090,20 +4702,28 @@
         }
       ],
       "special": [
-        [
-          {
-            "name": "Luna",
-            "unlock": 5
-          }
-        ],
-        [
-          {
-            "name": "Aether",
-            "unlock": 5
-          }
-        ]
+        {
+          "name": "New Moon",
+          "unlock": 5
+        },
+        {
+          "name": "Luna",
+          "unlock": 5
+        },
+        {
+          "name": "Aether",
+          "unlock": 5
+        }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Defiant Spd 2",
+          "unlock": 5
+        },
         {
           "name": "Defiant Spd 3",
           "unlock": 5
@@ -3116,6 +4736,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 5
+        },
         {
           "name": "Spur Atk 3",
           "unlock": 5
@@ -3138,7 +4766,7 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 1
+          "unlock": 5
         },
         {
           "name": "Pain",
@@ -3147,25 +4775,37 @@
       ],
       "assist": [
         {
+          "name": "Heal",
+          "unlock": 5
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 5
+        },
+        {
           "name": "Martyr",
           "unlock": 5
         }
       ],
       "special": [
-        [
-          {
-            "name": "Imbue",
-            "unlock": 2
-          }
-        ],
-        [
-          {
-            "name": "Miracle",
-            "unlock": 5
-          }
-        ]
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Miracle",
+          "unlock": 5
+        }
       ],
       "passiveA": [
+        {
+          "name": "HP +3",
+          "unlock": 5
+        },
+        {
+          "name": "HP +4",
+          "unlock": 5
+        },
         {
           "name": "HP +5",
           "unlock": 5
@@ -3199,6 +4839,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
           "name": "Sol Katti",
           "unlock": 5
         }
@@ -3210,20 +4862,28 @@
         }
       ],
       "special": [
-        [
-          {
-            "name": "Astra",
-            "unlock": 5
-          }
-        ],
-        [
-          {
-            "name": "Galeforce",
-            "unlock": 5
-          }
-        ]
+        {
+          "name": "Night Sky",
+          "unlock": 5
+        },
+        {
+          "name": "Astra",
+          "unlock": 5
+        },
+        {
+          "name": "Galeforce",
+          "unlock": 5
+        }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Defiant Atk 2",
+          "unlock": 5
+        },
         {
           "name": "Defiant Atk 3",
           "unlock": 5
@@ -3236,6 +4896,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Spd 2",
+          "unlock": 5
+        },
         {
           "name": "Spur Spd 3",
           "unlock": 5
@@ -3256,38 +4924,38 @@
     },
     "skills": {
       "weapon": [
-        [
-          {
-            "name": "Assault",
-            "unlock": 1
-          }
-        ],
-        [
-          {
-            "name": "Panic",
-            "unlock": 4
-          }
-        ]
+        {
+          "name": "Assault",
+          "unlock": 4
+        },
+        {
+          "name": "Panic",
+          "unlock": 4
+        }
       ],
       "assist": [
+        {
+          "name": "Heal",
+          "unlock": 4
+        },
+        {
+          "name": "Mend",
+          "unlock": 4
+        },
         {
           "name": "Physic",
           "unlock": 4
         }
       ],
       "special": [
-        [
-          {
-            "name": "Imbue",
-            "unlock": 2
-          }
-        ],
-        [
-          {
-            "name": "Miracle",
-            "unlock": 4
-          }
-        ]
+        {
+          "name": "Imbue",
+          "unlock": 4
+        },
+        {
+          "name": "Miracle",
+          "unlock": 4
+        }
       ],
       "passiveA": [
         {
@@ -3302,6 +4970,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 4
+        },
         {
           "name": "Fortify Res 3",
           "unlock": 5
@@ -3322,6 +4998,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
         {
           "name": "Falchion",
           "unlock": 5
@@ -3347,11 +5035,27 @@
       ],
       "passiveB": [
         {
+          "name": "Escape Route 1",
+          "unlock": 4
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 4
+        },
+        {
           "name": "Escape Route 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Spd 3",
           "unlock": 4
@@ -3372,6 +5076,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Rogue Dagger",
+          "unlock": 3
+        },
         {
           "name": "Rogue Dagger+",
           "unlock": 5
@@ -3397,11 +5113,27 @@
       ],
       "passiveB": [
         {
+          "name": "Poison Strike 1",
+          "unlock": 3
+        },
+        {
+          "name": "Poison Strike 2",
+          "unlock": 4
+        },
+        {
           "name": "Poison Strike 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 2
+        },
         {
           "name": "Hone Spd 3",
           "unlock": 4
@@ -3423,6 +5155,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Wind",
+          "unlock": 4
+        },
+        {
+          "name": "Elwind",
+          "unlock": 4
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 4
+        },
+        {
           "name": "Excalibur",
           "unlock": 5
         }
@@ -3435,11 +5179,23 @@
       ],
       "special": [
         {
+          "name": "Rising Wind",
+          "unlock": 4
+        },
+        {
           "name": "Growing Wind",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "HP +3",
+          "unlock": 4
+        },
+        {
+          "name": "HP +4",
+          "unlock": 4
+        },
         {
           "name": "HP +5",
           "unlock": 5
@@ -3452,6 +5208,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Res 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Res 3",
           "unlock": 4
@@ -3473,6 +5237,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
           "name": "Hauteclere",
           "unlock": 5
         }
@@ -3485,6 +5261,10 @@
       ],
       "special": [
         {
+          "name": "Rising Thunder",
+          "unlock": 5
+        },
+        {
           "name": "Blazing Thunder",
           "unlock": 5
         }
@@ -3492,7 +5272,7 @@
       "passiveA": [
         {
           "name": "Iote's Shield",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -3502,6 +5282,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Def 2",
+          "unlock": 3
+        },
         {
           "name": "Threaten Def 3",
           "unlock": 4
@@ -3523,6 +5311,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 4
+        },
+        {
           "name": "Hauteclere",
           "unlock": 5
         }
@@ -3535,11 +5335,23 @@
       ],
       "special": [
         {
+          "name": "Holy Vestments",
+          "unlock": 3
+        },
+        {
           "name": "Sacred Cowl",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Life and Death 1",
+          "unlock": 3
+        },
+        {
+          "name": "Life and Death 2",
+          "unlock": 4
+        },
         {
           "name": "Life and Death 3",
           "unlock": 5
@@ -3553,12 +5365,16 @@
       ],
       "passiveC": [
         {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
           "name": "Spur Def 2",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Ward Fliers",
-          "unlock": 5
+          "unlock": 4
         }
       ]
     }
@@ -3577,6 +5393,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Emerald Axe",
+          "unlock": 3
+        },
+        {
           "name": "Emerald Axe+",
           "unlock": 5
         }
@@ -3588,6 +5416,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
         {
           "name": "Vengeance",
           "unlock": 4
@@ -3601,11 +5433,27 @@
       ],
       "passiveB": [
         {
+          "name": "Lancebreaker 1",
+          "unlock": 2
+        },
+        {
+          "name": "Lancebreaker 2",
+          "unlock": 3
+        },
+        {
           "name": "Lancebreaker 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Savage Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Savage Blow 2",
+          "unlock": 4
+        },
         {
           "name": "Savage Blow 3",
           "unlock": 5
@@ -3627,6 +5475,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Killer Bow",
+          "unlock": 3
+        },
+        {
           "name": "Killer Bow+",
           "unlock": 5
         }
@@ -3639,11 +5499,23 @@
       ],
       "special": [
         {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
           "name": "Iceberg",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Warding Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Warding Blow 2",
+          "unlock": 3
+        },
         {
           "name": "Warding Blow 3",
           "unlock": 4
@@ -3656,6 +5528,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Res 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Res 3",
           "unlock": 5
@@ -3676,6 +5556,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 5
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 5
+        },
+        {
+          "name": "Light Breath",
+          "unlock": 5
+        },
         {
           "name": "Light Breath+",
           "unlock": 5
@@ -3701,11 +5593,23 @@
       ],
       "passiveB": [
         {
+          "name": "Escape Route 1",
+          "unlock": 5
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 5
+        },
+        {
           "name": "Escape Route 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 5
+        },
         {
           "name": "Fortify Def 2",
           "unlock": 5
@@ -3731,6 +5635,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Elwind",
+          "unlock": 3
+        },
+        {
+          "name": "Gronnblade",
+          "unlock": 3
+        },
+        {
           "name": "Gronnblade+",
           "unlock": 5
         }
@@ -3749,8 +5665,16 @@
       ],
       "passiveA": [
         {
-          "name": "Resistance +3",
+          "name": "Resistance +1",
           "unlock": 3
+        },
+        {
+          "name": "Resistance +2",
+          "unlock": 3
+        },
+        {
+          "name": "Resistance +3",
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -3760,6 +5684,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Hone Atk 3",
           "unlock": 5
@@ -3781,6 +5713,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Fire Breath",
+          "unlock": 4
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 4
+        },
+        {
+          "name": "Lightning Breath",
+          "unlock": 4
+        },
+        {
           "name": "Lightning Breath+",
           "unlock": 5
         }
@@ -3799,6 +5743,14 @@
       ],
       "passiveA": [
         {
+          "name": "Defense +1",
+          "unlock": 4
+        },
+        {
+          "name": "Defense +2",
+          "unlock": 4
+        },
+        {
           "name": "Defense +3",
           "unlock": 5
         }
@@ -3810,6 +5762,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Res 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Res 3",
           "unlock": 4
@@ -3830,6 +5790,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Heavy Spear",
+          "unlock": 3
+        },
         {
           "name": "Heavy Spear+",
           "unlock": 5
@@ -3855,11 +5827,27 @@
       ],
       "passiveB": [
         {
+          "name": "Seal Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Seal Def 2",
+          "unlock": 3
+        },
+        {
           "name": "Seal Def 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Res 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Res 3",
           "unlock": 5
@@ -3881,6 +5869,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Thunder",
+          "unlock": 3
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 3
+        },
+        {
+          "name": "Blárblade",
+          "unlock": 3
+        },
+        {
           "name": "Blárblade+",
           "unlock": 5
         }
@@ -3893,17 +5893,37 @@
       ],
       "special": [
         {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
           "name": "Moonbow",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Defiant Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Atk 2",
+          "unlock": 4
+        },
+        {
           "name": "Defiant Atk 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "R Tomebreaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "R Tomebreaker 2",
+          "unlock": 3
+        },
         {
           "name": "R Tomebreaker 3",
           "unlock": 4
@@ -3931,6 +5951,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Sword",
+          "unlock": 4
+        },
+        {
           "name": "Brave Sword+",
           "unlock": 5
         }
@@ -3943,11 +5975,23 @@
       ],
       "special": [
         {
+          "name": "Daylight",
+          "unlock": 5
+        },
+        {
           "name": "Noontime",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Defiant Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Defiant Atk 3",
           "unlock": 4
@@ -3960,6 +6004,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Atk 3",
           "unlock": 5
@@ -3980,6 +6032,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
         {
           "name": "Silver Sword+",
           "unlock": 5
@@ -4011,6 +6075,14 @@
       ],
       "passiveC": [
         {
+          "name": "Hone Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 2
+        },
+        {
           "name": "Hone Atk 3",
           "unlock": 4
         }
@@ -4031,6 +6103,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Thoron",
+          "unlock": 5
+        },
+        {
           "name": "Dire Thunder",
           "unlock": 5
         }
@@ -4049,6 +6133,14 @@
       ],
       "passiveA": [
         {
+          "name": "Warding Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Warding Blow 2",
+          "unlock": 5
+        },
+        {
           "name": "Warding Blow 3",
           "unlock": 5
         }
@@ -4060,6 +6152,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 5
+        },
         {
           "name": "Spur Res 2",
           "unlock": 5
@@ -4085,6 +6181,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Ruby Sword",
+          "unlock": 3
+        },
+        {
           "name": "Ruby Sword+",
           "unlock": 5
         }
@@ -4096,6 +6204,10 @@
         }
       ],
       "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
         {
           "name": "Moonbow",
           "unlock": 4
@@ -4109,14 +6221,26 @@
       ],
       "passiveB": [
         {
+          "name": "Wings of Mercy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wings of Mercy 2",
+          "unlock": 4
+        },
+        {
           "name": "Wings of Mercy 3",
           "unlock": 5
         }
       ],
       "passiveC": [
         {
+          "name": "Spur Spd 1",
+          "unlock": 3
+        },
+        {
           "name": "Spur Spd 2",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Goad Fliers",
@@ -4139,6 +6263,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Killer Lance",
+          "unlock": 4
+        },
+        {
           "name": "Killer Lance+",
           "unlock": 5
         }
@@ -4151,11 +6287,23 @@
       ],
       "special": [
         {
+          "name": "Night Sky",
+          "unlock": 4
+        },
+        {
           "name": "Glimmer",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 4
+        },
+        {
+          "name": "Resistance +2",
+          "unlock": 4
+        },
         {
           "name": "Resistance +3",
           "unlock": 5
@@ -4168,6 +6316,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Def 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Def 3",
           "unlock": 4
@@ -4190,7 +6346,7 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 1
+          "unlock": 5
         },
         {
           "name": "Panic",
@@ -4198,6 +6354,10 @@
         }
       ],
       "assist": [
+        {
+          "name": "Heal",
+          "unlock": 5
+        },
         {
           "name": "Reconcile",
           "unlock": 5
@@ -4210,7 +6370,7 @@
       "special": [
         {
           "name": "Imbue",
-          "unlock": 2
+          "unlock": 5
         },
         {
           "name": "Still-Water Balm",
@@ -4230,6 +6390,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 5
+        },
         {
           "name": "Spur Def 3",
           "unlock": 5
@@ -4251,6 +6419,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Flux",
+          "unlock": 2
+        },
+        {
+          "name": "Ruin",
+          "unlock": 2
+        },
+        {
+          "name": "Rauðrwolf",
+          "unlock": 3
+        },
+        {
           "name": "Rauðrwolf+",
           "unlock": 5
         }
@@ -4269,11 +6449,27 @@
       ],
       "passiveA": [
         {
+          "name": "HP +3",
+          "unlock": 3
+        },
+        {
+          "name": "HP +4",
+          "unlock": 4
+        },
+        {
           "name": "HP +5",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Seal Res 1",
+          "unlock": 2
+        },
+        {
+          "name": "Seal Res 2",
+          "unlock": 2
+        },
         {
           "name": "Seal Res 3",
           "unlock": 4
@@ -4301,6 +6497,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Axe",
+          "unlock": 4
+        },
+        {
           "name": "Brave Axe+",
           "unlock": 5
         }
@@ -4313,11 +6521,23 @@
       ],
       "special": [
         {
+          "name": "Daylight",
+          "unlock": 4
+        },
+        {
           "name": "Sol",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Defiant Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Defiant Spd 3",
           "unlock": 4
@@ -4330,6 +6550,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Def 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Def 3",
           "unlock": 5
@@ -4351,6 +6579,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 5
+        },
+        {
           "name": "Silver Bow+",
           "unlock": 5
         }
@@ -4369,11 +6609,27 @@
       ],
       "passiveA": [
         {
+          "name": "Darting Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 5
+        },
+        {
           "name": "Darting Blow 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Seal Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Atk 2",
+          "unlock": 5
+        },
         {
           "name": "Seal Atk 3",
           "unlock": 5
@@ -4401,6 +6657,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Thunder",
+          "unlock": 4
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 4
+        },
+        {
+          "name": "Thoron",
+          "unlock": 4
+        },
+        {
           "name": "Dire Thunder",
           "unlock": 5
         }
@@ -4412,6 +6680,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Rising Thunder",
+          "unlock": 4
+        },
         {
           "name": "Blazing Thunder",
           "unlock": 4
@@ -4425,11 +6697,23 @@
       ],
       "passiveB": [
         {
+          "name": "Vantage 1",
+          "unlock": 4
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 4
+        },
+        {
           "name": "Vantage 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
         {
           "name": "Spur Atk 2",
           "unlock": 4
@@ -4455,6 +6739,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Wind",
+          "unlock": 2
+        },
+        {
+          "name": "Elwind",
+          "unlock": 3
+        },
+        {
+          "name": "Gronnwolf",
+          "unlock": 3
+        },
+        {
           "name": "Gronnwolf+",
           "unlock": 5
         }
@@ -4467,17 +6763,37 @@
       ],
       "special": [
         {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
           "name": "Ignis",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Defiant Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Res 2",
+          "unlock": 4
+        },
+        {
           "name": "Defiant Res 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "B Tomebreaker 1",
+          "unlock": 2
+        },
+        {
+          "name": "B Tomebreaker 2",
+          "unlock": 2
+        },
         {
           "name": "B Tomebreaker 3",
           "unlock": 4
@@ -4505,6 +6821,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Thunder",
+          "unlock": 3
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 3
+        },
+        {
+          "name": "Blárraven",
+          "unlock": 3
+        },
+        {
           "name": "Blárraven+",
           "unlock": 5
         }
@@ -4517,11 +6845,23 @@
       ],
       "special": [
         {
+          "name": "Glowing Ember",
+          "unlock": 4
+        },
+        {
           "name": "Bonfire",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Defiant Spd 3",
           "unlock": 5
@@ -4534,6 +6874,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 3
+        },
         {
           "name": "Spur Def 3",
           "unlock": 4
@@ -4555,6 +6903,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
           "name": "Binding Blade",
           "unlock": 5
         }
@@ -4573,11 +6933,27 @@
       ],
       "passiveA": [
         {
+          "name": "Triangle Adept 1",
+          "unlock": 4
+        },
+        {
+          "name": "Triangle Adept 2",
+          "unlock": 4
+        },
+        {
           "name": "Triangle Adept 3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Seal Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Seal Def 2",
+          "unlock": 4
+        },
         {
           "name": "Seal Def 3",
           "unlock": 5
@@ -4605,6 +6981,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
           "name": "Raijinto",
           "unlock": 5
         }
@@ -4617,11 +7005,23 @@
       ],
       "special": [
         {
+          "name": "Night Sky",
+          "unlock": 5
+        },
+        {
           "name": "Astra",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Defiant Atk 2",
+          "unlock": 5
+        },
         {
           "name": "Defiant Atk 3",
           "unlock": 5
@@ -4634,6 +7034,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 5
+        },
         {
           "name": "Hone Spd 3",
           "unlock": 5
@@ -4654,6 +7062,18 @@
     },
     "skills": {
       "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Smoke Dagger",
+          "unlock": 3
+        },
         {
           "name": "Smoke Dagger+",
           "unlock": 5
@@ -4679,11 +7099,27 @@
       ],
       "passiveB": [
         {
+          "name": "Poison Strike 1",
+          "unlock": 3
+        },
+        {
+          "name": "Poison Strike 32",
+          "unlock": 3
+        },
+        {
           "name": "Poison Strike 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Spd 3",
           "unlock": 5
@@ -4706,7 +7142,7 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 1
+          "unlock": 4
         },
         {
           "name": "Fear",
@@ -4714,6 +7150,14 @@
         }
       ],
       "assist": [
+        {
+          "name": "Heal",
+          "unlock": 4
+        },
+        {
+          "name": "Mend",
+          "unlock": 4
+        },
         {
           "name": "Physic",
           "unlock": 4
@@ -4743,6 +7187,14 @@
       ],
       "passiveC": [
         {
+          "name": "Fortify Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Fortify Def 1",
+          "unlock": 4
+        },
+        {
           "name": "Fortify Def 3",
           "unlock": 5
         }
@@ -4763,6 +7215,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Fire",
+          "unlock": 5
+        },
+        {
+          "name": "Elfire",
+          "unlock": 5
+        },
+        {
+          "name": "Bolganone",
+          "unlock": 5
+        },
+        {
           "name": "Cymbeline",
           "unlock": 5
         }
@@ -4781,6 +7245,14 @@
       ],
       "passiveA": [
         {
+          "name": "Triangle Adept 1",
+          "unlock": 5
+        },
+        {
+          "name": "Triangle Adept 2",
+          "unlock": 5
+        },
+        {
           "name": "Triangle Adept 3",
           "unlock": 5
         }
@@ -4792,6 +7264,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 5
+        },
         {
           "name": "Hone Atk 3",
           "unlock": 5
@@ -4813,6 +7293,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Armorslayer",
+          "unlock": 3
+        },
+        {
           "name": "Armorslayer+",
           "unlock": 5
         }
@@ -4831,6 +7323,14 @@
       ],
       "passiveA": [
         {
+          "name": "Triangle Adept 1",
+          "unlock": 3
+        },
+        {
+          "name": "Triangle Adept 2",
+          "unlock": 4
+        },
+        {
           "name": "Triangle Adept 3",
           "unlock": 5
         }
@@ -4842,6 +7342,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Spd 2",
+          "unlock": 3
+        },
         {
           "name": "Threaten Spd 3",
           "unlock": 4
@@ -4863,6 +7371,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
           "name": "Tyrfing",
           "unlock": 5
         }
@@ -4881,11 +7401,27 @@
       ],
       "passiveA": [
         {
+          "name": "HP +3",
+          "unlock": 4
+        },
+        {
+          "name": "HP +4",
+          "unlock": 4
+        },
+        {
           "name": "HP +5",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Brash Assault 1",
+          "unlock": 4
+        },
+        {
+          "name": "Brash Assault 2",
+          "unlock": 4
+        },
         {
           "name": "Brash Assault 3",
           "unlock": 5
@@ -4912,20 +7448,24 @@
     },
     "skills": {
       "weapon": [
-        [
-          {
-            "name": "Assault",
-            "unlock": 1
-          }
-        ],
-        [
-          {
-            "name": "Absorb",
-            "unlock": 3
-          }
-        ]
+        {
+          "name": "Assault",
+          "unlock": 3
+        },
+        {
+          "name": "Absorb",
+          "unlock": 3
+        }
       ],
       "assist": [
+        {
+          "name": "Heal",
+          "unlock": 3
+        },
+        {
+          "name": "Mend",
+          "unlock": 3
+        },
         {
           "name": "Recover",
           "unlock": 4
@@ -4934,7 +7474,7 @@
       "special": [
         {
           "name": "Imbue",
-          "unlock": 2
+          "unlock": 3
         },
         {
           "name": "Swift-Winds Balm",
@@ -4954,6 +7494,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 4
+        },
         {
           "name": "Hone Atk 3",
           "unlock": 5
@@ -4975,6 +7523,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Assassin's Bow",
+          "unlock": 3
+        },
+        {
           "name": "Assassin's Bow+",
           "unlock": 5
         }
@@ -4993,11 +7553,27 @@
       ],
       "passiveA": [
         {
+          "name": "HP +3",
+          "unlock": 3
+        },
+        {
+          "name": "HP +4",
+          "unlock": 3
+        },
+        {
           "name": "HP +5",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Bowbreaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bowbreaker 2",
+          "unlock": 3
+        },
         {
           "name": "Bowbreaker 3",
           "unlock": 4
@@ -5025,6 +7601,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Killer Lance",
+          "unlock": 3
+        },
+        {
           "name": "Killer Lance+",
           "unlock": 5
         }
@@ -5036,6 +7624,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
         {
           "name": "Iceberg",
           "unlock": 4
@@ -5049,11 +7641,27 @@
       ],
       "passiveB": [
         {
+          "name": "Desperation 1",
+          "unlock": 3
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 3
+        },
+        {
           "name": "Desperation 3",
           "unlock": 4
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Spd 2",
+          "unlock": 4
+        },
         {
           "name": "Threaten Spd 3",
           "unlock": 5
@@ -5075,6 +7683,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
           "name": "Fensalir",
           "unlock": 5
         }
@@ -5093,6 +7713,14 @@
       ],
       "passiveA": [
         {
+          "name": "Speed +1",
+          "unlock": 2
+        },
+        {
+          "name": "Speed +2",
+          "unlock": 2
+        },
+        {
           "name": "Speed +3",
           "unlock": 4
         }
@@ -5104,6 +7732,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 4
+        },
         {
           "name": "Fortify Def 3",
           "unlock": 5
@@ -5125,6 +7761,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Killer Axe",
+          "unlock": 4
+        },
+        {
           "name": "Killer Axe+",
           "unlock": 5
         }
@@ -5136,6 +7784,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Buckler",
+          "unlock": 4
+        },
         {
           "name": "Escutcheon",
           "unlock": 4
@@ -5154,6 +7806,10 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 4
+        },
         {
           "name": "Fortify Def 2",
           "unlock": 4
@@ -5179,6 +7835,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Flux",
+          "unlock": 1
+        },
+        {
+          "name": "Ruin",
+          "unlock": 2
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 3
+        },
+        {
           "name": "Fenrir+",
           "unlock": 5
         }
@@ -5191,11 +7859,23 @@
       ],
       "special": [
         {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
           "name": "Dragon Fang",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Warding Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Warding Blow 2",
+          "unlock": 4
+        },
         {
           "name": "Warding Blow 3",
           "unlock": 5
@@ -5208,6 +7888,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 2
+        },
         {
           "name": "Fortify Res 3",
           "unlock": 4
@@ -5229,6 +7917,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Ruby Sword",
+          "unlock": 3
+        },
+        {
           "name": "Ruby Sword+",
           "unlock": 5
         }
@@ -5247,11 +7947,27 @@
       ],
       "passiveA": [
         {
+          "name": "Defense +1",
+          "unlock": 1
+        },
+        {
+          "name": "Defense +2",
+          "unlock": 2
+        },
+        {
           "name": "Defense +3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Obstruct 1",
+          "unlock": 3
+        },
+        {
+          "name": "Obstruct 2",
+          "unlock": 4
+        },
         {
           "name": "Obstruct 3",
           "unlock": 5
@@ -5279,6 +7995,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Sapphire Lance",
+          "unlock": 3
+        },
+        {
           "name": "Sapphire Lance+",
           "unlock": 5
         }
@@ -5297,11 +8025,27 @@
       ],
       "passiveA": [
         {
+          "name": "Resistance +1",
+          "unlock": 1
+        },
+        {
+          "name": "Resistance +2",
+          "unlock": 2
+        },
+        {
           "name": "Resistance +3",
           "unlock": 4
         }
       ],
       "passiveB": [
+        {
+          "name": "Quick Riposte 1",
+          "unlock": 3
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 4
+        },
         {
           "name": "Quick Riposte 3",
           "unlock": 5
@@ -5329,6 +8073,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Sapphire Lance",
+          "unlock": 3
+        },
+        {
           "name": "Sapphire Lance+",
           "unlock": 5
         }
@@ -5353,11 +8109,27 @@
       ],
       "passiveB": [
         {
+          "name": "Swordbreaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swordbreaker 2",
+          "unlock": 4
+        },
+        {
           "name": "Swordbreaker 3",
           "unlock": 5
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 3
+        },
         {
           "name": "Spur Def 3",
           "unlock": 4
@@ -5379,6 +8151,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 5
+        },
+        {
           "name": "Fujin Yumi",
           "unlock": 5
         }
@@ -5390,6 +8174,10 @@
         }
       ],
       "special": [
+        {
+          "name": "Retribution",
+          "unlock": 5
+        },
         {
           "name": "Vengeance",
           "unlock": 5
@@ -5408,6 +8196,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Threaten Spd 2",
+          "unlock": 5
+        },
         {
           "name": "Threaten Spd 3",
           "unlock": 5
@@ -5429,6 +8225,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Flux",
+          "unlock": 4
+        },
+        {
+          "name": "Ruin",
+          "unlock": 4
+        },
+        {
+          "name": "Rauðrblade",
+          "unlock": 4
+        },
+        {
           "name": "Rauðrblade+",
           "unlock": 5
         }
@@ -5441,11 +8249,23 @@
       ],
       "special": [
         {
+          "name": "Retribution",
+          "unlock": 4
+        },
+        {
           "name": "Vengeance",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 4
+        },
         {
           "name": "Darting Blow 3",
           "unlock": 4
@@ -5458,6 +8278,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Res 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Res 3",
           "unlock": 5
@@ -5479,6 +8307,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Fire Breath",
+          "unlock": 3
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 3
+        },
+        {
+          "name": "Lightning Breath",
+          "unlock": 3
+        },
+        {
           "name": "Lightning Breath+",
           "unlock": 5
         }
@@ -5493,9 +8333,21 @@
         {
           "name": "Bonfire",
           "unlock": 4
+        },
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
         }
       ],
       "passiveA": [
+        {
+          "name": "Defiant Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Atk 2",
+          "unlock": 3
+        },
         {
           "name": "Defiant Atk 3",
           "unlock": 4
@@ -5508,6 +8360,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Res 2",
+          "unlock": 4
+        },
         {
           "name": "Spur Res 3",
           "unlock": 5
@@ -5529,6 +8389,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Fire Breath",
+          "unlock": 5
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 5
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 5
+        },
+        {
           "name": "Flametongue+",
           "unlock": 5
         }
@@ -5541,11 +8413,23 @@
       ],
       "special": [
         {
+          "name": "Rising Flame",
+          "unlock": 5
+        },
+        {
           "name": "Growing Flame",
           "unlock": 5
         }
       ],
       "passiveA": [
+        {
+          "name": "Armored Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Armored Blow 2",
+          "unlock": 5
+        },
         {
           "name": "Armored Blow 3",
           "unlock": 5
@@ -5558,6 +8442,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Breath of Life 1",
+          "unlock": 5
+        },
+        {
+          "name": "Breath of Life 2",
+          "unlock": 5
+        },
         {
           "name": "Breath of Life 3",
           "unlock": 5
@@ -5579,6 +8471,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Thunder",
+          "unlock": 3
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 3
+        },
+        {
+          "name": "Blárwolf",
+          "unlock": 3
+        },
+        {
           "name": "Blárwolf+",
           "unlock": 5
         }
@@ -5591,11 +8495,23 @@
       ],
       "special": [
         {
+          "name": "Rising Thunder",
+          "unlock": 4
+        },
+        {
           "name": "Growing Thunder",
           "unlock": 4
         }
       ],
       "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 4
+        },
         {
           "name": "Death Blow 3",
           "unlock": 5
@@ -5608,6 +8524,14 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Threaten Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Res 2",
+          "unlock": 3
+        },
         {
           "name": "Threaten Res 3",
           "unlock": 4
@@ -5629,6 +8553,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 3
+        },
+        {
           "name": "Silver Bow+",
           "unlock": 5
         }
@@ -5641,17 +8577,37 @@
       ],
       "special": [
         {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
           "name": "Astra",
           "unlock": 4
         }
       ],
       "passiveA": [
         {
+          "name": "Defiant Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Res 2",
+          "unlock": 4
+        },
+        {
           "name": "Defiant Res 3",
           "unlock": 5
         }
       ],
       "passiveB": [
+        {
+          "name": "Seal Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Seal Spd 2",
+          "unlock": 2
+        },
         {
           "name": "Seal Spd 3",
           "unlock": 4
@@ -5689,6 +8645,10 @@
       ],
       "assist": [
         {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
           "name": "Reconcile",
           "unlock": 2
         },
@@ -5714,6 +8674,14 @@
         }
       ],
       "passiveB": [
+        {
+          "name": "Live to Serve 1",
+          "unlock": 3
+        },
+        {
+          "name": "Live to Serve 2",
+          "unlock": 4
+        },
         {
           "name": "Live to Serve 3",
           "unlock": 5
