@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 16px;
 }
 
 .App-header {
@@ -39,7 +40,7 @@ select.form-control {
   outline: none;
   width: 200px;
   height: 30px;
-  font-size: medium;
+  font-size: 1em;
 }
 
 .reset-button {
@@ -88,7 +89,7 @@ td.unit-type-sub {
 }
 
 th.unit-stat {
-  width: 30px;
+  width: 40px;
 }
 
 th.unit-BST {
@@ -115,11 +116,11 @@ td.skill-level {
 }
 
 #skillNameSub {
-  width: 165px;
+  width: 158px;
 }
 
 #skillLevel {
-  width: 30px;
+  width: 40px;
 }
 
 tr [colSpan="2"] {
