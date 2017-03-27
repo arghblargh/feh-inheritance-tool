@@ -10,6 +10,12 @@
       "Def": 25,
       "Res": 25
     },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -256,6 +262,12 @@
       "Def": 30,
       "Res": 24
     },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -334,6 +346,10 @@
       "Def": 32,
       "Res": 25
     },
+    "boon": {
+      "Spd": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -407,6 +423,12 @@
       "Spd": 33,
       "Def": 21,
       "Res": 28
+    },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -486,6 +508,9 @@
       "Def": 30,
       "Res": 17
     },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -555,6 +580,9 @@
       "Spd": 25,
       "Def": 33,
       "Res": 13
+    },
+    "boon": {
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -708,6 +736,11 @@
       "Def": 24,
       "Res": 34
     },
+    "boon": {
+      "HP": 4,
+      "Atk": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -785,6 +818,9 @@
       "Spd": 32,
       "Def": 27,
       "Res": 21
+    },
+    "boon": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -868,6 +904,13 @@
       "Def": 28,
       "Res": 31
     },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -949,6 +992,13 @@
       "Spd": 34,
       "Def": 29,
       "Res": 25
+    },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -1032,6 +1082,13 @@
       "Def": 22,
       "Res": 29
     },
+    "boon": {
+      "HP": 4,
+      "Spd": 4
+    },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -1110,6 +1167,9 @@
       "Def": 32,
       "Res": 16
     },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -1187,6 +1247,9 @@
       "Spd": 25,
       "Def": 31,
       "Res": 17
+    },
+    "boon": {
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -1274,6 +1337,12 @@
       "Def": 22,
       "Res": 29
     },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -1347,6 +1416,9 @@
       "Spd": 35,
       "Def": 22,
       "Res": 25
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -1434,6 +1506,12 @@
       "Def": 34,
       "Res": 21
     },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -1515,6 +1593,13 @@
       "Spd": 32,
       "Def": 28,
       "Res": 24
+    },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -1742,6 +1827,12 @@
       "Def": 33,
       "Res": 23
     },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -1820,6 +1911,13 @@
       "Def": 26,
       "Res": 28
     },
+    "boon": {
+      "Atk": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -1889,6 +1987,12 @@
       "Spd": 24,
       "Def": 34,
       "Res": 19
+    },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -2038,6 +2142,10 @@
       "Def": 23,
       "Res": 32
     },
+    "bane": {
+      "HP": 4,
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -2119,6 +2227,9 @@
       "Spd": 25,
       "Def": 32,
       "Res": 20
+    },
+    "boon": {
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -2280,6 +2391,13 @@
       "Def": 25,
       "Res": 30
     },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -2440,6 +2558,12 @@
       "Def": 24,
       "Res": 31
     },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -2522,6 +2646,9 @@
       "Def": 25,
       "Res": 34
     },
+    "boon": {
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -2599,6 +2726,9 @@
       "Spd": 25,
       "Def": 36,
       "Res": 14
+    },
+    "boon": {
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -2760,6 +2890,9 @@
       "Def": 32,
       "Res": 17
     },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -2837,6 +2970,12 @@
       "Spd": 24,
       "Def": 33,
       "Res": 18
+    },
+    "bane": {
+      "HP": 4,
+      "Atk": 4,
+      "Def": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -2916,6 +3055,10 @@
       "Def": 38,
       "Res": 28
     },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -2989,6 +3132,9 @@
       "Spd": 36,
       "Def": 23,
       "Res": 26
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -3067,6 +3213,9 @@
       "Spd": 22,
       "Def": 28,
       "Res": 30
+    },
+    "bane": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -3150,6 +3299,9 @@
       "Def": 37,
       "Res": 19
     },
+    "boon": {
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -3223,6 +3375,9 @@
       "Spd": 22,
       "Def": 32,
       "Res": 25
+    },
+    "boon": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -3388,6 +3543,12 @@
       "Def": 25,
       "Res": 24
     },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -3469,6 +3630,10 @@
       "Spd": 33,
       "Def": 25,
       "Res": 22
+    },
+    "boon": {
+      "Atk": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -3634,6 +3799,9 @@
       "Def": 25,
       "Res": 24
     },
+    "boon": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -3711,6 +3879,10 @@
       "Spd": 32,
       "Def": 24,
       "Res": 22
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -3794,6 +3966,13 @@
       "Def": 17,
       "Res": 32
     },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -3875,6 +4054,9 @@
       "Spd": 32,
       "Def": 22,
       "Res": 28
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -3958,6 +4140,12 @@
       "Def": 25,
       "Res": 20
     },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4040,6 +4228,13 @@
       "Def": 20,
       "Res": 24
     },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4121,6 +4316,10 @@
       "Spd": 25,
       "Def": 22,
       "Res": 30
+    },
+    "bane": {
+      "HP": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -4278,6 +4477,14 @@
       "Def": 25,
       "Res": 30
     },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Atk": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4359,6 +4566,13 @@
       "Spd": 25,
       "Def": 19,
       "Res": 31
+    },
+    "boon": {
+      "HP": 4,
+      "Spd": 4
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -4442,6 +4656,13 @@
       "Def": 14,
       "Res": 27
     },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4519,6 +4740,13 @@
       "Spd": 25,
       "Def": 28,
       "Res": 30
+    },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -4676,6 +4904,9 @@
       "Def": 25,
       "Res": 19
     },
+    "boon": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4762,6 +4993,13 @@
       "Def": 13,
       "Res": 35
     },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4835,6 +5073,13 @@
       "Spd": 37,
       "Def": 26,
       "Res": 29
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Atk": 4
     },
     "skills": {
       "weapon": [
@@ -4922,6 +5167,12 @@
       "Def": 19,
       "Res": 32
     },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4995,6 +5246,10 @@
       "Spd": 34,
       "Def": 29,
       "Res": 23
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -5074,6 +5329,12 @@
       "Def": 30,
       "Res": 18
     },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -5151,6 +5412,12 @@
       "Spd": 32,
       "Def": 28,
       "Res": 19
+    },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -5307,6 +5574,9 @@
       "Spd": 33,
       "Def": 32,
       "Res": 22
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -5472,6 +5742,12 @@
       "Def": 17,
       "Res": 34
     },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -5554,6 +5830,12 @@
       "Def": 23,
       "Res": 27
     },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -5631,6 +5913,9 @@
       "Spd": 36,
       "Def": 19,
       "Res": 26
+    },
+    "boon": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -5710,6 +5995,10 @@
       "Def": 30,
       "Res": 27
     },
+    "bane": {
+      "Spd": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -5787,6 +6076,12 @@
       "Spd": 26,
       "Def": 35,
       "Res": 24
+    },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -5948,6 +6243,12 @@
       "Def": 28,
       "Res": 13
     },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6030,6 +6331,14 @@
       "Def": 27,
       "Res": 26
     },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Def": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6099,6 +6408,9 @@
       "Spd": 34,
       "Def": 20,
       "Res": 30
+    },
+    "boon": {
+      "Atk": 4
     },
     "skills": {
       "weapon": [
@@ -6177,6 +6489,13 @@
       "Spd": 31,
       "Def": 28,
       "Res": 26
+    },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "Spd": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -6260,6 +6579,9 @@
       "Def": 23,
       "Res": 30
     },
+    "boon": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6341,6 +6663,13 @@
       "Spd": 29,
       "Def": 19,
       "Res": 32
+    },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -6494,6 +6823,12 @@
       "Def": 25,
       "Res": 22
     },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6576,6 +6911,13 @@
       "Def": 21,
       "Res": 27
     },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6653,6 +6995,10 @@
       "Spd": 23,
       "Def": 27,
       "Res": 25
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -6818,6 +7164,12 @@
       "Def": 29,
       "Res": 22
     },
+    "bane": {
+      "HP": 4,
+      "Atk": 4,
+      "Spd": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6900,6 +7252,13 @@
       "Def": 25,
       "Res": 28
     },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6977,6 +7336,10 @@
       "Spd": 35,
       "Def": 27,
       "Res": 21
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -7060,6 +7423,13 @@
       "Def": 33,
       "Res": 16
     },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -7138,6 +7508,15 @@
       "Def": 24,
       "Res": 30
     },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Spd": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -7211,6 +7590,12 @@
       "Spd": 26,
       "Def": 17,
       "Res": 34
+    },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -7289,6 +7674,13 @@
       "Spd": 35,
       "Def": 32,
       "Res": 28
+    },
+    "boon": {
+      "HP": 4,
+      "Atk": 4
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -7520,6 +7912,12 @@
       "Def": 22,
       "Res": 23
     },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -7597,6 +7995,14 @@
       "Spd": 35,
       "Def": 25,
       "Res": 29
+    },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Atk": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -7758,6 +8164,12 @@
       "Def": 36,
       "Res": 33
     },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -7914,6 +8326,12 @@
       "Def": 30,
       "Res": 22
     },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -7991,6 +8409,12 @@
       "Spd": 35,
       "Def": 35,
       "Res": 22
+    },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -8148,6 +8572,13 @@
       "Def": 25,
       "Res": 18
     },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -8221,6 +8652,9 @@
       "Spd": 34,
       "Def": 23,
       "Res": 20
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -8304,6 +8738,9 @@
       "Def": 35,
       "Res": 24
     },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -8385,6 +8822,9 @@
       "Spd": 30,
       "Def": 32,
       "Res": 29
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -8550,6 +8990,9 @@
       "Def": 26,
       "Res": 13
     },
+    "boon": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -8631,6 +9074,9 @@
       "Spd": 23,
       "Def": 22,
       "Res": 36
+    },
+    "bane": {
+      "Atk": 4
     },
     "skills": {
       "weapon": [

@@ -244,38 +244,61 @@ function addStatMods(stats, mod) {
     return stats;
 }
 
-export function calcStats(unit, skills) {
-    let totalMod = [0,0,0,0,0];
+export function calcStats(unit, skills, boonBane) {
+    let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
 
-    if (skills.weapon)
-        totalMod[1] += weapons[skills.weapon].might;
+    if (skills) {
+        if (skills.weapon)
+            totalMod[1] += weapons[skills.weapon].might;
 
-    // Add stats from skills
-    if (/Brave/.test(skills.weapon)) {
-        totalMod = totalMod.map((x,i) => { return x + statMods.Brave[i]; });
+        // Add stats from skills
+        if (/Brave/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + statMods.Brave[i]; });
+        }
+        if (/HP/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * statMods.HP[i]); })
+        } else if (/Attack/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Attack[i]); });
+        } else if (/Speed/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Speed[i]); });
+        } else if (/Defense/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Defense[i]); });
+        } else if (/Resistance/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Resistance[i]); });
+        } else if (/Fury/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Fury[i]); });
+        } else if (/Life and Death/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + ((temp + 2) * statMods.LifeAndDeath[i]); });
+        }
     }
-    if (/HP/.test(skills.passiveA)) {
-        temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-        totalMod = totalMod.map((x,i) => { return x + (temp * statMods.HP[i]); })
-    } else if (/Attack/.test(skills.passiveA)) {
-        temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-        totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Attack[i]); });
-    } else if (/Speed/.test(skills.passiveA)) {
-        temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-        totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Speed[i]); });
-    } else if (/Defense/.test(skills.passiveA)) {
-        temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-        totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Defense[i]); });
-    } else if (/Resistance/.test(skills.passiveA)) {
-        temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-        totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Resistance[i]); });
-    } else if (/Fury/.test(skills.passiveA)) {
-        temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-        totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Fury[i]); });
-    } else if (/Life and Death/.test(skills.passiveA)) {
-        temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-        totalMod = totalMod.map((x,i) => { return x + ((temp + 2) * statMods.LifeAndDeath[i]); });
+
+    if (boonBane.boon) {
+        let boon = 3;
+        if(units[unit].boon && units[unit].boon[boonBane.boon])
+            boon = units[unit].boon[boonBane.boon];
+        totalMod[boonBane.boon === "HP"  ? 0 :
+                 boonBane.boon === "Atk" ? 1 :
+                 boonBane.boon === "Spd" ? 2 :
+                 boonBane.boon === "Def" ? 3 :
+             /*boonBane.boon === "Res" ?*/ 4 ] += boon;
+    }
+    if (boonBane.bane) {
+        let bane = 3;
+        if(units[unit].bane && units[unit].bane[boonBane.bane])
+            bane = units[unit].bane[boonBane.bane];
+        totalMod[boonBane.bane === "HP"  ? 0 :
+                 boonBane.bane === "Atk" ? 1 :
+                 boonBane.bane === "Spd" ? 2 :
+                 boonBane.bane === "Def" ? 3 :
+             /*boonBane.bane === "Res" ?*/ 4 ] -= bane;
     }
 
     return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);

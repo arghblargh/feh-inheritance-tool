@@ -88,6 +88,16 @@ td.unit-type-sub {
   border-bottom: 1px solid black;
 }
 
+th.unit-bb {
+  width: 40px;
+}
+
+#unitBB {
+  width: 54px;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+}
+
 th.unit-stat {
   width: 40px;
 }

@@ -243,11 +243,21 @@ class UnitInfo extends Component {
   constructor(props) {
     super(props);
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
+    this.handleBoonSelect = this.handleBoonSelect.bind(this);
+    this.handleBaneSelect = this.handleBaneSelect.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
   }
 
   handleUnitSelect(unitName) {
     this.props.onUnitSelect(unitName);
+  }
+
+  handleBoonSelect(boon) {
+    this.props.onBoonBaneSelect("boon", boon ? boon.slice(1) : "");
+  }
+
+  handleBaneSelect(bane) {
+    this.props.onBoonBaneSelect("bane", bane ? bane.slice(1) : "");
   }
 
   handleRawStatsToggle(e) {
@@ -260,6 +270,7 @@ class UnitInfo extends Component {
     let wpnType = units[name].wpnType;
     let movType = units[name].movType;
     let fullWpnType = color + ' ' + wpnType;
+    let bOptions = ["", "HP", "ATK", "SPD", "DEF", "RES"];
     
     return (
       <table>
@@ -267,6 +278,8 @@ class UnitInfo extends Component {
           <tr>
             <th className="unit-name">Name</th>
             <th className="unit-type" colSpan="2">Type</th>
+            <th className="unit-bb">+</th>
+            <th className="unit-bb">-</th>
             <th className="unit-stat">HP</th>
             <th className="unit-stat">ATK</th>
             <th className="unit-stat">SPD</th>
@@ -286,6 +299,18 @@ class UnitInfo extends Component {
             </td>
             <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
             <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
+            <td>
+              <Dropdown id='unitBB'
+                        options={bOptions.map(option => { return option ? '+' + option : ""; })}
+                        value={'+' + this.props.boonBane.boon.toUpperCase()}
+                        onChange={this.handleBoonSelect} />
+            </td>
+            <td>
+              <Dropdown id='unitBB'
+                        options={bOptions.map(option => { return option ? '-' + option : ""; })}
+                        value={'-' + this.props.boonBane.bane.toUpperCase()}
+                        onChange={this.handleBaneSelect} />
+            </td>
             <td>{this.props.stats.HP}</td>
             <td>{this.props.stats.Atk}</td>
             <td>{this.props.stats.Spd}</td>
@@ -313,6 +338,7 @@ class InheritanceTool extends Component {
     this.initState('Abel');
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
+    this.handleBoonBaneSelect = this.handleBoonBaneSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
@@ -326,11 +352,13 @@ class InheritanceTool extends Component {
         passiveA: units[initUnit].skills.passiveA[units[initUnit].skills.passiveA.length-1].name,
         passiveB: units[initUnit].skills.passiveB[units[initUnit].skills.passiveB.length-1].name,
         passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name
-      }
-    let initStats = calcStats(initUnit, initSkills);
+      };
+    let initBoonBane = {"boon":"","bane":""};
+    let initStats = calcStats(initUnit, initSkills, initBoonBane);
 
     this.state = {
       unitName: initUnit,
+      boonBane: initBoonBane,
       stats: initStats,
       skills: initSkills,
       rawStatsOn: false
@@ -342,12 +370,22 @@ class InheritanceTool extends Component {
     let stats = JSON.parse(JSON.stringify(units[unitName].stats));
 
     if (!this.state.rawStatsOn)
-      stats = calcStats(unitName, newSkills);
+      stats = calcStats(unitName, newSkills, this.state.boonBane);
 
     this.setState({
       unitName: unitName,
+      boonBane: {"boon":"","bane":""},
       stats: stats,
       skills: newSkills,
+    });
+  }
+
+  handleBoonBaneSelect(boonOrBane, value) {
+    let newBoonBane = this.state.boonBane;
+    newBoonBane[boonOrBane] = value.slice(0,1) + (value.length > 2 ? value.slice(1).toLowerCase() : value.slice(1));
+    this.setState({
+      boonBane: newBoonBane,
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, this.state.skills, this.state.boonBane),
     });
   }
 
@@ -376,7 +414,7 @@ class InheritanceTool extends Component {
         break;
     }
     this.setState({ 
-      stats: this.state.rawStatsOn ? JSON.parse(JSON.stringify(units[this.state.unitName].stats)) : calcStats(this.state.unitName, newSkills),
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, newSkills, this.state.boonBane),
       skills: newSkills 
     });
   }
@@ -384,7 +422,7 @@ class InheritanceTool extends Component {
   handleResetClick() {
     let skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
-      stats: this.state.rawStatsOn ? JSON.parse(JSON.stringify(units[this.state.unitName].stats)) : calcStats(this.state.unitName, skills),
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, skills, this.state.boonBane),
       skills: skills
     })
   }
@@ -393,12 +431,12 @@ class InheritanceTool extends Component {
     if (isOn) {
       this.setState({
         rawStatsOn: true,
-        stats: JSON.parse(JSON.stringify(units[this.state.unitName].stats))
+        stats: calcStats(this.state.unitName, null, this.state.boonBane)
       });
     } else {
       this.setState({
         rawStatsOn: false,
-        stats: calcStats(this.state.unitName, this.state.skills)
+        stats: calcStats(this.state.unitName, this.state.skills, this.state.boonBane)
       });
     }
   }
@@ -408,9 +446,11 @@ class InheritanceTool extends Component {
       <div className="tool">
         <div className="char-info">
           <UnitInfo unitName={this.state.unitName}
+                    boonBane={this.state.boonBane}
                     stats={this.state.stats}
                     rawStatsOn={this.state.rawStatsOn}
                     onUnitSelect={this.handleUnitSelect}
+                    onBoonBaneSelect={this.handleBoonBaneSelect}
                     onRawStatsToggle={this.handleRawStatsToggle} />
         </div>
         <div className="skill-info">
