@@ -22,7 +22,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, moveIcon, weaponIcon, rarityIcon, parseSkills, 
+import { Dropdown, moveIcon, weaponIcon, rarityIcon, skillTypeIcon, parseSkills, 
          getUnitsWithSkill, getPossibleSkills, calcStats, escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
@@ -108,7 +108,14 @@ class SkillInfoRow extends Component {
 
     return (
       <tr>
-        <td className="skill-type">{this.props.category}</td>
+        <td className="skill-type">
+          {
+            this.props.category === "Weapon"  ? <img src={skillTypeIcon.Weapon} title="Weapon" alt="Weapon" /> :
+            this.props.category === "Assist"  ? <img src={skillTypeIcon.Assist} title="Assist" alt="Assist" /> :
+            this.props.category === "Special" ? <img src={skillTypeIcon.Special} title="Special" alt="Special" /> :
+                                                this.props.category
+          }
+        </td>
         {skillDropdown}
         {hasSkillLevel && skillLevel}
         <td className="skill-effect">{this.props.effect}</td>
@@ -122,10 +129,15 @@ class SkillInfoTable extends Component {
   constructor(props) {
     super(props);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
+    this.handleResetClick = this.handleResetClick.bind(this);
   }
 
   handleSkillSelect(skillName, skillType) {
     this.props.onSkillSelect(skillName, skillType);
+  }
+
+  handleResetClick() {
+    this.props.onResetClick();
   }
 
   unitListToString(unitList) {
@@ -184,7 +196,9 @@ class SkillInfoTable extends Component {
       <table>
         <thead>
           <tr className="skill-header">
-            <th className="blank-cell" />
+            <td className="reset-button-cell">
+              <button className="reset-button" onClick={this.handleResetClick}>Reset</button>
+            </td>
             <th colSpan="2">Skill</th>
             <th>Effect</th>
             <th>Inherited From</th>
@@ -311,11 +325,11 @@ class UnitInfo extends Component {
                         value={'-' + this.props.boonBane.bane.toUpperCase()}
                         onChange={this.handleBaneSelect} />
             </td>
-            <td>{this.props.stats.HP}</td>
-            <td>{this.props.stats.Atk}</td>
-            <td>{this.props.stats.Spd}</td>
-            <td>{this.props.stats.Def}</td>
-            <td>{this.props.stats.Res}</td>
+            <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
+            <td className={this.props.boonBane.boon === "Atk" ? "boon" : this.props.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.stats.Atk}</td>
+            <td className={this.props.boonBane.boon === "Spd" ? "boon" : this.props.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.stats.Spd}</td>
+            <td className={this.props.boonBane.boon === "Def" ? "boon" : this.props.boonBane.bane === "Def" ? "bane" : ""}>{this.props.stats.Def}</td>
+            <td className={this.props.boonBane.boon === "Res" ? "boon" : this.props.boonBane.bane === "Res" ? "bane" : ""}>{this.props.stats.Res}</td>
             <td>
               {Object.keys(this.props.stats).reduce((a,b) => {
                 if (Number.isInteger(a))
@@ -456,10 +470,8 @@ class InheritanceTool extends Component {
         <div className="skill-info">
           <SkillInfoTable unitName={this.state.unitName}
                           skills={this.state.skills}
-                          onSkillSelect={this.handleSkillSelect} />
-        </div>
-        <div>
-          <button className="reset-button" onClick={this.handleResetClick}>Reset Skills</button>
+                          onSkillSelect={this.handleSkillSelect}
+                          onResetClick={this.handleResetClick} />
         </div>
       </div>
     );

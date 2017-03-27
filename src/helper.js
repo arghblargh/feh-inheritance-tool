@@ -75,6 +75,13 @@ export const rarityIcon = {
     "5" : require('./img/icon/rarity/5.png')
 };
 
+// Load skill type icons from file
+export const skillTypeIcon = {
+    "Weapon" : require('./img/icon/skill_type/Weapon.png'),
+    "Assist" : require('./img/icon/skill_type/Assist.png'),
+    "Special" : require('./img/icon/skill_type/Special.png'),
+}
+
 // Dropdown list React component
 export const Dropdown = React.createClass({
     propTypes: {

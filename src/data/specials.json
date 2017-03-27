@@ -68,7 +68,7 @@
   "Aether":{
     "cost":"500",
     "count":"5",
-    "effect":"Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt",
+    "effect":"Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt.",
     "restriction":"",
     "require":"Daylight|New Moon"
   },
