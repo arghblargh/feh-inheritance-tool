@@ -120,6 +120,13 @@ export const Dropdown = React.createClass({
     }
 });
 
+export const Hover = ({ onHover, children }) => (
+    <div className="hover">
+        <div className="hover__no-hover">{children}</div>
+        <div className="hover__hover">{onHover}</div>
+    </div>
+)
+
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
     let skills = {};

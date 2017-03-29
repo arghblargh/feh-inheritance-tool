@@ -2,20 +2,20 @@
   "Buckler":{
     "cost":"100",
     "count":"3",
-    "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
+    "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%.",
     "restriction":"Melee"
   },
   "Escutcheon":{
     "cost":"100",
     "count":"2",
-    "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%",
+    "effect":"Reduces damage inflicted by attacks from adjacent foes by 30%.",
     "restriction":"Melee",
     "require":"Buckler"
   },
   "Pavise":{
     "cost":"200",
     "count":"3",
-    "effect":"Reduces damage inflicted by attacks from adjacent foes by 50%",
+    "effect":"Reduces damage inflicted by attacks from adjacent foes by 50%.",
     "restriction":"Melee",
     "require":"Buckler"
   },
@@ -75,20 +75,20 @@
   "New Moon":{
     "cost":"100",
     "count":"3",
-    "effect":"Resolve combat as if foe suffered Def/Res-30%",
+    "effect":"Resolve combat as if foe suffered Def/Res-30%.",
     "restriction":""
   },
   "Moonbow":{
     "cost":"200",
     "count":"2",
-    "effect":"Resolve combat as if foe suffered Def/Res-30%",
+    "effect":"Resolve combat as if foe suffered Def/Res-30%.",
     "restriction":"",
     "require":"New Moon"
   },
   "Luna":{
     "cost":"200",
     "count":"3",
-    "effect":"Resolve combat as if foe suffered Def/Res-50%",
+    "effect":"Resolve combat as if foe suffered Def/Res-50%.",
     "restriction":"",
     "require":"New Moon"
   },
@@ -140,19 +140,19 @@
   "Kindled-Fire Balm":{
     "cost":"150",
     "count":"1",
-    "effect":"When healing an ally with a staff, grants all allies Atk +4 for 1 turn",
+    "effect":"When healing an ally with a staff, grants all allies Atk +4 for 1 turn.",
     "restriction":"Staff"
   },
   "Still-Water Balm":{
     "cost":"150",
     "count":"1",
-    "effect":"When healing an ally with a staff, grants all allies Res +4 for 1 turn",
+    "effect":"When healing an ally with a staff, grants all allies Res +4 for 1 turn.",
     "restriction":"Staff"
   },
   "Swift-Winds Balm":{
     "cost":"150",
     "count":"1",
-    "effect":"When healing an ally with a staff, grants all allies Spd +4 for 1 turn",
+    "effect":"When healing an ally with a staff, grants all allies Spd +4 for 1 turn.",
     "restriction":"Staff"
   },
   "Dragon Gaze":{
@@ -178,40 +178,41 @@
   "Chilling Wind":{
     "cost":"100",
     "count":"4",
-    "effect":"Boosts damage dealt by 50% of unit's Res",
+    "effect":"Boosts damage dealt by {50% of unit's Res}.",
+    "value": "Res:0.5",
     "restriction":""
   },
   "Iceberg":{
     "cost":"200",
     "count":"3",
-    "effect":"Boosts damage dealt by 50% of unit's Res",
+    "effect":"Boosts damage dealt by 50% of unit's Res.",
     "restriction":"",
     "require":"Chilling Wind"
   },
   "Glacies":{
     "cost":"200",
     "count":"4",
-    "effect":"Boosts damage dealt by 80% of unit's Res",
+    "effect":"Boosts damage dealt by 80% of unit's Res.",
     "restriction":"",
     "require":"Chilling Wind"
   },
   "Glowing Ember":{
     "cost":"100",
     "count":"4",
-    "effect":"Boosts damage dealt by 50% of unit's Def",
+    "effect":"Boosts damage dealt by 50% of unit's Def.",
     "restriction":""
   },
   "Bonfire":{
     "cost":"200",
     "count":"3",
-    "effect":"Boosts damage dealt by 50% of unit's Def",
+    "effect":"Boosts damage dealt by 50% of unit's Def.",
     "restriction":"",
     "require":"Glowing Ember"
   },
   "Ignis":{
     "cost":"200",
     "count":"4",
-    "effect":"Boosts damage dealt by 80% of unit's Def",
+    "effect":"Boosts damage dealt by 80% of unit's Def.",
     "restriction":"",
     "require":"Glowing Ember"
   },

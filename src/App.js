@@ -22,8 +22,9 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, moveIcon, weaponIcon, rarityIcon, skillTypeIcon, parseSkills, 
-         getUnitsWithSkill, getPossibleSkills, calcStats, escapeRegExp } from './helper.js';
+import { Dropdown, //Hover,
+         moveIcon, weaponIcon, rarityIcon, skillTypeIcon, 
+         parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats, escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -71,6 +72,18 @@ class SkillInfoRow extends Component {
     return [...result];
   }
 
+  parseSkillEffect(skill, stats) {
+    if (skill === 'Chilling Wind') {
+      let value = specials[skill].value;
+      value = Math.floor(stats[/(.*):/.exec(value)[1]] * parseFloat(/:(.*)/.exec(value)[1]));
+      //return this.props.effect.replace(/{.*}/, value)
+      let result = /(.*)({.*})(.*)/.exec(this.props.effect).splice(1);
+      result[1] = <b className="skill-effect-value" key={skill}>{value}</b>;
+      return result;
+    }
+    return this.props.effect;
+  }
+
   render() {
     let inheritList = this.props.inheritList.split('★');
     for (let i = 0; i < inheritList.length-1; i += 2) {
@@ -105,7 +118,7 @@ class SkillInfoRow extends Component {
                     onChange={/passive/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
         </td>;
     }
-
+    
     return (
       <tr>
         <td className="skill-type">
@@ -118,8 +131,16 @@ class SkillInfoRow extends Component {
         </td>
         {skillDropdown}
         {hasSkillLevel && skillLevel}
-        <td className="skill-effect">{this.props.effect}</td>
-        <td className="skill-inherit">{inheritList}</td>
+        <td className="skill-info-container">
+          <div className="skill-effect">
+            {/*<Hover onHover={<div>{this.parseSkillEffect(this.props.skillName, {"Res": 30})}</div>}>*/}
+              <div>{this.props.effect.replace(/[{}]/g,'')}</div>
+            {/*</Hover>*/}
+          </div>
+        </td>
+        <td className="skill-info-container">
+          <div className="skill-inherit">{inheritList}</div>
+        </td>
       </tr>
     );
   }
@@ -381,15 +402,11 @@ class InheritanceTool extends Component {
 
   handleUnitSelect(unitName) {
     let newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
-    let stats = JSON.parse(JSON.stringify(units[unitName].stats));
-
-    if (!this.state.rawStatsOn)
-      stats = calcStats(unitName, newSkills, this.state.boonBane);
 
     this.setState({
       unitName: unitName,
       boonBane: {"boon":"","bane":""},
-      stats: stats,
+      stats: this.state.rawStatsOn ? JSON.parse(JSON.stringify(units[unitName].stats)) : calcStats(unitName, newSkills, {"boon":"","bane":""}),
       skills: newSkills,
     });
   }
@@ -469,6 +486,7 @@ class InheritanceTool extends Component {
         </div>
         <div className="skill-info">
           <SkillInfoTable unitName={this.state.unitName}
+                          stats={this.state.stats}
                           skills={this.state.skills}
                           onSkillSelect={this.handleSkillSelect}
                           onResetClick={this.handleResetClick} />

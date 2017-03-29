@@ -149,9 +149,15 @@ tr [colSpan="2"] {
   text-align: center;
 }
 
-.skill-effect, .skill-inherit {
+.skill-info-container {
   width: 500px;
   height: 40px;
+}
+
+.skill-effect, .skill-inherit {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
   text-align: left;
   padding: 2px;
 }
@@ -167,4 +173,26 @@ tr [colSpan="2"] {
 
 .bane {
   background-color: #ffb3b3;
+}
+
+.skill-effect-value {
+  background-color: yellow;
+}
+
+.hover {
+  position: relative;
+}
+.hover:hover .hover__no-hover {
+  opacity: 0;
+}
+.hover:hover .hover__hover {
+  opacity: 1;
+}
+.hover__hover {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+.hover__no-hover {
+  opacity: 1;
 }
