@@ -9366,5 +9366,75 @@
         }
       ]
     }
+  },
+  "Xander (Spring Festival)": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 40,
+      "Atk": 25,
+      "Spd": 28,
+      "Def": 35,
+      "Res": 26
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Carrot Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Carrot Lance+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Honor",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Def 3",
+          "unlock": 5
+        }
+      ]
+    }
   }
 }

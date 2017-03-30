@@ -239,6 +239,22 @@
     "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
     "restriction": ""
   },
+  "Carrot Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 9,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
+  "Carrot Lance+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 13,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
   "Cymbeline": {
     "color": "Red",
     "type": "Tome",

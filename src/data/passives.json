@@ -429,6 +429,11 @@
     },
     "Live for Bounty":{
       "cost":"100",
+      "effect":"If unit survives, get 1.5x normal crystals from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction":""
+    },
+    "Live for Honor":{
+      "cost":"100",
       "effect":"If unit survives, get 1.5x normal badges from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction":""
     },
