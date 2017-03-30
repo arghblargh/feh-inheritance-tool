@@ -68,10 +68,6 @@ select.form-control {
   background-color: #ffbf00;
 }
 
-#unitName {
-  width: 100px;
-}
-
 table {
   margin: auto;
   border-collapse: collapse;
@@ -85,6 +81,10 @@ th, td {
 th.unit-name {
   width: 105px;
   height: 20px;
+}
+
+#unitName {
+  width: 200px;
 }
 
 td.unit-type-sub {
@@ -157,7 +157,6 @@ tr [colSpan="2"] {
 .skill-effect, .skill-inherit {
   display: inline-block;
   width: 100%;
-  height: 100%;
   text-align: left;
   padding: 2px;
 }

@@ -243,6 +243,7 @@ const statMods = {
   "Speed":[0,0,1,0,0],
   "Defense":[0,0,0,1,0],
   "Resistance":[0,0,0,0,1],
+  "Attack/Def":[0,1,0,1,0],
   "Fury":[0,1,1,1,1],
   "LifeAndDeath":[0,1,1,-1,-1]
 };
@@ -270,21 +271,24 @@ export function calcStats(unit, skills, boonBane) {
         if (/Brave/.test(skills.weapon)) {
             totalMod = totalMod.map((x,i) => { return x + statMods.Brave[i]; });
         }
-        if (/HP/.test(skills.passiveA)) {
+        if (/HP\s/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * statMods.HP[i]); })
-        } else if (/Attack/.test(skills.passiveA)) {
+        } else if (/Attack\s/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Attack[i]); });
-        } else if (/Speed/.test(skills.passiveA)) {
+        } else if (/Speed\s/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Speed[i]); });
-        } else if (/Defense/.test(skills.passiveA)) {
+        } else if (/Defense\s/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Defense[i]); });
-        } else if (/Resistance/.test(skills.passiveA)) {
+        } else if (/Resistance\s/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Resistance[i]); });
+        } else if (/Attack\/Def/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * statMods['Attack/Def'][i]); });
         } else if (/Fury/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * statMods.Fury[i]); });

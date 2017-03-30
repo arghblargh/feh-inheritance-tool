@@ -119,6 +119,22 @@
     "effect": "Effective against cavalry units.",
     "restriction": ""
   },
+  "Blue Egg": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 7,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
+  "Blue Egg+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 11,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
   "Bolganone": {
     "color": "Red",
     "type": "Tome",
@@ -206,6 +222,22 @@
     "might": 14,
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
     "restriction": "Leo"
+  },
+  "Carrot Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 9,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
+  "Carrot Axe+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 13,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
   },
   "Cymbeline": {
     "color": "Red",
@@ -413,6 +445,22 @@
     "cost": 150,
     "might": 6,
     "effect": "After any combat, prevents foe from moving more than 1 space through its next action.",
+    "restriction": ""
+  },
+  "Green Egg": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 7,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
+  "Green Egg+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 11,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
     "restriction": ""
   },
   "Gronnblade": {

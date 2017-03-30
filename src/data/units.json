@@ -982,6 +982,76 @@
       ]
     }
   },
+  "Camilla (Spring Festival)": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "stats": {
+      "HP": 39,
+      "Atk": 35,
+      "Spd": 25,
+      "Def": 30,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Green Egg",
+          "unlock": 5
+        },
+        {
+          "name": "Green Egg+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Defiant Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Defiant Spd 2",
+          "unlock": 5
+        },
+        {
+          "name": "Defiant Spd 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Bounty",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Catria": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -1321,6 +1391,84 @@
         },
         {
           "name": "Spur Def 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Chrom (Spring Festival)": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 35,
+      "Spd": 32,
+      "Def": 28,
+      "Res": 20
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Carrot Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Carrot Axe+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Shove",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Def +1",
+          "unlock": 5
+        },
+        {
+          "name": "Attack/Def +1",
+          "unlock": 5
+        },
+        {
+          "name": "Attack/Def +2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Axe Experience 1",
+          "unlock": 5
+        },
+        {
+          "name": "Axe Experience 2",
+          "unlock": 5
+        },
+        {
+          "name": "Axe Experience 3",
           "unlock": 5
         }
       ]
@@ -4978,6 +5126,84 @@
         {
           "name": "Spur Atk 3",
           "unlock": 5
+        }
+      ]
+    }
+  },
+  "Lucina (Spring Festival)": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 35,
+      "Atk": 29,
+      "Spd": 39,
+      "Def": 22,
+      "Res": 22
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Blue Egg",
+          "unlock": 5
+        },
+        {
+          "name": "Blue Egg+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Res 2",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Res 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
         }
       ]
     }
