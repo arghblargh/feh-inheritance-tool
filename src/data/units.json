@@ -5137,9 +5137,13 @@
     "stats": {
       "HP": 35,
       "Atk": 29,
-      "Spd": 39,
+      "Spd": 36,
       "Def": 22,
-      "Res": 22
+      "Res": 25
+    },
+    "boon": {
+      "HP": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -9377,6 +9381,9 @@
       "Spd": 28,
       "Def": 35,
       "Res": 26
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
