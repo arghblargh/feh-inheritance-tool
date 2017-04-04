@@ -173,37 +173,7 @@ export function getUnitsWithSkill(skill, type) {
 }
 
 // Check inheritance restrictions.
-function checkRestrictions(unit, restrictions, color = '') {
-    // if (!restrictions)
-    //     return true;
-    
-    // let result = false;
-    // if (color && RegExp(units[unit].color).test(color))
-    //     result = true;
-
-    // if (/Melee/.test(restrictions) && /Sword|Lance|Axe|Dragon/.test(units[unit].wpnType))
-    //     result = true;
-
-    // if (/Color/.test(restrictions)) {
-    //     let flags = /Color:(.*)/.exec(restrictions)[1];
-    //     if (/R/.test(flags) && units[unit].color === 'Red')
-    //         result = true;
-    //     else if (/B/.test(flags) && units[unit].color === 'Blue')
-    //         result = true;
-    //     else if (/G/.test(flags) && units[unit].color === 'Green')
-    //         result = true;
-    // }
-
-    // if (RegExp(unit).test(restrictions))
-    //     result = true;
-
-    // if (RegExp(units[unit].wpnType).test(restrictions))
-    //     result = true;
-
-    // if (RegExp(units[unit].movType).test(restrictions))
-    //     result = true;
-    
-    // return result;
+function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
     let unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
     let rstr = restrictions.split(', ');
     let re;
@@ -223,10 +193,15 @@ function checkRestrictions(unit, restrictions, color = '') {
     }
 
     for (let r of rstr) {
-        if (/Melee/.test(r)) {
-            if (/Sword|Lance|Axe|Dragon/.test(unitData))
-                return true;
-        }
+        if (/Offense/.test(r) && !/Staff/.test(unitData))
+            return true;
+
+        if (limitStaff && /Staff/.test(unitData) && !/Staff/.test(r))
+            return false;
+                
+        if (/Melee/.test(r) && /Sword|Lance|Axe|Dragon/.test(unitData))
+            return true;
+
         if (/Color/.test(r)) {
             let flags = /Color:(.*)/.exec(r)[1];
             if (/R/.test(flags) && /Red/.test(unitData))
@@ -234,6 +209,8 @@ function checkRestrictions(unit, restrictions, color = '') {
             else if (/B/.test(flags) && /Blue/.test(unitData))
                 return true;
             else if (/G/.test(flags) && /Green/.test(unitData))
+                return true;
+            else if (/N/.test(flags) && /Neutral/.test(unitData))
                 return true;
                 
             return false;
@@ -251,11 +228,11 @@ function checkRestrictions(unit, restrictions, color = '') {
 export function getPossibleSkills(unit) {
     let skills = {};
     skills.weapons = ['', ...new Set(Object.keys(weapons).filter(skill =>  
-        checkRestrictions(unit, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), weapons[skill].color)))];
+        checkRestrictions(unit, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), false, weapons[skill].color)))];
     skills.assists = ['', ...new Set(Object.keys(assists).filter(skill =>
-        checkRestrictions(unit, assists[skill].restriction)))];
+        checkRestrictions(unit, assists[skill].restriction, true)))];
     skills.specials = ['', ...new Set(Object.keys(specials).filter(skill =>
-        checkRestrictions(unit, specials[skill].restriction)))];
+        checkRestrictions(unit, specials[skill].restriction, true)))];
     skills.passivesA = ['', ...new Set(Object.keys(passives.A).filter(skill =>
         checkRestrictions(unit, passives.A[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];

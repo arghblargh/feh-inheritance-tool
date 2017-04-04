@@ -43,7 +43,7 @@
     "cost":"200",
     "count":"5",
     "effect":"If HP > 1, survive a lethal attack with 1 HP remaining.",
-    "restriction":""
+    "restriction":"Staff|"
   },
   "Daylight":{
     "cost":"100",

@@ -3,17 +3,17 @@
     "Armored Blow 1":{
       "cost":"50",
       "effect":"Grants Def+2 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Armored Blow 2":{
       "cost":"100",
       "effect":"Grants Def+4 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Armored Blow 3":{
       "cost":"200",
       "effect":"Grants Def+6 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Attack +1":{
       "cost":"30",
@@ -48,32 +48,32 @@
     "Darting Blow 1":{
       "cost":"50",
       "effect":"Grants Spd+2 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Darting Blow 2":{
       "cost":"100",
       "effect":"Grants Spd+4 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Darting Blow 3":{
       "cost":"200",
       "effect":"Grants Spd+6 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Death Blow 1":{
       "cost":"50",
       "effect":"Grants Atk+2 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Death Blow 2":{
       "cost":"100",
       "effect":"Grants Atk+4 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Death Blow 3":{
       "cost":"200",
       "effect":"Grants Atk+6 during combat if unit initiates the attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Defense +1":{
       "cost":"30",
@@ -158,17 +158,17 @@
     "Fury 1":{
       "cost":"50",
       "effect":"Grants Atk/Spd/Def/Res+1. Unit takes 2 damage after combat.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Fury 2":{
       "cost":"100",
       "effect":"Grants Atk/Spd/Def/Res+2. Unit takes 4 damage after combat.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Fury 3":{
       "cost":"200",
       "effect":"Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "HP +3":{
       "cost":"40",
@@ -193,17 +193,17 @@
     "Life and Death 1":{
       "cost":"50",
       "effect":"Grants Atk/Spd+3. Inflicts Def/Res-3.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Life and Death 2":{
       "cost":"100",
       "effect":"Grants Atk/Spd+4. Inflicts Def/Res-4.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Life and Death 3":{
       "cost":"200",
       "effect":"Grants Atk/Spd+5. Inflicts Def/Res-5.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Resistance +1":{
       "cost":"30",
@@ -243,74 +243,74 @@
     "Swift Sparrow 1":{
       "cost":"120",
       "effect":"If unit initiates combat, unit granted Atk/Spd+2 during battle",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Swift Sparrow 2":{
       "cost":"240",
       "effect":"If unit initiates combat, unit granted Atk/Spd+4 during battle",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Triangle Adept 1":{
       "cost":"50",
       "effect":"Gives Atk+10% if weapon-triangle advantage, Atk-10% if disadvantage.",
-      "restriction":""
+      "restriction":"Color:RGB"
     },
     "Triangle Adept 2":{
       "cost":"100",
       "effect":"Gives Atk+15% if weapon-triangle advantage, Atk-15% if disadvantage.",
-      "restriction":""
+      "restriction":"Color:RGB"
     },
     "Triangle Adept 3":{
       "cost":"200",
       "effect":"Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
-      "restriction":""
+      "restriction":"Color:RGB"
     },
     "Warding Blow 1":{
       "cost":"50",
       "effect":"Grants Res+2 during combat if unit initiates attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Warding Blow 2":{
       "cost":"100",
       "effect":"Grants Res+4 during combat if unit initiates attack.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Warding Blow 3":{
       "cost":"200",
       "effect":"Grants Res+6 during combat if unit initiates attack.",
-      "restriction":""
+      "restriction":"Offense"
     }
   },
   "B":{
     "Axebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against an axe user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RG"
+      "restriction":"Color:RGN"
     },
     "Axebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against an axe user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RG"
+      "restriction":"Color:RGN"
     },
     "Axebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against an axe user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RG"
+      "restriction":"Color:RGN"
     },
     "B Tomebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:BG"
+      "restriction":"Color:BGN"
     },
     "B Tomebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:BG"
+      "restriction":"Color:BGN"
     },
     "B Tomebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:BG"
+      "restriction":"Color:BGN"
     },
     "Bowbreaker 1":{
       "cost":"50",
@@ -395,17 +395,17 @@
     "G Tomebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a green tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RG"
+      "restriction":"Color:RGN"
     },
     "G Tomebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a green tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RG"
+      "restriction":"Color:RGN"
     },
     "G Tomebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RG"
+      "restriction":"Color:RGN"
     },
     "Knock Back":{
       "cost":"150",
@@ -415,17 +415,17 @@
     "Lancebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a lance user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:BG"
+      "restriction":"Color:BGN"
     },
     "Lancebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a lance user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:BG"
+      "restriction":"Color:BGN"
     },
     "Lancebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a lance user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:BG"
+      "restriction":"Color:BGN"
     },
     "Live for Bounty":{
       "cost":"100",
@@ -440,17 +440,17 @@
     "Live to Serve 1":{
       "cost":"40",
       "effect":"When healing allies with a staff, unit also recovers 50% of the HP restored.",
-      "restriction":""
+      "restriction":"Staff"
     },
     "Live to Serve 2":{
       "cost":"80",
       "effect":"When healing allies with a staff, unit also recovers 75% of the HP restored.",
-      "restriction":""
+      "restriction":"Staff"
     },
     "Live to Serve 3":{
       "cost":"160",
       "effect":"When healing allies with a staff, unit also recovers the same amount.",
-      "restriction":""
+      "restriction":"Staff"
     },
     "Lunge":{
       "cost":"150",
@@ -490,17 +490,17 @@
     "Poison Strike 1":{
       "cost":"60",
       "effect":"Inflicts 4 damage to foe after any combat this unit initiates.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Poison Strike 2":{
       "cost":"120",
       "effect":"Inflicts 7 damage to foe after any combat this unit initiates.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Poison Strike 3":{
       "cost":"240",
       "effect":"Inflicts 10 damage to foe after any combat this unit initiates.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Quick Riposte 1":{
       "cost":"60",
@@ -520,17 +520,17 @@
     "R Tomebreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a red tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RB"
+      "restriction":"Color:RBN"
     },
     "R Tomebreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a red tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RB"
+      "restriction":"Color:RBN"
     },
     "R Tomebreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a red tome user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RB"
+      "restriction":"Color:RBN"
     },
     "Renewal 1":{
       "cost":"60",
@@ -550,77 +550,77 @@
     "Seal Atk 1":{
       "cost":"40",
       "effect":"After combat, foe suffers Atk-3 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Atk 2":{
       "cost":"80",
       "effect":"After combat, foe suffers Atk-5 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Atk 3":{
       "cost":"160",
       "effect":"After combat, foe suffers Atk-7 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Def 1":{
       "cost":"40",
       "effect":"After combat, foe suffers Def-3 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Def 2":{
       "cost":"80",
       "effect":"After combat, foe suffers Def-5 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Def 3":{
       "cost":"160",
       "effect":"After combat, foe suffers Def-7 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Res 1":{
       "cost":"40",
       "effect":"After combat, foe suffers Res-3 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Res 2":{
       "cost":"80",
       "effect":"After combat, foe suffers Res-5 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Res 3":{
       "cost":"160",
       "effect":"After combat, foe suffers Res-7 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Spd 1":{
       "cost":"40",
       "effect":"After combat, foe suffers Spd-3 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Spd 2":{
       "cost":"80",
       "effect":"After combat, foe suffers Spd-5 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Seal Spd 3":{
       "cost":"160",
       "effect":"After combat, foe suffers Spd-7 through its next action.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Swordbreaker 1":{
       "cost":"50",
       "effect":"If unit's HP ≥ 90% in combat against a sword user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RB"
+      "restriction":"Color:RBN"
     },
     "Swordbreaker 2":{
       "cost":"100",
       "effect":"If unit's HP ≥ 70% in combat against a sword user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RB"
+      "restriction":"Color:RBN"
     },
     "Swordbreaker 3":{
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a sword user, unit makes a followup attack and foe cannot.",
-      "restriction":"Color:RB"
+      "restriction":"Color:RBN"
     },
     "Vantage 1":{
       "cost":"50",
@@ -812,17 +812,17 @@
     "Savage Blow 1":{
       "cost":"50",
       "effect":"If unit initiates attack, foes within 2 spaces of target take 3 damage after combat.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Savage Blow 2":{
       "cost":"100",
       "effect":"If unit initiates attack, foes within 2 spaces of target take 5 damage after combat.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Savage Blow 3":{
       "cost":"200",
       "effect":"If unit initiates attack, foes within 2 spaces of target take 7 damage after combat.",
-      "restriction":""
+      "restriction":"Offense"
     },
     "Spur Atk 1":{
       "cost":"50",
