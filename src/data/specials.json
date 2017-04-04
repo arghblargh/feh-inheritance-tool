@@ -178,7 +178,7 @@
   "Chilling Wind":{
     "cost":"100",
     "count":"4",
-    "effect":"Boosts damage dealt by {50% of unit's Res}.",
+    "effect":"Boosts damage dealt by 50% of unit's Res.",
     "value": "Res:0.5",
     "restriction":""
   },

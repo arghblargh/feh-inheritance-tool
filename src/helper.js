@@ -126,6 +126,7 @@ export const Dropdown = React.createClass({
     }
 });
 
+// Hover React component
 export const Hover = ({ onHover, children }) => (
     <div className="hover">
         <div className="hover__no-hover">{children}</div>

@@ -132,11 +132,7 @@ class SkillInfoRow extends Component {
         {skillDropdown}
         {hasSkillLevel && skillLevel}
         <td className="skill-info-container">
-          <div className="skill-effect">
-            {/*<Hover onHover={<div>{this.parseSkillEffect(this.props.skillName, {"Res": 30})}</div>}>*/}
-              <div>{this.props.effect.replace(/[{}]/g,'')}</div>
-            {/*</Hover>*/}
-          </div>
+          <div className="skill-effect">{this.props.effect}</div>
         </td>
         <td className="skill-info-container">
           <div className="skill-inherit">{inheritList}</div>
@@ -357,7 +353,12 @@ class UnitInfo extends Component {
                 return this.props.stats[a] + this.props.stats[b];
               })}
             </td>
-            <td><input type="checkbox" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} /></td>
+            <td>
+              <div className="css-checkbox">
+                <input type="checkbox" id="rawStatToggle" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} />
+                <label htmlFor="rawStatToggle"></label>
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>
