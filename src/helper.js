@@ -202,7 +202,7 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
         if (/Melee/.test(r) && /Sword|Lance|Axe|Dragon/.test(unitData))
             return true;
 
-        if (/Ranged/.rest(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
+        if (/Ranged/.test(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
             return true;
 
         if (/Color/.test(r)) {
