@@ -181,25 +181,25 @@ class SkillInfoTable extends Component {
   getInheritList(unitName, skill, type) {
     if (!skill) return '';
     
-    let list = getUnitsWithSkill(skill, type);
+    let unitList = getUnitsWithSkill(skill, type);
     let exclude = [];
 
-    for (let rarity in list) {
-      for (let i in list[rarity]) {
-        if (/Alfonse|Anna|Sharena/.test(list[rarity][i]))
-          exclude.push(i);
-        if (RegExp(escapeRegExp(unitName)).test(list[rarity][i]))
+    for (let rarity in unitList) {
+      for (let unit of unitList[rarity]) {
+        if (/Alfonse|Anna|Sharena/.test(unit))
+          exclude.push(unit);
+        if (RegExp(escapeRegExp(unitName)).test(unit))
           return '';
       }
 
-      for (let i in exclude) {
-        list[rarity].splice(exclude[i], 1);
-        if (!list[rarity].length)
-          delete list[rarity];
+      for (let unit of exclude) {
+        unitList[rarity].splice(exclude.indexOf(unit), 1);
+        if (!unitList[rarity].length)
+          delete unitList[rarity];
       }
     }
     
-    return this.unitListToString(list);
+    return this.unitListToString(unitList);
   }
 
   render() {
@@ -414,6 +414,11 @@ class InheritanceTool extends Component {
   handleBoonBaneSelect(boonOrBane, value) {
     let newBoonBane = this.state.boonBane;
     newBoonBane[boonOrBane] = value.slice(0,1) + (value.length > 2 ? value.slice(1).toLowerCase() : value.slice(1));
+
+    let other = boonOrBane === 'boon' ? 'bane' : 'boon';
+    if (newBoonBane[other] === newBoonBane[boonOrBane])
+      newBoonBane[other] = '';
+      
     this.setState({
       boonBane: newBoonBane,
       stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, this.state.skills, this.state.boonBane),

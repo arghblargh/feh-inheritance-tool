@@ -1,4 +1,6 @@
 .App {
+	width: 1200px;
+	margin: 0px auto;
   text-align: center;
   font-size: 16px;
 }
@@ -27,12 +29,18 @@
   text-align: center;
 }
 
+.tool {
+  display: inline-block;
+  width: 1200px;
+  height: 400px;
+}
+
 .char-info {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .skill-info {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 select.form-control {
@@ -150,13 +158,19 @@ tr [colSpan="2"] {
 }
 
 .skill-info-container {
-  width: 500px;
   height: 40px;
 }
 
-.skill-effect, .skill-inherit {
+.skill-effect {
   display: inline-block;
-  width: 100%;
+  width: 500px;
+  text-align: left;
+  padding: 2px;
+}
+
+.skill-inherit {
+  display: inline-block;
+  width: 400px;
   text-align: left;
   padding: 2px;
 }

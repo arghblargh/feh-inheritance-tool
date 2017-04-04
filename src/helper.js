@@ -168,6 +168,36 @@ export function getUnitsWithSkill(skill, type) {
 
 // Check inheritance restrictions.
 function checkRestrictions(unit, restrictions, color = '') {
+    // if (!restrictions)
+    //     return true;
+    
+    // let result = false;
+    // if (color && RegExp(units[unit].color).test(color))
+    //     result = true;
+
+    // if (/Melee/.test(restrictions) && /Sword|Lance|Axe|Dragon/.test(units[unit].wpnType))
+    //     result = true;
+
+    // if (/Color/.test(restrictions)) {
+    //     let flags = /Color:(.*)/.exec(restrictions)[1];
+    //     if (/R/.test(flags) && units[unit].color === 'Red')
+    //         result = true;
+    //     else if (/B/.test(flags) && units[unit].color === 'Blue')
+    //         result = true;
+    //     else if (/G/.test(flags) && units[unit].color === 'Green')
+    //         result = true;
+    // }
+
+    // if (RegExp(unit).test(restrictions))
+    //     result = true;
+
+    // if (RegExp(units[unit].wpnType).test(restrictions))
+    //     result = true;
+
+    // if (RegExp(units[unit].movType).test(restrictions))
+    //     result = true;
+    
+    // return result;
     let unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
     let rstr = restrictions.split(', ');
     let re;
@@ -175,8 +205,8 @@ function checkRestrictions(unit, restrictions, color = '') {
     if (color) {
         let colorList = color.split(', ');
         let containsColor = false;
-        for (let c in colorList) {
-            re = RegExp(colorList[c]);
+        for (let c of colorList) {
+            re = RegExp(c);
             if (re.test(unitData)) {
                 containsColor = true;
                 break;
@@ -186,24 +216,24 @@ function checkRestrictions(unit, restrictions, color = '') {
             return false;
     }
 
-    for (let r in rstr) {
-        if (/Melee/.test(rstr[r])) {
+    for (let r of rstr) {
+        if (/Melee/.test(r)) {
             if (/Sword|Lance|Axe|Dragon/.test(unitData))
                 return true;
         }
-        if (/Color/.test(rstr[r])) {
-            let flags = /Color:(.*)/.exec(rstr[r])[1];
-            let colorTest = false;
+        if (/Color/.test(r)) {
+            let flags = /Color:(.*)/.exec(r)[1];
             if (/R/.test(flags) && /Red/.test(unitData))
-                colorTest = true;
+                return true;
             else if (/B/.test(flags) && /Blue/.test(unitData))
-                colorTest = true;
+                return true;
             else if (/G/.test(flags) && /Green/.test(unitData))
-                colorTest = true;
+                return true;
                 
-            return colorTest;
+            return false;
         }
-        re = RegExp(rstr[r]);
+        
+        re = RegExp(r);
         if (!re.test(unitData))
             return false;
     }
@@ -215,7 +245,7 @@ function checkRestrictions(unit, restrictions, color = '') {
 export function getPossibleSkills(unit) {
     let skills = {};
     skills.weapons = ['', ...new Set(Object.keys(weapons).filter(skill =>  
-        checkRestrictions(unit, weapons[skill].type + ', ' + weapons[skill].restriction, weapons[skill].color)))];
+        checkRestrictions(unit, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), weapons[skill].color)))];
     skills.assists = ['', ...new Set(Object.keys(assists).filter(skill =>
         checkRestrictions(unit, assists[skill].restriction)))];
     skills.specials = ['', ...new Set(Object.keys(specials).filter(skill =>
