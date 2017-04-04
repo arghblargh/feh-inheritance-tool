@@ -153,7 +153,7 @@
     "Distant Counter":{
       "cost":"300",
       "effect":"Enables unit to counterattack regardless of distance to attacker.",
-      "restriction":""
+      "restriction":"Melee"
     },
     "Fury 1":{
       "cost":"50",
