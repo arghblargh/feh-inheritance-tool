@@ -23,7 +23,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Dropdown, //Hover,
-         moveIcon, weaponIcon, rarityIcon, skillTypeIcon, 
+         moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats, escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
@@ -309,12 +309,13 @@ class UnitInfo extends Component {
     
     return (
       <table>
-        <thead>
+        <tbody>
           <tr>
+            <td rowSpan="2"><img id="unitPortrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
             <th className="unit-name">Name</th>
             <th className="unit-type" colSpan="2">Type</th>
-            <th className="unit-bb">+</th>
-            <th className="unit-bb">-</th>
+            <th className="unit-bb">Boon</th>
+            <th className="unit-bb">Bane</th>
             <th className="unit-stat">HP</th>
             <th className="unit-stat">ATK</th>
             <th className="unit-stat">SPD</th>
@@ -323,8 +324,6 @@ class UnitInfo extends Component {
             <th className="unit-BST">Total</th>
             <th className="unit-toggle">Raw</th>
           </tr>
-        </thead>
-        <tbody>
           <tr>
             <td>
               <Dropdown id='unitName'
@@ -418,7 +417,7 @@ class InheritanceTool extends Component {
     let other = boonOrBane === 'boon' ? 'bane' : 'boon';
     if (newBoonBane[other] === newBoonBane[boonOrBane])
       newBoonBane[other] = '';
-      
+
     this.setState({
       boonBane: newBoonBane,
       stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, this.state.skills, this.state.boonBane),

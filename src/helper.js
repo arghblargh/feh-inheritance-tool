@@ -82,6 +82,12 @@ export const skillTypeIcon = {
     "Special" : require('./img/icon/skill_type/Special.png'),
 }
 
+// Load all unit protraits from file
+export const unitPortrait = Object.keys(units).reduce(function(previous, current) {
+    previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_') + '.png');
+    return previous;
+}, {});
+
 // Dropdown list React component
 export const Dropdown = React.createClass({
     propTypes: {

@@ -84,20 +84,23 @@ table {
 
 th, td {
   border: 1px solid #0f0f0f;
+  padding: 0px;
 }
 
-th.unit-name {
-  width: 105px;
-  height: 20px;
+#unitPortrait {
+  display: block;
 }
 
 #unitName {
   width: 200px;
 }
 
-td.unit-type-sub {
+.unit-name {
+  height: 20px;
+}
+
+.unit-type-sub {
   width: 28px;
-  height: 30px;
   padding: 5px 1px 1px;
   border: none;
   border-bottom: 1px solid black;
@@ -118,6 +121,10 @@ th.unit-stat {
 }
 
 th.unit-BST {
+  width: 40px;
+}
+
+th.unit-toggle {
   width: 40px;
 }
 
