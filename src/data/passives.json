@@ -43,7 +43,7 @@
     "Close Counter":{
       "cost":"300",
       "effect":"Enables unit to counterattack regardless of distance to attacker.",
-      "restriction":""
+      "restriction":"Ranged"
     },
     "Darting Blow 1":{
       "cost":"50",
