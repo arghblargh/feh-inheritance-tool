@@ -993,6 +993,13 @@
       "Def": 30,
       "Res": 19
     },
+    "boon": {
+      "Spd": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -1406,6 +1413,9 @@
       "Spd": 32,
       "Def": 28,
       "Res": 20
+    },
+    "bane": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -5145,6 +5155,9 @@
       "HP": 4,
       "Res": 4
     },
+    "bane": {
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -5967,10 +5980,10 @@
     "movType": "Infantry",
     "stats": {
       "HP": 42,
-      "Atk": 28,
+      "Atk": 31,
       "Spd": 37,
       "Def": 23,
-      "Res": 28
+      "Res": 24
     },
     "skills": {
       "weapon": [
@@ -6020,11 +6033,11 @@
         },
         {
           "name": "Desperation 2",
-          "unlock": 3
+          "unlock": 4
         },
         {
           "name": "Desperation 3",
-          "unlock": 4
+          "unlock": 5
         }
       ],
       "passiveC": [
@@ -6034,11 +6047,11 @@
         },
         {
           "name": "Threaten Spd 2",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Threaten Spd 3",
-          "unlock": 5
+          "unlock": 4
         }
       ]
     }
@@ -9464,8 +9477,13 @@
       "Def": 35,
       "Res": 26
     },
+    "boon": {
+      "Atk": 4,
+      "Res": 4
+    },
     "bane": {
-      "HP": 4
+      "HP": 4,
+      "Spd": 4
     },
     "skills": {
       "weapon": [
