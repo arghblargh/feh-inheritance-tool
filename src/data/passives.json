@@ -33,7 +33,8 @@
     "Attack/Def +1":{
       "cost":"80",
       "effect":"Grants Atk/Def+1.",
-      "restriction":""
+      "restriction":"",
+      "require":"Attack +1|Defense +1"
     },
     "Attack/Def +2":{
       "cost":"160",
@@ -243,7 +244,8 @@
     "Swift Sparrow 1":{
       "cost":"120",
       "effect":"If unit initiates combat, unit granted Atk/Spd+2 during battle",
-      "restriction":"Offense"
+      "restriction":"Offense",
+      "require":"Darting Blow 1|Death Blow 1"
     },
     "Swift Sparrow 2":{
       "cost":"240",
@@ -702,12 +704,14 @@
     "Fortify Armor":{
       "cost":"200",
       "effect":"Grants adjacent armor allies Def/Res+6 through their next actions at the start of each turn.",
-      "restriction":"Armored"
+      "restriction":"Armored",
+      "require":"Fortify Def 2|Fortify Res 2"
     },
     "Fortify Cavalry":{
       "cost":"200",
       "effect":"Grants adjacent cavalry allies Def/Res+6 through their next actions at the start of each turn.",
-      "restriction":"Cavalry"
+      "restriction":"Cavalry",
+      "require":"Fortify Def 2|Fortify Res 2"
     },
     "Fortify Def 1":{
       "cost":"50",
@@ -727,12 +731,14 @@
     "Fortify Dragons":{
       "cost":"200",
       "effect":"Grants adjacent dragon allies Def/Res+6 through their next actions at the start of each turn.",
-      "restriction":"Dragon"
+      "restriction":"Dragon",
+      "require":"Fortify Def 2|Fortify Res 2"
     },
     "Fortify Fliers":{
       "cost":"200",
       "effect":"Grants adjacent flying allies Def/Res+6 through their next actions at the start of each turn.",
-      "restriction":"Flying"
+      "restriction":"Flying",
+      "require":"Fortify Def 2|Fortify Res 2"
     },
     "Fortify Res 1":{
       "cost":"50",
@@ -752,22 +758,26 @@
     "Goad Armor":{
       "cost":"200",
       "effect":"Grants armored allies within 2 spaces Spd/Atk+4 during combat.",
-      "restriction":"Armored"
+      "restriction":"Armored",
+      "require":"Spur Atk 2|Spur Spd 2"
     },
     "Goad Cavalry":{
       "cost":"200",
       "effect":"Grants cavalry allies within 2 spaces Spd/Atk+4 during combat.",
-      "restriction":"Cavalry"
+      "restriction":"Cavalry",
+      "require":"Spur Atk 2|Spur Spd 2"
     },
     "Goad Fliers":{
       "cost":"200",
       "effect":"Grants flying allies within 2 spaces Spd/Atk+4 during combat.",
-      "restriction":"Flying"
+      "restriction":"Flying",
+      "require":"Spur Atk 2|Spur Spd 2"
     },
     "Hone Armor":{
       "cost":"200",
       "effect":"Grants adjacent armored allies Atk/Spd+6 through their next actions at the start of each turn.",
-      "restriction":"Armored"
+      "restriction":"Armored",
+      "require":"Hone Atk 2|Hone Spd 2"
     },
     "Hone Atk 1":{
       "cost":"50",
@@ -787,12 +797,14 @@
     "Hone Cavalry":{
       "cost":"200",
       "effect":"Grants adjacent cavalry allies Atk/Spd+6 through their next actions at the start of each turn.",
-      "restriction":"Cavalry"
+      "restriction":"Cavalry",
+      "require":"Hone Atk 2|Hone Spd 2"
     },
     "Hone Fliers":{
       "cost":"200",
       "effect":"Grants adjacent flying allies Atk/Spd+6 through their next actions at the start of each turn.",
-      "restriction":"Flying"
+      "restriction":"Flying",
+      "require":"Hone Atk 2|Hone Spd 2"
     },
     "Hone Spd 1":{
       "cost":"50",
@@ -947,17 +959,20 @@
     "Ward Armor":{
       "cost":"200",
       "effect":"Grants armored allies within 2 spaces Def/Res+4 during combat.",
-      "restriction":"Armored"
+      "restriction":"Armored",
+      "require":"Spur Def 2|Spur Res 2"
     },
     "Ward Cavalry":{
       "cost":"200",
       "effect":"Grants cavalry allies within 2 spaces Def/Res+4 during combat.",
-      "restriction":"Cavalry"
+      "restriction":"Cavalry",
+      "require":"Spur Def 2|Spur Res 2"
     },
     "Ward Fliers":{
       "cost":"200",
       "effect":"Grants flying allies within 2 spaces Def/Res+4 during combat.",
-      "restriction":"Flying"
+      "restriction":"Flying",
+      "require":"Spur Def 2|Spur Res 2"
     }
   }
 }

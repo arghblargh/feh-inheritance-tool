@@ -166,20 +166,24 @@ tr [colSpan="2"] {
 
 .skill-info-container {
   height: 40px;
+  padding: 2px;
 }
 
 .skill-effect {
-  display: inline-block;
   width: 500px;
   text-align: left;
-  padding: 2px;
 }
 
 .skill-inherit {
   display: inline-block;
   width: 400px;
   text-align: left;
-  padding: 2px;
+}
+
+.skill-cost {
+  display: inline-block;
+  width: 36px;
+  text-align: center;
 }
 
 .rarity-icon {

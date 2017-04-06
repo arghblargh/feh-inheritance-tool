@@ -338,3 +338,44 @@ export function calcStats(unit, skills, boonBane) {
 
     return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);
 }
+
+// Searches for and returns the object containing data for a skill
+function getSkillData(skill) {
+    return weapons[skill] || assists[skill] || specials[skill] || passives.A[skill] || passives.B[skill] || passives.C[skill];
+}
+
+// Calculates the total SP cost of inheriting a skill
+export function calcCost(unit, skill) {
+    if (!skill) return;
+
+    let defaultSkills = new Set();
+    let skillData = getSkillData(skill);
+
+    for (let type in units[unit].skills)
+        for (let skl of units[unit].skills[type])
+            if (skl.name)
+                defaultSkills.add(skl.name);
+    
+    // If unit already has skill
+    if (defaultSkills.has(skill))
+        return 0;
+    // If skill is a + weapon and unit has the base weapon
+    else if ((/\+$/.test(skill) && defaultSkills.has(/[^+]*/.exec(skill)[0])))
+        return skillData.cost * 1.5;
+    // If skill has specific prerequisites
+    else if (skillData.require) {
+        // If skill prerequisites can be fulfilled by multiple skills
+        if (/\|/.test(skillData.require))
+            return skillData.cost * 1.5 + Math.min(calcCost(unit, /(.*)\|/.exec(skillData.require)[1]),
+                                                   calcCost(unit, /\|(.*)/.exec(skillData.require)[1]));
+        // Return 1.5xCost + cost of prerequisites
+        return skillData.cost * 1.5 + calcCost(unit, skillData.require);
+    }
+    // If skill is the second of third skill in a series
+    else if (/[2-9]/.test(skill)) {
+        let prereq = skill.slice(0, skill.length-1) + (skill.slice(skill.length-1)-1);
+        return skillData.cost * 1.5 + (getSkillData(prereq) ? calcCost(unit, prereq) : 0);
+    }
+    
+    return skillData.cost * 1.5;
+}

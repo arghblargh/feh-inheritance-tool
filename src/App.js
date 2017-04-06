@@ -24,7 +24,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { Dropdown, //Hover,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats, escapeRegExp } from './helper.js';
+         parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats, calcCost,
+         escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -137,6 +138,9 @@ class SkillInfoRow extends Component {
         <td className="skill-info-container">
           <div className="skill-inherit">{inheritList}</div>
         </td>
+        <td className="skill-info-container">
+          <div className="skill-cost">{this.props.cost || ''}</div>
+        </td>
       </tr>
     );
   }
@@ -208,6 +212,16 @@ class SkillInfoTable extends Component {
     skills.passiveC = this.props.skills.passiveC;
 
     let skillOptions = getPossibleSkills(this.props.unitName);
+
+    let skillCosts = [calcCost(this.props.unitName, skills.weapon),
+                      calcCost(this.props.unitName, skills.assist),
+                      calcCost(this.props.unitName, skills.special),
+                      calcCost(this.props.unitName, skills.passiveA),
+                      calcCost(this.props.unitName, skills.passiveB),
+                      calcCost(this.props.unitName, skills.passiveC)];
+    // console.clear();
+    // Temp while I find a place to put it. Logs total SP cost to console.
+    console.info('Total SP Cost: ' + skillCosts.reduce((a,b) => { return b ? a + b : a; }));
     
     return (
       <table>
@@ -219,6 +233,7 @@ class SkillInfoTable extends Component {
             <th colSpan="2">Skill</th>
             <th>Effect</th>
             <th>Inherited From</th>
+            <th>SP</th>
           </tr>
         </thead>
         <tbody>
@@ -228,6 +243,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.weapons}
                         effect={weapons[skills.weapon] ? 'Might: ' + weapons[skills.weapon].might + '. ' + weapons[skills.weapon].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
+                        cost={skillCosts[0]}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Assist' 
                         skillName={skills.assist}
@@ -235,6 +251,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.assists}
                         effect={assists[skills.assist] ? assists[skills.assist].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
+                        cost={skillCosts[1]}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Special' 
                         skillName={skills.special}
@@ -242,6 +259,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.specials}
                         effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
+                        cost={skillCosts[2]}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='A' 
                         skillName={skills.passiveA} 
@@ -249,6 +267,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.passivesA}
                         effect={passives.A[skills.passiveA] ? passives.A[skills.passiveA].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
+                        cost={skillCosts[3]}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='B' 
                         skillName={skills.passiveB} 
@@ -256,6 +275,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.passivesB}
                         effect={passives.B[skills.passiveB] ? passives.B[skills.passiveB].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
+                        cost={skillCosts[4]}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='C' 
                         skillName={skills.passiveC} 
@@ -263,6 +283,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.passivesC}
                         effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
+                        cost={skillCosts[5]}
                         onSkillSelect={this.handleSkillSelect} />
         </tbody>
       </table>
