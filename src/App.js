@@ -191,11 +191,13 @@ class SkillInfoTable extends Component {
         if (RegExp(escapeRegExp(unitName)).test(unit))
           return '';
       }
-
+      
       for (let unit of exclude) {
-        unitList[rarity].splice(exclude.indexOf(unit), 1);
-        if (!unitList[rarity].length)
-          delete unitList[rarity];
+        if (unitList[rarity].includes(unit)) {
+          unitList[rarity].splice(unitList[rarity].indexOf(unit), 1);
+          if (!unitList[rarity].length)
+            delete unitList[rarity];
+        }
       }
     }
     

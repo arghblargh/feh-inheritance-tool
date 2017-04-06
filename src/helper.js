@@ -162,11 +162,11 @@ export function getUnitsWithSkill(skill, type) {
     
     for (let unit in units) {
         let skillData = units[unit].skills[type];
-        for (let index in skillData) {
-            if (reSkill.test(skillData[index].name)) {
-                if (!unitList[skillData[index].unlock])
-                    unitList[skillData[index].unlock] = [];
-                unitList[skillData[index].unlock].push(unit);
+        for (let skl of skillData) {
+            if (reSkill.test(skl.name)) {
+                if (!unitList[skl.unlock])
+                    unitList[skl.unlock] = [];
+                unitList[skl.unlock].push(unit);
             }
         }
     }
@@ -346,7 +346,7 @@ function getSkillData(skill) {
 
 // Calculates the total SP cost of inheriting a skill
 export function calcCost(unit, skill) {
-    if (!skill) return;
+    if (!skill) return 0;
 
     let defaultSkills = new Set();
     let skillData = getSkillData(skill);
