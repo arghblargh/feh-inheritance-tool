@@ -1,11 +1,12 @@
 .App {
-	width: 1200px;
+	width: 1250px;
 	margin: 0px auto;
   text-align: center;
   font-size: 16px;
 }
 
 .App-header {
+  display: inline-block;
   height: 100px;
   padding: 20px;
 }
@@ -31,8 +32,6 @@
 
 .tool {
   display: inline-block;
-  width: 1200px;
-  height: 400px;
 }
 
 .char-info {
