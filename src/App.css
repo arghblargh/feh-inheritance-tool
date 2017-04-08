@@ -21,13 +21,24 @@
 }
 
 #footer-content {
-  font-size: 10px;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   text-align: center;
+}
+
+#contact {
+  font-size: 12px;
+}
+
+#disclaimer {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .tool {

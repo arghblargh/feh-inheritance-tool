@@ -566,10 +566,17 @@ class App extends Component {
         </div>
         <InheritanceTool />
         <div id="footer">
-          <p id="footer-content">
-            <i>Fire Emblem: Heroes</i> and all respective content are the 
-            sole property of Nintendo and Intelligent Systems.
-          </p>
+          <div id="footer-content">
+            <p id="contact">
+              Bug reports, feedback, or suggestions? Submit 
+              an <a href="https://github.com/arghblargh/feh-inheritance-tool">issue</a> on Github or 
+              message <a href="https://www.reddit.com/u/omgwtfhax_">/u/omgwtfhax_</a> on Reddit.
+            </p>
+            <p id="disclaimer">
+              <i>Fire Emblem: Heroes</i> and all respective content are the 
+              sole property of Nintendo and Intelligent Systems.
+            </p>
+          </div>
         </div>
       </div>
     );
