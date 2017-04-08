@@ -433,6 +433,7 @@ class InheritanceTool extends Component {
     this.setState({
       unitName: unitName,
       boonBane: {"boon":"","bane":""},
+      merge: 0,
       stats: this.state.rawStatsOn ? calcStats(unitName, null) : calcStats(unitName, newSkills),
       skills: newSkills,
     });
