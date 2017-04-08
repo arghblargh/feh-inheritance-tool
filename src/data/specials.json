@@ -49,12 +49,14 @@
     "cost":"100",
     "count":"4",
     "effect":"Heal 30% of damage dealt in your next attack.",
+    "value": "Heal:0.3",
     "restriction":""
   },
   "Noontime":{
     "cost":"200",
     "count":"3",
     "effect":"Heal 30% of damage dealt in your next attack.",
+    "value": "Heal:0.3",
     "restriction":"",
     "require":"Daylight"
   },
@@ -62,6 +64,7 @@
     "cost":"200",
     "count":"4",
     "effect":"Heal 50% of damage dealt in your next attack.",
+    "value": "Heal:0.5",
     "restriction":"",
     "require":"Daylight"
   },
@@ -69,6 +72,7 @@
     "cost":"500",
     "count":"5",
     "effect":"Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt.",
+    "value": "Heal:0.5,Mit:0.5",
     "restriction":"",
     "require":"Daylight|New Moon"
   },
@@ -76,12 +80,14 @@
     "cost":"100",
     "count":"3",
     "effect":"Resolve combat as if foe suffered Def/Res-30%.",
+    "value": "Mit:0.3",
     "restriction":""
   },
   "Moonbow":{
     "cost":"200",
     "count":"2",
     "effect":"Resolve combat as if foe suffered Def/Res-30%.",
+    "value": "Mit:0.3",
     "restriction":"",
     "require":"New Moon"
   },
@@ -89,6 +95,7 @@
     "cost":"200",
     "count":"3",
     "effect":"Resolve combat as if foe suffered Def/Res-50%.",
+    "value": "Mit:0.5",
     "restriction":"",
     "require":"New Moon"
   },
@@ -96,12 +103,14 @@
     "cost":"100",
     "count":"4",
     "effect":"Grants +50% to damage dealt.",
+    "value": "Damage:1.5",
     "restriction":""
   },
   "Glimmer":{
     "cost":"200",
     "count":"3",
     "effect":"Grants +50% to damage dealt.",
+    "value": "Damage:1.5",
     "restriction":"",
     "require":"Night Sky"
   },
@@ -109,6 +118,7 @@
     "cost":"200",
     "count":"5",
     "effect":"Grants +150% to damage dealt.",
+    "value": "Damage:2.5",
     "restriction":"",
     "require":"Night Sky"
   },
@@ -159,12 +169,14 @@
     "cost":"100",
     "count":"4",
     "effect":"Grants +30% to Atk.",
+    "value":"Atk:0.3",
     "restriction":""
   },
   "Draconic Aura":{
     "cost":"200",
     "count":"3",
     "effect":"Grants +30% to Atk.",
+    "value":"Atk:0.3",
     "restriction":"",
     "require":"Dragon Gaze"
   },
@@ -172,6 +184,7 @@
     "cost":"200",
     "count":"4",
     "effect":"Grants +50% to Atk.",
+    "value":"Atk:0.5",
     "restriction":"",
     "require":"Dragon Gaze"
   },
@@ -186,6 +199,7 @@
     "cost":"200",
     "count":"3",
     "effect":"Boosts damage dealt by 50% of unit's Res.",
+    "value": "Res:0.5",
     "restriction":"",
     "require":"Chilling Wind"
   },
@@ -193,6 +207,7 @@
     "cost":"200",
     "count":"4",
     "effect":"Boosts damage dealt by 80% of unit's Res.",
+    "value": "Res:0.8",
     "restriction":"",
     "require":"Chilling Wind"
   },
@@ -200,12 +215,14 @@
     "cost":"100",
     "count":"4",
     "effect":"Boosts damage dealt by 50% of unit's Def.",
+    "value": "Def:0.5",
     "restriction":""
   },
   "Bonfire":{
     "cost":"200",
     "count":"3",
     "effect":"Boosts damage dealt by 50% of unit's Def.",
+    "value": "Def:0.5",
     "restriction":"",
     "require":"Glowing Ember"
   },
@@ -213,6 +230,7 @@
     "cost":"200",
     "count":"4",
     "effect":"Boosts damage dealt by 80% of unit's Def.",
+    "value": "Def:0.8",
     "restriction":"",
     "require":"Glowing Ember"
   },
@@ -220,12 +238,14 @@
     "cost":"100",
     "count":"3",
     "effect":"Grants bonus to damage dealt equal to 30% of damage suffered.",
+    "value": "HPLoss:0.3",
     "restriction":""
   },
   "Reprisal":{
     "cost":"200",
     "count":"2",
     "effect":"Grants bonus to damage dealt equal to 30% of damage suffered.",
+    "value": "HPLoss:0.3",
     "restriction":"",
     "require":"Retribution"
   },
@@ -233,6 +253,7 @@
     "cost":"200",
     "count":"3",
     "effect":"Grants bonus to damage dealt equal to 50% of damage suffered.",
+    "value": "HPLoss:0.5",
     "restriction":"",
     "require":"Retribution"
   },

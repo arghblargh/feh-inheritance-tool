@@ -214,16 +214,6 @@ class SkillInfoTable extends Component {
     skills.passiveC = this.props.skills.passiveC;
 
     let skillOptions = getPossibleSkills(this.props.unitName);
-
-    let skillCosts = [calcCost(this.props.unitName, skills.weapon),
-                      calcCost(this.props.unitName, skills.assist),
-                      calcCost(this.props.unitName, skills.special),
-                      calcCost(this.props.unitName, skills.passiveA),
-                      calcCost(this.props.unitName, skills.passiveB),
-                      calcCost(this.props.unitName, skills.passiveC)];
-    // console.clear();
-    // Temp while I find a place to put it. Logs total SP cost to console.
-    console.info('Total SP Cost: ' + skillCosts.reduce((a,b) => { return b ? a + b : a; }));
     
     return (
       <table>
@@ -245,7 +235,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.weapons}
                         effect={weapons[skills.weapon] ? 'Might: ' + weapons[skills.weapon].might + '. ' + weapons[skills.weapon].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
-                        cost={skillCosts[0]}
+                        cost={calcCost(this.props.unitName, this.props.skills.weapon)}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Assist' 
                         skillName={skills.assist}
@@ -253,7 +243,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.assists}
                         effect={assists[skills.assist] ? assists[skills.assist].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
-                        cost={skillCosts[1]}
+                        cost={calcCost(this.props.unitName, this.props.skills.assist)}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Special' 
                         skillName={skills.special}
@@ -261,7 +251,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.specials}
                         effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
-                        cost={skillCosts[2]}
+                        cost={calcCost(this.props.unitName, this.props.skills.special)}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='A' 
                         skillName={skills.passiveA} 
@@ -269,7 +259,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.passivesA}
                         effect={passives.A[skills.passiveA] ? passives.A[skills.passiveA].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
-                        cost={skillCosts[3]}
+                        cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='B' 
                         skillName={skills.passiveB} 
@@ -277,7 +267,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.passivesB}
                         effect={passives.B[skills.passiveB] ? passives.B[skills.passiveB].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
-                        cost={skillCosts[4]}
+                        cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='C' 
                         skillName={skills.passiveC} 
@@ -285,7 +275,7 @@ class SkillInfoTable extends Component {
                         options={skillOptions.passivesC}
                         effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
-                        cost={skillCosts[5]}
+                        cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
                         onSkillSelect={this.handleSkillSelect} />
         </tbody>
       </table>
@@ -299,6 +289,7 @@ class UnitInfo extends Component {
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonSelect = this.handleBoonSelect.bind(this);
     this.handleBaneSelect = this.handleBaneSelect.bind(this);
+    this.handleMergeSelect = this.handleMergeSelect.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
   }
 
@@ -307,11 +298,15 @@ class UnitInfo extends Component {
   }
 
   handleBoonSelect(boon) {
-    this.props.onBoonBaneSelect("boon", boon ? boon.slice(1) : "");
+    this.props.onBoonBaneSelect("boon", boon ? boon.slice(1) : '');
+  }
+
+  handleMergeSelect(mergeBonus) {
+    this.props.onMergeSelect(mergeBonus ? mergeBonus.slice(1) : '');
   }
 
   handleBaneSelect(bane) {
-    this.props.onBoonBaneSelect("bane", bane ? bane.slice(1) : "");
+    this.props.onBoonBaneSelect("bane", bane ? bane.slice(1) : '');
   }
 
   handleRawStatsToggle(e) {
@@ -333,6 +328,7 @@ class UnitInfo extends Component {
             <td rowSpan="2"><img id="unitPortrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
             <th className="unit-name">Name</th>
             <th className="unit-type" colSpan="2">Type</th>
+            <th className="unit-merge">Merge</th>
             <th className="unit-bb">Boon</th>
             <th className="unit-bb">Bane</th>
             <th className="unit-stat">HP</th>
@@ -352,6 +348,12 @@ class UnitInfo extends Component {
             </td>
             <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
             <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
+            <td>
+              <Dropdown id='unitMerge'
+                        options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
+                        value={'+' + this.props.merge}
+                        onChange={this.handleMergeSelect} />
+            </td>
             <td>
               <Dropdown id='unitBB'
                         options={bOptions.map(option => { return option ? '+' + option : ""; })}
@@ -397,6 +399,7 @@ class InheritanceTool extends Component {
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonBaneSelect = this.handleBoonBaneSelect.bind(this);
+    this.handleMergeSelect = this.handleMergeSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
@@ -417,6 +420,7 @@ class InheritanceTool extends Component {
     this.state = {
       unitName: initUnit,
       boonBane: initBoonBane,
+      merge: 0,
       stats: initStats,
       skills: initSkills,
       rawStatsOn: false
@@ -429,7 +433,7 @@ class InheritanceTool extends Component {
     this.setState({
       unitName: unitName,
       boonBane: {"boon":"","bane":""},
-      stats: this.state.rawStatsOn ? JSON.parse(JSON.stringify(units[unitName].stats)) : calcStats(unitName, newSkills, {"boon":"","bane":""}),
+      stats: this.state.rawStatsOn ? calcStats(unitName, null) : calcStats(unitName, newSkills),
       skills: newSkills,
     });
   }
@@ -444,7 +448,16 @@ class InheritanceTool extends Component {
 
     this.setState({
       boonBane: newBoonBane,
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, this.state.skills, this.state.boonBane),
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
+                                   : calcStats(this.state.unitName, this.state.skills, this.state.boonBane, this.state.merge),
+    });
+  }
+
+  handleMergeSelect(mergeBonus) {
+    this.setState({
+      merge: mergeBonus,
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, mergeBonus)
+                                   : calcStats(this.state.unitName, this.state.skills, this.state.boonBane, mergeBonus),
     });
   }
 
@@ -473,15 +486,28 @@ class InheritanceTool extends Component {
         break;
     }
     this.setState({ 
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, newSkills, this.state.boonBane),
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge) 
+                                   : calcStats(this.state.unitName, newSkills, this.state.boonBane, this.state.merge),
       skills: newSkills 
     });
+
+    /// Temp while I find a place to put it. Logs total SP cost to console.
+    let skillCosts = [calcCost(this.state.unitName, newSkills.weapon),
+                      calcCost(this.state.unitName, newSkills.assist),
+                      calcCost(this.state.unitName, newSkills.special),
+                      calcCost(this.state.unitName, newSkills.passiveA),
+                      calcCost(this.state.unitName, newSkills.passiveB),
+                      calcCost(this.state.unitName, newSkills.passiveC)];
+    
+    console.info('Total SP Cost: ' + skillCosts.reduce((a,b) => { return b ? a + b : a; }));
+    ///
   }
 
   handleResetClick() {
     let skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane) : calcStats(this.state.unitName, skills, this.state.boonBane),
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
+                                   : calcStats(this.state.unitName, skills, this.state.boonBane, this.state.merge),
       skills: skills
     })
   }
@@ -490,12 +516,12 @@ class InheritanceTool extends Component {
     if (isOn) {
       this.setState({
         rawStatsOn: true,
-        stats: calcStats(this.state.unitName, null, this.state.boonBane)
+        stats: calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
       });
     } else {
       this.setState({
         rawStatsOn: false,
-        stats: calcStats(this.state.unitName, this.state.skills, this.state.boonBane)
+        stats: calcStats(this.state.unitName, this.state.skills, this.state.boonBane, this.state.merge)
       });
     }
   }
@@ -506,10 +532,12 @@ class InheritanceTool extends Component {
         <div className="char-info">
           <UnitInfo unitName={this.state.unitName}
                     boonBane={this.state.boonBane}
+                    merge={this.state.merge}
                     stats={this.state.stats}
                     rawStatsOn={this.state.rawStatsOn}
                     onUnitSelect={this.handleUnitSelect}
                     onBoonBaneSelect={this.handleBoonBaneSelect}
+                    onMergeSelect={this.handleMergeSelect}
                     onRawStatsToggle={this.handleRawStatsToggle} />
         </div>
         <div className="skill-info">

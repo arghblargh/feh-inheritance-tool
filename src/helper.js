@@ -276,9 +276,91 @@ function addStatMods(stats, mod) {
     return stats;
 }
 
-export function calcStats(unit, skills, boonBane) {
+// Calculate merge bonuses. Returns array with total stat increases.
+// +1: Highest and second highest base stat
+// +2: Third and fourth highest base stat
+// +3: Fifth and highest base stat
+// +4: Second and third highest base stat
+// +5: Fourth and fifth highest base stat
+// +6~10: Repeat
+// In case of tie: HP > Atk > Spd > Def > Res
+function calcMergeBonus(unit, merge, boonBaneMod) {
+    let sortedStats = [];
+    for (let stat in units[unit].stats) {
+        sortedStats.push({
+            "stat":stat,
+            "value":units[unit].stats[stat],
+            "bonus":0
+        });
+    }
+    for (let i in sortedStats) {
+        sortedStats[i].value += boonBaneMod[i];
+    }
+    sortedStats.sort((a,b) => { return b.value - a.value; });
+    
+    let index = 0;
+    for (let i = 0; i < merge; i++) {
+        sortedStats[index++].bonus += 1;
+        if (index > 4) index = 0;
+        sortedStats[index++].bonus += 1;
+        if (index > 4) index = 0;
+    }
+    
+    let resultMod = [0,0,0,0,0];
+    for (let stat of sortedStats) {
+        switch (stat.stat) {
+            case 'HP':
+                resultMod[0] = stat.bonus;
+                break;
+            case 'Atk':
+                resultMod[1] = stat.bonus;
+                break;
+            case 'Spd':
+                resultMod[2] = stat.bonus;
+                break;
+            case 'Def':
+                resultMod[3] = stat.bonus;
+                break;
+            case 'Res':
+                resultMod[4] = stat.bonus;
+                break;
+            default:
+        }
+    }
+    
+    return resultMod;
+}
+
+// Calculate unit stats
+export function calcStats(unit, skills, boonBane = null, merge = 0) {
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
+
+    if (boonBane) {
+        if (boonBane.boon) {
+            let boon = 3;
+            if(units[unit].boon && units[unit].boon[boonBane.boon])
+                boon = units[unit].boon[boonBane.boon];
+            totalMod[boonBane.boon === "HP"  ? 0 :
+                    boonBane.boon === "Atk" ? 1 :
+                    boonBane.boon === "Spd" ? 2 :
+                    boonBane.boon === "Def" ? 3 :
+                /*boonBane.boon === "Res" ?*/ 4 ] += boon;
+        }
+        if (boonBane.bane) {
+            let bane = 3;
+            if(units[unit].bane && units[unit].bane[boonBane.bane])
+                bane = units[unit].bane[boonBane.bane];
+            totalMod[boonBane.bane === "HP"  ? 0 :
+                    boonBane.bane === "Atk" ? 1 :
+                    boonBane.bane === "Spd" ? 2 :
+                    boonBane.bane === "Def" ? 3 :
+                /*boonBane.bane === "Res" ?*/ 4 ] -= bane;
+        }
+    }
+
+    let mergeMod = calcMergeBonus(unit, merge, totalMod);
+    totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
 
     if (skills) {
         if (skills.weapon)
@@ -313,27 +395,6 @@ export function calcStats(unit, skills, boonBane) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + ((temp + 2) * statMods.LifeAndDeath[i]); });
         }
-    }
-
-    if (boonBane.boon) {
-        let boon = 3;
-        if(units[unit].boon && units[unit].boon[boonBane.boon])
-            boon = units[unit].boon[boonBane.boon];
-        totalMod[boonBane.boon === "HP"  ? 0 :
-                 boonBane.boon === "Atk" ? 1 :
-                 boonBane.boon === "Spd" ? 2 :
-                 boonBane.boon === "Def" ? 3 :
-             /*boonBane.boon === "Res" ?*/ 4 ] += boon;
-    }
-    if (boonBane.bane) {
-        let bane = 3;
-        if(units[unit].bane && units[unit].bane[boonBane.bane])
-            bane = units[unit].bane[boonBane.bane];
-        totalMod[boonBane.bane === "HP"  ? 0 :
-                 boonBane.bane === "Atk" ? 1 :
-                 boonBane.bane === "Spd" ? 2 :
-                 boonBane.bane === "Def" ? 3 :
-             /*boonBane.bane === "Res" ?*/ 4 ] -= bane;
     }
 
     return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);

@@ -99,35 +99,40 @@ th, td {
 }
 
 .unit-type-sub {
-  width: 28px;
+  width: 30px;
+  height: 30px;
   padding: 5px 1px 1px;
   border: none;
   border-bottom: 1px solid black;
 }
 
-th.unit-bb {
-  width: 40px;
-}
-
 #unitBB {
   width: 54px;
+  text-align: center;
+  text-align-last: center;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 14px;
 }
 
-th.unit-stat {
+#unitMerge {
+  width: 56px;
+  text-align: center;
+  text-align-last: center;
+}
+
+.unit-stat {
   width: 40px;
 }
 
-th.unit-BST {
+.unit-BST {
   width: 40px;
 }
 
-th.unit-toggle {
+.unit-toggle {
   width: 40px;
 }
 
-td.skill-type {
+.skill-type {
   width: 50px;
   height: 40px;
   text-align: center;
@@ -135,12 +140,14 @@ td.skill-type {
   padding: 0px 5px;
 }
 
-td.skill-name-sub {
+.skill-name-sub {
   border-right: none;
 }
 
-td.skill-level {
+.skill-level {
   border-left: none;
+  text-align: right;
+  text-align-last: right;
 }
 
 #skillName {
