@@ -1,14 +1,13 @@
 .App {
-	width: 1250px;
+	width: 100%;
 	margin: 0px auto;
   text-align: center;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .App-header {
-  display: inline-block;
-  height: 100px;
-  padding: 20px;
+  height: 6.25em;
+  padding: 1.25em;
 }
 
 .sub-header {
@@ -17,7 +16,7 @@
 
 #footer {
   position: relative;
-  min-height: 300px;
+  min-height: 18.75em;
 }
 
 #footer-content {
@@ -30,11 +29,11 @@
 }
 
 #contact {
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 #disclaimer {
-  font-size: 10px;
+  font-size: 0.625em;
 }
 
 a {
@@ -43,26 +42,27 @@ a {
 
 .tool {
   display: inline-block;
+  width: 100%;
 }
 
 .char-info {
-  padding: 10px 5px;
+  padding: 0.625em 0.3125em;
 }
 
 .skill-info {
-  padding: 10px 5px;
+  padding: 0.625em 0.3125em;
 }
 
 select.form-control {
   border: none;
   outline: none;
   width: 100%;
-  height: 30px;
+  height: 1.875em;
   font-size: 1em;
 }
 
 .reset-button-cell {
-  height: 25px;
+  height: 1.5em;
   padding: none;
 }
 
@@ -74,7 +74,7 @@ select.form-control {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 0.875em;
   padding: none;
   margin: none;
   cursor: pointer;
@@ -97,55 +97,76 @@ th, td {
   padding: 0px;
 }
 
+#unitInfoLeft {
+  display: inline-block;
+  box-shadow: 0px 0px 1px #454545,
+}
+
+#unitInfoRight {
+  display: inline-block;
+  margin-left: 10px;
+  height: 4.8125em;
+  box-shadow: 0px 0px 1px #454545;
+}
+
+#unitInfoRight th {
+  height: 1.625em;
+}
+
+#unitInfoRight td {
+  height: 3em;
+}
+
 #unitPortrait {
   display: block;
 }
 
 #unitName {
-  width: 200px;
+  width: 12.5em;
 }
 
 .unit-name {
-  height: 20px;
+  height: 1.25em;
 }
 
 .unit-type-sub {
-  width: 30px;
-  height: 30px;
+  width: 1.875em;
+  height: 1.875em;
   padding: 5px 1px 1px;
   border: none;
   border-bottom: 1px solid black;
 }
 
 #unitBB {
-  width: 54px;
+  width: 3.8em;
   text-align: center;
   text-align-last: center;
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 #unitMerge {
-  width: 56px;
+  width: 3.5em;
   text-align: center;
   text-align-last: center;
 }
 
 .unit-stat {
-  width: 40px;
+  width: 2.5em;
+  height: 1.25em;
 }
 
 .unit-BST {
-  width: 40px;
+  width: 2.5em;
 }
 
 .unit-toggle {
-  width: 40px;
+  width: 2.5em;
 }
 
 .skill-type {
-  width: 50px;
-  height: 40px;
+  width: 3.125em;
+  height: 2.5em;
   text-align: center;
   font-weight: bold;
   padding: 0px 5px;
@@ -163,18 +184,18 @@ th, td {
 
 #skillName {
   float: left;
-  width: 205px;
+  width: 13em;
 }
 
 #skillNameSub {
   float: left;
-  width: 165px;
+  width: 10.5em;
 }
 
 #skillLevel {
   margin-left: 0px;
   float: right;
-  width: 40px;
+  width: 2.5em;
 }
 
 tr [colSpan="2"] {
@@ -182,30 +203,56 @@ tr [colSpan="2"] {
 }
 
 .skill-info-container {
-  height: 40px;
+  height: 2.5em;
   padding: 2px;
 }
 
-.skill-effect {
-  width: 500px;
-  text-align: left;
+@media only screen and (min-device-width: 1024px) {
+  .skill-effect {
+    display: inline-block;
+    min-width: 31em;
+    text-align: left;
+  }
+
+  .skill-inherit {
+    display: inline-block;
+    min-width: 25em;
+    text-align: left;
+  }
+
+  .skill-cost {
+    display: inline-block;
+    min-width: 2.25em;
+    text-align: center;
+  }
 }
 
-.skill-inherit {
-  display: inline-block;
-  width: 400px;
-  text-align: left;
-}
+@media only screen and (min-device-width: 320px) {
+  .skill-effect {
+    display: inline-block;
+    width: 100%;
+    max-width: 31em;
+    text-align: left;
+  }
 
-.skill-cost {
-  display: inline-block;
-  width: 36px;
-  text-align: center;
+  .skill-inherit {
+    display: inline-block;
+    width: 100%;
+    max-width: 25em;
+    text-align: left;
+  }
+
+  .skill-cost {
+    display: inline-block;
+    width: 100%;
+    max-width: 2.25em;
+    text-align: center;
+  }
 }
 
 .rarity-icon {
   vertical-align: top;
-  height: 16px;
+  height: 1em;
 }
 
 .boon {
@@ -217,14 +264,14 @@ tr [colSpan="2"] {
 }
 
 .css-checkbox {
-  width: 16px;
-  height: 16px;
+  width: 1em;
+  height: 1em;
   position: relative;
   margin: auto;
 }
 .css-checkbox label {
-  width: 16px;
-  height: 16px;
+  width: 1em;
+  height: 1em;
   cursor: pointer;
   position: absolute;
   top: 0;

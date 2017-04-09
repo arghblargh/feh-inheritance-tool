@@ -320,73 +320,155 @@ class UnitInfo extends Component {
     let movType = units[name].movType;
     let fullWpnType = color + ' ' + wpnType;
     let bOptions = ["", "HP", "ATK", "SPD", "DEF", "RES"];
+
+    if (/Mobile|Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+      return (
+        <div>
+          <table id="unitInfoLeft">
+            <tbody>
+              <tr>
+                <td rowSpan="2"><img id="unitPortrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
+                <th className="unit-name">Name</th>
+                <th className="unit-type" colSpan="2">Type</th>
+                <th className="unit-merge">Merge</th>
+              </tr>
+              <tr>
+                <td>
+                  <Dropdown id='unitName'
+                            options={Object.keys(units)}
+                            value={this.props.unitName}
+                            onChange={this.handleUnitSelect} />
+                </td>
+                <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
+                <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
+                <td>
+                  <Dropdown id='unitMerge'
+                            options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
+                            value={'+' + this.props.merge}
+                            onChange={this.handleMergeSelect} />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="unitInfoRight">
+            <tbody>
+              <tr>
+                <th className="unit-bb">Boon</th>
+                <th className="unit-bb">Bane</th>
+                <th className="unit-stat">HP</th>
+                <th className="unit-stat">ATK</th>
+                <th className="unit-stat">SPD</th>
+                <th className="unit-stat">DEF</th>
+                <th className="unit-stat">RES</th>
+                <th className="unit-BST">Total</th>
+                <th className="unit-toggle">Raw</th>
+              </tr>
+              <tr>
+                <td>
+                  <Dropdown id='unitBB'
+                            options={bOptions.map(option => { return option ? '+' + option : ""; })}
+                            value={'+' + this.props.boonBane.boon.toUpperCase()}
+                            onChange={this.handleBoonSelect} />
+                </td>
+                <td>
+                  <Dropdown id='unitBB'
+                            options={bOptions.map(option => { return option ? '-' + option : ""; })}
+                            value={'-' + this.props.boonBane.bane.toUpperCase()}
+                            onChange={this.handleBaneSelect} />
+                </td>
+                <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
+                <td className={this.props.boonBane.boon === "Atk" ? "boon" : this.props.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.stats.Atk}</td>
+                <td className={this.props.boonBane.boon === "Spd" ? "boon" : this.props.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.stats.Spd}</td>
+                <td className={this.props.boonBane.boon === "Def" ? "boon" : this.props.boonBane.bane === "Def" ? "bane" : ""}>{this.props.stats.Def}</td>
+                <td className={this.props.boonBane.boon === "Res" ? "boon" : this.props.boonBane.bane === "Res" ? "bane" : ""}>{this.props.stats.Res}</td>
+                <td>
+                  {Object.keys(this.props.stats).reduce((a,b) => {
+                    if (Number.isInteger(a))
+                      return a + this.props.stats[b];
+                    return this.props.stats[a] + this.props.stats[b];
+                  })}
+                </td>
+                <td>
+                  <div className="css-checkbox">
+                    <input type="checkbox" id="rawStatToggle" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} />
+                    <label htmlFor="rawStatToggle"></label>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      )
+    }
     
     return (
-      <table>
-        <tbody>
-          <tr>
-            <td rowSpan="2"><img id="unitPortrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
-            <th className="unit-name">Name</th>
-            <th className="unit-type" colSpan="2">Type</th>
-            <th className="unit-merge">Merge</th>
-            <th className="unit-bb">Boon</th>
-            <th className="unit-bb">Bane</th>
-            <th className="unit-stat">HP</th>
-            <th className="unit-stat">ATK</th>
-            <th className="unit-stat">SPD</th>
-            <th className="unit-stat">DEF</th>
-            <th className="unit-stat">RES</th>
-            <th className="unit-BST">Total</th>
-            <th className="unit-toggle">Raw</th>
-          </tr>
-          <tr>
-            <td>
-              <Dropdown id='unitName'
-                        options={Object.keys(units)}
-                        value={this.props.unitName}
-                        onChange={this.handleUnitSelect} />
-            </td>
-            <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
-            <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
-            <td>
-              <Dropdown id='unitMerge'
-                        options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
-                        value={'+' + this.props.merge}
-                        onChange={this.handleMergeSelect} />
-            </td>
-            <td>
-              <Dropdown id='unitBB'
-                        options={bOptions.map(option => { return option ? '+' + option : ""; })}
-                        value={'+' + this.props.boonBane.boon.toUpperCase()}
-                        onChange={this.handleBoonSelect} />
-            </td>
-            <td>
-              <Dropdown id='unitBB'
-                        options={bOptions.map(option => { return option ? '-' + option : ""; })}
-                        value={'-' + this.props.boonBane.bane.toUpperCase()}
-                        onChange={this.handleBaneSelect} />
-            </td>
-            <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
-            <td className={this.props.boonBane.boon === "Atk" ? "boon" : this.props.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.stats.Atk}</td>
-            <td className={this.props.boonBane.boon === "Spd" ? "boon" : this.props.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.stats.Spd}</td>
-            <td className={this.props.boonBane.boon === "Def" ? "boon" : this.props.boonBane.bane === "Def" ? "bane" : ""}>{this.props.stats.Def}</td>
-            <td className={this.props.boonBane.boon === "Res" ? "boon" : this.props.boonBane.bane === "Res" ? "bane" : ""}>{this.props.stats.Res}</td>
-            <td>
-              {Object.keys(this.props.stats).reduce((a,b) => {
-                if (Number.isInteger(a))
-                  return a + this.props.stats[b];
-                return this.props.stats[a] + this.props.stats[b];
-              })}
-            </td>
-            <td>
-              <div className="css-checkbox">
-                <input type="checkbox" id="rawStatToggle" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} />
-                <label htmlFor="rawStatToggle"></label>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div>
+        <table>
+          <tbody>
+            <tr>
+              <td rowSpan="2"><img id="unitPortrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
+              <th className="unit-name">Name</th>
+              <th className="unit-type" colSpan="2">Type</th>
+              <th className="unit-merge">Merge</th>
+              <th className="unit-bb">Boon</th>
+              <th className="unit-bb">Bane</th>
+              <th className="unit-stat">HP</th>
+              <th className="unit-stat">ATK</th>
+              <th className="unit-stat">SPD</th>
+              <th className="unit-stat">DEF</th>
+              <th className="unit-stat">RES</th>
+              <th className="unit-BST">Total</th>
+              <th className="unit-toggle">Raw</th>
+            </tr>
+            <tr>
+              <td>
+                <Dropdown id='unitName'
+                          options={Object.keys(units)}
+                          value={this.props.unitName}
+                          onChange={this.handleUnitSelect} />
+              </td>
+              <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
+              <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
+              <td>
+                <Dropdown id='unitMerge'
+                          options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
+                          value={'+' + this.props.merge}
+                          onChange={this.handleMergeSelect} />
+              </td>
+              <td>
+                <Dropdown id='unitBB'
+                          options={bOptions.map(option => { return option ? '+' + option : ""; })}
+                          value={'+' + this.props.boonBane.boon.toUpperCase()}
+                          onChange={this.handleBoonSelect} />
+              </td>
+              <td>
+                <Dropdown id='unitBB'
+                          options={bOptions.map(option => { return option ? '-' + option : ""; })}
+                          value={'-' + this.props.boonBane.bane.toUpperCase()}
+                          onChange={this.handleBaneSelect} />
+              </td>
+              <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
+              <td className={this.props.boonBane.boon === "Atk" ? "boon" : this.props.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.stats.Atk}</td>
+              <td className={this.props.boonBane.boon === "Spd" ? "boon" : this.props.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.stats.Spd}</td>
+              <td className={this.props.boonBane.boon === "Def" ? "boon" : this.props.boonBane.bane === "Def" ? "bane" : ""}>{this.props.stats.Def}</td>
+              <td className={this.props.boonBane.boon === "Res" ? "boon" : this.props.boonBane.bane === "Res" ? "bane" : ""}>{this.props.stats.Res}</td>
+              <td>
+                {Object.keys(this.props.stats).reduce((a,b) => {
+                  if (Number.isInteger(a))
+                    return a + this.props.stats[b];
+                  return this.props.stats[a] + this.props.stats[b];
+                })}
+              </td>
+              <td>
+                <div className="css-checkbox">
+                  <input type="checkbox" id="rawStatToggle" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} />
+                  <label htmlFor="rawStatToggle"></label>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     )
   }
 }
