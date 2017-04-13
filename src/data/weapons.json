@@ -415,6 +415,22 @@
     "effect": "",
     "restriction": ""
   },
+  "Firesweep Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 7,
+    "effect": "Effective against fliers. Unit and enemies cannot use counterattacks.",
+    "restriction": ""
+  },
+  "Firesweep Bow+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 11,
+    "effect": "Effective against fliers. Unit and enemies cannot use counterattacks.",
+    "restriction": ""
+  },
   "Flametongue": {
     "color": "",
     "type": "Dragon",

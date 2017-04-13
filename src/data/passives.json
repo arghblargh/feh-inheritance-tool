@@ -156,6 +156,21 @@
       "effect":"Enables unit to counterattack regardless of distance to attacker.",
       "restriction":"Melee"
     },
+    "Fortress Def 1":{
+      "cost":"50",
+      "effect":"Grants Def+3. Inflicts Atk-3.",
+      "restriction":""
+    },
+    "Fortress Def 2":{
+      "cost":"100",
+      "effect":"Grants Def+4. Inflicts Atk-3.",
+      "restriction":""
+    },
+    "Fortress Def 3":{
+      "cost":"200",
+      "effect":"Grants Def+5. Inflicts Atk-3.",
+      "restriction":""
+    },
     "Fury 1":{
       "cost":"50",
       "effect":"Grants Atk/Spd/Def/Res+1. Unit takes 2 damage after combat.",
@@ -408,6 +423,11 @@
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
       "restriction":"Color:RGN"
+    },
+    "Hit and Run":{
+      "cost":"150",
+      "effect":"If unit initiates attack, unit advances 1 space after battle.",
+      "restriction":""
     },
     "Knock Back":{
       "cost":"150",
@@ -668,23 +688,53 @@
       "cost":"240",
       "effect":"Enables unit to warp adjacent to any ally with HP ≤ 50%.",
       "restriction":""
+    },
+    "Windsweep 1":{
+      "cost":"50",
+      "effect":"If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit’s Spd - foe’s Spd ≥ 5, foe can’t counterattack.",
+      "restriction":""
+    },
+    "Windsweep 2":{
+      "cost":"100",
+      "effect":"If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit’s Spd - foe’s Spd ≥ 3, foe can’t counterattack.",
+      "restriction":""
+    },
+    "Windsweep 3":{
+      "cost":"200",
+      "effect":"If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit’s Spd - foe’s Spd ≥ 1, foe can’t counterattack.",
+      "restriction":""
     }
   },
   "C":{
     "Axe Experience 1":{
       "cost":"30",
       "effect":"If unit survives and uses an axe, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction":""
+      "restriction":"Axe"
     },
     "Axe Experience 2":{
       "cost":"60",
       "effect":"If unit survives, all axe users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction":""
+      "restriction":"Axe"
     },
     "Axe Experience 3":{
       "cost":"120",
       "effect":"If unit survives, all axe users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction":""
+      "restriction":"Axe"
+    },
+    "Bow Experience 1":{
+      "cost":"30",
+      "effect":"If unit survives and uses a bow, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction":"Bow"
+    },
+    "Bow Experience 2":{
+      "cost":"60",
+      "effect":"If unit survives, all bow users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction":"Bow"
+    },
+    "Bow Experience 3":{
+      "cost":"120",
+      "effect":"If unit survives, all bow users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction":"Bow"
     },
     "Breath of Life 1":{
       "cost":"50",
