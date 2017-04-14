@@ -174,11 +174,14 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 45,
+      "Atk": 33,
+      "Spd": 30,
+      "Def": 28,
+      "Res": 22
+    },
+    "bane": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -1571,11 +1574,15 @@
     "wpnType": "Lance",
     "movType": "Flying",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 37,
+      "Atk": 26,
+      "Spd": 36,
+      "Def": 24,
+      "Res": 33
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -2780,11 +2787,15 @@
     "wpnType": "Bow",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 42,
+      "Atk": 30,
+      "Spd": 25,
+      "Def": 26,
+      "Res": 31
+    },
+    "bane": {
+      "Spd": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -5545,11 +5556,14 @@
     "wpnType": "Lance",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 45,
+      "Atk": 35,
+      "Spd": 22,
+      "Def": 38,
+      "Res": 17
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
