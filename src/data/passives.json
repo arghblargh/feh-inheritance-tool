@@ -427,7 +427,7 @@
     "Hit and Run":{
       "cost":"150",
       "effect":"If unit initiates attack, unit advances 1 space after battle.",
-      "restriction":""
+      "restriction":"Melee"
     },
     "Knock Back":{
       "cost":"150",

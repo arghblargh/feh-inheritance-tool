@@ -169,6 +169,88 @@
       ]
     }
   },
+  "Alm": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Falchion",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 5
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 5
+        },
+        {
+          "name": "Attack +2",
+          "unlock": 5
+        },
+        {
+          "name": "Attack +3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Windsweep 1",
+          "unlock": 5
+        },
+        {
+          "name": "Windsweep 2",
+          "unlock": 5
+        },
+        {
+          "name": "Windsweep 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Anna": {
     "color": "Green",
     "wpnType": "Axe",
@@ -1484,6 +1566,76 @@
       ]
     }
   },
+  "Clair": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Lance+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Harsh Command",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Hit and Run",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Spd 2",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Spd 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Clarine": {
     "color": "Neutral",
     "wpnType": "Staff",
@@ -2618,6 +2770,88 @@
         },
         {
           "name": "Threaten Atk 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Faye": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Firesweep Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Firesweep Bow+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 5
+        },
+        {
+          "name": "Noontime",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wings of Mercy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wings of Mercy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wings of Mercy 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Bow Experience 1",
+          "unlock": 5
+        },
+        {
+          "name": "Bow Experience 2",
+          "unlock": 5
+        },
+        {
+          "name": "Bow Experience 3",
           "unlock": 5
         }
       ]
@@ -5296,6 +5530,88 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
+  "Lukas": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Killer Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Killer Lance+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Holy Vestments",
+          "unlock": 5
+        },
+        {
+          "name": "Sacred Cowl",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fortress Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fortress Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fortress Def 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Obstruct 1",
+          "unlock": 5
+        },
+        {
+          "name": "Obstruct 2",
+          "unlock": 5
+        },
+        {
+          "name": "Obstruct 3",
+          "unlock": 5
         }
       ],
       "passiveC": [

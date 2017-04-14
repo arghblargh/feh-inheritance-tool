@@ -357,7 +357,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP.",
-    "restriction": "Chrom|Lucina|Marth"
+    "restriction": "Chrom|Lucina|Marth|Alm"
   },
   "Fear": {
     "color": "Neutral",
