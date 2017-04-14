@@ -11,6 +11,7 @@ xit('renders without crashing', () => {
 
 it('calculates the correct SP cost of a skill', () => {
   expect(calcCost('Abel', 'Brave Lance+')).toEqual(0);
+  expect(calcCost('Cherche', 'Brave Axe+')).toEqual(750);
   expect(calcCost('Chrom', 'Silver Sword+')).toEqual(450);
   expect(calcCost('Abel', 'Aegis')).toEqual(0);
   expect(calcCost('Abel', 'Sacred Cowl')).toEqual(300);

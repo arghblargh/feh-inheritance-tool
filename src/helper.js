@@ -412,8 +412,13 @@ export function calcCost(unit, skill) {
     if (defaultSkills.has(skill))
         return 0;
     // If skill is a + weapon and unit has the base weapon
-    else if ((/\+$/.test(skill) && defaultSkills.has(/[^+]*/.exec(skill)[0])))
-        return skillData.cost * 1.5;
+    else if (/\+$/.test(skill)) {
+        // Unit has the base weapon
+        if (defaultSkills.has(/[^+]*/.exec(skill)[0]))
+            return skillData.cost * 1.5;
+        else
+            return skillData.cost * 1.5 + calcCost(unit, /[^+]*/.exec(skill)[0]);
+    }
     // If skill has specific prerequisites
     else if (skillData.require) {
         // If skill prerequisites can be fulfilled by multiple skills
@@ -423,7 +428,7 @@ export function calcCost(unit, skill) {
         // Return 1.5xCost + cost of prerequisites
         return skillData.cost * 1.5 + calcCost(unit, skillData.require);
     }
-    // If skill is the second of third skill in a series
+    // If skill is the second or third skill in a series
     else if (/[2-9]/.test(skill)) {
         let prereq = skill.slice(0, skill.length-1) + (skill.slice(skill.length-1)-1);
         return skillData.cost * 1.5 + (getSkillData(prereq) ? calcCost(unit, prereq) : 0);
