@@ -7330,35 +7330,35 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Panic",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "assist": [
         {
           "name": "Heal",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Reconcile",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Rehabilitate",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
         {
           "name": "Imbue",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Still-Water Balm",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -7376,11 +7376,11 @@
       "passiveC": [
         {
           "name": "Spur Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Def 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Def 3",
@@ -7577,15 +7577,15 @@
       "weapon": [
         {
           "name": "Iron Bow",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Bow",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Silver Bow",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Silver Bow+",
@@ -7595,7 +7595,7 @@
       "assist": [
         {
           "name": "Ardent Sacrifice",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -7607,25 +7607,25 @@
       "passiveA": [
         {
           "name": "Darting Blow 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Darting Blow 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Darting Blow 3",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
           "name": "Seal Atk 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Seal Atk 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Seal Atk 3",
