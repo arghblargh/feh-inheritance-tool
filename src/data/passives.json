@@ -874,17 +874,17 @@
     "Savage Blow 1":{
       "cost":"50",
       "effect":"If unit initiates attack, foes within 2 spaces of target take 3 damage after combat.",
-      "restriction":"Offense"
+      "restriction":""
     },
     "Savage Blow 2":{
       "cost":"100",
       "effect":"If unit initiates attack, foes within 2 spaces of target take 5 damage after combat.",
-      "restriction":"Offense"
+      "restriction":""
     },
     "Savage Blow 3":{
       "cost":"200",
       "effect":"If unit initiates attack, foes within 2 spaces of target take 7 damage after combat.",
-      "restriction":"Offense"
+      "restriction":""
     },
     "Spur Atk 1":{
       "cost":"50",
