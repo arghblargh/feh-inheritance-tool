@@ -5492,25 +5492,25 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Pain",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "assist": [
         {
           "name": "Heal",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Reconcile",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Martyr",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -5520,17 +5520,17 @@
         },
         {
           "name": "Miracle",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "HP +3",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "HP +4",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "HP +5",
