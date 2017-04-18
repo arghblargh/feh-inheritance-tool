@@ -355,7 +355,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
             totalMod[1] += weapons[skills.weapon].might;
 
         // Add stats from skills
-        if (/Brave/.test(skills.weapon)) {
+        if (/Brave|Dire Thunder/.test(skills.weapon)) {
             totalMod = totalMod.map((x,i) => { return x + [0,0,-5,0,0][i]; });
         }
         if (/HP\s/.test(skills.passiveA)) {
