@@ -303,6 +303,14 @@
     "effect": "Grants Atk+4 during combat if unit initiates attack.",
     "restriction": "Eliwood"
   },
+  "Eckesachs": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn.",
+    "restriction": "Zephiel"
+  },
   "Elfire": {
     "color": "Red",
     "type": "Tome",

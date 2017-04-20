@@ -9873,5 +9873,87 @@
         }
       ]
     }
+  },
+  "Zephiel": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "stats": {
+      "HP": 55,
+      "Atk": 30,
+      "Spd": 16,
+      "Def": 41,
+      "Res": 24
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Eckesachs",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Reprisal",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Life and Death 1",
+          "unlock": 3
+        },
+        {
+          "name": "Life and Death 2",
+          "unlock": 4
+        },
+        {
+          "name": "Life and Death 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
   }
 }
