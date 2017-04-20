@@ -6932,11 +6932,11 @@
       "special": [
         {
           "name": "Daylight",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Noontime",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
