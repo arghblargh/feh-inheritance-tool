@@ -6155,15 +6155,15 @@
       "weapon": [
         {
           "name": "Iron Axe",
-          "unlock": 3
+          "unlock": 5
         },
         {
           "name": "Steel Axe",
-          "unlock": 3
+          "unlock": 5
         },
         {
           "name": "Silver Axe",
-          "unlock": 4
+          "unlock": 5
         },
         {
           "name": "Hauteclere",
@@ -6179,21 +6179,21 @@
       "special": [
         {
           "name": "Holy Vestments",
-          "unlock": 3
+          "unlock": 5
         },
         {
           "name": "Sacred Cowl",
-          "unlock": 4
+          "unlock": 5
         }
       ],
       "passiveA": [
         {
           "name": "Life and Death 1",
-          "unlock": 3
+          "unlock": 5
         },
         {
           "name": "Life and Death 2",
-          "unlock": 4
+          "unlock": 5
         },
         {
           "name": "Life and Death 3",
@@ -6209,15 +6209,15 @@
       "passiveC": [
         {
           "name": "Spur Def 1",
-          "unlock": 3
+          "unlock": 5
         },
         {
           "name": "Spur Def 2",
-          "unlock": 3
+          "unlock": 5
         },
         {
           "name": "Ward Fliers",
-          "unlock": 4
+          "unlock": 5
         }
       ]
     }
