@@ -22,9 +22,10 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, //Hover,
+import { Dropdown, WikiBuildDropdown, //Hover,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats, calcCost,
+         parseSkills, getUnitsWithSkill, getPossibleSkills,
+         calcStats, calcCost,
          escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
@@ -629,6 +630,9 @@ class InheritanceTool extends Component {
                           skills={this.state.skills}
                           onSkillSelect={this.handleSkillSelect}
                           onResetClick={this.handleResetClick} />
+        </div>
+        <div>
+          <WikiBuildDropdown unitName={this.state.unitName} />
         </div>
       </div>
     );
