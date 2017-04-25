@@ -666,12 +666,12 @@
     },
     "Wary Fighter 2":{
       "cost":"120",
-      "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 80%.",
+      "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 70%.",
       "restriction":"Armored"
     },
     "Wary Fighter 3":{
       "cost":"240",
-      "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 70%.",
+      "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 50%.",
       "restriction":"Armored"
     },
     "Wings of Mercy 1":{
