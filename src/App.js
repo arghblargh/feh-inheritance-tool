@@ -22,7 +22,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, WikiBuildDropdown, //Hover,
+import { Dropdown, BuildManager, //Hover,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills,
          calcStats, calcCost,
@@ -632,7 +632,7 @@ class InheritanceTool extends Component {
                           onResetClick={this.handleResetClick} />
         </div>
         <div>
-          <WikiBuildDropdown unitName={this.state.unitName} />
+          <BuildManager unitName={this.state.unitName} />
         </div>
       </div>
     );

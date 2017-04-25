@@ -156,7 +156,7 @@ export const Dropdown = React.createClass({
 });
 
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
-export const WikiBuildDropdown = React.createClass({
+export const BuildManager = React.createClass({
     getInitialState: function() {
         return {
             link: null,
@@ -177,7 +177,7 @@ export const WikiBuildDropdown = React.createClass({
         if (this.state.link) {
             if (this.state.builds.length > 0) {
                 //console.info(this.state.link, this.state.builds);
-                return <Dropdown id="wikiBuildSelect"
+                return <Dropdown id="BuildSelect"
                                 options={this.state.builds.map((build) => { return build.BuildName; })}
                                 value={this.state.buildName}
                                 onChange={this.handleChange} />;
