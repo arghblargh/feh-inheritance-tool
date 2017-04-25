@@ -186,6 +186,21 @@
       "effect":"Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat.",
       "restriction":"Offense"
     },
+    "Heavy Blade 1":{
+      "cost":"50",
+      "effect":"If unit's Atk - foe's Atk ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction":""
+    },
+    "Heavy Blade 2":{
+      "cost":"100",
+      "effect":"If unit's Atk - foe's Atk ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction":""
+    },
+    "Heavy Blade 3":{
+      "cost":"200",
+      "effect":"If unit's Atk - foe's Atk ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction":""
+    },
     "HP +3":{
       "cost":"40",
       "effect":"Grants +3 to max HP.",
@@ -423,6 +438,21 @@
       "cost":"200",
       "effect":"If unit's HP ≥ 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
       "restriction":"Color:RGN"
+    },
+    "Guard 1":{
+      "cost":"50",
+      "effect":"If unit's HP ≥ 100% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
+      "restriction":""
+    },
+    "Guard 2":{
+      "cost":"50",
+      "effect":"If unit's HP ≥ 90% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
+      "restriction":""
+    },
+    "Guard 3":{
+      "cost":"50",
+      "effect":"If unit's HP ≥ 80% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
+      "restriction":""
     },
     "Hit and Run":{
       "cost":"150",
@@ -674,6 +704,21 @@
       "effect":"Prevents followup attacks in combat from unit and foes if unit's HP ≥ 50%.",
       "restriction":"Armored"
     },
+    "Watersweep 1":{
+      "cost":"50",
+      "effect":"If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit’s Spd - foe’s Spd ≥ 5, foe can’t counterattack.",
+      "restriction":""
+    },
+    "Watersweep 2":{
+      "cost":"100",
+      "effect":"If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit’s Spd - foe’s Spd ≥ 3, foe can’t counterattack.",
+      "restriction":""
+    },
+    "Watersweep 3":{
+      "cost":"200",
+      "effect":"If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit’s Spd - foe’s Spd ≥ 1, foe can’t counterattack.",
+      "restriction":""
+    },
     "Wings of Mercy 1":{
       "cost":"60",
       "effect":"Enables unit to warp adjacent to any ally with HP ≤ 30%.",
@@ -914,6 +959,17 @@
     "Spur Def 3":{
       "cost":"200",
       "effect":"Grants adjacent allies Def+4 during combat.",
+      "restriction":""
+    },
+    "Spur Def/Res 1":{
+      "cost":"80",
+      "effect":"Grants adjacent allies Def/Res+2 during combat.",
+      "restriction":"",
+      "require":"Spur Def 1|Spur Res 1"
+    },
+    "Spur Def/Res 2":{
+      "cost":"160",
+      "effect":"Grants adjacent allies Def/Res+3 during combat.",
       "restriction":""
     },
     "Spur Res 1":{

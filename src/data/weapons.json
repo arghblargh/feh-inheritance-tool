@@ -791,12 +791,19 @@
     "effect": "Effective against infantry units. Infantry foes suffer Def/Res-6 after combat through their next actions.",
     "restriction": ""
   },
+  "Ragnell": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Enables counterattack regardless of distance if this unit is attacked."
+  },
   "Raijinto": {
     "color": "Red",
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Enables unit to counterattack regardless of distance to attacker.",
+    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
     "restriction": "Ryoma"
   },
   "Rauðrblade": {
@@ -852,6 +859,14 @@
     "type": "Tome",
     "cost": 200,
     "might": 9,
+    "effect": "",
+    "restriction": ""
+  },
+  "Rexcalibur+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 13,
     "effect": "",
     "restriction": ""
   },
