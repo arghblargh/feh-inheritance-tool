@@ -10199,11 +10199,11 @@
     "wpnType": "Axe",
     "movType": "Cavalry",
     "stats": {
-      "HP": 55,
-      "Atk": 35,
-      "Spd": 16,
-      "Def": 38,
-      "Res": 24
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
     },
     "skills": {
       "weapon": [
