@@ -9961,11 +9961,14 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 42,
+      "Atk": 35,
+      "Spd": 31,
+      "Def": 32,
+      "Res": 18
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -9994,11 +9997,11 @@
       ],
       "special": [
         {
-          "name": "Daylight",
+          "name": "New Moon",
           "unlock": 5
         },
         {
-          "name": "Sol",
+          "name": "Luna",
           "unlock": 5
         },
         {
@@ -10047,11 +10050,18 @@
     "wpnType": "Staff",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 39,
+      "Atk": 27,
+      "Spd": 28,
+      "Def": 20,
+      "Res": 34
+    },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -10081,6 +10091,10 @@
       "special": [
         {
           "name": "Imbue",
+          "unlock": 5
+        },
+        {
+          "name": "Miracle",
           "unlock": 5
         }
       ],
@@ -10117,11 +10131,18 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 36,
+      "Atk": 33,
+      "Spd": 33,
+      "Def": 17,
+      "Res": 29
+    },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -10199,11 +10220,19 @@
     "wpnType": "Axe",
     "movType": "Cavalry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 37,
+      "Atk": 28,
+      "Spd": 34,
+      "Def": 25,
+      "Res": 30
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
