@@ -1588,15 +1588,15 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Silver Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Silver Lance+",
@@ -1606,7 +1606,7 @@
       "assist": [
         {
           "name": "Harsh Command",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -1624,17 +1624,17 @@
       "passiveB": [
         {
           "name": "Hit and Run",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
           "name": "Spur Spd 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Spd 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Spd 3",
@@ -5569,15 +5569,15 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Killer Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Killer Lance+",
@@ -5593,21 +5593,21 @@
       "special": [
         {
           "name": "Holy Vestments",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sacred Cowl",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "Fortress Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortress Def 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortress Def 3",
@@ -5617,15 +5617,15 @@
       "passiveB": [
         {
           "name": "Obstruct 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Obstruct 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Obstruct 3",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveC": [
