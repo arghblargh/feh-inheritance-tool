@@ -130,7 +130,7 @@
         },
         {
           "name": "Sol",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -439,7 +439,7 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Pain",
@@ -449,7 +449,7 @@
       "assist": [
         {
           "name": "Heal",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Reconcile",
@@ -8359,7 +8359,7 @@
       "assist": [
         {
           "name": "Reposition",
-          "unlock": 4
+          "unlock": 3
         }
       ],
       "special": [
