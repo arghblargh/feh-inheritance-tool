@@ -25,7 +25,7 @@ import './App.css';
 import { Dropdown, //Hover,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats, calcCost,
-         escapeRegExp } from './helper.js';
+         escapeRegExp, storageAvailable } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -547,7 +547,7 @@ class ToggleBox extends Component {
               </td>
               <td title="Use unit portraits in the inheritance list">
                 <label className="toggle">
-                  <input type="checkbox" onChange={this.handlePortraitToggle} />
+                  <input type="checkbox" checked={this.props.usePortraits} onChange={this.handlePortraitToggle} />
                   <div className="toggle-label noselect">Portraits</div>
                 </label>
               </td>
@@ -585,7 +585,7 @@ class InheritanceTool extends Component {
       };
     let initBoonBane = {"boon":"","bane":""};
     let initStats = calcStats(initUnit, initSkills, initBoonBane);
-
+    
     this.state = {
       unitName: initUnit,
       boonBane: initBoonBane,
@@ -593,7 +593,7 @@ class InheritanceTool extends Component {
       stats: initStats,
       skills: initSkills,
       rawStatsOn: false,
-      usePortraits: false
+      usePortraits: storageAvailable('localStorage') && JSON.parse(localStorage.usePortraits)
     }
   }
 
@@ -698,16 +698,21 @@ class InheritanceTool extends Component {
   }
 
   handlePortraitToggle(isOn) {
+    if (storageAvailable('localStorage')) {
+      localStorage.usePortraits = JSON.stringify(isOn);
+    }
     this.setState({
       usePortraits: isOn
     })
   }
 
   render() {
+    console.log(this.state.usePortraits);
     return (
       <div className="tool">
         <div className="toggle-box">
-          <ToggleBox onRawStatsToggle={this.handleRawStatsToggle}
+          <ToggleBox usePortraits={this.state.usePortraits}
+                     onRawStatsToggle={this.handleRawStatsToggle}
                      onPortraitToggle={this.handlePortraitToggle} />
         </div>
         <div className="char-info">
