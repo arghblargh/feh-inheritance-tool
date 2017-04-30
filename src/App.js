@@ -547,7 +547,7 @@ class ToggleBox extends Component {
               </td>
               <td title="Use unit portraits in the inheritance list">
                 <label className="toggle">
-                  <input type="checkbox" checked={this.props.usePortraits} onChange={this.handlePortraitToggle} />
+                  <input type="checkbox" checked={!!this.props.usePortraits} onChange={this.handlePortraitToggle} />
                   <div className="toggle-label noselect">Portraits</div>
                 </label>
               </td>
@@ -593,7 +593,7 @@ class InheritanceTool extends Component {
       stats: initStats,
       skills: initSkills,
       rawStatsOn: false,
-      usePortraits: storageAvailable('localStorage') && JSON.parse(localStorage.usePortraits)
+      usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits)
     }
   }
 
