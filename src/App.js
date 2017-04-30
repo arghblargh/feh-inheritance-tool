@@ -86,12 +86,86 @@ class SkillInfoRow extends Component {
     return this.props.effect;
   }
 
-  render() {
-    let inheritList = this.props.inheritList.split('★');
-    for (let i = 0; i < inheritList.length-1; i += 2) {
-      let rarity = /[1-5]/.exec(inheritList[i]);
-      inheritList.splice(i+1,0,<img className="rarity-icon" src={rarityIcon[rarity]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />);
+  formatInheritList() {
+    let inheritList = this.props.inheritList;
+    let result = [];
+
+    if (inheritList[1]) {
+      result.push('1', <img className="rarity-icon" src={rarityIcon[1]} title={1 + '★'} alt={1 + '★'} key={1} />, ': ');
+      
+      if (this.props.usePortraits) {
+        for (let unitName of inheritList[1]) {
+          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+        }
+        result.push(' ');
+      }
+      else {
+        result.push(inheritList[1].join(', '));
+        result.push('. ');
+      }
     }
+    if (inheritList[2]) {
+      result.push('2', <img className="rarity-icon" src={rarityIcon[2]} title={2 + '★'} alt={2 + '★'} key={2} />, ': ');
+      
+      if (this.props.usePortraits) {
+        for (let unitName of inheritList[2]) {
+          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+        }
+        result.push(' ');
+      }
+      else {
+        result.push(inheritList[2].join(', '));
+        result.push('. ');
+      }
+    }
+    if (inheritList[3]) {
+      result.push('3', <img className="rarity-icon" src={rarityIcon[3]} title={3 + '★'} alt={3 + '★'} key={3} />, ': ');
+      
+      if (this.props.usePortraits) {
+        for (let unitName of inheritList[3]) {
+          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+        }
+        result.push(' ');
+      }
+      else {
+        result.push(inheritList[3].join(', '));
+        result.push('. ');
+      }
+    }
+    if (inheritList[4]) {
+      result.push('4', <img className="rarity-icon" src={rarityIcon[4]} title={4 + '★'} alt={4 + '★'} key={4} />, ': ');
+      
+      if (this.props.usePortraits) {
+        for (let unitName of inheritList[4]) {
+          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+        }
+        result.push(' ');
+      }
+      else {
+        result.push(inheritList[4].join(', '));
+        result.push('. ');
+      }
+    }
+    if (inheritList[5]) {
+      result.push('5', <img className="rarity-icon" src={rarityIcon[5]} title={5 + '★'} alt={5 + '★'} key={5} />, ': ');
+      
+      if (this.props.usePortraits) {
+        for (let unitName of inheritList[5]) {
+          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+        }
+        result.push(' ');
+      }
+      else {
+        result.push(inheritList[5].join(', '));
+        result.push('.');
+      }
+    }
+
+    return result;
+  }
+
+  render() {
+    let inheritList = this.formatInheritList();
 
     let skillDropdown, skillLevel;
     let hasSkillLevel = false;
@@ -162,23 +236,6 @@ class SkillInfoTable extends Component {
     this.props.onResetClick();
   }
 
-  unitListToString(unitList) {
-    let result = '';
-
-    if (unitList[1])
-      result += '1★: ' + unitList[1].join(', ') + '. ';
-    if (unitList[2])
-      result += '2★: ' + unitList[2].join(', ') + '. ';
-    if (unitList[3])
-      result += '3★: ' + unitList[3].join(', ') + '. ';
-    if (unitList[4])
-      result += '4★: ' + unitList[4].join(', ') + '. ';
-    if (unitList[5])
-      result += '5★: ' + unitList[5].join(', ') + '.';
-
-    return result;
-  }
-
   getInheritList(unitName, skill, type) {
     if (!skill) return '';
     
@@ -202,7 +259,7 @@ class SkillInfoTable extends Component {
       }
     }
     
-    return this.unitListToString(unitList);
+    return unitList;
   }
 
   render() {
@@ -237,6 +294,7 @@ class SkillInfoTable extends Component {
                         effect={weapons[skills.weapon] ? 'Might: ' + weapons[skills.weapon].might + '. ' + weapons[skills.weapon].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
                         cost={calcCost(this.props.unitName, this.props.skills.weapon)}
+                        usePortraits={this.props.usePortraits}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Assist' 
                         skillName={skills.assist}
@@ -245,6 +303,7 @@ class SkillInfoTable extends Component {
                         effect={assists[skills.assist] ? assists[skills.assist].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
                         cost={calcCost(this.props.unitName, this.props.skills.assist)}
+                        usePortraits={this.props.usePortraits}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Special' 
                         skillName={skills.special}
@@ -253,6 +312,7 @@ class SkillInfoTable extends Component {
                         effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
                         cost={calcCost(this.props.unitName, this.props.skills.special)}
+                        usePortraits={this.props.usePortraits}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='A' 
                         skillName={skills.passiveA} 
@@ -261,6 +321,7 @@ class SkillInfoTable extends Component {
                         effect={passives.A[skills.passiveA] ? passives.A[skills.passiveA].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
                         cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
+                        usePortraits={this.props.usePortraits}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='B' 
                         skillName={skills.passiveB} 
@@ -269,6 +330,7 @@ class SkillInfoTable extends Component {
                         effect={passives.B[skills.passiveB] ? passives.B[skills.passiveB].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
                         cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
+                        usePortraits={this.props.usePortraits}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='C' 
                         skillName={skills.passiveC} 
@@ -277,6 +339,7 @@ class SkillInfoTable extends Component {
                         effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
                         cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
+                        usePortraits={this.props.usePortraits}
                         onSkillSelect={this.handleSkillSelect} />
         </tbody>
       </table>
@@ -291,7 +354,6 @@ class UnitInfo extends Component {
     this.handleBoonSelect = this.handleBoonSelect.bind(this);
     this.handleBaneSelect = this.handleBaneSelect.bind(this);
     this.handleMergeSelect = this.handleMergeSelect.bind(this);
-    this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
   }
 
   handleUnitSelect(unitName) {
@@ -310,10 +372,6 @@ class UnitInfo extends Component {
     this.props.onBoonBaneSelect("bane", bane ? bane.slice(1) : '');
   }
 
-  handleRawStatsToggle(e) {
-    this.props.onRawStatsToggle(e.target.checked);
-  }
-
   render() {
     let name = this.props.unitName;
     let color = units[name].color;
@@ -328,7 +386,7 @@ class UnitInfo extends Component {
           <table id="unitInfoLeft">
             <tbody>
               <tr>
-                <td rowSpan="2"><img id="unitPortrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
+                <td rowSpan="2"><img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
                 <th className="unit-name">Name</th>
                 <th className="unit-type" colSpan="2">Type</th>
                 <th className="unit-merge">Merge</th>
@@ -362,7 +420,6 @@ class UnitInfo extends Component {
                 <th className="unit-stat">DEF</th>
                 <th className="unit-stat">RES</th>
                 <th className="unit-BST">Total</th>
-                <th className="unit-toggle">Raw</th>
               </tr>
               <tr>
                 <td>
@@ -389,12 +446,6 @@ class UnitInfo extends Component {
                     return this.props.stats[a] + this.props.stats[b];
                   })}
                 </td>
-                <td>
-                  <div className="css-checkbox">
-                    <input type="checkbox" id="rawStatToggle" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} />
-                    <label htmlFor="rawStatToggle"></label>
-                  </div>
-                </td>
               </tr>
             </tbody>
           </table>
@@ -407,7 +458,7 @@ class UnitInfo extends Component {
         <table>
           <tbody>
             <tr>
-              <td rowSpan="2"><img id="unitPortrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
+              <td rowSpan="2"><img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
               <th className="unit-name">Name</th>
               <th className="unit-type" colSpan="2">Type</th>
               <th className="unit-merge">Merge</th>
@@ -419,7 +470,6 @@ class UnitInfo extends Component {
               <th className="unit-stat">DEF</th>
               <th className="unit-stat">RES</th>
               <th className="unit-BST">Total</th>
-              <th className="unit-toggle">Raw</th>
             </tr>
             <tr>
               <td>
@@ -460,11 +510,47 @@ class UnitInfo extends Component {
                   return this.props.stats[a] + this.props.stats[b];
                 })}
               </td>
-              <td>
-                <div className="css-checkbox">
-                  <input type="checkbox" id="rawStatToggle" checked={this.props.rawStatsOn} onChange={this.handleRawStatsToggle} />
-                  <label htmlFor="rawStatToggle"></label>
-                </div>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    )
+  }
+}
+
+class ToggleBox extends Component {
+  constructor(props) {
+    super(props);
+
+    this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
+    this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
+  }
+
+  handleRawStatsToggle(e) {
+    this.props.onRawStatsToggle(e.target.checked);
+  }
+
+  handlePortraitToggle(e) {
+    this.props.onPortraitToggle(e.target.checked);
+  }
+
+  render() {
+    return (
+      <div>
+        <table className="toggle-table">
+          <tbody>
+            <tr>
+              <td title="Display raw stats">
+                <label className="toggle">
+                  <input type="checkbox" onChange={this.handleRawStatsToggle} />
+                  <div className="toggle-label noselect">Raw Stats</div>
+                </label>
+              </td>
+              <td title="Use unit portraits in the inheritance list">
+                <label className="toggle">
+                  <input type="checkbox" onChange={this.handlePortraitToggle} />
+                  <div className="toggle-label noselect">Portraits</div>
+                </label>
               </td>
             </tr>
           </tbody>
@@ -486,6 +572,7 @@ class InheritanceTool extends Component {
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
+    this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
   }
 
   initState(initUnit) {
@@ -506,7 +593,8 @@ class InheritanceTool extends Component {
       merge: 0,
       stats: initStats,
       skills: initSkills,
-      rawStatsOn: false
+      rawStatsOn: false,
+      usePortraits: false
     }
   }
 
@@ -610,9 +698,19 @@ class InheritanceTool extends Component {
     }
   }
 
+  handlePortraitToggle(isOn) {
+    this.setState({
+      usePortraits: isOn
+    })
+  }
+
   render() {
     return (
       <div className="tool">
+        <div className="toggle-box">
+          <ToggleBox onRawStatsToggle={this.handleRawStatsToggle}
+                     onPortraitToggle={this.handlePortraitToggle} />
+        </div>
         <div className="char-info">
           <UnitInfo unitName={this.state.unitName}
                     boonBane={this.state.boonBane}
@@ -621,13 +719,13 @@ class InheritanceTool extends Component {
                     rawStatsOn={this.state.rawStatsOn}
                     onUnitSelect={this.handleUnitSelect}
                     onBoonBaneSelect={this.handleBoonBaneSelect}
-                    onMergeSelect={this.handleMergeSelect}
-                    onRawStatsToggle={this.handleRawStatsToggle} />
+                    onMergeSelect={this.handleMergeSelect} />
         </div>
         <div className="skill-info">
           <SkillInfoTable unitName={this.state.unitName}
                           stats={this.state.stats}
                           skills={this.state.skills}
+                          usePortraits={this.state.usePortraits}
                           onSkillSelect={this.handleSkillSelect}
                           onResetClick={this.handleResetClick} />
         </div>

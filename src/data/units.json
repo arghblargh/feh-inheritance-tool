@@ -130,7 +130,7 @@
         },
         {
           "name": "Sol",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -439,7 +439,7 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Pain",
@@ -449,7 +449,7 @@
       "assist": [
         {
           "name": "Heal",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Reconcile",
@@ -1588,15 +1588,15 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Silver Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Silver Lance+",
@@ -1606,7 +1606,7 @@
       "assist": [
         {
           "name": "Harsh Command",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -1624,17 +1624,17 @@
       "passiveB": [
         {
           "name": "Hit and Run",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
           "name": "Spur Spd 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Spd 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Spd 3",
@@ -5569,15 +5569,15 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Killer Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Killer Lance+",
@@ -5593,21 +5593,21 @@
       "special": [
         {
           "name": "Holy Vestments",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sacred Cowl",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "Fortress Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortress Def 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortress Def 3",
@@ -5617,15 +5617,15 @@
       "passiveB": [
         {
           "name": "Obstruct 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Obstruct 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Obstruct 3",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveC": [
@@ -8359,7 +8359,7 @@
       "assist": [
         {
           "name": "Reposition",
-          "unlock": 4
+          "unlock": 3
         }
       ],
       "special": [
@@ -9961,11 +9961,14 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 42,
+      "Atk": 35,
+      "Spd": 31,
+      "Def": 32,
+      "Res": 18
+    },
+    "bane": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -9994,11 +9997,11 @@
       ],
       "special": [
         {
-          "name": "Daylight",
+          "name": "New Moon",
           "unlock": 5
         },
         {
-          "name": "Sol",
+          "name": "Luna",
           "unlock": 5
         },
         {
@@ -10047,11 +10050,18 @@
     "wpnType": "Staff",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 39,
+      "Atk": 27,
+      "Spd": 28,
+      "Def": 20,
+      "Res": 34
+    },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -10081,6 +10091,10 @@
       "special": [
         {
           "name": "Imbue",
+          "unlock": 5
+        },
+        {
+          "name": "Miracle",
           "unlock": 5
         }
       ],
@@ -10117,11 +10131,18 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 36,
+      "Atk": 33,
+      "Spd": 33,
+      "Def": 17,
+      "Res": 29
+    },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -10199,11 +10220,19 @@
     "wpnType": "Axe",
     "movType": "Cavalry",
     "stats": {
-      "HP": 55,
-      "Atk": 35,
-      "Spd": 16,
-      "Def": 38,
-      "Res": 24
+      "HP": 37,
+      "Atk": 28,
+      "Spd": 34,
+      "Def": 25,
+      "Res": 30
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
