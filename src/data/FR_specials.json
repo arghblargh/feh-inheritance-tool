@@ -1,0 +1,388 @@
+{
+    "Aegis": {
+        "cost": "200",
+        "count": "3",
+        "effect": "Les dégâts infligés à l'unité par les ennemis situés à 2 cases ou moins sont réduits de 50%",
+        "name": "Égide",
+        "require": "Holy Vestments",
+        "restriction": "Melee"
+    },
+    "Aether": {
+        "cost": "500",
+        "count": "5",
+        "effect": "Ignore 30% de la Déf/Rés de la cible. L'unité se soigne à hauteur de 50% des dégâts infligés.",
+        "name": "Éther",
+        "require": "Daylight|New Moon",
+        "restriction": "",
+        "value": "Heal:0.5,Mit:0.5"
+    },
+    "Astra": {
+        "cost": "200",
+        "count": "5",
+        "effect": "L'unité inflige 150% de dégâts supplémentaires.",
+        "name": "Stellaire",
+        "require": "Night Sky",
+        "restriction": "",
+        "value": "Damage:2.5"
+    },
+    "Blazing Flame": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige 1,5 x (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis dans une zone proche de l'ennemi ciblé.",
+        "name": "Flamme déferlante",
+        "require": "Rising Flame",
+        "restriction": ""
+    },
+    "Blazing Light": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige 1,5 x (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis dans une zone proche de l'ennemi ciblé.",
+        "name": "Lueur déferlante",
+        "require": "Rising Light",
+        "restriction": ""
+    },
+    "Blazing Thunder": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige 1,5 x (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis dans une zone proche de l'ennemi ciblé.",
+        "name": "Éclair déferlant",
+        "require": "Rising Thunder",
+        "restriction": ""
+    },
+    "Blazing Wind": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige 1,5 x (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis dans une zone proche de l'ennemi ciblé.",
+        "name": "Vent déferlant",
+        "require": "Rising Wind",
+        "restriction": ""
+    },
+    "Bonfire": {
+        "cost": "200",
+        "count": "3",
+        "effect": "Augmente les dégâts infligés par l'unité à hauteur de 50% de sa Défense.",
+        "name": "Feu de joie",
+        "require": "Glowing Ember",
+        "restriction": "",
+        "value": "Def:0.5"
+    },
+    "Buckler": {
+        "cost": "100",
+        "count": "3",
+        "effect": "Les dégâts infligés à l'unité par les ennemis adjacents sont réduits de 30%.",
+        "name": "Bouclier",
+        "restriction": "Melee"
+    },
+    "Chilling Wind": {
+        "cost": "100",
+        "count": "4",
+        "effect": "Augmente les dégâts infligés par l'unité à hauteur de 50% de sa Résistance.",
+        "name": "Blizzard",
+        "restriction": "",
+        "value": "Res:0.5"
+    },
+    "Daylight": {
+        "cost": "100",
+        "count": "4",
+        "effect": "L'unité se soigne à hauteur de 30% des dégâts qu'elle inflige.",
+        "name": "Diurne",
+        "restriction": "",
+        "value": "Heal:0.3"
+    },
+    "Draconic Aura": {
+        "cost": "200",
+        "count": "3",
+        "effect": "Augmente l'Atq de 30%.",
+        "name": "Aura draconique",
+        "require": "Dragon Gaze",
+        "restriction": "",
+        "value": "Atk:0.3"
+    },
+    "Dragon Fang": {
+        "cost": "200",
+        "count": "4",
+        "effect": "Augmente l'Atq de 50%.",
+        "name": "Crocs du dragon",
+        "require": "Dragon Gaze",
+        "restriction": "",
+        "value": "Atk:0.5"
+    },
+    "Dragon Gaze": {
+        "cost": "100",
+        "count": "4",
+        "effect": "Augmente l'Atq de 30%.",
+        "name": "Oeil du dragon",
+        "restriction": "",
+        "value": "Atk:0.3"
+    },
+    "Escutcheon": {
+        "cost": "100",
+        "count": "2",
+        "effect": "Les dégâts infligés à l'unité par les ennemis adjacents sont réduits de 30%.",
+        "name": "Écusson",
+        "require": "Buckler",
+        "restriction": "Melee"
+    },
+    "Galeforce": {
+        "cost": "500",
+        "count": "5",
+        "effect": "Permet à l'unité d'agir à nouveau après avoir initié un combat. (Une seule fois par tour.)",
+        "name": "Élan victorieux",
+        "require": "Night Sky",
+        "restriction": ""
+    },
+    "Glacies": {
+        "cost": "200",
+        "count": "4",
+        "effect": "Augmente les dégâts infligés par l'unité à hauteur de 80% de sa Résistance.",
+        "name": "Glacier",
+        "require": "Chilling Wind",
+        "restriction": "",
+        "value": "Res:0.8"
+    },
+    "Glimmer": {
+        "cost": "200",
+        "count": "3",
+        "effect": "L'unité inflige 50% de dégâts supplémentaires.",
+        "name": "Lueur",
+        "require": "Night Sky",
+        "restriction": "",
+        "value": "Damage:1.5"
+    },
+    "Glowing Ember": {
+        "cost": "100",
+        "count": "4",
+        "effect": "Augmente les dégâts infligés par l'unité à hauteur de 50% de sa Défense.",
+        "name": "Braise",
+        "restriction": "",
+        "value": "Def:0.5"
+    },
+    "Growing Flame": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis autour de l'ennemi ciblé.",
+        "name": "Flamme croissante",
+        "require": "Rising Flame",
+        "restriction": ""
+    },
+    "Growing Light": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis autour de l'ennemi ciblé.",
+        "name": "Lueur croissante",
+        "require": "Rising Light",
+        "restriction": ""
+    },
+    "Growing Thunder": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis autour de l'ennemi ciblé.",
+        "name": "Éclair croissant",
+        "require": "Rising Thunder",
+        "restriction": ""
+    },
+    "Growing Wind": {
+        "cost": "300",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis autour de l'ennemi ciblé.",
+        "name": "Vent croissant",
+        "require": "Rising Wind",
+        "restriction": ""
+    },
+    "Heavenly Light": {
+        "cost": "150",
+        "count": "2",
+        "effect": "Lorsque l'unité soigne un allié à l'aide d'un bâton, tous les alliés recouvrent 10 PV.",
+        "name": "Rayonnement",
+        "restriction": "Staff"
+    },
+    "Holy Vestments": {
+        "cost": "100",
+        "count": "3",
+        "effect": "Les dégâts infligés à l'unité par les ennemis situés à 2 cases ou moins sont réduits de 30%",
+        "name": "Ornement",
+        "restriction": "Melee"
+    },
+    "Iceberg": {
+        "cost": "200",
+        "count": "3",
+        "effect": "Augmente les dégâts infligés par l'unité à hauteur de 50% de sa Résistance.",
+        "name": "Iceberg",
+        "require": "Chilling Wind",
+        "restriction": "",
+        "value": "Res:0.5"
+    },
+    "Ignis": {
+        "cost": "200",
+        "count": "4",
+        "effect": "Augmente les dégâts infligés par l'unité à hauteur de 80% de sa Défense.",
+        "name": "Ignition",
+        "require": "Glowing Ember",
+        "restriction": "",
+        "value": "Def:0.8"
+    },
+    "Imbue": {
+        "cost": "50",
+        "count": "1",
+        "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, tous les alliés gagnent DéF +4 pendant un tour.",
+        "name": "Grâce",
+        "restriction": "Staff"
+    },
+    "Kindled-Fire Balm": {
+        "cost": "150",
+        "count": "1",
+        "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, tous les alliés gagnent Atq +4 pendant un tour.",
+        "name": "Beaume ardent",
+        "restriction": "Staff"
+    },
+    "Luna": {
+        "cost": "200",
+        "count": "3",
+        "effect": "Ignore 50% de la Déf/Rés de la cible.",
+        "name": "Lunaire",
+        "require": "New Moon",
+        "restriction": "",
+        "value": "Mit:0.5"
+    },
+    "Miracle": {
+        "cost": "200",
+        "count": "5",
+        "effect": "Si PV > 1, l'unité survit à un coup mortel avec 1 PV restant.",
+        "name": "Miracle",
+        "restriction": "Staff|"
+    },
+    "Moonbow": {
+        "cost": "200",
+        "count": "2",
+        "effect": "Ignore 30% de la Déf/Rés de la cible.",
+        "name": "Arc lunaire",
+        "require": "New Moon",
+        "restriction": "",
+        "value": "Mit:0.3"
+    },
+    "New Moon": {
+        "cost": "100",
+        "count": "3",
+        "effect": "Ignore 30% de la Déf/Rés de la cible.",
+        "name": "Nouvelle lune",
+        "restriction": "",
+        "value": "Mit:0.3"
+    },
+    "Night Sky": {
+        "cost": "100",
+        "count": "4",
+        "effect": "L'unité inflige 50% de dégâts supplémentaires.",
+        "name": "Nocturne",
+        "restriction": "",
+        "value": "Damage:1.5"
+    },
+    "Noontime": {
+        "cost": "200",
+        "count": "3",
+        "effect": "L'unité se soigne à hauteur de 30% des dégâts qu'elle inflige.",
+        "name": "Zénith",
+        "require": "Daylight",
+        "restriction": "",
+        "value": "Heal:0.3"
+    },
+    "Pavise": {
+        "cost": "200",
+        "count": "3",
+        "effect": "Les dégâts infligés à l'unité par les ennemis adjacents sont réduits de 50%.",
+        "name": "Pavois",
+        "require": "Buckler",
+        "restriction": "Melee"
+    },
+    "Reprisal": {
+        "cost": "200",
+        "count": "2",
+        "effect": "Les dégâts infligés sont augmentés à hauteur de 30% des PV perdus.",
+        "name": "Rancune",
+        "require": "Retribution",
+        "restriction": "",
+        "value": "HPLoss:0.3"
+    },
+    "Retribution": {
+        "cost": "100",
+        "count": "3",
+        "effect": "Les dégâts infligés sont augmentés à hauteur de 30% des PV perdus.",
+        "name": "Rétribution",
+        "restriction": "",
+        "value": "HPLoss:0.3"
+    },
+    "Rising Flame": {
+        "cost": "150",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis proche de l'ennemi ciblé.",
+        "name": "Flamme naissante",
+        "restriction": ""
+    },
+    "Rising Light": {
+        "cost": "150",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis proche de l'ennemi ciblé.",
+        "name": "Lueur naissante",
+        "restriction": ""
+    },
+    "Rising Thunder": {
+        "cost": "150",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis proche de l'ennemi ciblé.",
+        "name": "Éclair naissant",
+        "restriction": ""
+    },
+    "Rising Wind": {
+        "cost": "150",
+        "count": "5",
+        "effect": "Avant d'initier le combat, l'unité inflige (Atq unité) - (Déf ou Rés cible) dégâts aux ennemis proche de l'ennemi ciblé.",
+        "name": "Vent naissant",
+        "restriction": ""
+    },
+    "Sacred Cowl": {
+        "cost": "200",
+        "count": "2",
+        "effect": "Les dégâts infligés à l'unité par les ennemis situés à 2 cases ou moins sont réduits de 30%.",
+        "name": "Mitre",
+        "require": "Holy Vestments",
+        "restriction": "Melee"
+    },
+    "Sol": {
+        "cost": "200",
+        "count": "4",
+        "effect": "L'unité se soigne à hauteur de 50% des dégâts qu'elle inflige.",
+        "name": "Solaire",
+        "require": "Daylight",
+        "restriction": "",
+        "value": "Heal:0.5"
+    },
+    "Solid-Earth Balm": {
+        "cost": "150",
+        "count": "1",
+        "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, tous les alliés gagnent Déf +4 pendant un tour.",
+        "name": "Beaume fortifiant",
+        "restriction": "Staff"
+    },
+    "Still-Water Balm": {
+        "cost": "150",
+        "count": "1",
+        "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, tous les alliés gagnent Rés +4 pendant un tour.",
+        "name": "Beaume apaisant",
+        "restriction": "Staff"
+    },
+    "Swift-Winds Balm": {
+        "cost": "150",
+        "count": "1",
+        "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, tous les alliés gagnent Vit +4 pendant un tour.",
+        "name": "Beaume vivifiant",
+        "restriction": "Staff"
+    },
+    "Vengeance": {
+        "cost": "200",
+        "count": "3",
+        "effect": "Les dégâts infligés sont augmentés à hauteur de 50% des PV perdus.",
+        "name": "Vengeance",
+        "require": "Retribution",
+        "restriction": "",
+        "value": "HPLoss:0.5"
+    }
+}
