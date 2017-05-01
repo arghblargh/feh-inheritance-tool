@@ -1,0 +1,1296 @@
+{
+    "A": {
+        "Armored Blow 1": {
+            "cost": "50",
+            "effect": "Confère Déf +2 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup blindé 1",
+            "restriction": "Offense"
+        },
+        "Armored Blow 2": {
+            "cost": "100",
+            "effect": "Confère Déf +4 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup blindé 2",
+            "restriction": "Offense"
+        },
+        "Armored Blow 3": {
+            "cost": "200",
+            "effect": "Confère Déf +6 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup blindé 3",
+            "restriction": "Offense"
+        },
+        "Attack +1": {
+            "cost": "30",
+            "effect": "L'attaque de l'unité augmente de 1.",
+            "name": "Attaque +1",
+            "restriction": ""
+        },
+        "Attack +2": {
+            "cost": "60",
+            "effect": "L'attaque de l'unité augmente de 2.",
+            "name": "Attaque +2",
+            "restriction": ""
+        },
+        "Attack +3": {
+            "cost": "120",
+            "effect": "L'attaque de l'unité augmente de 3.",
+            "name": "Attaque +3",
+            "restriction": ""
+        },
+        "Attack/Def +1": {
+            "cost": "80",
+            "effect": "Confère Atq/Déf +1.",
+            "name": "Atq/Déf +1",
+            "require": "Attack +1|Defense +1",
+            "restriction": ""
+        },
+        "Attack/Def +2": {
+            "cost": "160",
+            "effect": "Confère Atq/Déf +2.",
+            "name": "Atq/Déf +2",
+            "restriction": ""
+        },
+        "Close Counter": {
+            "cost": "300",
+            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
+            "name": "Contre rapproché",
+            "restriction": "Ranged"
+        },
+        "Darting Blow 1": {
+            "cost": "50",
+            "effect": "Confère Vit +2 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup foudroyant 1",
+            "restriction": "Offense"
+        },
+        "Darting Blow 2": {
+            "cost": "100",
+            "effect": "Confère Vit +4 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup foudroyant 2",
+            "restriction": "Offense"
+        },
+        "Darting Blow 3": {
+            "cost": "200",
+            "effect": "Confère Vit +6 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup foudroyant 3",
+            "restriction": "Offense"
+        },
+        "Death Blow 1": {
+            "cost": "50",
+            "effect": "Confère Atq +2 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup fatal 1",
+            "restriction": "Offense"
+        },
+        "Death Blow 2": {
+            "cost": "100",
+            "effect": "Confère Atq +4 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup fatal 2",
+            "restriction": "Offense"
+        },
+        "Death Blow 3": {
+            "cost": "200",
+            "effect": "Confère Atq +6 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup fatal 3",
+            "restriction": "Offense"
+        },
+        "Defense +1": {
+            "cost": "30",
+            "effect": "La défense de l'unité augmente de 1.",
+            "name": "Défense +1",
+            "restriction": ""
+        },
+        "Defense +2": {
+            "cost": "60",
+            "effect": "La défense de l'unité augmente de 2.",
+            "name": "Défense +2",
+            "restriction": ""
+        },
+        "Defense +3": {
+            "cost": "120",
+            "effect": "La défense de l'unité augmente de 3.",
+            "name": "Défense +3",
+            "restriction": ""
+        },
+        "Defiant Atk 1": {
+            "cost": "40",
+            "effect": "Si PV ≤ 50%, confère Atq +3 à l'unité en début de tour.",
+            "name": "Éveil Atq 1",
+            "restriction": ""
+        },
+        "Defiant Atk 2": {
+            "cost": "80",
+            "effect": "Si PV ≤ 50%, confère Atq +5 à l'unité en début de tour.",
+            "name": "Éveil Atq 2",
+            "restriction": ""
+        },
+        "Defiant Atk 3": {
+            "cost": "160",
+            "effect": "Si PV ≤ 50%, confère Atq +7 à l'unité en début de tour.",
+            "name": "Éveil Atq 3",
+            "restriction": ""
+        },
+        "Defiant Def 1": {
+            "cost": "40",
+            "effect": "Si PV ≤ 50%, confère Déf +3 à l'unité en début de tour.",
+            "name": "Éveil Déf 1",
+            "restriction": ""
+        },
+        "Defiant Def 2": {
+            "cost": "80",
+            "effect": "Si PV ≤ 50%, confère Déf +5 à l'unité en début de tour.",
+            "name": "Éveil Déf 2",
+            "restriction": ""
+        },
+        "Defiant Def 3": {
+            "cost": "160",
+            "effect": "Si PV ≤ 50%, confère Déf +7 à l'unité en début de tour.",
+            "name": "Éveil Déf 3",
+            "restriction": ""
+        },
+        "Defiant Res 1": {
+            "cost": "40",
+            "effect": "Si PV ≤ 50%, confère Rés +3 à l'unité en début de tour.",
+            "name": "Éveil Rés 1",
+            "restriction": ""
+        },
+        "Defiant Res 2": {
+            "cost": "80",
+            "effect": "Si PV ≤ 50%, confère Rés +5 à l'unité en début de tour.",
+            "name": "Éveil Rés 2",
+            "restriction": ""
+        },
+        "Defiant Res 3": {
+            "cost": "160",
+            "effect": "Si PV ≤ 50%, confère Rés +7 à l'unité en début de tour.",
+            "name": "Éveil Rés 3",
+            "restriction": ""
+        },
+        "Defiant Spd 1": {
+            "cost": "40",
+            "effect": "Si PV ≤ 50%, confère Vit +3 à l'unité en début de tour.",
+            "name": "Éveil Vit 1",
+            "restriction": ""
+        },
+        "Defiant Spd 2": {
+            "cost": "80",
+            "effect": "Si PV ≤ 50%, confère Vit +5 à l'unité en début de tour.",
+            "name": "Éveil Vit 2",
+            "restriction": ""
+        },
+        "Defiant Spd 3": {
+            "cost": "160",
+            "effect": "Si PV ≤ 50%, confère Vit +7 à l'unité en début de tour.",
+            "name": "Éveil Vit 3",
+            "restriction": ""
+        },
+        "Distant Counter": {
+            "cost": "300",
+            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
+            "name": "Contre à distance",
+            "restriction": "Melee"
+        },
+        "Fortress Def 1": {
+            "cost": "50",
+            "effect": "Confère Déf +3 à l'unité et lui inflige Atq -3.",
+            "name": "Forteresse 1",
+            "restriction": ""
+        },
+        "Fortress Def 2": {
+            "cost": "100",
+            "effect": "Confère Déf +4 à l'unité et lui inflige Atq -3.",
+            "name": "Forteresse 2",
+            "restriction": ""
+        },
+        "Fortress Def 3": {
+            "cost": "200",
+            "effect": "Confère Déf +5 à l'unité et lui inflige Atq -3.",
+            "name": "Forteresse 3",
+            "restriction": ""
+        },
+        "Fury 1": {
+            "cost": "50",
+            "effect": "Confère Atq/Vit/Déf/Rés +1 à l'unité, mais elle subit 2 dégâts après le combat.",
+            "name": "Furie 1",
+            "restriction": "Offense"
+        },
+        "Fury 2": {
+            "cost": "100",
+            "effect": "Confère Atq/Vit/Déf/Rés +2 à l'unité, mais elle subit 4 dégâts après le combat.",
+            "name": "Furie 2",
+            "restriction": "Offense"
+        },
+        "Fury 3": {
+            "cost": "200",
+            "effect": "Confère Atq/Vit/Déf/Rés +3 à l'unité, mais elle subit 6 dégâts après le combat.",
+            "name": "Furie 3",
+            "restriction": "Offense"
+        },
+        "HP +3": {
+            "cost": "40",
+            "effect": "Les PV max de l'unité augmentent de 3.",
+            "name": "PV +3",
+            "restriction": ""
+        },
+        "HP +4": {
+            "cost": "80",
+            "effect": "Les PV max de l'unité augmentent de 4.",
+            "name": "PV +4",
+            "restriction": ""
+        },
+        "HP +5": {
+            "cost": "160",
+            "effect": "Les PV max de l'unité augmentent de 5.",
+            "name": "PV +5",
+            "restriction": ""
+        },
+        "Heavy Blade 1": {
+            "cost": "60",
+            "effect": "Si Atq ≥ 5 + Atq de l'ennemi, compteur -1 pour chaque attaque. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Heavy Blade 1",
+            "restriction": ""
+        },
+        "Heavy Blade 2": {
+            "cost": "120",
+            "effect": "Si Atq ≥ 3 + Atq de l'ennemi, compteur -1 pour chaque attaque. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Heavy Blade 2",
+            "restriction": ""
+        },
+        "Heavy Blade 3": {
+            "cost": "240",
+            "effect": "Si Atq ≥ 1 + Atq de l'ennemi, compteur -1 pour chaque attaque. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Heavy Blade 3",
+            "restriction": ""
+        },
+        "Iote's Shield": {
+            "cost": "200",
+            "effect": "Neutralise l'effet 'efficace contre' conféré par certaines capacités.",
+            "name": "Écu d'Iote",
+            "restriction": "Flying"
+        },
+        "Life and Death 1": {
+            "cost": "50",
+            "effect": "Confère Atq/Vit +3 à l'unité et lui inflige Déf/Rés -3.",
+            "name": "Vivre et mourir 1",
+            "restriction": "Offense"
+        },
+        "Life and Death 2": {
+            "cost": "100",
+            "effect": "Confère Atq/Vit +4 à l'unité et lui inflige Déf/Rés -4.",
+            "name": "Vivre et mourir 2",
+            "restriction": "Offense"
+        },
+        "Life and Death 3": {
+            "cost": "200",
+            "effect": "Confère Atq/Vit +5 à l'unité et lui inflige Déf/Rés -5.",
+            "name": "Vivre et mourir 3",
+            "restriction": "Offense"
+        },
+        "Resistance +1": {
+            "cost": "30",
+            "effect": "La résistance de l'unité augmente de 1.",
+            "name": "Résistance +1",
+            "restriction": ""
+        },
+        "Resistance +2": {
+            "cost": "60",
+            "effect": "La résistance de l'unité augmente de 2.",
+            "name": "Résistance +2",
+            "restriction": ""
+        },
+        "Resistance +3": {
+            "cost": "120",
+            "effect": "La résistance de l'unité augmente de 3.",
+            "name": "Résistance +3",
+            "restriction": ""
+        },
+        "Speed +1": {
+            "cost": "30",
+            "effect": "La vitesse de l'unité augmente de 1.",
+            "name": "Vitesse +1",
+            "restriction": ""
+        },
+        "Speed +2": {
+            "cost": "60",
+            "effect": "La vitesse de l'unité augmente de 2.",
+            "name": "Vitesse +2",
+            "restriction": ""
+        },
+        "Speed +3": {
+            "cost": "120",
+            "effect": "La vitesse de l'unité augmente de 3.",
+            "name": "Vitesse +3",
+            "restriction": ""
+        },
+        "Svalinn Shield": {
+            "cost": "200",
+            "effect": "Neutralise l'effet 'efficace contre' conféré par certaines aptitudes.",
+            "name": "Écu de Svalinn",
+            "restriction": "Armored"
+        },
+        "Swift Sparrow 1": {
+            "cost": "120",
+            "effect": "Si l'unité initie le combat, elle reçoit Atq/Vit +2 pendant sa durée.",
+            "name": "Hirondelle rapide 1",
+            "require": "Darting Blow 1|Death Blow 1",
+            "restriction": "Offense"
+        },
+        "Swift Sparrow 2": {
+            "cost": "240",
+            "effect": "Si l'unité initie le combat, elle reçoit Atq/Vit +4 pendant sa durée.",
+            "name": "Hirondelle rapide 2",
+            "restriction": "Offense"
+        },
+        "Triangle Adept 1": {
+            "cost": "50",
+            "effect": "Atq +10% si avantage tactique. Atq -10% si désavantage tactique.",
+            "name": "Triadepte 1",
+            "restriction": "Color:RGB"
+        },
+        "Triangle Adept 2": {
+            "cost": "100",
+            "effect": "Atq +15% si avantage tactique. Atq -15% si désavantage tactique.",
+            "name": "Triadepte 2",
+            "restriction": "Color:RGB"
+        },
+        "Triangle Adept 3": {
+            "cost": "200",
+            "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+            "name": "Triadepte 3",
+            "restriction": "Color:RGB"
+        },
+        "Warding Blow 1": {
+            "cost": "50",
+            "effect": "Confère Rés +2 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup gardien 1",
+            "restriction": "Offense"
+        },
+        "Warding Blow 2": {
+            "cost": "100",
+            "effect": "Confère Rés +4 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup gardien 2",
+            "restriction": "Offense"
+        },
+        "Warding Blow 3": {
+            "cost": "200",
+            "effect": "Confère Rés +6 à l'unité lorsqu'elle initie le combat.",
+            "name": "Coup gardien 3",
+            "restriction": "Offense"
+        }
+    },
+    "B": {
+        "Axebreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une hache et empêche ce dernier d'en réaliser.",
+            "name": "Anti-hache 1",
+            "restriction": "Color:RGN"
+        },
+        "Axebreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une hache et empêche ce dernier d'en réaliser.",
+            "name": "Anti-hache 2",
+            "restriction": "Color:RGN"
+        },
+        "Axebreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une hache et empêche ce dernier d'en réaliser.",
+            "name": "Anti-hache 3",
+            "restriction": "Color:RGN"
+        },
+        "B Tomebreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome bleu et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (B) 1",
+            "restriction": "Color:BGN"
+        },
+        "B Tomebreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome bleu et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (B) 2",
+            "restriction": "Color:BGN"
+        },
+        "B Tomebreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome bleu et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (B) 3",
+            "restriction": "Color:BGN"
+        },
+        "Bowbreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un arc et empêche ce dernier d'en réaliser.",
+            "name": "Anti-arc 1",
+            "restriction": "Armored|Cavalry|Infantry"
+        },
+        "Bowbreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un arc et empêche ce dernier d'en réaliser.",
+            "name": "Anti-arc 2",
+            "restriction": "Armored|Cavalry|Infantry"
+        },
+        "Bowbreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un arc et empêche ce dernier d'en réaliser.",
+            "name": "Anti-arc 3",
+            "restriction": "Armored|Cavalry|Infantry"
+        },
+        "Brash Assault 1": {
+            "cost": "50",
+            "effect": "Si PV ≤ 30%, l'unité effectue une double frappe si l'ennemi est en mesure de riposter.",
+            "name": "Casse-cou 1",
+            "restriction": ""
+        },
+        "Brash Assault 2": {
+            "cost": "100",
+            "effect": "Si PV ≤ 40%, l'unité effectue une double frappe si l'ennemi est en mesure de riposter.",
+            "name": "Casse-cou 2",
+            "restriction": ""
+        },
+        "Brash Assault 3": {
+            "cost": "200",
+            "effect": "Si PV ≤ 50%, l'unité effectue une double frappe si l'ennemi est en mesure de riposter.",
+            "name": "Casse-cou 3",
+            "restriction": ""
+        },
+        "Daggerbreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une dague et empêche ce dernier d'en réaliser.",
+            "name": "Anti-dague 1",
+            "restriction": ""
+        },
+        "Daggerbreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une dague et empêche ce dernier d'en réaliser.",
+            "name": "Anti-dague 2",
+            "restriction": ""
+        },
+        "Daggerbreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une dague et empêche ce dernier d'en réaliser.",
+            "name": "Anti-dague 3",
+            "restriction": ""
+        },
+        "Desperation 1": {
+            "cost": "50",
+            "effect": "Lorsqu'elle initie le combat et si PV ≤ 25%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.",
+            "name": "Adrénaline 1",
+            "restriction": ""
+        },
+        "Desperation 2": {
+            "cost": "100",
+            "effect": "Lorsqu'elle initie le combat et si PV ≤ 50%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.",
+            "name": "Adrénaline 2",
+            "restriction": ""
+        },
+        "Desperation 3": {
+            "cost": "200",
+            "effect": "Lorsqu'elle initie le combat et si PV ≤ 75%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.",
+            "name": "Adrénaline 3",
+            "restriction": ""
+        },
+        "Drag Back": {
+            "cost": "150",
+            "effect": "Après avoir initié le combat, l'unité recule d'une case et tire l'ennemi ciblé avec elle.",
+            "name": "Attraction",
+            "restriction": "Melee"
+        },
+        "Escape Route 1": {
+            "cost": "60",
+            "effect": "Si ses PV sont ≤ 30%, l'unité peut se téléporter aux côtés de n'importe quel allié.",
+            "name": "Escapade 1",
+            "restriction": ""
+        },
+        "Escape Route 2": {
+            "cost": "120",
+            "effect": "Si ses PV sont ≤ 40%, l'unité peut se téléporter aux côtés de n'importe quel allié.",
+            "name": "Escapade 2",
+            "restriction": ""
+        },
+        "Escape Route 3": {
+            "cost": "240",
+            "effect": "Si ses PV sont ≤ 50%, l'unité peut se téléporter aux côtés de n'importe quel allié.",
+            "name": "Escapade 3",
+            "restriction": ""
+        },
+        "G Tomebreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome vert et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (V) 1",
+            "restriction": "Color:RGN"
+        },
+        "G Tomebreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome vert et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (V) 2",
+            "restriction": "Color:RGN"
+        },
+        "G Tomebreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome vert et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (V) 3",
+            "restriction": "Color:RGN"
+        },
+        "Guard 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 100% au début du combat, compteur ennemi +1. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Négation 1",
+            "restriction": ""
+        },
+        "Guard 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 90% aau début du combat, compteur ennemi +1. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Négation 2",
+            "restriction": ""
+        },
+        "Guard 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 80% aau début du combat, compteur ennemi +1. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Négation 3",
+            "restriction": ""
+        },
+        "Hit and Run": {
+            "cost": "150",
+            "effect": "Après avoir initié le combat, l'unité recule d'une case.",
+            "name": "Coup-esquive",
+            "restriction": "Melee"
+        },
+        "Knock Back": {
+            "cost": "150",
+            "effect": "Après avoir inité le combat, l'unité repousse l'ennemi ciblé d'une case.",
+            "name": "Projection",
+            "restriction": "Melee"
+        },
+        "Lancebreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une lance et empêche ce dernier d'en réaliser.",
+            "name": "Anti-lance 1",
+            "restriction": "Color:BGN"
+        },
+        "Lancebreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une lance et empêche ce dernier d'en réaliser.",
+            "name": "Anti-lance 2",
+            "restriction": "Color:BGN"
+        },
+        "Lancebreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une lance et empêche ce dernier d'en réaliser.",
+            "name": "Anti-lance 3",
+            "restriction": "Color:BGN"
+        },
+        "Live for Bounty": {
+            "cost": "100",
+            "effect": "Si l'unité survit, éclats et cristaux x 1,5 après une carte de la tour d'entrainement. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Abondance",
+            "restriction": ""
+        },
+        "Live for Honor": {
+            "cost": "100",
+            "effect": "Si l'unité survit, badges normaux 1,5 après une carte de la tour d'entrainement. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Honneur",
+            "restriction": ""
+        },
+        "Live to Serve 1": {
+            "cost": "40",
+            "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, elle récupère 50% des soins prodigués.",
+            "name": "Dévotion 1",
+            "restriction": "Staff"
+        },
+        "Live to Serve 2": {
+            "cost": "80",
+            "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, elle récupère 75% des soins prodigués.",
+            "name": "Dévotion 2",
+            "restriction": "Staff"
+        },
+        "Live to Serve 3": {
+            "cost": "160",
+            "effect": "Lorsque l'unité restaure les PV d'un allié avec un bâton, elle récupère la même quantité de PV.",
+            "name": "Dévotion 3",
+            "restriction": "Staff"
+        },
+        "Lunge": {
+            "cost": "150",
+            "effect": "Après avoir initié le combat, l'unité échange de place avec l'ennemi ciblé.",
+            "name": "Bascule",
+            "restriction": "Melee"
+        },
+        "Obstruct 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90%, empêche les ennemis de traverser les cases adjacentes à l'unité. (N'affecte pas les unités ennemies dotées de l'aptitude Passage.)",
+            "name": "Obstruction 1",
+            "restriction": ""
+        },
+        "Obstruct 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70%, empêche les ennemis de traverser les cases adjacentes à l'unité. (N'affecte pas les unités ennemies dotées de l'aptitude Passage.)",
+            "name": "Obstruction 2",
+            "restriction": ""
+        },
+        "Obstruct 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50%, empêche les ennemis de traverser les cases adjacentes à l'unité. (N'affecte pas les unités ennemies dotées de l'aptitude Passage.)",
+            "name": "Obstruction 3",
+            "restriction": ""
+        },
+        "Pass 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 75%, l'unité peut passer au travers des ennemis.",
+            "name": "Passage 1",
+            "restriction": ""
+        },
+        "Pass 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 50%, l'unité peut passer au travers des ennemis.",
+            "name": "Passage 2",
+            "restriction": ""
+        },
+        "Pass 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 25%, l'unité peut passer au travers des ennemis.",
+            "name": "Passage 3",
+            "restriction": ""
+        },
+        "Poison Strike 1": {
+            "cost": "60",
+            "effect": "Après avoir initié le combat, l'unité inflige 4 dégâts à l'ennemi ciblé.",
+            "name": "Frappe cigüe 1",
+            "restriction": "Offense"
+        },
+        "Poison Strike 2": {
+            "cost": "120",
+            "effect": "Après avoir initié le combat, l'unité inflige 7 dégâts à l'ennemi ciblé.",
+            "name": "Frappe cigüe 2",
+            "restriction": "Offense"
+        },
+        "Poison Strike 3": {
+            "cost": "240",
+            "effect": "Après avoir initié le combat, l'unité inflige 10 dégâts à l'ennemi ciblé.",
+            "name": "Frappe cigüe 3",
+            "restriction": "Offense"
+        },
+        "Quick Riposte 1": {
+            "cost": "60",
+            "effect": "Si PV ≥ 90%, l'unité effecue automatiquement une double frappe lorsqu'elle est attaquée.",
+            "name": "Double riposte 1",
+            "restriction": ""
+        },
+        "Quick Riposte 2": {
+            "cost": "120",
+            "effect": "Si PV ≥ 80%, l'unité effecue automatiquement une double frappe lorsqu'elle est attaquée.",
+            "name": "Double riposte 2",
+            "restriction": ""
+        },
+        "Quick Riposte 3": {
+            "cost": "240",
+            "effect": "Si PV ≥ 70%, l'unité effecue automatiquement une double frappe lorsqu'elle est attaquée.",
+            "name": "Double riposte 3",
+            "restriction": ""
+        },
+        "R Tomebreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome rouge et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (R) 1",
+            "restriction": "Color:RBN"
+        },
+        "R Tomebreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome rouge et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (R) 2",
+            "restriction": "Color:RBN"
+        },
+        "R Tomebreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50%, l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'un tome rouge et empêche ce dernier d'en réaliser.",
+            "name": "Anti-tome (R) 3",
+            "restriction": "Color:RBN"
+        },
+        "Renewal 1": {
+            "cost": "60",
+            "effect": "Tous les 4 tours, l'unité revoure 10 PV en début de tour.",
+            "name": "Guérison 1",
+            "restriction": ""
+        },
+        "Renewal 2": {
+            "cost": "120",
+            "effect": "Tous les 3 tours, l'unité revoure 10 PV en début de tour.",
+            "name": "Guérison 2",
+            "restriction": ""
+        },
+        "Renewal 3": {
+            "cost": "240",
+            "effect": "Tous les 2 tours, l'unité revoure 10 PV en début de tour.",
+            "name": "Guérison 3",
+            "restriction": ""
+        },
+        "Seal Atk 1": {
+            "cost": "40",
+            "effect": "Après le combat, inflique Atq -3 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Atq 1",
+            "restriction": "Offense"
+        },
+        "Seal Atk 2": {
+            "cost": "80",
+            "effect": "Après le combat, inflige Atq -5 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Atq 2",
+            "restriction": "Offense"
+        },
+        "Seal Atk 3": {
+            "cost": "160",
+            "effect": "Après le combat, inflige Atq -7 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Atq 3",
+            "restriction": "Offense"
+        },
+        "Seal Def 1": {
+            "cost": "40",
+            "effect": "Après le combat, inflige Déf -3 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Déf 1",
+            "restriction": "Offense"
+        },
+        "Seal Def 2": {
+            "cost": "80",
+            "effect": "Après le combat, inflige Déf -5 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Déf 2",
+            "restriction": "Offense"
+        },
+        "Seal Def 3": {
+            "cost": "160",
+            "effect": "Après le combat, inflige Déf -7 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Déf 3",
+            "restriction": "Offense"
+        },
+        "Seal Res 1": {
+            "cost": "40",
+            "effect": "Après le combat, inflige Rés -3 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Rés 1",
+            "restriction": "Offense"
+        },
+        "Seal Res 2": {
+            "cost": "80",
+            "effect": "Après le combat, inflige Rés -5 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Rés 2",
+            "restriction": "Offense"
+        },
+        "Seal Res 3": {
+            "cost": "160",
+            "effect": "Après le combat, inflige Rés -7 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Rés 3",
+            "restriction": "Offense"
+        },
+        "Seal Spd 1": {
+            "cost": "40",
+            "effect": "Après le combat, inflige Vit -3 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Vit 1",
+            "restriction": "Offense"
+        },
+        "Seal Spd 2": {
+            "cost": "80",
+            "effect": "Après le combat, inflige Vit -5 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Vit 2",
+            "restriction": "Offense"
+        },
+        "Seal Spd 3": {
+            "cost": "160",
+            "effect": "Après le combat, inflige Vit -7 à l'ennemi jusqu'à la fin de sa phase.",
+            "name": "Sceau Vit 3",
+            "restriction": "Offense"
+        },
+        "Swordbreaker 1": {
+            "cost": "50",
+            "effect": "Si PV ≥ 90%, l'unité effectue une double frappe si l'ennemi est doté d'une épée et empêche ce dernier d'en réaliser.",
+            "name": "Anti-épée 1",
+            "restriction": "Color:RBN"
+        },
+        "Swordbreaker 2": {
+            "cost": "100",
+            "effect": "Si PV ≥ 70%, l'unité effectue une double frappe si l'ennemi est doté d'une épée et empêche ce dernier d'en réaliser.",
+            "name": "Anti-épée 2",
+            "restriction": "Color:RBN"
+        },
+        "Swordbreaker 3": {
+            "cost": "200",
+            "effect": "Si PV ≥ 50%, l'unité effectue une double frappe si l'ennemi est doté d'une épée et empêche ce dernier d'en réaliser.",
+            "name": "Anti-épée 3",
+            "restriction": "Color:RBN"
+        },
+        "Vantage 1": {
+            "cost": "50",
+            "effect": "Si PV ≤ 25%, l'unité frappe en premier lorsqu'elle est attaquée.",
+            "name": "Initiative 1",
+            "restriction": ""
+        },
+        "Vantage 2": {
+            "cost": "100",
+            "effect": "Si PV ≤ 50%, l'unité frappe en premier lorsqu'elle est attaquée.",
+            "name": "Initiative 2",
+            "restriction": ""
+        },
+        "Vantage 3": {
+            "cost": "200",
+            "effect": "Si PV ≤ 75%, l'unité frappe en premier lorsqu'elle est attaquée.",
+            "name": "Initiative 3",
+            "restriction": ""
+        },
+        "Wary Fighter 1": {
+            "cost": "60",
+            "effect": "Si PV ≥ 90%, aucune double frappe n'est possible pour l'unité comme pour l'ennemi.",
+            "name": "Méfiance 1",
+            "restriction": "Armored"
+        },
+        "Wary Fighter 2": {
+            "cost": "120",
+            "effect": "Si PV ≥ 80%, aucune double frappe n'est possible pour l'unité comme pour l'ennemi.",
+            "name": "Méfiance 2",
+            "restriction": "Armored"
+        },
+        "Wary Fighter 3": {
+            "cost": "240",
+            "effect": "Si PV ≥ 70%, aucune double frappe n'est possible pour l'unité comme pour l'ennemi.",
+            "name": "Méfiance 3",
+            "restriction": "Armored"
+        },
+        "Watersweep 1": {
+            "cost": "60",
+            "effect": "Double frappe impossible en initiant le combat. Si Vit ≥ 5 + Vit d'un ennemi utilisant magie, bâton ou dracopierre, celui-ci ne peut pas riposter.",
+            "name": "Déferlante 1",
+            "restriction": ""
+        },
+        "Watersweep 2": {
+            "cost": "120",
+            "effect": "Double frappe impossible en initiant le combat. Si Vit ≥ 3 + Vit d'un ennemi utilisant magie, bâton ou dracopierre, celui-ci ne peut pas riposter.",
+            "name": "Déferlante 2",
+            "restriction": ""
+        },
+        "Watersweep 3": {
+            "cost": "240",
+            "effect": "Double frappe impossible en initiant le combat. Si Vit ≥ 1 + Vit d'un ennemi utilisant magie, bâton ou dracopierre, celui-ci ne peut pas riposter.",
+            "name": "Déferlante 3",
+            "restriction": ""
+        },
+        "Windsweep 1": {
+            "cost": "60",
+            "effect": "Double frappe impossible en initiant le combat. Si Vit ≥ 5 + Vit d'un ennemi avec épée, lance, hache, arc ou dague, celui-ci ne peut pas riposter.",
+            "name": "Rafale 1",
+            "restriction": ""
+        },
+        "Windsweep 2": {
+            "cost": "120",
+            "effect": "Double frappe impossible en initiant le combat. Si Vit ≥ 3 + Vit d'un ennemi avec épée, lance, hache, arc ou dague, celui-ci ne peut pas riposter.",
+            "name": "Rafale 2",
+            "restriction": ""
+        },
+        "Windsweep 3": {
+            "cost": "240",
+            "effect": "Double frappe impossible en initiant le combat. Si Vit ≥ 1 + Vit d'un ennemi avec épée, lance, hache, arc ou dague, celui-ci ne peut pas riposter.",
+            "name": "Rafale 3",
+            "restriction": ""
+        },
+        "Wings of Mercy 1": {
+            "cost": "60",
+            "effect": "Permet à l'unité de se téléporter aux côtés de n'importe quel allié dont les PV sont ≤ 30%.",
+            "name": "Sauvetage 1",
+            "restriction": ""
+        },
+        "Wings of Mercy 2": {
+            "cost": "120",
+            "effect": "Permet à l'unité de se téléporter aux côtés de n'importe quel allié dont les PV sont ≤ 40%.",
+            "name": "Sauvetage 2",
+            "restriction": ""
+        },
+        "Wings of Mercy 3": {
+            "cost": "240",
+            "effect": "Permet à l'unité de se téléporter aux côtés de n'importe quel allié dont les PV sont ≤ 50%.",
+            "name": "Sauvetage 3",
+            "restriction": ""
+        }
+    },
+    "C": {
+        "Axe Experience 1": {
+            "cost": "30",
+            "effect": "Si l'unité utilise une hache et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Exp. hache 1",
+            "restriction": "Axe"
+        },
+        "Axe Experience 2": {
+            "cost": "60",
+            "effect": "Si l'unité survit, toutes les unités dotées de haches reçoivent EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Exp. hache 2",
+            "restriction": "Axe"
+        },
+        "Axe Experience 3": {
+            "cost": "120",
+            "effect": "Si l'unité survit, toutes les unités dotées de haches reçoivent EXP x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Exp. hache 3",
+            "restriction": "Axe"
+        },
+        "Bow Experience 1": {
+            "cost": "30",
+            "effect": "Si l'unité utilise un arc et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Exp. 1",
+            "restriction": "Bow"
+        },
+        "Bow Experience 2": {
+            "cost": "60",
+            "effect": "Si l'unité survit, toutes les unités dotées d'arcs reçoivent EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Exp. 2",
+            "restriction": "Bow"
+        },
+        "Bow Experience 3": {
+            "cost": "120",
+            "effect": "Si l'unité survit, toutes les unités dotées d'arcs reçoivent EXP x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+            "name": "Exp. 3",
+            "restriction": "Bow"
+        },
+        "Breath of Life 1": {
+            "cost": "50",
+            "effect": "Après avoir initié le combat, l'unité rend 3 PV aux alliés adjacents.",
+            "name": "Souffle vital 1",
+            "restriction": ""
+        },
+        "Breath of Life 2": {
+            "cost": "100",
+            "effect": "Après avoir initié le combat, l'unité rend 5 PV aux alliés adjacents.",
+            "name": "Souffle vital 2",
+            "restriction": ""
+        },
+        "Breath of Life 3": {
+            "cost": "200",
+            "effect": "Après avoir initié le combat, l'unité rend 7 PV aux alliés adjacents.",
+            "name": "Souffle vital 3",
+            "restriction": ""
+        },
+        "Fortify Armor": {
+            "cost": "200",
+            "effect": "En début de tour, confère Déf/Rés +6 aux unités en armure adjacentes pendant un tour.",
+            "name": "Prudence (Cuira.)",
+            "require": "Fortify Def 2|Fortify Res 2",
+            "restriction": "Armored"
+        },
+        "Fortify Cavalry": {
+            "cost": "200",
+            "effect": "En début de tour, confère Déf/Rés +6 aux cavaliers adjacentes pendant un tour.",
+            "name": "Prudence (Cav.)",
+            "require": "Fortify Def 2|Fortify Res 2",
+            "restriction": "Cavalry"
+        },
+        "Fortify Def 1": {
+            "cost": "50",
+            "effect": "En début de tour, confère Déf +2 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Déf 1",
+            "restriction": ""
+        },
+        "Fortify Def 2": {
+            "cost": "100",
+            "effect": "En début de tour, confère Déf +3 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Déf 2",
+            "restriction": ""
+        },
+        "Fortify Def 3": {
+            "cost": "200",
+            "effect": "En début de tour, confère Déf +4 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Déf 3",
+            "restriction": ""
+        },
+        "Fortify Dragons": {
+            "cost": "200",
+            "effect": "En début de tour, confère Déf/Rés +6 aux dragons adjacentes pendant un tour.",
+            "name": "Prudence (Dra.)",
+            "require": "Fortify Def 2|Fortify Res 2",
+            "restriction": "Dragon"
+        },
+        "Fortify Fliers": {
+            "cost": "200",
+            "effect": "En début de tour, confère Déf/Rés +6 aux unités volantes adjacentes pendant un tour.",
+            "name": "Prudence (Vol)",
+            "require": "Fortify Def 2|Fortify Res 2",
+            "restriction": "Flying"
+        },
+        "Fortify Res 1": {
+            "cost": "50",
+            "effect": "En début de tour, confère Rés +2 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Rés 1",
+            "restriction": ""
+        },
+        "Fortify Res 2": {
+            "cost": "100",
+            "effect": "En début de tour, confère Rés +3 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Rés 2",
+            "restriction": ""
+        },
+        "Fortify Res 3": {
+            "cost": "200",
+            "effect": "En début de tour, confère Rés +4 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Rés 3",
+            "restriction": ""
+        },
+        "Goad Armor": {
+            "cost": "200",
+            "effect": "Confère Vit/Atq +4 aux unités en armure à deux cases ou moins de l'unité.",
+            "name": "Sursaut (Cuir.)",
+            "require": "Spur Atk 2|Spur Spd 2",
+            "restriction": "Armored"
+        },
+        "Goad Cavalry": {
+            "cost": "200",
+            "effect": "Confère Vit/Atq +4 aux cavaliers à deux cases ou moins de l'unité.",
+            "name": "Sursaut (Cav.)",
+            "require": "Spur Atk 2|Spur Spd 2",
+            "restriction": "Cavalry"
+        },
+        "Goad Fliers": {
+            "cost": "200",
+            "effect": "Confère Vit/Atq +4 aux unités volantes à deux cases ou moins de l'unité.",
+            "name": "Sursaut (Vol)",
+            "require": "Spur Atk 2|Spur Spd 2",
+            "restriction": "Flying"
+        },
+        "Hone Armor": {
+            "cost": "200",
+            "effect": "En début de tour, confère Atq/Vit +6 aux unités en armure adjactentes pendant un tour.",
+            "name": "Élan (Cuirassés)",
+            "require": "Hone Atk 2|Hone Spd 2",
+            "restriction": "Armored"
+        },
+        "Hone Atk 1": {
+            "cost": "50",
+            "effect": "En début de tour, confère Atq +2 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Atq 1",
+            "restriction": ""
+        },
+        "Hone Atk 2": {
+            "cost": "100",
+            "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Atq 2",
+            "restriction": ""
+        },
+        "Hone Atk 3": {
+            "cost": "200",
+            "effect": "En début de tour, confère Atq +4 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Atq 3",
+            "restriction": ""
+        },
+        "Hone Cavalry": {
+            "cost": "200",
+            "effect": "En début de tour, confère Atq/Vit +6 aux cavaliers adjactentes pendant un tour.",
+            "name": "Élan (Cavalerie)",
+            "require": "Hone Atk 2|Hone Spd 2",
+            "restriction": "Cavalry"
+        },
+        "Hone Fliers": {
+            "cost": "200",
+            "effect": "En début de tour, confère Atq/Vit +6 aux unités volantes adjactentes pendant un tour.",
+            "name": "Élan (Vol)",
+            "require": "Hone Atk 2|Hone Spd 2",
+            "restriction": "Flying"
+        },
+        "Hone Spd 1": {
+            "cost": "50",
+            "effect": "En début de tour, confère Vit +2 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Vit 1",
+            "restriction": ""
+        },
+        "Hone Spd 2": {
+            "cost": "100",
+            "effect": "En début de tour, confère Vit +3 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Vit 2",
+            "restriction": ""
+        },
+        "Hone Spd 3": {
+            "cost": "200",
+            "effect": "En début de tour, confère Vit +4 aux alliés adjacents pendant un tour.",
+            "name": "Impulsion Vit 3",
+            "restriction": ""
+        },
+        "Savage Blow 1": {
+            "cost": "50",
+            "effect": "Après avoir inité le combat, l'unité inflige 3 dégâts aux ennemis situés à deux cases ou moins de l'ennemi ciblé.",
+            "name": "Coup sauvage 1",
+            "restriction": ""
+        },
+        "Savage Blow 2": {
+            "cost": "100",
+            "effect": "Après avoir inité le combat, l'unité inflige 5 dégâts aux ennemis situés à deux cases ou moins de l'ennemi ciblé.",
+            "name": "Coup sauvage 2",
+            "restriction": ""
+        },
+        "Savage Blow 3": {
+            "cost": "200",
+            "effect": "Après avoir inité le combat, l'unité inflige 7 dégâts aux ennemis situés à deux cases ou moins de l'ennemi ciblé.",
+            "name": "Coup sauvage 3",
+            "restriction": ""
+        },
+        "Spur Atk 1": {
+            "cost": "50",
+            "effect": "Confère Atq +2 aux alliés adjacents.",
+            "name": "Encens Atq 1",
+            "restriction": ""
+        },
+        "Spur Atk 2": {
+            "cost": "100",
+            "effect": "Confère Atq +3 aux alliés adjacents.",
+            "name": "Encens Atq 2",
+            "restriction": ""
+        },
+        "Spur Atk 3": {
+            "cost": "200",
+            "effect": "Confère Atq +4 aux alliés adjacents.",
+            "name": "Encens Atq 3",
+            "restriction": ""
+        },
+        "Spur Def 1": {
+            "cost": "50",
+            "effect": "Confère  Déf +2 aux alliés adjacents.",
+            "name": "Encens Déf 1",
+            "restriction": ""
+        },
+        "Spur Def 2": {
+            "cost": "100",
+            "effect": "Confère  Déf +3 aux alliés adjacents.",
+            "name": "Encens Déf 2",
+            "restriction": ""
+        },
+        "Spur Def 3": {
+            "cost": "200",
+            "effect": "Confère  Déf +4 aux alliés adjacents.",
+            "name": "Encens Déf 3",
+            "restriction": ""
+        },
+        "Spur Def/Res 1": {
+            "cost": "120",
+            "effect": "Confère Déf/Rés +2 aux alliés adjacents.",
+            "name": "Ence. Déf/Rés 1",
+            "require": "Spur Def 1|Spur Res 1",
+            "restriction": ""
+        },
+        "Spur Def/Res 2": {
+            "cost": "240",
+            "effect": "Confère Déf/Rés +3 aux alliés adjacents.",
+            "name": "Ence. Déf/Rés 2",
+            "restriction": ""
+        },
+        "Spur Res 1": {
+            "cost": "50",
+            "effect": "Confère Rés +2 aux alliés adjacents.",
+            "name": "Encens Rés 1",
+            "restriction": ""
+        },
+        "Spur Res 2": {
+            "cost": "100",
+            "effect": "Confère Rés +3 aux alliés adjacents.",
+            "name": "Encens Rés 2",
+            "restriction": ""
+        },
+        "Spur Res 3": {
+            "cost": "200",
+            "effect": "Confère Rés +4 aux alliés adjacents.",
+            "name": "Encens Rés 3",
+            "restriction": ""
+        },
+        "Spur Spd 1": {
+            "cost": "50",
+            "effect": "Confère Vit +2 aux alliés adjacents.",
+            "name": "Encens Vit 1",
+            "restriction": ""
+        },
+        "Spur Spd 2": {
+            "cost": "100",
+            "effect": "Confère Vit +3 aux alliés adjacents.",
+            "name": "Encens Vit 2",
+            "restriction": ""
+        },
+        "Spur Spd 3": {
+            "cost": "200",
+            "effect": "Confère Vit +4 aux alliés adjacents.",
+            "name": "Encens Vit 3",
+            "restriction": ""
+        },
+        "Threaten Atk 1": {
+            "cost": "50",
+            "effect": "En début de tour, inflige Atq -3 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Atq réduite 1",
+            "restriction": ""
+        },
+        "Threaten Atk 2": {
+            "cost": "100",
+            "effect": "En début de tour, inflige Atq -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Atq réduite 2",
+            "restriction": ""
+        },
+        "Threaten Atk 3": {
+            "cost": "200",
+            "effect": "En début de tour, inflige Atq -5 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Atq réduite 3",
+            "restriction": ""
+        },
+        "Threaten Def 1": {
+            "cost": "50",
+            "effect": "En début de tour, inflige Déf -3 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Déf réduite 1",
+            "restriction": ""
+        },
+        "Threaten Def 2": {
+            "cost": "100",
+            "effect": "En début de tour, inflige Déf -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Déf réduite 2",
+            "restriction": ""
+        },
+        "Threaten Def 3": {
+            "cost": "200",
+            "effect": "En début de tour, inflige Déf -5 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Déf réduite 3",
+            "restriction": ""
+        },
+        "Threaten Res 1": {
+            "cost": "50",
+            "effect": "En début de tour, inflige Rés -3 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Rés réduite 1",
+            "restriction": ""
+        },
+        "Threaten Res 2": {
+            "cost": "100",
+            "effect": "En début de tour, inflige Rés -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Rés réduite 2",
+            "restriction": ""
+        },
+        "Threaten Res 3": {
+            "cost": "200",
+            "effect": "En début de tour, inflige Rés -5 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Rés réduite 3",
+            "restriction": ""
+        },
+        "Threaten Spd 1": {
+            "cost": "50",
+            "effect": "En début de tour, inflige Vit -3 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Vit réduite 1",
+            "restriction": ""
+        },
+        "Threaten Spd 2": {
+            "cost": "100",
+            "effect": "En début de tour, inflige Vit -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Vit réduite 2",
+            "restriction": ""
+        },
+        "Threaten Spd 3": {
+            "cost": "200",
+            "effect": "En début de tour, inflige Vit -5 aux ennemis situés à 2 cases ou moins pendant un tour.",
+            "name": "Vit réduite 3",
+            "restriction": ""
+        },
+        "Ward Armor": {
+            "cost": "200",
+            "effect": "Confère Déf/Rés +4 aux unités en armure à deux cases ou moins de l'unité.",
+            "name": "Vigilance (Cuira.)",
+            "require": "Spur Def 2|Spur Res 2",
+            "restriction": "Armored"
+        },
+        "Ward Cavalry": {
+            "cost": "200",
+            "effect": "Confère Déf/Rés +4 aux cavaliers à deux cases ou moins de l'unité",
+            "name": "Vigilance (Cav.)",
+            "require": "Spur Def 2|Spur Res 2",
+            "restriction": "Cavalry"
+        },
+        "Ward Fliers": {
+            "cost": "200",
+            "effect": "Confère Déf/Rés +4 aux unités volantes à deux cases ou moins de l'unité",
+            "name": "Vigilance (Vol)",
+            "require": "Spur Def 2|Spur Res 2",
+            "restriction": "Flying"
+        }
+    }
+}
