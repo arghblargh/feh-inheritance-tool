@@ -355,7 +355,7 @@
         "cost": 100,
         "effect": "",
         "might": 6,
-        "name": "Elfire",
+        "name": "Inferno",
         "restriction": "",
         "type": "Tome"
     },
@@ -454,7 +454,7 @@
         "cost": 0,
         "effect": "",
         "might": 4,
-        "name": "Fire",
+        "name": "Feu",
         "restriction": "",
         "type": "Tome"
     },
