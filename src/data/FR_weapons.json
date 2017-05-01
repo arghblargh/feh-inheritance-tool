@@ -875,7 +875,7 @@
     "Poison Dagger": {
         "color": "Neutral",
         "cost": 200,
-        "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -6 pour le restant du tour.",
+        "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -4 pour le restant du tour.",
         "might": 2,
         "name": "Dague poison",
         "restriction": "",
@@ -991,7 +991,7 @@
     "Rogue Dagger+": {
         "color": "Neutral",
         "cost": 300,
-        "effect": "Après le combat, inflige Déf/Rés -3 à l'ennemi jusqu'à la fin de sa phase et confère Déf/Rés +3 à l'unité pendant un tour.",
+        "effect": "Après le combat, inflige Déf/Rés -5 à l'ennemi jusqu'à la fin de sa phase et confère Déf/Rés +3 à l'unité pendant un tour.",
         "might": 7,
         "name": "Dague fourbe+",
         "restriction": "",
