@@ -1,0 +1,1297 @@
+{
+    "Absorb": {
+        "color": "Neutral",
+        "cost": 150,
+        "effect": "L'unité se soigne à hauteur de 50% des dégâts qu'elle inflige.",
+        "might": 4,
+        "name": "Vampirisme",
+        "restriction": "",
+        "type": "Staff"
+    },
+    "Armads": {
+        "color": "Green",
+        "cost": 400,
+        "effect": "Si PV ≥ 80%, l'unité effectue automatiquement une double frappe lorsqu'elle est attaquée.",
+        "might": 16,
+        "name": "Armadès",
+        "restriction": "Hector",
+        "type": "Axe"
+    },
+    "Armorslayer": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "Efficace contre les unités en armure.",
+        "might": 8,
+        "name": "Cuiracide",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Armorslayer+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "Efficace contre les unités en armure.",
+        "might": 12,
+        "name": "Cuiracide+",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Assassin's Bow": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Efficace contre les unités volantes. Contre une unité équipée d'une dague, les doubles frappes sont assurées et l'ennemi ne peut en réaliser.",
+        "might": 7,
+        "name": "Arc d'assassin",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Assassin's Bow+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Efficace contre les unités volantes. Contre une unité équipée d'une dague, les doubles frappes sont assurées et l'ennemi ne peut en réaliser.",
+        "might": 11,
+        "name": "Arc d'assassin+",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Assault": {
+        "color": "Neutral",
+        "cost": 50,
+        "effect": "",
+        "might": 10,
+        "name": "Assaut",
+        "restriction": "",
+        "type": "Staff"
+    },
+    "Aura": {
+        "color": "Blue",
+        "cost": 400,
+        "effect": "Rend 5 PV aux alliés adjacents après avoir inité le combat.",
+        "might": 14,
+        "name": "Aura",
+        "restriction": "Linde",
+        "type": "Tome"
+    },
+    "Binding Blade": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée",
+        "might": 16,
+        "name": "Lame du Sceau",
+        "restriction": "Roy",
+        "type": "Sword"
+    },
+    "Blue Egg": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 7,
+        "name": "Oeuf bleu",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Blue Egg+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 11,
+        "name": "Oeuf bleu+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bl\u00e1rblade": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "might": 9,
+        "name": "Lames saphir",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bl\u00e1rblade+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "might": 13,
+        "name": "Lames saphir+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bl\u00e1rraven": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "might": 7,
+        "name": "Serres saphir",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bl\u00e1rraven+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "might": 11,
+        "name": "Serres saphir+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bl\u00e1rwolf": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Efficace contre la cavalerie.",
+        "might": 6,
+        "name": "Crocs saphir",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bl\u00e1rwolf+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Efficace contre la cavalerie.",
+        "might": 10,
+        "name": "Crocs saphir+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bolganone": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "",
+        "might": 9,
+        "name": "Bolganone",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Bolganone+": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "",
+        "might": 13,
+        "name": "Bolganone+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Brave Axe": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 5,
+        "name": "Hache héros",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Brave Axe+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 8,
+        "name": "Hache héros+",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Brave Bow": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Vit -5. Efficace contre les unités volantes. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 4,
+        "name": "Arc héros",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Brave Bow+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Vit -5. Efficace contre les unités volantes. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 7,
+        "name": "Arc héros+",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Brave Lance": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 5,
+        "name": "Lance héros",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Brave Lance+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 8,
+        "name": "Lance héros+",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Brave Sword": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 5,
+        "name": "Épée héros",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Brave Sword+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 8,
+        "name": "Épée héros+",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Brynhildr": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Si l'unité initie le combat, l'ennemi ciblé ne pourra ensuite se déplacer que d'une case maximum.",
+        "might": 14,
+        "name": "Brynhildr",
+        "restriction": "Leo",
+        "type": "Tome"
+    },
+    "Carrot Axe": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 9,
+        "name": "Hache carotte",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Carrot Axe+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 13,
+        "name": "Hache carotte+",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Carrot Lance": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 9,
+        "name": "Lance carotte",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Carrot Lance+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 13,
+        "name": "Lance carotte+",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Cymbeline": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Après avoir initié le combat, l'unité confère Atq +4 aux alliés adjacents pendant un tour.",
+        "might": 14,
+        "name": "Cymbeline",
+        "restriction": "Sanaki",
+        "type": "Tome"
+    },
+    "Dark Breath": {
+        "color": "",
+        "cost": 200,
+        "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase.",
+        "might": 9,
+        "name": "Souffle sombre",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Dark Breath+": {
+        "color": "",
+        "cost": 300,
+        "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase.",
+        "might": 13,
+        "name": "Souffle sombre+",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Deathly Dagger": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Après le combat, inflige Déf/Rés -7 à l'ennemi pour le restant du tour. Lorsqu'elle initie le combat, l'unité inflige 7 dégâts à l'ennemi après le combat.",
+        "might": 11,
+        "name": "Dague mortelle",
+        "restriction": "Jaffar",
+        "type": "Dagger"
+    },
+    "Dire Thunder": {
+        "color": "Blue",
+        "cost": 400,
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "might": 9,
+        "name": "Tonnerre double",
+        "restriction": "Olwen|Reinhardt",
+        "type": "Tome"
+    },
+    "Durandal": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Confère Atq +4 à l'unité lorsqu'elle initie le combat.",
+        "might": 16,
+        "name": "Durandal",
+        "restriction": "Eliwood",
+        "type": "Sword"
+    },
+    "Eckesachs": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "En début de tour, inflige Déf -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+        "might": 16,
+        "name": "Eckesachs",
+        "restriction": "Zephiel",
+        "type": "Sword"
+    },
+    "Elfire": {
+        "color": "Red",
+        "cost": 100,
+        "effect": "",
+        "might": 6,
+        "name": "Elfire",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Elthunder": {
+        "color": "Blue",
+        "cost": 100,
+        "effect": "",
+        "might": 6,
+        "name": "Éclair",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Elwind": {
+        "color": "Green",
+        "cost": 100,
+        "effect": "",
+        "might": 6,
+        "name": "Tempête",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Emerald Axe": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "might": 8,
+        "name": "Hache émeraude",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Emerald Axe+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "might": 12,
+        "name": "Hache émeraude+",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Excalibur": {
+        "color": "Green",
+        "cost": 400,
+        "effect": "Efficace contre les unités volantes.",
+        "might": 14,
+        "name": "Excalibur",
+        "restriction": "Merric",
+        "type": "Tome"
+    },
+    "Falchion": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Efficace contre les dragons. Tous les 3 tours, l'unité récupère 10 PV en début de tour.",
+        "might": 16,
+        "name": "Falchion",
+        "restriction": "Chrom|Lucina|Marth|Alm",
+        "type": "Sword"
+    },
+    "Fear": {
+        "color": "Neutral",
+        "cost": 150,
+        "effect": "Après le combat, inflige Atq -6 à l'ennemi jusqu'à la fin de sa phase.",
+        "might": 5,
+        "name": "Terreur",
+        "restriction": "",
+        "type": "Staff"
+    },
+    "Fenrir": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "",
+        "might": 9,
+        "name": "Fenrir",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Fenrir+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "",
+        "might": 13,
+        "name": "Fenrir+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Fensalir": {
+        "color": "Blue",
+        "cost": 400,
+        "effect": "En début de tour, inflige Atq -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+        "might": 16,
+        "name": "Fensalir",
+        "restriction": "Sharena",
+        "type": "Lance"
+    },
+    "Fire": {
+        "color": "Red",
+        "cost": 0,
+        "effect": "",
+        "might": 4,
+        "name": "Fire",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Fire Breath": {
+        "color": "",
+        "cost": 0,
+        "effect": "",
+        "might": 6,
+        "name": "Souffle brûlant",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Fire Breath+": {
+        "color": "",
+        "cost": 100,
+        "effect": "",
+        "might": 8,
+        "name": "Souffle brûlant+",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Firesweep Bow": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Efficace contre les unités volantes. Les unités et les ennemis ne peuvent pas riposter.",
+        "might": 7,
+        "name": "Arc enflammé",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Firesweep Bow+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Efficace contre les unités volantes. Les unités et les ennemis ne peuvent pas riposter.",
+        "might": 11,
+        "name": "Arc enflammé+",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Flametongue": {
+        "color": "",
+        "cost": 200,
+        "effect": "",
+        "might": 11,
+        "name": "Pyrosouffle",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Flametongue+": {
+        "color": "",
+        "cost": 300,
+        "effect": "",
+        "might": 15,
+        "name": "Pyrosouffle+",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Flux": {
+        "color": "Red",
+        "cost": 0,
+        "effect": "",
+        "might": 4,
+        "name": "Flux",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Fujin Yumi": {
+        "color": "Neutral",
+        "cost": 400,
+        "effect": "Efficace contre les unités volantes. Si PV ≥ 50%, l'unité peut passer au travers des ennemis.",
+        "might": 14,
+        "name": "Yumi Fujin",
+        "restriction": "Takumi",
+        "type": "Bow"
+    },
+    "F\u00f3lkvangr": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Si PV ≤ 50%, confère Atq +5 à l'unité en début de tour.",
+        "might": 16,
+        "name": "F\u00f3lkvangr",
+        "restriction": "Alfonse",
+        "type": "Sword"
+    },
+    "Gravity": {
+        "color": "Neutral",
+        "cost": 150,
+        "effect": "Après le combat, l'ennemi ne peut se déplacer que d'une seule case jusqu'à la fin de sa phase.",
+        "might": 6,
+        "name": "Gravité",
+        "restriction": "",
+        "type": "Staff"
+    },
+    "Green Egg": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 7,
+        "name": "Oeuf vert",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Green Egg+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "might": 11,
+        "name": "Oeuf vert+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Gronnblade": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "might": 9,
+        "name": "Lames émeraude",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Gronnblade+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "might": 13,
+        "name": "Lames émeraude+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Gronnraven": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "might": 7,
+        "name": "Serres émeraude",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Gronnraven+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "might": 11,
+        "name": "Serres émeraude+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Gronnwolf": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Efficace contre la cavalerie",
+        "might": 6,
+        "name": "Crocs émeraude",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Gronnwolf+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Efficace contre la cavalerie",
+        "might": 10,
+        "name": "Crocs émeraude+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Hammer": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Efficace contre les unités en armure.",
+        "might": 8,
+        "name": "Marteau",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Hammer+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Efficace contre les unités en armure.",
+        "might": 12,
+        "name": "Marteau+",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Hauteclere": {
+        "color": "Green",
+        "cost": 400,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 16,
+        "name": "Hauteclaire",
+        "restriction": "Minerva|Michalis",
+        "type": "Axe"
+    },
+    "Heavy Spear": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Efficace contre les unités en armure.",
+        "might": 8,
+        "name": "Épieu lourd",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Heavy Spear+": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Efficace contre les unités en armure.",
+        "might": 12,
+        "name": "Épieu lourd+",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Iron Axe": {
+        "color": "Green",
+        "cost": 0,
+        "effect": "",
+        "might": 6,
+        "name": "Hache fer",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Iron Bow": {
+        "color": "Neutral",
+        "cost": 0,
+        "effect": "Efficace contre les unités volantes.",
+        "might": 4,
+        "name": "Arc fer",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Iron Dagger": {
+        "color": "Neutral",
+        "cost": 0,
+        "effect": "Après le combat, inflige Déf/Rés -3 à l'enemi pour le restant du tour.",
+        "might": 3,
+        "name": "Dague fer",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Iron Lance": {
+        "color": "Blue",
+        "cost": 0,
+        "effect": "",
+        "might": 6,
+        "name": "Lance fer",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Iron Sword": {
+        "color": "Red",
+        "cost": 0,
+        "effect": "",
+        "might": 6,
+        "name": "Épée fer",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Killer Axe": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 7,
+        "name": "Hache létale",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Killer Axe+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 11,
+        "name": "Hache létale+",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Killer Bow": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Efficace contre les unités volantes. Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 5,
+        "name": "Arc létal",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Killer Bow+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Efficace contre les unités volantes. Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 9,
+        "name": "Arc létal+",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Killer Lance": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 7,
+        "name": "Lance létale",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Killer Lance+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 11,
+        "name": "Lance létale+",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Killing Edge": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 7,
+        "name": "Fer létal",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Killing Edge+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 11,
+        "name": "Fer létal+",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Light Breath": {
+        "color": "",
+        "cost": 200,
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +4 aux alliés adjacents pendant un tour.",
+        "might": 9,
+        "name": "Souffle lumineux",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Light Breath+": {
+        "color": "",
+        "cost": 300,
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +4 aux alliés adjacents pendant un tour.",
+        "might": 13,
+        "name": "Souffle lumineux+",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Lightning Breath": {
+        "color": "",
+        "cost": 200,
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant. Retarde l'activation des aptitudes spéciales (compteur +1).",
+        "might": 7,
+        "name": "Souffle électrique",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Lightning Breath+": {
+        "color": "",
+        "cost": 300,
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant. Retarde l'activation des aptitudes spéciales (compteur +1).",
+        "might": 11,
+        "name": "Souffle électrique+",
+        "restriction": "",
+        "type": "Dragon"
+    },
+    "Mystletainn": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "might": 16,
+        "name": "Mistilteinn",
+        "restriction": "Eldigan",
+        "type": "Sword"
+    },
+    "Naga": {
+        "color": "Green",
+        "cost": 400,
+        "effect": "Efficace contre les dragons. Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée.",
+        "might": 14,
+        "name": "Naga",
+        "restriction": "Julia",
+        "type": "Tome"
+    },
+    "N\u00f3at\u00fan": {
+        "color": "Green",
+        "cost": 400,
+        "effect": "Si PV ≤ 40%, l'unité peut se déplacer sur n'importe quelle case adjacente à un allié.",
+        "might": 16,
+        "name": "N\u00f3at\u00fan",
+        "restriction": "Anna",
+        "type": "Axe"
+    },
+    "Pain": {
+        "color": "Neutral",
+        "cost": 150,
+        "effect": "L'ennemi ciblé subit 10 dégâts après le combat.",
+        "might": 3,
+        "name": "Hémorragie",
+        "restriction": "",
+        "type": "Staff"
+    },
+    "Panic": {
+        "color": "Neutral",
+        "cost": 150,
+        "effect": "Après le combat, les bonus accordés à l'ennemi deviennent des malus jusqu'à la fin de sa phase.",
+        "might": 7,
+        "name": "Panique",
+        "restriction": "",
+        "type": "Staff"
+    },
+    "Parthia": {
+        "color": "Neutral",
+        "cost": 400,
+        "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack.",
+        "might": 14,
+        "name": "Parthia",
+        "restriction": "Jeorge",
+        "type": "Bow"
+    },
+    "Poison Dagger": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -6 pour le restant du tour.",
+        "might": 2,
+        "name": "Dague poison",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Poison Dagger+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -6 pour le restant du tour.",
+        "might": 5,
+        "name": "Dague poison+",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Ragnell": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
+        "might": 16,
+        "name": "Ragnell",
+        "type": "Sword"
+    },
+    "Raijinto": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
+        "might": 16,
+        "name": "Raijinto",
+        "restriction": "Ryoma",
+        "type": "Sword"
+    },
+    "Rau\u00f0rblade": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. au dégâts infligés.",
+        "might": 9,
+        "name": "Lames rubis",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rau\u00f0rblade+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. au dégâts infligés.",
+        "might": 13,
+        "name": "Lames rubis+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rau\u00f0rraven": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "might": 7,
+        "name": "Serres rubis",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rau\u00f0rraven+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "might": 11,
+        "name": "Serres rubis+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rau\u00f0rwolf": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "Efficace contre la cavalerie.",
+        "might": 6,
+        "name": "Crocs rubis",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rau\u00f0rwolf+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "Efficace contre la cavalerie.",
+        "might": 10,
+        "name": "Crocs rubis+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rexcalibur": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "",
+        "might": 9,
+        "name": "Fimbulvetr",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rexcalibur+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "",
+        "might": 13,
+        "name": "Fimbulvetr+",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Rogue Dagger": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Après le combat, inflige Déf/Rés -3 à l'ennemi jusqu'à la fin de sa phase et confère Déf/Rés +3 à l'unité pendant un tour.",
+        "might": 4,
+        "name": "Dague fourbe",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Rogue Dagger+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Après le combat, inflige Déf/Rés -3 à l'ennemi jusqu'à la fin de sa phase et confère Déf/Rés +3 à l'unité pendant un tour.",
+        "might": 7,
+        "name": "Dague fourbe+",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Ruby Sword": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "might": 8,
+        "name": "Épée rubis",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Ruby Sword+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "might": 12,
+        "name": "Épée rubis+",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Ruin": {
+        "color": "Red",
+        "cost": 100,
+        "effect": "",
+        "might": 6,
+        "name": "Ravage",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Sapphire Lance": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "might": 8,
+        "name": "Lance saphir",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Sapphire Lance+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "might": 12,
+        "name": "Lance saphir+",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Sieglinde": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
+        "might": 16,
+        "name": "Sieglinde",
+        "restriction": "Eirika",
+        "type": "Sword"
+    },
+    "Siegmund": {
+        "color": "Blue",
+        "cost": 400,
+        "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
+        "might": 16,
+        "name": "Siegmund",
+        "restriction": "Ephraim",
+        "type": "Lance"
+    },
+    "Silver Axe": {
+        "color": "Green",
+        "cost": 200,
+        "effect": "",
+        "might": 11,
+        "name": "Hache argent",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Silver Axe+": {
+        "color": "Green",
+        "cost": 300,
+        "effect": "",
+        "might": 15,
+        "name": "Hache argent+",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Silver Bow": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Efficace contre les unités volantes.",
+        "might": 9,
+        "name": "Arc argent",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Silver Bow+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Efficace contre les unités volantes.",
+        "might": 13,
+        "name": "Arc argent+",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Silver Dagger": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Après le combat, inflige Déf/Rés -5 à l'ennemi pour le restant du tour.",
+        "might": 7,
+        "name": "Silver Dagger",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Silver Dagger+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Après le combat, inflige Déf/Rés -7 à l'ennemi pour le restant du tour.",
+        "might": 10,
+        "name": "Silver Dagger+",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Silver Lance": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "",
+        "might": 11,
+        "name": "Lance argent",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Silver Lance+": {
+        "color": "Blue",
+        "cost": 300,
+        "effect": "",
+        "might": 15,
+        "name": "Lance argent+",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Silver Sword": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "",
+        "might": 11,
+        "name": "Épée argent",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Silver Sword+": {
+        "color": "Red",
+        "cost": 300,
+        "effect": "",
+        "might": 15,
+        "name": "Épée argent+",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Slow": {
+        "color": "Neutral",
+        "cost": 150,
+        "effect": "Après le combat, inflige Vit -4 à l'ennemi jusqu'à la fin de sa phase.",
+        "might": 5,
+        "name": "Lenteur",
+        "restriction": "",
+        "type": "Staff"
+    },
+    "Smoke Dagger": {
+        "color": "Neutral",
+        "cost": 200,
+        "effect": "Après avoir initié le combat, inflige Déf/Rés -4 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour",
+        "might": 6,
+        "name": "Smoke Dagger",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Smoke Dagger+": {
+        "color": "Neutral",
+        "cost": 300,
+        "effect": "Après avoir initié le combat, inflige Déf/Rés -6 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour",
+        "might": 9,
+        "name": "Smoke Dagger+",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Sol Katti": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Lorsqu'elle initie le combat et si PV ≤ 50%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.",
+        "might": 16,
+        "name": "Sol Katti",
+        "restriction": "Lyn",
+        "type": "Sword"
+    },
+    "Steel Axe": {
+        "color": "Green",
+        "cost": 100,
+        "effect": "",
+        "might": 8,
+        "name": "Hache acier",
+        "restriction": "",
+        "type": "Axe"
+    },
+    "Steel Bow": {
+        "color": "Neutral",
+        "cost": 100,
+        "effect": "Efficace contre les unités volantes.",
+        "might": 6,
+        "name": "Arc acier",
+        "restriction": "",
+        "type": "Bow"
+    },
+    "Steel Dagger": {
+        "color": "Neutral",
+        "cost": 100,
+        "effect": "Après le combat, inflige Déf/Rés -3 à l'ennemi pour le restant du tour.",
+        "might": 5,
+        "name": "Dague acier",
+        "restriction": "",
+        "type": "Dagger"
+    },
+    "Steel Lance": {
+        "color": "Blue",
+        "cost": 100,
+        "effect": "",
+        "might": 8,
+        "name": "Lance acier",
+        "restriction": "",
+        "type": "Lance"
+    },
+    "Steel Sword": {
+        "color": "Red",
+        "cost": 100,
+        "effect": "",
+        "might": 8,
+        "name": "Épée acier",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Thoron": {
+        "color": "Blue",
+        "cost": 200,
+        "effect": "",
+        "might": 9,
+        "name": "Thoron",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Thunder": {
+        "color": "Blue",
+        "cost": 0,
+        "effect": "",
+        "might": 4,
+        "name": "Foudre",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Tyrfing": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Si PV ≤ 50%, confère Déf +4 à l'unité.",
+        "might": 16,
+        "name": "Tyrfing",
+        "restriction": "Seliph",
+        "type": "Sword"
+    },
+    "Wind": {
+        "color": "Green",
+        "cost": 0,
+        "effect": "",
+        "might": 4,
+        "name": "Vent",
+        "restriction": "",
+        "type": "Tome"
+    },
+    "Wo Dao": {
+        "color": "Red",
+        "cost": 200,
+        "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales.",
+        "might": 9,
+        "name": "Wo Dao",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Wo Dao+": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales.",
+        "might": 13,
+        "name": "Wo Dao+",
+        "restriction": "",
+        "type": "Sword"
+    },
+    "Yato": {
+        "color": "Red",
+        "cost": 400,
+        "effect": "Confère Vit +4 à l'unité lorsqu'elle initie le combat.",
+        "might": 16,
+        "name": "Yato",
+        "restriction": "Corrin(M)",
+        "type": "Sword"
+    }
+}
