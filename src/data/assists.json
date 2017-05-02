@@ -31,7 +31,7 @@
     },
     "Martyr": {
         "cost": "200",
-        "effect": "Restores HP=7+ this unit's suffered damage. Unit Heals HP=half suffered damage. Slows Special trigger (cooldown count +1).",
+        "effect": "Restores HP 7+ this unit's suffered damage. Unit Heals HP=half suffered damage. Slows Special trigger (cooldown count +1).",
         "name": "Martyr",
         "restriction": "Staff"
     },

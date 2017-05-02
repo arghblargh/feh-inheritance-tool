@@ -111,73 +111,73 @@
         },
         "Defiant Atk 1": {
             "cost": "40",
-            "effect": "Grants Atk +3 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Atk +3 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Atk 1",
             "restriction": ""
         },
         "Defiant Atk 2": {
             "cost": "80",
-            "effect": "Grants Atk +5 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Atk +5 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Atk 2",
             "restriction": ""
         },
         "Defiant Atk 3": {
             "cost": "160",
-            "effect": "Grants Atk +7 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Atk +7 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Atk 3",
             "restriction": ""
         },
         "Defiant Def 1": {
             "cost": "40",
-            "effect": "Grants Def +3 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Def +3 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Def 1",
             "restriction": ""
         },
         "Defiant Def 2": {
             "cost": "80",
-            "effect": "Grants Def +5 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Def +5 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Def 2",
             "restriction": ""
         },
         "Defiant Def 3": {
             "cost": "160",
-            "effect": "Grants Def +7 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Def +7 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Def 3",
             "restriction": ""
         },
         "Defiant Res 1": {
             "cost": "40",
-            "effect": "Grants Res+3 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Res+3 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Res 1",
             "restriction": ""
         },
         "Defiant Res 2": {
             "cost": "80",
-            "effect": "Grants Res+5 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Res+5 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Res 2",
             "restriction": ""
         },
         "Defiant Res 3": {
             "cost": "160",
-            "effect": "Grants Res+7 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Res+7 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Res 3",
             "restriction": ""
         },
         "Defiant Spd 1": {
             "cost": "40",
-            "effect": "Grants Spd +3 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Spd +3 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Spd 1",
             "restriction": ""
         },
         "Defiant Spd 2": {
             "cost": "80",
-            "effect": "Grants Spd +5 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Spd +5 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Spd 2",
             "restriction": ""
         },
         "Defiant Spd 3": {
             "cost": "160",
-            "effect": "Grants Spd +7 at start of turn if unit's HP \u2264 50%.",
+            "effect": "Grants Spd +7 at start of turn if unit's HP ≤ 50%.",
             "name": "Defiant Spd 3",
             "restriction": ""
         },
@@ -243,19 +243,19 @@
         },
         "Heavy Blade 1": {
             "cost": "60",
-            "effect": "If unit's Atk - foe's Atk \u2265 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+            "effect": "If unit's Atk - foe's Atk ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
             "name": "Heavy Blade 1",
             "restriction": ""
         },
         "Heavy Blade 2": {
             "cost": "120",
-            "effect": "If unit's Atk - foe's Atk \u2265 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+            "effect": "If unit's Atk - foe's Atk ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
             "name": "Heavy Blade 2",
             "restriction": ""
         },
         "Heavy Blade 3": {
             "cost": "240",
-            "effect": "If unit's Atk - foe's Atk \u2265 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+            "effect": "If unit's Atk - foe's Atk ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
             "name": "Heavy Blade 3",
             "restriction": ""
         },
@@ -378,109 +378,109 @@
     "B": {
         "Axebreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against an axe user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against an axe user, unit makes a followup attack and foe cannot.",
             "name": "Axebreaker 1",
             "restriction": "Color:RGN"
         },
         "Axebreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against an axe user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against an axe user, unit makes a followup attack and foe cannot.",
             "name": "Axebreaker 2",
             "restriction": "Color:RGN"
         },
         "Axebreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against an axe user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against an axe user, unit makes a followup attack and foe cannot.",
             "name": "Axebreaker 3",
             "restriction": "Color:RGN"
         },
         "B Tomebreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
             "name": "B Tomebreaker 1",
             "restriction": "Color:BGN"
         },
         "B Tomebreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
             "name": "B Tomebreaker 2",
             "restriction": "Color:BGN"
         },
         "B Tomebreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
             "name": "B Tomebreaker 3",
             "restriction": "Color:BGN"
         },
         "Bowbreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against a bow user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against a bow user, unit makes a followup attack and foe cannot.",
             "name": "Bowbreaker 1",
             "restriction": "Armored|Cavalry|Infantry"
         },
         "Bowbreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against a bow user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against a bow user, unit makes a followup attack and foe cannot.",
             "name": "Bowbreaker 2",
             "restriction": "Armored|Cavalry|Infantry"
         },
         "Bowbreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against a bow user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against a bow user, unit makes a followup attack and foe cannot.",
             "name": "Bowbreaker 3",
             "restriction": "Armored|Cavalry|Infantry"
         },
         "Brash Assault 1": {
             "cost": "50",
-            "effect": "Unit automatically makes a followup when at HP \u2264 30% and attacking a foe that can counter.",
+            "effect": "Unit automatically makes a followup when at HP ≤ 30% and attacking a foe that can counter.",
             "name": "Brash Assault 1",
             "restriction": ""
         },
         "Brash Assault 2": {
             "cost": "100",
-            "effect": "Unit automatically makes a followup when at HP \u2264 40% and attacking a foe that can counter.",
+            "effect": "Unit automatically makes a followup when at HP ≤ 40% and attacking a foe that can counter.",
             "name": "Brash Assault 2",
             "restriction": ""
         },
         "Brash Assault 3": {
             "cost": "200",
-            "effect": "Unit automatically makes a followup when at HP \u2264 50% and attacking a foe that can counter.",
+            "effect": "Unit automatically makes a followup when at HP ≤ 50% and attacking a foe that can counter.",
             "name": "Brash Assault 3",
             "restriction": ""
         },
         "Daggerbreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against a dagger user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against a dagger user, unit makes a followup attack and foe cannot.",
             "name": "Daggerbreaker 1",
             "restriction": ""
         },
         "Daggerbreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against a dagger user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against a dagger user, unit makes a followup attack and foe cannot.",
             "name": "Daggerbreaker 2",
             "restriction": ""
         },
         "Daggerbreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against a dagger user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against a dagger user, unit makes a followup attack and foe cannot.",
             "name": "Daggerbreaker 3",
             "restriction": ""
         },
         "Desperation 1": {
             "cost": "50",
-            "effect": "If unit initiates combat with HP \u2264 25%, followup attacks occur immediately after unit's attack.",
+            "effect": "If unit initiates combat with HP ≤ 25%, followup attacks occur immediately after unit's attack.",
             "name": "Desperation 1",
             "restriction": ""
         },
         "Desperation 2": {
             "cost": "100",
-            "effect": "If unit initiates combat with HP \u2264 50%, followup attacks occur immediately after unit's attack.",
+            "effect": "If unit initiates combat with HP ≤ 50%, followup attacks occur immediately after unit's attack.",
             "name": "Desperation 2",
             "restriction": ""
         },
         "Desperation 3": {
             "cost": "200",
-            "effect": "If unit initiates combat with HP \u2264 75%, followup attacks occur immediately after unit's attack.",
+            "effect": "If unit initiates combat with HP ≤ 75%, followup attacks occur immediately after unit's attack.",
             "name": "Desperation 3",
             "restriction": ""
         },
@@ -492,55 +492,55 @@
         },
         "Escape Route 1": {
             "cost": "60",
-            "effect": "Enables unit whose own HP is \u2264 30% to warp adjacent to any ally.",
+            "effect": "Enables unit whose own HP is ≤ 30% to warp adjacent to any ally.",
             "name": "Escape Route 1",
             "restriction": ""
         },
         "Escape Route 2": {
             "cost": "120",
-            "effect": "Enables unit whose own HP is \u2264 40% to warp adjacent to any ally.",
+            "effect": "Enables unit whose own HP is ≤ 40% to warp adjacent to any ally.",
             "name": "Escape Route 2",
             "restriction": ""
         },
         "Escape Route 3": {
             "cost": "240",
-            "effect": "Enables unit whose own HP is \u2264 50% to warp adjacent to any ally.",
+            "effect": "Enables unit whose own HP is ≤ 50% to warp adjacent to any ally.",
             "name": "Escape Route 3",
             "restriction": ""
         },
         "G Tomebreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against a green tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against a green tome user, unit makes a followup attack and foe cannot.",
             "name": "G Tomebreaker 1",
             "restriction": "Color:RGN"
         },
         "G Tomebreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against a green tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against a green tome user, unit makes a followup attack and foe cannot.",
             "name": "G Tomebreaker 2",
             "restriction": "Color:RGN"
         },
         "G Tomebreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
             "name": "G Tomebreaker 3",
             "restriction": "Color:RGN"
         },
         "Guard 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 100% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
+            "effect": "If unit's HP ≥ 100% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
             "name": "Guard 1",
             "restriction": ""
         },
         "Guard 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 90% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
+            "effect": "If unit's HP ≥ 90% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
             "name": "Guard 2",
             "restriction": ""
         },
         "Guard 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 80% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
+            "effect": "If unit's HP ≥ 80% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
             "name": "Guard 3",
             "restriction": ""
         },
@@ -558,19 +558,19 @@
         },
         "Lancebreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against a lance user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against a lance user, unit makes a followup attack and foe cannot.",
             "name": "Lancebreaker 1",
             "restriction": "Color:BGN"
         },
         "Lancebreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against a lance user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against a lance user, unit makes a followup attack and foe cannot.",
             "name": "Lancebreaker 2",
             "restriction": "Color:BGN"
         },
         "Lancebreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against a lance user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against a lance user, unit makes a followup attack and foe cannot.",
             "name": "Lancebreaker 3",
             "restriction": "Color:BGN"
         },
@@ -612,37 +612,37 @@
         },
         "Obstruct 1": {
             "cost": "50",
-            "effect": "Prevents foes from moving through adjacent spaces while this unit's HP \u2265 90%. (No effect on foes with a Pass skill.)",
+            "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 90%. (No effect on foes with a Pass skill.)",
             "name": "Obstruct 1",
             "restriction": ""
         },
         "Obstruct 2": {
             "cost": "100",
-            "effect": "Prevents foes from moving through adjacent spaces while this unit's HP \u2265 70%. (No effect on foes with a Pass skill.)",
+            "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 70%. (No effect on foes with a Pass skill.)",
             "name": "Obstruct 2",
             "restriction": ""
         },
         "Obstruct 3": {
             "cost": "200",
-            "effect": "Prevents foes from moving through adjacent spaces while this unit's HP \u2265 50%. (No effect on foes with a Pass skill.)",
+            "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 50%. (No effect on foes with a Pass skill.)",
             "name": "Obstruct 3",
             "restriction": ""
         },
         "Pass 1": {
             "cost": "50",
-            "effect": "Units can pass through foes if its own HP \u2265 75%.",
+            "effect": "Units can pass through foes if its own HP ≥ 75%.",
             "name": "Pass 1",
             "restriction": ""
         },
         "Pass 2": {
             "cost": "100",
-            "effect": "Units can pass through foes if its own HP \u2265 50%.",
+            "effect": "Units can pass through foes if its own HP ≥ 50%.",
             "name": "Pass 2",
             "restriction": ""
         },
         "Pass 3": {
             "cost": "200",
-            "effect": "Units can pass through foes if its own HP \u2265 25%.",
+            "effect": "Units can pass through foes if its own HP ≥ 25%.",
             "name": "Pass 3",
             "restriction": ""
         },
@@ -666,37 +666,37 @@
         },
         "Quick Riposte 1": {
             "cost": "60",
-            "effect": "Unit automatically makes a followup attack if attacked at HP \u2265 90%.",
+            "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 90%.",
             "name": "Quick Riposte 1",
             "restriction": ""
         },
         "Quick Riposte 2": {
             "cost": "120",
-            "effect": "Unit automatically makes a followup attack if attacked at HP \u2265 80%.",
+            "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 80%.",
             "name": "Quick Riposte 2",
             "restriction": ""
         },
         "Quick Riposte 3": {
             "cost": "240",
-            "effect": "Unit automatically makes a followup attack if attacked at HP \u2265 70%.",
+            "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 70%.",
             "name": "Quick Riposte 3",
             "restriction": ""
         },
         "R Tomebreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against a red tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against a red tome user, unit makes a followup attack and foe cannot.",
             "name": "R Tomebreaker 1",
             "restriction": "Color:RBN"
         },
         "R Tomebreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against a red tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against a red tome user, unit makes a followup attack and foe cannot.",
             "name": "R Tomebreaker 2",
             "restriction": "Color:RBN"
         },
         "R Tomebreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against a red tome user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against a red tome user, unit makes a followup attack and foe cannot.",
             "name": "R Tomebreaker 3",
             "restriction": "Color:RBN"
         },
@@ -792,109 +792,109 @@
         },
         "Swordbreaker 1": {
             "cost": "50",
-            "effect": "If unit's HP \u2265 90% in combat against a sword user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 90% in combat against a sword user, unit makes a followup attack and foe cannot.",
             "name": "Swordbreaker 1",
             "restriction": "Color:RBN"
         },
         "Swordbreaker 2": {
             "cost": "100",
-            "effect": "If unit's HP \u2265 70% in combat against a sword user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 70% in combat against a sword user, unit makes a followup attack and foe cannot.",
             "name": "Swordbreaker 2",
             "restriction": "Color:RBN"
         },
         "Swordbreaker 3": {
             "cost": "200",
-            "effect": "If unit's HP \u2265 50% in combat against a sword user, unit makes a followup attack and foe cannot.",
+            "effect": "If unit's HP ≥ 50% in combat against a sword user, unit makes a followup attack and foe cannot.",
             "name": "Swordbreaker 3",
             "restriction": "Color:RBN"
         },
         "Vantage 1": {
             "cost": "50",
-            "effect": "Unit counterattacks first when attacked at HP \u2264 25%.",
+            "effect": "Unit counterattacks first when attacked at HP ≤ 25%.",
             "name": "Vantage 1",
             "restriction": ""
         },
         "Vantage 2": {
             "cost": "100",
-            "effect": "Unit counterattacks first when attacked at HP \u2264 50%.",
+            "effect": "Unit counterattacks first when attacked at HP ≤ 50%.",
             "name": "Vantage 2",
             "restriction": ""
         },
         "Vantage 3": {
             "cost": "200",
-            "effect": "Unit counterattacks first when attacked at HP \u2264 75%.",
+            "effect": "Unit counterattacks first when attacked at HP ≤ 75%.",
             "name": "Vantage 3",
             "restriction": ""
         },
         "Wary Fighter 1": {
             "cost": "60",
-            "effect": "Prevents followup attacks in combat from unit and foes if unit's HP \u2265 90%.",
+            "effect": "Prevents followup attacks in combat from unit and foes if unit's HP ≥ 90%.",
             "name": "Wary Fighter 1",
             "restriction": "Armored"
         },
         "Wary Fighter 2": {
             "cost": "120",
-            "effect": "Prevents followup attacks in combat from unit and foes if unit's HP \u2265 70%.",
+            "effect": "Prevents followup attacks in combat from unit and foes if unit's HP ≥ 70%.",
             "name": "Wary Fighter 2",
             "restriction": "Armored"
         },
         "Wary Fighter 3": {
             "cost": "240",
-            "effect": "Prevents followup attacks in combat from unit and foes if unit's HP \u2265 50%.",
+            "effect": "Prevents followup attacks in combat from unit and foes if unit's HP ≥ 50%.",
             "name": "Wary Fighter 3",
             "restriction": "Armored"
         },
         "Watersweep 1": {
             "cost": "60",
-            "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit\u2019s Spd - foe\u2019s Spd \u2265 5, foe can\u2019t counterattack.",
+            "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 5, foe can't counterattack.",
             "name": "Watersweep 1",
             "restriction": ""
         },
         "Watersweep 2": {
             "cost": "120",
-            "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit\u2019s Spd - foe\u2019s Spd \u2265 3, foe can\u2019t counterattack.",
+            "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 3, foe can't counterattack.",
             "name": "Watersweep 2",
             "restriction": ""
         },
         "Watersweep 3": {
             "cost": "240",
-            "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit\u2019s Spd - foe\u2019s Spd \u2265 1, foe can\u2019t counterattack.",
+            "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 1, foe can't counterattack.",
             "name": "Watersweep 3",
             "restriction": ""
         },
         "Windsweep 1": {
             "cost": "60",
-            "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit\u2019s Spd - foe\u2019s Spd \u2265 5, foe can\u2019t counterattack.",
+            "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 5, foe can't counterattack.",
             "name": "Windsweep 1",
             "restriction": ""
         },
         "Windsweep 2": {
             "cost": "120",
-            "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit\u2019s Spd - foe\u2019s Spd \u2265 3, foe can\u2019t counterattack.",
+            "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 3, foe can't counterattack.",
             "name": "Windsweep 2",
             "restriction": ""
         },
         "Windsweep 3": {
             "cost": "240",
-            "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit\u2019s Spd - foe\u2019s Spd \u2265 1, foe can\u2019t counterattack.",
+            "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 1, foe can't counterattack.",
             "name": "Windsweep 3",
             "restriction": ""
         },
         "Wings of Mercy 1": {
             "cost": "60",
-            "effect": "Enables unit to warp adjacent to any ally with HP \u2264 30%.",
+            "effect": "Enables unit to warp adjacent to any ally with HP ≤ 30%.",
             "name": "Wings of Mercy 1",
             "restriction": ""
         },
         "Wings of Mercy 2": {
             "cost": "120",
-            "effect": "Enables unit to warp adjacent to any ally with HP \u2264 40%.",
+            "effect": "Enables unit to warp adjacent to any ally with HP ≤ 40%.",
             "name": "Wings of Mercy 2",
             "restriction": ""
         },
         "Wings of Mercy 3": {
             "cost": "240",
-            "effect": "Enables unit to warp adjacent to any ally with HP \u2264 50%.",
+            "effect": "Enables unit to warp adjacent to any ally with HP ≤ 50%.",
             "name": "Wings of Mercy 3",
             "restriction": ""
         }

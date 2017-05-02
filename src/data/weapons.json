@@ -98,57 +98,57 @@
         "restriction": "",
         "type": "Tome"
     },
-    "Bl\u00e1rblade": {
+    "Blárblade": {
         "color": "Blue",
         "cost": 200,
         "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
         "might": 9,
-        "name": "Bl\u00e1rblade",
+        "name": "Blárblade",
         "restriction": "",
         "type": "Tome"
     },
-    "Bl\u00e1rblade+": {
+    "Blárblade+": {
         "color": "Blue",
         "cost": 300,
         "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
         "might": 13,
-        "name": "Bl\u00e1rblade+",
+        "name": "Blárblade+",
         "restriction": "",
         "type": "Tome"
     },
-    "Bl\u00e1rraven": {
+    "Blárraven": {
         "color": "Blue",
         "cost": 200,
         "effect": "Grants weapon advantage vs. colorless foes.",
         "might": 7,
-        "name": "Bl\u00e1rraven",
+        "name": "Blárraven",
         "restriction": "",
         "type": "Tome"
     },
-    "Bl\u00e1rraven+": {
+    "Blárraven+": {
         "color": "Blue",
         "cost": 300,
         "effect": "Grants weapon advantage vs. colorless foes.",
         "might": 11,
-        "name": "Bl\u00e1rraven+",
+        "name": "Blárraven+",
         "restriction": "",
         "type": "Tome"
     },
-    "Bl\u00e1rwolf": {
+    "Blárwolf": {
         "color": "Blue",
         "cost": 200,
         "effect": "Effective against cavalry units.",
         "might": 6,
-        "name": "Bl\u00e1rwolf",
+        "name": "Blárwolf",
         "restriction": "",
         "type": "Tome"
     },
-    "Bl\u00e1rwolf+": {
+    "Blárwolf+": {
         "color": "Blue",
         "cost": 300,
         "effect": "Effective against cavalry units.",
         "might": 10,
-        "name": "Bl\u00e1rwolf+",
+        "name": "Blárwolf+",
         "restriction": "",
         "type": "Tome"
     },
@@ -530,12 +530,12 @@
         "restriction": "Takumi",
         "type": "Bow"
     },
-    "F\u00f3lkvangr": {
+    "Fólkvangr": {
         "color": "Red",
         "cost": 400,
         "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
         "might": 16,
-        "name": "F\u00f3lkvangr",
+        "name": "Fólkvangr",
         "restriction": "Alfonse",
         "type": "Sword"
     },
@@ -836,12 +836,12 @@
         "restriction": "Julia",
         "type": "Tome"
     },
-    "N\u00f3at\u00fan": {
+    "Nóatún": {
         "color": "Green",
         "cost": 400,
         "effect": "Unit may move adjacent to any ally when HP <= 40%.",
         "might": 16,
-        "name": "N\u00f3at\u00fan",
+        "name": "Nóatún",
         "restriction": "Anna",
         "type": "Axe"
     },
@@ -907,57 +907,57 @@
         "restriction": "Ryoma",
         "type": "Sword"
     },
-    "Rau\u00f0rblade": {
+    "Rauðrblade": {
         "color": "Red",
         "cost": 200,
         "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
         "might": 9,
-        "name": "Rau\u00f0rblade",
+        "name": "Rauðrblade",
         "restriction": "",
         "type": "Tome"
     },
-    "Rau\u00f0rblade+": {
+    "Rauðrblade+": {
         "color": "Red",
         "cost": 300,
         "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
         "might": 13,
-        "name": "Rau\u00f0rblade+",
+        "name": "Rauðrblade+",
         "restriction": "",
         "type": "Tome"
     },
-    "Rau\u00f0rraven": {
+    "Rauðrraven": {
         "color": "Red",
         "cost": 200,
         "effect": "Grants weapon advantage vs. colorless foes.",
         "might": 7,
-        "name": "Rau\u00f0rraven",
+        "name": "Rauðrraven",
         "restriction": "",
         "type": "Tome"
     },
-    "Rau\u00f0rraven+": {
+    "Rauðrraven+": {
         "color": "Red",
         "cost": 300,
         "effect": "Grants weapon advantage vs. colorless foes.",
         "might": 11,
-        "name": "Rau\u00f0rraven+",
+        "name": "Rauðrraven+",
         "restriction": "",
         "type": "Tome"
     },
-    "Rau\u00f0rwolf": {
+    "Rauðrwolf": {
         "color": "Red",
         "cost": 200,
         "effect": "Effective against cavalry units.",
         "might": 6,
-        "name": "Rau\u00f0rwolf",
+        "name": "Rauðrwolf",
         "restriction": "",
         "type": "Tome"
     },
-    "Rau\u00f0rwolf+": {
+    "Rauðrwolf+": {
         "color": "Red",
         "cost": 300,
         "effect": "Effective against cavalry units.",
         "might": 10,
-        "name": "Rau\u00f0rwolf+",
+        "name": "Rauðrwolf+",
         "restriction": "",
         "type": "Tome"
     },
@@ -1252,7 +1252,7 @@
     "Tyrfing": {
         "color": "Red",
         "cost": 400,
-        "effect": "Grants Def+4 in battle if unit's HP \u2264 50%.",
+        "effect": "Grants Def+4 in battle if unit's HP ≤ 50%.",
         "might": 16,
         "name": "Tyrfing",
         "restriction": "Seliph",
