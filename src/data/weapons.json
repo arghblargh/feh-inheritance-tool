@@ -796,7 +796,8 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Enables counterattack regardless of distance if this unit is attacked."
+    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "restriction": "Ike"
   },
   "Raijinto": {
     "color": "Red",
@@ -925,6 +926,14 @@
     "might": 12,
     "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
     "restriction": ""
+  },
+  "Siegfried": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "restriction": "Xander"
   },
   "Sieglinde": {
     "color": "Red",
