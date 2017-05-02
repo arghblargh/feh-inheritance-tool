@@ -1,0 +1,546 @@
+{
+    "Absorb": {
+        "effect": "L'unité se soigne à hauteur de 50% des dégâts qu'elle inflige.",
+        "name": "Vampirisme"
+    },
+    "Armads": {
+        "effect": "Si PV ≥ 80%, l'unité effectue automatiquement une double frappe lorsqu'elle est attaquée.",
+        "name": "Armadès"
+    },
+    "Armorslayer": {
+        "effect": "Efficace contre les unités en armure.",
+        "name": "Cuiracide"
+    },
+    "Armorslayer+": {
+        "effect": "Efficace contre les unités en armure.",
+        "name": "Cuiracide+"
+    },
+    "Assassin's Bow": {
+        "effect": "Efficace contre les unités volantes. Contre une unité équipée d'une dague, les doubles frappes sont assurées et l'ennemi ne peut en réaliser.",
+        "name": "Arc d'assassin"
+    },
+    "Assassin's Bow+": {
+        "effect": "Efficace contre les unités volantes. Contre une unité équipée d'une dague, les doubles frappes sont assurées et l'ennemi ne peut en réaliser.",
+        "name": "Arc d'assassin+"
+    },
+    "Assault": {
+        "name": "Assaut"
+    },
+    "Aura": {
+        "effect": "Rend 5 PV aux alliés adjacents après avoir inité le combat.",
+        "name": "Aura"
+    },
+    "Binding Blade": {
+        "effect": "Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée",
+        "name": "Lame du Sceau"
+    },
+    "Blue Egg": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Oeuf bleu"
+    },
+    "Blue Egg+": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Oeuf bleu+"
+    },
+    "Blárblade": {
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "name": "Lames saphir"
+    },
+    "Blárblade+": {
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "name": "Lames saphir+"
+    },
+    "Blárraven": {
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "name": "Serres saphir"
+    },
+    "Blárraven+": {
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "name": "Serres saphir+"
+    },
+    "Blárwolf": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Crocs saphir"
+    },
+    "Blárwolf+": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Crocs saphir+"
+    },
+    "Bolganone": {
+        "name": "Bolganone"
+    },
+    "Bolganone+": {
+        "name": "Bolganone+"
+    },
+    "Brave Axe": {
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Hache héros"
+    },
+    "Brave Axe+": {
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Hache héros+"
+    },
+    "Brave Bow": {
+        "effect": "Vit -5. Efficace contre les unités volantes. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Arc héros"
+    },
+    "Brave Bow+": {
+        "effect": "Vit -5. Efficace contre les unités volantes. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Arc héros+"
+    },
+    "Brave Lance": {
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Lance héros"
+    },
+    "Brave Lance+": {
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Lance héros+"
+    },
+    "Brave Sword": {
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Épée héros"
+    },
+    "Brave Sword+": {
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Épée héros+"
+    },
+    "Brynhildr": {
+        "effect": "Si l'unité initie le combat, l'ennemi ciblé ne pourra ensuite se déplacer que d'une case maximum.",
+        "name": "Brynhildr"
+    },
+    "Carrot Axe": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Hache carotte"
+    },
+    "Carrot Axe+": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Hache carotte+"
+    },
+    "Carrot Lance": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Lance carotte"
+    },
+    "Carrot Lance+": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Lance carotte+"
+    },
+    "Cymbeline": {
+        "effect": "Après avoir initié le combat, l'unité confère Atq +4 aux alliés adjacents pendant un tour.",
+        "name": "Cymbeline"
+    },
+    "Dark Breath": {
+        "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase.",
+        "name": "Souffle sombre"
+    },
+    "Dark Breath+": {
+        "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase.",
+        "name": "Souffle sombre+"
+    },
+    "Deathly Dagger": {
+        "effect": "Après le combat, inflige Déf/Rés -7 à l'ennemi pour le restant du tour. Lorsqu'elle initie le combat, l'unité inflige 7 dégâts à l'ennemi après le combat.",
+        "name": "Dague mortelle"
+    },
+    "Dire Thunder": {
+        "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
+        "name": "Tonnerre double"
+    },
+    "Durandal": {
+        "effect": "Confère Atq +4 à l'unité lorsqu'elle initie le combat.",
+        "name": "Durandal"
+    },
+    "Eckesachs": {
+        "effect": "En début de tour, inflige Déf -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+        "name": "Eckesachs"
+    },
+    "Elfire": {
+        "name": "Inferno"
+    },
+    "Elthunder": {
+        "name": "Éclair"
+    },
+    "Elwind": {
+        "name": "Tempête"
+    },
+    "Emerald Axe": {
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "name": "Hache émeraude"
+    },
+    "Emerald Axe+": {
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "name": "Hache émeraude+"
+    },
+    "Excalibur": {
+        "effect": "Efficace contre les unités volantes.",
+        "name": "Excalibur"
+    },
+    "Falchion": {
+        "effect": "Efficace contre les dragons. Tous les 3 tours, l'unité récupère 10 PV en début de tour.",
+        "name": "Falchion"
+    },
+    "Fear": {
+        "effect": "Après le combat, inflige Atq -6 à l'ennemi jusqu'à la fin de sa phase.",
+        "name": "Terreur"
+    },
+    "Fenrir": {
+        "name": "Fenrir"
+    },
+    "Fenrir+": {
+        "name": "Fenrir+"
+    },
+    "Fensalir": {
+        "effect": "En début de tour, inflige Atq -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
+        "name": "Fensalir"
+    },
+    "Fire": {
+        "name": "Feu"
+    },
+    "Fire Breath": {
+        "name": "Souffle brûlant"
+    },
+    "Fire Breath+": {
+        "name": "Souffle brûlant+"
+    },
+    "Firesweep Bow": {
+        "effect": "Efficace contre les unités volantes. Les unités et les ennemis ne peuvent pas riposter.",
+        "name": "Arc enflammé"
+    },
+    "Firesweep Bow+": {
+        "effect": "Efficace contre les unités volantes. Les unités et les ennemis ne peuvent pas riposter.",
+        "name": "Arc enflammé+"
+    },
+    "Flametongue": {
+        "name": "Pyrosouffle"
+    },
+    "Flametongue+": {
+        "name": "Pyrosouffle+"
+    },
+    "Flux": {
+        "name": "Flux"
+    },
+    "Fujin Yumi": {
+        "effect": "Efficace contre les unités volantes. Si PV ≥ 50%, l'unité peut passer au travers des ennemis.",
+        "name": "Yumi Fujin"
+    },
+    "Fólkvangr": {
+        "effect": "Si PV ≤ 50%, confère Atq +5 à l'unité en début de tour.",
+        "name": "Fólkvangr"
+    },
+    "Gravity": {
+        "effect": "Après le combat, l'ennemi ne peut se déplacer que d'une seule case jusqu'à la fin de sa phase.",
+        "name": "Gravité"
+    },
+    "Green Egg": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Oeuf vert"
+    },
+    "Green Egg+": {
+        "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
+        "name": "Oeuf vert+"
+    },
+    "Gronnblade": {
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "name": "Lames émeraude"
+    },
+    "Gronnblade+": {
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
+        "name": "Lames émeraude+"
+    },
+    "Gronnraven": {
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "name": "Serres émeraude"
+    },
+    "Gronnraven+": {
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "name": "Serres émeraude+"
+    },
+    "Gronnwolf": {
+        "effect": "Efficace contre la cavalerie",
+        "name": "Crocs émeraude"
+    },
+    "Gronnwolf+": {
+        "effect": "Efficace contre la cavalerie",
+        "name": "Crocs émeraude+"
+    },
+    "Hammer": {
+        "effect": "Efficace contre les unités en armure.",
+        "name": "Marteau"
+    },
+    "Hammer+": {
+        "effect": "Efficace contre les unités en armure.",
+        "name": "Marteau+"
+    },
+    "Hauteclere": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Hauteclaire"
+    },
+    "Heavy Spear": {
+        "effect": "Efficace contre les unités en armure.",
+        "name": "Épieu lourd"
+    },
+    "Heavy Spear+": {
+        "effect": "Efficace contre les unités en armure.",
+        "name": "Épieu lourd+"
+    },
+    "Iron Axe": {
+        "name": "Hache fer"
+    },
+    "Iron Bow": {
+        "effect": "Efficace contre les unités volantes.",
+        "name": "Arc fer"
+    },
+    "Iron Dagger": {
+        "effect": "Après le combat, inflige Déf/Rés -3 à l'enemi pour le restant du tour.",
+        "name": "Dague fer"
+    },
+    "Iron Lance": {
+        "name": "Lance fer"
+    },
+    "Iron Sword": {
+        "name": "Épée fer"
+    },
+    "Killer Axe": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Hache létale"
+    },
+    "Killer Axe+": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Hache létale+"
+    },
+    "Killer Bow": {
+        "effect": "Efficace contre les unités volantes. Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Arc létal"
+    },
+    "Killer Bow+": {
+        "effect": "Efficace contre les unités volantes. Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Arc létal+"
+    },
+    "Killer Lance": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Lance létale"
+    },
+    "Killer Lance+": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Lance létale+"
+    },
+    "Killing Edge": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Fer létal"
+    },
+    "Killing Edge+": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Fer létal+"
+    },
+    "Light Breath": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +4 aux alliés adjacents pendant un tour.",
+        "name": "Souffle lumineux"
+    },
+    "Light Breath+": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +4 aux alliés adjacents pendant un tour.",
+        "name": "Souffle lumineux+"
+    },
+    "Lightning Breath": {
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant. Retarde l'activation des aptitudes spéciales (compteur +1).",
+        "name": "Souffle électrique"
+    },
+    "Lightning Breath+": {
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant. Retarde l'activation des aptitudes spéciales (compteur +1).",
+        "name": "Souffle électrique+"
+    },
+    "Mystletainn": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Mistilteinn"
+    },
+    "Naga": {
+        "effect": "Efficace contre les dragons. Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée.",
+        "name": "Naga"
+    },
+    "Nóatún": {
+        "effect": "Si PV ≤ 40%, l'unité peut se déplacer sur n'importe quelle case adjacente à un allié.",
+        "name": "Nóatún"
+    },
+    "Pain": {
+        "effect": "L'ennemi ciblé subit 10 dégâts après le combat.",
+        "name": "Hémorragie"
+    },
+    "Panic": {
+        "effect": "Après le combat, les bonus accordés à l'ennemi deviennent des malus jusqu'à la fin de sa phase.",
+        "name": "Panique"
+    },
+    "Parthia": {
+        "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack.",
+        "name": "Parthia"
+    },
+    "Poison Dagger": {
+        "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -4 pour le restant du tour.",
+        "name": "Dague poison"
+    },
+    "Poison Dagger+": {
+        "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -6 pour le restant du tour.",
+        "name": "Dague poison+"
+    },
+    "Ragnell": {
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
+        "name": "Ragnell"
+    },
+    "Raijinto": {
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
+        "name": "Raijinto"
+    },
+    "Rauðrblade": {
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. au dégâts infligés.",
+        "name": "Lames rubis"
+    },
+    "Rauðrblade+": {
+        "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. au dégâts infligés.",
+        "name": "Lames rubis+"
+    },
+    "Rauðrraven": {
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "name": "Serres rubis"
+    },
+    "Rauðrraven+": {
+        "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
+        "name": "Serres rubis+"
+    },
+    "Rauðrwolf": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Crocs rubis"
+    },
+    "Rauðrwolf+": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Crocs rubis+"
+    },
+    "Rexcalibur": {
+        "name": "Fimbulvetr"
+    },
+    "Rexcalibur+": {
+        "name": "Fimbulvetr+"
+    },
+    "Rogue Dagger": {
+        "effect": "Après le combat, inflige Déf/Rés -3 à l'ennemi jusqu'à la fin de sa phase et confère Déf/Rés +3 à l'unité pendant un tour.",
+        "name": "Dague fourbe"
+    },
+    "Rogue Dagger+": {
+        "effect": "Après le combat, inflige Déf/Rés -5 à l'ennemi jusqu'à la fin de sa phase et confère Déf/Rés +3 à l'unité pendant un tour.",
+        "name": "Dague fourbe+"
+    },
+    "Ruby Sword": {
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "name": "Épée rubis"
+    },
+    "Ruby Sword+": {
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "name": "Épée rubis+"
+    },
+    "Ruin": {
+        "name": "Ravage"
+    },
+    "Sapphire Lance": {
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "name": "Lance saphir"
+    },
+    "Sapphire Lance+": {
+        "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
+        "name": "Lance saphir+"
+    },
+    "Sieglinde": {
+        "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
+        "name": "Sieglinde"
+    },
+    "Siegmund": {
+        "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
+        "name": "Siegmund"
+    },
+    "Silver Axe": {
+        "name": "Hache argent"
+    },
+    "Silver Axe+": {
+        "name": "Hache argent+"
+    },
+    "Silver Bow": {
+        "effect": "Efficace contre les unités volantes.",
+        "name": "Arc argent"
+    },
+    "Silver Bow+": {
+        "effect": "Efficace contre les unités volantes.",
+        "name": "Arc argent+"
+    },
+    "Silver Dagger": {
+        "effect": "Après le combat, inflige Déf/Rés -5 à l'ennemi pour le restant du tour.",
+        "name": "Silver Dagger"
+    },
+    "Silver Dagger+": {
+        "effect": "Après le combat, inflige Déf/Rés -7 à l'ennemi pour le restant du tour.",
+        "name": "Silver Dagger+"
+    },
+    "Silver Lance": {
+        "name": "Lance argent"
+    },
+    "Silver Lance+": {
+        "name": "Lance argent+"
+    },
+    "Silver Sword": {
+        "name": "Épée argent"
+    },
+    "Silver Sword+": {
+        "name": "Épée argent+"
+    },
+    "Slow": {
+        "effect": "Après le combat, inflige Vit -4 à l'ennemi jusqu'à la fin de sa phase.",
+        "name": "Lenteur"
+    },
+    "Smoke Dagger": {
+        "effect": "Après avoir initié le combat, inflige Déf/Rés -4 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour",
+        "name": "Smoke Dagger"
+    },
+    "Smoke Dagger+": {
+        "effect": "Après avoir initié le combat, inflige Déf/Rés -6 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour",
+        "name": "Smoke Dagger+"
+    },
+    "Sol Katti": {
+        "effect": "Lorsqu'elle initie le combat et si PV ≤ 50%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.",
+        "name": "Sol Katti"
+    },
+    "Steel Axe": {
+        "name": "Hache acier"
+    },
+    "Steel Bow": {
+        "effect": "Efficace contre les unités volantes.",
+        "name": "Arc acier"
+    },
+    "Steel Dagger": {
+        "effect": "Après le combat, inflige Déf/Rés -3 à l'ennemi pour le restant du tour.",
+        "name": "Dague acier"
+    },
+    "Steel Lance": {
+        "name": "Lance acier"
+    },
+    "Steel Sword": {
+        "name": "Épée acier"
+    },
+    "Thoron": {
+        "name": "Thoron"
+    },
+    "Thunder": {
+        "name": "Foudre"
+    },
+    "Tyrfing": {
+        "effect": "Si PV ≤ 50%, confère Déf +4 à l'unité.",
+        "name": "Tyrfing"
+    },
+    "Wind": {
+        "name": "Vent"
+    },
+    "Wo Dao": {
+        "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales.",
+        "name": "Wo Dao"
+    },
+    "Wo Dao+": {
+        "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales.",
+        "name": "Wo Dao+"
+    },
+    "Yato": {
+        "effect": "Confère Vit +4 à l'unité lorsqu'elle initie le combat.",
+        "name": "Yato"
+    }
+}

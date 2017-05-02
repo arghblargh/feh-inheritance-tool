@@ -1,0 +1,90 @@
+{
+    "Ardent Sacrifice": {
+        "effect": "L'unité perd 10 PV (ceux-ci ne peuvent tomber à 0) pour rendre 10 PV à un allié adjactent.",
+        "name": "Abnégation"
+    },
+    "Dance": {
+        "effect": "Permet à la cible d'agir à nouveau. Ne peut être utilisé sur les unités possédant l'aptitude Chant ou Danse.",
+        "name": "Danse"
+    },
+    "Draw Back": {
+        "effect": "L'unité recule d'une case et tire l'allié ciblé avec elle.",
+        "name": "Repli"
+    },
+    "Harsh Command": {
+        "effect": "Convertit les malus aux carac. de la cible en bonus.",
+        "name": "Ordre impérieux"
+    },
+    "Heal": {
+        "effect": "Restaure 5 PV à la cible.",
+        "name": "Soin"
+    },
+    "Martyr": {
+        "effect": "Restaure au moins 7 PV à la cible (plus les PV de la cible sont bas, plus le soin est puissant). Retarde l'activation des aptitudes spéciales (compteur +1).",
+        "name": "Rétablissement"
+    },
+    "Mend": {
+        "effect": "Restaure 10 PV à la cible.",
+        "name": "Cure"
+    },
+    "Physic": {
+        "effect": "Restaure 8 PV. Portée: 2",
+        "name": "Remède"
+    },
+    "Pivot": {
+        "effect": "L'unité se déplace de l'autre côté d'un allié adjacent.",
+        "name": "Traversée"
+    },
+    "Rally Attack": {
+        "effect": "Confère Atq +4 à un allié adjacent jusqu'à la prochaine phase joueur.",
+        "name": "Ralliement: Atq"
+    },
+    "Rally Defense": {
+        "effect": "Confère Déf +4 à un allié adjacent jusqu'à la prochaine phase joueur.",
+        "name": "Ralliement: Déf"
+    },
+    "Rally Resistance": {
+        "effect": "Confère Rés +4 à un allié adjacent jusqu'à la prochaine phase joueur.",
+        "name": "Ralliement: Rés"
+    },
+    "Rally Speed": {
+        "effect": "Confère Vit +4 à un allié adjacent jusqu'à la prochaine phase joueur.",
+        "name": "Ralliement: Vit"
+    },
+    "Reciprocal Aid": {
+        "effect": "L'unité échange ses PV avec ceux d'un allié adjacent (dans la limite de leurs PV max).",
+        "name": "Inversion"
+    },
+    "Reconcile": {
+        "effect": "Restaure 7 PV à la cible ainsi qu'au lanceur.",
+        "name": "Cercle vertueux"
+    },
+    "Recover": {
+        "effect": "Restaure 15 PV à la cible. Retarde l'activation des aptitudes spéciales (compteur +1).",
+        "name": "Restitution"
+    },
+    "Rehabilitate": {
+        "effect": "Restaure 7 PV + (dégats reçus par le lanceur). Soigne le lanceur à hauteur de 50% des soins prodigués. Retarde l'activation des aptitudes spéciales (compteur +1).",
+        "name": "Cicatrisation"
+    },
+    "Reposition": {
+        "effect": "Déplace un allié adjacent de l'autre côté de l'unité.",
+        "name": "Pivot"
+    },
+    "Shove": {
+        "effect": "L'unité repousse d'une case un allié adjacent.",
+        "name": "Bousculade"
+    },
+    "Sing": {
+        "effect": "Permet à la cible d'agir à nouveau. Ne peut être utilisé sur les unités possédant l'aptitude Chant ou Danse.",
+        "name": "Chant"
+    },
+    "Smite": {
+        "effect": "L'unité repousse de deux cases un allié adjacent.",
+        "name": "Charge"
+    },
+    "Swap": {
+        "effect": "L'unité échange de place avec un allié.",
+        "name": "Inversion"
+    }
+}
