@@ -10194,7 +10194,7 @@
         },
         {
           "name": "Armored Blow 2",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Armored Blow 3",
@@ -10214,11 +10214,11 @@
         },
         {
           "name": "Spur Def 2",
-          "unlock": 3
+          "unlock": 4
         },
         {
           "name": "Spur Def 3",
-          "unlock": 4
+          "unlock": 5
         }
       ]
     }
