@@ -63,8 +63,7 @@
             "name": "Assaut"
         },
         "Aura": {
-            "effect": "Rend 5 PV aux alliés adjacents après avoir inité le combat.",
-            "name": "Aura"
+            "effect": "Rend 5 PV aux alliés adjacents après avoir inité le combat."
         },
         "Binding Blade": {
             "effect": "Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée",
@@ -135,8 +134,7 @@
             "name": "Épée héros+"
         },
         "Brynhildr": {
-            "effect": "Si l'unité initie le combat, l'ennemi ciblé ne pourra ensuite se déplacer que d'une case maximum.",
-            "name": "Brynhildr"
+            "effect": "Si l'unité initie le combat, l'ennemi ciblé ne pourra ensuite se déplacer que d'une case maximum."
         },
         "Carrot Axe": {
             "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
@@ -155,8 +153,7 @@
             "name": "Lance carotte+"
         },
         "Cymbeline": {
-            "effect": "Après avoir initié le combat, l'unité confère Atq +4 aux alliés adjacents pendant un tour.",
-            "name": "Cymbeline"
+            "effect": "Après avoir initié le combat, l'unité confère Atq +4 aux alliés adjacents pendant un tour."
         },
         "Dark Breath": {
             "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase.",
@@ -175,12 +172,10 @@
             "name": "Tonnerre double"
         },
         "Durandal": {
-            "effect": "Confère Atq +4 à l'unité lorsqu'elle initie le combat.",
-            "name": "Durandal"
+            "effect": "Confère Atq +4 à l'unité lorsqu'elle initie le combat."
         },
         "Eckesachs": {
-            "effect": "En début de tour, inflige Déf -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
-            "name": "Eckesachs"
+            "effect": "En début de tour, inflige Déf -4 aux ennemis situés à 2 cases ou moins pendant un tour."
         },
         "Elfire": {
             "name": "Inferno"
@@ -200,20 +195,17 @@
             "name": "Hache émeraude+"
         },
         "Excalibur": {
-            "effect": "Efficace contre les unités volantes.",
-            "name": "Excalibur"
+            "effect": "Efficace contre les unités volantes."
         },
         "Falchion": {
-            "effect": "Efficace contre les dragons. Tous les 3 tours, l'unité récupère 10 PV en début de tour.",
-            "name": "Falchion"
+            "effect": "Efficace contre les dragons. Tous les 3 tours, l'unité récupère 10 PV en début de tour."
         },
         "Fear": {
             "effect": "Après le combat, inflige Atq -6 à l'ennemi jusqu'à la fin de sa phase.",
             "name": "Terreur"
         },
         "Fensalir": {
-            "effect": "En début de tour, inflige Atq -4 aux ennemis situés à 2 cases ou moins pendant un tour.",
-            "name": "Fensalir"
+            "effect": "En début de tour, inflige Atq -4 aux ennemis situés à 2 cases ou moins pendant un tour."
         },
         "Fire": {
             "name": "Feu"
@@ -243,8 +235,7 @@
             "name": "Yumi Fujin"
         },
         "Fólkvangr": {
-            "effect": "Si PV ≤ 50%, confère Atq +5 à l'unité en début de tour.",
-            "name": "Fólkvangr"
+            "effect": "Si PV ≤ 50%, confère Atq +5 à l'unité en début de tour."
         },
         "Gravity": {
             "effect": "Après le combat, l'ennemi ne peut se déplacer que d'une seule case jusqu'à la fin de sa phase.",
@@ -372,12 +363,10 @@
             "name": "Mistilteinn"
         },
         "Naga": {
-            "effect": "Efficace contre les dragons. Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée.",
-            "name": "Naga"
+            "effect": "Efficace contre les dragons. Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée."
         },
         "Nóatún": {
-            "effect": "Si PV ≤ 40%, l'unité peut se déplacer sur n'importe quelle case adjacente à un allié.",
-            "name": "Nóatún"
+            "effect": "Si PV ≤ 40%, l'unité peut se déplacer sur n'importe quelle case adjacente à un allié."
         },
         "Pain": {
             "effect": "L'ennemi ciblé subit 10 dégâts après le combat.",
@@ -388,8 +377,7 @@
             "name": "Panique"
         },
         "Parthia": {
-            "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack.",
-            "name": "Parthia"
+            "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack."
         },
         "Poison Dagger": {
             "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -4 pour le restant du tour.",
@@ -400,12 +388,10 @@
             "name": "Dague poison+"
         },
         "Ragnell": {
-            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
-            "name": "Ragnell"
+            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant."
         },
         "Raijinto": {
-            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
-            "name": "Raijinto"
+            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant."
         },
         "Rauðrblade": {
             "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. au dégâts infligés.",
@@ -465,16 +451,13 @@
             "name": "Lance saphir+"
         },
         "Siegfried": {
-            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
-            "name": "Siegfried"
+            "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant."
         },
         "Sieglinde": {
-            "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
-            "name": "Sieglinde"
+            "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour."
         },
         "Siegmund": {
-            "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
-            "name": "Siegmund"
+            "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour."
         },
         "Silver Axe": {
             "name": "Hache argent"
@@ -523,8 +506,7 @@
             "name": "Smoke Dagger+"
         },
         "Sol Katti": {
-            "effect": "Lorsqu'elle initie le combat et si PV ≤ 50%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.",
-            "name": "Sol Katti"
+            "effect": "Lorsqu'elle initie le combat et si PV ≤ 50%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser."
         },
         "Steel Axe": {
             "name": "Hache acier"
@@ -547,23 +529,19 @@
             "name": "Foudre"
         },
         "Tyrfing": {
-            "effect": "Si PV ≤ 50%, confère Déf +4 à l'unité.",
-            "name": "Tyrfing"
+            "effect": "Si PV ≤ 50%, confère Déf +4 à l'unité."
         },
         "Wind": {
             "name": "Vent"
         },
         "Wo Dao": {
-            "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales.",
-            "name": "Wo Dao"
+            "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales."
         },
         "Wo Dao+": {
-            "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales.",
-            "name": "Wo Dao+"
+            "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales."
         },
         "Yato": {
-            "effect": "Confère Vit +4 à l'unité lorsqu'elle initie le combat.",
-            "name": "Yato"
+            "effect": "Confère Vit +4 à l'unité lorsqu'elle initie le combat."
         }
     },
     "ASSISTS": {
