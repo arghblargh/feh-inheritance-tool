@@ -443,6 +443,10 @@
         "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
         "name": "Lance saphir+"
     },
+    "Siegfried": {
+        "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
+        "name": "Siegfried"
+    },
     "Sieglinde": {
         "effect": "En début de tour, confère Atq +3 aux alliés adjacents pendant un tour.",
         "name": "Sieglinde"
