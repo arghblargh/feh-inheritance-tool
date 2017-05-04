@@ -396,6 +396,7 @@
         "name": "Arc d'assassin+"
     },
     "Assault": {
+        "effect": "",
         "name": "Assaut"
     },
     "Aura": {
@@ -439,9 +440,11 @@
         "name": "Crocs saphir+"
     },
     "Bolganone": {
+        "effect": "",
         "name": "Bolganone"
     },
     "Bolganone+": {
+        "effect": "",
         "name": "Bolganone+"
     },
     "Brave Axe": {
@@ -525,12 +528,15 @@
         "name": "Eckesachs"
     },
     "Elfire": {
+        "effect": "",
         "name": "Inferno"
     },
     "Elthunder": {
+        "effect": "",
         "name": "Éclair"
     },
     "Elwind": {
+        "effect": "",
         "name": "Tempête"
     },
     "Emerald Axe": {
@@ -554,9 +560,11 @@
         "name": "Terreur"
     },
     "Fenrir": {
+        "effect": "",
         "name": "Fenrir"
     },
     "Fenrir+": {
+        "effect": "",
         "name": "Fenrir+"
     },
     "Fensalir": {
@@ -564,6 +572,7 @@
         "name": "Fensalir"
     },
     "Fire": {
+        "effect": "",
         "name": "Feu"
     },
     "Fire Breath": {
@@ -581,12 +590,15 @@
         "name": "Arc enflammé+"
     },
     "Flametongue": {
+        "effect": "",
         "name": "Pyrosouffle"
     },
     "Flametongue+": {
+        "effect": "",
         "name": "Pyrosouffle+"
     },
     "Flux": {
+        "effect": "",
         "name": "Flux"
     },
     "Fujin Yumi": {
@@ -654,6 +666,7 @@
         "name": "Épieu lourd+"
     },
     "Iron Axe": {
+        "effect": "",
         "name": "Hache fer"
     },
     "Iron Bow": {
@@ -665,9 +678,11 @@
         "name": "Dague fer"
     },
     "Iron Lance": {
+        "effect": "",
         "name": "Lance fer"
     },
     "Iron Sword": {
+        "effect": "",
         "name": "Épée fer"
     },
     "Killer Axe": {
@@ -783,9 +798,11 @@
         "name": "Crocs rubis+"
     },
     "Rexcalibur": {
+        "effect": "",
         "name": "Fimbulvetr"
     },
     "Rexcalibur+": {
+        "effect": "",
         "name": "Fimbulvetr+"
     },
     "Rogue Dagger": {
@@ -805,6 +822,7 @@
         "name": "Épée rubis+"
     },
     "Ruin": {
+        "effect": "",
         "name": "Ravage"
     },
     "Sapphire Lance": {
@@ -828,9 +846,11 @@
         "name": "Siegmund"
     },
     "Silver Axe": {
+        "effect": "",
         "name": "Hache argent"
     },
     "Silver Axe+": {
+        "effect": "",
         "name": "Hache argent+"
     },
     "Silver Bow": {
@@ -850,15 +870,19 @@
         "name": "Silver Dagger+"
     },
     "Silver Lance": {
+        "effect": "",
         "name": "Lance argent"
     },
     "Silver Lance+": {
+        "effect": "",
         "name": "Lance argent+"
     },
     "Silver Sword": {
+        "effect": "",
         "name": "Épée argent"
     },
     "Silver Sword+": {
+        "effect": "",
         "name": "Épée argent+"
     },
     "Slow": {
@@ -878,6 +902,7 @@
         "name": "Sol Katti"
     },
     "Steel Axe": {
+        "effect": "",
         "name": "Hache acier"
     },
     "Steel Bow": {
@@ -889,15 +914,19 @@
         "name": "Dague acier"
     },
     "Steel Lance": {
+        "effect": "",
         "name": "Lance acier"
     },
     "Steel Sword": {
+        "effect": "",
         "name": "Épée acier"
     },
     "Thoron": {
+        "effect": "",
         "name": "Thoron"
     },
     "Thunder": {
+        "effect": "",
         "name": "Foudre"
     },
     "Tyrfing": {
@@ -905,6 +934,7 @@
         "name": "Tyrfing"
     },
     "Wind": {
+        "effect": "",
         "name": "Vent"
     },
     "Wo Dao": {
