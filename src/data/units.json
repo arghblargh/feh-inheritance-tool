@@ -9796,6 +9796,88 @@
       ]
     }
   },
+  "Xander": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 44,
+      "Atk": 32,
+      "Spd": 24,
+      "Def": 37,
+      "Res": 17
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Siegfried",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light",
+          "unlock": 3
+        },
+        {
+          "name": "Blazing Light",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armored Blow 2",
+          "unlock": 3
+        },
+        {
+          "name": "Armored Blow 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Def 3",
+          "unlock": 5
+        }
+      ]
+    }
+},
   "Xander (Spring Festival)": {
     "color": "Blue",
     "wpnType": "Lance",
