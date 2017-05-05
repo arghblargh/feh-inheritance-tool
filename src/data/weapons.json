@@ -1047,6 +1047,7 @@
         "type": "Sword",
         "cost": 400,
         "might": 16,
+        "name": "Siegfried",
         "effect": "Enables counterattack regardless of distance if this unit is attacked.",
         "restriction": "Xander"
     },

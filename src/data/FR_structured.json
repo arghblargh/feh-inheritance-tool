@@ -81,6 +81,9 @@
         "Effie": {
             "name": "Effie"
         },
+        "Eirika": {
+            "name": "Eirika"
+        },
         "Eldigan": {
             "name": "Eldigan"
         },
@@ -579,9 +582,11 @@
             "name": "Feu"
         },
         "Fire Breath": {
+            "effect": "",
             "name": "Souffle brûlant"
         },
         "Fire Breath+": {
+            "effect": "",
             "name": "Souffle brûlant+"
         },
         "Firesweep Bow": {
