@@ -1157,6 +1157,6 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Spd+4 during combat if unit initiates attack.",
-    "restriction": "Corrin(M)"
+    "restriction": "Corrin (M)"
   }
 }
