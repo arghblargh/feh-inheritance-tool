@@ -1,3 +1,16 @@
+# @AUTHOR: Piplopp <https://github.com/Piplopp>
+# @DATE: 05/2017
+#
+# @DESC This script generates a blank template for translation of the fire emblem
+# heroes unit names, weapons, assit, special and passive skills for the
+# feh-inheritance-tool <https://github.com/arghblargh/feh-inheritance-tool>.
+#
+# It will parse the english files in data/ to extract all fields to translate.
+#
+# @NOTE Default configuration provide an unstructured template (still a bit
+# ordered tho).
+# This is written in Python3 (better forget about dinopython)
+
 import json
 import os
 from collections import OrderedDict
@@ -114,5 +127,5 @@ def process_passives(dir_path, structured):
 
 
 if __name__ == '__main__':
-    generate_template()
-    # generate_template(structured=False)
+    # generate_template()
+    generate_template(structured=False)
