@@ -16,7 +16,7 @@ import os
 from collections import OrderedDict
 
 def generate_template(dir_path='data/', structured=True):
-    fname = dir_path+'template.json'
+    fname = 'lang/template.json'
 
     # Check if a blank template already exists
     if os.path.exists(fname):
