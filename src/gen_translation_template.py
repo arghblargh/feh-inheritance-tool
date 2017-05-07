@@ -53,7 +53,7 @@ def process_default(dir_path, structured):
                 dict_in = json.load(infile)
                 tmp_dict = {
                     entry: {
-                        f: "" for f in ('effect', 'name') if f in fields
+                        f: "" for f in ('effect', 'name')
                     } for entry,fields in dict_in.items()
                 }
                 dict_out.update(OrderedDict(sorted(tmp_dict.items(), key=lambda t: t[0])))
@@ -64,7 +64,7 @@ def process_default(dir_path, structured):
                 tmp_dict = {
                     os.path.basename(f.split('.')[0].upper()): {
                         entry: {
-                            f: "" for f in ('effect', 'name') if f in fields
+                            f: "" for f in ('effect', 'name')
                         } for entry,fields in dict_in.items()
                     }
                 }
@@ -105,7 +105,7 @@ def process_passives(dir_path, structured):
     dict_out = {
         "PASSIVE_"+passives_type.upper(): {
             entry: {
-                f: "" for f in ('effect', 'name') if f in fields
+                f: "" for f in ('effect', 'name')
             } for entry, fields in passives.items()
         } for passives_type, passives in dict_in.items()
     }

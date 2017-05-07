@@ -3,7 +3,6 @@
         "cost": "200",
         "count": "3",
         "effect": "Reduces damage inflicted by attacks from foes 2 spaces away by 50%.",
-        "name": "Aegis",
         "require": "Holy Vestments",
         "restriction": "Melee"
     },
@@ -11,7 +10,6 @@
         "cost": "500",
         "count": "5",
         "effect": "Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt.",
-        "name": "Aether",
         "require": "Daylight|New Moon",
         "restriction": "",
         "value": "Heal:0.5,Mit:0.5"
@@ -20,7 +18,6 @@
         "cost": "200",
         "count": "5",
         "effect": "Grants +150% to damage dealt.",
-        "name": "Astra",
         "require": "Night Sky",
         "restriction": "",
         "value": "Damage:2.5"
@@ -29,7 +26,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
-        "name": "Blazing Flame",
         "require": "Rising Flame",
         "restriction": ""
     },
@@ -37,7 +33,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
-        "name": "Blazing Light",
         "require": "Rising Light",
         "restriction": ""
     },
@@ -45,7 +40,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
-        "name": "Blazing Thunder",
         "require": "Rising Thunder",
         "restriction": ""
     },
@@ -53,7 +47,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
-        "name": "Blazing Wind",
         "require": "Rising Wind",
         "restriction": ""
     },
@@ -61,7 +54,6 @@
         "cost": "200",
         "count": "3",
         "effect": "Boosts damage dealt by 50% of unit's Def.",
-        "name": "Bonfire",
         "require": "Glowing Ember",
         "restriction": "",
         "value": "Def:0.5"
@@ -70,14 +62,12 @@
         "cost": "100",
         "count": "3",
         "effect": "Reduces damage inflicted by attacks from adjacent foes by 30%.",
-        "name": "Buckler",
         "restriction": "Melee"
     },
     "Chilling Wind": {
         "cost": "100",
         "count": "4",
         "effect": "Boosts damage dealt by 50% of unit's Res.",
-        "name": "Chilling Wind",
         "restriction": "",
         "value": "Res:0.5"
     },
@@ -85,7 +75,6 @@
         "cost": "100",
         "count": "4",
         "effect": "Heal 30% of damage dealt in your next attack.",
-        "name": "Daylight",
         "restriction": "",
         "value": "Heal:0.3"
     },
@@ -93,7 +82,6 @@
         "cost": "200",
         "count": "3",
         "effect": "Grants +30% to Atk.",
-        "name": "Draconic Aura",
         "require": "Dragon Gaze",
         "restriction": "",
         "value": "Atk:0.3"
@@ -102,7 +90,6 @@
         "cost": "200",
         "count": "4",
         "effect": "Grants +50% to Atk.",
-        "name": "Dragon Fang",
         "require": "Dragon Gaze",
         "restriction": "",
         "value": "Atk:0.5"
@@ -111,7 +98,6 @@
         "cost": "100",
         "count": "4",
         "effect": "Grants +30% to Atk.",
-        "name": "Dragon Gaze",
         "restriction": "",
         "value": "Atk:0.3"
     },
@@ -119,7 +105,6 @@
         "cost": "100",
         "count": "2",
         "effect": "Reduces damage inflicted by attacks from adjacent foes by 30%.",
-        "name": "Escutcheon",
         "require": "Buckler",
         "restriction": "Melee"
     },
@@ -127,7 +112,6 @@
         "cost": "500",
         "count": "5",
         "effect": "If this unit initiates an attack, it can take another action after combat. (Once per turn only.)",
-        "name": "Galeforce",
         "require": "Night Sky",
         "restriction": ""
     },
@@ -135,7 +119,6 @@
         "cost": "200",
         "count": "4",
         "effect": "Boosts damage dealt by 80% of unit's Res.",
-        "name": "Glacies",
         "require": "Chilling Wind",
         "restriction": "",
         "value": "Res:0.8"
@@ -144,7 +127,6 @@
         "cost": "200",
         "count": "3",
         "effect": "Grants +50% to damage dealt.",
-        "name": "Glimmer",
         "require": "Night Sky",
         "restriction": "",
         "value": "Damage:1.5"
@@ -153,7 +135,6 @@
         "cost": "100",
         "count": "4",
         "effect": "Boosts damage dealt by 50% of unit's Def.",
-        "name": "Glowing Ember",
         "restriction": "",
         "value": "Def:0.5"
     },
@@ -161,7 +142,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Growing Flame",
         "require": "Rising Flame",
         "restriction": ""
     },
@@ -169,7 +149,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Growing Light",
         "require": "Rising Light",
         "restriction": ""
     },
@@ -177,7 +156,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Growing Thunder",
         "require": "Rising Thunder",
         "restriction": ""
     },
@@ -185,7 +163,6 @@
         "cost": "300",
         "count": "5",
         "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Growing Wind",
         "require": "Rising Wind",
         "restriction": ""
     },
@@ -193,21 +170,18 @@
         "cost": "150",
         "count": "2",
         "effect": "When healing an ally with a staff, heal every allies HP by 10.",
-        "name": "Heavenly Light",
         "restriction": "Staff"
     },
     "Holy Vestments": {
         "cost": "100",
         "count": "3",
         "effect": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
-        "name": "Holy Vestments",
         "restriction": "Melee"
     },
     "Iceberg": {
         "cost": "200",
         "count": "3",
         "effect": "Boosts damage dealt by 50% of unit's Res.",
-        "name": "Iceberg",
         "require": "Chilling Wind",
         "restriction": "",
         "value": "Res:0.5"
@@ -216,7 +190,6 @@
         "cost": "200",
         "count": "4",
         "effect": "Boosts damage dealt by 80% of unit's Def.",
-        "name": "Ignis",
         "require": "Glowing Ember",
         "restriction": "",
         "value": "Def:0.8"
@@ -225,21 +198,18 @@
         "cost": "50",
         "count": "1",
         "effect": "When healing an ally with a staff, increases recovered HP by 10.",
-        "name": "Imbue",
         "restriction": "Staff"
     },
     "Kindled-Fire Balm": {
         "cost": "150",
         "count": "1",
         "effect": "When healing an ally with a staff, grants all allies Atk +4 for 1 turn.",
-        "name": "Kindled-Fire Balm",
         "restriction": "Staff"
     },
     "Luna": {
         "cost": "200",
         "count": "3",
         "effect": "Resolve combat as if foe suffered Def/Res-50%.",
-        "name": "Luna",
         "require": "New Moon",
         "restriction": "",
         "value": "Mit:0.5"
@@ -248,14 +218,12 @@
         "cost": "200",
         "count": "5",
         "effect": "If HP > 1, survive a lethal attack with 1 HP remaining.",
-        "name": "Miracle",
         "restriction": "Staff|"
     },
     "Moonbow": {
         "cost": "200",
         "count": "2",
         "effect": "Resolve combat as if foe suffered Def/Res-30%.",
-        "name": "Moonbow",
         "require": "New Moon",
         "restriction": "",
         "value": "Mit:0.3"
@@ -264,7 +232,6 @@
         "cost": "100",
         "count": "3",
         "effect": "Resolve combat as if foe suffered Def/Res-30%.",
-        "name": "New Moon",
         "restriction": "",
         "value": "Mit:0.3"
     },
@@ -272,7 +239,6 @@
         "cost": "100",
         "count": "4",
         "effect": "Grants +50% to damage dealt.",
-        "name": "Night Sky",
         "restriction": "",
         "value": "Damage:1.5"
     },
@@ -280,7 +246,6 @@
         "cost": "200",
         "count": "3",
         "effect": "Heal 30% of damage dealt in your next attack.",
-        "name": "Noontime",
         "require": "Daylight",
         "restriction": "",
         "value": "Heal:0.3"
@@ -289,7 +254,6 @@
         "cost": "200",
         "count": "3",
         "effect": "Reduces damage inflicted by attacks from adjacent foes by 50%.",
-        "name": "Pavise",
         "require": "Buckler",
         "restriction": "Melee"
     },
@@ -297,7 +261,6 @@
         "cost": "200",
         "count": "2",
         "effect": "Grants bonus to damage dealt equal to 30% of damage suffered.",
-        "name": "Reprisal",
         "require": "Retribution",
         "restriction": "",
         "value": "HPLoss:0.3"
@@ -306,7 +269,6 @@
         "cost": "100",
         "count": "3",
         "effect": "Grants bonus to damage dealt equal to 30% of damage suffered.",
-        "name": "Retribution",
         "restriction": "",
         "value": "HPLoss:0.3"
     },
@@ -314,35 +276,30 @@
         "cost": "150",
         "count": "5",
         "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Rising Flame",
         "restriction": ""
     },
     "Rising Light": {
         "cost": "150",
         "count": "5",
         "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Rising Light",
         "restriction": ""
     },
     "Rising Thunder": {
         "cost": "150",
         "count": "5",
         "effect": "Before combat this unit initiates, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Rising Thunder",
         "restriction": ""
     },
     "Rising Wind": {
         "cost": "150",
         "count": "5",
         "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res.",
-        "name": "Rising Wind",
         "restriction": ""
     },
     "Sacred Cowl": {
         "cost": "200",
         "count": "2",
         "effect": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
-        "name": "Sacred Cowl",
         "require": "Holy Vestments",
         "restriction": "Melee"
     },
@@ -350,7 +307,6 @@
         "cost": "200",
         "count": "4",
         "effect": "Heal 50% of damage dealt in your next attack.",
-        "name": "Sol",
         "require": "Daylight",
         "restriction": "",
         "value": "Heal:0.5"
@@ -359,28 +315,24 @@
         "cost": "150",
         "count": "1",
         "effect": "When healing an ally with a staff, grants all allies Def +4 for 1 turn.",
-        "name": "Solid-Earth Balm",
         "restriction": "Staff"
     },
     "Still-Water Balm": {
         "cost": "150",
         "count": "1",
         "effect": "When healing an ally with a staff, grants all allies Res +4 for 1 turn.",
-        "name": "Still-Water Balm",
         "restriction": "Staff"
     },
     "Swift-Winds Balm": {
         "cost": "150",
         "count": "1",
         "effect": "When healing an ally with a staff, grants all allies Spd +4 for 1 turn.",
-        "name": "Swift-Winds Balm",
         "restriction": "Staff"
     },
     "Vengeance": {
         "cost": "200",
         "count": "3",
         "effect": "Grants bonus to damage dealt equal to 50% of damage suffered.",
-        "name": "Vengeance",
         "require": "Retribution",
         "restriction": "",
         "value": "HPLoss:0.5"
