@@ -707,7 +707,6 @@ class InheritanceTool extends Component {
   }
 
   render() {
-    console.log(this.state.usePortraits);
     return (
       <div className="tool">
         <div className="toggle-box">
