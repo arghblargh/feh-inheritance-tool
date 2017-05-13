@@ -156,6 +156,36 @@
             "effect": "Enables unit to counterattack regardless of distance to attacker.",
             "restriction": "Melee"
         },
+        "Distant Def 1": {
+            "cost": "50",
+            "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+2 during combat.",
+            "restriction": ""
+        },
+        "Distant Def 2": {
+            "cost": "100",
+            "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+4 during combat.",
+            "restriction": ""
+        },
+        "Distant Def 3": {
+            "cost": "200",
+            "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat.",
+            "restriction": ""
+        },
+        "Earth Boost 1": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+2 during combat.",
+            "restriction": ""
+        },
+        "Earth Boost 2": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+4 during combat.",
+            "restriction": ""
+        },
+        "Earth Boost 3": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat.",
+            "restriction": ""
+        },
         "Fortress Def 1": {
             "cost": "50",
             "effect": "Grants Def+3. Inflicts Atk-3.",
@@ -748,6 +778,21 @@
             "cost": "240",
             "effect": "Enables unit to warp adjacent to any ally with HP ≤ 50%.",
             "restriction": ""
+        },
+        "Wrathful Staff 1": {
+            "cost": "50",
+            "effect": "Damage from unit's staff will be calculated the same as other weapons.",
+            "restriction": "Staff"
+        },
+        "Wrathful Staff 2": {
+            "cost": "100",
+            "effect": "Damage from unit's staff will be calculated the same as other weapons.",
+            "restriction": "Staff"
+        },
+        "Wrathful Staff 3": {
+            "cost": "200",
+            "effect": "Damage from unit's staff will be calculated the same as other weapons.",
+            "restriction": "Staff"
         }
     },
     "C": {
@@ -780,6 +825,21 @@
             "cost": "120",
             "effect": "If unit survives, all bow users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
             "restriction": "Bow"
+        },
+        "B Tome Exp. 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses blue magic, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Tome, Color:B"
+        },
+        "B Tome Exp. 2": {
+            "cost": "60",
+            "effect": "If unit survives, all blue magic users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Tome, Color:B"
+        },
+        "B Tome Exp. 3": {
+            "cost": "120",
+            "effect": "If unit survives, all blue magic users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Tome, Color:B"
         },
         "Breath of Life 1": {
             "cost": "50",

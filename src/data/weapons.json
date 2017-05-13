@@ -87,6 +87,22 @@
     "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
     "restriction": ""
   },
+  "Blárowl": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+    "restriction": ""
+  },
+  "Blárowl+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 10,
+    "effect": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+    "restriction": ""
+  },
   "Blárraven": {
     "color": "Blue",
     "type": "Tome",
@@ -519,6 +535,22 @@
     "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
     "restriction": ""
   },
+  "Gronnowl": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+    "restriction": ""
+  },
+  "Gronnowl+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 10,
+    "effect": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+    "restriction": ""
+  },
   "Gronnraven": {
     "color": "Green",
     "type": "Tome",
@@ -791,6 +823,14 @@
     "effect": "Effective against infantry units. Infantry foes suffer Def/Res-6 after combat through their next actions.",
     "restriction": ""
   },
+  "Ragnarok": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "If unit has 100% HP at the start of combat, unit receives Atk/Spd+5. If attacking, unit will receive 5 damage after combat.",
+    "restriction": "Celica"
+  },
   "Ragnell": {
     "color": "Red",
     "type": "Sword",
@@ -821,6 +861,22 @@
     "cost": 300,
     "might": 13,
     "effect": "Slows Special trigger (cooldown count+1). Adds total bonus on unit to damage dealt.",
+    "restriction": ""
+  },
+  "Rauðrowl": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+    "restriction": ""
+  },
+  "Rauðrowl+": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 300,
+    "might": 10,
+    "effect": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
     "restriction": ""
   },
   "Rauðrraven": {

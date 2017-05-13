@@ -810,6 +810,88 @@
       ]
     }
   },
+  "Boey": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Gronnowl",
+          "unlock": 5
+        },
+        {
+          "name": "Gronnowl+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 5
+        },
+        {
+          "name": "Ignis",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Earth Boost 1",
+          "unlock": 5
+        },
+        {
+          "name": "Earth Boost 2",
+          "unlock": 5
+        },
+        {
+          "name": "Earth Boost 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Renewal 1",
+          "unlock": 5
+        },
+        {
+          "name": "Renewal 2",
+          "unlock": 5
+        },
+        {
+          "name": "Renewal 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Caeda": {
     "color": "Red",
     "wpnType": "Sword",
@@ -1314,6 +1396,88 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Celica": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 5
+        },
+        {
+          "name": "Elfire",
+          "unlock": 5
+        },
+        {
+          "name": "Bolganone",
+          "unlock": 5
+        },
+        {
+          "name": "Ragnarok",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light",
+          "unlock": 5
+        },
+        {
+          "name": "Blazing Light",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Distant Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Distant Def 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Def 3",
+          "unlock": 5
         }
       ]
     }
@@ -3272,6 +3436,72 @@
         {
           "name": "Pass 3",
           "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
+  "Genny": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 5
+        },
+        {
+          "name": "Gravity",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Physic",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 5
+        },
+        {
+          "name": "Heavenly Light",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrathful Staff 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wrathful Staff 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wrathful Staff 3",
+          "unlock": 5
         }
       ],
       "passiveC": [
@@ -5813,6 +6043,84 @@
         },
         {
           "name": "Spur Spd 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Mae": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Blárowl",
+          "unlock": 5
+        },
+        {
+          "name": "Blárowl+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 5
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 5
+        },
+        {
+          "name": "Desperation 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "B Tome Exp. 1",
+          "unlock": 5
+        },
+        {
+          "name": "B Tome Exp. 2",
+          "unlock": 5
+        },
+        {
+          "name": "B Tome Exp. 3",
           "unlock": 5
         }
       ]
