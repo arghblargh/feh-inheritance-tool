@@ -815,11 +815,16 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 43,
+      "Atk": 29,
+      "Spd": 27,
+      "Def": 32,
+      "Res": 18
+    },
+    "bane": {
+      "Atk": 4,
+      "Spd": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -1405,11 +1410,14 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 39,
+      "Atk": 32,
+      "Spd": 33,
+      "Def": 22,
+      "Res": 22
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -3451,11 +3459,14 @@
     "wpnType": "Staff",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 32,
+      "Atk": 35,
+      "Spd": 25,
+      "Def": 21,
+      "Res": 34
+    },
+    "boon": {
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -3469,6 +3480,14 @@
         }
       ],
       "assist": [
+        {
+          "name": "Heal",
+          "unlock": 5
+        },
+        {
+          "name": "Mend",
+          "unlock": 5
+        },
         {
           "name": "Physic",
           "unlock": 5
@@ -6053,11 +6072,19 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 35,
+      "Atk": 36,
+      "Spd": 31,
+      "Def": 16,
+      "Res": 30
+    },
+    "boon": {
+      "HP": 4,
+      "Atk": 4
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
