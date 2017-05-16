@@ -61,6 +61,8 @@ function jsonp(url) {
             resolve(data);
         };
     });
+}
+
 export function storageAvailable(type) {
 	try {
 		var storage = window[type],
