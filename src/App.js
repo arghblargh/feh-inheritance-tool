@@ -573,6 +573,7 @@ class InheritanceTool extends Component {
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
     this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
+    this.handleBuildLoad = this.handleBuildLoad.bind(this);
   }
 
   initState(initUnit) {
@@ -701,7 +702,29 @@ class InheritanceTool extends Component {
   handlePortraitToggle(isOn) {
     this.setState({
       usePortraits: isOn
-    })
+    });
+  }
+
+  handleBuildLoad(build) {
+    let newBoonBane = {
+      "boon": build.Boon,
+      "bane": build.Bane
+    };
+    let newSkills = {
+      "weapon": build.Weapon,
+      "assist": build.Assist,
+      "special": build.Special,
+      "passiveA": build.PassiveA,
+      "passiveB": build.PassiveB,
+      "passiveC": build.PassiveC,
+    }
+
+    this.setState({
+      boonBane: newBoonBane,
+      skills: newSkills,
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, newBoonBane, this.state.merge)
+                                   : calcStats(this.state.unitName, newSkills, newBoonBane, this.state.merge),
+    });
   }
 
   render() {
@@ -730,7 +753,8 @@ class InheritanceTool extends Component {
                           onResetClick={this.handleResetClick} />
         </div>
         <div>
-          <BuildManager unitName={this.state.unitName} />
+          <BuildManager unitName={this.state.unitName}
+                        onLoadClick={this.handleBuildLoad} />
         </div>
       </div>
     );

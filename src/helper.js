@@ -170,10 +170,14 @@ export const Dropdown = React.createClass({
 
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
 export const BuildManager = React.createClass({
+    // constructor: function(props) {
+    //     //this.super(props);
+    // },
+
     getInitialState: function() {
         return {
             link: null,
-            builds: null,
+            builds: {},
             current: null
         };
     },
@@ -186,29 +190,17 @@ export const BuildManager = React.createClass({
         this.retrieveData(props.unitName);
     },
 
-    render: function() {
-        if (this.state.link) {
-            if (this.state.builds.length > 0) {
-                //console.info(this.state.link, this.state.builds);
-                return <Dropdown id="BuildSelect"
-                                options={this.state.builds.map((build) => { return build.BuildName; })}
-                                value={this.state.buildName}
-                                onChange={this.handleChange} />;
-            } else {
-                return <div>No Recommended Builds</div>;
-            }
-        }
-
-        return <div>Loading...</div>;
-    },
-
     handleChange: function(buildName) {
         this.setState({ current: buildName })
     },
 
+    handleLoadClick: function() {
+        this.props.onLoadClick(this.state.builds[this.state.current]);
+    },
+
     retrieveData: function(unitName) {
         jsonp('https://feheroes.gamepedia.com/api.php?action=query&titles=' + unitName.replace(/\s/g, '_') + '/Builds&prop=revisions&rvprop=content&format=json').then(function(data) {
-            let responses = [], builds = [],
+            let responses = [], builds = [], current = null,
                 match, re = /{{\\?n?(Skillbuild[_ ]Infobox\s?.*?})}/g;
         
             let text = JSON.stringify(data);
@@ -219,7 +211,10 @@ export const BuildManager = React.createClass({
 
             for (let response of responses) {
                 let build = {};
-                build.BuildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                let buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+
+                if (!current)
+                    current = buildName;
 
                 let stats = {}, neutralStats;
                 if (/stats/.test(response)) {
@@ -250,15 +245,39 @@ export const BuildManager = React.createClass({
                     }
                 }
 
-                if (build.BuildName !== '-')
-                    builds.push(build);
+                if (buildName !== '-')
+                    builds[buildName] = build;
             }
             
             this.setState({
                 link: "https://feheroes.gamepedia.com/" + unitName.replace(/\s/g, '_') + "/Builds",
-                builds: builds
+                builds: builds,
+                current: current
             });
         }.bind(this));
+    },
+
+    render: function() {
+        let buildSelect = null;
+        if (this.state.link) {
+            if (Object.keys(this.state.builds).length > 0) {
+                buildSelect = <Dropdown id="BuildSelect"
+                                options={Object.keys(this.state.builds)}
+                                value={this.state.buildName}
+                                onChange={this.handleChange} />;
+            } else {
+                buildSelect = <div>No Recommended Builds</div>;
+            }
+        } else {
+            buildSelect = <div>Loading...</div>;
+        }
+
+        return (
+            <div className="build-manager">
+                {buildSelect}
+                <button onClick={this.handleLoadClick}>Load</button>
+            </div>
+        )
     }
 });
 
