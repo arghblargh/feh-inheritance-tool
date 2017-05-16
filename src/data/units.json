@@ -810,6 +810,93 @@
       ]
     }
   },
+  "Boey": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 29,
+      "Spd": 27,
+      "Def": 32,
+      "Res": 18
+    },
+    "bane": {
+      "Atk": 4,
+      "Spd": 4,
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Gronnowl",
+          "unlock": 5
+        },
+        {
+          "name": "Gronnowl+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 5
+        },
+        {
+          "name": "Ignis",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Earth Boost 1",
+          "unlock": 5
+        },
+        {
+          "name": "Earth Boost 2",
+          "unlock": 5
+        },
+        {
+          "name": "Earth Boost 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Renewal 1",
+          "unlock": 5
+        },
+        {
+          "name": "Renewal 2",
+          "unlock": 5
+        },
+        {
+          "name": "Renewal 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Caeda": {
     "color": "Red",
     "wpnType": "Sword",
@@ -1314,6 +1401,91 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Celica": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 32,
+      "Spd": 33,
+      "Def": 22,
+      "Res": 22
+    },
+    "bane": {
+      "HP": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 5
+        },
+        {
+          "name": "Elfire",
+          "unlock": 5
+        },
+        {
+          "name": "Bolganone",
+          "unlock": 5
+        },
+        {
+          "name": "Ragnarok",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light",
+          "unlock": 5
+        },
+        {
+          "name": "Blazing Light",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Distant Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Distant Def 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Def 3",
+          "unlock": 5
         }
       ]
     }
@@ -3282,6 +3454,83 @@
       ]
     }
   },
+  "Genny": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 32,
+      "Atk": 35,
+      "Spd": 25,
+      "Def": 21,
+      "Res": 34
+    },
+    "boon": {
+      "Spd": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 5
+        },
+        {
+          "name": "Gravity",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 5
+        },
+        {
+          "name": "Mend",
+          "unlock": 5
+        },
+        {
+          "name": "Physic",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 5
+        },
+        {
+          "name": "Heavenly Light",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrathful Staff 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wrathful Staff 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wrathful Staff 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Gordin": {
     "color": "Neutral",
     "wpnType": "Bow",
@@ -4019,6 +4268,95 @@
         {
           "name": "Hone Fliers",
           "unlock": 5
+        }
+      ]
+    }
+  },
+  "Ike": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 42,
+      "Atk": 35,
+      "Spd": 31,
+      "Def": 32,
+      "Res": 18
+    },
+    "bane": {
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Ragnell",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 5
+        },
+        {
+          "name": "Luna",
+          "unlock": 5
+        },
+        {
+          "name": "Aether",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Heavy Blade 1",
+          "unlock": 5
+        },
+        {
+          "name": "Heavy Blade 2",
+          "unlock": 5
+        },
+        {
+          "name": "Heavy Blade 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Swordbreaker 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swordbreaker 2",
+          "unlock": 5
+        },
+        {
+          "name": "Swordbreaker 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
         }
       ]
     }
@@ -5729,6 +6067,92 @@
       ]
     }
   },
+  "Mae": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 35,
+      "Atk": 36,
+      "Spd": 31,
+      "Def": 16,
+      "Res": 30
+    },
+    "boon": {
+      "HP": 4,
+      "Atk": 4
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Blárowl",
+          "unlock": 5
+        },
+        {
+          "name": "Blárowl+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 5
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 5
+        },
+        {
+          "name": "Desperation 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "B Tome Exp. 1",
+          "unlock": 5
+        },
+        {
+          "name": "B Tome Exp. 2",
+          "unlock": 5
+        },
+        {
+          "name": "B Tome Exp. 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Maria": {
     "color": "Neutral",
     "wpnType": "Staff",
@@ -6217,6 +6641,87 @@
         },
         {
           "name": "Ward Fliers",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Mist": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 39,
+      "Atk": 27,
+      "Spd": 28,
+      "Def": 20,
+      "Res": 34
+    },
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Spd": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 5
+        },
+        {
+          "name": "Slow",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 5
+        },
+        {
+          "name": "Mend",
+          "unlock": 5
+        },
+        {
+          "name": "Recover",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 5
+        },
+        {
+          "name": "Miracle",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Def/Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Def/Res 2",
           "unlock": 5
         }
       ]
@@ -8970,6 +9475,95 @@
       ]
     }
   },
+  "Soren": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 36,
+      "Atk": 33,
+      "Spd": 33,
+      "Def": 17,
+      "Res": 29
+    },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 5
+        },
+        {
+          "name": "Rexcalibur+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Growing Wind",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Watersweep 1",
+          "unlock": 5
+        },
+        {
+          "name": "Watersweep 2",
+          "unlock": 5
+        },
+        {
+          "name": "Watersweep 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Res 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Stahl": {
     "color": "Red",
     "wpnType": "Sword",
@@ -9552,6 +10146,92 @@
       ]
     }
   },
+  "Titania": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 37,
+      "Atk": 28,
+      "Spd": 34,
+      "Def": 25,
+      "Res": 30
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Emerald Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Emerald Axe+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Armored Blow 2",
+          "unlock": 5
+        },
+        {
+          "name": "Armored Blow 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1",
+          "unlock": 5
+        },
+        {
+          "name": "Guard 2",
+          "unlock": 5
+        },
+        {
+          "name": "Guard 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Ursula": {
     "color": "Blue",
     "wpnType": "Tome",
@@ -9796,6 +10476,88 @@
       ]
     }
   },
+  "Xander": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 44,
+      "Atk": 32,
+      "Spd": 24,
+      "Def": 37,
+      "Res": 17
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Siegfried",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light",
+          "unlock": 3
+        },
+        {
+          "name": "Blazing Light",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armored Blow 2",
+          "unlock": 3
+        },
+        {
+          "name": "Armored Blow 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Def 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Xander (Spring Festival)": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -9946,351 +10708,6 @@
         {
           "name": "Wary Fighter 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ]
-    }
-  },
-  "Ike": {
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "stats": {
-      "HP": 42,
-      "Atk": 35,
-      "Spd": 31,
-      "Def": 32,
-      "Res": 18
-    },
-    "bane": {
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Steel Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Silver Sword",
-          "unlock": 4
-        },
-        {
-          "name": "Ragnell",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "special": [
-        {
-          "name": "New Moon",
-          "unlock": 5
-        },
-        {
-          "name": "Luna",
-          "unlock": 5
-        },
-        {
-          "name": "Aether",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Heavy Blade 1",
-          "unlock": 5
-        },
-        {
-          "name": "Heavy Blade 2",
-          "unlock": 5
-        },
-        {
-          "name": "Heavy Blade 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Swordbreaker 1",
-          "unlock": 5
-        },
-        {
-          "name": "Swordbreaker 2",
-          "unlock": 5
-        },
-        {
-          "name": "Swordbreaker 3",
-          "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ]
-    }
-  },
-  "Mist": {
-    "color": "Neutral",
-    "wpnType": "Staff",
-    "movType": "Infantry",
-    "stats": {
-      "HP": 39,
-      "Atk": 27,
-      "Spd": 28,
-      "Def": 20,
-      "Res": 34
-    },
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Spd": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Assault",
-          "unlock": 5
-        },
-        {
-          "name": "Slow",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "Heal",
-          "unlock": 5
-        },
-        {
-          "name": "Mend",
-          "unlock": 5
-        },
-        {
-          "name": "Recover",
-          "unlock": 5
-        }
-      ],
-      "special": [
-        {
-          "name": "Imbue",
-          "unlock": 5
-        },
-        {
-          "name": "Miracle",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Res 1",
-          "unlock": 5
-        },
-        {
-          "name": "Spur Def/Res 1",
-          "unlock": 5
-        },
-        {
-          "name": "Spur Def/Res 2",
-          "unlock": 5
-        }
-      ]
-    }
-  },
-  "Soren": {
-    "color": "Green",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "stats": {
-      "HP": 36,
-      "Atk": 33,
-      "Spd": 33,
-      "Def": 17,
-      "Res": 29
-    },
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Wind",
-          "unlock": 5
-        },
-        {
-          "name": "Elwind",
-          "unlock": 5
-        },
-        {
-          "name": "Rexcalibur",
-          "unlock": 5
-        },
-        {
-          "name": "Rexcalibur+",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "special": [
-        {
-          "name": "Rising Wind",
-          "unlock": 5
-        },
-        {
-          "name": "Growing Wind",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Watersweep 1",
-          "unlock": 5
-        },
-        {
-          "name": "Watersweep 2",
-          "unlock": 5
-        },
-        {
-          "name": "Watersweep 3",
-          "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Fortify Res 1",
-          "unlock": 5
-        },
-        {
-          "name": "Fortify Res 2",
-          "unlock": 5
-        },
-        {
-          "name": "Fortify Res 3",
-          "unlock": 5
-        }
-      ]
-    }
-  },
-  "Titania": {
-    "color": "Green",
-    "wpnType": "Axe",
-    "movType": "Cavalry",
-    "stats": {
-      "HP": 37,
-      "Atk": 28,
-      "Spd": 34,
-      "Def": 25,
-      "Res": 30
-    },
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Axe",
-          "unlock": 5
-        },
-        {
-          "name": "Steel Axe",
-          "unlock": 5
-        },
-        {
-          "name": "Emerald Axe",
-          "unlock": 5
-        },
-        {
-          "name": "Emerald Axe+",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "Reciprocal Aid",
-          "unlock": 5
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Armored Blow 1",
-          "unlock": 5
-        },
-        {
-          "name": "Armored Blow 2",
-          "unlock": 5
-        },
-        {
-          "name": "Armored Blow 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Guard 1",
-          "unlock": 5
-        },
-        {
-          "name": "Guard 2",
-          "unlock": 5
-        },
-        {
-          "name": "Guard 3",
-          "unlock": 5
         }
       ],
       "passiveC": [
