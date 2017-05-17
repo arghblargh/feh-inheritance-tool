@@ -233,6 +233,31 @@ tr [colSpan="2"] {
   padding: 2px;
 }
 
+.build-manager {
+  display: inline-block;
+  margin: 10px 5px;
+  width: 400px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 1px #454545;
+}
+
+.build-manager .select {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.build-manager .link {
+  margin: 5px;
+  padding-top: 4px;
+  float: left;
+  font-size: 12px;
+}
+
+.build-manager .buttons {
+  margin: 5px 5px;
+  float: right;
+}
+
 @media only screen and (min-device-width: 1024px) {
   .skill-effect {
     display: inline-block;

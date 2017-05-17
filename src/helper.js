@@ -168,6 +168,8 @@ export const Dropdown = React.createClass({
     }
 });
 
+const wikiBuildLabel = ' ----- Wiki Builds ----- '
+
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
 export const BuildManager = React.createClass({
     // constructor: function(props) {
@@ -178,7 +180,7 @@ export const BuildManager = React.createClass({
         return {
             link: null,
             builds: {},
-            current: null
+            current: wikiBuildLabel
         };
     },
 
@@ -195,7 +197,8 @@ export const BuildManager = React.createClass({
     },
 
     handleLoadClick: function() {
-        this.props.onLoadClick(this.state.builds[this.state.current]);
+        if (this.state.current !== wikiBuildLabel)
+            this.props.onLoadClick(this.state.builds[this.state.current]);
     },
 
     retrieveData: function(unitName) {
@@ -212,9 +215,6 @@ export const BuildManager = React.createClass({
             for (let response of responses) {
                 let build = {};
                 let buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-
-                if (!current)
-                    current = buildName;
 
                 let stats = {}, neutralStats;
                 if (/stats/.test(response)) {
@@ -261,21 +261,28 @@ export const BuildManager = React.createClass({
         let buildSelect = null;
         if (this.state.link) {
             if (Object.keys(this.state.builds).length > 0) {
-                buildSelect = <Dropdown id="BuildSelect"
-                                options={Object.keys(this.state.builds)}
-                                value={this.state.buildName}
+                buildSelect = <Dropdown id="BuildSelectDropdown"
+                                options={[wikiBuildLabel].concat(Object.keys(this.state.builds))}
+                                value={this.state.current}
                                 onChange={this.handleChange} />;
             } else {
-                buildSelect = <div>No Recommended Builds</div>;
+                buildSelect = <Dropdown id="BuildSelectDropdown"
+                                options={['No Recommended Builds']}
+                                value={'No Recommended Builds'} />;
             }
         } else {
-            buildSelect = <div>Loading...</div>;
+            buildSelect = <Dropdown id="BuildSelectDropdown"
+                                    options={['Loading...']}
+                                    value={'Loading...'} />;
         }
 
         return (
             <div className="build-manager">
-                {buildSelect}
-                <button onClick={this.handleLoadClick}>Load</button>
+                <div className="select">{buildSelect}</div>
+                <div className="link"><a href={this.state.link}>More Info...</a></div>
+                <div className="buttons">
+                    <button onClick={this.handleLoadClick}>Load</button>
+                </div>
             </div>
         )
     }
