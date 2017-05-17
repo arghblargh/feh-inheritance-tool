@@ -34,6 +34,35 @@ export function escapeRegExp(str) {
     return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 }
 
+// HTTP GET
+// function httpGetAsync(theUrl, callback)
+// {
+//     var xmlHttp = new XMLHttpRequest();
+//     xmlHttp.onreadystatechange = function() {
+//         console.info(xmlHttp.readyState, xmlHttp.status);
+//         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+//             callback(xmlHttp.responseText);
+//     }
+//     xmlHttp.open("GET", theUrl, true); // true for asynchronous
+//     xmlHttp.send(null);
+// }
+
+function jsonp(url) {
+    return new Promise(function(resolve, reject) {
+        var callbackName = 'jsonp_callback_' + Math.round(100000 * Math.random());
+
+        var script = document.createElement('script');
+        script.src = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'callback=' + callbackName;
+        document.body.appendChild(script);
+        
+        window[callbackName] = function(data) {
+            delete window[callbackName];
+            document.body.removeChild(script);
+            resolve(data);
+        };
+    });
+}
+
 export function storageAvailable(type) {
 	try {
 		var storage = window[type],
@@ -139,7 +168,127 @@ export const Dropdown = React.createClass({
     }
 });
 
-// Hover React component
+const wikiBuildLabel = ' ----- Wiki Builds ----- '
+
+// Asynchronously get recommended builds from the wiki and list them in a Dropdown component
+export const BuildManager = React.createClass({
+    // constructor: function(props) {
+    //     //this.super(props);
+    // },
+
+    getInitialState: function() {
+        return {
+            link: null,
+            builds: {},
+            current: wikiBuildLabel
+        };
+    },
+
+    componentDidMount: function() {
+        this.retrieveData('Abel');
+    },
+
+    componentWillReceiveProps: function(props) {
+        this.retrieveData(props.unitName);
+    },
+
+    handleChange: function(buildName) {
+        this.setState({ current: buildName })
+    },
+
+    handleLoadClick: function() {
+        if (this.state.current !== wikiBuildLabel)
+            this.props.onLoadClick(this.state.builds[this.state.current]);
+    },
+
+    retrieveData: function(unitName) {
+        jsonp('https://feheroes.gamepedia.com/api.php?action=query&titles=' + unitName.replace(/\s/g, '_') + '/Builds&prop=revisions&rvprop=content&format=json').then(function(data) {
+            let responses = [], builds = [], current = null,
+                match, re = /{{\\?n?(Skillbuild[_ ]Infobox\s?.*?})}/g;
+        
+            let text = JSON.stringify(data);
+            // eslint-disable-next-line
+            while (match = re.exec(text)) {
+                responses.push(match[1]);
+            }
+
+            for (let response of responses) {
+                let build = {};
+                let buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+
+                let stats = {}, neutralStats;
+                if (/stats/.test(response)) {
+                    let statStr = /stats\s*=(.*?)[}|]/i.exec(response)[1].trim().split('/');
+                    stats.HP = statStr[0];
+                    stats.Atk = statStr[1];
+                    stats.Spd = statStr[2];
+                    stats.Def = statStr[3];
+                    stats.Res = statStr[4];
+                }
+
+                build.Weapon = /weapon\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.Assist = /assist\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.Special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.PassiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.PassiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.PassiveC = /passiveC\s*=(.*?)(\\n)?[}|]?/i.exec(response)[1].trim();
+
+                build.Boon = '';
+                build.Bane = '';
+                neutralStats = calcStats(unitName, build);
+                if (stats) {
+                    for (let s in stats) {
+                        if (stats[s] > neutralStats[s])
+                            build.Boon = s;
+                        else if (stats[s] < neutralStats[s])
+                            build.Bane = s;
+                    }
+                }
+
+                if (buildName !== '-')
+                    builds[buildName] = build;
+            }
+            
+            this.setState({
+                link: "https://feheroes.gamepedia.com/" + unitName.replace(/\s/g, '_') + "/Builds",
+                builds: builds,
+                current: current
+            });
+        }.bind(this));
+    },
+
+    render: function() {
+        let buildSelect = null;
+        if (this.state.link) {
+            if (Object.keys(this.state.builds).length > 0) {
+                buildSelect = <Dropdown id="BuildSelectDropdown"
+                                options={[wikiBuildLabel].concat(Object.keys(this.state.builds))}
+                                value={this.state.current}
+                                onChange={this.handleChange} />;
+            } else {
+                buildSelect = <Dropdown id="BuildSelectDropdown"
+                                options={['No Recommended Builds']}
+                                value={'No Recommended Builds'} />;
+            }
+        } else {
+            buildSelect = <Dropdown id="BuildSelectDropdown"
+                                    options={['Loading...']}
+                                    value={'Loading...'} />;
+        }
+
+        return (
+            <div className="build-manager">
+                <div className="select">{buildSelect}</div>
+                <div className="link"><a href={this.state.link}>More Info...</a></div>
+                <div className="buttons">
+                    <button onClick={this.handleLoadClick}>Load</button>
+                </div>
+            </div>
+        )
+    }
+});
+
+// Hover component
 export const Hover = ({ onHover, children }) => (
     <div className="hover">
         <div className="hover__no-hover">{children}</div>

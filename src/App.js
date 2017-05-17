@@ -22,10 +22,11 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, //Hover,
+import { Dropdown, BuildManager, //Hover,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getUnitsWithSkill, getPossibleSkills, calcStats, calcCost,
-         escapeRegExp, storageAvailable } from './helper.js';
+         parseSkills, getUnitsWithSkill, getPossibleSkills,
+         calcStats, calcCost,
+         escapeRegExp } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -547,7 +548,7 @@ class ToggleBox extends Component {
               </td>
               <td title="Use unit portraits in the inheritance list">
                 <label className="toggle">
-                  <input type="checkbox" checked={!!this.props.usePortraits} onChange={this.handlePortraitToggle} />
+                  <input type="checkbox" onChange={this.handlePortraitToggle} />
                   <div className="toggle-label noselect">Portraits</div>
                 </label>
               </td>
@@ -572,6 +573,7 @@ class InheritanceTool extends Component {
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
     this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
+    this.handleBuildLoad = this.handleBuildLoad.bind(this);
   }
 
   initState(initUnit) {
@@ -585,7 +587,7 @@ class InheritanceTool extends Component {
       };
     let initBoonBane = {"boon":"","bane":""};
     let initStats = calcStats(initUnit, initSkills, initBoonBane);
-    
+
     this.state = {
       unitName: initUnit,
       boonBane: initBoonBane,
@@ -593,7 +595,7 @@ class InheritanceTool extends Component {
       stats: initStats,
       skills: initSkills,
       rawStatsOn: false,
-      usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits)
+      usePortraits: false
     }
   }
 
@@ -698,20 +700,38 @@ class InheritanceTool extends Component {
   }
 
   handlePortraitToggle(isOn) {
-    if (storageAvailable('localStorage')) {
-      localStorage.usePortraits = JSON.stringify(isOn);
-    }
     this.setState({
       usePortraits: isOn
-    })
+    });
+  }
+
+  handleBuildLoad(build) {
+    let newBoonBane = {
+      "boon": build.Boon,
+      "bane": build.Bane
+    };
+    let newSkills = {
+      "weapon": build.Weapon,
+      "assist": build.Assist,
+      "special": build.Special,
+      "passiveA": build.PassiveA,
+      "passiveB": build.PassiveB,
+      "passiveC": build.PassiveC,
+    }
+
+    this.setState({
+      boonBane: newBoonBane,
+      skills: newSkills,
+      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, newBoonBane, this.state.merge)
+                                   : calcStats(this.state.unitName, newSkills, newBoonBane, this.state.merge),
+    });
   }
 
   render() {
     return (
       <div className="tool">
         <div className="toggle-box">
-          <ToggleBox usePortraits={this.state.usePortraits}
-                     onRawStatsToggle={this.handleRawStatsToggle}
+          <ToggleBox onRawStatsToggle={this.handleRawStatsToggle}
                      onPortraitToggle={this.handlePortraitToggle} />
         </div>
         <div className="char-info">
@@ -731,6 +751,10 @@ class InheritanceTool extends Component {
                           usePortraits={this.state.usePortraits}
                           onSkillSelect={this.handleSkillSelect}
                           onResetClick={this.handleResetClick} />
+        </div>
+        <div>
+          <BuildManager unitName={this.state.unitName}
+                        onLoadClick={this.handleBuildLoad} />
         </div>
       </div>
     );

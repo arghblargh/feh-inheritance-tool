@@ -74,6 +74,10 @@ select.form-control {
   font-size: 1em;
 }
 
+#BuildSelect {
+  width: 100%;
+}
+
 .reset-button-cell {
   height: 1.5em;
   padding: none;
@@ -117,7 +121,6 @@ th, td {
 
 #unitInfoRight {
   display: inline-block;
-  margin-left: 10px;
   height: 4.8125em;
   box-shadow: 0px 0px 1px #454545;
 }
@@ -230,6 +233,31 @@ tr [colSpan="2"] {
   padding: 2px;
 }
 
+.build-manager {
+  display: inline-block;
+  margin: 10px 5px;
+  width: 400px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 1px #454545;
+}
+
+.build-manager .select {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.build-manager .link {
+  margin: 5px;
+  padding-top: 4px;
+  float: left;
+  font-size: 12px;
+}
+
+.build-manager .buttons {
+  margin: 5px 5px;
+  float: right;
+}
+
 @media only screen and (min-device-width: 1024px) {
   .skill-effect {
     display: inline-block;
@@ -280,6 +308,7 @@ tr [colSpan="2"] {
 .bane {
   background-color: #ffb3b3;
 }
+
 
 .css-checkbox {
   width: 1em;
