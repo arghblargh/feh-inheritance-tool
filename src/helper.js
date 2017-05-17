@@ -198,7 +198,7 @@ export const BuildManager = React.createClass({
 
     handleLoadClick: function() {
         if (this.state.current !== wikiBuildLabel) {
-            console.log(this.state.current, this.state.builds[this.state.current]);
+            // console.log(this.state.current, this.state.builds[this.state.current]);
             this.props.onLoadClick(this.state.builds[this.state.current]);
         }
     },
