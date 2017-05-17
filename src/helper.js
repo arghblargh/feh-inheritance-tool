@@ -190,8 +190,6 @@ export const BuildManager = React.createClass({
 
     componentWillReceiveProps: function(props) {
         this.retrieveData(props.unitName);
-
-        this.setState({ current: wikiBuildLabel });
     },
 
     handleChange: function(buildName) {
@@ -200,6 +198,7 @@ export const BuildManager = React.createClass({
 
     handleLoadClick: function() {
         if (this.state.current !== wikiBuildLabel) {
+            // console.log(this.state.current, this.state.builds[this.state.current]);
             this.props.onLoadClick(this.state.builds[this.state.current]);
         }
     },
@@ -236,6 +235,11 @@ export const BuildManager = React.createClass({
                 build.PassiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
                 build.PassiveC = /passiveC\s*=(.*?)(\\n)?[}|]?/i.exec(response)[1].trim();
 
+                for (let i in build) {
+                    if (/flexible/i.test(build[i]))
+                        build[i] = '';
+                }
+
                 build.Boon = '';
                 build.Bane = '';
                 neutralStats = calcStats(unitName, build);
@@ -254,7 +258,8 @@ export const BuildManager = React.createClass({
             
             this.setState({
                 link: "https://feheroes.gamepedia.com/" + unitName.replace(/\s/g, '_') + "/Builds",
-                builds: builds
+                builds: builds,
+                current: builds[this.state.current] ? this.state.current : wikiBuildLabel
             });
         }.bind(this));
     },
