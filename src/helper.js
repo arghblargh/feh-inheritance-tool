@@ -168,7 +168,7 @@ export const Dropdown = React.createClass({
     }
 });
 
-const wikiBuildLabel = ' ----- Wiki Builds ----- '
+const wikiBuildLabel = '----- Wiki Builds -----'
 
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
 export const BuildManager = React.createClass({
@@ -190,20 +190,23 @@ export const BuildManager = React.createClass({
 
     componentWillReceiveProps: function(props) {
         this.retrieveData(props.unitName);
+
+        this.setState({ current: wikiBuildLabel });
     },
 
     handleChange: function(buildName) {
-        this.setState({ current: buildName })
+        this.setState({ current: buildName });
     },
 
     handleLoadClick: function() {
-        if (this.state.current !== wikiBuildLabel)
+        if (this.state.current !== wikiBuildLabel) {
             this.props.onLoadClick(this.state.builds[this.state.current]);
+        }
     },
 
     retrieveData: function(unitName) {
         jsonp('https://feheroes.gamepedia.com/api.php?action=query&titles=' + unitName.replace(/\s/g, '_') + '/Builds&prop=revisions&rvprop=content&format=json').then(function(data) {
-            let responses = [], builds = [], current = null,
+            let responses = [], builds = [],
                 match, re = /{{\\?n?(Skillbuild[_ ]Infobox\s?.*?})}/g;
         
             let text = JSON.stringify(data);
@@ -251,8 +254,7 @@ export const BuildManager = React.createClass({
             
             this.setState({
                 link: "https://feheroes.gamepedia.com/" + unitName.replace(/\s/g, '_') + "/Builds",
-                builds: builds,
-                current: current
+                builds: builds
             });
         }.bind(this));
     },
@@ -279,7 +281,7 @@ export const BuildManager = React.createClass({
         return (
             <div className="build-manager">
                 <div className="select">{buildSelect}</div>
-                <div className="link"><a href={this.state.link}>More Info...</a></div>
+                <div className="link"><a href={this.state.link} target="_blank">More Info...</a></div>
                 <div className="buttons">
                     <button onClick={this.handleLoadClick}>Load</button>
                 </div>
