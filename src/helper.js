@@ -198,7 +198,7 @@ export const BuildManager = React.createClass({
 
     handleLoadClick: function() {
         if (this.state.current !== wikiBuildLabel) {
-            // console.log(this.state.current, this.state.builds[this.state.current]);
+            console.log(this.state.current, this.state.builds[this.state.current]);
             this.props.onLoadClick(this.state.builds[this.state.current]);
         }
     },
@@ -233,10 +233,13 @@ export const BuildManager = React.createClass({
                 build.Special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
                 build.PassiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
                 build.PassiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveC = /passiveC\s*=(.*?)(\\n)?[}|]?/i.exec(response)[1].trim();
+                build.PassiveC = /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+
+                build.Weapon = build.Weapon.replace(/Blar/, 'Blár');
+                build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
 
                 for (let i in build) {
-                    if (/flexible/i.test(build[i]))
+                    if (/^\s*flexible\s*$/i.test(build[i]))
                         build[i] = '';
                 }
 
