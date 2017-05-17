@@ -349,14 +349,12 @@ export function getUnitsWithSkill(skill, type) {
 function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
     let unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
     let rstr = restrictions.split(', ');
-    let re;
     
     if (color) {
         let colorList = color.split(', ');
         let containsColor = false;
         for (let c of colorList) {
-            re = RegExp(c);
-            if (re.test(unitData)) {
+            if (RegExp(c).test(unitData)) {
                 containsColor = true;
                 break;
             }
@@ -392,8 +390,7 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
             return false;
         }
         
-        re = RegExp(r);
-        if (!re.test(unitData))
+        if (!RegExp(r).test(unitData))
             return false;
     }
     
