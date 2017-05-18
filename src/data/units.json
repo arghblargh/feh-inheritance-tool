@@ -9497,15 +9497,15 @@
       "weapon": [
         {
           "name": "Wind",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Elwind",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Rexcalibur",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Rexcalibur+",
@@ -9521,11 +9521,11 @@
       "special": [
         {
           "name": "Rising Wind",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Growing Wind",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -9537,11 +9537,11 @@
       "passiveB": [
         {
           "name": "Watersweep 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Watersweep 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Watersweep 3",
@@ -9551,15 +9551,15 @@
       "passiveC": [
         {
           "name": "Fortify Res 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortify Res 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortify Res 3",
-          "unlock": 5
+          "unlock": 4
         }
       ]
     }
@@ -10169,15 +10169,15 @@
       "weapon": [
         {
           "name": "Iron Axe",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Axe",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Emerald Axe",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Emerald Axe+",
@@ -10187,7 +10187,7 @@
       "assist": [
         {
           "name": "Reciprocal Aid",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -10199,25 +10199,25 @@
       "passiveA": [
         {
           "name": "Armored Blow 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Armored Blow 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Armored Blow 3",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
           "name": "Guard 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Guard 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Guard 3",
