@@ -71,6 +71,22 @@
     "effect": "Grants Def/Res+2 when this unit is attacked.",
     "restriction": "Roy"
   },
+  "Blue Egg": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 7,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
+  "Blue Egg+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 11,
+    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
   "Blárblade": {
     "color": "Blue",
     "type": "Tome",
@@ -133,22 +149,6 @@
     "cost": 300,
     "might": 10,
     "effect": "Effective against cavalry units.",
-    "restriction": ""
-  },
-  "Blue Egg": {
-    "color": "Blue",
-    "type": "Tome",
-    "cost": 200,
-    "might": 7,
-    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
-    "restriction": ""
-  },
-  "Blue Egg+": {
-    "color": "Blue",
-    "type": "Tome",
-    "cost": 300,
-    "might": 11,
-    "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
     "restriction": ""
   },
   "Bolganone": {
@@ -479,14 +479,6 @@
     "effect": "",
     "restriction": ""
   },
-  "Fólkvangr": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 400,
-    "might": 16,
-    "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
-    "restriction": "Alfonse"
-  },
   "Fujin Yumi": {
     "color": "Neutral",
     "type": "Bow",
@@ -494,6 +486,14 @@
     "might": 14,
     "effect": "Effective against flying units. Unit can pass through foes if own HP>=50%.",
     "restriction": "Takumi"
+  },
+  "Fólkvangr": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
+    "restriction": "Alfonse"
   },
   "Gravity": {
     "color": "Neutral",
@@ -910,6 +910,14 @@
     "might": 10,
     "effect": "Effective against cavalry units.",
     "restriction": ""
+  },
+  "Regal Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "If foe has 100% HP at the start of combat, unit receives Atk/Spd+2.",
+    "restriction": "Lloyd"
   },
   "Rexcalibur": {
     "color": "Green",

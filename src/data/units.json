@@ -5552,6 +5552,88 @@
       ]
     }
   },
+  "Lloyd": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Regal Blade",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Pass 1",
+          "unlock": 3
+        },
+        {
+          "name": "Pass 2",
+          "unlock": 3
+        },
+        {
+          "name": "Pass 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Atk 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Lon'qu": {
     "color": "Red",
     "wpnType": "Sword",
@@ -10659,7 +10741,7 @@
         },
         {
           "name": "Silver Sword",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Eckesachs",
