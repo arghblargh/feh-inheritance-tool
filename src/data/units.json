@@ -5557,11 +5557,11 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 41,
+      "Atk": 32,
+      "Spd": 35,
+      "Def": 20,
+      "Res": 30
     },
     "skills": {
       "weapon": [
