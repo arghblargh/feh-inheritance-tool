@@ -916,7 +916,7 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "If foe has 100% HP at the start of combat, unit receives Atk/Spd+2.",
+    "effect": "If foe's HP is 100% when combat starts, unit receives Atk/Spd+2 during combat.",
     "restriction": "Lloyd"
   },
   "Rexcalibur": {
