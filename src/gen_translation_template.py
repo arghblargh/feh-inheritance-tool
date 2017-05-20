@@ -32,7 +32,7 @@ def sort_OD(od):
 #############################
 # Template generation       #
 #############################
-def generate_template(dir_path='data/', structured=True):
+def generate_template(dir_path='data/', structured=False):
     fname = 'lang/template.json'
 
     # Check if a blank template already exists
@@ -142,5 +142,4 @@ def process_passives(dir_path, structured):
 
 
 if __name__ == '__main__':
-    # generate_template()
-    generate_template(structured=False)
+    generate_template(structured=False) # this is the default option
