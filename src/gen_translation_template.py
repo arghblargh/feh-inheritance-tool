@@ -11,14 +11,76 @@
 # ordered tho).
 # This is written in Python3 (better forget about dinopython)
 
-import json
 import os
+import json
+import argparse
 from collections import OrderedDict
 
-##############
-# MISC       #
-##############
+
+# Some colors
+C_FILE = '\033[95m'
+C_OKBLUE = '\033[94m'
+C_OKGREEN = '\033[92m'
+C_WARNING = '\033[93m'
+C_FAIL = '\033[91m'
+C_ENDC = '\033[0m'
+
+############
+# Misc     #
+############
+def cli():
+    """Create and populate the cli parser"""
+    parser = argparse.ArgumentParser(
+        description= 'Create a blank template for translation purpose or populate an existing one with new entries for update',
+    )
+
+    # Args
+    parser.add_argument('--data_dir',
+        metavar= 'dir',
+        type= is_dir,
+        default= 'data/',
+        help= 'Relative path to the english data directory (Default is data/)'
+    )
+    parser.add_argument('--lang_dir',
+        metavar= 'dir',
+        type= is_dir,
+        default= 'lang/',
+        help= 'Relative path to the lang directory (Default is lang/)'
+    )
+    parser.add_argument('-s', '--structured',
+        action= 'store_true',
+        help= 'Strucure the file with one more level (OPTION TO REMOVE IF FORMAT NOT USED)'
+    )
+    parser.add_argument('-u', '--update',
+        metavar= 'file',
+        type= existant_file,
+        help= 'Update the given file with the new blank entries'
+    )
+    parser.add_argument('-v', '--verbose',
+        action= 'store_true',
+        help= 'Increase verbosity output'
+    )
+
+    return parser.parse_args()
+
+def existant_file(filepath:str) -> str:
+    """Argparse type, raising an error if given file does not exists"""
+    if not os.path.exists(filepath):
+        raise argparse.ArgumentTypeError(
+            "file {} doesn't exists".format(C_FILE + filepath + C_ENDC)
+        )
+    return filepath
+
+def is_dir(dirpath:str) -> str:
+    """Argparse type, raising an error if given dir does not exists"""
+    if not os.path.isdir(dirpath):
+        raise argparse.ArgumentTypeError(
+            "{} doesn't exists or is not a directory".format(C_FILE + dirpath + C_ENDC)
+        )
+    return dirpath
+
 def sort_OD(od):
+    """ Sort an OrderedDict by key recursively"""
     out = OrderedDict()
     for key, val in sorted(od.items()):
         if isinstance(val, dict):
@@ -32,41 +94,46 @@ def sort_OD(od):
 #############################
 # Template generation       #
 #############################
-def generate_template(dir_path='data/', structured=False):
-    fname = 'lang/template.json'
+def generate_template(data_dir, lang_dir, structured, verbose):
+    fname = lang_dir+'template.json'
 
     # Check if a blank template already exists
     if os.path.exists(fname):
-        s = ("WARNING: File a blank template file already exists, please "
-        "rename or remove the "+fname+" file.")
+        s = (C_WARNING + 'WARNING: ' + C_ENDC + 'A template file seems to already exists: '
+        + C_FILE + fname + C_ENDC)
         print(s)
-        exit(-1)
+        a = input('(A)bort or (O)verride (default abort): ').lower()
+        if a == 'o':
+            pass
+        else:
+            print(C_FAIL + 'Aborted' + C_ENDC)
+            exit(-1)
+
 
     # Else process
     dict_out = OrderedDict()
-    dict_out.update(_process_units(dir_path, structured))
-    dict_out.update(_process_default(dir_path, structured))
-    dict_out.update(_process_passives(dir_path, structured))
+    dict_out.update(_process_units(data_dir, structured, verbose))
+    dict_out.update(_process_default(data_dir, structured, verbose))
+    dict_out.update(_process_passives(data_dir, structured, verbose))
 
     with open(fname, 'w') as outfile:
+        if verbose: print("Writing json to " + C_FILE + fname + C_ENDC)
         json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
 
 
-def _process_default(dir_path, structured):
+def _process_default(data_dir, structured, verbose):
     """
         Process assits, specials and weapons files
         Return order is:
             Weapons, Assists, Specials
-
-        Note: each category is sorted too (aka: weapons from A to Z; then
-        assists from A to Z; then specials from A to Z)
     """
     base_files = ( 'weapons.json', 'assists.json', 'specials.json' )
     dict_out = OrderedDict()
 
     if not structured:
         for f in base_files:
-            with open(dir_path+f) as infile:
+            if verbose: print('Processing ' + C_FILE + data_dir+f + C_ENDC + '...')
+            with open(data_dir+f) as infile:
                 dict_in = json.load(infile)
                 tmp_dict = {
                     entry: {
@@ -79,7 +146,8 @@ def _process_default(dir_path, structured):
                 dict_out.update(OrderedDict(sorted(tmp_dict.items(), key=lambda t: t[0])))
     else:
         for f in base_files:
-            with open(dir_path+f) as infile:
+            if verbose: print('Processing ' + C_FILE + data_dir+f + C_ENDC + '...')
+            with open(data_dir+f) as infile:
                 dict_in = json.load(infile)
                 tmp_dict = {
                     os.path.basename(f.split('.')[0].upper()): {
@@ -95,11 +163,12 @@ def _process_default(dir_path, structured):
 
     return dict_out
 
-def _process_units(dir_path, structured):
+def _process_units(data_dir, structured, verbose):
     """
         Process units file, sorted by their names
     """
-    with open(dir_path+'units.json') as infile:
+    if verbose: print('Processing ' + C_FILE + data_dir+'units.json' + C_ENDC + '...')
+    with open(data_dir+'units.json') as infile:
         dict_in = json.load(infile)
         if not structured:
             dict_out = { entry: {"name": ""} for entry in dict_in.keys() }
@@ -111,13 +180,14 @@ def _process_units(dir_path, structured):
     return dict_out
 
 
-def _process_passives(dir_path, structured):
+def _process_passives(data_dir, structured, verbose):
     """
-        Process passives file, sorted by 1st: passive slot then alphabetical
-
-        Note: AKA: slot A from A to Z; then slot B from A to Z...
+        Process passives file, sorted
+        Return order is:
+            Passive A, B, C
     """
-    with open(dir_path+'passives.json') as infile:
+    if verbose: print('Processing ' + C_FILE + data_dir+'passives.json' + C_ENDC + '...')
+    with open(data_dir+'passives.json') as infile:
         dict_in = json.load(infile)
 
     dict_out = {
@@ -142,4 +212,17 @@ def _process_passives(dir_path, structured):
 
 
 if __name__ == '__main__':
-    generate_template(structured=False) # this is the default option
+    args = cli()
+    # basic checks
+    if args.data_dir[-1] != '/':
+        args.data_dir = args.data_dir + '/'
+    if args.lang_dir[-1] != '/':
+        args.lang_dir = args.lang_dir + '/'
+
+    # do some stuff
+    if args.verbose:
+        print('ARGS: ' + str(args))
+    if args.update:
+        pass
+    generate_template(data_dir=args.data_dir, lang_dir=args.lang_dir,
+    structured=args.structured, verbose=args.verbose)
