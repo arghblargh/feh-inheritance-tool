@@ -44,15 +44,15 @@ def generate_template(dir_path='data/', structured=False):
 
     # Else process
     dict_out = OrderedDict()
-    dict_out.update(process_units(dir_path, structured))
-    dict_out.update(process_default(dir_path, structured))
-    dict_out.update(process_passives(dir_path, structured))
+    dict_out.update(_process_units(dir_path, structured))
+    dict_out.update(_process_default(dir_path, structured))
+    dict_out.update(_process_passives(dir_path, structured))
 
     with open(fname, 'w') as outfile:
         json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
 
 
-def process_default(dir_path, structured):
+def _process_default(dir_path, structured):
     """
         Process assits, specials and weapons files
         Return order is:
@@ -95,7 +95,7 @@ def process_default(dir_path, structured):
 
     return dict_out
 
-def process_units(dir_path, structured):
+def _process_units(dir_path, structured):
     """
         Process units file, sorted by their names
     """
@@ -111,7 +111,7 @@ def process_units(dir_path, structured):
     return dict_out
 
 
-def process_passives(dir_path, structured):
+def _process_passives(dir_path, structured):
     """
         Process passives file, sorted by 1st: passive slot then alphabetical
 
