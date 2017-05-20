@@ -15,6 +15,23 @@ import json
 import os
 from collections import OrderedDict
 
+##############
+# MISC       #
+##############
+def sort_OD(od):
+    out = OrderedDict()
+    for key, val in sorted(od.items()):
+        if isinstance(val, dict):
+            out[key] = sort_OD(val)
+        else:
+            out[key] = val
+    return out
+
+
+
+#############################
+# Template generation       #
+#############################
 def generate_template(dir_path='data/', structured=True):
     fname = 'lang/template.json'
 
@@ -56,6 +73,9 @@ def process_default(dir_path, structured):
                         f: "" for f in ('effect', 'name')
                     } for entry,fields in dict_in.items()
                 }
+                # Sort effect and and name field
+                tmp_dict = sort_OD(tmp_dict)
+                # Add sorted new entry (weapons, assists, specials) to global dict
                 dict_out.update(OrderedDict(sorted(tmp_dict.items(), key=lambda t: t[0])))
     else:
         for f in base_files:
@@ -68,14 +88,12 @@ def process_default(dir_path, structured):
                         } for entry,fields in dict_in.items()
                     }
                 }
-                # Sort alphanumeric the second level
-                for entry in tmp_dict:
-                    tmp_dict[entry] = OrderedDict(sorted(tmp_dict[entry].items(), key=lambda t: t[0]))
-                # Add new entry (weapons, assists, specials) in order
+                # Sort recursively all levels
+                tmp_dict = sort_OD(tmp_dict)
+                # Add sorted new entry (weapons, assists, specials) to global dict
                 dict_out.update(OrderedDict(sorted(tmp_dict.items(), key=lambda t: t[0])))
 
     return dict_out
-
 
 def process_units(dir_path, structured):
     """
@@ -85,10 +103,10 @@ def process_units(dir_path, structured):
         dict_in = json.load(infile)
         if not structured:
             dict_out = { entry: {"name": ""} for entry in dict_in.keys() }
-            dict_out = OrderedDict(sorted(dict_out.items(), key=lambda t: t[0]))
+            dict_out = sort_OD(dict_out)
         else:
             dict_out = { "HEROES": { entry: {"name": ""} for entry in dict_in.keys() } }
-            dict_out["HEROES"] = OrderedDict(sorted(dict_out["HEROES"].items(), key=lambda t: t[0]))
+            dict_out = sort_OD(dict_out)
 
     return dict_out
 
@@ -109,12 +127,9 @@ def process_passives(dir_path, structured):
             } for entry, fields in passives.items()
         } for passives_type, passives in dict_in.items()
     }
-    # Sort PASSIVE_A,B & C
-    dict_out = OrderedDict(sorted(dict_out.items(), key=lambda t: t[0]))
-    # Sort alphanumeric the second level (inside PASSIVE_*)
-    for entry in dict_out:
-        dict_out[entry] = OrderedDict(sorted(dict_out[entry].items(), key=lambda t: t[0]))
+    dict_out = sort_OD(dict_out) # Sort recursively all levels
 
+    # concat PASSIVE_A,B,C if no structure needed
     if not structured:
         tmp_dict = OrderedDict()
         for entry in dict_out:
