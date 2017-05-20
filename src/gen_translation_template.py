@@ -35,18 +35,6 @@ def cli():
     )
 
     # Args
-    parser.add_argument('--data_dir',
-        metavar= 'dir',
-        type= is_dir,
-        default= 'data/',
-        help= 'Relative path to the english data directory (Default is data/)'
-    )
-    parser.add_argument('--lang_dir',
-        metavar= 'dir',
-        type= is_dir,
-        default= 'lang/',
-        help= 'Relative path to the lang directory (Default is lang/)'
-    )
     parser.add_argument('-s', '--structured',
         action= 'store_true',
         help= 'Strucure the file with one more level (OPTION TO REMOVE IF FORMAT NOT USED)'
@@ -94,7 +82,8 @@ def sort_OD(od):
 #############################
 # Template generation       #
 #############################
-def generate_template(data_dir, lang_dir, structured, verbose):
+def generate_template(structured, verbose, data_dir='data/', lang_dir='lang/'):
+    """ Generate the blank template """
     fname = lang_dir+'template.json'
 
     # Check if a blank template already exists
@@ -213,16 +202,10 @@ def _process_passives(data_dir, structured, verbose):
 
 if __name__ == '__main__':
     args = cli()
-    # basic checks
-    if args.data_dir[-1] != '/':
-        args.data_dir = args.data_dir + '/'
-    if args.lang_dir[-1] != '/':
-        args.lang_dir = args.lang_dir + '/'
-
     # do some stuff
     if args.verbose:
         print('ARGS: ' + str(args))
     if args.update:
         pass
-    generate_template(data_dir=args.data_dir, lang_dir=args.lang_dir,
-    structured=args.structured, verbose=args.verbose)
+
+    generate_template(structured=args.structured, verbose=args.verbose)
