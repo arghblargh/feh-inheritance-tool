@@ -59,14 +59,6 @@ def existant_file(filepath:str) -> str:
         )
     return filepath
 
-def is_dir(dirpath:str) -> str:
-    """Argparse type, raising an error if given dir does not exists"""
-    if not os.path.isdir(dirpath):
-        raise argparse.ArgumentTypeError(
-            "{} doesn't exists or is not a directory".format(C_FILE + dirpath + C_ENDC)
-        )
-    return dirpath
-
 def sort_OD(od):
     """ Sort an OrderedDict by key recursively"""
     out = OrderedDict()
@@ -82,33 +74,44 @@ def sort_OD(od):
 #############################
 # Template generation       #
 #############################
-def generate_template(structured, verbose, data_dir='data/', lang_dir='lang/'):
-    """ Generate the blank template """
-    fname = lang_dir+'template.json'
+def main(structured, update, verbose, data_dir='data/'):
+    """ Do the checks before calling the update or the template gen methods """
+    # Verifications
+    if not update:
+        fname = 'lang/template.json'
+        # Check if a blank template already exists
+        if os.path.exists(fname):
+            s = (C_WARNING + 'WARNING: ' + C_ENDC + 'A template file seems to already exists: '
+            + C_FILE + fname + C_ENDC)
+            print(s)
+            a = input('(A)bort or (O)verride (default abort): ').lower()
+            if a == 'a':
+                print(C_FAIL + 'Aborted' + C_ENDC)
+                exit(-1)
+    # NOTE: Don't need to check if update file exists, parser already did this
 
-    # Check if a blank template already exists
-    if os.path.exists(fname):
-        s = (C_WARNING + 'WARNING: ' + C_ENDC + 'A template file seems to already exists: '
-        + C_FILE + fname + C_ENDC)
-        print(s)
-        a = input('(A)bort or (O)verride (default abort): ').lower()
-        if a == 'o':
-            pass
-        else:
-            print(C_FAIL + 'Aborted' + C_ENDC)
-            exit(-1)
+    # Processing
+    dict_out = _get_data(structured, verbose, data_dir, fname)
+    if update:
+        @# TODO:
+        dict_out = _update_lang_data(update, dict_out)
+    else: # generate template
+        with open(fname, 'w') as outfile:
+            if verbose: print("Writing json to " + C_FILE + fname + C_ENDC)
+            json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
 
+def _update_lang_data(update, new):
+    @# TODO:
+    # with open(update, 'rw') as infile:
+        # dict_in = json.load(infile, object_pairs_hook=OrderedDict)
 
-    # Else process
+def _get_data(structured, verbose, data_dir, fname):
+    """ Generate or update the blank template """
     dict_out = OrderedDict()
     dict_out.update(_process_units(data_dir, structured, verbose))
     dict_out.update(_process_default(data_dir, structured, verbose))
     dict_out.update(_process_passives(data_dir, structured, verbose))
-
-    with open(fname, 'w') as outfile:
-        if verbose: print("Writing json to " + C_FILE + fname + C_ENDC)
-        json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
-
+    return dict_out
 
 def _process_default(data_dir, structured, verbose):
     """
@@ -208,4 +211,4 @@ if __name__ == '__main__':
     if args.update:
         pass
 
-    generate_template(structured=args.structured, verbose=args.verbose)
+    main(structured=args.structured, update=args.update, verbose=args.verbose)
