@@ -91,21 +91,29 @@ def main(structured, update, verbose, data_dir='data/'):
     # NOTE: Don't need to check if update file exists, parser already did this
 
     # Processing
-    dict_out = _get_data(structured, verbose, data_dir, fname)
+    dict_out = _get_data(structured, verbose, data_dir)
     if update:
-        @# TODO:
-        dict_out = _update_lang_data(update, dict_out)
+        dict_out = _update_lang_data(update, dict_out, structured)
+        with open(update, 'w') as outfile:
+            if verbose: print("Writing json to " + C_FILE + update + C_ENDC)
+            json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
     else: # generate template
         with open(fname, 'w') as outfile:
             if verbose: print("Writing json to " + C_FILE + fname + C_ENDC)
             json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
 
-def _update_lang_data(update, new):
-    @# TODO:
-    # with open(update, 'rw') as infile:
-        # dict_in = json.load(infile, object_pairs_hook=OrderedDict)
-
-def _get_data(structured, verbose, data_dir, fname):
+def _update_lang_data(update, new, structured):
+    with open(update, 'r') as f:
+        old = json.load(f)
+    if not structured:
+        new.update(old)
+        new = sort_OD(new)
+    else:
+        for entry in new:
+            new[entry].update(old[entry])
+            new[entry] = sort_OD(new[entry])
+    return new
+def _get_data(structured, verbose, data_dir):
     """ Generate or update the blank template """
     dict_out = OrderedDict()
     dict_out.update(_process_units(data_dir, structured, verbose))
