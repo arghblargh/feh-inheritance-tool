@@ -7,8 +7,6 @@
 #
 # It will parse the english files in data/ to extract all fields to translate.
 #
-# @NOTE Default configuration provide an unstructured template (still a bit
-# ordered tho).
 # This is written in Python3 (better forget about dinopython)
 
 import os
@@ -19,8 +17,6 @@ from collections import OrderedDict
 
 # Some colors
 C_FILE = '\033[95m'
-C_OKBLUE = '\033[94m'
-C_OKGREEN = '\033[92m'
 C_WARNING = '\033[93m'
 C_FAIL = '\033[91m'
 C_ENDC = '\033[0m'
@@ -35,10 +31,6 @@ def cli():
     )
 
     # Args
-    parser.add_argument('-s', '--structured',
-        action= 'store_true',
-        help= 'Strucure the file with one more level (OPTION TO REMOVE IF FORMAT NOT USED)'
-    )
     parser.add_argument('-u', '--update',
         metavar= 'file',
         type= existant_file,
@@ -74,7 +66,7 @@ def sort_OD(od):
 #############################
 # Template generation       #
 #############################
-def main(structured, update, verbose, data_dir='data/'):
+def main(update, verbose, data_dir='data/'):
     """ Do the checks before calling the update or the template gen methods """
     # Verifications
     if not update:
@@ -91,9 +83,9 @@ def main(structured, update, verbose, data_dir='data/'):
     # NOTE: Don't need to check if update file exists, parser already did this
 
     # Processing
-    dict_out = _get_data(structured, verbose, data_dir)
+    dict_out = _get_data(verbose, data_dir)
     if update:
-        dict_out = _update_lang_data(update, dict_out, structured)
+        dict_out = _update_lang_data(update, dict_out)
         with open(update, 'w') as outfile:
             if verbose: print("Writing json to " + C_FILE + update + C_ENDC)
             json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
@@ -102,26 +94,25 @@ def main(structured, update, verbose, data_dir='data/'):
             if verbose: print("Writing json to " + C_FILE + fname + C_ENDC)
             json.dump(dict_out, outfile, indent=4, sort_keys=False, ensure_ascii=False)
 
-def _update_lang_data(update, new, structured):
+def _update_lang_data(update, new):
     with open(update, 'r') as f:
         old = json.load(f)
-    if not structured:
-        new.update(old)
-        new = sort_OD(new)
-    else:
-        for entry in new:
-            new[entry].update(old[entry])
-            new[entry] = sort_OD(new[entry])
+
+    new.update(old)
+    for entry in new:
+        new[entry] = sort_OD(new[entry])
+
     return new
-def _get_data(structured, verbose, data_dir):
+
+def _get_data(verbose, data_dir):
     """ Generate or update the blank template """
     dict_out = OrderedDict()
-    dict_out.update(_process_units(data_dir, structured, verbose))
-    dict_out.update(_process_default(data_dir, structured, verbose))
-    dict_out.update(_process_passives(data_dir, structured, verbose))
+    dict_out.update(_process_units(data_dir, verbose))
+    dict_out.update(_process_default(data_dir, verbose))
+    dict_out.update(_process_passives(data_dir, verbose))
     return dict_out
 
-def _process_default(data_dir, structured, verbose):
+def _process_default(data_dir, verbose):
     """
         Process assits, specials and weapons files
         Return order is:
@@ -130,57 +121,37 @@ def _process_default(data_dir, structured, verbose):
     base_files = ( 'weapons.json', 'assists.json', 'specials.json' )
     dict_out = OrderedDict()
 
-    if not structured:
-        for f in base_files:
-            if verbose: print('Processing ' + C_FILE + data_dir+f + C_ENDC + '...')
-            with open(data_dir+f) as infile:
-                dict_in = json.load(infile)
-                tmp_dict = {
-                    entry: {
-                        f: "" for f in ('effect', 'name')
-                    } for entry,fields in dict_in.items()
-                }
-                # Sort effect and and name field
-                tmp_dict = sort_OD(tmp_dict)
-                # Add sorted new entry (weapons, assists, specials) to global dict
-                dict_out.update(OrderedDict(sorted(tmp_dict.items(), key=lambda t: t[0])))
-    else:
-        for f in base_files:
-            if verbose: print('Processing ' + C_FILE + data_dir+f + C_ENDC + '...')
-            with open(data_dir+f) as infile:
-                dict_in = json.load(infile)
-                tmp_dict = {
-                    os.path.basename(f.split('.')[0].upper()): {
-                        entry: {
-                            f: "" for f in ('effect', 'name')
-                        } for entry,fields in dict_in.items()
-                    }
-                }
-                # Sort recursively all levels
-                tmp_dict = sort_OD(tmp_dict)
-                # Add sorted new entry (weapons, assists, specials) to global dict
-                dict_out.update(OrderedDict(sorted(tmp_dict.items(), key=lambda t: t[0])))
+    for f in base_files:
+        if verbose: print('Processing ' + C_FILE + data_dir+f + C_ENDC + '...')
+        with open(data_dir+f) as infile:
+            dict_in = json.load(infile)
+            tmp_dict = {
+                entry: {
+                    f: "" for f in ('effect', 'name')
+                } for entry,fields in dict_in.items()
+            }
+            # Sort effect and and name field
+            # tmp_dict = sort_OD(tmp_dict)
+            # Add sorted new entry (weapons, assists, specials) to global dict
+            dict_out.update(OrderedDict(sorted(tmp_dict.items(), key=lambda t: t[0])))
 
     return dict_out
 
-def _process_units(data_dir, structured, verbose):
+def _process_units(data_dir, verbose):
     """
         Process units file, sorted by their names
     """
     if verbose: print('Processing ' + C_FILE + data_dir+'units.json' + C_ENDC + '...')
     with open(data_dir+'units.json') as infile:
         dict_in = json.load(infile)
-        if not structured:
-            dict_out = { entry: {"name": ""} for entry in dict_in.keys() }
-            dict_out = sort_OD(dict_out)
-        else:
-            dict_out = { "HEROES": { entry: {"name": ""} for entry in dict_in.keys() } }
-            dict_out = sort_OD(dict_out)
+
+    dict_out = { entry: {"name": ""} for entry in dict_in.keys() }
+    dict_out = sort_OD(dict_out)
 
     return dict_out
 
 
-def _process_passives(data_dir, structured, verbose):
+def _process_passives(data_dir, verbose):
     """
         Process passives file, sorted
         Return order is:
@@ -200,11 +171,10 @@ def _process_passives(data_dir, structured, verbose):
     dict_out = sort_OD(dict_out) # Sort recursively all levels
 
     # concat PASSIVE_A,B,C if no structure needed
-    if not structured:
-        tmp_dict = OrderedDict()
-        for entry in dict_out:
-            tmp_dict.update(dict_out[entry])
-        dict_out = tmp_dict
+    tmp_dict = OrderedDict()
+    for entry in dict_out:
+        tmp_dict.update(dict_out[entry])
+    dict_out = tmp_dict
 
     return dict_out
 
@@ -219,4 +189,4 @@ if __name__ == '__main__':
     if args.update:
         pass
 
-    main(structured=args.structured, update=args.update, verbose=args.verbose)
+    main(update=args.update, verbose=args.verbose)
