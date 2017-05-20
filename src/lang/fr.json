@@ -29,6 +29,9 @@
     "Beruka": {
         "name": "Beruka"
     },
+    "Boey": {
+        "name": "Boey"
+    },
     "Caeda": {
         "name": "Shiida"
     },
@@ -46,6 +49,9 @@
     },
     "Cecilia": {
         "name": "Cecilia"
+    },
+    "Celica": {
+        "name": "Celica"
     },
     "Cherche": {
         "name": "Zelcher"
@@ -119,6 +125,9 @@
     "Gaius": {
         "name": "Gaius"
     },
+    "Genny": {
+        "name": "Genny"
+    },
     "Gordin": {
         "name": "Gordin"
     },
@@ -191,6 +200,9 @@
     "Lissa": {
         "name": "Lissa"
     },
+    "Lloyd": {
+        "name": "Lloyd"
+    },
     "Lon'qu": {
         "name": "Lon'zu"
     },
@@ -208,6 +220,9 @@
     },
     "Lyn": {
         "name": "Lyn"
+    },
+    "Mae": {
+        "name": "Mae"
     },
     "Maria": {
         "name": "Maria"
@@ -284,10 +299,10 @@
     "Reinhardt": {
         "name": "Reinhardt"
     },
-    "Robin (F)" : {
+    "Robin (F)": {
         "name": "Daraen (F)"
     },
-    "Robin (M)" : {
+    "Robin (M)": {
         "name": "Daraen (M)"
     },
     "Roy": {
@@ -425,6 +440,14 @@
     "Blárblade+": {
         "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
         "name": "Lames saphir+"
+    },
+    "Blárowl": {
+        "effect": "Pendant le combat, l'unité reçoit un boost d'Atq/Vit/Déf/Rés correspondant au double du nombre d'alliés adjacents.",
+        "name": "Ailes saphir"
+    },
+    "Blárowl+": {
+        "effect": "Pendant le combat, l'unité reçoit un boost d'Atq/Vit/Déf/Rés correspondant au double du nombre d'alliés adjacents.",
+        "name": "Ailes saphir+"
     },
     "Blárraven": {
         "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
@@ -634,6 +657,14 @@
         "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. aux dégâts infligés.",
         "name": "Lames émeraude+"
     },
+    "Gronnowl": {
+        "effect": "Pendant le combat, l'unité reçoit un boost d'Atq/Vit/Déf/Rés correspondant au double du nombre d'alliés adjacents.",
+        "name": "Ailes émeraude"
+    },
+    "Gronnowl+": {
+        "effect": "Pendant le combat, l'unité reçoit un boost d'Atq/Vit/Déf/Rés correspondant au double du nombre d'alliés adjacents.",
+        "name": "Ailes émeraude+"
+    },
     "Gronnraven": {
         "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
         "name": "Serres émeraude"
@@ -770,6 +801,10 @@
         "effect": "Efficace contre les fantassins. Si la cible est à pied, elle subit Déf/Rés -6 pour le restant du tour.",
         "name": "Dague poison+"
     },
+    "Ragnarok": {
+        "effect": "Si l'unité a 100% de ses PV au début du combat, elle reçoit Atq/Vit +5. Si elle attaque, l'unité subit 5 dégâts après le combat.",
+        "name": "Ragnarök"
+    },
     "Ragnell": {
         "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
         "name": "Ragnell"
@@ -786,6 +821,14 @@
         "effect": "Retarde l'activation des aptitudes spéciales (compteur +1). Ajoute la valeur totale des bonus aux carac. au dégâts infligés.",
         "name": "Lames rubis+"
     },
+    "Rauðrowl": {
+        "effect": "Pendant le combat, l'unité reçoit un boost d'Atq/Vit/Déf/Rés correspondant au double du nombre d'alliés adjacents.",
+        "name": "Ailes rubis"
+    },
+    "Rauðrowl+": {
+        "effect": "Pendant le combat, l'unité reçoit un boost d'Atq/Vit/Déf/Rés correspondant au double du nombre d'alliés adjacents.",
+        "name": "Ailes rubis+"
+    },
     "Rauðrraven": {
         "effect": "Efficace contre les unités dont l'arme n'appartient pas au triangle des armes.",
         "name": "Serres rubis"
@@ -801,6 +844,10 @@
     "Rauðrwolf+": {
         "effect": "Efficace contre la cavalerie.",
         "name": "Crocs rubis+"
+    },
+    "Regal Blade": {
+        "effect": "Si les PV de l'ennemi sont à 100% au début du combat, confère Atq/Vit +2 à l'unité.",
+        "name": "Fer impérial"
     },
     "Rexcalibur": {
         "effect": "",
@@ -1358,6 +1405,30 @@
         "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
         "name": "Contre à distance"
     },
+    "Distant Def 1": {
+        "effect": "Si l'unité est attaquée par un ennemi utilisant un arc, des dagues, la magie ou un bâton, elle reçoit Déf/Rés +2 pendant le combat.",
+        "name": "Déf à distance 1"
+    },
+    "Distant Def 2": {
+        "effect": "Si l'unité est attaquée par un ennemi utilisant un arc, des dagues, la magie ou un bâton, elle reçoit Déf/Rés +4 pendant le combat.",
+        "name": "Déf à distance 2"
+    },
+    "Distant Def 3": {
+        "effect": "Si l'unité est attaquée par un ennemi utilisant un arc, des dagues, la magie ou un bâton, elle reçoit Déf/Rés +6 pendant le combat.",
+        "name": "Déf à distance 3"
+    },
+    "Earth Boost 1": {
+        "effect": "Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Déf +2 pendant le combat.",
+        "name": "Boost fortifiant 1"
+    },
+    "Earth Boost 2": {
+        "effect": "Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Déf +4 pendant le combat.",
+        "name": "Boost fortifiant 2"
+    },
+    "Earth Boost 3": {
+        "effect": "Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Déf +6 pendant le combat.",
+        "name": "Boost fortifiant 3"
+    },
     "Fortress Def 1": {
         "effect": "Confère Déf +3 à l'unité et lui inflige Atq -3.",
         "name": "Forteresse 1"
@@ -1830,6 +1901,18 @@
         "effect": "Permet à l'unité de se téléporter aux côtés de n'importe quel allié dont les PV sont ≤ 50%.",
         "name": "Sauvetage 3"
     },
+    "Wrathful Staff 1": {
+        "effect": "Si l'unité a 100% de ses PV au début du combat, les attaques au bâton de l'unité font les même dégâts que les autres armes plutôt que la moitié.",
+        "name": "Bâton furieux 1"
+    },
+    "Wrathful Staff 2": {
+        "effect": "Si l'unité a PV ≥ 50% au début du combat, les attaques au bâton de l'unité font les même dégâts que les autres armes plutôt que la moitié.",
+        "name": "Bâton furieux 2"
+    },
+    "Wrathful Staff 3": {
+        "effect": "Les attaques au bâton de l'unité font les même dégâts que les autres armes plutôt que la moitié.",
+        "name": "Bâton furieux 3"
+    },
     "Axe Experience 1": {
         "effect": "Si l'unité utilise une hache et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
         "name": "Exp. hache 1"
@@ -1841,6 +1924,18 @@
     "Axe Experience 3": {
         "effect": "Si l'unité survit, toutes les unités dotées de haches reçoivent EXP x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
         "name": "Exp. hache 3"
+    },
+    "B Tome Exp. 1": {
+        "effect": "Si l'unité utilise un tome bleu et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Exp. tome bleu 1"
+    },
+    "B Tome Exp. 2": {
+        "effect": "Si l'unité survit, tous les utilisateurs de magie azur de l'équipe reçoivent EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Exp. tome bleu 2"
+    },
+    "B Tome Exp. 3": {
+        "effect": "Si l'unité survit, tous les utilisateurs de magie azur de l'équipe reçoivent EXP x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Exp. tome bleu 3"
     },
     "Bow Experience 1": {
         "effect": "Si l'unité utilise un arc et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
