@@ -1585,6 +1585,9 @@
     "boon": {
       "Spd": 4
     },
+    "bane": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
