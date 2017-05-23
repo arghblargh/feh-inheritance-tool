@@ -10,7 +10,7 @@
         "cost": "500",
         "count": "5",
         "effect": "Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt.",
-        "require": "Daylight|New Moon",
+        "require": "Sol|Luna",
         "restriction": "",
         "value": "Heal:0.5,Mit:0.5"
     },
@@ -112,8 +112,8 @@
         "cost": "500",
         "count": "5",
         "effect": "If this unit initiates an attack, it can take another action after combat. (Once per turn only.)",
-        "require": "Night Sky",
-        "restriction": ""
+        "require": "Astra",
+        "restriction": "Weapon:SwLA"
     },
     "Glacies": {
         "cost": "200",

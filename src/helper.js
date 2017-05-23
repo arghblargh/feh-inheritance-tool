@@ -389,6 +389,32 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
                 
             return false;
         }
+
+        if (/Weapon/.test(r)) {
+            let flags = /Weapon:(.*)/.exec(r)[1];
+            if (/Sw/.test(flags) && /Sword/.test(unitData))
+                return true;
+            else if (/L/.test(flags) && /Lance/.test(unitData))
+                return true;
+            else if (/A/.test(flags) && /Axe/.test(unitData))
+                return true;
+            else if (/Dr/.test(flags) && /Dragon/.test(unitData))
+                return true;
+            else if (/Tr/.test(flags) && /Tome/.test(unitData) && /Red/.test(unitData))
+                return true;
+            else if (/Tb/.test(flags) && /Tome/.test(unitData) && /Blue/.test(unitData))
+                return true;
+            else if (/Tg/.test(flags) && /Tome/.test(unitData) && /Green/.test(unitData))
+                return true;
+            else if (/B/.test(flags) && /Bow/.test(unitData))
+                return true;
+            else if (/Da/.test(flags) && /Dagger/.test(unitData))
+                return true;
+            else if (/St/.test(flags) && /Staff/.test(unitData))
+                return true;
+
+            return false;
+        }
         
         if (!RegExp(r).test(unitData))
             return false;
