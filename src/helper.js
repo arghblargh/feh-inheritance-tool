@@ -571,6 +571,9 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         } else if (/Attack\/Def/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,0,1,0][i]); });
+        } else if (/Attack\/Res/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,0,0,1][i]); });
         } else if (/Fury/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,1,1,1][i]); });

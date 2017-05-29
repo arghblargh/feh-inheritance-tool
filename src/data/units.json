@@ -980,6 +980,88 @@
       ]
     }
   },
+  "Caeda (Bridal Blessings)": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Blessed Bouquet",
+          "unlock": 5
+        },
+        {
+          "name": "Blessed Bouquet+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 5
+        },
+        {
+          "name": "Attack/Res +1",
+          "unlock": 5
+        },
+        {
+          "name": "Attack/Res +2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 5
+        },
+        {
+          "name": "Hone Spd 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Cain": {
     "color": "Red",
     "wpnType": "Sword",
@@ -1490,6 +1572,84 @@
       ]
     }
   },
+  "Charlotte (Bridal Blessings)": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "First Bite",
+          "unlock": 5
+        },
+        {
+          "name": "First Bite+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Smite",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Wind Boost 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wind Boost 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wind Boost 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Threaten Atk 2",
+          "unlock": 5
+        },
+        {
+          "name": "Threaten Atk 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Cherche": {
     "color": "Green",
     "wpnType": "Axe",
@@ -1983,6 +2143,84 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Cordelia (Bridal Blessings)": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Cupid Arrow",
+          "unlock": 5
+        },
+        {
+          "name": "Cupid Arrow+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Atk/Spd",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Escape Route 1",
+          "unlock": 5
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 5
+        },
+        {
+          "name": "Escape Route 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Breath of Life 1",
+          "unlock": 5
+        },
+        {
+          "name": "Breath of Life 2",
+          "unlock": 5
+        },
+        {
+          "name": "Breath of Life 3",
+          "unlock": 5
         }
       ]
     }
@@ -6148,6 +6386,80 @@
         {
           "name": "Spur Spd 3",
           "unlock": 5
+        }
+      ]
+    }
+  },
+  "Lyn (Bridal Blessings)": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 5
+        },
+        {
+          "name": "Candlelight",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 5
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 5
+        },
+        {
+          "name": "Rehabilitate",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 5
+        },
+        {
+          "name": "Swift-Winds Balm",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dazzling Staff 1",
+          "unlock": 5
+        },
+        {
+          "name": "Dazzling Staff 2",
+          "unlock": 5
+        },
+        {
+          "name": "Dazzling Staff 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
         }
       ]
     }

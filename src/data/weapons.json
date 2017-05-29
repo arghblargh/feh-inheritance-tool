@@ -71,6 +71,22 @@
     "effect": "Grants Def/Res+2 when this unit is attacked.",
     "restriction": "Roy"
   },
+  "Blessed Bouquet": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants allies within 2 spaces Def/Res+1 through their next actions after any combat this unit initiates.",
+    "restriction": ""
+  },
+  "Blessed Bouquet+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
+    "restriction": ""
+  },
   "Blue Egg": {
     "color": "Blue",
     "type": "Tome",
@@ -239,6 +255,14 @@
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
     "restriction": "Leo"
   },
+  "Candlelight": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 150,
+    "might": 7,
+    "effect": "After combat, foe inflicted with status preventing them from counterattacking.",
+    "restriction": ""
+  },
   "Carrot Axe": {
     "color": "Green",
     "type": "Axe",
@@ -269,6 +293,22 @@
     "cost": 300,
     "might": 13,
     "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
+    "restriction": ""
+  },
+  "Cupid Arrow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants allies within 2 spaces Def/Res+1 through their next actions after any combat this unit initiates. Effective against fliers.",
+    "restriction": ""
+  },
+  "Cupid Arrow+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.",
     "restriction": ""
   },
   "Cymbeline": {
@@ -453,6 +493,22 @@
     "cost": 300,
     "might": 11,
     "effect": "Effective against fliers. Unit and enemies cannot use counterattacks.",
+    "restriction": ""
+  },
+  "First Bite": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "Grants allies within 2 spaces Def/Res+1 through their next actions after any combat this unit initiates.",
+    "restriction": ""
+  },
+  "First Bite+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
     "restriction": ""
   },
   "Flametongue": {

@@ -49,6 +49,11 @@
         "effect": "Grants Atk+4 to an adjacent ally until the end of the turn.",
         "restriction": ""
     },
+    "Rally Atk/Spd": {
+        "cost": "150",
+        "effect": "Grants Atk/Spd+3 to an adjacent ally until the end of the turn.",
+        "restriction": ""
+    },
     "Rally Defense": {
         "cost": "150",
         "effect": "Grants Def+4 to an adjacent ally until the end of the turn.",

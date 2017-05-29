@@ -41,6 +41,17 @@
             "effect": "Grants Atk/Def+2.",
             "restriction": ""
         },
+        "Attack/Res +1": {
+            "cost": "80",
+            "effect": "Grants Atk/Res+1.",
+            "require": "Attack +1|Resistance +1",
+            "restriction": ""
+        },
+        "Attack/Res +2": {
+            "cost": "160",
+            "effect": "Grants Atk/Res+2.",
+            "restriction": ""
+        },
         "Close Counter": {
             "cost": "300",
             "effect": "Enables unit to counterattack regardless of distance to attacker.",
@@ -341,6 +352,21 @@
             "cost": "200",
             "effect": "Grants Res+6 during combat if unit initiates attack.",
             "restriction": "Offense"
+        },
+        "Wind Boost 1": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+2 during combat.",
+            "restriction": ""
+        },
+        "Wind Boost 2": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat.",
+            "restriction": ""
+        },
+        "Wind Boost 3": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat.",
+            "restriction": ""
         }
     },
     "B": {
@@ -418,6 +444,21 @@
             "cost": "200",
             "effect": "If unit's HP ≥ 50% in combat against a dagger user, unit makes a followup attack and foe cannot.",
             "restriction": ""
+        },
+        "Dazzling Staff 1": {
+            "cost": "60",
+            "effect": "If unit has 100% HP at the start of combat, the enemy cannot counterattack.",
+            "restriction": "Staff"
+        },
+        "Dazzling Staff 2": {
+            "cost": "120",
+            "effect": "If unit has ≥ 50% HP at the start of combat, the enemy cannot counterattack.",
+            "restriction": "Staff"
+        },
+        "Dazzling Staff 3": {
+            "cost": "240",
+            "effect": "The enemy cannot counterattack.",
+            "restriction": "Staff"
         },
         "Desperation 1": {
             "cost": "50",
