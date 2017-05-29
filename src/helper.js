@@ -215,7 +215,7 @@ export const BuildManager = React.createClass({
             }
 
             for (let response of responses) {
-                let build = {};
+                let build = {}, skills = {};
                 let buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
 
                 let stats = {}, neutralStats;
@@ -228,12 +228,12 @@ export const BuildManager = React.createClass({
                     stats.Res = statStr[4];
                 }
 
-                build.Weapon = /weapon\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.Assist = /assist\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.Special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveC = /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.Weapon = skills.weapon = /weapon\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.Assist = skills.assist = /assist\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.Special = skills.special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.PassiveA = skills.passiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.PassiveB = skills.passiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                build.PassiveC = skills.passiveC =  /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
 
                 build.Weapon = build.Weapon.replace(/Blar/, 'Blár');
                 build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
@@ -245,7 +245,7 @@ export const BuildManager = React.createClass({
 
                 build.Boon = '';
                 build.Bane = '';
-                neutralStats = calcStats(unitName, build);
+                neutralStats = calcStats(unitName, skills);
                 if (stats) {
                     for (let s in stats) {
                         if (stats[s] > neutralStats[s])
