@@ -359,12 +359,12 @@
             "restriction": ""
         },
         "Wind Boost 2": {
-            "cost": "50",
+            "cost": "100",
             "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat.",
             "restriction": ""
         },
         "Wind Boost 3": {
-            "cost": "50",
+            "cost": "200",
             "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat.",
             "restriction": ""
         }
