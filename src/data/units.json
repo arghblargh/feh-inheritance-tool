@@ -830,15 +830,15 @@
       "weapon": [
         {
           "name": "Wind",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Elwind",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Gronnowl",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Gronnowl+",
@@ -854,21 +854,21 @@
       "special": [
         {
           "name": "Glowing Ember",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Ignis",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "Earth Boost 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Earth Boost 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Earth Boost 3",
@@ -878,11 +878,11 @@
       "passiveB": [
         {
           "name": "Renewal 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Renewal 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Renewal 3",
@@ -985,11 +985,15 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 33,
+      "Atk": 29,
+      "Spd": 37,
+      "Def": 19,
+      "Res": 30
+    },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -1028,7 +1032,7 @@
       ],
       "passiveA": [
         {
-          "name": "Attack +1",
+          "name": "Resistance +1",
           "unlock": 5
         },
         {
@@ -1577,11 +1581,14 @@
     "wpnType": "Lance",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 46,
+      "Atk": 36,
+      "Spd": 32,
+      "Def": 24,
+      "Res": 19
+    },
+    "boon": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -2152,11 +2159,14 @@
     "wpnType": "Bow",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 36,
+      "Atk": 35,
+      "Spd": 35,
+      "Def": 19,
+      "Res": 22
+    },
+    "boon": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -6395,11 +6405,18 @@
     "wpnType": "Staff",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 39,
+      "Atk": 28,
+      "Spd": 34,
+      "Def": 23,
+      "Res": 24
+    },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Atk": 4
     },
     "skills": {
       "weapon": [
@@ -6476,8 +6493,7 @@
       "Res": 30
     },
     "boon": {
-      "HP": 4,
-      "Atk": 4
+      "HP": 4
     },
     "bane": {
       "Def": 4,
@@ -6487,15 +6503,15 @@
       "weapon": [
         {
           "name": "Thunder",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Elthunder",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Blárowl",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Blárowl+",
@@ -6505,7 +6521,7 @@
       "assist": [
         {
           "name": "Draw Back",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -6523,11 +6539,11 @@
       "passiveB": [
         {
           "name": "Desperation 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Desperation 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Desperation 3",
@@ -6537,11 +6553,11 @@
       "passiveC": [
         {
           "name": "B Tome Exp. 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "B Tome Exp. 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "B Tome Exp. 3",

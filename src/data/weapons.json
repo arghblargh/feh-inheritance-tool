@@ -76,7 +76,7 @@
     "type": "Tome",
     "cost": 200,
     "might": 8,
-    "effect": "Grants allies within 2 spaces Def/Res+1 through their next actions after any combat this unit initiates.",
+    "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
     "restriction": ""
   },
   "Blessed Bouquet+": {
@@ -300,7 +300,7 @@
     "type": "Bow",
     "cost": 200,
     "might": 8,
-    "effect": "Grants allies within 2 spaces Def/Res+1 through their next actions after any combat this unit initiates. Effective against fliers.",
+    "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.",
     "restriction": ""
   },
   "Cupid Arrow+": {
@@ -500,7 +500,7 @@
     "type": "Lance",
     "cost": 200,
     "might": 10,
-    "effect": "Grants allies within 2 spaces Def/Res+1 through their next actions after any combat this unit initiates.",
+    "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
     "restriction": ""
   },
   "First Bite+": {
