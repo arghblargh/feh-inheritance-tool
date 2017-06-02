@@ -227,6 +227,11 @@
             "effect": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat.",
             "restriction": "Offense"
         },
+        "Grani's Shield": {
+            "cost": "200",
+            "effect": "Neutralizes \"effective against\" bonuses.",
+            "restriction": "Cavalry"
+        },
         "HP +3": {
             "cost": "40",
             "effect": "Grants +3 to max HP.",
@@ -259,7 +264,7 @@
         },
         "Iote's Shield": {
             "cost": "200",
-            "effect": "Neutralizes 'effective against' bonuses.",
+            "effect": "Neutralizes \"effective against\" bonuses.",
             "restriction": "Flying"
         },
         "Life and Death 1": {
@@ -309,7 +314,7 @@
         },
         "Svalinn Shield": {
             "cost": "200",
-            "effect": "Neutralizes 'effective against' bonuses.",
+            "effect": "Neutralizes \"effective against\" bonuses.",
             "restriction": "Armored"
         },
         "Swift Sparrow 1": {

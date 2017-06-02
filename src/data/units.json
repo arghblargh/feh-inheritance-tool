@@ -1317,6 +1317,80 @@
       ]
     }
   },
+  "Camus": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 42,
+      "Atk": 32,
+      "Spd": 33,
+      "Def": 31,
+      "Res": 17
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Gradivus",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Thunder",
+          "unlock": 3
+        },
+        {
+          "name": "Growing Thunder",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Grani's Shield",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 3
+        },
+        {
+          "name": "Goad Cavalry",
+          "unlock": 4
+        }
+      ]
+    }
+  },
   "Catria": {
     "color": "Blue",
     "wpnType": "Lance",

@@ -551,6 +551,14 @@
     "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
     "restriction": "Alfonse"
   },
+  "Gradivus": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "restriction": "Camus"
+  },
   "Gravity": {
     "color": "Neutral",
     "type": "Staff",
