@@ -35,6 +35,9 @@
     "Caeda": {
         "name": "Shiida"
     },
+    "Caeda (Bridal Blessings)": {
+        "name": "Shiida (Vive les mariées)"
+    },
     "Cain": {
         "name": "Cain"
     },
@@ -44,6 +47,9 @@
     "Camilla (Spring Festival)": {
         "name": "Camilla (Festival de printemps)"
     },
+    "Camus": {
+        "name": "Camus"
+    },
     "Catria": {
         "name": "Catria"
     },
@@ -52,6 +58,9 @@
     },
     "Celica": {
         "name": "Celica"
+    },
+    "Charlotte (Bridal Blessings)": {
+        "name": "Charlotte (Vive les mariées)"
     },
     "Cherche": {
         "name": "Zelcher"
@@ -70,6 +79,9 @@
     },
     "Cordelia": {
         "name": "Cordelia"
+    },
+    "Cordelia (Bridal Blessings)": {
+        "name": "Cordelia (Vive les mariées)"
     },
     "Corrin (F)": {
         "name": "Corrin (F)"
@@ -220,6 +232,9 @@
     },
     "Lyn": {
         "name": "Lyn"
+    },
+    "Lyn (Bridal Blessings)": {
+        "name": "Lyn (Vive les mariées)"
     },
     "Mae": {
         "name": "Mae"
@@ -425,6 +440,14 @@
         "effect": "Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée",
         "name": "Lame du Sceau"
     },
+    "Blessed Bouquet": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés situés à 2 cases ou moins pendant un tour.",
+        "name": "Bouquet béni"
+    },
+    "Blessed Bouquet+": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés situés à 2 cases ou moins pendant un tour.",
+        "name": "Bouquet béni+"
+    },
     "Blue Egg": {
         "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
         "name": "Oeuf bleu"
@@ -509,6 +532,10 @@
         "effect": "Si l'unité initie le combat, l'ennemi ciblé ne pourra ensuite se déplacer que d'une case maximum.",
         "name": "Brynhildr"
     },
+    "Candlelight": {
+        "effect": "Après le combat, l'ennemi reçoit un statut qui l'empêche de contre-attaquer.",
+        "name": "Lueur de bougie"
+    },
     "Carrot Axe": {
         "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
         "name": "Hache carotte"
@@ -524,6 +551,14 @@
     "Carrot Lance+": {
         "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
         "name": "Lance carotte+"
+    },
+    "Cupid Arrow": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés à 2 cases ou moins pendant un tour. Efficace contre les unités volantes.",
+        "name": "Flèche cupidon"
+    },
+    "Cupid Arrow+": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés à 2 cases ou moins pendant un tour. Efficace contre les unités volantes.",
+        "name": "Flèche cupidon+"
     },
     "Cymbeline": {
         "effect": "Après avoir initié le combat, l'unité confère Atq +4 aux alliés adjacents pendant un tour.",
@@ -617,6 +652,14 @@
         "effect": "Efficace contre les unités volantes. Les unités et les ennemis ne peuvent pas riposter.",
         "name": "Arc enflammé+"
     },
+    "First Bite": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés situés à 2 cases ou moins pendant un tour.",
+        "name": "1re bouchée"
+    },
+    "First Bite+": {
+        "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés situés à 2 cases ou moins pendant un tour.",
+        "name": "1re bouchée+"
+    },
     "Flametongue": {
         "effect": "",
         "name": "Pyrosouffle"
@@ -636,6 +679,10 @@
     "Fólkvangr": {
         "effect": "Si PV ≤ 50%, confère Atq +5 à l'unité en début de tour.",
         "name": "Fólkvangr"
+    },
+    "Gradivus": {
+        "effect": "L'unité ripose peu importe la distance à laquelle se trouve son assaillant.",
+        "name": "Gradivus"
     },
     "Gravity": {
         "effect": "Après le combat, l'ennemi ne peut se déplacer que d'une seule case jusqu'à la fin de sa phase.",
@@ -1037,6 +1084,10 @@
         "effect": "L'unité se déplace de l'autre côté d'un allié adjacent.",
         "name": "Traversée"
     },
+    "Rally Atk/Spd": {
+        "effect": "Confère Atq/Vit +3 à un allié adjacent jusqu'à la fin de son tour.",
+        "name": "Ralliem. Atq/Vit"
+    },
     "Rally Attack": {
         "effect": "Confère Atq +4 à un allié adjacent jusqu'à la prochaine phase joueur.",
         "name": "Ralliement: Atq"
@@ -1313,6 +1364,14 @@
         "effect": "Confère Atq/Déf +2.",
         "name": "Atq/Déf +2"
     },
+    "Attack/Res +1": {
+        "effect": "Confère Atq/Rés +1.",
+        "name": "Attaque/Rés 1"
+    },
+    "Attack/Res +2": {
+        "effect": "Confère Atq/Rés +2.",
+        "name": "Attaque/Rés 2"
+    },
     "Close Counter": {
         "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
         "name": "Contre rapproché"
@@ -1453,6 +1512,10 @@
         "effect": "Confère Atq/Vit/Déf/Rés +3 à l'unité, mais elle subit 6 dégâts après le combat.",
         "name": "Furie 3"
     },
+    "Grani's Shield": {
+        "effect": "Neutralise l'effet 'efficace contre' conféré par certaines aptitudes.",
+        "name": "Ecu de Grani"
+    },
     "HP +3": {
         "effect": "Les PV max de l'unité augmentent de 3.",
         "name": "PV +3"
@@ -1553,6 +1616,18 @@
         "effect": "Confère Rés +6 à l'unité lorsqu'elle initie le combat.",
         "name": "Coup gardien 3"
     },
+    "Wind Boost 1": {
+        "effect": "Si l'unité à au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Vit +2 pendant le combat.",
+        "name": "Boost vivifiant 1"
+    },
+    "Wind Boost 2": {
+        "effect": "Si l'unité à au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Vit +4 pendant le combat.",
+        "name": "Boost vivifiant 2"
+    },
+    "Wind Boost 3": {
+        "effect": "Si l'unité à au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Vit +6 pendant le combat.",
+        "name": "Boost vivifiant 3"
+    },
     "Axebreaker 1": {
         "effect": "Si PV ≥ 90% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une hache et empêche ce dernier d'en réaliser.",
         "name": "Anti-hache 1"
@@ -1612,6 +1687,18 @@
     "Daggerbreaker 3": {
         "effect": "Si PV ≥ 50% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une dague et empêche ce dernier d'en réaliser.",
         "name": "Anti-dague 3"
+    },
+    "Dazzling Staff 1": {
+        "effect": "Si l'unité à 100% de ses PV au début du combat, l'ennemi ne peut pas contre-attaquer.",
+        "name": "Bâton brillant 1"
+    },
+    "Dazzling Staff 2": {
+        "effect": "Lorsqu'elle initie le combat et si PV ≥ 50%, l'ennemi ne peut pas contre-attaquer.",
+        "name": "Bâton brillant 2"
+    },
+    "Dazzling Staff 3": {
+        "effect": "L'ennemi ne peut pas contre-attaquer.",
+        "name": "Bâton brillant 3"
     },
     "Desperation 1": {
         "effect": "Lorsqu'elle initie le combat et si PV ≤ 25%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.",
