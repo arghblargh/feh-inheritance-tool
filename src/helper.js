@@ -21,60 +21,13 @@
 // SOFTWARE.
 
 import React from 'react';
+import { Dropdown, escapeRegExp, storageAvailable, jsonp } from './utility.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
 const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
-
-// Escape RegExp string
-export function escapeRegExp(str) {
-    // eslint-disable-next-line
-    return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
-}
-
-// HTTP GET
-// function httpGetAsync(theUrl, callback)
-// {
-//     var xmlHttp = new XMLHttpRequest();
-//     xmlHttp.onreadystatechange = function() {
-//         console.info(xmlHttp.readyState, xmlHttp.status);
-//         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-//             callback(xmlHttp.responseText);
-//     }
-//     xmlHttp.open("GET", theUrl, true); // true for asynchronous
-//     xmlHttp.send(null);
-// }
-
-function jsonp(url) {
-    return new Promise(function(resolve, reject) {
-        var callbackName = 'jsonp_callback_' + Math.round(100000 * Math.random());
-
-        var script = document.createElement('script');
-        script.src = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'callback=' + callbackName;
-        document.body.appendChild(script);
-        
-        window[callbackName] = function(data) {
-            delete window[callbackName];
-            document.body.removeChild(script);
-            resolve(data);
-        };
-    });
-}
-
-export function storageAvailable(type) {
-	try {
-		var storage = window[type],
-			x = '__storage_test__';
-		storage.setItem(x, x);
-		storage.removeItem(x);
-		return true;
-	}
-	catch(e) {
-		return false;
-	}
-}
 
 // Load movement icons from file
 export const moveIcon = {
@@ -129,44 +82,6 @@ export const unitPortrait = Object.keys(units).reduce(function(previous, current
     previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_') + '.png');
     return previous;
 }, {});
-
-// Dropdown list React component
-export const Dropdown = React.createClass({
-    propTypes: {
-        id: React.PropTypes.string.isRequired,
-        options: React.PropTypes.array.isRequired,
-        value: React.PropTypes.oneOfType(
-            [
-                React.PropTypes.number,
-                React.PropTypes.string
-            ]
-        ),
-        onChange: React.PropTypes.func
-    },
-
-    render: function() {
-        let self = this;
-        let options = self.props.options.map(function(option) {
-            return (
-                <option key={option} value={option}>
-                    {option}
-                </option>
-            )
-        });
-        return (
-            <select id={this.props.id} 
-                    className='form-control' 
-                    value={this.props.value} 
-                    onChange={this.handleChange}>
-                {options}
-            </select>
-        )
-    },
-
-    handleChange: function(e) {
-        this.props.onChange(e.target.value);
-    }
-});
 
 const userBuildLabel = '----- User Builds -----';
 const wikiBuildLabel = '----- Wiki Builds -----';
@@ -230,7 +145,6 @@ export const BuildManager = React.createClass({
 
     handleLoadClick: function() {
         if (this.state.current !== wikiBuildLabel) {
-            // console.log(this.state.current, this.state.builds[this.state.current]);
             this.props.onLoadClick(this.state.builds[this.state.current]);
         }
     },
@@ -341,14 +255,6 @@ export const BuildManager = React.createClass({
         )
     }
 });
-
-// Hover component
-export const Hover = ({ onHover, children }) => (
-    <div className="hover">
-        <div className="hover__no-hover">{children}</div>
-        <div className="hover__hover">{onHover}</div>
-    </div>
-)
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
