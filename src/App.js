@@ -758,6 +758,8 @@ class InheritanceTool extends Component {
         </div>
         <div>
           <BuildManager unitName={this.state.unitName}
+                        boonBane={this.state.boonBane}
+                        skills={this.state.skills}
                         onLoadClick={this.handleBuildLoad} />
         </div>
       </div>

@@ -168,7 +168,8 @@ export const Dropdown = React.createClass({
     }
 });
 
-const wikiBuildLabel = '----- Wiki Builds -----'
+const userBuildLabel = '----- User Builds -----';
+const wikiBuildLabel = '----- Wiki Builds -----';
 
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
 export const BuildManager = React.createClass({
@@ -178,6 +179,8 @@ export const BuildManager = React.createClass({
 
     getInitialState: function() {
         return {
+            newBuild: false,
+            newBuildName: null,
             link: null,
             builds: {},
             current: wikiBuildLabel
@@ -190,10 +193,39 @@ export const BuildManager = React.createClass({
 
     componentWillReceiveProps: function(props) {
         this.retrieveData(props.unitName);
+
+        this.setState({
+            newBuild: false,
+            newBuildName: null
+        });
     },
 
     handleChange: function(buildName) {
-        this.setState({ current: buildName });
+        this.setState({ 
+            newBuild: false,
+            newBuildName: null,
+            current: buildName 
+        });
+    },
+
+    handleNewClick: function() {
+        if (!this.state.newBuild) {
+            this.setState({
+                newBuild: true
+            });
+        }
+    },
+
+    handleBuildNameChange: function(buildName) {
+        this.setState({ 
+            newBuildName: buildName
+        });
+    },
+
+    handleSaveClick: function() {
+        let builds = this.state.builds;
+
+        // let newBuild = 
     },
 
     handleLoadClick: function() {
@@ -201,6 +233,11 @@ export const BuildManager = React.createClass({
             // console.log(this.state.current, this.state.builds[this.state.current]);
             this.props.onLoadClick(this.state.builds[this.state.current]);
         }
+    },
+
+    loadStorageData: function(unitName) {
+        let builds = storageAvailable('localStorage') && localStorage.userBuilds && JSON.parse(localStorage.userBuilds);
+
     },
 
     retrieveData: function(unitName) {
@@ -289,8 +326,15 @@ export const BuildManager = React.createClass({
         return (
             <div className="build-manager">
                 <div className="select">{buildSelect}</div>
+                {this.state.newBuild &&
+                <div>
+                    <input name="buildName" type="text" placeholder="Enter Build Name" onChange={this.handleBuildNameChange} />
+                </div>
+                }
                 <div className="link"><a href={this.state.link} target="_blank">More Info...</a></div>
                 <div className="buttons">
+                    <button onClick={this.handleNewClick}>New</button>
+                    <button onClick={this.handleSaveClick} disabled={!this.state.newBuild}>Save</button>
                     <button onClick={this.handleLoadClick}>Load</button>
                 </div>
             </div>

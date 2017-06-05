@@ -246,6 +246,19 @@ tr [colSpan="2"] {
   border-bottom: 1px solid black;
 }
 
+.build-manager input {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  transition: box-shadow 0.3s;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
 .build-manager .link {
   margin: 5px;
   padding-top: 4px;
