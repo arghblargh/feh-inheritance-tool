@@ -22,11 +22,11 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, BuildManager, //Hover,
+import { Dropdown, escapeRegExp, storageAvailable } from './utility.js';
+import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills,
-         calcStats, calcCost,
-         escapeRegExp, storageAvailable } from './helper.js';
+         calcStats, calcCost } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
