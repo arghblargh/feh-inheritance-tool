@@ -22,7 +22,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, escapeRegExp, storageAvailable } from './utility.js';
+import { Dropdown, escapeRegExp, storageAvailable, isMobile } from './utility.js';
 import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills,
@@ -207,9 +207,11 @@ class SkillInfoRow extends Component {
         </td>
         {skillDropdown}
         {hasSkillLevel && skillLevel}
+        {!isMobile() &&
         <td className="skill-info-container">
           <div className="skill-effect">{this.props.effect}</div>
         </td>
+        }
         <td className="skill-info-container">
           <div className="skill-inherit">{inheritList}</div>
         </td>
@@ -281,7 +283,7 @@ class SkillInfoTable extends Component {
               <button className="reset-button" onClick={this.handleResetClick}>Reset</button>
             </td>
             <th colSpan="2">Skill</th>
-            <th>Effect</th>
+            {!isMobile() && <th>Effect</th>}
             <th>Inherited From</th>
             <th>SP</th>
           </tr>
@@ -380,7 +382,7 @@ class UnitInfo extends Component {
     let fullWpnType = color + ' ' + wpnType;
     let bOptions = ["", "HP", "ATK", "SPD", "DEF", "RES"];
 
-    if (/Mobile|Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    if (isMobile()) {
       return (
         <div>
           <table id="unitInfoLeft">

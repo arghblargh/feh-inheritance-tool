@@ -44,6 +44,10 @@ export function jsonp(url) {
     });
 }
 
+export function isMobile() {
+    return /Mobile|Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent);
+}
+
 export function storageAvailable(type) {
 	try {
 		var storage = window[type],
