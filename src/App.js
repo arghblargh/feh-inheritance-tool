@@ -207,7 +207,7 @@ class SkillInfoRow extends Component {
         </td>
         {skillDropdown}
         {hasSkillLevel && skillLevel}
-        {!isMobile() &&
+        {!!this.props.showDesc &&
         <td className="skill-info-container">
           <div className="skill-effect">{this.props.effect}</div>
         </td>
@@ -283,7 +283,7 @@ class SkillInfoTable extends Component {
               <button className="reset-button" onClick={this.handleResetClick}>Reset</button>
             </td>
             <th colSpan="2">Skill</th>
-            {!isMobile() && <th>Effect</th>}
+            {!!this.props.showDesc && <th>Effect</th>}
             <th>Inherited From</th>
             <th>SP</th>
           </tr>
@@ -297,6 +297,7 @@ class SkillInfoTable extends Component {
                         inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
                         cost={calcCost(this.props.unitName, this.props.skills.weapon)}
                         usePortraits={this.props.usePortraits}
+                        showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Assist' 
                         skillName={skills.assist}
@@ -306,6 +307,7 @@ class SkillInfoTable extends Component {
                         inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
                         cost={calcCost(this.props.unitName, this.props.skills.assist)}
                         usePortraits={this.props.usePortraits}
+                        showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='Special' 
                         skillName={skills.special}
@@ -315,6 +317,7 @@ class SkillInfoTable extends Component {
                         inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
                         cost={calcCost(this.props.unitName, this.props.skills.special)}
                         usePortraits={this.props.usePortraits}
+                        showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='A' 
                         skillName={skills.passiveA} 
@@ -324,6 +327,7 @@ class SkillInfoTable extends Component {
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
                         cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
                         usePortraits={this.props.usePortraits}
+                        showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='B' 
                         skillName={skills.passiveB} 
@@ -333,6 +337,7 @@ class SkillInfoTable extends Component {
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
                         cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
                         usePortraits={this.props.usePortraits}
+                        showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
           <SkillInfoRow category='C' 
                         skillName={skills.passiveC} 
@@ -342,6 +347,7 @@ class SkillInfoTable extends Component {
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
                         cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
                         usePortraits={this.props.usePortraits}
+                        showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
         </tbody>
       </table>
@@ -526,6 +532,7 @@ class ToggleBox extends Component {
 
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
     this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
+    this.handleSkillEffectToggle = this.handleSkillEffectToggle.bind(this);
   }
 
   handleRawStatsToggle(e) {
@@ -534,6 +541,10 @@ class ToggleBox extends Component {
 
   handlePortraitToggle(e) {
     this.props.onPortraitToggle(e.target.checked);
+  }
+
+  handleSkillEffectToggle(e) {
+    this.props.onSkillEffectToggle(e.target.checked);
   }
 
   render() {
@@ -552,6 +563,12 @@ class ToggleBox extends Component {
                 <label className="toggle">
                   <input type="checkbox" checked={!!this.props.usePortraits} onChange={this.handlePortraitToggle} />
                   <div className="toggle-label noselect">Portraits</div>
+                </label>
+              </td>
+              <td title="Display the Skill Effect column">
+                <label className="toggle">
+                  <input type="checkbox" checked={!!this.props.showDesc} onChange={this.handleSkillEffectToggle} />
+                  <div className="toggle-label noselect">Effects</div>
                 </label>
               </td>
             </tr>
@@ -575,6 +592,7 @@ class InheritanceTool extends Component {
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
     this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
+    this.handleSkillEffectToggle = this.handleSkillEffectToggle.bind(this);
     this.handleBuildLoad = this.handleBuildLoad.bind(this);
   }
 
@@ -590,6 +608,10 @@ class InheritanceTool extends Component {
     let initBoonBane = {"boon":"","bane":""};
     let initStats = calcStats(initUnit, initSkills, initBoonBane);
 
+    let showDesc = true;
+    if (storageAvailable('localStorage') && localStorage.showDesc)
+      showDesc = JSON.parse(localStorage.showDesc);
+
     this.state = {
       unitName: initUnit,
       boonBane: initBoonBane,
@@ -597,7 +619,8 @@ class InheritanceTool extends Component {
       stats: initStats,
       skills: initSkills,
       rawStatsOn: false,
-      usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits)
+      usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits),
+      showDesc: showDesc
     }
   }
 
@@ -710,6 +733,15 @@ class InheritanceTool extends Component {
     });
   }
 
+  handleSkillEffectToggle(isOn) {
+    if (storageAvailable('localStorage')) {
+      localStorage.showDesc = JSON.stringify(isOn);
+    }
+    this.setState({
+      showDesc: isOn
+    });
+  }
+
   handleBuildLoad(build) {
     let newBoonBane = {
       "boon": build.Boon,
@@ -737,8 +769,10 @@ class InheritanceTool extends Component {
       <div className="tool">
         <div className="toggle-box">
           <ToggleBox usePortraits={this.state.usePortraits}
+                     showDesc={this.state.showDesc}
                      onRawStatsToggle={this.handleRawStatsToggle}
-                     onPortraitToggle={this.handlePortraitToggle} />
+                     onPortraitToggle={this.handlePortraitToggle}
+                     onSkillEffectToggle={this.handleSkillEffectToggle} />
         </div>
         <div className="char-info">
           <UnitInfo unitName={this.state.unitName}
@@ -755,6 +789,7 @@ class InheritanceTool extends Component {
                           stats={this.state.stats}
                           skills={this.state.skills}
                           usePortraits={this.state.usePortraits}
+                          showDesc={this.state.showDesc}
                           onSkillSelect={this.handleSkillSelect}
                           onResetClick={this.handleResetClick} />
         </div>
