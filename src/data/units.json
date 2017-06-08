@@ -6840,30 +6840,14 @@
       ],
       "special": [
         {
-          "name": "New Moon",
-          "unlock": 4
-        },
-        {
-          "name": "Luna",
-          "unlock": 4
-        },
-        {
-          "name": "Aether",
-          "unlock": 5
+          "name": "",
+          "unlock": 1
         }
       ],
       "passiveA": [
         {
-          "name": "Defiant Spd 1",
-          "unlock": 4
-        },
-        {
-          "name": "Defiant Spd 2",
-          "unlock": 4
-        },
-        {
-          "name": "Defiant Spd 3",
-          "unlock": 5
+          "name": "",
+          "unlock": 1
         }
       ],
       "passiveB": [
@@ -6874,16 +6858,8 @@
       ],
       "passiveC": [
         {
-          "name": "Spur Atk 1",
-          "unlock": 4
-        },
-        {
-          "name": "Spur Atk 2",
-          "unlock": 4
-        },
-        {
-          "name": "Spur Atk 3",
-          "unlock": 5
+          "name": "",
+          "unlock": 1
         }
       ]
     }
