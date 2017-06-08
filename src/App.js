@@ -608,10 +608,6 @@ class InheritanceTool extends Component {
     let initBoonBane = {"boon":"","bane":""};
     let initStats = calcStats(initUnit, initSkills, initBoonBane);
 
-    let showDesc = true;
-    if (storageAvailable('localStorage') && localStorage.showDesc)
-      showDesc = JSON.parse(localStorage.showDesc);
-
     this.state = {
       unitName: initUnit,
       boonBane: initBoonBane,
@@ -620,7 +616,7 @@ class InheritanceTool extends Component {
       skills: initSkills,
       rawStatsOn: false,
       usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits),
-      showDesc: showDesc
+      showDesc: (storageAvailable('localStorage') && localStorage.showDesc) ? JSON.parse(localStorage.showDesc) : true
     }
   }
 

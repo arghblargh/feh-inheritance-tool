@@ -6802,6 +6802,92 @@
       ]
     }
   },
+  "Marth (Masked)": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 43,
+      "Atk": 34,
+      "Spd": 36,
+      "Def": 25,
+      "Res": 19
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Falchion",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 4
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        },
+        {
+          "name": "Aether",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Defiant Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Defiant Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Defiant Spd 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Atk 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Matthew": {
     "color": "Neutral",
     "wpnType": "Dagger",
