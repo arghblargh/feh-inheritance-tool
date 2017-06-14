@@ -50,7 +50,7 @@
         "restriction": ""
     },
     "Rally Atk/Spd": {
-        "cost": "150",
+        "cost": "300",
         "effect": "Grants Atk/Spd+3 to an adjacent ally until the end of the turn.",
         "restriction": ""
     },

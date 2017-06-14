@@ -425,11 +425,16 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 36,
+      "Atk": 31,
+      "Spd": 38,
+      "Def": 27,
+      "Res": 24
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -5370,11 +5375,14 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 34,
+      "Atk": 32,
+      "Spd": 34,
+      "Def": 15,
+      "Res": 32
+    },
+    "boon": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -6550,11 +6558,15 @@
     "wpnType": "Sword",
     "movType": "Cavalry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 43,
+      "Atk": 34,
+      "Spd": 28,
+      "Def": 30,
+      "Res": 20
+    },
+    "bane": {
+      "Spd": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -9201,11 +9213,17 @@
     "wpnType": "Lance",
     "movType": "Cavalry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 40,
+      "Atk": 31,
+      "Spd": 34,
+      "Def": 25,
+      "Res": 24
+    },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
