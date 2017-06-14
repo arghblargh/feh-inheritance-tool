@@ -495,6 +495,22 @@
     "effect": "Effective against fliers. Unit and enemies cannot use counterattacks.",
     "restriction": ""
   },
+  "Firesweep L": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 11,
+    "effect": "Unit and enemies cannot use counterattacks.",
+    "restriction": ""
+  },
+  "Firesweep L+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 15,
+    "effect": "Unit and enemies cannot use counterattacks.",
+    "restriction": ""
+  },
   "First Bite": {
     "color": "Blue",
     "type": "Lance",

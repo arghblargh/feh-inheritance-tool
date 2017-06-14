@@ -59,6 +59,11 @@
         "effect": "Grants Def+4 to an adjacent ally until the end of the turn.",
         "restriction": ""
     },
+    "Rally Def/Res": {
+        "cost": "300",
+        "effect": "Grants Def/Res+3 to an adjacent ally until the end of the turn.",
+        "restriction": ""
+    },
     "Rally Resistance": {
         "cost": "150",
         "effect": "Grants Res+4 to an adjacent ally until the end of the turn.",

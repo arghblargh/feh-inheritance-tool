@@ -420,6 +420,88 @@
       ]
     }
   },
+  "Athena": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Wo Dao",
+          "unlock": 5
+        },
+        {
+          "name": "Wo Dao+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 5
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Sturdy Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Sturdy Blow 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Sword Exp. 1",
+          "unlock": 5
+        },
+        {
+          "name": "Sword Exp. 2",
+          "unlock": 5
+        },
+        {
+          "name": "Sword Exp. 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Azama": {
     "color": "Neutral",
     "wpnType": "Staff",
@@ -5283,6 +5365,88 @@
       ]
     }
   },
+  "Katarina": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 5
+        },
+        {
+          "name": "Elfire",
+          "unlock": 5
+        },
+        {
+          "name": "Rauðrowl",
+          "unlock": 5
+        },
+        {
+          "name": "Rauðrowl+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Glacies",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Ploy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Atk Ploy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Atk Ploy 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Klein": {
     "color": "Neutral",
     "wpnType": "Bow",
@@ -6377,6 +6541,88 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Luke": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Brave Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Brave Sword+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 5
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fire Boost 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fire Boost 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fire Boost 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Panic Ploy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Panic Ploy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Panic Ploy 3",
+          "unlock": 5
         }
       ]
     }
@@ -8946,6 +9192,80 @@
         {
           "name": "Spur Def 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Roderick": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Firesweep L",
+          "unlock": 5
+        },
+        {
+          "name": "Firesweep L+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense",
+          "unlock": 5
+        },
+        {
+          "name": "Rally Def/Res",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Drag Back",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Def 2",
+          "unlock": 5
         }
       ]
     }

@@ -197,6 +197,21 @@
             "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat.",
             "restriction": ""
         },
+        "Fire Boost 1": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+2 during combat.",
+            "restriction": ""
+        },
+        "Fire Boost 2": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+4 during combat.",
+            "restriction": ""
+        },
+        "Fire Boost 3": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat.",
+            "restriction": ""
+        },
         "Fortress Def 1": {
             "cost": "50",
             "effect": "Grants Def+3. Inflicts Atk-3.",
@@ -312,6 +327,17 @@
             "effect": "Grants Spd +3.",
             "restriction": ""
         },
+        "Sturdy Blow 1": {
+            "cost": "120",
+            "effect": "If unit initiates combat, unit granted Atk/Def+2 during battle.",
+            "require": "Armored Blow 1|Death Blow 1",
+            "restriction": "Offense"
+        },
+        "Sturdy Blow 2": {
+            "cost": "240",
+            "effect": "If unit initiates combat, unit granted Atk/Def+4 during battle.",
+            "restriction": "Offense"
+        },
         "Svalinn Shield": {
             "cost": "200",
             "effect": "Neutralizes \"effective against\" bonuses.",
@@ -319,13 +345,13 @@
         },
         "Swift Sparrow 1": {
             "cost": "120",
-            "effect": "If unit initiates combat, unit granted Atk/Spd+2 during battle",
+            "effect": "If unit initiates combat, unit granted Atk/Spd+2 during battle.",
             "require": "Darting Blow 1|Death Blow 1",
             "restriction": "Offense"
         },
         "Swift Sparrow 2": {
             "cost": "240",
-            "effect": "If unit initiates combat, unit granted Atk/Spd+4 during battle",
+            "effect": "If unit initiates combat, unit granted Atk/Spd+4 during battle.",
             "restriction": "Offense"
         },
         "Triangle Adept 1": {
@@ -842,6 +868,21 @@
         }
     },
     "C": {
+        "Atk Ploy 1": {
+            "cost": "60",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Atk Ploy 2": {
+            "cost": "120",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-4 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Atk Ploy 3": {
+            "cost": "2400",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action.",
+            "restriction": ""
+        },
         "Axe Experience 1": {
             "cost": "30",
             "effect": "If unit survives and uses an axe, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
@@ -900,6 +941,16 @@
         "Breath of Life 3": {
             "cost": "200",
             "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+            "restriction": ""
+        },
+        "Drive Def 1": {
+            "cost": "120",
+            "effect": "Grants allies within 2 spaces Def+2 during combat.",
+            "restriction": ""
+        },
+        "Drive Def 2": {
+            "cost": "240",
+            "effect": "Grants allies within 2 spaces Def+3 during combat.",
             "restriction": ""
         },
         "Fortify Armor": {
@@ -1022,6 +1073,21 @@
             "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn.",
             "restriction": ""
         },
+        "Panic Ploy 1": {
+            "cost": "60",
+            "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action.",
+            "restriction": ""
+        },
+        "Panic Ploy 2": {
+            "cost": "120",
+            "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 3 or more lower than unit through foe's next action.",
+            "restriction": ""
+        },
+        "Panic Ploy 3": {
+            "cost": "240",
+            "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 1 or more lower than unit through foe's next action.",
+            "restriction": ""
+        },
         "Savage Blow 1": {
             "cost": "50",
             "effect": "If unit initiates attack, foes within 2 spaces of target take 3 damage after combat.",
@@ -1107,6 +1173,21 @@
             "cost": "200",
             "effect": "Grants adjacent allies Spd+4 during combat.",
             "restriction": ""
+        },
+        "Sword Exp. 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses a sword, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Sword"
+        },
+        "Sword Exp. 2": {
+            "cost": "60",
+            "effect": "If unit survives, all sword users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Sword"
+        },
+        "Sword Exp. 3": {
+            "cost": "120",
+            "effect": "If unit survives, all sword users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Sword"
         },
         "Threaten Atk 1": {
             "cost": "50",
