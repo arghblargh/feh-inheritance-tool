@@ -295,6 +295,22 @@
     "effect": "If unit initiates attack, unit recovers 4 HP after the battle.",
     "restriction": ""
   },
+  "Clarisse's Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 7,
+    "effect": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.",
+    "restriction": ""
+  },
+  "Clarisse's Bow+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 11,
+    "effect": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.",
+    "restriction": ""
+  },
   "Cupid Arrow": {
     "color": "Neutral",
     "type": "Bow",
@@ -805,6 +821,22 @@
     "cost": 300,
     "might": 11,
     "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Legion's Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "After combat, bonuses on targeted foe become penalties through its next action.",
+    "restriction": ""
+  },
+  "Legion's Axe+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "After combat, bonuses on targeted foe become penalties through its next action.",
     "restriction": ""
   },
   "Light Breath": {

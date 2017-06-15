@@ -2226,6 +2226,88 @@
       ]
     }
   },
+  "Clarisse": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 31,
+      "Spd": 34,
+      "Def": 25,
+      "Res": 20
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Clarisse's Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Clarisse's Bow+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Poison Strike 1",
+          "unlock": 3
+        },
+        {
+          "name": "Poison Strike 2",
+          "unlock": 3
+        },
+        {
+          "name": "Poison Strike 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Def 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Cordelia": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -5700,6 +5782,88 @@
         {
           "name": "Hone Spd 3",
           "unlock": 5
+        }
+      ]
+    }
+  },
+  "Legion": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 46,
+      "Atk": 36,
+      "Spd": 35,
+      "Def": 22,
+      "Res": 18
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Legion's Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Legion's Axe+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Reprisal",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fury 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Obstruct 1",
+          "unlock": 3
+        },
+        {
+          "name": "Obstruct 2",
+          "unlock": 3
+        },
+        {
+          "name": "Obstruct 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
         }
       ]
     }
