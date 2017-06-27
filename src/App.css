@@ -261,7 +261,7 @@ tr [colSpan="2"] {
 @media only screen and (min-device-width: 1024px) {
   .skill-effect {
     display: inline-block;
-    min-width: 34em;
+    min-width: 37em;
     text-align: left;
   }
 
@@ -282,7 +282,7 @@ tr [colSpan="2"] {
   .skill-effect {
     display: inline-block;
     width: 100%;
-    max-width: 34em;
+    max-width: 37em;
     text-align: left;
   }
 

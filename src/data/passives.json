@@ -57,6 +57,21 @@
             "effect": "Enables unit to counterattack regardless of distance to attacker.",
             "restriction": "Ranged"
         },
+        "Close Def 1": {
+            "cost": "60",
+            "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+2 during combat.",
+            "restriction": ""
+        },
+        "Close Def 2": {
+            "cost": "120",
+            "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat.",
+            "restriction": ""
+        },
+        "Close Def 3": {
+            "cost": "240",
+            "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat.",
+            "restriction": ""
+        },
         "Darting Blow 1": {
             "cost": "50",
             "effect": "Grants Spd+2 during combat if unit initiates the attack.",
@@ -260,6 +275,16 @@
         "HP +5": {
             "cost": "160",
             "effect": "Grants +5 to max HP.",
+            "restriction": ""
+        },
+        "HP/Def 1": {
+            "cost": "80",
+            "effect": "Grants HP+3, Def+1.",
+            "restriction": ""
+        },
+        "HP/Def 2": {
+            "cost": "160",
+            "effect": "Grants HP+4, Def+2.",
             "restriction": ""
         },
         "Heavy Blade 1": {
@@ -716,6 +741,17 @@
             "effect": "After combat, foe suffers Atk-7 through its next action.",
             "restriction": "Offense"
         },
+        "Seal Atk/Spd 1": {
+            "cost": "120",
+            "effect": "After combat, inflicts Atk/Spd-3 on foe through its next action.",
+            "require": "Seal Atk 1|Seal Spd 1",
+            "restriction": "Offense"
+        },
+        "Seal Atk/Spd 2": {
+            "cost": "240",
+            "effect": "After combat, inflicts Atk/Spd-5 on foe through its next action.",
+            "restriction": "Offense"
+        },
         "Seal Def 1": {
             "cost": "40",
             "effect": "After combat, foe suffers Def-3 through its next action.",
@@ -898,6 +934,21 @@
             "effect": "If unit survives, all axe users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
             "restriction": "Axe"
         },
+        "Axe Valor 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses an axe, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
+        "Axe Valor 2": {
+            "cost": "60",
+            "effect": "If unit survives, all axe users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
+        "Axe Valor 3": {
+            "cost": "120",
+            "effect": "If unit survives, all axe users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
         "Bow Experience 1": {
             "cost": "30",
             "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
@@ -941,6 +992,21 @@
         "Breath of Life 3": {
             "cost": "200",
             "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+            "restriction": ""
+        },
+        "Def Ploy 1": {
+            "cost": "60",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Def Ploy 2": {
+            "cost": "120",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-4 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Def Ploy 3": {
+            "cost": "2400",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action.",
             "restriction": ""
         },
         "Drive Def 1": {
@@ -1072,6 +1138,21 @@
             "cost": "200",
             "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn.",
             "restriction": ""
+        },
+        "Lance Valor 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses a lance, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Lance"
+        },
+        "Lance Valor 2": {
+            "cost": "60",
+            "effect": "If unit survives, all lance users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Lance"
+        },
+        "Lance Valor 3": {
+            "cost": "120",
+            "effect": "If unit survives, all lance users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Lance"
         },
         "Panic Ploy 1": {
             "cost": "60",

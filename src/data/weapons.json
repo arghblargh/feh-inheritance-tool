@@ -359,6 +359,22 @@
     "effect": "After combat, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, 7 damage to foe after battle.",
     "restriction": "Jaffar"
   },
+  "Deft Harpoon": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 9,
+    "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+    "restriction": ""
+  },
+  "Deft Harpoon+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 13,
+    "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+    "restriction": ""
+  },
   "Dire Thunder": {
     "color": "Blue",
     "type": "Tome",
@@ -871,6 +887,22 @@
     "effect": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count +1)",
     "restriction": ""
   },
+  "Melon Crusher": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 9,
+    "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+    "restriction": ""
+  },
+  "Melon Crusher+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 13,
+    "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+    "restriction": ""
+  },
   "Mystletainn": {
     "color": "Red",
     "type": "Sword",
@@ -1023,6 +1055,22 @@
     "effect": "Effective against cavalry units.",
     "restriction": ""
   },
+  "Refreshing Bolt": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 9,
+    "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
+    "restriction": ""
+  },
+  "Refreshing Bolt+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 13,
+    "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
+    "restriction": ""
+  },
   "Regal Blade": {
     "color": "Red",
     "type": "Sword",
@@ -1101,6 +1149,22 @@
     "cost": 300,
     "might": 12,
     "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+    "restriction": ""
+  },
+  "Seashell": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 9,
+    "effect": "Foe takes Def/Res-5 until end of foe's next action. If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
+    "restriction": ""
+  },
+  "Seashell+": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 13,
+    "effect": "Foe takes Def/Res-7 until end of foe's next action. If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
     "restriction": ""
   },
   "Siegfried": {

@@ -3870,6 +3870,68 @@
       ]
     }
   },
+  "Frederick (Ylissean Summer)": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 5
+        },
+        {
+          "name": "Seashell",
+          "unlock": 5
+        },
+        {
+          "name": "Seashell+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Gaius": {
     "color": "Neutral",
     "wpnType": "Dagger",
@@ -3938,6 +4000,68 @@
         {
           "name": "Pass 3",
           "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
+  "Gaius (Ylissean Summer)": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Refreshing Bolt",
+          "unlock": 5
+        },
+        {
+          "name": "Refreshing Bolt+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
         }
       ],
       "passiveC": [
@@ -9372,6 +9496,76 @@
       ]
     }
   },
+  "Robin (Ylissean Summer)": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Deft Harpoon",
+          "unlock": 5
+        },
+        {
+          "name": "Deft Harpoon+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Lance Valor 1",
+          "unlock": 5
+        },
+        {
+          "name": "Lance Valor 2",
+          "unlock": 5
+        },
+        {
+          "name": "Lance Valor 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Roderick": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -11107,6 +11301,76 @@
         },
         {
           "name": "Spur Res 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Tiki (Ylissean Summer)": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Melon Crusher",
+          "unlock": 5
+        },
+        {
+          "name": "Melon Crusher+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Axe Valor 1",
+          "unlock": 5
+        },
+        {
+          "name": "Axe Valor 2",
+          "unlock": 5
+        },
+        {
+          "name": "Axe Valor 3",
           "unlock": 5
         }
       ]
