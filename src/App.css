@@ -208,17 +208,17 @@ th, td {
   text-align-last: right;
 }
 
-#skillName {
+.skillName {
   float: left;
   width: 13em;
 }
 
-#skillNameSub {
+.skillNameSub {
   float: left;
   width: 10.5em;
 }
 
-#skillLevel {
+.skillLevel {
   margin-left: 0px;
   float: right;
   width: 2.5em;

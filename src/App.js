@@ -74,17 +74,17 @@ class SkillInfoRow extends Component {
     return [...result];
   }
 
-  parseSkillEffect(skill, stats) {
-    if (skill === 'Chilling Wind') {
-      let value = specials[skill].value;
-      value = Math.floor(stats[/(.*):/.exec(value)[1]] * parseFloat(/:(.*)/.exec(value)[1]));
-      //return this.props.effect.replace(/{.*}/, value)
-      let result = /(.*)({.*})(.*)/.exec(this.props.effect).splice(1);
-      result[1] = <b className="skill-effect-value" key={skill}>{value}</b>;
-      return result;
-    }
-    return this.props.effect;
-  }
+  // parseSkillEffect(skill, stats) {
+  //   if (skill === 'Chilling Wind') {
+  //     let value = specials[skill].value;
+  //     value = Math.floor(stats[/(.*):/.exec(value)[1]] * parseFloat(/:(.*)/.exec(value)[1]));
+  //     //return this.props.effect.replace(/{.*}/, value)
+  //     let result = /(.*)({.*})(.*)/.exec(this.props.effect).splice(1);
+  //     result[1] = <b className="skill-effect-value" key={skill}>{value}</b>;
+  //     return result;
+  //   }
+  //   return this.props.effect;
+  // }
 
   formatInheritList() {
     let inheritList = this.props.inheritList;
@@ -173,14 +173,14 @@ class SkillInfoRow extends Component {
       hasSkillLevel = true;
       skillDropdown = 
         <td className="skill-name-sub">
-          <Dropdown id='skillNameSub'
+          <Dropdown addClass='skillNameSub'
                     options={this.props.options}
                     value={/[^1-9]*/.exec(this.props.skillName)[0]}
                     onChange={this.handlePassiveSkillSelect} />
         </td>;
       skillLevel =
         <td className="skill-level">
-          <Dropdown id='skillLevel'
+          <Dropdown addClass='skillLevel'
                     options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0])}
                     value={/[1-9]/.exec(this.props.skillName)[0]}
                     onChange={this.handleSkillLevelSelect} />
@@ -188,7 +188,7 @@ class SkillInfoRow extends Component {
     } else {
       skillDropdown = 
         <td className="skill-name" colSpan="2">
-          <Dropdown id='skillName'
+          <Dropdown addClass='skillName'
                     options={this.props.options}
                     value={this.props.skillName}
                     onChange={/passive/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
