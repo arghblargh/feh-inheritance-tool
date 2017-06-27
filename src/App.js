@@ -401,7 +401,7 @@ class UnitInfo extends Component {
               </tr>
               <tr>
                 <td>
-                  <Dropdown id='unitName'
+                  <Dropdown addClass='unitName'
                             options={Object.keys(units)}
                             value={this.props.unitName}
                             onChange={this.handleUnitSelect} />
@@ -409,7 +409,7 @@ class UnitInfo extends Component {
                 <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
                 <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
                 <td>
-                  <Dropdown id='unitMerge'
+                  <Dropdown addClass='unitMerge'
                             options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
                             value={'+' + this.props.merge}
                             onChange={this.handleMergeSelect} />
@@ -431,13 +431,13 @@ class UnitInfo extends Component {
               </tr>
               <tr>
                 <td>
-                  <Dropdown id='unitBB'
+                  <Dropdown addClass='unitBB'
                             options={bOptions.map(option => { return option ? '+' + option : ""; })}
                             value={'+' + this.props.boonBane.boon.toUpperCase()}
                             onChange={this.handleBoonSelect} />
                 </td>
                 <td>
-                  <Dropdown id='unitBB'
+                  <Dropdown addClass='unitBB'
                             options={bOptions.map(option => { return option ? '-' + option : ""; })}
                             value={'-' + this.props.boonBane.bane.toUpperCase()}
                             onChange={this.handleBaneSelect} />
@@ -481,7 +481,7 @@ class UnitInfo extends Component {
             </tr>
             <tr>
               <td>
-                <Dropdown id='unitName'
+                <Dropdown addClass='unitName'
                           options={Object.keys(units)}
                           value={this.props.unitName}
                           onChange={this.handleUnitSelect} />
@@ -489,19 +489,19 @@ class UnitInfo extends Component {
               <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
               <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
               <td>
-                <Dropdown id='unitMerge'
+                <Dropdown addClass='unitMerge'
                           options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
                           value={'+' + this.props.merge}
                           onChange={this.handleMergeSelect} />
               </td>
               <td>
-                <Dropdown id='unitBB'
+                <Dropdown addClass='unitBB'
                           options={bOptions.map(option => { return option ? '+' + option : ""; })}
                           value={'+' + this.props.boonBane.boon.toUpperCase()}
                           onChange={this.handleBoonSelect} />
               </td>
               <td>
-                <Dropdown id='unitBB'
+                <Dropdown addClass='unitBB'
                           options={bOptions.map(option => { return option ? '-' + option : ""; })}
                           value={'-' + this.props.boonBane.bane.toUpperCase()}
                           onChange={this.handleBaneSelect} />
