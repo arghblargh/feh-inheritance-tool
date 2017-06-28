@@ -363,7 +363,7 @@
     "color": "Blue",
     "type": "Lance",
     "cost": 200,
-    "might": 9,
+    "might": 10,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
     "restriction": ""
   },
@@ -371,7 +371,7 @@
     "color": "Blue",
     "type": "Lance",
     "cost": 300,
-    "might": 13,
+    "might": 14,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
     "restriction": ""
   },
@@ -891,7 +891,7 @@
     "color": "Green",
     "type": "Axe",
     "cost": 200,
-    "might": 9,
+    "might": 10,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
     "restriction": ""
   },
@@ -899,7 +899,7 @@
     "color": "Green",
     "type": "Axe",
     "cost": 300,
-    "might": 13,
+    "might": 14,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
     "restriction": ""
   },
@@ -1059,7 +1059,7 @@
     "color": "Neutral",
     "type": "Bow",
     "cost": 200,
-    "might": 9,
+    "might": 8,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
     "restriction": ""
   },
@@ -1067,7 +1067,7 @@
     "color": "Neutral",
     "type": "Bow",
     "cost": 300,
-    "might": 13,
+    "might": 12,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
     "restriction": ""
   },
@@ -1155,7 +1155,7 @@
     "color": "Neutral",
     "type": "Dagger",
     "cost": 200,
-    "might": 9,
+    "might": 7,
     "effect": "Foe takes Def/Res-5 until end of foe's next action. If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
     "restriction": ""
   },
@@ -1163,7 +1163,7 @@
     "color": "Neutral",
     "type": "Dagger",
     "cost": 300,
-    "might": 13,
+    "might": 10,
     "effect": "Foe takes Def/Res-7 until end of foe's next action. If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
     "restriction": ""
   },

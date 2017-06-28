@@ -198,6 +198,10 @@ th, td {
   padding: 0px 5px;
 }
 
+.skill-name {
+  width: 13em;
+}
+
 .skill-name-sub {
   border-right: none;
 }

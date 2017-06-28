@@ -3902,8 +3902,8 @@
       ],
       "assist": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Ardent Sacrifice",
+          "unlock": 5
         }
       ],
       "special": [
@@ -3914,13 +3914,29 @@
       ],
       "passiveA": [
         {
-          "name": "",
+          "name": "Armored Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Armored Blow 2",
+          "unlock": 5
+        },
+        {
+          "name": "Armored Blow 3",
           "unlock": 5
         }
       ],
       "passiveB": [
         {
-          "name": "",
+          "name": "Seal Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Atk/Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Atk/Spd 2",
           "unlock": 5
         }
       ],
@@ -4048,26 +4064,46 @@
       ],
       "special": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Night Sky",
+          "unlock": 5
+        },
+        {
+          "name": "Astra",
+          "unlock": 5
         }
       ],
       "passiveA": [
         {
           "name": "",
-          "unlock": 5
+          "unlock": 1
         }
       ],
       "passiveB": [
         {
-          "name": "",
+          "name": "Vantage 1",
+          "unlock": 5
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 5
+        },
+        {
+          "name": "Vantage 3",
           "unlock": 5
         }
       ],
       "passiveC": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Def Ploy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Def Ploy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Def Ploy 3",
+          "unlock": 5
         }
       ]
     }
@@ -9408,6 +9444,84 @@
       ]
     }
   },
+  "Robin (F) (Ylissean Summer)": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Deft Harpoon",
+          "unlock": 5
+        },
+        {
+          "name": "Deft Harpoon+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Defense +1",
+          "unlock": 5
+        },
+        {
+          "name": "HP/Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "HP/Def 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Lance Valor 1",
+          "unlock": 5
+        },
+        {
+          "name": "Lance Valor 2",
+          "unlock": 5
+        },
+        {
+          "name": "Lance Valor 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Robin (M)": {
     "color": "Blue",
     "wpnType": "Tome",
@@ -9492,76 +9606,6 @@
         {
           "name": "Spur Def 3",
           "unlock": 4
-        }
-      ]
-    }
-  },
-  "Robin (Ylissean Summer)": {
-    "color": "Blue",
-    "wpnType": "Lance",
-    "movType": "Infantry",
-    "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Lance",
-          "unlock": 5
-        },
-        {
-          "name": "Steel Lance",
-          "unlock": 5
-        },
-        {
-          "name": "Deft Harpoon",
-          "unlock": 5
-        },
-        {
-          "name": "Deft Harpoon+",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Lance Valor 1",
-          "unlock": 5
-        },
-        {
-          "name": "Lance Valor 2",
-          "unlock": 5
-        },
-        {
-          "name": "Lance Valor 3",
-          "unlock": 5
         }
       ]
     }
@@ -11221,7 +11265,7 @@
       ]
     }
   },
-  "Tiki": {
+  "Tiki (Adult)": {
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Infantry",
@@ -11306,7 +11350,7 @@
       ]
     }
   },
-  "Tiki (Ylissean Summer)": {
+  "Tiki (Adult) (Ylissean Summer)": {
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
@@ -11344,20 +11388,32 @@
       ],
       "special": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Daylight",
+          "unlock": 5
+        },
+        {
+          "name": "Sol",
+          "unlock": 5
         }
       ],
       "passiveA": [
         {
-          "name": "",
+          "name": "Close Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Close Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Close Def 3",
           "unlock": 5
         }
       ],
       "passiveB": [
         {
           "name": "",
-          "unlock": 5
+          "unlock": 1
         }
       ],
       "passiveC": [

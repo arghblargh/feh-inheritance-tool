@@ -742,13 +742,13 @@
             "restriction": "Offense"
         },
         "Seal Atk/Spd 1": {
-            "cost": "120",
+            "cost": "80",
             "effect": "After combat, inflicts Atk/Spd-3 on foe through its next action.",
             "require": "Seal Atk 1|Seal Spd 1",
             "restriction": "Offense"
         },
         "Seal Atk/Spd 2": {
-            "cost": "240",
+            "cost": "160",
             "effect": "After combat, inflicts Atk/Spd-5 on foe through its next action.",
             "restriction": "Offense"
         },
@@ -1005,7 +1005,7 @@
             "restriction": ""
         },
         "Def Ploy 3": {
-            "cost": "2400",
+            "cost": "240",
             "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action.",
             "restriction": ""
         },
