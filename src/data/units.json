@@ -3881,6 +3881,11 @@
       "Def": 28,
       "Res": 18
     },
+    "bane": {
+      "HP": 4,
+      "Def": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4036,6 +4041,10 @@
       "Spd": 37,
       "Def": 19,
       "Res": 28
+    },
+    "bane": {
+      "Atk": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -9454,6 +9463,10 @@
       "Spd": 34,
       "Def": 28,
       "Res": 29
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
     },
     "skills": {
       "weapon": [
