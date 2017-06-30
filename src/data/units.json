@@ -440,15 +440,15 @@
       "weapon": [
         {
           "name": "Iron Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Wo Dao",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Wo Dao+",
@@ -464,21 +464,21 @@
       "special": [
         {
           "name": "New Moon",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Moonbow",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "Armored Blow 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sturdy Blow 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sturdy Blow 2",
@@ -494,15 +494,15 @@
       "passiveC": [
         {
           "name": "Sword Exp. 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sword Exp. 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sword Exp. 3",
-          "unlock": 5
+          "unlock": 4
         }
       ]
     }
@@ -9631,15 +9631,15 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Firesweep L",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Firesweep L+",
@@ -9649,11 +9649,11 @@
       "assist": [
         {
           "name": "Rally Defense",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Rally Def/Res",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -9671,17 +9671,17 @@
       "passiveB": [
         {
           "name": "Drag Back",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
           "name": "Spur Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Drive Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Drive Def 2",
