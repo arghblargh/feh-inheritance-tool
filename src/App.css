@@ -199,7 +199,7 @@ th, td {
 }
 
 .skill-name {
-  width: 13em;
+  min-width: 6.5em;
 }
 
 .skill-name-sub {
@@ -210,6 +210,7 @@ th, td {
   border-left: none;
   text-align: right;
   text-align-last: right;
+  min-width: 2em;
 }
 
 .skillName {
