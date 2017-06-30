@@ -3875,11 +3875,11 @@
     "wpnType": "Dagger",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 40,
+      "Atk": 32,
+      "Spd": 31,
+      "Def": 28,
+      "Res": 18
     },
     "skills": {
       "weapon": [
@@ -4031,11 +4031,11 @@
     "wpnType": "Bow",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 34,
+      "Atk": 30,
+      "Spd": 37,
+      "Def": 19,
+      "Res": 28
     },
     "skills": {
       "weapon": [
@@ -9449,11 +9449,11 @@
     "wpnType": "Lance",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 35,
+      "Atk": 32,
+      "Spd": 34,
+      "Def": 28,
+      "Res": 29
     },
     "skills": {
       "weapon": [
@@ -11355,11 +11355,11 @@
     "wpnType": "Axe",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 35,
+      "Atk": 36,
+      "Spd": 30,
+      "Def": 32,
+      "Res": 24
     },
     "skills": {
       "weapon": [
