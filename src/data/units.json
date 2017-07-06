@@ -11616,6 +11616,84 @@
       ]
     }
   },
+  "Tobin": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 46,
+      "Atk": 31,
+      "Spd": 27,
+      "Def": 33,
+      "Res": 26
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Armorslayer",
+          "unlock": 4
+        },
+        {
+          "name": "Armorslayer+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Pivot",
+          "unlock": 4
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 4
+        },
+        {
+          "name": "Attack +2",
+          "unlock": 4
+        },
+        {
+          "name": "Attack +3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Seal Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Seal Spd 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ]
+    }
+  },
   "Ursula": {
     "color": "Blue",
     "wpnType": "Tome",
