@@ -527,7 +527,7 @@
     "effect": "Effective against fliers. Unit and enemies cannot use counterattacks.",
     "restriction": ""
   },
-  "Firesweep L": {
+  "Firesweep Lance": {
     "color": "Blue",
     "type": "Lance",
     "cost": 200,
@@ -535,7 +535,7 @@
     "effect": "Unit and enemies cannot use counterattacks.",
     "restriction": ""
   },
-  "Firesweep L+": {
+  "Firesweep Lance+": {
     "color": "Blue",
     "type": "Lance",
     "cost": 300,

@@ -161,7 +161,7 @@ export const BuildManager = React.createClass({
                     if (/^\s*flexible\s*$/i.test(build[i]))
                         build[i] = '';
                 }
-
+                
                 build.Boon = '';
                 build.Bane = '';
                 neutralStats = calcStats(unitName, skills);

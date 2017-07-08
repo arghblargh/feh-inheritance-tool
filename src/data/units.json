@@ -9651,11 +9651,11 @@
           "unlock": 4
         },
         {
-          "name": "Firesweep L",
+          "name": "Firesweep Lance",
           "unlock": 4
         },
         {
-          "name": "Firesweep L+",
+          "name": "Firesweep Lance+",
           "unlock": 5
         }
       ],
@@ -11621,9 +11621,9 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 46,
-      "Atk": 31,
-      "Spd": 27,
+      "HP": 44,
+      "Atk": 32,
+      "Spd": 29,
       "Def": 33,
       "Res": 26
     },

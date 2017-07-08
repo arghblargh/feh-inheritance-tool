@@ -64,7 +64,8 @@ export function storageAvailable(type) {
 // Dropdown list React component
 export const Dropdown = React.createClass({
     propTypes: {
-        id: React.PropTypes.string.isRequired,
+        id: React.PropTypes.string,
+        addClass: React.PropTypes.string,
         options: React.PropTypes.array.isRequired,
         value: React.PropTypes.oneOfType(
             [
