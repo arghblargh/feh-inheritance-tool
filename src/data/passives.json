@@ -278,22 +278,22 @@
             "restriction": ""
         },
         "HP/Def 1": {
-            "cost": "80",
+            "cost": "100",
             "effect": "Grants HP+3, Def+1.",
             "restriction": ""
         },
         "HP/Def 2": {
-            "cost": "160",
+            "cost": "200",
             "effect": "Grants HP+4, Def+2.",
             "restriction": ""
         },
         "HP/Spd 1": {
-            "cost": "80",
+            "cost": "100",
             "effect": "Grants HP+3, Spd+1.",
             "restriction": ""
         },
         "HP/Spd 2": {
-            "cost": "160",
+            "cost": "200",
             "effect": "Grants HP+4, Spd+2.",
             "restriction": ""
         },
@@ -523,19 +523,19 @@
             "restriction": ""
         },
         "Cancel Affinity 1": {
-            "cost": "60",
+            "cost": "50",
             "effect": "Any weapon triangle affinity granted by unit's skills is negated. Also negates any weapon triangle affinity granted by foe's skills.",
-            "restriction": ""
+            "restriction": "Weapon:SwLADrBDa"
         },
         "Cancel Affinity 2": {
-            "cost": "120",
+            "cost": "100",
             "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is negated.",
-            "restriction": ""
+            "restriction": "Weapon:SwLADrBDa"
         },
         "Cancel Affinity 3": {
-            "cost": "240",
+            "cost": "200",
             "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
-            "restriction": ""
+            "restriction": "Weapon:SwLADrBDa"
         },
         "Daggerbreaker 1": {
             "cost": "50",
@@ -849,19 +849,19 @@
             "restriction": "Offense"
         },
         "Shield Pulse 1": {
-            "cost": "50",
+            "cost": "60",
             "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
-            "restriction": ""
+            "restriction": "Armored|Infantry, Melee"
         },
         "Shield Pulse 2": {
-            "cost": "100",
+            "cost": "120",
             "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
-            "restriction": ""
+            "restriction": "Armored|Infantry, Melee"
         },
         "Shield Pulse 3": {
-            "cost": "200",
+            "cost": "240",
             "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
-            "restriction": ""
+            "restriction": "Armored|Infantry, Melee"
         },
         "Swordbreaker 1": {
             "cost": "50",

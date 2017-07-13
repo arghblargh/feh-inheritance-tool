@@ -2416,20 +2416,32 @@
       ],
       "special": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Buckler",
+          "unlock": 3
+        },
+        {
+          "name": "Escutcheon",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Defense +1",
+          "unlock": 3
+        },
+        {
+          "name": "Defense +2",
+          "unlock": 4
+        },
+        {
+          "name": "Defense +3",
+          "unlock": 5
         }
       ],
       "passiveB": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Hit and Run",
+          "unlock": 3
         }
       ],
       "passiveC": [
@@ -2792,11 +2804,14 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 30,
-      "Atk": 37,
-      "Spd": 33,
-      "Def": 12,
-      "Res": 36
+      "HP": 33,
+      "Atk": 36,
+      "Spd": 34,
+      "Def": 13,
+      "Res": 31
+    },
+    "boon": {
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -4490,11 +4505,14 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 45,
-      "Atk": 37,
-      "Spd": 30,
+      "HP": 43,
+      "Atk": 35,
+      "Spd": 32,
       "Def": 30,
-      "Res": 20
+      "Res": 22
+    },
+    "boon": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -6420,11 +6438,18 @@
     "wpnType": "Bow",
     "movType": "Infantry",
     "stats": {
-      "HP": 38,
-      "Atk": 33,
-      "Spd": 32,
+      "HP": 39,
+      "Atk": 34,
+      "Spd": 30,
       "Def": 30,
       "Res": 15
+    },
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -7831,10 +7856,16 @@
     "movType": "Cavalry",
     "stats": {
       "HP": 35,
-      "Atk": 32,
-      "Spd": 33,
-      "Def": 20,
-      "Res": 33
+      "Atk": 29,
+      "Spd": 32,
+      "Def": 24,
+      "Res": 34
+    },
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4
     },
     "skills": {
       "weapon": [
@@ -10327,11 +10358,14 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 42,
-      "Atk": 29,
+      "HP": 40,
+      "Atk": 31,
       "Spd": 33,
-      "Def": 34,
-      "Res": 19
+      "Def": 32,
+      "Res": 22
+    },
+    "bane": {
+      "HP": 4
     },
     "skills": {
       "weapon": [
@@ -11230,11 +11264,15 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 33,
-      "Atk": 32,
-      "Spd": 34,
-      "Def": 19,
-      "Res": 30
+      "HP": 36,
+      "Atk": 33,
+      "Spd": 31,
+      "Def": 15,
+      "Res": 32
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
     },
     "skills": {
       "weapon": [
@@ -11273,7 +11311,7 @@
       ],
       "passiveA": [
         {
-          "name": "Death Blow 1",
+          "name": "Warding Blow 1",
           "unlock": 5
         },
         {
