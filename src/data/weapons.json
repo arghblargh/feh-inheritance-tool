@@ -335,6 +335,14 @@
     "effect": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.",
     "restriction": "Sanaki"
   },
+  "Dark Aura": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants adjacent allies who use swords, axes, lances, or dragonstones Atk+6 through their actions at the start of each turn.",
+    "restriction": "Delthea"
+  },
   "Dark Breath": {
     "color": "",
     "type": "Dragon",
@@ -350,6 +358,14 @@
     "might": 13,
     "effect": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.",
     "restriction": ""
+  },
+  "Dark Excalibur": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants +10 to damage when Special triggers.",
+    "restriction": "Sonya"
   },
   "Deathly Dagger": {
     "color": "Neutral",
@@ -839,6 +855,14 @@
     "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": ""
   },
+  "Kriemhild": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "",
+    "restriction": "Berkut"
+  },
   "Legion's Axe": {
     "color": "Green",
     "type": "Axe",
@@ -1095,6 +1119,22 @@
     "effect": "",
     "restriction": ""
   },
+  "Ridersbane": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "Effective against cavalry units.",
+    "restriction": ""
+  },
+  "Ridersbane+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "Effective against cavalry units.",
+    "restriction": ""
+  },
   "Rogue Dagger": {
     "color": "Neutral",
     "type": "Dagger",
@@ -1271,6 +1311,38 @@
     "effect": "",
     "restriction": ""
   },
+  "Slaying Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Slaying Bow+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Slaying Edge": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Slaying Edge+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
   "Slow": {
     "color": "Neutral",
     "type": "Staff",
@@ -1398,5 +1470,21 @@
     "might": 16,
     "effect": "Grants Spd+4 during combat if unit initiates attack.",
     "restriction": "Corrin (M)"
+  },
+  "Zanbato": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "Effective against cavalry units.",
+    "restriction": ""
+  },
+  "Zanbato+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "Effective against cavalry units.",
+    "restriction": ""
   }
 }

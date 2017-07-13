@@ -287,6 +287,16 @@
             "effect": "Grants HP+4, Def+2.",
             "restriction": ""
         },
+        "HP/Spd 1": {
+            "cost": "80",
+            "effect": "Grants HP+3, Spd+1.",
+            "restriction": ""
+        },
+        "HP/Spd 2": {
+            "cost": "160",
+            "effect": "Grants HP+4, Spd+2.",
+            "restriction": ""
+        },
         "Heavy Blade 1": {
             "cost": "60",
             "effect": "If unit's Atk - foe's Atk ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
@@ -320,6 +330,17 @@
         "Life and Death 3": {
             "cost": "200",
             "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
+            "restriction": "Offense"
+        },
+        "Mirror Strike 1": {
+            "cost": "120",
+            "effect": "Grants Atk/Res+2 during combat if unit initiates attack.",
+            "require": "Warding Blow 1|Death Blow 1",
+            "restriction": "Offense"
+        },
+        "Mirror Strike 2": {
+            "cost": "240",
+            "effect": "Grants Atk/Res+4 during combat if unit initiates attack.",
             "restriction": "Offense"
         },
         "Resistance +1": {
@@ -484,6 +505,21 @@
         "Brash Assault 3": {
             "cost": "200",
             "effect": "Unit automatically makes a followup when at HP ≤ 50% and attacking a foe that can counter.",
+            "restriction": ""
+        },
+        "Cancel Affinity 1": {
+            "cost": "60",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
+            "restriction": ""
+        },
+        "Cancel Affinity 2": {
+            "cost": "120",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
+            "restriction": ""
+        },
+        "Cancel Affinity 3": {
+            "cost": "240",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
             "restriction": ""
         },
         "Daggerbreaker 1": {
@@ -797,6 +833,21 @@
             "effect": "After combat, foe suffers Spd-7 through its next action.",
             "restriction": "Offense"
         },
+        "Shield Pulse 1": {
+            "cost": "50",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
+            "restriction": ""
+        },
+        "Shield Pulse 2": {
+            "cost": "100",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
+            "restriction": ""
+        },
+        "Shield Pulse 3": {
+            "cost": "200",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
+            "restriction": ""
+        },
         "Swordbreaker 1": {
             "cost": "50",
             "effect": "If unit's HP ≥ 90% in combat against a sword user, unit makes a followup attack and foe cannot.",
@@ -1009,6 +1060,16 @@
             "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action.",
             "restriction": ""
         },
+        "Drive Atk 1": {
+            "cost": "120",
+            "effect": "Grants allies within 2 spaces Atk+2 during combat.",
+            "restriction": ""
+        },
+        "Drive Atk 2": {
+            "cost": "240",
+            "effect": "Grants allies within 2 spaces Atk+3 during combat.",
+            "restriction": ""
+        },
         "Drive Def 1": {
             "cost": "120",
             "effect": "Grants allies within 2 spaces Def+2 during combat.",
@@ -1169,6 +1230,21 @@
             "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 1 or more lower than unit through foe's next action.",
             "restriction": ""
         },
+        "Red Ploy 1": {
+            "cost": "60",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Res Ploy 2": {
+            "cost": "120",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-4 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Res Ploy 3": {
+            "cost": "240",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action.",
+            "restriction": ""
+        },
         "Savage Blow 1": {
             "cost": "50",
             "effect": "If unit initiates attack, foes within 2 spaces of target take 3 damage after combat.",
@@ -1269,6 +1345,21 @@
             "cost": "120",
             "effect": "If unit survives, all sword users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
             "restriction": "Sword"
+        },
+        "Sword Valor 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses a sword, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
+        "Sword Valor 2": {
+            "cost": "60",
+            "effect": "If unit survives, all sword users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
+        "Sword Valor 3": {
+            "cost": "120",
+            "effect": "If unit survives, all sword users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
         },
         "Threaten Atk 1": {
             "cost": "50",
