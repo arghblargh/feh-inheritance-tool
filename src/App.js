@@ -248,8 +248,8 @@ class SkillInfoTable extends Component {
       for (let unit of unitList[rarity]) {
         if (/Alfonse|Anna|Sharena/.test(unit))
           exclude.push(unit);
-        if (RegExp(escapeRegExp(unitName) + '$').test(unit))
-          return '';
+        // if (RegExp(escapeRegExp(unitName) + '$').test(unit))
+        //   return '';
       }
       
       for (let unit of exclude) {
