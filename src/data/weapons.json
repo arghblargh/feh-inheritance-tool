@@ -63,6 +63,22 @@
     "effect": "Restores 5 HP to adjacent allies after any combat this unit initiates.",
     "restriction": "Linde"
   },
+  "Berkut's Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "Grants Res+4 when the unit is under attack.",
+    "restriction": ""
+  },
+  "Berkut's Lance+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "Grants Res+4 when the unit is under attack.",
+    "restriction": ""
+  },
   "Binding Blade": {
     "color": "Red",
     "type": "Sword",

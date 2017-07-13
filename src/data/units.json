@@ -828,11 +828,11 @@
     "wpnType": "Lance",
     "movType": "Cavalry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 40,
+      "Atk": 35,
+      "Spd": 27,
+      "Def": 30,
+      "Res": 23
     },
     "skills": {
       "weapon": [
@@ -845,11 +845,11 @@
           "unlock": 3
         },
         {
-          "name": "Silver Lance",
+          "name": "Berkut's Lance",
           "unlock": 3
         },
         {
-          "name": "Kriemhild",
+          "name": "Berkut's Lance+",
           "unlock": 5
         }
       ],
@@ -867,8 +867,16 @@
       ],
       "passiveA": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Water Boost 1",
+          "unlock": 3
+        },
+        {
+          "name": "Water Boost 2",
+          "unlock": 4
+        },
+        {
+          "name": "Water Boost 3",
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -2784,11 +2792,11 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 30,
+      "Atk": 37,
+      "Spd": 33,
+      "Def": 12,
+      "Res": 36
     },
     "skills": {
       "weapon": [
@@ -4482,11 +4490,11 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 45,
+      "Atk": 37,
+      "Spd": 30,
+      "Def": 30,
+      "Res": 20
     },
     "skills": {
       "weapon": [
@@ -6412,11 +6420,11 @@
     "wpnType": "Bow",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 38,
+      "Atk": 33,
+      "Spd": 32,
+      "Def": 30,
+      "Res": 15
     },
     "skills": {
       "weapon": [
@@ -7822,11 +7830,11 @@
     "wpnType": "Lance",
     "movType": "Cavalry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 35,
+      "Atk": 32,
+      "Spd": 33,
+      "Def": 20,
+      "Res": 33
     },
     "skills": {
       "weapon": [
@@ -10319,11 +10327,11 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 42,
+      "Atk": 29,
+      "Spd": 33,
+      "Def": 34,
+      "Res": 19
     },
     "skills": {
       "weapon": [
@@ -11222,11 +11230,11 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 33,
+      "Atk": 32,
+      "Spd": 34,
+      "Def": 19,
+      "Res": 30
     },
     "skills": {
       "weapon": [

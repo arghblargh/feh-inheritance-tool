@@ -430,6 +430,21 @@
             "effect": "Grants Res+6 during combat if unit initiates attack.",
             "restriction": "Offense"
         },
+        "Water Boost 1": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+2 during combat.",
+            "restriction": ""
+        },
+        "Water Boost 2": {
+            "cost": "100",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+4 during combat.",
+            "restriction": ""
+        },
+        "Water Boost 3": {
+            "cost": "200",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat.",
+            "restriction": ""
+        },
         "Wind Boost 1": {
             "cost": "50",
             "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+2 during combat.",
@@ -509,12 +524,12 @@
         },
         "Cancel Affinity 1": {
             "cost": "60",
-            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. Also negates any weapon triangle affinity granted by foe's skills.",
             "restriction": ""
         },
         "Cancel Affinity 2": {
             "cost": "120",
-            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is negated.",
             "restriction": ""
         },
         "Cancel Affinity 3": {
@@ -1349,17 +1364,17 @@
         "Sword Valor 1": {
             "cost": "30",
             "effect": "If unit survives and uses a sword, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
-            "restriction": "Axe"
+            "restriction": "Sword"
         },
         "Sword Valor 2": {
             "cost": "60",
             "effect": "If unit survives, all sword users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
-            "restriction": "Axe"
+            "restriction": "Sword"
         },
         "Sword Valor 3": {
             "cost": "120",
             "effect": "If unit survives, all sword users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
-            "restriction": "Axe"
+            "restriction": "Sword"
         },
         "Threaten Atk 1": {
             "cost": "50",

@@ -198,10 +198,6 @@ th, td {
   padding: 0px 5px;
 }
 
-.skill-name {
-  min-width: 6.5em;
-}
-
 .skill-name-sub {
   border-right: none;
 }
@@ -263,27 +259,11 @@ tr [colSpan="2"] {
   float: right;
 }
 
-@media only screen and (min-device-width: 1024px) {
-  .skill-effect {
-    display: inline-block;
-    min-width: 37em;
-    text-align: left;
-  }
-
-  .skill-inherit {
-    display: inline-block;
-    min-width: 25em;
-    text-align: left;
-  }
-
-  .skill-cost {
-    display: inline-block;
-    min-width: 2.25em;
-    text-align: center;
-  }
-}
-
 @media only screen and (min-device-width: 320px) {
+  .skill-name {
+    min-width: 6.5em;
+  }
+
   .skill-effect {
     display: inline-block;
     width: 100%;
@@ -302,6 +282,30 @@ tr [colSpan="2"] {
     display: inline-block;
     width: 100%;
     max-width: 2.25em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .skill-name {
+    min-width: 13em;
+  }
+
+  .skill-effect {
+    display: inline-block;
+    min-width: 37em;
+    text-align: left;
+  }
+
+  .skill-inherit {
+    display: inline-block;
+    min-width: 25em;
+    text-align: left;
+  }
+
+  .skill-cost {
+    display: inline-block;
+    min-width: 2.25em;
     text-align: center;
   }
 }
