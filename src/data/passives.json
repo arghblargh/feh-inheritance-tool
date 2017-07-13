@@ -850,12 +850,12 @@
         },
         "Shield Pulse 1": {
             "cost": "60",
-            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-1 at start of turn 1.",
             "restriction": "Armored|Infantry, Melee"
         },
         "Shield Pulse 2": {
             "cost": "120",
-            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-1 at start of turn 1. Unit takes 5 less damage when Special triggers.",
             "restriction": "Armored|Infantry, Melee"
         },
         "Shield Pulse 3": {
