@@ -174,7 +174,7 @@ export const BuildManager = React.createClass({
                     }
                 }
 
-                if (buildName !== '-')
+                if (buildName.length > 0 && buildName !== '-')
                     builds[buildName] = build;
             }
             
