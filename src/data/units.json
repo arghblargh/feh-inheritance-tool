@@ -828,11 +828,11 @@
     "wpnType": "Lance",
     "movType": "Cavalry",
     "stats": {
-      "HP": 40,
-      "Atk": 35,
-      "Spd": 27,
-      "Def": 30,
-      "Res": 23
+      "HP": 43,
+      "Atk": 34,
+      "Spd": 22,
+      "Def": 31,
+      "Res": 24
     },
     "skills": {
       "weapon": [
@@ -2383,11 +2383,11 @@
     "wpnType": "Lance",
     "movType": "Cavalry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 45,
+      "Atk": 33,
+      "Spd": 25,
+      "Def": 32,
+      "Res": 19
     },
     "skills": {
       "weapon": [
