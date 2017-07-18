@@ -861,8 +861,12 @@
       ],
       "special": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Rising Flame",
+          "unlock": 3
+        },
+        {
+          "name": "Blazing Flame",
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -876,7 +880,7 @@
         },
         {
           "name": "Water Boost 3",
-          "unlock": 4
+          "unlock": 5
         }
       ],
       "passiveB": [
@@ -887,8 +891,16 @@
       ],
       "passiveC": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Spur Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Ward Cavalry",
+          "unlock": 4
         }
       ]
     }
