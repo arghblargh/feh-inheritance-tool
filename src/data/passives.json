@@ -57,6 +57,21 @@
             "effect": "Enables unit to counterattack regardless of distance to attacker.",
             "restriction": "Ranged"
         },
+        "Close Def 1": {
+            "cost": "60",
+            "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+2 during combat.",
+            "restriction": ""
+        },
+        "Close Def 2": {
+            "cost": "120",
+            "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat.",
+            "restriction": ""
+        },
+        "Close Def 3": {
+            "cost": "240",
+            "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat.",
+            "restriction": ""
+        },
         "Darting Blow 1": {
             "cost": "50",
             "effect": "Grants Spd+2 during combat if unit initiates the attack.",
@@ -262,6 +277,26 @@
             "effect": "Grants +5 to max HP.",
             "restriction": ""
         },
+        "HP/Def 1": {
+            "cost": "100",
+            "effect": "Grants HP+3, Def+1.",
+            "restriction": ""
+        },
+        "HP/Def 2": {
+            "cost": "200",
+            "effect": "Grants HP+4, Def+2.",
+            "restriction": ""
+        },
+        "HP/Spd 1": {
+            "cost": "100",
+            "effect": "Grants HP+3, Spd+1.",
+            "restriction": ""
+        },
+        "HP/Spd 2": {
+            "cost": "200",
+            "effect": "Grants HP+4, Spd+2.",
+            "restriction": ""
+        },
         "Heavy Blade 1": {
             "cost": "60",
             "effect": "If unit's Atk - foe's Atk ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
@@ -295,6 +330,17 @@
         "Life and Death 3": {
             "cost": "200",
             "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
+            "restriction": "Offense"
+        },
+        "Mirror Strike 1": {
+            "cost": "120",
+            "effect": "Grants Atk/Res+2 during combat if unit initiates attack.",
+            "require": "Warding Blow 1|Death Blow 1",
+            "restriction": "Offense"
+        },
+        "Mirror Strike 2": {
+            "cost": "240",
+            "effect": "Grants Atk/Res+4 during combat if unit initiates attack.",
             "restriction": "Offense"
         },
         "Resistance +1": {
@@ -384,6 +430,21 @@
             "effect": "Grants Res+6 during combat if unit initiates attack.",
             "restriction": "Offense"
         },
+        "Water Boost 1": {
+            "cost": "50",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+2 during combat.",
+            "restriction": ""
+        },
+        "Water Boost 2": {
+            "cost": "100",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+4 during combat.",
+            "restriction": ""
+        },
+        "Water Boost 3": {
+            "cost": "200",
+            "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat.",
+            "restriction": ""
+        },
         "Wind Boost 1": {
             "cost": "50",
             "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+2 during combat.",
@@ -460,6 +521,21 @@
             "cost": "200",
             "effect": "Unit automatically makes a followup when at HP ≤ 50% and attacking a foe that can counter.",
             "restriction": ""
+        },
+        "Cancel Affinity 1": {
+            "cost": "50",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. Also negates any weapon triangle affinity granted by foe's skills.",
+            "restriction": "Weapon:SwLADrBDa"
+        },
+        "Cancel Affinity 2": {
+            "cost": "100",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is negated.",
+            "restriction": "Weapon:SwLADrBDa"
+        },
+        "Cancel Affinity 3": {
+            "cost": "200",
+            "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
+            "restriction": "Weapon:SwLADrBDa"
         },
         "Daggerbreaker 1": {
             "cost": "50",
@@ -716,6 +792,17 @@
             "effect": "After combat, foe suffers Atk-7 through its next action.",
             "restriction": "Offense"
         },
+        "Seal Atk/Spd 1": {
+            "cost": "80",
+            "effect": "After combat, inflicts Atk/Spd-3 on foe through its next action.",
+            "require": "Seal Atk 1|Seal Spd 1",
+            "restriction": "Offense"
+        },
+        "Seal Atk/Spd 2": {
+            "cost": "160",
+            "effect": "After combat, inflicts Atk/Spd-5 on foe through its next action.",
+            "restriction": "Offense"
+        },
         "Seal Def 1": {
             "cost": "40",
             "effect": "After combat, foe suffers Def-3 through its next action.",
@@ -760,6 +847,21 @@
             "cost": "160",
             "effect": "After combat, foe suffers Spd-7 through its next action.",
             "restriction": "Offense"
+        },
+        "Shield Pulse 1": {
+            "cost": "60",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-1 at start of turn 1.",
+            "restriction": "Armored|Infantry, Melee"
+        },
+        "Shield Pulse 2": {
+            "cost": "120",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-1 at start of turn 1. Unit takes 5 less damage when Special triggers.",
+            "restriction": "Armored|Infantry, Melee"
+        },
+        "Shield Pulse 3": {
+            "cost": "240",
+            "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
+            "restriction": "Armored|Infantry, Melee"
         },
         "Swordbreaker 1": {
             "cost": "50",
@@ -898,6 +1000,21 @@
             "effect": "If unit survives, all axe users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
             "restriction": "Axe"
         },
+        "Axe Valor 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses an axe, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
+        "Axe Valor 2": {
+            "cost": "60",
+            "effect": "If unit survives, all axe users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
+        "Axe Valor 3": {
+            "cost": "120",
+            "effect": "If unit survives, all axe users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Axe"
+        },
         "Bow Experience 1": {
             "cost": "30",
             "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
@@ -941,6 +1058,31 @@
         "Breath of Life 3": {
             "cost": "200",
             "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+            "restriction": ""
+        },
+        "Def Ploy 1": {
+            "cost": "60",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Def Ploy 2": {
+            "cost": "120",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-4 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Def Ploy 3": {
+            "cost": "240",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Drive Atk 1": {
+            "cost": "120",
+            "effect": "Grants allies within 2 spaces Atk+2 during combat.",
+            "restriction": ""
+        },
+        "Drive Atk 2": {
+            "cost": "240",
+            "effect": "Grants allies within 2 spaces Atk+3 during combat.",
             "restriction": ""
         },
         "Drive Def 1": {
@@ -1073,6 +1215,21 @@
             "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn.",
             "restriction": ""
         },
+        "Lance Valor 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses a lance, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Lance"
+        },
+        "Lance Valor 2": {
+            "cost": "60",
+            "effect": "If unit survives, all lance users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Lance"
+        },
+        "Lance Valor 3": {
+            "cost": "120",
+            "effect": "If unit survives, all lance users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Lance"
+        },
         "Panic Ploy 1": {
             "cost": "60",
             "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action.",
@@ -1086,6 +1243,21 @@
         "Panic Ploy 3": {
             "cost": "240",
             "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 1 or more lower than unit through foe's next action.",
+            "restriction": ""
+        },
+        "Res Ploy 1": {
+            "cost": "60",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Res Ploy 2": {
+            "cost": "120",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-4 until the end of foe's next action.",
+            "restriction": ""
+        },
+        "Res Ploy 3": {
+            "cost": "240",
+            "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action.",
             "restriction": ""
         },
         "Savage Blow 1": {
@@ -1187,6 +1359,21 @@
         "Sword Exp. 3": {
             "cost": "120",
             "effect": "If unit survives, all sword users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Sword"
+        },
+        "Sword Valor 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses a sword, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Sword"
+        },
+        "Sword Valor 2": {
+            "cost": "60",
+            "effect": "If unit survives, all sword users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Sword"
+        },
+        "Sword Valor 3": {
+            "cost": "120",
+            "effect": "If unit survives, all sword users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
             "restriction": "Sword"
         },
         "Threaten Atk 1": {

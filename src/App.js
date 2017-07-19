@@ -74,17 +74,17 @@ class SkillInfoRow extends Component {
     return [...result];
   }
 
-  parseSkillEffect(skill, stats) {
-    if (skill === 'Chilling Wind') {
-      let value = specials[skill].value;
-      value = Math.floor(stats[/(.*):/.exec(value)[1]] * parseFloat(/:(.*)/.exec(value)[1]));
-      //return this.props.effect.replace(/{.*}/, value)
-      let result = /(.*)({.*})(.*)/.exec(this.props.effect).splice(1);
-      result[1] = <b className="skill-effect-value" key={skill}>{value}</b>;
-      return result;
-    }
-    return this.props.effect;
-  }
+  // parseSkillEffect(skill, stats) {
+  //   if (skill === 'Chilling Wind') {
+  //     let value = specials[skill].value;
+  //     value = Math.floor(stats[/(.*):/.exec(value)[1]] * parseFloat(/:(.*)/.exec(value)[1]));
+  //     //return this.props.effect.replace(/{.*}/, value)
+  //     let result = /(.*)({.*})(.*)/.exec(this.props.effect).splice(1);
+  //     result[1] = <b className="skill-effect-value" key={skill}>{value}</b>;
+  //     return result;
+  //   }
+  //   return this.props.effect;
+  // }
 
   formatInheritList() {
     let inheritList = this.props.inheritList;
@@ -173,14 +173,14 @@ class SkillInfoRow extends Component {
       hasSkillLevel = true;
       skillDropdown = 
         <td className="skill-name-sub">
-          <Dropdown id='skillNameSub'
+          <Dropdown addClass='skillNameSub'
                     options={this.props.options}
                     value={/[^1-9]*/.exec(this.props.skillName)[0]}
                     onChange={this.handlePassiveSkillSelect} />
         </td>;
       skillLevel =
         <td className="skill-level">
-          <Dropdown id='skillLevel'
+          <Dropdown addClass='skillLevel'
                     options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0])}
                     value={/[1-9]/.exec(this.props.skillName)[0]}
                     onChange={this.handleSkillLevelSelect} />
@@ -188,7 +188,7 @@ class SkillInfoRow extends Component {
     } else {
       skillDropdown = 
         <td className="skill-name" colSpan="2">
-          <Dropdown id='skillName'
+          <Dropdown addClass='skillName'
                     options={this.props.options}
                     value={this.props.skillName}
                     onChange={/passive/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
@@ -248,8 +248,8 @@ class SkillInfoTable extends Component {
       for (let unit of unitList[rarity]) {
         if (/Alfonse|Anna|Sharena/.test(unit))
           exclude.push(unit);
-        if (RegExp(escapeRegExp(unitName) + '$').test(unit))
-          return '';
+        // if (RegExp(escapeRegExp(unitName) + '$').test(unit))
+        //   return '';
       }
       
       for (let unit of exclude) {
@@ -401,7 +401,7 @@ class UnitInfo extends Component {
               </tr>
               <tr>
                 <td>
-                  <Dropdown id='unitName'
+                  <Dropdown addClass='unitName'
                             options={Object.keys(units)}
                             value={this.props.unitName}
                             onChange={this.handleUnitSelect} />
@@ -409,7 +409,7 @@ class UnitInfo extends Component {
                 <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
                 <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
                 <td>
-                  <Dropdown id='unitMerge'
+                  <Dropdown addClass='unitMerge'
                             options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
                             value={'+' + this.props.merge}
                             onChange={this.handleMergeSelect} />
@@ -431,13 +431,13 @@ class UnitInfo extends Component {
               </tr>
               <tr>
                 <td>
-                  <Dropdown id='unitBB'
+                  <Dropdown addClass='unitBB'
                             options={bOptions.map(option => { return option ? '+' + option : ""; })}
                             value={'+' + this.props.boonBane.boon.toUpperCase()}
                             onChange={this.handleBoonSelect} />
                 </td>
                 <td>
-                  <Dropdown id='unitBB'
+                  <Dropdown addClass='unitBB'
                             options={bOptions.map(option => { return option ? '-' + option : ""; })}
                             value={'-' + this.props.boonBane.bane.toUpperCase()}
                             onChange={this.handleBaneSelect} />
@@ -481,7 +481,7 @@ class UnitInfo extends Component {
             </tr>
             <tr>
               <td>
-                <Dropdown id='unitName'
+                <Dropdown addClass='unitName'
                           options={Object.keys(units)}
                           value={this.props.unitName}
                           onChange={this.handleUnitSelect} />
@@ -489,19 +489,19 @@ class UnitInfo extends Component {
               <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
               <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
               <td>
-                <Dropdown id='unitMerge'
+                <Dropdown addClass='unitMerge'
                           options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
                           value={'+' + this.props.merge}
                           onChange={this.handleMergeSelect} />
               </td>
               <td>
-                <Dropdown id='unitBB'
+                <Dropdown addClass='unitBB'
                           options={bOptions.map(option => { return option ? '+' + option : ""; })}
                           value={'+' + this.props.boonBane.boon.toUpperCase()}
                           onChange={this.handleBoonSelect} />
               </td>
               <td>
-                <Dropdown id='unitBB'
+                <Dropdown addClass='unitBB'
                           options={bOptions.map(option => { return option ? '-' + option : ""; })}
                           value={'-' + this.props.boonBane.bane.toUpperCase()}
                           onChange={this.handleBaneSelect} />

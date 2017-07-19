@@ -147,7 +147,7 @@ th, td {
   height: 1em;
 }
 
-#unitName {
+.unitName {
   width: 12.5em;
 }
 
@@ -163,7 +163,7 @@ th, td {
   border-bottom: 1px solid black;
 }
 
-#unitBB {
+.unitBB {
   width: 3.9em;
   text-align: center;
   text-align-last: center;
@@ -171,7 +171,7 @@ th, td {
   font-size: 0.875em;
 }
 
-#unitMerge {
+.unitMerge {
   width: 3.5em;
   text-align: center;
   text-align-last: center;
@@ -206,19 +206,20 @@ th, td {
   border-left: none;
   text-align: right;
   text-align-last: right;
+  min-width: 2em;
 }
 
-#skillName {
+.skillName {
   float: left;
   width: 13em;
 }
 
-#skillNameSub {
+.skillNameSub {
   float: left;
   width: 10.5em;
 }
 
-#skillLevel {
+.skillLevel {
   margin-left: 0px;
   float: right;
   width: 2.5em;
@@ -258,31 +259,15 @@ tr [colSpan="2"] {
   float: right;
 }
 
-@media only screen and (min-device-width: 1024px) {
-  .skill-effect {
-    display: inline-block;
-    min-width: 34em;
-    text-align: left;
-  }
-
-  .skill-inherit {
-    display: inline-block;
-    min-width: 25em;
-    text-align: left;
-  }
-
-  .skill-cost {
-    display: inline-block;
-    min-width: 2.25em;
-    text-align: center;
-  }
-}
-
 @media only screen and (min-device-width: 320px) {
+  .skill-name {
+    min-width: 6.5em;
+  }
+
   .skill-effect {
     display: inline-block;
     width: 100%;
-    max-width: 34em;
+    max-width: 37em;
     text-align: left;
   }
 
@@ -297,6 +282,30 @@ tr [colSpan="2"] {
     display: inline-block;
     width: 100%;
     max-width: 2.25em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .skill-name {
+    min-width: 13em;
+  }
+
+  .skill-effect {
+    display: inline-block;
+    min-width: 37em;
+    text-align: left;
+  }
+
+  .skill-inherit {
+    display: inline-block;
+    min-width: 25em;
+    text-align: left;
+  }
+
+  .skill-cost {
+    display: inline-block;
+    min-width: 2.25em;
     text-align: center;
   }
 }
