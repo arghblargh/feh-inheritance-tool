@@ -2727,11 +2727,14 @@
     "wpnType": "Tome",
     "movType": "Flying",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 34,
+      "Atk": 31,
+      "Spd": 34,
+      "Def": 22,
+      "Res": 26
+    },
+    "boon": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -3438,11 +3441,14 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 34,
+      "Atk": 36,
+      "Spd": 34,
+      "Def": 18,
+      "Res": 25
+    },
+    "boon": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
@@ -3477,7 +3483,7 @@
       ],
       "passiveA": [
         {
-          "name": "Resistance +1",
+          "name": "Speed +1",
           "unlock": 5
         },
         {
@@ -6610,11 +6616,18 @@
     "wpnType": "Tome",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 37,
+      "Atk": 32,
+      "Spd": 27,
+      "Def": 16,
+      "Res": 35
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4
+    },
+    "bane": {
+      "Spd": 4
     },
     "skills": {
       "weapon": [
@@ -13011,11 +13024,14 @@
     "wpnType": "Axe",
     "movType": "Infantry",
     "stats": {
-      "HP": 0,
-      "Atk": 0,
-      "Spd": 0,
-      "Def": 0,
-      "Res": 0
+      "HP": 43,
+      "Atk": 32,
+      "Spd": 30,
+      "Def": 36,
+      "Res": 16
+    },
+    "boon": {
+      "Res": 4
     },
     "skills": {
       "weapon": [
