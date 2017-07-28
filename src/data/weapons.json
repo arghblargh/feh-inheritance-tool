@@ -767,6 +767,22 @@
     "effect": "Effective against armored units.",
     "restriction": ""
   },
+  "Hibiscus Tome": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+    "restriction": ""
+  },
+  "Hibiscus Tome+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+    "restriction": ""
+  },
   "Iron Axe": {
     "color": "Green",
     "type": "Axe",
@@ -925,6 +941,22 @@
     "cost": 300,
     "might": 11,
     "effect": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count +1)",
+    "restriction": ""
+  },
+  "Lilith Floatie": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+    "restriction": ""
+  },
+  "Lilith Floatie+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
     "restriction": ""
   },
   "Melon Crusher": {
@@ -1207,6 +1239,22 @@
     "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
     "restriction": ""
   },
+  "Sealife Tome": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+    "restriction": ""
+  },
+  "Sealife Tome+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+    "restriction": ""
+  },
   "Seashell": {
     "color": "Neutral",
     "type": "Dagger",
@@ -1445,6 +1493,22 @@
     "cost": 0,
     "might": 4,
     "effect": "",
+    "restriction": ""
+  },
+  "Tomato Tome": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+    "restriction": ""
+  },
+  "Tomato Tome+": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
     "restriction": ""
   },
   "Tyrfing": {

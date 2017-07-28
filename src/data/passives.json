@@ -358,6 +358,17 @@
             "effect": "Grants Res +3.",
             "restriction": ""
         },
+        "Spd/Res 1": {
+            "cost": "100",
+            "effect": "Grants Spd/Res+1.",
+            "require": "Speed +1|Resistance +1",
+            "restriction": ""
+        },
+        "Spd/Res 2": {
+            "cost": "200",
+            "effect": "Grants Spd/Res+2.",
+            "restriction": ""
+        },
         "Speed +1": {
             "cost": "30",
             "effect": "Grants Spd +1.",
@@ -398,6 +409,17 @@
         "Swift Sparrow 2": {
             "cost": "240",
             "effect": "If unit initiates combat, unit granted Atk/Spd+4 during battle.",
+            "restriction": "Offense"
+        },
+        "Swift Strike 1": {
+            "cost": "120",
+            "effect": "Grants Spd/Res+2 during combat if unit initiates attack.",
+            "require": "Darting Blow 1|Death Blow 1",
+            "restriction": "Offense"
+        },
+        "Swift Strike 2": {
+            "cost": "240",
+            "effect": "Grants Spd/Res+4 during combat if unit initiates attack.",
             "restriction": "Offense"
         },
         "Triangle Adept 1": {
@@ -981,7 +1003,7 @@
             "restriction": ""
         },
         "Atk Ploy 3": {
-            "cost": "2400",
+            "cost": "240",
             "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action.",
             "restriction": ""
         },
@@ -1167,6 +1189,21 @@
             "require": "Spur Atk 2|Spur Spd 2",
             "restriction": "Flying"
         },
+        "G Tome Valor 1": {
+            "cost": "30",
+            "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Tome, Color:G"
+        },
+        "G Tome Valor 2": {
+            "cost": "60",
+            "effect": "If unit survives, all green tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Tome, Color:G"
+        },
+        "G Tome Valor 3": {
+            "cost": "120",
+            "effect": "If unit survives, all green tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+            "restriction": "Tome, Color:G"
+        },
         "Hone Armor": {
             "cost": "200",
             "effect": "Grants adjacent armored allies Atk/Spd+6 through their next actions at the start of each turn.",
@@ -1214,6 +1251,21 @@
             "cost": "200",
             "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn.",
             "restriction": ""
+        },
+        "Infantry Pulse 1": {
+            "cost": "60",
+            "effect": "Special cooldown count-1 at start of turn 1 for any infantry allies with at least 5 fewer HP than unit. (Effects will stack with similar skills.)",
+            "restriction": "Infantry"
+        },
+        "Infantry Pulse 2": {
+            "cost": "120",
+            "effect": "Special cooldown count-1 at start of turn 1 for any infantry allies with at least 3 fewer HP than unit. (Effects will stack with similar skills.)",
+            "restriction": "Infantry"
+        },
+        "Infantry Pulse 3": {
+            "cost": "240",
+            "effect": "Special cooldown count-1 at start of turn 1 for any infantry allies with at least 1 fewer HP than unit. (Effects will stack with similar skills.)",
+            "restriction": "Infantry"
         },
         "Lance Valor 1": {
             "cost": "30",

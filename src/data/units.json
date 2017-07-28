@@ -2722,6 +2722,88 @@
       ]
     }
   },
+  "Corrin (F) (Nohrian Summer)": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Sealife Tome",
+          "unlock": 5
+        },
+        {
+          "name": "Sealife Tome+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 5
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Strike 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Strike 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Fliers",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Corrin (M)": {
     "color": "Red",
     "wpnType": "Sword",
@@ -3347,6 +3429,84 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Elise (Nohrian Summer)": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Hibiscus Tome",
+          "unlock": 5
+        },
+        {
+          "name": "Hibiscus Tome+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Atk/Res",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 5
+        },
+        {
+          "name": "Spd/Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spd/Res 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "G Tome Valor 1",
+          "unlock": 5
+        },
+        {
+          "name": "G Tome Valor 2",
+          "unlock": 5
+        },
+        {
+          "name": "G Tome Valor 3",
+          "unlock": 5
         }
       ]
     }
@@ -6440,6 +6600,88 @@
         },
         {
           "name": "Savage Blow 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Leo (Nohrian Summer)": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 5
+        },
+        {
+          "name": "Elfire",
+          "unlock": 5
+        },
+        {
+          "name": "Tomato Tome",
+          "unlock": 5
+        },
+        {
+          "name": "Tomato Tome+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Res 2",
+          "unlock": 5
+        },
+        {
+          "name": "Seal Res 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Ploy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Atk Ploy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Atk Ploy 3",
           "unlock": 5
         }
       ]
@@ -12677,6 +12919,88 @@
         },
         {
           "name": "Spur Def 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Xander (Nohrian Summer)": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Lilith Floatie",
+          "unlock": 5
+        },
+        {
+          "name": "Lilith Floatie+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 5
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fire Boost 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fire Boost 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fire Boost 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Pulse 1",
+          "unlock": 5
+        },
+        {
+          "name": "Infantry Pulse 2",
+          "unlock": 5
+        },
+        {
+          "name": "Infantry Pulse 3",
           "unlock": 5
         }
       ]

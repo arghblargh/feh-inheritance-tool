@@ -49,6 +49,11 @@
         "effect": "Grants Atk+4 to an adjacent ally until the end of the turn.",
         "restriction": ""
     },
+    "Rally Atk/Res": {
+        "cost": "300",
+        "effect": "Grants Atk/Res+3 to an adjacent ally until the end of the turn.",
+        "restriction": ""
+    },
     "Rally Atk/Spd": {
         "cost": "300",
         "effect": "Grants Atk/Spd+3 to an adjacent ally until the end of the turn.",
