@@ -6764,7 +6764,7 @@
         },
         {
           "name": "Speed +3",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -8196,7 +8196,7 @@
         },
         {
           "name": "Hone Atk 3",
-          "unlock": 5
+          "unlock": 4
         }
       ]
     }
