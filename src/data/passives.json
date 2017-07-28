@@ -414,7 +414,7 @@
         "Swift Strike 1": {
             "cost": "120",
             "effect": "Grants Spd/Res+2 during combat if unit initiates attack.",
-            "require": "Darting Blow 1|Death Blow 1",
+            "require": "Darting Blow 1|Warding Blow 1",
             "restriction": "Offense"
         },
         "Swift Strike 2": {

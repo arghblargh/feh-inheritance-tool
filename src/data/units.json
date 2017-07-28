@@ -2790,11 +2790,11 @@
       ],
       "passiveC": [
         {
-          "name": "Fortify Def 1",
+          "name": "Fortify Res 1",
           "unlock": 5
         },
         {
-          "name": "Fortify Def 2",
+          "name": "Fortify Res 2",
           "unlock": 5
         },
         {
@@ -6619,11 +6619,11 @@
     "skills": {
       "weapon": [
         {
-          "name": "Fire",
+          "name": "FLux",
           "unlock": 5
         },
         {
-          "name": "Elfire",
+          "name": "Ruin",
           "unlock": 5
         },
         {
@@ -6709,15 +6709,15 @@
       "weapon": [
         {
           "name": "Iron Bow",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Bow",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Slaying Bow",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Slaying Bow+",
@@ -6733,21 +6733,21 @@
       "special": [
         {
           "name": "Glowing Ember",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Ignis",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "Speed +1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Speed +2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Speed +3",
@@ -6757,11 +6757,11 @@
       "passiveB": [
         {
           "name": "Guard 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Guard 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Guard 3",
@@ -8125,15 +8125,15 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Ridersbane",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Ridersbane+",
@@ -8143,7 +8143,7 @@
       "assist": [
         {
           "name": "Rally Resistance",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -8161,11 +8161,11 @@
       "passiveB": [
         {
           "name": "Cancel Affinity 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Cancel Affinity 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Cancel Affinity 3",
@@ -8175,11 +8175,11 @@
       "passiveC": [
         {
           "name": "Hone Atk 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Hone Atk 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Hone Atk 3",
@@ -12676,6 +12676,88 @@
         {
           "name": "Threaten Res 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Valter": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Cursed Lance",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Darting Blow 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Panic Ploy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Panic Ploy 2",
+          "unlock": 4
+        },
+        {
+          "name": "Panic Ploy 3",
+          "unlock": 5
         }
       ]
     }

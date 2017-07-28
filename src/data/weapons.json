@@ -343,6 +343,14 @@
     "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.",
     "restriction": ""
   },
+  "Cursed Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk/Spd+2 and accelerates Special trigger (cooldown count-1). Unit takes 4 damage after combat.",
+    "restriction": "Valter"
+  },
   "Cymbeline": {
     "color": "Red",
     "type": "Tome",
