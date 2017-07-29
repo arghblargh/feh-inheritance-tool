@@ -3471,6 +3471,10 @@
       ],
       "assist": [
         {
+          "name": "Rally Attack",
+          "unlock": 5
+        },
+        {
           "name": "Rally Atk/Res",
           "unlock": 5
         }

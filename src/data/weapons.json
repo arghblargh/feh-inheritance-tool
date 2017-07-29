@@ -269,7 +269,7 @@
     "cost": 400,
     "might": 14,
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
-    "restriction": "Leo"
+    "restriction": "Leo [^(]"
   },
   "Candlelight": {
     "color": "Neutral",
