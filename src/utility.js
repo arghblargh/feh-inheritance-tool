@@ -100,6 +100,18 @@ export const Dropdown = React.createClass({
     }
 });
 
+// Text box component
+export const TextBox = React.createClass({
+    render: function() {
+        return (
+            <div id={this.props.id} className="text-box">
+                <span className="title">{this.props.title}</span>
+                <span className="text">{this.props.text}</span>
+            </div>
+        )
+    }
+});
+
 // Hover component
 export const Hover = ({ onHover, children }) => (
     <div className="hover">

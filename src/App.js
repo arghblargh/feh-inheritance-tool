@@ -22,11 +22,11 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, escapeRegExp, storageAvailable, isMobile } from './utility.js';
+import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utility.js';
 import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills,
-         calcStats, calcCost } from './helper.js';
+         calcStats, calcCost, calcTotalCost } from './helper.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -616,7 +616,8 @@ class InheritanceTool extends Component {
       skills: initSkills,
       rawStatsOn: false,
       usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits),
-      showDesc: (storageAvailable('localStorage') && localStorage.showDesc) ? JSON.parse(localStorage.showDesc) : true
+      showDesc: (storageAvailable('localStorage') && localStorage.showDesc) ? JSON.parse(localStorage.showDesc) : true,
+      totalCost: calcTotalCost(initUnit, initSkills)
     }
   }
 
@@ -629,6 +630,7 @@ class InheritanceTool extends Component {
       merge: 0,
       stats: this.state.rawStatsOn ? calcStats(unitName, null) : calcStats(unitName, newSkills),
       skills: newSkills,
+      totalCost: calcTotalCost(unitName, newSkills)
     });
   }
 
@@ -679,22 +681,13 @@ class InheritanceTool extends Component {
       default:
         break;
     }
+
     this.setState({ 
       stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge) 
                                    : calcStats(this.state.unitName, newSkills, this.state.boonBane, this.state.merge),
-      skills: newSkills 
+      skills: newSkills,
+      totalCost: calcTotalCost(this.state.unitName, newSkills)
     });
-
-    /// Temp while I find a place to put it. Logs total SP cost to console.
-    let skillCosts = [calcCost(this.state.unitName, newSkills.weapon),
-                      calcCost(this.state.unitName, newSkills.assist),
-                      calcCost(this.state.unitName, newSkills.special),
-                      calcCost(this.state.unitName, newSkills.passiveA),
-                      calcCost(this.state.unitName, newSkills.passiveB),
-                      calcCost(this.state.unitName, newSkills.passiveC)];
-    
-    console.info('Total SP Cost: ' + skillCosts.reduce((a,b) => { return b ? a + b : a; }));
-    ///
   }
 
   handleResetClick() {
@@ -702,7 +695,8 @@ class InheritanceTool extends Component {
     this.setState({
       stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
                                    : calcStats(this.state.unitName, skills, this.state.boonBane, this.state.merge),
-      skills: skills
+      skills: skills,
+      totalCost: calcTotalCost(this.state.unitName, skills)
     })
   }
 
@@ -757,6 +751,7 @@ class InheritanceTool extends Component {
       skills: newSkills,
       stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, newBoonBane, this.state.merge)
                                    : calcStats(this.state.unitName, newSkills, newBoonBane, this.state.merge),
+      totalCost: calcTotalCost(this.state.unitName, newSkills)
     });
   }
 
@@ -789,9 +784,10 @@ class InheritanceTool extends Component {
                           onSkillSelect={this.handleSkillSelect}
                           onResetClick={this.handleResetClick} />
         </div>
-        <div>
+        <div className="bottom-row">
           <BuildManager unitName={this.state.unitName}
                         onLoadClick={this.handleBuildLoad} />
+          <TextBox id="totalSP" title="Total SP" text={this.state.totalCost} />
         </div>
       </div>
     );

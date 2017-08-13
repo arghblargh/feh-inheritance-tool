@@ -548,3 +548,17 @@ export function calcCost(unit, skill) {
     
     return skillData.cost * 1.5;
 }
+
+// Calculates the total SP costs of a build
+export function calcTotalCost(unit, skills) {
+    let skillCosts = [
+        calcCost(unit, skills.weapon),
+        calcCost(unit, skills.assist),
+        calcCost(unit, skills.special),
+        calcCost(unit, skills.passiveA),
+        calcCost(unit, skills.passiveB),
+        calcCost(unit, skills.passiveC)
+    ];
+
+    return skillCosts.reduce((a,b) => { return b ? a + b : a; });
+}

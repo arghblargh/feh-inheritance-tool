@@ -284,6 +284,18 @@ tr [colSpan="2"] {
     max-width: 2.25em;
     text-align: center;
   }
+  
+  .bottom-row {
+    margin: auto;
+  }
+  
+  .build-manager {
+    width: 320px;
+  }
+  
+  #totalSP {
+    margin: auto;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) {
@@ -307,6 +319,21 @@ tr [colSpan="2"] {
     display: inline-block;
     min-width: 2.25em;
     text-align: center;
+  }
+  
+  .bottom-row {
+    margin: auto;
+    width: 1000px;
+  }
+
+  .build-manager {
+    width: 400px;
+  }
+  
+  #totalSP {
+    position: relative;
+    top: -74px;
+    left: 280px;
   }
 }
 
@@ -380,6 +407,28 @@ tr [colSpan="2"] {
 
 input:checked + .toggle-label {
   background-color: goldenrod;
+}
+
+.text-box {
+  display: block;
+  width: 80px;
+  margin: 10px 5px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 1px #454545;
+}
+.text-box > span {
+  display: block;
+  text-align: center;
+}
+.text-box > span.title {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding: 2px 0px;
+}
+.text-box > span.text {
+  padding: 6px 0px 5px 0px;
+  margin: auto;
+  font-size: 24px;
 }
 
 .hover {
