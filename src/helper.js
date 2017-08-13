@@ -464,7 +464,29 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         if (/Brave|Dire Thunder/.test(skills.weapon)) {
             totalMod = totalMod.map((x,i) => { return x + [0,0,-5,0,0][i]; });
         }
-        if (/HP\s/.test(skills.passiveA)) {
+        if (/^\w+\/\w+\s\+?\d$/.test(skills.passiveA)) {
+            if (/HP/.test(skills.passiveA)) {
+                temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+                totalMod[0] += temp + 2;
+            }
+            if (/Atk|Attack/.test(skills.passiveA)) {
+                temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+                totalMod[1] += temp;
+            }
+            if (/Spd|Speed/.test(skills.passiveA)) {
+                temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+                totalMod[2] += temp;
+            }
+            if (/Def|Defense/.test(skills.passiveA)) {
+                temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+                totalMod[3] += temp;
+            }
+            if (/Res|Resistance/.test(skills.passiveA)) {
+                temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+                totalMod[4] += temp;
+            }
+        } 
+        else if (/HP\s/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * [1,0,0,0,0][i]); })
         } else if (/Attack\s/.test(skills.passiveA)) {
@@ -479,15 +501,6 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         } else if (/Resistance\s/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * [0,0,0,0,1][i]); });
-        } else if (/HP\/Def/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + [temp+2,0,0,temp,0][i]; });
-        } else if (/Attack\/Def/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,0,1,0][i]); });
-        } else if (/Attack\/Res/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,0,0,1][i]); });
         } else if (/Fury/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,1,1,1][i]); });
