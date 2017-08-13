@@ -431,13 +431,13 @@ class UnitInfo extends Component {
               </tr>
               <tr>
                 <td>
-                  <Dropdown addClass='unitBB'
+                  <Dropdown id="boon" addClass='unitBB'
                             options={bOptions.map(option => { return option ? '+' + option : ""; })}
                             value={'+' + this.props.boonBane.boon.toUpperCase()}
                             onChange={this.handleBoonSelect} />
                 </td>
                 <td>
-                  <Dropdown addClass='unitBB'
+                  <Dropdown id="bane" addClass='unitBB'
                             options={bOptions.map(option => { return option ? '-' + option : ""; })}
                             value={'-' + this.props.boonBane.bane.toUpperCase()}
                             onChange={this.handleBaneSelect} />
