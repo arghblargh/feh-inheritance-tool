@@ -242,6 +242,21 @@
       "effect": "Grants Def+5. Inflicts Atk-3.",
       "restriction": ""
     },
+    "Fortress Res 1": {
+      "cost": "50",
+      "effect": "Grants Res+3. Inflicts Atk-3.",
+      "restriction": ""
+    },
+    "Fortress Res 2": {
+      "cost": "100",
+      "effect": "Grants Res+4. Inflicts Atk-3.",
+      "restriction": ""
+    },
+    "Fortress Res 3": {
+      "cost": "200",
+      "effect": "Grants Res+5. Inflicts Atk-3.",
+      "restriction": ""
+    },
     "Fury 1": {
       "cost": "50",
       "effect": "Grants Atk/Spd/Def/Res+1. Unit takes 2 damage after combat.",
@@ -356,6 +371,17 @@
     "Resistance +3": {
       "cost": "120",
       "effect": "Grants Res +3.",
+      "restriction": ""
+    },
+    "Spd/Def 1": {
+      "cost": "100",
+      "effect": "Grants Spd/Def+1.",
+      "require": "Speed +1|Defense +1",
+      "restriction": ""
+    },
+    "Spd/Def 2": {
+      "cost": "200",
+      "effect": "Grants Spd/Def+2.",
       "restriction": ""
     },
     "Spd/Res 1": {
@@ -814,6 +840,17 @@
       "effect": "After combat, foe suffers Atk-7 through its next action.",
       "restriction": "Offense"
     },
+    "Seal Atk/Def 1": {
+      "cost": "80",
+      "effect": "After combat, inflicts Atk/Def-3 on foe through its next action.",
+      "require": "Seal Atk 1|Seal Def 1",
+      "restriction": "Offense"
+    },
+    "Seal Atk/Def 2": {
+      "cost": "160",
+      "effect": "After combat, inflicts Atk/Def-5 on foe through its next action.",
+      "restriction": "Offense"
+    },
     "Seal Atk/Spd 1": {
       "cost": "80",
       "effect": "After combat, inflicts Atk/Spd-3 on foe through its next action.",
@@ -992,6 +1029,21 @@
     }
   },
   "C": {
+    "Armor March 1": {
+      "cost": "60",
+      "effect": "If unit has an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
+      "restriction": "Armored"
+    },
+    "Armor March 2": {
+      "cost": "120",
+      "effect": "If unit has an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
+      "restriction": "Armored"
+    },
+    "Armor March 3": {
+      "cost": "240",
+      "effect": "If unit has an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
+      "restriction": "Armored"
+    },
     "Atk Ploy 1": {
       "cost": "60",
       "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3 until the end of foe's next action.",
@@ -1188,6 +1240,21 @@
       "effect": "Grants flying allies within 2 spaces Spd/Atk+4 during combat.",
       "require": "Spur Atk 2|Spur Spd 2",
       "restriction": "Flying"
+    },
+    "Guidance 1": {
+      "cost": "60",
+      "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": ""
+    },
+    "Guidance 2": {
+      "cost": "120",
+      "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": ""
+    },
+    "Guidance 3": {
+      "cost": "240",
+      "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": ""
     },
     "G Tome Valor 1": {
       "cost": "30",

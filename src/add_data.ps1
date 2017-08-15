@@ -44,11 +44,11 @@ Copy-Property -From $infile.passives.A -To $passives.A
 Copy-Property -From $infile.passives.B -To $passives.B
 Copy-Property -From $infile.passives.C -To $passives.C
 
-$assists | SortObject | ConvertTo-Json | Format-Json | Set-Content data/assists.json
-$specials | SortObject | ConvertTo-Json | Format-Json | Set-Content data/specials.json
-$units | SortObject | ConvertTo-Json | Format-Json | Set-Content data/units.json
-$weapons | SortObject | ConvertTo-Json | Format-Json | Set-Content data/weapons.json
+$assists | SortObject | ConvertTo-Json -Depth 50 | Format-Json | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content data/assists.json
+$specials | SortObject | ConvertTo-Json -Depth 50 | Format-Json | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content data/specials.json
+$units | SortObject | ConvertTo-Json -Depth 50 | Format-Json | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content data/units.json
+$weapons | SortObject | ConvertTo-Json -Depth 50 | Format-Json | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content data/weapons.json
 $passives.A = $passives.A | SortObject
 $passives.B = $passives.B | SortObject
 $passives.C = $passives.C | SortObject
-$passives | SortObject | ConvertTo-Json | Format-Json | Set-Content data/passives.json
+$passives | SortObject | ConvertTo-Json -Depth 50 | Format-Json | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content data/passives.json

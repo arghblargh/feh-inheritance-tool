@@ -112,4 +112,439 @@
 // }
 {
   // Add entries here
+  "units": {
+    "Amelia": {
+      "color": "Green",
+      "wpnType": "Axe",
+      "movType": "Armor",
+      "stats": {
+        "HP": 0,
+        "Atk": 0,
+        "Spd": 0,
+        "Def": 0,
+        "Res": 0
+      },
+      "skills": {
+        "weapon": [
+          {
+            "name": "Iron Axe",
+            "unlock": 5
+          },
+          {
+            "name": "Steel Axe",
+            "unlock": 5
+          },
+          {
+            "name": "Slaying Axe",
+            "unlock": 5
+          },
+          {
+            "name": "Slaying Axe+",
+            "unlock": 5
+          }
+        ],
+        "assist": [
+          {
+            "name": "",
+            "unlock": 1
+          }
+        ],
+        "special": [
+          {
+            "name": "Holy Vestments",
+            "unlock": 5
+          },
+          {
+            "name": "Sacred Cowl",
+            "unlock": 5
+          }
+        ],
+        "passiveA": [
+          {
+            "name": "Earth Boost 1",
+            "unlock": 5
+          },
+          {
+            "name": "Earth Boost 2",
+            "unlock": 5
+          },
+          {
+            "name": "Earth Boost 3",
+            "unlock": 5
+          }
+        ],
+        "passiveB": [
+          {
+          "name": "",
+          "unlock": 5
+          }
+        ],
+        "passiveC": [
+          {
+            "name": "Armor March 1",
+            "unlock": 5
+          },
+          {
+            "name": "Armor March 2",
+            "unlock": 5
+          },
+          {
+            "name": "Armor March 3",
+            "unlock": 5
+          }
+        ]
+      }
+    },
+    "Seth": {
+      "color": "Red",
+      "wpnType": "Sword",
+      "movType": "Cavalry",
+      "stats": {
+        "HP": 0,
+        "Atk": 0,
+        "Spd": 0,
+        "Def": 0,
+        "Res": 0
+      },
+      "skills": {
+        "weapon": [
+          {
+            "name": "Iron Sword",
+            "unlock": 5
+          },
+          {
+            "name": "Steel Sword",
+            "unlock": 5
+          },
+          {
+            "name": "Ruby Sword",
+            "unlock": 5
+          },
+          {
+            "name": "Ruby Sword+",
+            "unlock": 5
+          }
+        ],
+        "assist": [
+          {
+            "name": "Swap",
+            "unlock": 5
+          }
+        ],
+        "special": [
+          {
+            "name": "",
+            "unlock": 1
+          }
+        ],
+        "passiveA": [
+          {
+            "name": "Fortress Def 1",
+            "unlock": 5
+          },
+          {
+            "name": "Fortress Def 2",
+            "unlock": 5
+          },
+          {
+            "name": "Fortress Def 3",
+            "unlock": 5
+          }
+        ],
+        "passiveB": [
+          {
+          "name": "Seal Atk 1",
+          "unlock": 5
+          },
+          {
+          "name": "Seal Atk/Def 1",
+          "unlock": 5
+          },
+          {
+          "name": "Seal Atk/Def 2",
+          "unlock": 5
+          }
+        ],
+        "passiveC": [
+          {
+            "name": "",
+            "unlock": 5
+          }
+        ]
+      }
+    },
+    "Innes": {
+      "color": "Neutral",
+      "wpnType": "Bow",
+      "movType": "Infantry",
+      "stats": {
+        "HP": 0,
+        "Atk": 0,
+        "Spd": 0,
+        "Def": 0,
+        "Res": 0
+      },
+      "skills": {
+        "weapon": [
+          {
+            "name": "Iron Bow",
+            "unlock": 5
+          },
+          {
+            "name": "Steel Bow",
+            "unlock": 5
+          },
+          {
+            "name": "Silver Bow",
+            "unlock": 5
+          },
+          {
+            "name": "Nidhogg",
+            "unlock": 5
+          }
+        ],
+        "assist": [
+          {
+            "name": "",
+            "unlock": 1
+          }
+        ],
+        "special": [
+          {
+            "name": "Chilling Wind",
+            "unlock": 5
+          },
+          {
+            "name": "Iceberg",
+            "unlock": 5
+          }
+        ],
+        "passiveA": [
+          {
+            "name": "Fortress Res 1",
+            "unlock": 5
+          },
+          {
+            "name": "Fortress Res 2",
+            "unlock": 5
+          },
+          {
+            "name": "Fortress Res 3",
+            "unlock": 5
+          }
+        ],
+        "passiveB": [
+          {
+          "name": "Cancel Affinity 1",
+          "unlock": 5
+          },
+          {
+          "name": "Cancel Affinity 2",
+          "unlock": 5
+          },
+          {
+          "name": "Cancel Affinity 3",
+          "unlock": 5
+          }
+        ],
+        "passiveC": [
+          {
+            "name": "",
+            "unlock": 5
+          }
+        ]
+      }
+    },
+    "Tana": {
+      "color": "Blue",
+      "wpnType": "Lance",
+      "movType": "Flying",
+      "stats": {
+        "HP": 0,
+        "Atk": 0,
+        "Spd": 0,
+        "Def": 0,
+        "Res": 0
+      },
+      "skills": {
+        "weapon": [
+          {
+            "name": "Iron Lance",
+            "unlock": 5
+          },
+          {
+            "name": "Steel Lance",
+            "unlock": 5
+          },
+          {
+            "name": "Silver Lance",
+            "unlock": 5
+          },
+          {
+            "name": "Vidofnir",
+            "unlock": 5
+          }
+        ],
+        "assist": [
+          {
+            "name": "",
+            "unlock": 1
+          }
+        ],
+        "special": [
+          {
+            "name": "New Moon",
+            "unlock": 5
+          },
+          {
+            "name": "Moonbow",
+            "unlock": 5
+          }
+        ],
+        "passiveA": [
+          {
+            "name": "Speed +1",
+            "unlock": 5
+          },
+          {
+            "name": "Spd/Def 1",
+            "unlock": 5
+          },
+          {
+            "name": "Spd/Def 2",
+            "unlock": 5
+          }
+        ],
+        "passiveB": [
+          {
+          "name": "",
+          "unlock": 5
+          }
+        ],
+        "passiveC": [
+          {
+            "name": "Guidance 1",
+            "unlock": 5
+          },
+          {
+            "name": "Guidance 2",
+            "unlock": 5
+          },
+          {
+            "name": "Guidance 3",
+            "unlock": 5
+          }
+        ]
+      }
+    }
+  },
+  "weapons": {
+    "Slaying Axe": {
+      "color": "Green",
+      "type": "Axe",
+      "cost": 200,
+      "might": 10,
+      "effect": "Accelerates Special trigger (cooldown count-1).",
+      "restriction": ""
+    },
+    "Slaying Axe+": {
+      "color": "Green",
+      "type": "Axe",
+      "cost": 300,
+      "might": 14,
+      "effect": "Accelerates Special trigger (cooldown count-1).",
+      "restriction": ""
+    },
+    "Nidhogg": {
+      "color": "Neutral",
+      "type": "Bow",
+      "cost": 400,
+      "might": 14,
+      "effect": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+      "restriction": "Innes"
+    },
+    "Vidofnir": {
+      "color": "Blue",
+      "type": "Lance",
+      "cost": 400,
+      "might": 16,
+      "effect": "",
+      "restriction": "Tana"
+    }
+  },
+  "passives": {
+    "A": {
+      "Fortress Res 1": {
+        "cost": "50",
+        "effect": "Grants Res+3. Inflicts Atk-3.",
+        "restriction": ""
+      },
+      "Fortress Res 2": {
+        "cost": "100",
+        "effect": "Grants Res+4. Inflicts Atk-3.",
+        "restriction": ""
+      },
+      "Fortress Res 3": {
+        "cost": "200",
+        "effect": "Grants Res+5. Inflicts Atk-3.",
+        "restriction": ""
+      },
+      "Spd/Def 1": {
+        "cost": "100",
+        "effect": "Grants Spd/Def+1.",
+        "require": "Speed +1|Defense +1",
+        "restriction": ""
+      },
+      "Spd/Def 2": {
+        "cost": "200",
+        "effect": "Grants Spd/Def+2.",
+        "restriction": ""
+      }
+    },
+    "B": {
+      "Seal Atk/Def 1": {
+        "cost": "80",
+        "effect": "After combat, inflicts Atk/Def-3 on foe through its next action.",
+        "require": "Seal Atk 1|Seal Def 1",
+        "restriction": "Offense"
+      },
+      "Seal Atk/Def 2": {
+        "cost": "160",
+        "effect": "After combat, inflicts Atk/Def-5 on foe through its next action.",
+        "restriction": "Offense"
+      }
+    },
+    "C": {
+      "Armor March 1": {
+        "cost": "60",
+        "effect": "If unit has an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
+        "restriction": "Armored"
+      },
+      "Armor March 2": {
+        "cost": "120",
+        "effect": "If unit has an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
+        "restriction": "Armored"
+      },
+      "Armor March 3": {
+        "cost": "240",
+        "effect": "If unit has an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
+        "restriction": "Armored"
+      },
+      "Guidance 1": {
+        "cost": "60",
+        "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+        "restriction": ""
+      },
+      "Guidance 2": {
+        "cost": "120",
+        "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+        "restriction": ""
+      },
+      "Guidance 3": {
+        "cost": "240",
+        "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+        "restriction": ""
+      }
+    }
+  }
 }

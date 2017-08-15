@@ -999,6 +999,14 @@
     "effect": "Grants Def/Res+2 when this unit is attacked.",
     "restriction": "Julia"
   },
+  "Nidhogg": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+    "restriction": "Innes"
+  },
   "Nóatún": {
     "color": "Green",
     "type": "Axe",
@@ -1383,6 +1391,22 @@
     "effect": "",
     "restriction": ""
   },
+  "Slaying Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Slaying Axe+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
   "Slaying Bow": {
     "color": "Neutral",
     "type": "Bow",
@@ -1527,6 +1551,14 @@
     "effect": "Grants Def+4 in battle if unit's HP ≤ 50%.",
     "restriction": "Seliph"
   },
+  "Vidofnir": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit is attacked by foe using sword, axe, or lance, unit receives Def+7 during combat.",
+    "restriction": "Tana"
+  },
   "Wind": {
     "color": "Green",
     "type": "Tome",
@@ -1557,7 +1589,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Spd+4 during combat if unit initiates attack.",
-    "restriction": "Corrin (M)"
+    "restriction": "Corrin|(M)"
   },
   "Zanbato": {
     "color": "Red",
