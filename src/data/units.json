@@ -259,11 +259,11 @@
       "wpnType": "Axe",
       "movType": "Armored",
       "stats": {
-        "HP": 0,
-        "Atk": 0,
-        "Spd": 0,
-        "Def": 0,
-        "Res": 0
+        "HP": 47,
+        "Atk": 34,
+        "Spd": 35,
+        "Def": 35,
+        "Res": 23
       },
       "skills": {
         "weapon": [
@@ -5599,11 +5599,11 @@
       "wpnType": "Bow",
       "movType": "Infantry",
       "stats": {
-        "HP": 0,
-        "Atk": 0,
-        "Spd": 0,
-        "Def": 0,
-        "Res": 0
+        "HP": 35,
+        "Atk": 33,
+        "Spd": 34,
+        "Def": 14,
+        "Res": 31
       },
       "skills": {
         "weapon": [
@@ -11367,11 +11367,11 @@
       "wpnType": "Sword",
       "movType": "Cavalry",
       "stats": {
-        "HP": 0,
-        "Atk": 0,
-        "Spd": 0,
-        "Def": 0,
-        "Res": 0
+        "HP": 37,
+        "Atk": 31,
+        "Spd": 31,
+        "Def": 32,
+        "Res": 22
       },
       "skills": {
         "weapon": [
@@ -12361,11 +12361,11 @@
       "wpnType": "Lance",
       "movType": "Flying",
       "stats": {
-        "HP": 0,
-        "Atk": 0,
-        "Spd": 0,
-        "Def": 0,
-        "Res": 0
+        "HP": 36,
+        "Atk": 34,
+        "Spd": 36,
+        "Def": 25,
+        "Res": 25
       },
       "skills": {
         "weapon": [
@@ -13026,11 +13026,11 @@
       "wpnType": "Lance",
       "movType": "Flying",
       "stats": {
-        "HP": 0,
-        "Atk": 0,
-        "Spd": 0,
-        "Def": 0,
-        "Res": 0
+        "HP": 42,
+        "Atk": 32,
+        "Spd": 31,
+        "Def": 34,
+        "Res": 19
       },
       "skills": {
         "weapon": [
