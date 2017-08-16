@@ -261,9 +261,12 @@
       "stats": {
         "HP": 47,
         "Atk": 34,
-        "Spd": 35,
+        "Spd": 34,
         "Def": 35,
         "Res": 23
+      },
+      "boon": {
+        "Res": 4
       },
       "skills": {
         "weapon": [
@@ -5604,6 +5607,10 @@
         "Spd": 34,
         "Def": 14,
         "Res": 31
+      },
+      "boon": {
+        "HP": 4,
+        "Def": 4
       },
       "skills": {
         "weapon": [
@@ -11368,10 +11375,13 @@
       "movType": "Cavalry",
       "stats": {
         "HP": 37,
-        "Atk": 31,
+        "Atk": 32,
         "Spd": 31,
         "Def": 32,
         "Res": 22
+      },
+      "boon": {
+        "HP": 4
       },
       "skills": {
         "weapon": [
@@ -12366,6 +12376,11 @@
         "Spd": 36,
         "Def": 25,
         "Res": 25
+      },
+      "boon": {
+        "HP": 4,
+        "Def": 4,
+        "Res": 4
       },
       "skills": {
         "weapon": [
