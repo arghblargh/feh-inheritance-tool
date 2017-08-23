@@ -463,6 +463,8 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         // Add stats from skills
         if (/Brave|Dire Thunder/.test(skills.weapon)) {
             totalMod = totalMod.map((x,i) => { return x + [0,0,-5,0,0][i]; });
+        } else if (/Cursed Lance/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,2,2,0,0][i]; });
         }
         if (/^\w+\/\w+\s\+?\d$/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
@@ -497,6 +499,9 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         } else if (/Fortress Def/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + [0,-3,0,temp+2,0][i]; });
+        } else if (/Fortress Res/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + [0,-3,0,0,temp+2][i]; });
         }
     }
 
