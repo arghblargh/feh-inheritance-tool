@@ -115,15 +115,14 @@ th, td {
 
 #unitInfoRight {
   display: inline-block;
-  height: 4.8125em;
 }
 
 #unitInfoRight th {
-  height: 1.625em;
+  height: 28px;
 }
 
 #unitInfoRight td {
-  height: 3em;
+  height: 42px;
 }
 
 .unit-portrait {
@@ -178,7 +177,6 @@ th, td {
 
 .unit-stat {
   width: 2.5em;
-  height: 1.25em;
 }
 
 .unit-BST {
