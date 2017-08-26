@@ -136,6 +136,10 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 
+.skill-info tr:last-of-type {
+  border-bottom: none;
+}
+
 .char-info td:last-of-type {
   font-weight: 600;
 }
