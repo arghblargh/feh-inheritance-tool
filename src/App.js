@@ -279,9 +279,9 @@ class SkillInfoTable extends Component {
       <table>
         <thead>
           <tr className="skill-header">
-            <td className="reset-button-cell">
+            <th className="reset-button-cell">
               <button className="reset-button" onClick={this.handleResetClick}>Reset</button>
-            </td>
+            </th>
             <th colSpan="2" className="dropdown-header text-left">Skill</th>
             {!!this.props.showDesc && <th className="text-left">Effect</th>}
             <th className="text-left">Inherited From</th>
