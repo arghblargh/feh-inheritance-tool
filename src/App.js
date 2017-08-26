@@ -282,9 +282,9 @@ class SkillInfoTable extends Component {
             <td className="reset-button-cell">
               <button className="reset-button" onClick={this.handleResetClick}>Reset</button>
             </td>
-            <th colSpan="2">Skill</th>
-            {!!this.props.showDesc && <th>Effect</th>}
-            <th>Inherited From</th>
+            <th colSpan="2" className="dropdown-header text-left">Skill</th>
+            {!!this.props.showDesc && <th className="text-left">Effect</th>}
+            <th className="text-left">Inherited From</th>
             <th>SP</th>
           </tr>
         </thead>
@@ -386,7 +386,7 @@ class UnitInfo extends Component {
     let wpnType = units[name].wpnType;
     let movType = units[name].movType;
     let fullWpnType = color + ' ' + wpnType;
-    let bOptions = ["", "HP", "ATK", "SPD", "DEF", "RES"];
+    let bOptions = ["", "HP", "Atk", "Spd", "Def", "Res"];
 
     if (isMobile()) {
       return (
@@ -395,7 +395,7 @@ class UnitInfo extends Component {
             <tbody>
               <tr>
                 <td rowSpan="2"><img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
-                <th className="unit-name">Name</th>
+                <th className="unit-name text-left dropdown-header">Name</th>
                 <th className="unit-type" colSpan="2">Type</th>
                 <th className="unit-merge">Merge</th>
               </tr>
@@ -423,23 +423,23 @@ class UnitInfo extends Component {
                 <th className="unit-bb">Boon</th>
                 <th className="unit-bb">Bane</th>
                 <th className="unit-stat">HP</th>
-                <th className="unit-stat">ATK</th>
-                <th className="unit-stat">SPD</th>
-                <th className="unit-stat">DEF</th>
-                <th className="unit-stat">RES</th>
+                <th className="unit-stat">Atk</th>
+                <th className="unit-stat">Spd</th>
+                <th className="unit-stat">Def</th>
+                <th className="unit-stat">Res</th>
                 <th className="unit-BST">Total</th>
               </tr>
               <tr>
                 <td>
                   <Dropdown id="boon" addClass="unitBB"
                             options={bOptions.map(option => { return option ? '+' + option : ""; })}
-                            value={'+' + this.props.boonBane.boon.toUpperCase()}
+                            value={'+' + this.props.boonBane.boon}
                             onChange={this.handleBoonSelect} />
                 </td>
                 <td>
                   <Dropdown id="bane" addClass="unitBB"
                             options={bOptions.map(option => { return option ? '-' + option : ""; })}
-                            value={'-' + this.props.boonBane.bane.toUpperCase()}
+                            value={'-' + this.props.boonBane.bane}
                             onChange={this.handleBaneSelect} />
                 </td>
                 <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
@@ -467,16 +467,16 @@ class UnitInfo extends Component {
           <tbody>
             <tr>
               <td rowSpan="2"><img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
-              <th className="unit-name">Name</th>
+              <th className="unit-name text-left dropdown-header">Name</th>
               <th className="unit-type" colSpan="2">Type</th>
               <th className="unit-merge">Merge</th>
               <th className="unit-bb">Boon</th>
               <th className="unit-bb">Bane</th>
               <th className="unit-stat">HP</th>
-              <th className="unit-stat">ATK</th>
-              <th className="unit-stat">SPD</th>
-              <th className="unit-stat">DEF</th>
-              <th className="unit-stat">RES</th>
+              <th className="unit-stat">Atk</th>
+              <th className="unit-stat">Spd</th>
+              <th className="unit-stat">Def</th>
+              <th className="unit-stat">Res</th>
               <th className="unit-BST">Total</th>
             </tr>
             <tr>
@@ -497,13 +497,13 @@ class UnitInfo extends Component {
               <td>
                 <Dropdown id="boon" addClass="unitBB"
                           options={bOptions.map(option => { return option ? '+' + option : ""; })}
-                          value={'+' + this.props.boonBane.boon.toUpperCase()}
+                          value={'+' + this.props.boonBane.boon}
                           onChange={this.handleBoonSelect} />
               </td>
               <td>
                 <Dropdown id="bane" addClass="unitBB"
                           options={bOptions.map(option => { return option ? '-' + option : ""; })}
-                          value={'-' + this.props.boonBane.bane.toUpperCase()}
+                          value={'-' + this.props.boonBane.bane}
                           onChange={this.handleBaneSelect} />
               </td>
               <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
@@ -799,11 +799,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>
-            Fire Emblem: Heroes
+          <span>
+            <span className="header">Fire Emblem: Heroes</span>
             <br />
             <span className="sub-header">Skill Inheritance Tool</span>
-          </h1>
+          </span>
         </div>
         <InheritanceTool />
         <div id="footer">

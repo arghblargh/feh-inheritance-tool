@@ -3,14 +3,21 @@
 	margin: 0px auto;
   text-align: center;
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-header {
-  padding: 1.25em;
+  font-family: 'Cabin', sans-serif;
+  padding: 2em;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .sub-header {
-  font-size: 0.7em;
+  font-size: 24px;
 }
 
 #footer {
@@ -70,7 +77,13 @@ select.form-control {
   outline: none;
   width: 100%;
   height: 1.875em;
+  cursor: pointer;
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+select.form-control:hover {
+  box-shadow: 0px 0px 1px black;
 }
 
 #BuildSelect {
@@ -83,8 +96,10 @@ select.form-control {
 }
 
 .reset-button {
+  visibility: hidden;
   background-color: #ffd966;
   border: none;
+  border-radius: 5px;
   outline: none;
   color: black;
   text-align: center;
@@ -105,23 +120,33 @@ select.form-control {
 table {
   margin: auto;
   border-collapse: collapse;
-  box-shadow: 0px 0px 1px #454545;
+  /* box-shadow: 0px 0px 1px #454545; */
+}
+
+th {
+  font-weight: normal;
+  border-bottom: 1px solid black;
 }
 
 th, td {
-  border: 1px solid #0f0f0f;
-  padding: 0px;
+  padding: 2px 2px;
+}
+
+.skill-info tr {
+  border-bottom: 1px solid black;
+}
+
+.char-info td:last-of-type {
+  font-weight: 600;
 }
 
 #unitInfoLeft {
   display: inline-block;
-  box-shadow: 0px 0px 1px #454545,
 }
 
 #unitInfoRight {
   display: inline-block;
   height: 4.8125em;
-  box-shadow: 0px 0px 1px #454545;
 }
 
 #unitInfoRight th {
@@ -134,11 +159,14 @@ th, td {
 
 .unit-portrait {
   display: block;
+  border: 1px solid black;
+  margin-right: 10px;
 }
 
 .unit-portrait-small {
   display: inline-block;
-  height: 2.2em;
+  height: 2.3em;
+  padding-right: 1px;
 }
 
 .rarity-icon {
@@ -158,15 +186,12 @@ th, td {
   width: 1.875em;
   height: 1.875em;
   padding: 5px 1px 1px;
-  border: none;
-  border-bottom: 1px solid black;
 }
 
 .unitBB {
   width: 3.9em;
   text-align: center;
   text-align-last: center;
-  font-family: "Lucida Console", Monaco, monospace;
   font-size: 0.875em;
 }
 
@@ -174,6 +199,10 @@ th, td {
   width: 3.5em;
   text-align: center;
   text-align-last: center;
+}
+
+.unit-bb, .unit-merge {
+  width: 3.75em;
 }
 
 .unit-stat {
@@ -191,10 +220,12 @@ th, td {
 
 .skill-type {
   width: 3.125em;
-  height: 2.5em;
+  height: 3em;
   text-align: center;
-  font-weight: bold;
   padding: 0px 5px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .skill-name-sub {
@@ -224,10 +255,6 @@ th, td {
   width: 2.5em;
 }
 
-tr [colSpan="2"] {
-  text-align: center;
-}
-
 .skill-info-container {
   height: 2.5em;
   padding: 2px;
@@ -237,8 +264,6 @@ tr [colSpan="2"] {
   display: inline-block;
   margin: 10px 5px;
   width: 400px;
-  border: 1px solid black;
-  box-shadow: 0px 0px 1px #454545;
 }
 
 .build-manager .select {
@@ -254,8 +279,21 @@ tr [colSpan="2"] {
 }
 
 .build-manager .buttons {
-  margin: 5px 5px;
+  margin: 7px 7px;
   float: right;
+}
+
+.build-manager .buttons button {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #eee;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.build-manager button:hover {
+  background-color: #ccc;
 }
 
 @media only screen and (min-device-width: 320px) {
@@ -331,7 +369,7 @@ tr [colSpan="2"] {
   
   #totalSP {
     position: relative;
-    top: -74px;
+    top: -73px;
     left: 280px;
   }
 }
@@ -401,26 +439,48 @@ tr [colSpan="2"] {
 .toggle-label {
   cursor: pointer;
   text-align: center;
+  color: #BBB;
+  border-bottom: 1px solid #BBB;
+  margin: 0px 2px;
+  padding: 2px 2px;
+  width: 80px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.toggle-label:hover {
+  color: black;
   background-color: #eee;
 }
 
 input:checked + .toggle-label {
-  background-color: goldenrod;
+  color: #866EFF;
+  border-bottom: 1px solid #866EFF;
+}
+
+input:checked + .toggle-label:hover {
+  color: black;
+  background-color: #DED9FF;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.dropdown-header {
+  padding-left: 6px;
 }
 
 .text-box {
   display: block;
   width: 80px;
   margin: 10px 5px;
-  border: 1px solid black;
-  box-shadow: 0px 0px 1px #454545;
 }
 .text-box > span {
   display: block;
   text-align: center;
 }
 .text-box > span.title {
-  font-weight: bold;
   border-bottom: 1px solid black;
   padding: 2px 0px;
 }
