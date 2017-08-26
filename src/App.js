@@ -227,15 +227,10 @@ class SkillInfoTable extends Component {
   constructor(props) {
     super(props);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
-    this.handleResetClick = this.handleResetClick.bind(this);
   }
 
   handleSkillSelect(skillName, skillType) {
     this.props.onSkillSelect(skillName, skillType);
-  }
-
-  handleResetClick() {
-    this.props.onResetClick();
   }
 
   getInheritList(unitName, skill, type) {
@@ -279,9 +274,7 @@ class SkillInfoTable extends Component {
       <table>
         <thead>
           <tr className="skill-header">
-            <th className="reset-button-cell">
-              <button className="reset-button" onClick={this.handleResetClick}>Reset</button>
-            </th>
+            <th className="reset-button-cell"></th>
             <th colSpan="2" className="dropdown-header text-left">Skill</th>
             {!!this.props.showDesc && <th className="text-left">Effect</th>}
             <th className="text-left">Inherited From</th>
@@ -530,9 +523,14 @@ class ToggleBox extends Component {
   constructor(props) {
     super(props);
 
+    this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
     this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
     this.handleSkillEffectToggle = this.handleSkillEffectToggle.bind(this);
+  }
+  
+  handleResetClick() {
+    this.props.onResetClick();
   }
 
   handleRawStatsToggle(e) {
@@ -550,30 +548,30 @@ class ToggleBox extends Component {
   render() {
     return (
       <div>
-        <table className="toggle-table">
-          <tbody>
-            <tr>
-              <td title="Display raw stats">
-                <label className="toggle">
-                  <input type="checkbox" onChange={this.handleRawStatsToggle} />
-                  <div className="toggle-label noselect">Raw Stats</div>
-                </label>
-              </td>
-              <td title="Use unit portraits in the inheritance list">
-                <label className="toggle">
-                  <input type="checkbox" checked={!!this.props.usePortraits} onChange={this.handlePortraitToggle} />
-                  <div className="toggle-label noselect">Portraits</div>
-                </label>
-              </td>
-              <td title="Display the Skill Effect column">
-                <label className="toggle">
-                  <input type="checkbox" checked={!!this.props.showDesc} onChange={this.handleSkillEffectToggle} />
-                  <div className="toggle-label noselect">Effects</div>
-                </label>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="toggle" title="Reset skills to default">
+          <label>
+            <input type="button" onClick={this.handleResetClick} />
+            <div className="toggle-label noselect">Reset</div>
+          </label>
+        </div>
+        <div className="toggle" title="Display raw stats">
+          <label>
+            <input type="checkbox" onChange={this.handleRawStatsToggle} />
+            <div className="toggle-label noselect">Raw Stats</div>
+          </label>
+        </div>
+        <div className="toggle" title="Use unit portraits in the inheritance list">
+          <label>
+            <input type="checkbox" checked={!!this.props.usePortraits} onChange={this.handlePortraitToggle} />
+            <div className="toggle-label noselect">Portraits</div>
+          </label>
+        </div>
+        <div className="toggle" title="Display the Skill Effect column">
+          <label>
+            <input type="checkbox" checked={!!this.props.showDesc} onChange={this.handleSkillEffectToggle} />
+            <div className="toggle-label noselect">Effects</div>
+          </label>
+        </div>
       </div>
     )
   }
@@ -761,6 +759,7 @@ class InheritanceTool extends Component {
         <div className="toggle-box">
           <ToggleBox usePortraits={this.state.usePortraits}
                      showDesc={this.state.showDesc}
+                     onResetClick={this.handleResetClick}
                      onRawStatsToggle={this.handleRawStatsToggle}
                      onPortraitToggle={this.handlePortraitToggle}
                      onSkillEffectToggle={this.handleSkillEffectToggle} />
@@ -781,8 +780,7 @@ class InheritanceTool extends Component {
                           skills={this.state.skills}
                           usePortraits={this.state.usePortraits}
                           showDesc={this.state.showDesc}
-                          onSkillSelect={this.handleSkillSelect}
-                          onResetClick={this.handleResetClick} />
+                          onSkillSelect={this.handleSkillSelect} />
         </div>
         <div className="bottom-row">
           <BuildManager unitName={this.state.unitName}

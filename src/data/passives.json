@@ -1244,17 +1244,17 @@
     "Guidance 1": {
       "cost": "60",
       "effect": "If unit has 100% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
-      "restriction": ""
+      "restriction": "Flying"
     },
     "Guidance 2": {
       "cost": "120",
       "effect": "If unit has ≥ 50% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
-      "restriction": ""
+      "restriction": "Flying"
     },
     "Guidance 3": {
       "cost": "240",
       "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
-      "restriction": ""
+      "restriction": "Flying"
     },
     "G Tome Valor 1": {
       "cost": "30",
