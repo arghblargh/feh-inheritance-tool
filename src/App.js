@@ -381,96 +381,15 @@ class UnitInfo extends Component {
     let fullWpnType = color + ' ' + wpnType;
     let bOptions = ["", "HP", "Atk", "Spd", "Def", "Res"];
 
-    if (isMobile()) {
-      return (
-        <div>
-          <table id="unitInfoLeft">
-            <tbody>
-              <tr>
-                <td rowSpan="2"><img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
-                <th className="unit-name text-left dropdown-header">Name</th>
-                <th className="unit-type" colSpan="2">Type</th>
-                <th className="unit-merge">Merge</th>
-              </tr>
-              <tr>
-                <td>
-                  <Dropdown addClass='unitName'
-                            options={Object.keys(units)}
-                            value={this.props.unitName}
-                            onChange={this.handleUnitSelect} />
-                </td>
-                <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
-                <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
-                <td>
-                  <Dropdown addClass='unitMerge'
-                            options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
-                            value={'+' + this.props.merge}
-                            onChange={this.handleMergeSelect} />
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table id="unitInfoRight">
-            <tbody>
-              <tr>
-                <th className="unit-bb">Boon</th>
-                <th className="unit-bb">Bane</th>
-                <th className="unit-stat">HP</th>
-                <th className="unit-stat">Atk</th>
-                <th className="unit-stat">Spd</th>
-                <th className="unit-stat">Def</th>
-                <th className="unit-stat">Res</th>
-                <th className="unit-BST">Total</th>
-              </tr>
-              <tr>
-                <td>
-                  <Dropdown id="boon" addClass="unitBB"
-                            options={bOptions.map(option => { return option ? '+' + option : ""; })}
-                            value={'+' + this.props.boonBane.boon}
-                            onChange={this.handleBoonSelect} />
-                </td>
-                <td>
-                  <Dropdown id="bane" addClass="unitBB"
-                            options={bOptions.map(option => { return option ? '-' + option : ""; })}
-                            value={'-' + this.props.boonBane.bane}
-                            onChange={this.handleBaneSelect} />
-                </td>
-                <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
-                <td className={this.props.boonBane.boon === "Atk" ? "boon" : this.props.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.stats.Atk}</td>
-                <td className={this.props.boonBane.boon === "Spd" ? "boon" : this.props.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.stats.Spd}</td>
-                <td className={this.props.boonBane.boon === "Def" ? "boon" : this.props.boonBane.bane === "Def" ? "bane" : ""}>{this.props.stats.Def}</td>
-                <td className={this.props.boonBane.boon === "Res" ? "boon" : this.props.boonBane.bane === "Res" ? "bane" : ""}>{this.props.stats.Res}</td>
-                <td>
-                  {Object.keys(this.props.stats).reduce((a,b) => {
-                    if (Number.isInteger(a))
-                      return a + this.props.stats[b];
-                    return this.props.stats[a] + this.props.stats[b];
-                  })}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      )
-    }
-    
     return (
       <div>
-        <table>
+        <table id="unitInfoLeft">
           <tbody>
             <tr>
               <td rowSpan="2"><img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
               <th className="unit-name text-left dropdown-header">Name</th>
               <th className="unit-type" colSpan="2">Type</th>
               <th className="unit-merge">Merge</th>
-              <th className="unit-bb">Boon</th>
-              <th className="unit-bb">Bane</th>
-              <th className="unit-stat">HP</th>
-              <th className="unit-stat">Atk</th>
-              <th className="unit-stat">Spd</th>
-              <th className="unit-stat">Def</th>
-              <th className="unit-stat">Res</th>
-              <th className="unit-BST">Total</th>
             </tr>
             <tr>
               <td>
@@ -487,6 +406,22 @@ class UnitInfo extends Component {
                           value={'+' + this.props.merge}
                           onChange={this.handleMergeSelect} />
               </td>
+            </tr>
+          </tbody>
+        </table>
+        <table id="unitInfoRight">
+          <tbody>
+            <tr>
+              <th className="unit-bb">Boon</th>
+              <th className="unit-bb">Bane</th>
+              <th className="unit-stat">HP</th>
+              <th className="unit-stat">Atk</th>
+              <th className="unit-stat">Spd</th>
+              <th className="unit-stat">Def</th>
+              <th className="unit-stat">Res</th>
+              <th className="unit-BST">Total</th>
+            </tr>
+            <tr>
               <td>
                 <Dropdown id="boon" addClass="unitBB"
                           options={bOptions.map(option => { return option ? '+' + option : ""; })}

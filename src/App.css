@@ -231,6 +231,11 @@ th, td {
   padding: 2px;
 }
 
+.bottom-row {
+  margin: auto;
+  width: 100%;
+}
+
 .build-manager {
   display: inline-block;
   margin: 10px 5px;
@@ -293,10 +298,6 @@ th, td {
     text-align: center;
   }
   
-  .bottom-row {
-    margin: auto;
-  }
-  
   .build-manager {
     width: 320px;
   }
@@ -327,11 +328,6 @@ th, td {
     display: inline-block;
     min-width: 2.25em;
     text-align: center;
-  }
-  
-  .bottom-row {
-    margin: auto;
-    width: 1000px;
   }
 
   .build-manager {
