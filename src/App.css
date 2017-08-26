@@ -485,7 +485,6 @@ input:checked + .toggle-label:hover {
   padding: 2px 0px;
 }
 .text-box > span.text {
-  padding: 6px 0px 5px 0px;
   margin: auto;
   font-size: 24px;
 }
