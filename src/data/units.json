@@ -5671,7 +5671,15 @@
       ],
       "passiveC": [
         {
-          "name": "",
+          "name": "Threaten Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Threaten Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Threaten Def 3",
           "unlock": 5
         }
       ]
