@@ -87,6 +87,14 @@
     "effect": "Grants Def/Res+2 when this unit is attacked.",
     "restriction": "Roy"
   },
+  "Blazing Durandal": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. If unit's Atk > foe's, unit gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)",
+    "restriction": "Roy \\(Brave Heroes\\)"
+  },
   "Blessed Bouquet": {
     "color": "Blue",
     "type": "Tome",
@@ -269,7 +277,7 @@
     "cost": 400,
     "might": 14,
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
-    "restriction": "Leo [^(]"
+    "restriction": "Leo$"
   },
   "Candlelight": {
     "color": "Neutral",
@@ -493,7 +501,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP.",
-    "restriction": "Chrom|Lucina|Marth|Alm"
+    "restriction": "Chrom|Lucina|Marth|Alm|Marth \\(Masked\\)"
   },
   "Fear": {
     "color": "Neutral",
@@ -638,6 +646,14 @@
     "might": 16,
     "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
     "restriction": "Alfonse"
+  },
+  "Geirskögul": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.",
+    "restriction": "Lucina \\(Brave Heroes\\)"
   },
   "Gradivus": {
     "color": "Blue",
@@ -982,6 +998,14 @@
     "might": 14,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
     "restriction": ""
+  },
+  "Mulagir": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying units. Grants Spd+3. If foe is magic user, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat.",
+    "restriction": "Lyn \\(Brave Heroes\\)"
   },
   "Mystletainn": {
     "color": "Red",
@@ -1551,6 +1575,14 @@
     "effect": "Grants Def+4 in battle if unit's HP ≤ 50%.",
     "restriction": "Seliph"
   },
+  "Urvan": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, damage from second attack onward reduced by 80%.",
+    "restriction": "Ike \\(Brave Heroes\\)"
+  },
   "Vidofnir": {
     "color": "Blue",
     "type": "Lance",
@@ -1589,7 +1621,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Spd+4 during combat if unit initiates attack.",
-    "restriction": "Corrin|(M)"
+    "restriction": "Corrin \\(M\\)"
   },
   "Zanbato": {
     "color": "Red",

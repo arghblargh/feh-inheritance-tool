@@ -258,7 +258,7 @@ export function getUnitsWithSkill(skill, type) {
 
 // Check inheritance restrictions.
 function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
-    let unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
+    let unitData = units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
     let rstr = restrictions.split(', ');
     
     if (color) {
@@ -275,6 +275,9 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
     }
 
     for (let r of rstr) {
+        if (RegExp(r).test(unit))
+            return true;
+
         if (/Offense/.test(r) && !/Staff/.test(unitData))
             return true;
 
@@ -465,6 +468,14 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
             totalMod = totalMod.map((x,i) => { return x + [0,0,-5,0,0][i]; });
         } else if (/Cursed Lance/.test(skills.weapon)) {
             totalMod = totalMod.map((x,i) => { return x + [0,2,2,0,0][i]; });
+        } else if (/Geirskögul/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,0,0,3,0][i]; });
+        } else if (/Blazing Durandal/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
+        } else if (/Blazing Durandal/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
+        } else if (/Mulagir/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,0,3,0,0][i]; });
         }
         if (/^\w+\/\w+\s\+?\d$/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);

@@ -410,6 +410,33 @@
       "effect": "Grants Spd +3.",
       "restriction": ""
     },
+    "Steady Blow 1": {
+      "cost": "120",
+      "effect": "Grants Spd/Def+2 during combat when unit initiates attack.",
+      "require": "Armored Blow 1|Darting Blow 1",
+      "restriction": "Offense"
+    },
+    "Steady Blow 2": {
+      "cost": "240",
+      "effect": "Grants Spd/Def+4 during combat when unit initiates attack.",
+      "restriction": "Offense"
+    },
+    "Steady Stance 1": {
+      "cost": "120",
+      "effect": "Grants Def+2 during combat when this unit is attacked.",
+      "restriction": ""
+    },
+    "Steady Stance 2": {
+      "cost": "240",
+      "effect": "Grants Def+4 during combat when this unit is attacked.",
+      "restriction": ""
+    },
+    "Steady Breath": {
+      "cost": "120",
+      "effect": "If attacked, unit granted Def+4 during combat; also gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)",
+      "require": "Steady Stance 2",
+      "restriction": ""
+    },
     "Sturdy Blow 1": {
       "cost": "120",
       "effect": "If unit initiates combat, unit granted Atk/Def+2 during battle.",
@@ -539,6 +566,11 @@
       "cost": "200",
       "effect": "If unit's HP ≥ 50% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:BGN"
+    },
+    "Beorc's Blessing": {
+      "cost": "150",
+      "effect": "Effective against flying and cavalry units. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat. (Skill cannot be inherited.)",
+      "restriction": "Ike \\(Brave Heroes\\)"
     },
     "Bowbreaker 1": {
       "cost": "50",
@@ -825,6 +857,11 @@
       "effect": "At the start of every second turn, restores 10 HP.",
       "restriction": ""
     },
+    "Sacae's Blessing": {
+      "cost": "150",
+      "effect": "If foe has sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
+      "restriction": "Lyn \\(Brave Heroes\\)"
+    },
     "Seal Atk 1": {
       "cost": "40",
       "effect": "After combat, foe suffers Atk-3 through its next action.",
@@ -1059,6 +1096,21 @@
       "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action.",
       "restriction": ""
     },
+    "Atk Smoke 1": {
+      "cost": "60",
+      "effect": "After combat, inflicts Atk-3 on foes within within 2 spaces of target through their next actions.",
+      "restriction": ""
+    },
+    "Atk Smoke 2": {
+      "cost": "120",
+      "effect": "After combat, inflicts Atk-5 on foes within within 2 spaces of target through their next actions.",
+      "restriction": ""
+    },
+    "Atk Smoke 3": {
+      "cost": "240",
+      "effect": "After combat, inflicts Atk-7 on foes within within 2 spaces of target through their next actions.",
+      "restriction": ""
+    },
     "Axe Experience 1": {
       "cost": "30",
       "effect": "If unit survives and uses an axe, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
@@ -1152,6 +1204,7 @@
     "Drive Atk 1": {
       "cost": "120",
       "effect": "Grants allies within 2 spaces Atk+2 during combat.",
+      "require": "Spur Atk 1",
       "restriction": ""
     },
     "Drive Atk 2": {
@@ -1159,9 +1212,21 @@
       "effect": "Grants allies within 2 spaces Atk+3 during combat.",
       "restriction": ""
     },
+    "Drive Spd 1": {
+      "cost": "120",
+      "effect": "Grants allies within 2 spaces Spd+2 during combat.",
+      "require": "Spur Spd 1",
+      "restriction": ""
+    },
+    "Drive Spd 2": {
+      "cost": "240",
+      "effect": "Grants allies within 2 spaces Spd+3 during combat.",
+      "restriction": ""
+    },
     "Drive Def 1": {
       "cost": "120",
       "effect": "Grants allies within 2 spaces Def+2 during combat.",
+      "require": "Spur Def 1",
       "restriction": ""
     },
     "Drive Def 2": {
