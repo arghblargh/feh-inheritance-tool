@@ -5651,8 +5651,16 @@
       ],
       "passiveA": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Steady Stance 1",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Stance 2",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Breath",
+          "unlock": 5
         }
       ],
       "passiveB": [
@@ -7598,8 +7606,16 @@
       ],
       "passiveA": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Armored Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Sturdy Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Sturdy Blow 2",
+          "unlock": 5
         }
       ],
       "passiveB": [
@@ -8104,8 +8120,16 @@
       ],
       "passiveA": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Darting Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 5
         }
       ],
       "passiveB": [
@@ -10991,8 +11015,16 @@
       ],
       "passiveA": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Armored Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Blow 2",
+          "unlock": 5
         }
       ],
       "passiveB": [
