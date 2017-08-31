@@ -422,17 +422,17 @@
       "restriction": "Offense"
     },
     "Steady Stance 1": {
-      "cost": "120",
+      "cost": "50",
       "effect": "Grants Def+2 during combat when this unit is attacked.",
       "restriction": ""
     },
     "Steady Stance 2": {
-      "cost": "240",
+      "cost": "100",
       "effect": "Grants Def+4 during combat when this unit is attacked.",
       "restriction": ""
     },
     "Steady Breath": {
-      "cost": "120",
+      "cost": "240",
       "effect": "If attacked, unit granted Def+4 during combat; also gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)",
       "require": "Steady Stance 2",
       "restriction": ""
@@ -568,7 +568,7 @@
       "restriction": "Color:BGN"
     },
     "Beorc's Blessing": {
-      "cost": "150",
+      "cost": "300",
       "effect": "Effective against flying and cavalry units. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat. (Skill cannot be inherited.)",
       "restriction": "Ike \\(Brave Heroes\\)"
     },
@@ -858,7 +858,7 @@
       "restriction": ""
     },
     "Sacae's Blessing": {
-      "cost": "150",
+      "cost": "300",
       "effect": "If foe has sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
       "restriction": "Lyn \\(Brave Heroes\\)"
     },
