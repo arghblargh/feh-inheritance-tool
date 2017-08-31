@@ -5608,8 +5608,9 @@
       "Def": 35,
       "Res": 20
     },
-    "boon": {},
-    "bane": {},
+    "bane": {
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -7571,8 +7572,9 @@
       "Def": 27,
       "Res": 19
     },
-    "boon": {},
-    "bane": {},
+    "boon": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -8089,8 +8091,13 @@
       "Def": 18,
       "Res": 28
     },
-    "boon": {},
-    "bane": {},
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -10980,8 +10987,12 @@
       "Def": 26,
       "Res": 24
     },
-    "boon": {},
-    "bane": {},
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -11735,15 +11746,15 @@
       "weapon": [
         {
           "name": "Iron Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Ruby Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Ruby Sword+",
@@ -11753,7 +11764,7 @@
       "assist": [
         {
           "name": "Swap",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -11765,25 +11776,25 @@
       "passiveA": [
         {
           "name": "Fortress Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortress Def 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Fortress Def 3",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
           "name": "Seal Atk 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Seal Atk/Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Seal Atk/Def 2",
@@ -11793,7 +11804,7 @@
       "passiveC": [
         {
           "name": "",
-          "unlock": 5
+          "unlock": 1
         }
       ]
     }
