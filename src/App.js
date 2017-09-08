@@ -746,7 +746,7 @@ class App extends Component {
               an <a href="https://github.com/arghblargh/feh-inheritance-tool">issue</a> on Github or 
               message <a href="https://www.reddit.com/u/omgwtfhax_">/u/omgwtfhax_</a> on Reddit. 
               <a id="tip" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XLGEXXDZ8EY5A" target="_blank">
-                <img src="/orb.png" alt="Send a tip" title="Send a tip" />
+                <img src="https://arghblargh.github.io/feh-inheritance-tool/orb.png" alt="Send a tip" title="Send a tip" />
               </a>
             </p>
             <p id="disclaimer">
