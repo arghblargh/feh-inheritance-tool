@@ -347,6 +347,14 @@ th, td {
   background-color: #ffb3b3;
 }
 
+#tip {
+  margin-left: 5px;
+}
+
+#tip img {
+  width: 10px;
+}
+
 
 .toggle {
   display: inline-block;
