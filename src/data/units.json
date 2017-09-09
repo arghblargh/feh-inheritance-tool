@@ -13240,9 +13240,9 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "stats": {
-      "HP": 44,
-      "Atk": 32,
-      "Spd": 29,
+      "HP": 46,
+      "Atk": 31,
+      "Spd": 27,
       "Def": 33,
       "Res": 26
     },
