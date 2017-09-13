@@ -198,7 +198,7 @@ export const BuildManager = React.createClass({
                     if (/^\s*flexible\s*$/i.test(build[i]))
                         build[i] = '';
                 }
-
+                
                 build.Boon = '';
                 build.Bane = '';
                 neutralStats = calcStats(unitName, skills);
@@ -211,7 +211,7 @@ export const BuildManager = React.createClass({
                     }
                 }
 
-                if (buildName !== '-')
+                if (buildName.length > 0 && buildName !== '-')
                     builds[buildName] = build;
             }
             
@@ -302,7 +302,7 @@ export function getUnitsWithSkill(skill, type) {
 
 // Check inheritance restrictions.
 function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
-    let unitData = unit + ' ' + units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
+    let unitData = units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
     let rstr = restrictions.split(', ');
     
     if (color) {
@@ -319,6 +319,9 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
     }
 
     for (let r of rstr) {
+        if (RegExp(r).test(unit))
+            return true;
+
         if (/Offense/.test(r) && !/Staff/.test(unitData))
             return true;
 
@@ -507,28 +510,41 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         // Add stats from skills
         if (/Brave|Dire Thunder/.test(skills.weapon)) {
             totalMod = totalMod.map((x,i) => { return x + [0,0,-5,0,0][i]; });
+        } else if (/Cursed Lance/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,2,2,0,0][i]; });
+        } else if (/Geirskögul/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,0,0,3,0][i]; });
+        } else if (/Blazing Durandal/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
+        } else if (/Blazing Durandal/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
+        } else if (/Mulagir/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,0,3,0,0][i]; });
         }
-        if (/HP\s/.test(skills.passiveA)) {
+        if (/^\w+\/\w+\s\+?\d$/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [1,0,0,0,0][i]); })
-        } else if (/Attack\s/.test(skills.passiveA)) {
+            if (/HP/.test(skills.passiveA))
+                totalMod[0] += temp + 2;
+            if (/Atk|Attack/.test(skills.passiveA))
+                totalMod[1] += temp;
+            if (/Spd|Speed/.test(skills.passiveA))
+                totalMod[2] += temp;
+            if (/Def|Defense/.test(skills.passiveA))
+                totalMod[3] += temp;
+            if (/Res|Resistance/.test(skills.passiveA))
+                totalMod[4] += temp;
+        } else if (/^\w+\s\+\d$/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,0,0,0][i]); });
-        } else if (/Speed\s/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,0,1,0,0][i]); });
-        } else if (/Defense\s/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,0,0,1,0][i]); });
-        } else if (/Resistance\s/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,0,0,0,1][i]); });
-        } else if (/Attack\/Def/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,0,1,0][i]); });
-        } else if (/Attack\/Res/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,0,0,1][i]); });
+            if (/HP/.test(skills.passiveA))
+                totalMod[0] += temp;
+            if (/Attack/.test(skills.passiveA))
+                totalMod[1] += temp;
+            if (/Speed/.test(skills.passiveA))
+                totalMod[2] += temp;
+            if (/Defense/.test(skills.passiveA))
+                totalMod[3] += temp;
+            if (/Resistance/.test(skills.passiveA))
+                totalMod[4] += temp;
         } else if (/Fury/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,1,1,1][i]); });
@@ -538,6 +554,9 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         } else if (/Fortress Def/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
             totalMod = totalMod.map((x,i) => { return x + [0,-3,0,temp+2,0][i]; });
+        } else if (/Fortress Res/.test(skills.passiveA)) {
+            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
+            totalMod = totalMod.map((x,i) => { return x + [0,-3,0,0,temp+2][i]; });
         }
     }
 
@@ -588,4 +607,18 @@ export function calcCost(unit, skill) {
     }
     
     return skillData.cost * 1.5;
+}
+
+// Calculates the total SP costs of a build
+export function calcTotalCost(unit, skills) {
+    let skillCosts = [
+        calcCost(unit, skills.weapon),
+        calcCost(unit, skills.assist),
+        calcCost(unit, skills.special),
+        calcCost(unit, skills.passiveA),
+        calcCost(unit, skills.passiveB),
+        calcCost(unit, skills.passiveC)
+    ];
+
+    return skillCosts.reduce((a,b) => { return b ? a + b : a; });
 }

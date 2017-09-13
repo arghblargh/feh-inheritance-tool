@@ -14,6 +14,9 @@
     "Arthur": {
         "name": "Arthur"
     },
+    "Athena": {
+        "name": "Athena"
+    },
     "Azama": {
         "name": "Azama"
     },
@@ -25,6 +28,9 @@
     },
     "Bartre": {
         "name": "Bartre"
+    },
+    "Berkut": {
+        "name": "Berkut"
     },
     "Beruka": {
         "name": "Beruka"
@@ -77,6 +83,12 @@
     "Clarine": {
         "name": "Clarine"
     },
+    "Clarisse": {
+        "name": "Clarisse"
+    },
+    "Clive": {
+        "name": "Clive"
+    },
     "Cordelia": {
         "name": "Cordelia"
     },
@@ -88,6 +100,9 @@
     },
     "Corrin (M)": {
         "name": "Corrin(M)"
+    },
+    "Delthea": {
+        "name": "Delthea"
     },
     "Donnel": {
         "name": "Donnel"
@@ -134,14 +149,23 @@
     "Frederick": {
         "name": "Frederick"
     },
+    "Frederick (Ylissean Summer)": {
+        "name": "Frederick (Été Ylissien)"
+    },
     "Gaius": {
         "name": "Gaius"
+    },
+    "Gaius (Ylissean Summer)": {
+        "name": "Gaius (Été Ylissien)"
     },
     "Genny": {
         "name": "Genny"
     },
     "Gordin": {
         "name": "Gordin"
+    },
+    "Gray": {
+        "name": "Gray"
     },
     "Gunter": {
         "name": "Gunter"
@@ -191,6 +215,9 @@
     "Karel": {
         "name": "Karel"
     },
+    "Katarina": {
+        "name": "Katarina"
+    },
     "Klein": {
         "name": "Klein"
     },
@@ -200,8 +227,14 @@
     "Laslow": {
         "name": "Laslow"
     },
+    "Legion": {
+        "name": "Legion"
+    },
     "Leo": {
         "name": "Leo"
+    },
+    "Leon": {
+        "name": "Leon"
     },
     "Lilina": {
         "name": "Lilina"
@@ -230,6 +263,9 @@
     "Lukas": {
         "name": "Lukas"
     },
+    "Luke": {
+        "name": "Luke"
+    },
     "Lyn": {
         "name": "Lyn"
     },
@@ -244,6 +280,12 @@
     },
     "Marth": {
         "name": "Marth"
+    },
+    "Marth (Masked)": {
+        "name": "Marth (Masqué)"
+    },
+    "Mathilda": {
+        "name": "Mathilda"
     },
     "Matthew": {
         "name": "Matthew"
@@ -317,14 +359,23 @@
     "Robin (F)": {
         "name": "Daraen (F)"
     },
+    "Robin (F) (Ylissean Summer)": {
+        "name": "Robin (F) (Été Ylissien)"
+    },
     "Robin (M)": {
         "name": "Daraen (M)"
+    },
+    "Roderick": {
+        "name": "Roderick"
     },
     "Roy": {
         "name": "Roy"
     },
     "Ryoma": {
         "name": "Ryoma"
+    },
+    "Saber": {
+        "name": "Saber"
     },
     "Saizo": {
         "name": "Saizo"
@@ -356,6 +407,9 @@
     "Sheena": {
         "name": "Sheena"
     },
+    "Sonya": {
+        "name": "Sonya"
+    },
     "Sophia": {
         "name": "Sophia"
     },
@@ -377,14 +431,20 @@
     "Tharja": {
         "name": "Tharja"
     },
-    "Tiki": {
-        "name": "Tiki"
+    "Tiki (Adult)": {
+        "name": "Tiki (Adulte)"
+    },
+    "Tiki (Adult) (Ylissean Summer)": {
+        "name": "Tiki (Adulte) (Été Ylissien)"
     },
     "Tiki (Young)": {
         "name": "Tiki (Jeune)"
     },
     "Titania": {
         "name": "Titania"
+    },
+    "Tobin": {
+        "name": "Tobin"
     },
     "Ursula": {
         "name": "Ursula"
@@ -435,6 +495,14 @@
     "Aura": {
         "effect": "Rend 5 PV aux alliés adjacents après avoir inité le combat.",
         "name": "Aura"
+    },
+    "Berkut's Lance": {
+        "effect": "Confère Rés +4 lorsque l'unité est attaquée.",
+        "name": "Lance Berkut"
+    },
+    "Berkut's Lance+": {
+        "effect": "Confère Rés +4 lorsque l'unité est attaquée.",
+        "name": "Lance Berkut+"
     },
     "Binding Blade": {
         "effect": "Confère Déf/Rés +2 à l'unité lorsqu'elle est attaquée",
@@ -552,6 +620,14 @@
         "effect": "Si l'unité initie le combat, elle récupère 4 PV une fois qu'il est terminé.",
         "name": "Lance carotte+"
     },
+    "Clarisse's Bow": {
+        "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase. Efficace contre les unités volantes.",
+        "name": "Arc Clarisse"
+    },
+    "Clarisse's Bow+": {
+        "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase. Efficace contre les unités volantes.",
+        "name": "Arc Clarisse+"
+    },
     "Cupid Arrow": {
         "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés à 2 cases ou moins pendant un tour. Efficace contre les unités volantes.",
         "name": "Flèche cupidon"
@@ -564,6 +640,10 @@
         "effect": "Après avoir initié le combat, l'unité confère Atq +4 aux alliés adjacents pendant un tour.",
         "name": "Cymbeline"
     },
+    "Dark Aura": {
+        "effect": "En début de tour, confère Atq +6 aux alliés adjacents utilisant une épée, une hache, une lance ou une dracopierre pendant un tour.",
+        "name": "Aura sombre"
+    },
     "Dark Breath": {
         "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase.",
         "name": "Souffle sombre"
@@ -572,9 +652,21 @@
         "effect": "Après avoir initié le combat, inflige Atq/Vit -5 aux ennemis situés à 2 cases ou moins de la cible jusqu'à la fin de leur phase.",
         "name": "Souffle sombre+"
     },
+    "Dark Excalibur": {
+        "effect": "L'unité inflige +10 de dégâts lors de l'activation des aptitudes spéciales.",
+        "name": "Excalibur sombre"
+    },
     "Deathly Dagger": {
         "effect": "Après le combat, inflige Déf/Rés -7 à l'ennemi pour le restant du tour. Lorsqu'elle initie le combat, l'unité inflige 7 dégâts à l'ennemi après le combat.",
         "name": "Dague mortelle"
+    },
+    "Deft Harpoon": {
+        "effect": "Si l'unité à 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque, l'unité subit 2 dégâts après le combat.",
+        "name": "Harpon marin"
+    },
+    "Deft Harpoon+": {
+        "effect": "Si l'unité à 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque, l'unité subit 2 dégâts après le combat.",
+        "name": "Harpon marin+"
     },
     "Dire Thunder": {
         "effect": "Vit -5. L'unité attaque deux fois lorsqu'elle initie le combat.",
@@ -651,6 +743,14 @@
     "Firesweep Bow+": {
         "effect": "Efficace contre les unités volantes. Les unités et les ennemis ne peuvent pas riposter.",
         "name": "Arc enflammé+"
+    },
+    "Firesweep Lance": {
+        "effect": "Les unités et les ennemis ne peuvent pas riposter.",
+        "name": "Lance enflammée"
+    },
+    "Firesweep Lance+": {
+        "effect": "Les unités et les ennemis ne peuvent pas riposter.",
+        "name": "Lance enflammée+"
     },
     "First Bite": {
         "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +2 aux alliés situés à 2 cases ou moins pendant un tour.",
@@ -800,6 +900,18 @@
         "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
         "name": "Fer létal+"
     },
+    "Kriemhild": {
+        "effect": "",
+        "name": ""
+    },
+    "Legion's Axe": {
+        "effect": "Après le combat, les bonus de l'ennemi ciblé deviennent des malus jusqu'à la fin de sa phase.",
+        "name": "Hache Legion"
+    },
+    "Legion's Axe+": {
+        "effect": "Après le combat, les bonus de l'ennemi ciblé deviennent des malus jusqu'à la fin de sa phase.",
+        "name": "Hache Legion+"
+    },
     "Light Breath": {
         "effect": "Après avoir initié le combat, l'unité confère Déf/Rés +4 aux alliés adjacents pendant un tour.",
         "name": "Souffle lumineux"
@@ -815,6 +927,14 @@
     "Lightning Breath+": {
         "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant. Retarde l'activation des aptitudes spéciales (compteur +1).",
         "name": "Souffle électrique+"
+    },
+    "Melon Crusher": {
+        "effect": "Si l'unité à 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque, l'unité subit 2 dégâts après le combat.",
+        "name": "Brise-pastèque"
+    },
+    "Melon Crusher+": {
+        "effect": "Si l'unité à 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque, l'unité subit 2 dégâts après le combat.",
+        "name": "Brise-pastèque+"
     },
     "Mystletainn": {
         "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
@@ -892,6 +1012,14 @@
         "effect": "Efficace contre la cavalerie.",
         "name": "Crocs rubis+"
     },
+    "Refreshing Bolt": {
+        "effect": "Si l'unité à 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque l'unité subt 2 dégâts après le combat. Efficace contre les unités volantes.",
+        "name": "Arc à friandises"
+    },
+    "Refreshing Bolt+": {
+        "effect": "Si l'unité à 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque l'unité subt 2 dégâts après le combat. Efficace contre les unités volantes.",
+        "name": "Arc à friandises+"
+    },
     "Regal Blade": {
         "effect": "Si les PV de l'ennemi sont à 100% au début du combat, confère Atq/Vit +2 à l'unité.",
         "name": "Fer impérial"
@@ -903,6 +1031,14 @@
     "Rexcalibur+": {
         "effect": "",
         "name": "Fimbulvetr+"
+    },
+    "Ridersbane": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Caballucide"
+    },
+    "Ridersbane+": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Caballucide+"
     },
     "Rogue Dagger": {
         "effect": "Après le combat, inflige Déf/Rés -3 à l'ennemi jusqu'à la fin de sa phase et confère Déf/Rés +3 à l'unité pendant un tour.",
@@ -931,6 +1067,14 @@
     "Sapphire Lance+": {
         "effect": "Atq +20% si avantage tactique. Atq -20% si désavantage tactique.",
         "name": "Lance saphir+"
+    },
+    "Seashell": {
+        "effect": "Inflige Dés/Rés -7 à l'ennemi jusqu'à la fin de sa phase. Si l'unité a 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque, l'unité subit 2 dégâts après le combat.",
+        "name": "Coquillage"
+    },
+    "Seashell+": {
+        "effect": "Inflige Dés/Rés -7 à l'ennemi jusqu'à la fin de sa phase. Si l'unité a 100% de ses PV au début du combat, elle reçoit Atq/Vit/Déf/Rés +2. Si elle attaque, l'unité subit 2 dégâts après le combat.",
+        "name": "Coquillage+"
     },
     "Siegfried": {
         "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
@@ -983,6 +1127,22 @@
     "Silver Sword+": {
         "effect": "",
         "name": "Épée argent+"
+    },
+    "Slaying Bow": {
+        "effect": "Efficace contre les unités volantes. Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Arc meurtrier"
+    },
+    "Slaying Bow+": {
+        "effect": "Efficace contre les unités volantes. Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Arc meurtrier+"
+    },
+    "Slaying Edge": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Fer meurtrier"
+    },
+    "Slaying Edge+": {
+        "effect": "Accélère l'activation des aptitudes spéciales (compteur -1).",
+        "name": "Fer meurtrier+"
     },
     "Slow": {
         "effect": "Après le combat, inflige Vit -4 à l'ennemi jusqu'à la fin de sa phase.",
@@ -1048,6 +1208,14 @@
         "effect": "Confère Vit +4 à l'unité lorsqu'elle initie le combat.",
         "name": "Yato"
     },
+    "Zanbato": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Zambato"
+    },
+    "Zanbato+": {
+        "effect": "Efficace contre la cavalerie.",
+        "name": "Zambato+"
+    },
     "Ardent Sacrifice": {
         "effect": "L'unité perd 10 PV (ceux-ci ne peuvent tomber à 0) pour rendre 10 PV à un allié adjactent.",
         "name": "Abnégation"
@@ -1091,6 +1259,10 @@
     "Rally Attack": {
         "effect": "Confère Atq +4 à un allié adjacent jusqu'à la prochaine phase joueur.",
         "name": "Ralliement: Atq"
+    },
+    "Rally Def/Res": {
+        "effect": "Confère Déf/Rés +3 à un allié adjacent jusqu'à la prochaine phase joueur.",
+        "name": "Rall.: Déf/Rés"
     },
     "Rally Defense": {
         "effect": "Confère Déf +4 à un allié adjacent jusqu'à la prochaine phase joueur.",
@@ -1376,6 +1548,18 @@
         "effect": "L'unité riposte peu importe la distance à laquelle se trouve son assaillant.",
         "name": "Contre rapproché"
     },
+    "Close Def 1": {
+        "effect": "Si l'unité est attaquée par un ennemi utilisant une épée, une hache, une lance ou une dracopierre, elle reçoit Déf/Rés +2 pendant le combat.",
+        "name": "Défense proche 1"
+    },
+    "Close Def 2": {
+        "effect": "Si l'unité est attaquée par un ennemi utilisant une épée, une hache, une lance ou une dracopierre, elle reçoit Déf/Rés +4 pendant le combat.",
+        "name": "Défense proche 2"
+    },
+    "Close Def 3": {
+        "effect": "Si l'unité est attaquée par un ennemi utilisant une épée, une hache, une lance ou une dracopierre, elle reçoit Déf/Rés +6 pendant le combat.",
+        "name": "Défense proche 3"
+    },
     "Darting Blow 1": {
         "effect": "Confère Vit +2 à l'unité lorsqu'elle initie le combat.",
         "name": "Coup foudroyant 1"
@@ -1488,6 +1672,18 @@
         "effect": "Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Déf +6 pendant le combat.",
         "name": "Boost fortifiant 3"
     },
+    "Fire Boost 1": {
+        "effect": "Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Atq +2 pendant le combat.",
+        "name": "Boost ardent 1"
+    },
+    "Fire Boost 2": {
+        "effect": "Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Atq +4 pendant le combat.",
+        "name": "Boost ardent 2"
+    },
+    "Fire Boost 3": {
+        "effect": "Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Atq +6 pendant le combat.",
+        "name": "Boost ardent 3"
+    },
     "Fortress Def 1": {
         "effect": "Confère Déf +3 à l'unité et lui inflige Atq -3.",
         "name": "Forteresse 1"
@@ -1528,6 +1724,22 @@
         "effect": "Les PV max de l'unité augmentent de 5.",
         "name": "PV +5"
     },
+    "HP/Def 1": {
+        "effect": "Confère PV +3, Déf +1.",
+        "name": "PV/Déf 1"
+    },
+    "HP/Def 2": {
+        "effect": "Confère PV +4, Déf +2.",
+        "name": "PV/Déf 2"
+    },
+    "HP/Spd 1": {
+        "effect": "Confère PV +3, Vit +1",
+        "name": "PV/Vit 1"
+    },
+    "HP/Spd 2": {
+        "effect": "Confère PV +4, Vit +2",
+        "name": "PV/Vit 2"
+    },
     "Heavy Blade 1": {
         "effect": "Si Atq ≥ 5 + Atq de l'ennemi, compteur -1 pour chaque attaque. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
         "name": "Heavy Blade 1"
@@ -1556,6 +1768,14 @@
         "effect": "Confère Atq/Vit +5 à l'unité et lui inflige Déf/Rés -5.",
         "name": "Vivre et mourir 3"
     },
+    "Mirror Strike 1": {
+        "effect": "Confère Atq/Rés +2 à l'unité lorsqu'elle initie le combat.",
+        "name": "Coup résolu 1"
+    },
+    "Mirror Strike 2": {
+        "effect": "Confère Atq/Rés +4 à l'unité lorsqu'elle initie le combat.",
+        "name": "Coup résolu 2"
+    },
     "Resistance +1": {
         "effect": "La résistance de l'unité augmente de 1.",
         "name": "Résistance +1"
@@ -1579,6 +1799,14 @@
     "Speed +3": {
         "effect": "La vitesse de l'unité augmente de 3.",
         "name": "Vitesse +3"
+    },
+    "Sturdy Blow 1": {
+        "effect": "Confère Atq/Déf +2 à l'unité lorsqu'elle initie le combat.",
+        "name": "Coup robuste 1"
+    },
+    "Sturdy Blow 2": {
+        "effect": "Confère Atq/Déf +4 à l'unité lorsqu'elle initie le combat.",
+        "name": "Coup robuste 2"
     },
     "Svalinn Shield": {
         "effect": "Neutralise l'effet 'efficace contre' conféré par certaines aptitudes.",
@@ -1615,6 +1843,18 @@
     "Warding Blow 3": {
         "effect": "Confère Rés +6 à l'unité lorsqu'elle initie le combat.",
         "name": "Coup gardien 3"
+    },
+    "Water Boost 1": {
+        "effect": "Si l'unité à au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Rés +2 pendant le combat.",
+        "name": "Boost apaisant 1"
+    },
+    "Water Boost 2": {
+        "effect": "Si l'unité à au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Rés +4 pendant le combat.",
+        "name": "Boost apaisant 2"
+    },
+    "Water Boost 3": {
+        "effect": "Si l'unité à au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Rés +6 pendant le combat.",
+        "name": "Boost apaisant 3"
     },
     "Wind Boost 1": {
         "effect": "Si l'unité à au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Vit +2 pendant le combat.",
@@ -1675,6 +1915,18 @@
     "Brash Assault 3": {
         "effect": "Si PV ≤ 50%, l'unité effectue une double frappe si l'ennemi est en mesure de riposter.",
         "name": "Casse-cou 3"
+    },
+    "Cancel Affinity 1": {
+        "effect": "Les effets du triangle des armes liés aux aptitudes de l'unité sont annulés. Les bonus du triangle des armes de l'ennemi deviennent des malus en case de désavantage tactique.",
+        "name": "Anti-avantage 1"
+    },
+    "Cancel Affinity 2": {
+        "effect": "Les effets du triangle des armes liés aux aptitudes de l'unité sont annulés. Les bonus du triangle des armes de l'ennemi deviennent des malus en case de désavantage tactique.",
+        "name": "Anti-avantage 2"
+    },
+    "Cancel Affinity 3": {
+        "effect": "Les effets du triangle des armes liés aux aptitudes de l'unité sont annulés. Les bonus du triangle des armes de l'ennemi deviennent des malus en case de désavantage tactique.",
+        "name": "Anti-avantage 3"
     },
     "Daggerbreaker 1": {
         "effect": "Si PV ≥ 90% l'unité effectue une double frappe lorsqu'elle affronte un ennemi doté d'une dague et empêche ce dernier d'en réaliser.",
@@ -1880,6 +2132,14 @@
         "effect": "Après le combat, inflige Atq -7 à l'ennemi jusqu'à la fin de sa phase.",
         "name": "Sceau Atq 3"
     },
+    "Seal Atk/Spd 1": {
+        "effect": "Après le combat, inflige Atq/Vit -3 à l'ennemi jusqu'à la fin de sa phase.",
+        "name": "Sceau Atq/Vit 1"
+    },
+    "Seal Atk/Spd 2": {
+        "effect": "Après le combat, inflige Atq/Vit -5 à l'ennemi jusqu'à la fin de sa phase.",
+        "name": "Sceau Atq/Vit 2"
+    },
     "Seal Def 1": {
         "effect": "Après le combat, inflige Déf -3 à l'ennemi jusqu'à la fin de sa phase.",
         "name": "Sceau Déf 1"
@@ -1915,6 +2175,18 @@
     "Seal Spd 3": {
         "effect": "Après le combat, inflige Vit -7 à l'ennemi jusqu'à la fin de sa phase.",
         "name": "Sceau Vit 3"
+    },
+    "Shield Pulse 1": {
+        "effect": "Si l'aptitude spéciale est activée par les attaques ennemies, compteur -1 au début du premier tour.",
+        "name": "Influx écu 1"
+    },
+    "Shield Pulse 2": {
+        "effect": "Si l'aptitude spéciale est activée par les attaques ennemies, compteur -1 au début du premier tour. Les dégâts subis par l'unité sont réduits de 5 lors de l'activation de l'aptitude spéciale.",
+        "name": "Influx écu 2"
+    },
+    "Shield Pulse 3": {
+        "effect": "Si l'aptitude spéciale est activée par les attaques ennemies, compteur -2 au début du premier tour. Les dégâts subis par l'unité sont réduits de 5 lors de l'activation de l'aptitude spéciale.",
+        "name": "Influx écu 3"
     },
     "Swordbreaker 1": {
         "effect": "Si PV ≥ 90%, l'unité effectue une double frappe si l'ennemi est doté d'une épée et empêche ce dernier d'en réaliser.",
@@ -2000,6 +2272,18 @@
         "effect": "Les attaques au bâton de l'unité font les même dégâts que les autres armes plutôt que la moitié.",
         "name": "Bâton furieux 3"
     },
+    "Atk Ploy 1": {
+        "effect": "Au début du tour, inflige Atq -3 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Atq 1"
+    },
+    "Atk Ploy 2": {
+        "effect": "Au début du tour, inflige Atq -4 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Atq 2"
+    },
+    "Atk Ploy 3": {
+        "effect": "Au début du tour, inflige Atq -5 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Atq 3"
+    },
     "Axe Experience 1": {
         "effect": "Si l'unité utilise une hache et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
         "name": "Exp. hache 1"
@@ -2011,6 +2295,18 @@
     "Axe Experience 3": {
         "effect": "Si l'unité survit, toutes les unités dotées de haches reçoivent EXP x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
         "name": "Exp. hache 3"
+    },
+    "Axe Valor 1": {
+        "effect": "Si l'unité utilise une hache et survit, elle reçoit PA x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. hache 1"
+    },
+    "Axe Valor 2": {
+        "effect": "Si l'unité survit, toutes les unités dotées de haches reçoivent PA x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. hache 2"
+    },
+    "Axe Valor 3": {
+        "effect": "Si l'unité survit, toutes les unités dotées de haches reçoivent PA x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. hache 3"
     },
     "B Tome Exp. 1": {
         "effect": "Si l'unité utilise un tome bleu et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
@@ -2047,6 +2343,34 @@
     "Breath of Life 3": {
         "effect": "Après avoir initié le combat, l'unité rend 7 PV aux alliés adjacents.",
         "name": "Souffle vital 3"
+    },
+    "Def Ploy 1": {
+        "effect": "Au début du tour, inflige Déf -3 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Déf 1"
+    },
+    "Def Ploy 2": {
+        "effect": "Au début du tour, inflige Déf -4 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Déf 2"
+    },
+    "Def Ploy 3": {
+        "effect": "Au début du tour, inflige Déf -5 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Déf 3"
+    },
+    "Drive Atk 1": {
+        "effect": "Confère +2 aux alliés situés à 2 cases ou moins pendant le combat.",
+        "name": "Stimulant Atq 1"
+    },
+    "Drive Atk 2": {
+        "effect": "Confère +3 aux alliés situés à 2 cases ou moins pendant le combat.",
+        "name": "Stimulant Atq 2"
+    },
+    "Drive Def 1": {
+        "effect": "Confère Déf +2 aux alliés situés à 2 cases ou moins pendant le combat.",
+        "name": "Stimulant Déf 1"
+    },
+    "Drive Def 2": {
+        "effect": "Confère Déf +3 aux alliés situés à 2 cases ou moins pendant le combat.",
+        "name": "Stimulant Déf 2"
     },
     "Fortify Armor": {
         "effect": "En début de tour, confère Déf/Rés +6 aux unités en armure adjacentes pendant un tour.",
@@ -2136,6 +2460,42 @@
         "effect": "En début de tour, confère Vit +4 aux alliés adjacents pendant un tour.",
         "name": "Impulsion Vit 3"
     },
+    "Lance Valor 1": {
+        "effect": "Si l'unité utilise une lance et survit, elle reçoit PA x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. lance 1"
+    },
+    "Lance Valor 2": {
+        "effect": "Si l'unité survit, toutes les unités dotées de lances reçoivent PA x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. lance 2"
+    },
+    "Lance Valor 3": {
+        "effect": "Si l'unité survit, toutes les unités dotées de lances reçoivent PA x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. lance 3"
+    },
+    "Panic Ploy 1": {
+        "effect": "Au début du tour, les bonus deviennent des malus pour les ennemis situés sur la même ligne horizontale ou verticale ayant ai moins 5 PV de moins que l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Panique 1"
+    },
+    "Panic Ploy 2": {
+        "effect": "Au début du tour, les bonus deviennent des malus pour les ennemis situés sur la même ligne horizontale ou verticale ayant ai moins 3 PV de moins que l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Panique 2"
+    },
+    "Panic Ploy 3": {
+        "effect": "Au début du tour, les bonus deviennent des malus pour les ennemis situés sur la même ligne horizontale ou verticale ayant ai moins 1 PV de moins que l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Panique 3"
+    },
+    "Res Ploy 1": {
+        "effect": "Au début du tour, inflige Rés -3 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Rés 1"
+    },
+    "Res Ploy 2": {
+        "effect": "Au début du tour, inflige Rés -4 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Rés 2"
+    },
+    "Res Ploy 3": {
+        "effect": "Au début du tour, inflige Rés -5 aux ennemis situés sur la même ligne horizontale ou verticale dont la Rés est inférieure d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.",
+        "name": "Ruse Rés 3"
+    },
     "Savage Blow 1": {
         "effect": "Après avoir inité le combat, l'unité inflige 3 dégâts aux ennemis situés à deux cases ou moins de l'ennemi ciblé.",
         "name": "Coup sauvage 1"
@@ -2204,6 +2564,30 @@
         "effect": "Confère Vit +4 aux alliés adjacents.",
         "name": "Encens Vit 3"
     },
+    "Sword Exp. 1": {
+        "effect": "Si l'unité utilise une épée et survit, elle reçoit EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Exp. épée 1"
+    },
+    "Sword Exp. 2": {
+        "effect": "Si l'unité survit, toutes les unités dotées d'épées reçoivent EXP x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Exp. épée 2"
+    },
+    "Sword Exp. 3": {
+        "effect": "Si l'unité survit, toutes les unités dotées d'épées reçoivent EXP x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Exp. épée 3"
+    },
+    "Sword Valor 1": {
+        "effect": "Si l'unité utilise une épée et survit, elle reçoit PA x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. épée 1"
+    },
+    "Sword Valor 2": {
+        "effect": "Si l'unité survit, toutes les unités dotées d'épées reçoivent PA x 1,5. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. épée 2"
+    },
+    "Sword Valor 3": {
+        "effect": "Si l'unité survit, toutes les unités dotées d'épées reçoivent PA x 2. (S'il y a plusieurs effets similaires, seul le plus puissant s'applique.)",
+        "name": "Tech. épée 3"
+    },
     "Threaten Atk 1": {
         "effect": "En début de tour, inflige Atq -3 aux ennemis situés à 2 cases ou moins pendant un tour.",
         "name": "Atq réduite 1"
@@ -2263,5 +2647,16 @@
     "Ward Fliers": {
         "effect": "Confère Déf/Rés +4 aux unités volantes à deux cases ou moins de l'unité",
         "name": "Vigilance (Vol)"
+    },
+    "Firesweep L+": {
+        "effect": "Les unités et les ennemis ne peuvent pas riposter.",
+        "name": "L. enflamée+"
+    },
+    "Tiki": {
+        "name": "Tiki"
+    },
+    "Firesweep L": {
+        "effect": "Les unités et les ennemis ne peuvent pas riposter.",
+        "name": "L. enflamée"
     }
 }

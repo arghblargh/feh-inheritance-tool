@@ -44,6 +44,10 @@ export function jsonp(url) {
     });
 }
 
+export function isMobile() {
+    return /Mobile|Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent);
+}
+
 export function storageAvailable(type) {
 	try {
 		var storage = window[type],
@@ -60,7 +64,8 @@ export function storageAvailable(type) {
 // Dropdown list React component
 export const Dropdown = React.createClass({
     propTypes: {
-        id: React.PropTypes.string.isRequired,
+        id: React.PropTypes.string,
+        addClass: React.PropTypes.string,
         options: React.PropTypes.array.isRequired,
         value: React.PropTypes.oneOfType(
             [
@@ -82,7 +87,7 @@ export const Dropdown = React.createClass({
         });
         return (
             <select id={this.props.id} 
-                    className='form-control' 
+                    className={'form-control ' + this.props.addClass}
                     value={this.props.value} 
                     onChange={this.handleChange}>
                 {options}
@@ -92,6 +97,18 @@ export const Dropdown = React.createClass({
 
     handleChange: function(e) {
         this.props.onChange(e.target.value);
+    }
+});
+
+// Text box component
+export const TextBox = React.createClass({
+    render: function() {
+        return (
+            <div id={this.props.id} className="text-box">
+                <span className="title">{this.props.title}</span>
+                <span className="text">{this.props.text}</span>
+            </div>
+        )
     }
 });
 
