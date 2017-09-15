@@ -7,6 +7,22 @@
     "effect": "Recovers HP=50% of damage dealt.",
     "restriction": ""
   },
+  "Alondite": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "restriction": "Black Knight"
+  },
+  "Amiti": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 11,
+    "effect": "Spd-2. Attack twice when initiating combat.",
+    "restriction": "Elincia"
+  },
   "Armads": {
     "color": "Green",
     "type": "Axe",
@@ -1458,6 +1474,22 @@
   "Slaying Edge+": {
     "color": "Red",
     "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Slaying Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": ""
+  },
+  "Slaying Lance+": {
+    "color": "Blue",
+    "type": "Lance",
     "cost": 300,
     "might": 14,
     "effect": "Accelerates Special trigger (cooldown count-1).",

@@ -74,6 +74,11 @@
         "effect": "Grants Res+4 to an adjacent ally until the end of the turn.",
         "restriction": ""
     },
+    "Rally Spd/Def": {
+        "cost": "300",
+        "effect": "Grants Spd/Def+3 to an adjacent ally until the end of the turn.",
+        "restriction": ""
+    },
     "Rally Speed": {
         "cost": "150",
         "effect": "Grants Spd+4 to an adjacent ally until the end of the turn.",

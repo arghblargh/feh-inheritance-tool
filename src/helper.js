@@ -476,6 +476,8 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
             totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
         } else if (/Mulagir/.test(skills.weapon)) {
             totalMod = totalMod.map((x,i) => { return x + [0,0,3,0,0][i]; });
+        } else if (/Amiti/.test(skills.weapon)) {
+            totalMod = totalMod.map((x,i) => { return x + [0,0,-2,0,0][i]; });
         }
         if (/^\w+\/\w+\s\+?\d$/.test(skills.passiveA)) {
             temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);

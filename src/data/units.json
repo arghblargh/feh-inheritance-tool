@@ -1064,6 +1064,92 @@
       ]
     }
   },
+  "Black Knight": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "stats": {
+      "HP": 48,
+      "Atk": 34,
+      "Spd": 34,
+      "Def": 35,
+      "Res": 18
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Alondite",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 5
+        },
+        {
+          "name": "Luna",
+          "unlock": 5
+        },
+        {
+          "name": "Black Luna",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Steady Stance 1",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Stance 2",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Stance 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wings of Mercy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wings of Mercy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wings of Mercy 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Boey": {
     "color": "Green",
     "wpnType": "Tome",
@@ -3443,6 +3529,89 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Elincia": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "stats": {
+      "HP": 35,
+      "Atk": 34,
+      "Spd": 36,
+      "Def": 24,
+      "Res": 27
+    },
+    "boon": {
+      "HP": 4,
+      "Def": 4,
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Amiti",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 5
+        },
+        {
+          "name": "Death Blow 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Flier Formation 1",
+          "unlock": 5
+        },
+        {
+          "name": "Flier Formation 2",
+          "unlock": 5
+        },
+        {
+          "name": "Flier Formation 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
         }
       ]
     }
@@ -9219,6 +9388,91 @@
       ]
     }
   },
+  "Nephenee": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 37,
+      "Atk": 31,
+      "Spd": 35,
+      "Def": 34,
+      "Res": 20
+    },
+    "boon": {
+      "HP": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Slaying Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Slaying Lance+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 5
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Speed +1",
+          "unlock": 5
+        },
+        {
+          "name": "Atk/Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Atk/Spd 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wrath 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wrath 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Niles": {
     "color": "Neutral",
     "wpnType": "Bow",
@@ -9962,6 +10216,98 @@
         },
         {
           "name": "Ward Cavalry",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Oscar": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 40,
+      "Atk": 33,
+      "Spd": 34,
+      "Def": 26,
+      "Res": 21
+    },
+    "boon": {
+      "Def": 4
+    },
+    "bane": {
+      "HP": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Sapphire Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Sapphire Lance+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed",
+          "unlock": 5
+        },
+        {
+          "name": "Rally Spd/Def",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        },
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Lancebreaker 1",
+          "unlock": 5
+        },
+        {
+          "name": "Lancebreaker 2",
+          "unlock": 5
+        },
+        {
+          "name": "Lancebreaker 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Spd/Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spur Spd/Def 2",
           "unlock": 5
         }
       ]
