@@ -1079,15 +1079,15 @@
       "weapon": [
         {
           "name": "Iron Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Silver Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Alondite",
@@ -1103,11 +1103,11 @@
       "special": [
         {
           "name": "New Moon",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Luna",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Black Luna",
@@ -1117,11 +1117,11 @@
       "passiveA": [
         {
           "name": "Steady Stance 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steady Stance 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steady Stance 3",
@@ -1131,11 +1131,11 @@
       "passiveB": [
         {
           "name": "Wings of Mercy 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Wings of Mercy 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Wings of Mercy 3",
@@ -10268,10 +10268,6 @@
         }
       ],
       "special": [
-        {
-          "name": "",
-          "unlock": 5
-        },
         {
           "name": "",
           "unlock": 5
