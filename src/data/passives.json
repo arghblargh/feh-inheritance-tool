@@ -1082,17 +1082,17 @@
     "Wrath 1": {
       "cost": "60",
       "effect": "If unit's HP ≤ 25%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
-      "restriction": ""
+      "restriction": "Armored|Infantry, Melee"
     },
     "Wrath 2": {
       "cost": "120",
       "effect": "If unit's HP ≤ 50%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
-      "restriction": ""
+      "restriction": "Armored|Infantry, Melee"
     },
     "Wrath 3": {
       "cost": "240",
       "effect": "If unit's HP ≤ 75%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
-      "restriction": ""
+      "restriction": "Armored|Infantry, Melee"
     },
     "Wrathful Staff 1": {
       "cost": "60",
