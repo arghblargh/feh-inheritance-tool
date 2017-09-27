@@ -21,7 +21,7 @@
 // SOFTWARE.
 
 import React from 'react';
-import { Dropdown, escapeRegExp, storageAvailable, jsonp } from './utility.js';
+import { Dropdown, escapeRegExp, jsonp } from './utility.js';
 
 const units = require('./data/units.json');
 const weapons = require('./data/weapons.json');
@@ -91,38 +91,43 @@ export const unitPortrait = Object.keys(units).reduce(function(previous, current
 const wikiBuildLabel = '----- Wiki Builds -----'
 
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
-export const BuildManager = React.createClass({
-    // constructor: function(props) {
-    //     //this.super(props);
-    // },
+export class BuildManager extends React.PureComponent {
+    constructor(props) {
+        super(props);
 
-    getInitialState: function() {
-        return {
+        this.state = {
+            unit: 'Abel',
             link: null,
             builds: {},
             current: wikiBuildLabel
         };
-    },
 
-    componentDidMount: function() {
+        this.handleChange = this.handleChange.bind(this);
+        this.handleLoadClick = this.handleLoadClick.bind(this);
+    }
+
+    componentDidMount() {
         this.retrieveData('Abel');
-    },
+    }
 
-    componentWillReceiveProps: function(props) {
-        this.retrieveData(props.unitName);
-    },
+    componentWillReceiveProps(props) {
+        if (this.state.unit !== props.unitName) {
+            this.retrieveData(props.unitName);
+            this.setState({ unit: props.unitName });
+        }
+    }
 
-    handleChange: function(buildName) {
+    handleChange(buildName) {
         this.setState({ current: buildName });
-    },
+    }
 
-    handleLoadClick: function() {
+    handleLoadClick() {
         if (this.state.current !== wikiBuildLabel) {
             this.props.onLoadClick(this.state.builds[this.state.current]);
         }
-    },
+    }
 
-    retrieveData: function(unitName) {
+    retrieveData(unitName) {
         jsonp('https://feheroes.gamepedia.com/api.php?action=query&titles=' + unitName.replace(/\s/g, '_') + '/Builds&prop=revisions&rvprop=content&format=json').then(function(data) {
             let responses = [], builds = [],
                 match, re = /{{\\?n?(Skillbuild[_ ]Infobox\s?.*?})}/g;
@@ -196,7 +201,7 @@ export const BuildManager = React.createClass({
                 }
 
                 if (hasError)
-                    buildName = buildName + ' !!Error!!';
+                    buildName += ' !!Error!!';
 
                 if (buildName.length > 0 && buildName !== '-')
                     builds[buildName] = build;
@@ -208,9 +213,9 @@ export const BuildManager = React.createClass({
                 current: builds[this.state.current] ? this.state.current : wikiBuildLabel
             });
         }.bind(this));
-    },
+    }
 
-    render: function() {
+    render() {
         let buildSelect = null;
         if (this.state.link) {
             if (Object.keys(this.state.builds).length > 0) {
@@ -239,7 +244,7 @@ export const BuildManager = React.createClass({
             </div>
         )
     }
-});
+};
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {

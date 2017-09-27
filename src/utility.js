@@ -62,21 +62,14 @@ export function storageAvailable(type) {
 }
 
 // Dropdown list React component
-export const Dropdown = React.createClass({
-    propTypes: {
-        id: React.PropTypes.string,
-        addClass: React.PropTypes.string,
-        options: React.PropTypes.array.isRequired,
-        value: React.PropTypes.oneOfType(
-            [
-                React.PropTypes.number,
-                React.PropTypes.string
-            ]
-        ),
-        onChange: React.PropTypes.func
-    },
+export class Dropdown extends React.Component {
+    constructor(props) {
+        super(props);
 
-    render: function() {
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    render() {
         let self = this;
         let options = self.props.options.map(function(option) {
             return (
@@ -93,16 +86,20 @@ export const Dropdown = React.createClass({
                 {options}
             </select>
         )
-    },
+    }
 
-    handleChange: function(e) {
+    handleChange(e) {
         this.props.onChange(e.target.value);
     }
-});
+};
 
 // Text box component
-export const TextBox = React.createClass({
-    render: function() {
+export class TextBox extends React.PureComponent {
+    constructor(props) {
+        super(props);
+    }
+    
+    render() {
         return (
             <div id={this.props.id} className="text-box">
                 <span className="title">{this.props.title}</span>
@@ -110,7 +107,7 @@ export const TextBox = React.createClass({
             </div>
         )
     }
-});
+};
 
 // Hover component
 export const Hover = ({ onHover, children }) => (

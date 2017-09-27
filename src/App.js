@@ -22,7 +22,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utility.js';
+import { Dropdown, TextBox, escapeRegExp, storageAvailable } from './utility.js';
 import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills,
