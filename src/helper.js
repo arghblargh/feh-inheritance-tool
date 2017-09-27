@@ -133,46 +133,70 @@ export const BuildManager = React.createClass({
                 responses.push(match[1]);
             }
 
-            for (let response of responses) {
-                let build = {}, skills = {};
-                let buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+            for (var response of responses) {
+                var buildName, build = {}, skills = {}, stats = {}, neutralStats;
+                var hasError = false;
 
-                let stats = {}, neutralStats;
-                if (/stats/.test(response)) {
-                    let statStr = /stats\s*=(.*?)[}|]/i.exec(response)[1].trim().split('/');
-                    stats.HP = statStr[0];
-                    stats.Atk = statStr[1];
-                    stats.Spd = statStr[2];
-                    stats.Def = statStr[3];
-                    stats.Res = statStr[4];
+                try {
+                    buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                }
+                catch (TypeError) {
+                    console.log("Error retrieving build name.");
+                    hasError = true;
                 }
 
-                build.Weapon = skills.weapon = /weapon\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.Assist = skills.assist = /assist\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.Special = skills.special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveA = skills.passiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveB = skills.passiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveC = skills.passiveC =  /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-
-                build.Weapon = build.Weapon.replace(/Blar/, 'Blár');
-                build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
-
-                for (let i in build) {
-                    if (/^\s*flexible\s*$/i.test(build[i]))
-                        build[i] = '';
-                }
-                
-                build.Boon = '';
-                build.Bane = '';
-                neutralStats = calcStats(unitName, skills);
-                if (stats) {
-                    for (let s in stats) {
-                        if (stats[s] > neutralStats[s])
-                            build.Boon = s;
-                        else if (stats[s] < neutralStats[s])
-                            build.Bane = s;
+                try {
+                    if (/stats/.test(response)) {
+                        let statStr = /stats\s*=(.*?)[}|]/i.exec(response)[1].trim().split('/');
+                        stats.HP = statStr[0];
+                        stats.Atk = statStr[1];
+                        stats.Spd = statStr[2];
+                        stats.Def = statStr[3];
+                        stats.Res = statStr[4];
                     }
                 }
+                catch (TypeError) {
+                    console.log("Error retrieving build stats.");
+                    stats = units[unitName].stats;
+                    hasError = true;
+                }
+
+                try {
+                    build.Weapon = skills.weapon = /weapon\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                    build.Assist = skills.assist = /assist\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                    build.Special = skills.special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                    build.PassiveA = skills.passiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                    build.PassiveB = skills.passiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                    build.PassiveC = skills.passiveC =  /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+
+                    build.Weapon = build.Weapon.replace(/Blar/, 'Blár');
+                    build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
+
+                    for (let i in build) {
+                        if (/^\s*flexible\s*$/i.test(build[i]))
+                            build[i] = '';
+                    }
+                    
+                    build.Boon = '';
+                    build.Bane = '';
+                    neutralStats = calcStats(unitName, skills);
+                    if (stats) {
+                        for (let s in stats) {
+                            if (stats[s] > neutralStats[s])
+                                build.Boon = s;
+                            else if (stats[s] < neutralStats[s])
+                                build.Bane = s;
+                        }
+                    }
+                }
+                catch (TypeError) {
+                    console.log("Error retrieving build skills.");
+                    build = skills = units[unitName].skills;
+                    hasError = true;
+                }
+
+                if (hasError)
+                    buildName = buildName + ' !!Error!!';
 
                 if (buildName.length > 0 && buildName !== '-')
                     builds[buildName] = build;
@@ -240,7 +264,7 @@ export function parseSkills(skillData) {
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
 
-    let reSkill = RegExp(escapeRegExp(skill) + '$');
+    let reSkill = RegExp('^' + escapeRegExp(skill) + '$');
     let unitList = {};
     
     for (let unit in units) {
