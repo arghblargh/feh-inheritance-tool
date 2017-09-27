@@ -141,7 +141,7 @@ export const BuildManager = React.createClass({
                     buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
                 }
                 catch (TypeError) {
-                    console.log("Error retrieving build name.");
+                    console.log('Error retrieving build name.');
                     hasError = true;
                 }
 
@@ -156,7 +156,7 @@ export const BuildManager = React.createClass({
                     }
                 }
                 catch (TypeError) {
-                    console.log("Error retrieving build stats.");
+                    console.log('Error retrieving stats: ' + buildName);
                     stats = units[unitName].stats;
                     hasError = true;
                 }
@@ -190,7 +190,7 @@ export const BuildManager = React.createClass({
                     }
                 }
                 catch (TypeError) {
-                    console.log("Error retrieving build skills.");
+                    console.log('Error retrieving skills: ' + buildName);
                     build = skills = units[unitName].skills;
                     hasError = true;
                 }
