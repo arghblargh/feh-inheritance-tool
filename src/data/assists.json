@@ -7,7 +7,7 @@
     "Dance": {
         "cost": "150",
         "effect": "Enables target to take another action. Cannot be used on units with Sing or Dance.",
-        "restriction": "Ninian|Olivia"
+        "restriction": "Exclusive"
     },
     "Draw Back": {
         "cost": "150",
@@ -117,7 +117,7 @@
     "Sing": {
         "cost": "150",
         "effect": "Enables target to take another action. Cannot be used on units with Sing or Dance.",
-        "restriction": "Azura"
+        "restriction": "Exclusive"
     },
     "Smite": {
         "cost": "150",

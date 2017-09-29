@@ -13,7 +13,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Enables counterattack regardless of distance if this unit is attacked.",
-    "restriction": "Black Knight"
+    "restriction": "Exclusive"
   },
   "Amiti": {
     "color": "Red",
@@ -21,7 +21,7 @@
     "cost": 400,
     "might": 11,
     "effect": "Spd-2. Attack twice when initiating combat.",
-    "restriction": "Elincia"
+    "restriction": "Exclusive"
   },
   "Armads": {
     "color": "Green",
@@ -29,7 +29,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Unit makes a guaranteed followup attack when attacked at HP > 80%.",
-    "restriction": "Hector"
+    "restriction": "Exclusive"
   },
   "Armorslayer": {
     "color": "Red",
@@ -77,7 +77,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Restores 5 HP to adjacent allies after any combat this unit initiates.",
-    "restriction": "Linde"
+    "restriction": "Exclusive"
   },
   "Berkut's Lance": {
     "color": "Blue",
@@ -101,7 +101,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Def/Res+2 when this unit is attacked.",
-    "restriction": "Roy"
+    "restriction": "Exclusive"
   },
   "Blazing Durandal": {
     "color": "Red",
@@ -109,7 +109,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk+3. If unit's Atk > foe's, unit gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)",
-    "restriction": "Roy \\(Brave Heroes\\)"
+    "restriction": "Exclusive"
   },
   "Blessed Bouquet": {
     "color": "Blue",
@@ -293,7 +293,7 @@
     "cost": 400,
     "might": 14,
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
-    "restriction": "Leo$"
+    "restriction": "Exclusive"
   },
   "Candlelight": {
     "color": "Neutral",
@@ -373,7 +373,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk/Spd+2 and accelerates Special trigger (cooldown count-1). Unit takes 4 damage after combat.",
-    "restriction": "Valter"
+    "restriction": "Exclusive"
   },
   "Cymbeline": {
     "color": "Red",
@@ -381,7 +381,55 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.",
-    "restriction": "Sanaki"
+    "restriction": "Exclusive"
+  },
+  "Dancer's Fan": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 6,
+    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action.",
+    "restriction": ""
+  },
+  "Dancer's Fan+": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 10,
+    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action.",
+    "restriction": ""
+  },
+  "Dancer's Ring": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+    "restriction": ""
+  },
+  "Dancer's Ring+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+    "restriction": ""
+  },
+  "Dancer's Score": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+    "restriction": ""
+  },
+  "Dancer's Score+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+    "restriction": ""
   },
   "Dark Aura": {
     "color": "Blue",
@@ -389,7 +437,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants adjacent allies who use swords, axes, lances, or dragonstones Atk+6 through their actions at the start of each turn.",
-    "restriction": "Delthea"
+    "restriction": "Exclusive"
   },
   "Dark Breath": {
     "color": "",
@@ -413,7 +461,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants +10 to damage when Special triggers.",
-    "restriction": "Sonya"
+    "restriction": "Exclusive"
   },
   "Deathly Dagger": {
     "color": "Neutral",
@@ -421,7 +469,7 @@
     "cost": 300,
     "might": 11,
     "effect": "After combat, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, 7 damage to foe after battle.",
-    "restriction": "Jaffar"
+    "restriction": "Exclusive"
   },
   "Deft Harpoon": {
     "color": "Blue",
@@ -445,7 +493,7 @@
     "cost": 400,
     "might": 9,
     "effect": "Spd-5. Attack twice when initiating combat.",
-    "restriction": "Olwen|Reinhardt"
+    "restriction": "Exclusive"
   },
   "Durandal": {
     "color": "Red",
@@ -453,7 +501,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk+4 during combat if unit initiates attack.",
-    "restriction": "Eliwood"
+    "restriction": "Exclusive"
   },
   "Eckesachs": {
     "color": "Red",
@@ -461,7 +509,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn.",
-    "restriction": "Zephiel"
+    "restriction": "Exclusive"
   },
   "Elfire": {
     "color": "Red",
@@ -509,7 +557,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units.",
-    "restriction": "Merric"
+    "restriction": "Exclusive"
   },
   "Falchion": {
     "color": "Red",
@@ -517,7 +565,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP.",
-    "restriction": "Chrom|Lucina|Marth|Alm|Marth \\(Masked\\)"
+    "restriction": "Exclusive"
   },
   "Fear": {
     "color": "Neutral",
@@ -549,7 +597,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.",
-    "restriction": "Sharena"
+    "restriction": "Exclusive"
   },
   "Fire": {
     "color": "Red",
@@ -653,7 +701,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units. Unit can pass through foes if own HP>=50%.",
-    "restriction": "Takumi"
+    "restriction": "Exclusive"
   },
   "Fólkvangr": {
     "color": "Red",
@@ -661,7 +709,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
-    "restriction": "Alfonse"
+    "restriction": "Exclusive"
   },
   "Geirskögul": {
     "color": "Blue",
@@ -669,7 +717,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.",
-    "restriction": "Lucina \\(Brave Heroes\\)"
+    "restriction": "Exclusive"
   },
   "Gradivus": {
     "color": "Blue",
@@ -677,7 +725,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Enables counterattack regardless of distance if this unit is attacked.",
-    "restriction": "Camus"
+    "restriction": "Exclusive"
   },
   "Gravity": {
     "color": "Neutral",
@@ -789,7 +837,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Accelerates Special trigger (cooldown count-1).",
-    "restriction": "Minerva|Michalis"
+    "restriction": "Exclusive"
   },
   "Heavy Spear": {
     "color": "Blue",
@@ -927,14 +975,6 @@
     "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": ""
   },
-  "Kriemhild": {
-    "color": "Blue",
-    "type": "Lance",
-    "cost": 400,
-    "might": 16,
-    "effect": "",
-    "restriction": "Berkut"
-  },
   "Legion's Axe": {
     "color": "Green",
     "type": "Axe",
@@ -1021,7 +1061,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units. Grants Spd+3. If foe is magic user, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat.",
-    "restriction": "Lyn \\(Brave Heroes\\)"
+    "restriction": "Exclusive"
   },
   "Mystletainn": {
     "color": "Red",
@@ -1029,7 +1069,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Accelerates Special trigger (cooldown count-1).",
-    "restriction": "Eldigan"
+    "restriction": "Exclusive"
   },
   "Naga": {
     "color": "Green",
@@ -1037,7 +1077,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants Def/Res+2 when this unit is attacked.",
-    "restriction": "Julia"
+    "restriction": "Exclusive"
   },
   "Nidhogg": {
     "color": "Neutral",
@@ -1045,7 +1085,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
-    "restriction": "Innes"
+    "restriction": "Exclusive"
   },
   "Nóatún": {
     "color": "Green",
@@ -1053,7 +1093,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Unit may move adjacent to any ally when HP <= 40%.",
-    "restriction": "Anna"
+    "restriction": "Exclusive"
   },
   "Pain": {
     "color": "Neutral",
@@ -1077,7 +1117,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack.",
-    "restriction": "Jeorge"
+    "restriction": "Exclusive"
   },
   "Poison Dagger": {
     "color": "Neutral",
@@ -1101,7 +1141,7 @@
     "cost": 400,
     "might": 14,
     "effect": "If unit has 100% HP at the start of combat, unit receives Atk/Spd+5. If attacking, unit will receive 5 damage after combat.",
-    "restriction": "Celica"
+    "restriction": "Exclusive"
   },
   "Ragnell": {
     "color": "Red",
@@ -1109,7 +1149,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Enables counterattack regardless of distance if this unit is attacked.",
-    "restriction": "Ike"
+    "restriction": "Exclusive"
   },
   "Raijinto": {
     "color": "Red",
@@ -1117,7 +1157,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Enables counterattack regardless of distance if this unit is attacked.",
-    "restriction": "Ryoma"
+    "restriction": "Exclusive"
   },
   "Rauðrblade": {
     "color": "Red",
@@ -1205,7 +1245,7 @@
     "cost": 400,
     "might": 16,
     "effect": "If foe's HP is 100% when combat starts, unit receives Atk/Spd+2 during combat.",
-    "restriction": "Lloyd"
+    "restriction": "Exclusive"
   },
   "Rexcalibur": {
     "color": "Green",
@@ -1333,7 +1373,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Enables counterattack regardless of distance if this unit is attacked.",
-    "restriction": "Xander"
+    "restriction": "Exclusive"
   },
   "Sieglinde": {
     "color": "Red",
@@ -1341,7 +1381,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
-    "restriction": "Eirika"
+    "restriction": "Exclusive"
   },
   "Siegmund": {
     "color": "Blue",
@@ -1349,7 +1389,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
-    "restriction": "Ephraim"
+    "restriction": "Exclusive"
   },
   "Silver Axe": {
     "color": "Green",
@@ -1525,7 +1565,7 @@
     "cost": 400,
     "might": 16,
     "effect": "If wielder initiates attack at HP <=50% any followup occurs immediately.",
-    "restriction": "Lyn"
+    "restriction": "Exclusive"
   },
   "Steel Axe": {
     "color": "Green",
@@ -1605,7 +1645,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Def+4 in battle if unit's HP ≤ 50%.",
-    "restriction": "Seliph"
+    "restriction": "Exclusive"
   },
   "Urvan": {
     "color": "Green",
@@ -1613,7 +1653,15 @@
     "cost": 400,
     "might": 16,
     "effect": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, damage from second attack onward reduced by 80%.",
-    "restriction": "Ike \\(Brave Heroes\\)"
+    "restriction": "Exclusive"
+  },
+  "Urðr": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3.",
+    "restriction": "Exclusive"
   },
   "Vidofnir": {
     "color": "Blue",
@@ -1621,7 +1669,7 @@
     "cost": 400,
     "might": 16,
     "effect": "If unit is attacked by foe using sword, axe, or lance, unit receives Def+7 during combat.",
-    "restriction": "Tana"
+    "restriction": "Exclusive"
   },
   "Wind": {
     "color": "Green",
@@ -1653,7 +1701,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Spd+4 during combat if unit initiates attack.",
-    "restriction": "Corrin \\(M\\)"
+    "restriction": "Exclusive"
   },
   "Zanbato": {
     "color": "Red",

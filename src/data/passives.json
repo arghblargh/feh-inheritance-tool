@@ -585,7 +585,22 @@
     "Beorc's Blessing": {
       "cost": "300",
       "effect": "Effective against flying and cavalry units. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat. (Skill cannot be inherited.)",
-      "restriction": "Ike \\(Brave Heroes\\)"
+      "restriction": "Exclusive"
+    },
+    "Blaze Dance 1": {
+      "cost": "50",
+      "effect": "If Sing or Dance is used, target also granted Atk+2.",
+      "restriction": ""
+    },
+    "Blaze Dance 2": {
+      "cost": "100",
+      "effect": "If Sing or Dance is used, target also granted Atk+3.",
+      "restriction": ""
+    },
+    "Blaze Dance 3": {
+      "cost": "200",
+      "effect": "If Sing or Dance is used, target also granted Atk+4.",
+      "restriction": ""
     },
     "Bowbreaker 1": {
       "cost": "50",
@@ -726,6 +741,31 @@
       "cost": "200",
       "effect": "If unit's HP ≥ 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RGN"
+    },
+    "Gale Dance 1": {
+      "cost": "50",
+      "effect": "If Sing or Dance is used, target also granted Spd+2.",
+      "restriction": ""
+    },
+    "Gale Dance 2": {
+      "cost": "100",
+      "effect": "If Sing or Dance is used, target also granted Spd+3.",
+      "restriction": ""
+    },
+    "Gale Dance 3": {
+      "cost": "200",
+      "effect": "If Sing or Dance is used, target also granted Spd+4.",
+      "restriction": ""
+    },
+    "Geyser Dance 1": {
+      "cost": "120",
+      "effect": "If Sing or Dance is used, target also granted Def/Res+3.",
+      "restriction": ""
+    },
+    "Geyser Dance 2": {
+      "cost": "240",
+      "effect": "If Sing or Dance is used, target also granted Def/Res+4.",
+      "restriction": ""
     },
     "Guard 1": {
       "cost": "50",
@@ -890,7 +930,7 @@
     "Sacae's Blessing": {
       "cost": "300",
       "effect": "If foe has sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
-      "restriction": "Lyn \\(Brave Heroes\\)"
+      "restriction": "Exclusive"
     },
     "Seal Atk 1": {
       "cost": "40",
@@ -1186,21 +1226,6 @@
       "effect": "If unit survives, all axe users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Axe"
     },
-    "Bow Experience 1": {
-      "cost": "30",
-      "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Bow"
-    },
-    "Bow Experience 2": {
-      "cost": "60",
-      "effect": "If unit survives, all bow users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Bow"
-    },
-    "Bow Experience 3": {
-      "cost": "120",
-      "effect": "If unit survives, all bow users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Bow"
-    },
     "B Tome Exp. 1": {
       "cost": "50",
       "effect": "If unit survives and uses a blue tome, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
@@ -1215,6 +1240,36 @@
       "cost": "200",
       "effect": "If unit survives, all blue tome users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Tome, Color:B"
+    },
+    "B Tome Valor 1": {
+      "cost": "30",
+      "effect": "If unit survives and uses a blue tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:B"
+    },
+    "B Tome Valor 2": {
+      "cost": "60",
+      "effect": "If unit survives, all blue tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:B"
+    },
+    "B Tome Valor 3": {
+      "cost": "120",
+      "effect": "If unit survives, all blue tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:B"
+    },
+    "Bow Experience 1": {
+      "cost": "30",
+      "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
+    "Bow Experience 2": {
+      "cost": "60",
+      "effect": "If unit survives, all bow users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
+    "Bow Experience 3": {
+      "cost": "120",
+      "effect": "If unit survives, all bow users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
     },
     "Breath of Life 1": {
       "cost": "50",
@@ -1257,17 +1312,6 @@
       "effect": "Grants allies within 2 spaces Atk+3 during combat.",
       "restriction": ""
     },
-    "Drive Spd 1": {
-      "cost": "120",
-      "effect": "Grants allies within 2 spaces Spd+2 during combat.",
-      "require": "Spur Spd 1",
-      "restriction": ""
-    },
-    "Drive Spd 2": {
-      "cost": "240",
-      "effect": "Grants allies within 2 spaces Spd+3 during combat.",
-      "restriction": ""
-    },
     "Drive Def 1": {
       "cost": "120",
       "effect": "Grants allies within 2 spaces Def+2 during combat.",
@@ -1277,6 +1321,28 @@
     "Drive Def 2": {
       "cost": "240",
       "effect": "Grants allies within 2 spaces Def+3 during combat.",
+      "restriction": ""
+    },
+    "Drive Res 1": {
+      "cost": "120",
+      "effect": "Grants allies within 2 spaces Res+2 during combat.",
+      "require": "Spur Res 1",
+      "restriction": ""
+    },
+    "Drive Res 2": {
+      "cost": "240",
+      "effect": "Grants allies within 2 spaces Res+3 during combat.",
+      "restriction": ""
+    },
+    "Drive Spd 1": {
+      "cost": "120",
+      "effect": "Grants allies within 2 spaces Spd+2 during combat.",
+      "require": "Spur Spd 1",
+      "restriction": ""
+    },
+    "Drive Spd 2": {
+      "cost": "240",
+      "effect": "Grants allies within 2 spaces Spd+3 during combat.",
       "restriction": ""
     },
     "Fortify Armor": {
@@ -1333,6 +1399,21 @@
       "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn.",
       "restriction": ""
     },
+    "G Tome Valor 1": {
+      "cost": "30",
+      "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Valor 2": {
+      "cost": "60",
+      "effect": "If unit survives, all green tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Valor 3": {
+      "cost": "120",
+      "effect": "If unit survives, all green tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
     "Goad Armor": {
       "cost": "200",
       "effect": "Grants armored allies within 2 spaces Spd/Atk+4 during combat.",
@@ -1365,21 +1446,6 @@
       "cost": "240",
       "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
       "restriction": "Flying"
-    },
-    "G Tome Valor 1": {
-      "cost": "30",
-      "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Tome, Color:G"
-    },
-    "G Tome Valor 2": {
-      "cost": "60",
-      "effect": "If unit survives, all green tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Tome, Color:G"
-    },
-    "G Tome Valor 3": {
-      "cost": "120",
-      "effect": "If unit survives, all green tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Tome, Color:G"
     },
     "Hone Armor": {
       "cost": "200",

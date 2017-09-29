@@ -174,8 +174,8 @@ export class BuildManager extends React.PureComponent {
                     build.PassiveB = skills.passiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
                     build.PassiveC = skills.passiveC =  /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
 
-                    build.Weapon = build.Weapon.replace(/Blar/, 'Blár');
-                    build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
+                    build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr');
+                    // build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
 
                     for (let i in build) {
                         if (/^\s*flexible\s*$/i.test(build[i]))
@@ -248,7 +248,7 @@ export class BuildManager extends React.PureComponent {
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
-    let skills = {};
+    var skills = {};
     skills.weapon = Array.isArray(skillData.weapon) ? skillData.weapon[skillData.weapon.length-1].name 
                                                     : skillData.weapon.name;
     skills.assist = Array.isArray(skillData.assist) ? skillData.assist[skillData.assist.length-1].name 
@@ -269,8 +269,8 @@ export function parseSkills(skillData) {
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
 
-    let reSkill = RegExp('^' + escapeRegExp(skill) + '$');
-    let unitList = {};
+    var reSkill = RegExp('^' + escapeRegExp(skill) + '$');
+    var unitList = {};
     
     for (let unit in units) {
         let skillData = units[unit].skills[type];
@@ -285,8 +285,22 @@ export function getUnitsWithSkill(skill, type) {
     return unitList;
 }
 
+// Returns an array of a unit's default skills
+function getDefaultSkills(unit) {
+    var skills = [];
+    var skillData = units[unit].skills;
+
+    for (let type in skillData) {
+        for (let skill of skillData[type]) {
+            skills.push(skill.name);
+        }
+    }
+    
+    return skills;
+}
+
 // Check inheritance restrictions.
-function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
+function checkRestrictions(unit, skill, restrictions, limitStaff = false, color = '') {
     let unitData = units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
     let rstr = restrictions.split(', ');
     
@@ -305,6 +319,9 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
 
     for (let r of rstr) {
         if (RegExp(r).test(unit))
+            return true;
+
+        if (/Exclusive/.test(r) && getDefaultSkills(unit).includes(skill))
             return true;
 
         if (/Offense/.test(r) && !/Staff/.test(unitData))
@@ -370,21 +387,21 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
 export function getPossibleSkills(unit) {
     let skills = {};
     skills.weapons = ['', ...new Set(Object.keys(weapons).filter(skill =>  
-        checkRestrictions(unit, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), false, weapons[skill].color)))];
+        checkRestrictions(unit, skill, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), false, weapons[skill].color)))];
     skills.assists = ['', ...new Set(Object.keys(assists).filter(skill =>
-        checkRestrictions(unit, assists[skill].restriction, true)))];
+        checkRestrictions(unit, skill, assists[skill].restriction, true)))];
     skills.specials = ['', ...new Set(Object.keys(specials).filter(skill =>
-        checkRestrictions(unit, specials[skill].restriction, true)))];
+        checkRestrictions(unit, skill, specials[skill].restriction, true)))];
     skills.passivesA = ['', ...new Set(Object.keys(passives.A).filter(skill =>
-        checkRestrictions(unit, passives.A[skill].restriction)).map(name => { 
+        checkRestrictions(unit, skill, passives.A[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];
         }))];
     skills.passivesB = ['', ...new Set(Object.keys(passives.B).filter(skill =>
-        checkRestrictions(unit, passives.B[skill].restriction)).map(name => { 
+        checkRestrictions(unit, skill, passives.B[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];
         }))];
     skills.passivesC = ['', ...new Set(Object.keys(passives.C).filter(skill =>
-        checkRestrictions(unit, passives.C[skill].restriction)).map(name => { 
+        checkRestrictions(unit, skill, passives.C[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];
         }))];
 
