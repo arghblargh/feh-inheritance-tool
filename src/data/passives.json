@@ -590,17 +590,17 @@
     "Blaze Dance 1": {
       "cost": "50",
       "effect": "If Sing or Dance is used, target also granted Atk+2.",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Blaze Dance 2": {
       "cost": "100",
       "effect": "If Sing or Dance is used, target also granted Atk+3.",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Blaze Dance 3": {
       "cost": "200",
       "effect": "If Sing or Dance is used, target also granted Atk+4.",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Bowbreaker 1": {
       "cost": "50",
@@ -745,27 +745,28 @@
     "Gale Dance 1": {
       "cost": "50",
       "effect": "If Sing or Dance is used, target also granted Spd+2.",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Gale Dance 2": {
       "cost": "100",
       "effect": "If Sing or Dance is used, target also granted Spd+3.",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Gale Dance 3": {
       "cost": "200",
       "effect": "If Sing or Dance is used, target also granted Spd+4.",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Geyser Dance 1": {
       "cost": "120",
       "effect": "If Sing or Dance is used, target also granted Def/Res+3.",
-      "restriction": ""
+      "require": "Torrent Dance 1",
+      "restriction": "Offense"
     },
     "Geyser Dance 2": {
       "cost": "240",
       "effect": "If Sing or Dance is used, target also granted Def/Res+4.",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Guard 1": {
       "cost": "50",
@@ -1043,6 +1044,21 @@
       "cost": "200",
       "effect": "If unit's HP ≥ 50% in combat against a sword user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
+    },
+    "Torrent Dance 1": {
+      "cost": "50",
+      "effect": "If Sing or Dance is used, target also granted Res+2.",
+      "restriction": "Offense"
+    },
+    "Torrent Dance 2": {
+      "cost": "100",
+      "effect": "If Sing or Dance is used, target also granted Res+3.",
+      "restriction": "Offense"
+    },
+    "Torrent Dance 3": {
+      "cost": "200",
+      "effect": "If Sing or Dance is used, target also granted Res+4.",
+      "restriction": "Offense"
     },
     "Vantage 1": {
       "cost": "50",
