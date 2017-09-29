@@ -10493,15 +10493,15 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sapphire Lance",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Sapphire Lance+",
@@ -10511,11 +10511,11 @@
       "assist": [
         {
           "name": "Rally Speed",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Rally Spd/Def",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "special": [
@@ -10533,25 +10533,25 @@
       "passiveB": [
         {
           "name": "Lancebreaker 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Lancebreaker 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Lancebreaker 3",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
           "name": "Spur Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Spd/Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Spd/Def 2",
