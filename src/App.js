@@ -33,6 +33,7 @@ const weapons = require('./data/weapons.json');
 const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
+const seals = require('./data/seals.json');
 
 class SkillInfoRow extends Component {
   constructor(props) {
@@ -57,9 +58,10 @@ class SkillInfoRow extends Component {
   getPassiveLevels(skillName, getFullMaxPassive = false) {
     let type = RegExp(escapeRegExp(skillName)).test(Object.keys(passives.A).toString()) ? 'A' :
                RegExp(escapeRegExp(skillName)).test(Object.keys(passives.B).toString()) ? 'B' : 
-                                                                                          'C';
+               RegExp(escapeRegExp(skillName)).test(Object.keys(passives.C).toString()) ? 'C' :
+                                                                                          'S';
     let result = new Set();
-    for (let key in passives[type]) {
+    for (let key in (type !== 'S' ? passives[type] : seals)) {
       if (RegExp(escapeRegExp(skillName)).test(key)) {
         if (/[1-9]/.test(key))
           result.add(/[1-9]/.exec(key)[0]);
@@ -191,7 +193,7 @@ class SkillInfoRow extends Component {
           <Dropdown addClass='skillName'
                     options={this.props.options}
                     value={this.props.skillName}
-                    onChange={/passive/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
+                    onChange={/passive|seal/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
         </td>;
     }
     
@@ -267,7 +269,8 @@ class SkillInfoTable extends Component {
     skills.passiveA = this.props.skills.passiveA;
     skills.passiveB = this.props.skills.passiveB;
     skills.passiveC = this.props.skills.passiveC;
-
+    skills.seal = this.props.skills.seal;
+    
     let skillOptions = getPossibleSkills(this.props.unitName);
     
     return (
@@ -339,6 +342,16 @@ class SkillInfoTable extends Component {
                         effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
                         inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
                         cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
+                        usePortraits={this.props.usePortraits}
+                        showDesc={this.props.showDesc}
+                        onSkillSelect={this.handleSkillSelect} />
+          <SkillInfoRow category='S' 
+                        skillName={skills.seal} 
+                        skillType='seal'
+                        options={skillOptions.seals}
+                        effect={seals[skills.seal] ? seals[skills.seal].effect : ''}
+                        inheritList={[]}
+                        cost={0}
                         usePortraits={this.props.usePortraits}
                         showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
@@ -536,7 +549,8 @@ class InheritanceTool extends Component {
         special: units[initUnit].skills.special[units[initUnit].skills.special.length-1].name,
         passiveA: units[initUnit].skills.passiveA[units[initUnit].skills.passiveA.length-1].name,
         passiveB: units[initUnit].skills.passiveB[units[initUnit].skills.passiveB.length-1].name,
-        passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name
+        passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name,
+        seal: ''
       };
     let initBoonBane = {"boon":"","bane":""};
     let initStats = calcStats(initUnit, initSkills, initBoonBane);
@@ -610,6 +624,9 @@ class InheritanceTool extends Component {
         break;
       case 'passiveC':
         newSkills.passiveC = skillName;
+        break;
+      case 'seal':
+        newSkills.seal = skillName;
         break;
       default:
         break;

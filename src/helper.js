@@ -28,6 +28,7 @@ const weapons = require('./data/weapons.json');
 const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
+const seals = require('./data/seals.json');
 
 // Load movement icons from file
 export const moveIcon = {
@@ -261,7 +262,8 @@ export function parseSkills(skillData) {
                                                         : skillData.passiveB.name;
     skills.passiveC = Array.isArray(skillData.passiveC) ? skillData.passiveC[skillData.passiveC.length-1].name 
                                                         : skillData.passiveC.name;
-    
+    skills.seal = '';
+
     return skills;
 }
 
@@ -302,7 +304,6 @@ function getDefaultSkills(unit) {
 // Check inheritance restrictions.
 function checkRestrictions(unit, skill, restrictions, limitStaff = false, color = '') {
     let unitData = units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
-    let rstr = restrictions.split(', ');
     
     if (color) {
         let colorList = color.split(', ');
@@ -317,67 +318,70 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
             return false;
     }
 
-    for (let r of rstr) {
-        if (RegExp(r).test(unit))
-            return true;
-
-        if (/Exclusive/.test(r) && getDefaultSkills(unit).includes(skill))
-            return true;
-
-        if (/Offense/.test(r) && !/Staff/.test(unitData))
-            return true;
-
-        if (limitStaff && /Staff/.test(unitData) && !/Staff/.test(r))
-            return false;
-                
-        if (/Melee/.test(r) && /Sword|Lance|Axe|Dragon/.test(unitData))
-            return true;
-
-        if (/Ranged/.test(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
-            return true;
-
-        if (/Color/.test(r)) {
-            let flags = /Color:(.*)/.exec(r)[1];
-            if (/R/.test(flags) && /Red/.test(unitData))
+    if (restrictions) {
+        let rstr = restrictions.split(', ');
+        for (let r of rstr) {
+            if (RegExp(r).test(unit))
                 return true;
-            else if (/B/.test(flags) && /Blue/.test(unitData))
+
+            if (/Exclusive/.test(r) && getDefaultSkills(unit).includes(skill))
                 return true;
-            else if (/G/.test(flags) && /Green/.test(unitData))
+
+            if (/Offense/.test(r) && !/Staff/.test(unitData))
                 return true;
-            else if (/N/.test(flags) && /Neutral/.test(unitData))
+
+            if (limitStaff && /Staff/.test(unitData) && !/Staff/.test(r))
+                return false;
+                    
+            if (/Melee/.test(r) && /Sword|Lance|Axe|Dragon/.test(unitData))
                 return true;
-                
-            return false;
+
+            if (/Ranged/.test(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
+                return true;
+
+            if (/Color/.test(r)) {
+                let flags = /Color:(.*)/.exec(r)[1];
+                if (/R/.test(flags) && /Red/.test(unitData))
+                    return true;
+                else if (/B/.test(flags) && /Blue/.test(unitData))
+                    return true;
+                else if (/G/.test(flags) && /Green/.test(unitData))
+                    return true;
+                else if (/N/.test(flags) && /Neutral/.test(unitData))
+                    return true;
+                    
+                return false;
+            }
+
+            if (/Weapon/.test(r)) {
+                let flags = /Weapon:(.*)/.exec(r)[1];
+                if (/Sw/.test(flags) && /Sword/.test(unitData))
+                    return true;
+                else if (/L/.test(flags) && /Lance/.test(unitData))
+                    return true;
+                else if (/A/.test(flags) && /Axe/.test(unitData))
+                    return true;
+                else if (/Dr/.test(flags) && /Dragon/.test(unitData))
+                    return true;
+                else if (/Tr/.test(flags) && /Tome/.test(unitData) && /Red/.test(unitData))
+                    return true;
+                else if (/Tb/.test(flags) && /Tome/.test(unitData) && /Blue/.test(unitData))
+                    return true;
+                else if (/Tg/.test(flags) && /Tome/.test(unitData) && /Green/.test(unitData))
+                    return true;
+                else if (/B/.test(flags) && /Bow/.test(unitData))
+                    return true;
+                else if (/Da/.test(flags) && /Dagger/.test(unitData))
+                    return true;
+                else if (/St/.test(flags) && /Staff/.test(unitData))
+                    return true;
+
+                return false;
+            }
+            
+            if (!RegExp(r).test(unitData))
+                return false;
         }
-
-        if (/Weapon/.test(r)) {
-            let flags = /Weapon:(.*)/.exec(r)[1];
-            if (/Sw/.test(flags) && /Sword/.test(unitData))
-                return true;
-            else if (/L/.test(flags) && /Lance/.test(unitData))
-                return true;
-            else if (/A/.test(flags) && /Axe/.test(unitData))
-                return true;
-            else if (/Dr/.test(flags) && /Dragon/.test(unitData))
-                return true;
-            else if (/Tr/.test(flags) && /Tome/.test(unitData) && /Red/.test(unitData))
-                return true;
-            else if (/Tb/.test(flags) && /Tome/.test(unitData) && /Blue/.test(unitData))
-                return true;
-            else if (/Tg/.test(flags) && /Tome/.test(unitData) && /Green/.test(unitData))
-                return true;
-            else if (/B/.test(flags) && /Bow/.test(unitData))
-                return true;
-            else if (/Da/.test(flags) && /Dagger/.test(unitData))
-                return true;
-            else if (/St/.test(flags) && /Staff/.test(unitData))
-                return true;
-
-            return false;
-        }
-        
-        if (!RegExp(r).test(unitData))
-            return false;
     }
     
     return true;
@@ -404,6 +408,10 @@ export function getPossibleSkills(unit) {
         checkRestrictions(unit, skill, passives.C[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];
         }))];
+    skills.seals = ['', ...new Set(Object.keys(seals).filter(skill =>
+        checkRestrictions(unit, skill, seals[skill].restriction)).map(name => { 
+            return /[^1-9]*/i.exec(name)[0];
+        }))];
 
     return skills;
 }
@@ -419,6 +427,7 @@ function addStatMods(stats, mod) {
     return stats;
 }
 
+// TODO: Change to use Lv1 stats
 // Calculate merge bonuses. Returns array with total stat increases.
 // +1: Highest and second highest base stat
 // +2: Third and fourth highest base stat
@@ -509,62 +518,82 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         if (skills.weapon)
             totalMod[1] += weapons[skills.weapon].might;
 
-        // Add stats from skills
-        if (/Brave|Dire Thunder/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,0,-5,0,0][i]; });
-        } else if (/Cursed Lance/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,2,2,0,0][i]; });
-        } else if (/Geirskögul/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,0,0,3,0][i]; });
-        } else if (/Blazing Durandal/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
-        } else if (/Blazing Durandal/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
-        } else if (/Mulagir/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,0,3,0,0][i]; });
-        } else if (/Amiti/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,0,-2,0,0][i]; });
-        }
-        if (/^\w+\/\w+\s\+?\d$/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            if (/HP/.test(skills.passiveA))
-                totalMod[0] += temp + 2;
-            if (/Atk|Attack/.test(skills.passiveA))
-                totalMod[1] += temp;
-            if (/Spd|Speed/.test(skills.passiveA))
-                totalMod[2] += temp;
-            if (/Def|Defense/.test(skills.passiveA))
-                totalMod[3] += temp;
-            if (/Res|Resistance/.test(skills.passiveA))
-                totalMod[4] += temp;
-        } else if (/^\w+\s\+\d$/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            if (/HP/.test(skills.passiveA))
-                totalMod[0] += temp;
-            if (/Attack/.test(skills.passiveA))
-                totalMod[1] += temp;
-            if (/Speed/.test(skills.passiveA))
-                totalMod[2] += temp;
-            if (/Defense/.test(skills.passiveA))
-                totalMod[3] += temp;
-            if (/Resistance/.test(skills.passiveA))
-                totalMod[4] += temp;
-        } else if (/Fury/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,1,1,1][i]); });
-        } else if (/Life and Death/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + ((temp + 2) * [0,1,1,-1,-1][i]); });
-        } else if (/Fortress Def/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + [0,-3,0,temp+2,0][i]; });
-        } else if (/Fortress Res/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + [0,-3,0,0,temp+2][i]; });
-        }
+        applyWeaponStats();
+        applyPassiveStats(skills.passiveA);
+        applyPassiveStats(skills.seal);
     }
 
     return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);
+
+    function applyPassiveStats(passive) {
+        if (/^\w+\/\w+\s\+?\d$/.test(passive)) {
+            temp = parseInt((/[1-9]/.exec(passive)), 10);
+            if (/HP/.test(passive))
+                totalMod[0] += temp + 2;
+            if (/Atk|Attack/.test(passive))
+                totalMod[1] += temp;
+            if (/Spd|Speed/.test(passive))
+                totalMod[2] += temp;
+            if (/Def|Defense/.test(passive))
+                totalMod[3] += temp;
+            if (/Res|Resistance/.test(passive))
+                totalMod[4] += temp;
+        }
+        else if (/^\w+\s\+\d$|Squad Ace/.test(passive)) {
+            temp = parseInt((/[1-9]/.exec(passive)), 10);
+            if (/HP|Squad Ace A/.test(passive))
+                totalMod[0] += temp;
+            if (/Attack|Squad Ace E/.test(passive))
+                totalMod[1] += temp;
+            if (/Speed|Squad Ace D/.test(passive))
+                totalMod[2] += temp;
+            if (/Defense|Squad Ace B/.test(passive))
+                totalMod[3] += temp;
+            if (/Resistance|Squad Ace C/.test(passive))
+                totalMod[4] += temp;
+        }
+        else if (/Fury/.test(passive)) {
+            temp = parseInt((/[1-9]/.exec(passive)), 10);
+            totalMod = totalMod.map((x, i) => { return x + (temp * [0, 1, 1, 1, 1][i]); });
+        }
+        else if (/Life and Death/.test(passive)) {
+            temp = parseInt((/[1-9]/.exec(passive)), 10);
+            totalMod = totalMod.map((x, i) => { return x + ((temp + 2) * [0, 1, 1, -1, -1][i]); });
+        }
+        else if (/Fortress Def/.test(passive)) {
+            temp = parseInt((/[1-9]/.exec(passive)), 10);
+            totalMod = totalMod.map((x, i) => { return x + [0, -3, 0, temp + 2, 0][i]; });
+        }
+        else if (/Fortress Res/.test(passive)) {
+            temp = parseInt((/[1-9]/.exec(passive)), 10);
+            totalMod = totalMod.map((x, i) => { return x + [0, -3, 0, 0, temp + 2][i]; });
+        }
+    }
+
+    function applyWeaponStats() {
+        // Add stats from skills
+        if (/Brave|Dire Thunder/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 0, -5, 0, 0][i]; });
+        }
+        else if (/Cursed Lance/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 2, 2, 0, 0][i]; });
+        }
+        else if (/Geirskögul/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 0, 0, 3, 0][i]; });
+        }
+        else if (/Blazing Durandal/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 3, 0, 0, 0][i]; });
+        }
+        else if (/Blazing Durandal/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 3, 0, 0, 0][i]; });
+        }
+        else if (/Mulagir/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 0, 3, 0, 0][i]; });
+        }
+        else if (/Amiti/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 0, -2, 0, 0][i]; });
+        }
+    }
 }
 
 // Searches for and returns the object containing data for a skill
