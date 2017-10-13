@@ -368,6 +368,7 @@ class UnitInfo extends Component {
     this.handleBoonSelect = this.handleBoonSelect.bind(this);
     this.handleBaneSelect = this.handleBaneSelect.bind(this);
     this.handleMergeSelect = this.handleMergeSelect.bind(this);
+    this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
   }
 
   handleUnitSelect(unitName) {
@@ -380,6 +381,10 @@ class UnitInfo extends Component {
 
   handleMergeSelect(mergeBonus) {
     this.props.onMergeSelect(mergeBonus ? mergeBonus.slice(1) : '');
+  }
+
+  handleSupportRankSelect(rank) {
+    this.props.onSupportRankSelect(rank);
   }
 
   handleBaneSelect(bane) {
@@ -424,6 +429,7 @@ class UnitInfo extends Component {
             <tbody>
               <tr>
                 <th className="unit-merge">Merge</th>
+                <th className="unit-support" title="Summoner Support Rank">Rank</th>
                 <th className="unit-bb">Boon</th>
                 <th className="unit-bb">Bane</th>
               </tr>
@@ -433,6 +439,12 @@ class UnitInfo extends Component {
                             options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
                             value={'+' + this.props.merge}
                             onChange={this.handleMergeSelect} />
+                </td>
+                <td title="Summoner Support Rank">
+                  <Dropdown addClass="unitSupport"
+                            options={[' ', 'C', 'B', 'A', 'S']}
+                            value={this.props.supportRank}
+                            onChange={this.handleSupportRankSelect} />
                 </td>
                 <td>
                   <Dropdown id="boon" addClass="unitBB"
@@ -550,6 +562,7 @@ class InheritanceTool extends Component {
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonBaneSelect = this.handleBoonBaneSelect.bind(this);
     this.handleMergeSelect = this.handleMergeSelect.bind(this);
+    this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
@@ -575,6 +588,7 @@ class InheritanceTool extends Component {
       unitName: initUnit,
       boonBane: initBoonBane,
       merge: 0,
+      supportRank: '',
       stats: initStats,
       skills: initSkills,
       rawStatsOn: false,
@@ -584,6 +598,17 @@ class InheritanceTool extends Component {
     }
   }
 
+  getNewStats({unit = '', skills = null, boonBane = null, merge = 0, rank = ''} = {}) {
+    return calcStats(
+      unit ? unit : this.state.unitName,
+      this.state.rawStatsOn ? null
+                            : skills ? skills : this.state.skills,
+      boonBane ? boonBane : this.state.boonBane,
+      merge ? merge : this.state.merge,
+      rank ? rank : this.state.supportRank
+    )
+  }
+
   handleUnitSelect(unitName) {
     let newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
 
@@ -591,6 +616,7 @@ class InheritanceTool extends Component {
       unitName: unitName,
       boonBane: {"boon":"","bane":""},
       merge: 0,
+      supportRank: '',
       stats: this.state.rawStatsOn ? calcStats(unitName, null) : calcStats(unitName, newSkills),
       skills: newSkills,
       totalCost: calcTotalCost(unitName, newSkills)
@@ -607,16 +633,21 @@ class InheritanceTool extends Component {
 
     this.setState({
       boonBane: newBoonBane,
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
-                                   : calcStats(this.state.unitName, this.state.skills, this.state.boonBane, this.state.merge),
+      stats: this.getNewStats({ boonBane: newBoonBane })
     });
   }
 
   handleMergeSelect(mergeBonus) {
     this.setState({
       merge: mergeBonus,
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, mergeBonus)
-                                   : calcStats(this.state.unitName, this.state.skills, this.state.boonBane, mergeBonus),
+      stats: this.getNewStats({ merge: mergeBonus })
+    });
+  }
+
+  handleSupportRankSelect(rank) {
+    this.setState({
+      supportRank: rank,
+      stats: this.getNewStats({ rank: rank })
     });
   }
 
@@ -649,8 +680,7 @@ class InheritanceTool extends Component {
     }
 
     this.setState({ 
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge) 
-                                   : calcStats(this.state.unitName, newSkills, this.state.boonBane, this.state.merge),
+      stats: this.getNewStats({ skills: newSkills }),
       skills: newSkills,
       totalCost: calcTotalCost(this.state.unitName, newSkills)
     });
@@ -659,8 +689,7 @@ class InheritanceTool extends Component {
   handleResetClick() {
     let skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
-                                   : calcStats(this.state.unitName, skills, this.state.boonBane, this.state.merge),
+      stats: this.getNewStats({ skills: skills }),
       skills: skills,
       totalCost: calcTotalCost(this.state.unitName, skills)
     })
@@ -715,8 +744,7 @@ class InheritanceTool extends Component {
     this.setState({
       boonBane: newBoonBane,
       skills: newSkills,
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, newBoonBane, this.state.merge)
-                                   : calcStats(this.state.unitName, newSkills, newBoonBane, this.state.merge),
+      stats: this.getNewStats({ skills: newSkills, boonBane: newBoonBane }),
       totalCost: calcTotalCost(this.state.unitName, newSkills)
     });
   }
@@ -736,11 +764,13 @@ class InheritanceTool extends Component {
           <UnitInfo unitName={this.state.unitName}
                     boonBane={this.state.boonBane}
                     merge={this.state.merge}
+                    supportRank={this.state.supportRank}
                     stats={this.state.stats}
                     rawStatsOn={this.state.rawStatsOn}
                     onUnitSelect={this.handleUnitSelect}
                     onBoonBaneSelect={this.handleBoonBaneSelect}
-                    onMergeSelect={this.handleMergeSelect} />
+                    onMergeSelect={this.handleMergeSelect}
+                    onSupportRankSelect={this.handleSupportRankSelect} />
         </div>
         <div className="skill-info">
           <SkillInfoTable unitName={this.state.unitName}

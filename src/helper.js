@@ -521,6 +521,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
         applyWeaponStats();
         applyPassiveStats(skills.passiveA);
         applyPassiveStats(skills.seal);
+        applySummonerSupportBonus();
     }
 
     return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);
@@ -603,14 +604,18 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
             case 'S':
                 totalMod[0] += 1;
                 totalMod[1] += 2;
+                // eslint-disable-next-line
             case 'A':
                 totalMod[2] += 2;
+                // eslint-disable-next-line
             case 'B':
                 totalMod[0] += 1;
                 totalMod[3] += 2;
+                // eslint-disable-next-line
             case 'C':
                 totalMod[0] += 3;
                 totalMod[4] += 2;
+                // eslint-disable-next-line
             default:
                 break;
         }

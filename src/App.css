@@ -173,8 +173,14 @@ th, td {
   text-align-last: center;
 }
 
-.unit-bb, .unit-merge {
-  width: 3.75em;
+.unitSupport {
+  width: 3.5em;
+  text-align: center;
+  text-align-last: center;
+}
+
+.unit-bb, .unit-merge, .unit-support {
+  min-width: 3.75em;
 }
 
 .unit-stat {

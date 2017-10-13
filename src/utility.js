@@ -95,10 +95,6 @@ export class Dropdown extends React.Component {
 
 // Text box component
 export class TextBox extends React.PureComponent {
-    constructor(props) {
-        super(props);
-    }
-    
     render() {
         return (
             <div id={this.props.id} className="text-box">
