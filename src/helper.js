@@ -484,7 +484,7 @@ function calcMergeBonus(unit, merge, boonBaneMod) {
 }
 
 // Calculate unit stats
-export function calcStats(unit, skills, boonBane = null, merge = 0) {
+export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank = '') {
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
 
@@ -592,6 +592,27 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         }
         else if (/Amiti/.test(skills.weapon)) {
             totalMod = totalMod.map((x, i) => { return x + [0, 0, -2, 0, 0][i]; });
+        }
+        else if (/Divine Tyrfing/.test(skills.weapon)) {
+            totalMod = totalMod.map((x, i) => { return x + [0, 0, 0, 0, 3][i]; });
+        }
+    }
+    
+    function applySummonerSupportBonus() {
+        switch (summonerRank) {
+            case 'S':
+                totalMod[0] += 1;
+                totalMod[1] += 2;
+            case 'A':
+                totalMod[2] += 2;
+            case 'B':
+                totalMod[0] += 1;
+                totalMod[3] += 2;
+            case 'C':
+                totalMod[0] += 3;
+                totalMod[4] += 2;
+            default:
+                break;
         }
     }
 }

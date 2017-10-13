@@ -109,27 +109,29 @@ th, td {
   font-weight: 600;
 }
 
-#unitInfoLeft {
+.unit-info-container {
   display: inline-block;
+  height: 75px;
 }
 
-#unitInfoRight {
-  display: inline-block;
-}
-
-#unitInfoRight th {
+.unit-info-container th {
   height: 28px;
 }
 
-#unitInfoRight td {
+.unit-info-container td {
   height: 42px;
 }
 
 .unit-portrait {
   display: block;
-  margin-right: 10px;
   border-radius: 10px;
   background-color: #f5f5f5;
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .unit-portrait {
+    margin-right: 10px;
+  }
 }
 
 .unit-portrait-small {

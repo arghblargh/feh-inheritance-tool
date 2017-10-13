@@ -1460,11 +1460,11 @@
           "unlock": 5
         },
         {
-          "name": "Attack/Res +1",
+          "name": "Attack/Res 1",
           "unlock": 5
         },
         {
-          "name": "Attack/Res +2",
+          "name": "Attack/Res 2",
           "unlock": 5
         }
       ],
@@ -3147,6 +3147,84 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Deirdre": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 5
+        },
+        {
+          "name": "Divine Naga",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Quick Riposte 1",
+          "unlock": 5
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 5
+        },
+        {
+          "name": "Quick Riposte 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Ploy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spd Ploy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Spd Ploy 3",
+          "unlock": 5
         }
       ]
     }
@@ -12816,6 +12894,84 @@
       ]
     }
   },
+  "Sigurd": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Divine Tyrfing",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Miracle",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Close Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Close Def 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Crusader's Ward",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Smoke 1",
+          "unlock": 5
+        },
+        {
+          "name": "Spd Smoke 2",
+          "unlock": 5
+        },
+        {
+          "name": "Spd Smoke 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Sonya": {
     "color": "Green",
     "wpnType": "Tome",
@@ -13315,6 +13471,80 @@
         {
           "name": "Spur Def 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Tailtiu": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "stats": {
+      "HP": 0,
+      "Atk": 0,
+      "Spd": 0,
+      "Def": 0,
+      "Res": 0
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Blárblade",
+          "unlock": 5
+        },
+        {
+          "name": "Blárblade+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Spd/Res",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack/Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Attack/Res 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Spd 2",
+          "unlock": 5
         }
       ]
     }
@@ -14592,7 +14822,7 @@
       "assist": [
         {
           "name": "",
-          "unlock": 1
+          "unlock": 5
         }
       ],
       "special": [
@@ -14636,7 +14866,7 @@
       "passiveC": [
         {
           "name": "",
-          "unlock": 1
+          "unlock": 5
         }
       ]
     }

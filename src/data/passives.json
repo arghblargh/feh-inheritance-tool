@@ -44,12 +44,12 @@
       "cost": "160",
       "effect": "Grants Atk/Def+2."
     },
-    "Attack/Res +1": {
+    "Attack/Res 1": {
       "cost": "80",
       "effect": "Grants Atk/Res+1.",
       "require": "Attack +1|Resistance +1"
     },
-    "Attack/Res +2": {
+    "Attack/Res 2": {
       "cost": "160",
       "effect": "Grants Atk/Res+2."
     },
@@ -571,6 +571,11 @@
       "cost": "200",
       "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
       "restriction": "Weapon:SwLADrBDa"
+    },
+    "Crusader's Ward": {
+      "cost": "300",
+      "effect": "If unit receives consecutive attacks from a foe 2 spaces away, damage from second attack onward reduced by 80%. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
     },
     "Daggerbreaker 1": {
       "cost": "50",
@@ -1431,6 +1436,30 @@
     "Savage Blow 3": {
       "cost": "200",
       "effect": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat."
+    },
+    "Spd Ploy 1": {
+      "cost": "60",
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-3 until the end of foe's next action."
+    },
+    "Spd Ploy 2": {
+      "cost": "120",
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-4 until the end of foe's next action."
+    },
+    "Spd Ploy 3": {
+      "cost": "240",
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-5 until the end of foe's next action."
+    },
+    "Spd Smoke 1": {
+      "cost": "60",
+      "effect": "After combat, inflicts Spd-3 on foes within within 2 spaces of target through their next actions."
+    },
+    "Spd Smoke 2": {
+      "cost": "120",
+      "effect": "After combat, inflicts Spd-5 on foes within within 2 spaces of target through their next actions."
+    },
+    "Spd Smoke 3": {
+      "cost": "240",
+      "effect": "After combat, inflicts Spd-7 on foes within within 2 spaces of target through their next actions."
     },
     "Spur Atk 1": {
       "cost": "50",
