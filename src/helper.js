@@ -24,6 +24,9 @@ import React from 'react';
 import { Dropdown, escapeRegExp, jsonp } from './utility.js';
 
 const units = require('./data/units.json');
+const lv1Stats = require('./data/stats/5_1.json');
+const lv40Stats = require('./data/stats/5_40.json');
+
 const weapons = require('./data/weapons.json');
 const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
@@ -89,7 +92,7 @@ export const unitPortrait = Object.keys(units).reduce(function(previous, current
     return previous;
 }, {});
 
-const wikiBuildLabel = '----- Wiki Builds -----'
+const wikiBuildLabel = '----- Wiki Builds -----';
 
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
 export class BuildManager extends React.PureComponent {
@@ -163,7 +166,8 @@ export class BuildManager extends React.PureComponent {
                 }
                 catch (TypeError) {
                     console.log('Error retrieving stats: ' + buildName);
-                    stats = units[unitName].stats;
+                    //stats = units[unitName].stats;
+                    stats = lv40Stats[unitName];
                     hasError = true;
                 }
 
@@ -245,7 +249,7 @@ export class BuildManager extends React.PureComponent {
             </div>
         )
     }
-};
+}
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
@@ -438,15 +442,15 @@ function addStatMods(stats, mod) {
 // In case of tie: HP > Atk > Spd > Def > Res
 function calcMergeBonus(unit, merge, boonBaneMod) {
     let sortedStats = [];
-    for (let stat in units[unit].stats) {
+    for (let stat in lv1Stats[unit]) {
         sortedStats.push({
             "stat":stat,
-            "value":units[unit].stats[stat],
+            "value":lv1Stats[unit][stat],
             "bonus":0
         });
     }
     for (let i in sortedStats) {
-        sortedStats[i].value += boonBaneMod[i];
+        sortedStats[i].value += Math.sign(boonBaneMod[i]);
     }
     sortedStats.sort((a,b) => { return b.value - a.value; });
     
@@ -479,7 +483,6 @@ function calcMergeBonus(unit, merge, boonBaneMod) {
             default:
         }
     }
-    
     return resultMod;
 }
 
@@ -524,7 +527,8 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
         applySummonerSupportBonus();
     }
 
-    return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);
+    //return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);
+    return addStatMods(JSON.parse(JSON.stringify(lv40Stats[unit])), totalMod);
 
     function applyPassiveStats(passive) {
         if (/^\w+\/\w+\s\+?\d$/.test(passive)) {

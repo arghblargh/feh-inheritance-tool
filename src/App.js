@@ -434,7 +434,7 @@ class UnitInfo extends Component {
                 <th className="unit-bb">Bane</th>
               </tr>
               <tr>
-                <td title="Notice: Merges other than +5/10 are currently inaccurate.">
+                <td>
                   <Dropdown addClass='unitMerge'
                             options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
                             value={'+' + this.props.merge}
@@ -556,7 +556,7 @@ class ToggleBox extends Component {
 class InheritanceTool extends Component {
   constructor(props) {
     super(props);
-    
+
     this.initState('Abel');
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
@@ -808,7 +808,7 @@ class App extends Component {
               Bug reports, feedback, or suggestions? Submit 
               an <a href="https://github.com/arghblargh/feh-inheritance-tool">issue</a> on Github or 
               message <a href="https://www.reddit.com/u/omgwtfhax_">/u/omgwtfhax_</a> on Reddit. 
-              <a id="tip" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XLGEXXDZ8EY5A" target="_blank">
+              <a id="tip" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XLGEXXDZ8EY5A" target="_blank" rel="noopener noreferrer">
                 <img src="https://arghblargh.github.io/feh-inheritance-tool/orb.png" alt="Send a tip" title="Send a tip" />
               </a>
             </p>

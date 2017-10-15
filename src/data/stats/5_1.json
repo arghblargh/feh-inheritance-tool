@@ -1,0 +1,1240 @@
+{
+  "Abel": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 8,
+    "Res": 6
+  },
+  "Alfonse": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 5
+  },
+  "Alm": {
+    "HP": 21,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 6,
+    "Res": 5
+  },
+  "Amelia": {
+    "HP": 19,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 9,
+    "Res": 4
+  },
+  "Anna": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 6
+  },
+  "Arthur": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 5
+  },
+  "Athena": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 8,
+    "Res": 5
+  },
+  "Ayra": {},
+  "Azama": {
+    "HP": 19,
+    "Atk": 4,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 6
+  },
+  "Azura": {
+    "HP": 17,
+    "Atk": 5,
+    "Spd": 7,
+    "Def": 4,
+    "Res": 6
+  },
+  "Azura (Performing Arts)": {
+    "HP": 16,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 6
+  },
+  "Barst": {
+    "HP": 20,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 4
+  },
+  "Bartre": {
+    "HP": 21,
+    "Atk": 10,
+    "Spd": 6,
+    "Def": 7,
+    "Res": 3
+  },
+  "Berkut": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 7,
+    "Res": 7
+  },
+  "Beruka": {
+    "HP": 20,
+    "Atk": 7,
+    "Spd": 6,
+    "Def": 9,
+    "Res": 5
+  },
+  "Black Knight": {
+    "HP": 22,
+    "Atk": 10,
+    "Spd": 8,
+    "Def": 9,
+    "Res": 5
+  },
+  "Boey": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 5,
+    "Def": 8,
+    "Res": 5
+  },
+  "Bruno": {},
+  "Caeda": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 10
+  },
+  "Caeda (Bridal Blessings)": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 8
+  },
+  "Cain": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 6
+  },
+  "Camilla": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 7
+  },
+  "Camilla (Spring Festival)": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 4
+  },
+  "Camus": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 7,
+    "Res": 4
+  },
+  "Catria": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 7,
+    "Res": 6
+  },
+  "Cecilia": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 5,
+    "Res": 7
+  },
+  "Celica": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 7
+  },
+  "Charlotte (Bridal Blessings)": {
+    "HP": 20,
+    "Atk": 10,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 4
+  },
+  "Cherche": {
+    "HP": 20,
+    "Atk": 10,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 3
+  },
+  "Chrom": {
+    "HP": 21,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 7,
+    "Res": 4
+  },
+  "Chrom (Spring Festival)": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 5
+  },
+  "Clair": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 9
+  },
+  "Clarine": {
+    "HP": 16,
+    "Atk": 6,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 7
+  },
+  "Clarisse": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 5
+  },
+  "Clive": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 4
+  },
+  "Cordelia": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 6
+  },
+  "Cordelia (Bridal Blessings)": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 5
+  },
+  "Corrin (F)": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 6
+  },
+  "Corrin (F) (Nohrian Summer)": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 7
+  },
+  "Corrin (M)": {
+    "HP": 20,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 5
+  },
+  "Deirdre": {},
+  "Delthea": {
+    "HP": 16,
+    "Atk": 10,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 7
+  },
+  "Donnel": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 5,
+    "Def": 6,
+    "Res": 4
+  },
+  "Draug": {
+    "HP": 24,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 13,
+    "Res": 3
+  },
+  "Effie": {
+    "HP": 22,
+    "Atk": 12,
+    "Spd": 5,
+    "Def": 11,
+    "Res": 4
+  },
+  "Eirika": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 7,
+    "Res": 6
+  },
+  "Eldigan": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 8,
+    "Res": 6
+  },
+  "Elincia": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 8
+  },
+  "Elise": {
+    "HP": 15,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 8
+  },
+  "Elise (Nohrian Summer)": {
+    "HP": 17,
+    "Atk": 10,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 6
+  },
+  "Eliwood": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 8
+  },
+  "Ephraim": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 5
+  },
+  "Est": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 8
+  },
+  "Fae": {
+    "HP": 16,
+    "Atk": 5,
+    "Spd": 4,
+    "Def": 6,
+    "Res": 8
+  },
+  "Faye": {
+    "HP": 16,
+    "Atk": 6,
+    "Spd": 3,
+    "Def": 4,
+    "Res": 7
+  },
+  "Felicia": {
+    "HP": 15,
+    "Atk": 6,
+    "Spd": 11,
+    "Def": 3,
+    "Res": 9
+  },
+  "Fir": {
+    "HP": 19,
+    "Atk": 6,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 7
+  },
+  "Florina": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 8
+  },
+  "Frederick": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 4
+  },
+  "Frederick (Ylissean Summer)": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 6,
+    "Res": 5
+  },
+  "Gaius": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 4
+  },
+  "Gaius (Ylissean Summer)": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 6
+  },
+  "Genny": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 4,
+    "Res": 8
+  },
+  "Gordin": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 4
+  },
+  "Gray": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 6,
+    "Def": 6,
+    "Res": 3
+  },
+  "Gunter": {
+    "HP": 21,
+    "Atk": 10,
+    "Spd": 7,
+    "Def": 11,
+    "Res": 5
+  },
+  "Gwendolyn": {
+    "HP": 23,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 12,
+    "Res": 6
+  },
+  "Hana": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 4
+  },
+  "Hawkeye": {
+    "HP": 21,
+    "Atk": 9,
+    "Spd": 5,
+    "Def": 6,
+    "Res": 6
+  },
+  "Hector": {
+    "HP": 24,
+    "Atk": 10,
+    "Spd": 5,
+    "Def": 11,
+    "Res": 4
+  },
+  "Henry": {
+    "HP": 19,
+    "Atk": 6,
+    "Spd": 5,
+    "Def": 8,
+    "Res": 6
+  },
+  "Hinata": {
+    "HP": 21,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 10,
+    "Res": 3
+  },
+  "Hinoka": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 7
+  },
+  "Ike": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 5
+  },
+  "Ike (Brave Heroes)": {
+    "HP": 17,
+    "Atk": 10,
+    "Spd": 6,
+    "Def": 9,
+    "Res": 5
+  },
+  "Inigo (Performing Arts)": {
+    "HP": 15,
+    "Atk": 6,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 3
+  },
+  "Innes": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 7
+  },
+  "Jaffar": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 5
+  },
+  "Jagen": {
+    "HP": 20,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 11
+  },
+  "Jakob": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 5
+  },
+  "Jeorge": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 5
+  },
+  "Julia": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 4,
+    "Res": 8
+  },
+  "Kagero": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 6
+  },
+  "Karel": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 5
+  },
+  "Katarina": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 8
+  },
+  "Klein": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 5
+  },
+  "Lachesis": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 8
+  },
+  "Laslow": {
+    "HP": 20,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 6,
+    "Res": 5
+  },
+  "Legion": {
+    "HP": 20,
+    "Atk": 10,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 3
+  },
+  "Leo": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 5,
+    "Def": 6,
+    "Res": 8
+  },
+  "Leo (Nohrian Summer)": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 6,
+    "Res": 7
+  },
+  "Leon": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 5
+  },
+  "Lilina": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 4,
+    "Res": 9
+  },
+  "Linde": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 10,
+    "Def": 4,
+    "Res": 5
+  },
+  "Lissa": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 6,
+    "Def": 6,
+    "Res": 8
+  },
+  "Lloyd": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 8
+  },
+  "Lon'qu": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 11,
+    "Def": 5,
+    "Res": 5
+  },
+  "Lucina": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 4
+  },
+  "Lucina (Brave Heroes)": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 8,
+    "Res": 4
+  },
+  "Lucina (Spring Festival)": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 6
+  },
+  "Lucius": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 9
+  },
+  "Lukas": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 5,
+    "Def": 10,
+    "Res": 4
+  },
+  "Luke": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 5
+  },
+  "Lyn": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 11,
+    "Def": 7,
+    "Res": 5
+  },
+  "Lyn (Brave Heroes)": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 6
+  },
+  "Lyn (Bridal Blessings)": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 5
+  },
+  "Mae": {
+    "HP": 16,
+    "Atk": 10,
+    "Spd": 7,
+    "Def": 3,
+    "Res": 8
+  },
+  "Maria": {
+    "HP": 17,
+    "Atk": 5,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 10
+  },
+  "Marth": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 6
+  },
+  "Marth (Masked)": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 4
+  },
+  "Mathilda": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 8
+  },
+  "Matthew": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 5
+  },
+  "Merric": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 4
+  },
+  "Michalis": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 9,
+    "Res": 4
+  },
+  "Minerva": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 8,
+    "Res": 5
+  },
+  "Mist": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 5,
+    "Res": 8
+  },
+  "Narcian": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 7
+  },
+  "Navarre": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 11,
+    "Def": 6,
+    "Res": 5
+  },
+  "Nephenee": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 8,
+    "Res": 5
+  },
+  "Niles": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 8
+  },
+  "Ninian": {
+    "HP": 16,
+    "Atk": 5,
+    "Spd": 7,
+    "Def": 6,
+    "Res": 5
+  },
+  "Nino": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 4,
+    "Res": 7
+  },
+  "Nowi": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 5,
+    "Def": 6,
+    "Res": 5
+  },
+  "Oboro": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 9,
+    "Res": 5
+  },
+  "Odin": {
+    "HP": 19,
+    "Atk": 5,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 6
+  },
+  "Ogma": {
+    "HP": 21,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 3
+  },
+  "Olivia": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 4
+  },
+  "Olivia (Performing Arts)": {
+    "HP": 15,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 4
+  },
+  "Olwen": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 6
+  },
+  "Oscar": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 6
+  },
+  "Palla": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 7
+  },
+  "Peri": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 6
+  },
+  "Priscilla": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 4,
+    "Res": 8
+  },
+  "Raigh": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 7
+  },
+  "Raven": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 5
+  },
+  "Rebecca": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 5
+  },
+  "Reinhardt": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 5,
+    "Res": 8
+  },
+  "Robin (F)": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 7,
+    "Res": 5
+  },
+  "Robin (F) (Ylissean Summer)": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 7
+  },
+  "Robin (M)": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 7,
+    "Res": 5
+  },
+  "Roderick": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 7
+  },
+  "Roy": {
+    "HP": 20,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 4
+  },
+  "Roy (Brave Heroes)": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 7
+  },
+  "Ryoma": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 11,
+    "Def": 5,
+    "Res": 4
+  },
+  "Saber": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 8,
+    "Res": 5
+  },
+  "Saizo": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 9,
+    "Res": 3
+  },
+  "Sakura": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 8
+  },
+  "Sanaki": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 4,
+    "Res": 8
+  },
+  "Selena": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 9,
+    "Def": 8,
+    "Res": 6
+  },
+  "Seliph": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 5
+  },
+  "Serra": {
+    "HP": 16,
+    "Atk": 6,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 9
+  },
+  "Seth": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 5
+  },
+  "Setsuna": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 6
+  },
+  "Shanna": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 7
+  },
+  "Sharena": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 5
+  },
+  "Sheena": {
+    "HP": 21,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 12,
+    "Res": 7
+  },
+  "Shigure (Performing Arts)": {
+    "HP": 15,
+    "Atk": 7,
+    "Spd": 5,
+    "Def": 4,
+    "Res": 5
+  },
+  "Sigurd": {},
+  "Sonya": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 8
+  },
+  "Sophia": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 4,
+    "Def": 6,
+    "Res": 7
+  },
+  "Soren": {
+    "HP": 17,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 7
+  },
+  "Stahl": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 5
+  },
+  "Subaki": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 9,
+    "Def": 9,
+    "Res": 5
+  },
+  "Sully": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 6
+  },
+  "Tailtiu": {},
+  "Takumi": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 6,
+    "Res": 5
+  },
+  "Tana": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 6
+  },
+  "Tharja": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 5
+  },
+  "Tiki (Adult)": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 6,
+    "Def": 9,
+    "Res": 7
+  },
+  "Tiki (Adult) (Ylissean Summer)": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 7
+  },
+  "Tiki (Young)": {
+    "HP": 15,
+    "Atk": 5,
+    "Spd": 4,
+    "Def": 8,
+    "Res": 7
+  },
+  "Titania": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 8
+  },
+  "Tobin": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 5,
+    "Def": 5,
+    "Res": 4
+  },
+  "Ursula": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 8
+  },
+  "Valter": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 8,
+    "Res": 4
+  },
+  "Veronica": {},
+  "Virion": {
+    "HP": 20,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 7,
+    "Res": 3
+  },
+  "Wrys": {
+    "HP": 18,
+    "Atk": 5,
+    "Spd": 6,
+    "Def": 5,
+    "Res": 10
+  },
+  "Xander": {
+    "HP": 20,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 9,
+    "Res": 4
+  },
+  "Xander (Nohrian Summer)": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 6
+  },
+  "Xander (Spring Festival)": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 6,
+    "Def": 9,
+    "Res": 7
+  },
+  "Zephiel": {
+    "HP": 25,
+    "Atk": 9,
+    "Spd": 3,
+    "Def": 12,
+    "Res": 5
+  }
+}
