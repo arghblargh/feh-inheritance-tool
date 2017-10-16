@@ -18,13 +18,6 @@
     "effect": "Grants +150% to damage dealt.",
     "require": "Night Sky"
   },
-  "Regnal Astra": {
-    "cost": "500",
-    "count": "2",
-    "effect": "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)",
-    "require": "Astra",
-    "restriction": "Exclusive"
-  },
   "Black Luna": {
     "cost": "500",
     "count": "3",
@@ -242,6 +235,13 @@
     "effect": "Reduces damage inflicted by attacks from adjacent foes by 50%.",
     "require": "Buckler",
     "restriction": "Melee"
+  },
+  "Regnal Astra": {
+    "cost": "500",
+    "count": "2",
+    "effect": "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)",
+    "require": "Astra",
+    "restriction": "Exclusive"
   },
   "Reprisal": {
     "cost": "200",
