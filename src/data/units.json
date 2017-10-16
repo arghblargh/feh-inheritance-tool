@@ -386,6 +386,73 @@
       ]
     }
   },
+  "Arden": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Brave Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Brave Sword+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Buckler",
+          "unlock": 5
+        },
+        {
+          "name": "Pavise",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Follow-Up Ring",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Def 2",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Arthur": {
     "color": "Green",
     "wpnType": "Axe",
@@ -459,6 +526,73 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Arvis": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 3
+        },
+        {
+          "name": "Elfire",
+          "unlock": 3
+        },
+        {
+          "name": "Bolganone",
+          "unlock": 3
+        },
+        {
+          "name": "Valflame",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Flame",
+          "unlock": 3
+        },
+        {
+          "name": "Growing Flame",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Recover Ring",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Ploy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Def Ploy 2",
+          "unlock": 4
+        },
+        {
+          "name": "Def Ploy 3",
+          "unlock": 5
         }
       ]
     }
@@ -539,6 +673,85 @@
         {
           "name": "Sword Exp. 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Ayra": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Ayra's Blade",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 4
+        },
+        {
+          "name": "Astra",
+          "unlock": 4
+        },
+        {
+          "name": "Regnal Astra",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 4
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 4
+        },
+        {
+          "name": "Desperation 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
         }
       ]
     }
@@ -2889,6 +3102,13 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Spd": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -11813,6 +12033,10 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
+    "bane": {
+      "HP": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -12345,6 +12569,13 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -12366,6 +12597,10 @@
       ],
       "assist": [
         {
+          "name": "Rally Resistance",
+          "unlock": 5
+        },
+        {
           "name": "Rally Spd/Res",
           "unlock": 5
         }
@@ -12377,6 +12612,10 @@
         }
       ],
       "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 5
+        },
         {
           "name": "Attack/Res 1",
           "unlock": 5

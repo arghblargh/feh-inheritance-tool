@@ -1,286 +1,293 @@
 {
   "Abel": {
     "HP": 39,
-    "Atk": 33,
-    "Spd": 32,
-    "Def": 25,
-    "Res": 25
+    "Atk": 30,
+    "Spd": 30,
+    "Def": 24,
+    "Res": 23
   },
   "Alfonse": {
     "HP": 43,
-    "Atk": 35,
-    "Spd": 25,
-    "Def": 32,
-    "Res": 22
+    "Atk": 33,
+    "Spd": 23,
+    "Def": 30,
+    "Res": 20
   },
   "Alm": {
     "HP": 45,
-    "Atk": 33,
-    "Spd": 30,
-    "Def": 28,
-    "Res": 22
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Amelia": {
     "HP": 47,
-    "Atk": 34,
-    "Spd": 34,
-    "Def": 35,
-    "Res": 23
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Anna": {
     "HP": 41,
-    "Atk": 29,
-    "Spd": 38,
-    "Def": 22,
-    "Res": 28
+    "Atk": 27,
+    "Spd": 36,
+    "Def": 20,
+    "Res": 25
+  },
+  "Arden": {
+    "HP": 60,
+    "Atk": 36,
+    "Spd": 16,
+    "Def": 41,
+    "Res": 16
   },
   "Arthur": {
     "HP": 43,
+    "Atk": 30,
+    "Spd": 26,
+    "Def": 28,
+    "Res": 22
+  },
+  "Arvis": {
+    "HP": 33,
     "Atk": 32,
     "Spd": 29,
-    "Def": 30,
-    "Res": 24
+    "Def": 15,
+    "Res": 30
   },
   "Athena": {
     "HP": 36,
-    "Atk": 31,
-    "Spd": 38,
-    "Def": 27,
-    "Res": 24
+    "Atk": 28,
+    "Spd": 36,
+    "Def": 26,
+    "Res": 22
   },
   "Ayra": {
-    "HP": null,
-    "Atk": null,
-    "Spd": null,
-    "Def": null,
-    "Res": null
+    "HP": 41,
+    "Atk": 31,
+    "Spd": 35,
+    "Def": 28,
+    "Res": 19
   },
   "Azama": {
     "HP": 43,
-    "Atk": 21,
-    "Spd": 26,
-    "Def": 32,
-    "Res": 25
+    "Atk": 19,
+    "Spd": 25,
+    "Def": 30,
+    "Res": 23
   },
   "Azura": {
     "HP": 36,
-    "Atk": 31,
-    "Spd": 33,
-    "Def": 21,
-    "Res": 28
-  },
-  "Azura (Performing Arts)": {
-    "HP": 35,
-    "Atk": 32,
-    "Spd": 34,
-    "Def": 20,
-    "Res": 28
-  },
-  "Barst": {
-    "HP": 46,
-    "Atk": 33,
-    "Spd": 32,
-    "Def": 30,
-    "Res": 17
-  },
-  "Bartre": {
-    "HP": 49,
-    "Atk": 36,
-    "Spd": 25,
-    "Def": 33,
-    "Res": 13
-  },
-  "Berkut": {
-    "HP": 43,
-    "Atk": 34,
-    "Spd": 22,
-    "Def": 31,
-    "Res": 24
-  },
-  "Beruka": {
-    "HP": 46,
-    "Atk": 29,
-    "Spd": 23,
-    "Def": 37,
-    "Res": 22
-  },
-  "Black Knight": {
-    "HP": 48,
-    "Atk": 34,
-    "Spd": 34,
-    "Def": 35,
-    "Res": 18
-  },
-  "Boey": {
-    "HP": 43,
-    "Atk": 29,
-    "Spd": 27,
-    "Def": 32,
-    "Res": 18
-  },
-  "Bruno": {
-    "HP": null,
     "Atk": null,
     "Spd": null,
     "Def": null,
     "Res": null
   },
+  "Azura (Performing Arts)": {
+    "HP": 35,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Barst": {
+    "HP": 46,
+    "Atk": 31,
+    "Spd": 30,
+    "Def": 27,
+    "Res": 15
+  },
+  "Bartre": {
+    "HP": 49,
+    "Atk": 34,
+    "Spd": 23,
+    "Def": 31,
+    "Res": 12
+  },
+  "Berkut": {
+    "HP": 43,
+    "Atk": 32,
+    "Spd": 20,
+    "Def": 29,
+    "Res": 22
+  },
+  "Beruka": {
+    "HP": 46,
+    "Atk": 27,
+    "Spd": 21,
+    "Def": 35,
+    "Res": 20
+  },
+  "Black Knight": {
+    "HP": 48,
+    "Atk": 32,
+    "Spd": 31,
+    "Def": 33,
+    "Res": 16
+  },
+  "Boey": {
+    "HP": 43,
+    "Atk": 27,
+    "Spd": 24,
+    "Def": 30,
+    "Res": 16
+  },
   "Caeda": {
     "HP": 36,
-    "Atk": 25,
-    "Spd": 37,
-    "Def": 24,
-    "Res": 34
+    "Atk": 23,
+    "Spd": 35,
+    "Def": 22,
+    "Res": 32
   },
   "Caeda (Bridal Blessings)": {
     "HP": 33,
-    "Atk": 29,
-    "Spd": 37,
-    "Def": 19,
-    "Res": 30
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Cain": {
     "HP": 42,
-    "Atk": 32,
-    "Spd": 32,
-    "Def": 27,
-    "Res": 21
+    "Atk": 30,
+    "Spd": 29,
+    "Def": 26,
+    "Res": 19
   },
   "Camilla": {
     "HP": 37,
-    "Atk": 30,
-    "Spd": 32,
-    "Def": 28,
-    "Res": 31
+    "Atk": 28,
+    "Spd": 30,
+    "Def": 25,
+    "Res": 28
   },
   "Camilla (Spring Festival)": {
     "HP": 39,
-    "Atk": 35,
-    "Spd": 25,
-    "Def": 30,
-    "Res": 19
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Camus": {
     "HP": 42,
-    "Atk": 32,
-    "Spd": 33,
-    "Def": 31,
-    "Res": 17
+    "Atk": 30,
+    "Spd": 31,
+    "Def": 28,
+    "Res": 15
   },
   "Catria": {
     "HP": 39,
-    "Atk": 31,
-    "Spd": 34,
-    "Def": 29,
-    "Res": 25
+    "Atk": 29,
+    "Spd": 32,
+    "Def": 26,
+    "Res": 23
   },
   "Cecilia": {
     "HP": 36,
-    "Atk": 32,
-    "Spd": 25,
-    "Def": 22,
-    "Res": 29
+    "Atk": 30,
+    "Spd": 23,
+    "Def": 20,
+    "Res": 27
   },
   "Celica": {
     "HP": 39,
-    "Atk": 32,
-    "Spd": 33,
-    "Def": 22,
-    "Res": 22
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Charlotte (Bridal Blessings)": {
     "HP": 46,
-    "Atk": 36,
-    "Spd": 32,
-    "Def": 24,
-    "Res": 19
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Cherche": {
     "HP": 46,
-    "Atk": 38,
-    "Spd": 25,
-    "Def": 32,
-    "Res": 16
+    "Atk": 36,
+    "Spd": 23,
+    "Def": 30,
+    "Res": 14
   },
   "Chrom": {
     "HP": 47,
-    "Atk": 37,
-    "Spd": 25,
-    "Def": 31,
-    "Res": 17
+    "Atk": 35,
+    "Spd": 23,
+    "Def": 29,
+    "Res": 15
   },
   "Chrom (Spring Festival)": {
     "HP": 43,
-    "Atk": 35,
-    "Spd": 32,
-    "Def": 28,
-    "Res": 20
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Clair": {
     "HP": 37,
-    "Atk": 26,
-    "Spd": 36,
-    "Def": 24,
-    "Res": 33
+    "Atk": 24,
+    "Spd": 34,
+    "Def": 22,
+    "Res": 31
   },
   "Clarine": {
     "HP": 35,
-    "Atk": 25,
-    "Spd": 33,
-    "Def": 22,
-    "Res": 29
+    "Atk": 23,
+    "Spd": 31,
+    "Def": 20,
+    "Res": 27
   },
   "Clarisse": {
     "HP": 37,
-    "Atk": 31,
-    "Spd": 34,
-    "Def": 25,
-    "Res": 20
+    "Atk": 29,
+    "Spd": 32,
+    "Def": 23,
+    "Res": 18
   },
   "Clive": {
     "HP": 45,
-    "Atk": 33,
-    "Spd": 25,
-    "Def": 32,
-    "Res": 19
+    "Atk": 31,
+    "Spd": 23,
+    "Def": 30,
+    "Res": 17
   },
   "Cordelia": {
     "HP": 40,
-    "Atk": 35,
-    "Spd": 35,
-    "Def": 22,
-    "Res": 25
+    "Atk": 33,
+    "Spd": 33,
+    "Def": 20,
+    "Res": 23
   },
   "Cordelia (Bridal Blessings)": {
     "HP": 36,
-    "Atk": 35,
-    "Spd": 35,
-    "Def": 19,
-    "Res": 22
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Corrin (F)": {
     "HP": 41,
-    "Atk": 27,
-    "Spd": 34,
-    "Def": 34,
-    "Res": 21
+    "Atk": 26,
+    "Spd": 31,
+    "Def": 32,
+    "Res": 19
   },
   "Corrin (F) (Nohrian Summer)": {
     "HP": 34,
-    "Atk": 31,
-    "Spd": 34,
-    "Def": 22,
-    "Res": 26
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Corrin (M)": {
     "HP": 42,
-    "Atk": 32,
-    "Spd": 32,
-    "Def": 28,
-    "Res": 24
+    "Atk": 30,
+    "Spd": 30,
+    "Def": 25,
+    "Res": 22
   },
   "Deirdre": {
-    "HP": null,
+    "HP": 36,
     "Atk": null,
     "Spd": null,
     "Def": null,
@@ -288,818 +295,818 @@
   },
   "Delthea": {
     "HP": 33,
-    "Atk": 36,
-    "Spd": 34,
-    "Def": 13,
-    "Res": 31
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Donnel": {
     "HP": 43,
-    "Atk": 35,
-    "Spd": 29,
-    "Def": 32,
-    "Res": 23
+    "Atk": 33,
+    "Spd": 26,
+    "Def": 30,
+    "Res": 21
   },
   "Draug": {
     "HP": 50,
-    "Atk": 30,
-    "Spd": 32,
-    "Def": 39,
-    "Res": 18
+    "Atk": 28,
+    "Spd": 29,
+    "Def": 37,
+    "Res": 16
   },
   "Effie": {
     "HP": 50,
-    "Atk": 40,
-    "Spd": 22,
-    "Def": 33,
-    "Res": 23
+    "Atk": 38,
+    "Spd": 20,
+    "Def": 31,
+    "Res": 21
   },
   "Eirika": {
     "HP": 42,
-    "Atk": 26,
-    "Spd": 35,
-    "Def": 26,
-    "Res": 28
+    "Atk": 25,
+    "Spd": 33,
+    "Def": 24,
+    "Res": 25
   },
   "Eldigan": {
     "HP": 45,
-    "Atk": 32,
-    "Spd": 24,
-    "Def": 34,
-    "Res": 19
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Elincia": {
     "HP": 35,
-    "Atk": 34,
-    "Spd": 36,
-    "Def": 24,
-    "Res": 27
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Elise": {
     "HP": 30,
-    "Atk": 32,
-    "Spd": 32,
-    "Def": 19,
-    "Res": 32
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Elise (Nohrian Summer)": {
     "HP": 34,
-    "Atk": 36,
-    "Spd": 34,
-    "Def": 18,
-    "Res": 25
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Eliwood": {
     "HP": 39,
-    "Atk": 31,
-    "Spd": 30,
-    "Def": 23,
-    "Res": 32
+    "Atk": 28,
+    "Spd": 28,
+    "Def": 21,
+    "Res": 30
   },
   "Ephraim": {
     "HP": 45,
-    "Atk": 35,
-    "Spd": 25,
-    "Def": 32,
-    "Res": 20
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Est": {
     "HP": 36,
-    "Atk": 35,
-    "Spd": 30,
-    "Def": 24,
-    "Res": 32
+    "Atk": 33,
+    "Spd": 28,
+    "Def": 22,
+    "Res": 29
   },
   "Fae": {
     "HP": 46,
-    "Atk": 33,
-    "Spd": 28,
-    "Def": 25,
-    "Res": 30
+    "Atk": 30,
+    "Spd": 25,
+    "Def": 24,
+    "Res": 28
   },
   "Faye": {
     "HP": 42,
-    "Atk": 30,
-    "Spd": 25,
-    "Def": 26,
-    "Res": 31
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Felicia": {
     "HP": 34,
-    "Atk": 23,
-    "Spd": 37,
-    "Def": 18,
-    "Res": 35
+    "Atk": 21,
+    "Spd": 35,
+    "Def": 16,
+    "Res": 33
   },
   "Fir": {
     "HP": 41,
-    "Atk": 25,
-    "Spd": 36,
-    "Def": 24,
-    "Res": 31
+    "Atk": 23,
+    "Spd": 34,
+    "Def": 22,
+    "Res": 29
   },
   "Florina": {
     "HP": 42,
-    "Atk": 29,
-    "Spd": 27,
-    "Def": 25,
-    "Res": 34
+    "Atk": 26,
+    "Spd": 26,
+    "Def": 23,
+    "Res": 32
   },
   "Frederick": {
     "HP": 43,
-    "Atk": 35,
-    "Spd": 25,
-    "Def": 36,
-    "Res": 14
+    "Atk": 33,
+    "Spd": 23,
+    "Def": 34,
+    "Res": 13
   },
   "Frederick (Ylissean Summer)": {
     "HP": 40,
-    "Atk": 32,
-    "Spd": 31,
-    "Def": 28,
-    "Res": 18
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Gaius": {
     "HP": 42,
-    "Atk": 29,
-    "Spd": 36,
-    "Def": 22,
-    "Res": 19
+    "Atk": 27,
+    "Spd": 34,
+    "Def": 20,
+    "Res": 17
   },
   "Gaius (Ylissean Summer)": {
     "HP": 34,
-    "Atk": 30,
-    "Spd": 37,
-    "Def": 19,
-    "Res": 28
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Genny": {
     "HP": 32,
-    "Atk": 35,
-    "Spd": 25,
-    "Def": 21,
-    "Res": 34
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Gordin": {
     "HP": 43,
-    "Atk": 31,
-    "Spd": 25,
-    "Def": 32,
-    "Res": 17
-  },
-  "Gray": {
-    "HP": 43,
-    "Atk": 35,
-    "Spd": 32,
-    "Def": 30,
-    "Res": 22
-  },
-  "Gunter": {
-    "HP": 43,
-    "Atk": 32,
-    "Spd": 24,
-    "Def": 33,
-    "Res": 18
-  },
-  "Gwendolyn": {
-    "HP": 49,
-    "Atk": 30,
-    "Spd": 24,
-    "Def": 38,
-    "Res": 28
-  },
-  "Hana": {
-    "HP": 37,
-    "Atk": 35,
-    "Spd": 36,
-    "Def": 23,
-    "Res": 26
-  },
-  "Hawkeye": {
-    "HP": 45,
-    "Atk": 33,
-    "Spd": 22,
-    "Def": 28,
-    "Res": 30
-  },
-  "Hector": {
-    "HP": 52,
-    "Atk": 36,
-    "Spd": 24,
-    "Def": 37,
-    "Res": 19
-  },
-  "Henry": {
-    "HP": 45,
-    "Atk": 23,
-    "Spd": 22,
-    "Def": 32,
-    "Res": 25
-  },
-  "Hinata": {
-    "HP": 47,
-    "Atk": 32,
-    "Spd": 24,
-    "Def": 36,
-    "Res": 18
-  },
-  "Hinoka": {
-    "HP": 41,
-    "Atk": 35,
-    "Spd": 32,
-    "Def": 25,
-    "Res": 24
-  },
-  "Ike": {
-    "HP": 42,
-    "Atk": 35,
-    "Spd": 31,
-    "Def": 32,
-    "Res": 18
-  },
-  "Ike (Brave Heroes)": {
-    "HP": 43,
-    "Atk": 36,
-    "Spd": 28,
-    "Def": 35,
-    "Res": 20
-  },
-  "Inigo (Performing Arts)": {
-    "HP": 37,
-    "Atk": 28,
-    "Spd": 33,
-    "Def": 22,
-    "Res": 20
-  },
-  "Innes": {
-    "HP": 35,
-    "Atk": 33,
-    "Spd": 34,
-    "Def": 14,
-    "Res": 31
-  },
-  "Jaffar": {
-    "HP": 41,
-    "Atk": 26,
-    "Spd": 33,
-    "Def": 25,
-    "Res": 22
-  },
-  "Jagen": {
-    "HP": 37,
-    "Atk": 27,
-    "Spd": 24,
-    "Def": 25,
-    "Res": 35
-  },
-  "Jakob": {
-    "HP": 39,
     "Atk": 29,
-    "Spd": 31,
-    "Def": 25,
-    "Res": 24
-  },
-  "Jeorge": {
-    "HP": 37,
-    "Atk": 32,
-    "Spd": 32,
-    "Def": 24,
-    "Res": 22
-  },
-  "Julia": {
-    "HP": 38,
-    "Atk": 35,
-    "Spd": 26,
-    "Def": 17,
-    "Res": 32
-  },
-  "Kagero": {
-    "HP": 31,
-    "Atk": 35,
-    "Spd": 32,
-    "Def": 22,
-    "Res": 28
-  },
-  "Karel": {
-    "HP": 47,
-    "Atk": 30,
-    "Spd": 35,
-    "Def": 25,
-    "Res": 20
-  },
-  "Katarina": {
-    "HP": 34,
-    "Atk": 32,
-    "Spd": 34,
-    "Def": 15,
-    "Res": 32
-  },
-  "Klein": {
-    "HP": 40,
-    "Atk": 31,
-    "Spd": 33,
-    "Def": 20,
-    "Res": 24
-  },
-  "Lachesis": {
-    "HP": 39,
-    "Atk": 32,
-    "Spd": 25,
-    "Def": 22,
-    "Res": 30
-  },
-  "Laslow": {
-    "HP": 44,
-    "Atk": 35,
-    "Spd": 26,
-    "Def": 30,
-    "Res": 22
-  },
-  "Legion": {
-    "HP": 46,
-    "Atk": 36,
-    "Spd": 35,
-    "Def": 22,
-    "Res": 18
-  },
-  "Leo": {
-    "HP": 39,
-    "Atk": 29,
-    "Spd": 22,
-    "Def": 25,
-    "Res": 30
-  },
-  "Leo (Nohrian Summer)": {
-    "HP": 37,
-    "Atk": 32,
-    "Spd": 27,
-    "Def": 16,
-    "Res": 35
-  },
-  "Leon": {
-    "HP": 39,
-    "Atk": 34,
-    "Spd": 30,
+    "Spd": 23,
     "Def": 30,
     "Res": 15
   },
+  "Gray": {
+    "HP": 43,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Gunter": {
+    "HP": 43,
+    "Atk": 30,
+    "Spd": 22,
+    "Def": 31,
+    "Res": 16
+  },
+  "Gwendolyn": {
+    "HP": 49,
+    "Atk": 28,
+    "Spd": 22,
+    "Def": 36,
+    "Res": 25
+  },
+  "Hana": {
+    "HP": 37,
+    "Atk": 33,
+    "Spd": 34,
+    "Def": 21,
+    "Res": 23
+  },
+  "Hawkeye": {
+    "HP": 45,
+    "Atk": 31,
+    "Spd": 20,
+    "Def": 26,
+    "Res": 27
+  },
+  "Hector": {
+    "HP": 52,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Henry": {
+    "HP": 45,
+    "Atk": 22,
+    "Spd": 20,
+    "Def": 30,
+    "Res": 23
+  },
+  "Hinata": {
+    "HP": 47,
+    "Atk": 30,
+    "Spd": 22,
+    "Def": 34,
+    "Res": 16
+  },
+  "Hinoka": {
+    "HP": 41,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Ike": {
+    "HP": 42,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Ike (Brave Heroes)": {
+    "HP": 43,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Inigo (Performing Arts)": {
+    "HP": 37,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Innes": {
+    "HP": 35,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Jaffar": {
+    "HP": 41,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Jagen": {
+    "HP": 37,
+    "Atk": 26,
+    "Spd": 22,
+    "Def": 23,
+    "Res": 33
+  },
+  "Jakob": {
+    "HP": 39,
+    "Atk": 27,
+    "Spd": 29,
+    "Def": 23,
+    "Res": 22
+  },
+  "Jeorge": {
+    "HP": 37,
+    "Atk": 30,
+    "Spd": 30,
+    "Def": 22,
+    "Res": 20
+  },
+  "Julia": {
+    "HP": 38,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Kagero": {
+    "HP": 31,
+    "Atk": 33,
+    "Spd": 30,
+    "Def": 20,
+    "Res": 25
+  },
+  "Karel": {
+    "HP": 47,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Katarina": {
+    "HP": 34,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Klein": {
+    "HP": 40,
+    "Atk": 29,
+    "Spd": 31,
+    "Def": 18,
+    "Res": 22
+  },
+  "Lachesis": {
+    "HP": 39,
+    "Atk": 29,
+    "Spd": 24,
+    "Def": 20,
+    "Res": 28
+  },
+  "Laslow": {
+    "HP": 44,
+    "Atk": 33,
+    "Spd": 25,
+    "Def": 27,
+    "Res": 20
+  },
+  "Legion": {
+    "HP": 46,
+    "Atk": 34,
+    "Spd": 33,
+    "Def": 20,
+    "Res": 16
+  },
+  "Leo": {
+    "HP": 39,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Leo (Nohrian Summer)": {
+    "HP": 37,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Leon": {
+    "HP": 39,
+    "Atk": 32,
+    "Spd": 27,
+    "Def": 28,
+    "Res": 14
+  },
   "Lilina": {
     "HP": 35,
-    "Atk": 37,
-    "Spd": 25,
-    "Def": 19,
-    "Res": 31
+    "Atk": 35,
+    "Spd": 23,
+    "Def": 17,
+    "Res": 29
   },
   "Linde": {
     "HP": 35,
-    "Atk": 35,
-    "Spd": 36,
-    "Def": 14,
-    "Res": 27
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Lissa": {
     "HP": 39,
-    "Atk": 26,
-    "Spd": 25,
-    "Def": 28,
-    "Res": 30
+    "Atk": 25,
+    "Spd": 23,
+    "Def": 25,
+    "Res": 28
   },
   "Lloyd": {
     "HP": 41,
-    "Atk": 32,
-    "Spd": 35,
-    "Def": 20,
-    "Res": 30
+    "Atk": 30,
+    "Spd": 33,
+    "Def": 18,
+    "Res": 27
   },
   "Lon'qu": {
     "HP": 45,
-    "Atk": 29,
-    "Spd": 39,
-    "Def": 22,
-    "Res": 22
+    "Atk": 27,
+    "Spd": 37,
+    "Def": 20,
+    "Res": 20
   },
   "Lucina": {
     "HP": 43,
-    "Atk": 34,
-    "Spd": 36,
-    "Def": 25,
-    "Res": 19
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Lucina (Brave Heroes)": {
     "HP": 41,
-    "Atk": 34,
-    "Spd": 36,
-    "Def": 27,
-    "Res": 19
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Lucina (Spring Festival)": {
     "HP": 35,
-    "Atk": 29,
-    "Spd": 36,
-    "Def": 22,
-    "Res": 25
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Lucius": {
     "HP": 37,
-    "Atk": 32,
-    "Spd": 30,
-    "Def": 13,
-    "Res": 35
+    "Atk": 29,
+    "Spd": 28,
+    "Def": 12,
+    "Res": 33
   },
   "Lukas": {
     "HP": 45,
-    "Atk": 35,
-    "Spd": 22,
-    "Def": 38,
-    "Res": 17
+    "Atk": 33,
+    "Spd": 20,
+    "Def": 36,
+    "Res": 15
   },
   "Luke": {
     "HP": 43,
-    "Atk": 34,
-    "Spd": 28,
-    "Def": 30,
-    "Res": 20
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Lyn": {
     "HP": 37,
-    "Atk": 28,
-    "Spd": 37,
-    "Def": 26,
-    "Res": 29
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Lyn (Brave Heroes)": {
     "HP": 35,
-    "Atk": 33,
-    "Spd": 35,
-    "Def": 18,
-    "Res": 28
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Lyn (Bridal Blessings)": {
     "HP": 39,
-    "Atk": 28,
-    "Spd": 34,
-    "Def": 23,
-    "Res": 24
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Mae": {
     "HP": 35,
-    "Atk": 36,
-    "Spd": 31,
-    "Def": 16,
-    "Res": 30
+    "Atk": 34,
+    "Spd": 28,
+    "Def": 14,
+    "Res": 28
   },
   "Maria": {
     "HP": 36,
-    "Atk": 27,
-    "Spd": 34,
-    "Def": 19,
-    "Res": 32
+    "Atk": 24,
+    "Spd": 32,
+    "Def": 17,
+    "Res": 30
   },
   "Marth": {
     "HP": 41,
-    "Atk": 31,
-    "Spd": 34,
-    "Def": 29,
-    "Res": 23
+    "Atk": 29,
+    "Spd": 32,
+    "Def": 26,
+    "Res": 21
   },
   "Marth (Masked)": {
     "HP": 43,
-    "Atk": 34,
-    "Spd": 36,
-    "Def": 25,
-    "Res": 19
+    "Atk": 32,
+    "Spd": 34,
+    "Def": 23,
+    "Res": 17
   },
   "Mathilda": {
     "HP": 35,
-    "Atk": 29,
-    "Spd": 32,
-    "Def": 24,
-    "Res": 34
+    "Atk": 26,
+    "Spd": 30,
+    "Def": 22,
+    "Res": 32
   },
   "Matthew": {
     "HP": 41,
-    "Atk": 25,
-    "Spd": 34,
-    "Def": 30,
-    "Res": 18
+    "Atk": 24,
+    "Spd": 32,
+    "Def": 27,
+    "Res": 16
   },
   "Merric": {
     "HP": 43,
-    "Atk": 26,
-    "Spd": 32,
-    "Def": 28,
-    "Res": 19
+    "Atk": 25,
+    "Spd": 30,
+    "Def": 25,
+    "Res": 17
   },
   "Michalis": {
     "HP": 43,
-    "Atk": 34,
-    "Spd": 26,
-    "Def": 35,
-    "Res": 19
+    "Atk": 32,
+    "Spd": 24,
+    "Def": 33,
+    "Res": 17
   },
   "Minerva": {
     "HP": 40,
-    "Atk": 31,
-    "Spd": 33,
-    "Def": 32,
-    "Res": 22
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Mist": {
     "HP": 39,
-    "Atk": 27,
-    "Spd": 28,
-    "Def": 20,
-    "Res": 34
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Narcian": {
     "HP": 42,
-    "Atk": 29,
-    "Spd": 29,
-    "Def": 32,
-    "Res": 26
+    "Atk": 27,
+    "Spd": 26,
+    "Def": 30,
+    "Res": 24
   },
   "Navarre": {
     "HP": 42,
-    "Atk": 31,
-    "Spd": 37,
-    "Def": 23,
-    "Res": 24
+    "Atk": 29,
+    "Spd": 35,
+    "Def": 21,
+    "Res": 22
   },
   "Nephenee": {
     "HP": 37,
-    "Atk": 31,
-    "Spd": 35,
-    "Def": 34,
-    "Res": 20
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Niles": {
     "HP": 37,
-    "Atk": 25,
-    "Spd": 34,
-    "Def": 17,
-    "Res": 34
+    "Atk": 23,
+    "Spd": 32,
+    "Def": 15,
+    "Res": 32
   },
   "Ninian": {
     "HP": 42,
-    "Atk": 24,
-    "Spd": 33,
-    "Def": 23,
-    "Res": 27
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Nino": {
     "HP": 33,
-    "Atk": 33,
-    "Spd": 36,
-    "Def": 19,
-    "Res": 26
+    "Atk": 31,
+    "Spd": 34,
+    "Def": 17,
+    "Res": 24
   },
   "Nowi": {
     "HP": 45,
-    "Atk": 34,
-    "Spd": 27,
-    "Def": 30,
-    "Res": 27
+    "Atk": 32,
+    "Spd": 24,
+    "Def": 28,
+    "Res": 24
   },
   "Oboro": {
     "HP": 40,
-    "Atk": 32,
-    "Spd": 26,
-    "Def": 35,
-    "Res": 24
+    "Atk": 30,
+    "Spd": 24,
+    "Def": 33,
+    "Res": 22
   },
   "Odin": {
     "HP": 43,
-    "Atk": 22,
-    "Spd": 32,
-    "Def": 25,
-    "Res": 25
+    "Atk": 20,
+    "Spd": 30,
+    "Def": 24,
+    "Res": 23
   },
   "Ogma": {
     "HP": 47,
-    "Atk": 35,
-    "Spd": 34,
-    "Def": 28,
-    "Res": 13
+    "Atk": 33,
+    "Spd": 32,
+    "Def": 25,
+    "Res": 12
   },
   "Olivia": {
     "HP": 36,
-    "Atk": 28,
-    "Spd": 33,
-    "Def": 27,
-    "Res": 26
+    "Atk": 26,
+    "Spd": 31,
+    "Def": 24,
+    "Res": 23
   },
   "Olivia (Performing Arts)": {
     "HP": 34,
-    "Atk": 28,
-    "Spd": 34,
-    "Def": 16,
-    "Res": 28
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Olwen": {
     "HP": 34,
-    "Atk": 26,
-    "Spd": 34,
-    "Def": 20,
-    "Res": 30
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Oscar": {
     "HP": 40,
-    "Atk": 33,
-    "Spd": 34,
-    "Def": 26,
-    "Res": 21
+    "Atk": 31,
+    "Spd": 32,
+    "Def": 24,
+    "Res": 19
   },
   "Palla": {
     "HP": 42,
-    "Atk": 31,
-    "Spd": 31,
-    "Def": 28,
-    "Res": 26
+    "Atk": 29,
+    "Spd": 29,
+    "Def": 25,
+    "Res": 24
   },
   "Peri": {
     "HP": 35,
-    "Atk": 33,
-    "Spd": 33,
-    "Def": 23,
-    "Res": 30
-  },
-  "Priscilla": {
-    "HP": 36,
-    "Atk": 29,
-    "Spd": 29,
-    "Def": 19,
-    "Res": 32
-  },
-  "Raigh": {
-    "HP": 36,
-    "Atk": 32,
-    "Spd": 29,
-    "Def": 22,
-    "Res": 29
-  },
-  "Raven": {
-    "HP": 41,
-    "Atk": 34,
-    "Spd": 35,
-    "Def": 25,
-    "Res": 22
-  },
-  "Rebecca": {
-    "HP": 37,
-    "Atk": 29,
-    "Spd": 34,
+    "Atk": 31,
+    "Spd": 31,
     "Def": 21,
     "Res": 27
   },
+  "Priscilla": {
+    "HP": 36,
+    "Atk": 27,
+    "Spd": 26,
+    "Def": 17,
+    "Res": 30
+  },
+  "Raigh": {
+    "HP": 36,
+    "Atk": 30,
+    "Spd": 27,
+    "Def": 20,
+    "Res": 26
+  },
+  "Raven": {
+    "HP": 41,
+    "Atk": 32,
+    "Spd": 33,
+    "Def": 23,
+    "Res": 20
+  },
+  "Rebecca": {
+    "HP": 37,
+    "Atk": 27,
+    "Spd": 32,
+    "Def": 19,
+    "Res": 24
+  },
   "Reinhardt": {
     "HP": 38,
-    "Atk": 32,
-    "Spd": 23,
-    "Def": 27,
-    "Res": 25
+    "Atk": 30,
+    "Spd": 21,
+    "Def": 24,
+    "Res": 24
   },
   "Robin (F)": {
     "HP": 40,
-    "Atk": 29,
-    "Spd": 29,
-    "Def": 29,
-    "Res": 22
+    "Atk": 27,
+    "Spd": 27,
+    "Def": 26,
+    "Res": 20
   },
   "Robin (F) (Ylissean Summer)": {
     "HP": 35,
-    "Atk": 32,
-    "Spd": 34,
-    "Def": 28,
-    "Res": 29
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Robin (M)": {
     "HP": 40,
-    "Atk": 29,
-    "Spd": 29,
-    "Def": 29,
-    "Res": 22
+    "Atk": 27,
+    "Spd": 27,
+    "Def": 26,
+    "Res": 20
   },
   "Roderick": {
     "HP": 40,
-    "Atk": 31,
-    "Spd": 34,
-    "Def": 25,
-    "Res": 24
+    "Atk": 29,
+    "Spd": 32,
+    "Def": 23,
+    "Res": 22
   },
   "Roy": {
     "HP": 44,
-    "Atk": 30,
-    "Spd": 31,
-    "Def": 25,
-    "Res": 28
+    "Atk": 28,
+    "Spd": 29,
+    "Def": 23,
+    "Res": 25
   },
   "Roy (Brave Heroes)": {
     "HP": 38,
-    "Atk": 32,
-    "Spd": 34,
-    "Def": 26,
-    "Res": 24
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Ryoma": {
     "HP": 41,
-    "Atk": 34,
-    "Spd": 35,
-    "Def": 27,
-    "Res": 21
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Saber": {
     "HP": 40,
-    "Atk": 31,
-    "Spd": 33,
-    "Def": 32,
-    "Res": 22
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Saizo": {
     "HP": 36,
-    "Atk": 29,
-    "Spd": 34,
-    "Def": 33,
-    "Res": 16
+    "Atk": 26,
+    "Spd": 32,
+    "Def": 31,
+    "Res": 14
   },
   "Sakura": {
     "HP": 36,
-    "Atk": 28,
-    "Spd": 30,
-    "Def": 24,
-    "Res": 30
+    "Atk": 25,
+    "Spd": 28,
+    "Def": 22,
+    "Res": 28
   },
   "Sanaki": {
     "HP": 33,
-    "Atk": 37,
-    "Spd": 26,
-    "Def": 17,
-    "Res": 34
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Selena": {
     "HP": 37,
-    "Atk": 25,
-    "Spd": 35,
-    "Def": 32,
-    "Res": 28
+    "Atk": 23,
+    "Spd": 33,
+    "Def": 30,
+    "Res": 25
   },
   "Seliph": {
     "HP": 47,
-    "Atk": 34,
-    "Spd": 24,
-    "Def": 30,
-    "Res": 22
+    "Atk": 32,
+    "Spd": 22,
+    "Def": 28,
+    "Res": 20
   },
   "Serra": {
     "HP": 33,
-    "Atk": 30,
-    "Spd": 31,
-    "Def": 21,
-    "Res": 33
+    "Atk": 27,
+    "Spd": 29,
+    "Def": 19,
+    "Res": 31
   },
   "Seth": {
     "HP": 37,
-    "Atk": 32,
-    "Spd": 31,
-    "Def": 32,
-    "Res": 22
+    "Atk": 30,
+    "Spd": 28,
+    "Def": 30,
+    "Res": 20
   },
   "Setsuna": {
     "HP": 37,
-    "Atk": 28,
-    "Spd": 37,
-    "Def": 22,
-    "Res": 23
+    "Atk": 26,
+    "Spd": 35,
+    "Def": 20,
+    "Res": 21
   },
   "Shanna": {
     "HP": 39,
-    "Atk": 30,
-    "Spd": 35,
-    "Def": 25,
-    "Res": 29
+    "Atk": 28,
+    "Spd": 33,
+    "Def": 23,
+    "Res": 26
   },
   "Sharena": {
     "HP": 43,
-    "Atk": 32,
-    "Spd": 32,
-    "Def": 29,
-    "Res": 22
+    "Atk": 30,
+    "Spd": 30,
+    "Def": 26,
+    "Res": 20
   },
   "Sheena": {
     "HP": 45,
-    "Atk": 30,
-    "Spd": 25,
-    "Def": 36,
-    "Res": 33
+    "Atk": 28,
+    "Spd": 23,
+    "Def": 34,
+    "Res": 30
   },
   "Shigure (Performing Arts)": {
     "HP": 34,
-    "Atk": 31,
-    "Spd": 29,
-    "Def": 21,
-    "Res": 24
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Sigurd": {
-    "HP": null,
+    "HP": 41,
     "Atk": null,
     "Spd": null,
     "Def": null,
@@ -1107,48 +1114,48 @@
   },
   "Sonya": {
     "HP": 36,
-    "Atk": 33,
-    "Spd": 31,
-    "Def": 15,
-    "Res": 32
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Sophia": {
     "HP": 40,
-    "Atk": 33,
-    "Spd": 19,
-    "Def": 28,
-    "Res": 29
+    "Atk": 31,
+    "Spd": 17,
+    "Def": 25,
+    "Res": 27
   },
   "Soren": {
     "HP": 36,
-    "Atk": 33,
-    "Spd": 33,
-    "Def": 17,
-    "Res": 29
+    "Atk": 31,
+    "Spd": 31,
+    "Def": 15,
+    "Res": 26
   },
   "Stahl": {
     "HP": 45,
-    "Atk": 31,
-    "Spd": 26,
-    "Def": 30,
-    "Res": 22
+    "Atk": 29,
+    "Spd": 24,
+    "Def": 28,
+    "Res": 20
   },
   "Subaki": {
     "HP": 40,
-    "Atk": 25,
-    "Spd": 35,
-    "Def": 35,
-    "Res": 22
+    "Atk": 23,
+    "Spd": 33,
+    "Def": 33,
+    "Res": 20
   },
   "Sully": {
     "HP": 42,
-    "Atk": 26,
-    "Spd": 34,
-    "Def": 24,
-    "Res": 28
+    "Atk": 25,
+    "Spd": 32,
+    "Def": 22,
+    "Res": 25
   },
   "Tailtiu": {
-    "HP": null,
+    "HP": 39,
     "Atk": null,
     "Spd": null,
     "Def": null,
@@ -1156,121 +1163,114 @@
   },
   "Takumi": {
     "HP": 40,
-    "Atk": 32,
-    "Spd": 33,
-    "Def": 25,
-    "Res": 18
-  },
-  "Tana": {
-    "HP": 36,
-    "Atk": 34,
-    "Spd": 36,
-    "Def": 25,
-    "Res": 25
-  },
-  "Tharja": {
-    "HP": 39,
-    "Atk": 32,
-    "Spd": 34,
-    "Def": 23,
-    "Res": 20
-  },
-  "Tiki (Adult)": {
-    "HP": 40,
-    "Atk": 35,
-    "Spd": 23,
-    "Def": 35,
-    "Res": 24
-  },
-  "Tiki (Adult) (Ylissean Summer)": {
-    "HP": 35,
-    "Atk": 36,
-    "Spd": 30,
-    "Def": 32,
-    "Res": 24
-  },
-  "Tiki (Young)": {
-    "HP": 41,
-    "Atk": 31,
-    "Spd": 30,
-    "Def": 32,
-    "Res": 29
-  },
-  "Titania": {
-    "HP": 37,
-    "Atk": 28,
-    "Spd": 34,
-    "Def": 25,
-    "Res": 30
-  },
-  "Tobin": {
-    "HP": 46,
-    "Atk": 31,
-    "Spd": 27,
-    "Def": 33,
-    "Res": 26
-  },
-  "Ursula": {
-    "HP": 35,
-    "Atk": 29,
-    "Spd": 32,
-    "Def": 19,
-    "Res": 30
-  },
-  "Valter": {
-    "HP": 42,
-    "Atk": 32,
-    "Spd": 31,
-    "Def": 34,
-    "Res": 19
-  },
-  "Veronica": {
-    "HP": null,
     "Atk": null,
     "Spd": null,
     "Def": null,
     "Res": null
   },
+  "Tana": {
+    "HP": 36,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Tharja": {
+    "HP": 39,
+    "Atk": 30,
+    "Spd": 32,
+    "Def": 21,
+    "Res": 18
+  },
+  "Tiki (Adult)": {
+    "HP": 40,
+    "Atk": 33,
+    "Spd": 21,
+    "Def": 33,
+    "Res": 22
+  },
+  "Tiki (Adult) (Ylissean Summer)": {
+    "HP": 35,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Tiki (Young)": {
+    "HP": 41,
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
+  },
+  "Titania": {
+    "HP": 37,
+    "Atk": 25,
+    "Spd": 32,
+    "Def": 23,
+    "Res": 28
+  },
+  "Tobin": {
+    "HP": 46,
+    "Atk": 29,
+    "Spd": 25,
+    "Def": 30,
+    "Res": 23
+  },
+  "Ursula": {
+    "HP": 35,
+    "Atk": 26,
+    "Spd": 30,
+    "Def": 17,
+    "Res": 28
+  },
+  "Valter": {
+    "HP": 42,
+    "Atk": 30,
+    "Spd": 29,
+    "Def": 31,
+    "Res": 17
+  },
   "Virion": {
     "HP": 46,
-    "Atk": 31,
-    "Spd": 31,
-    "Def": 26,
-    "Res": 13
+    "Atk": 29,
+    "Spd": 29,
+    "Def": 24,
+    "Res": 12
   },
   "Wrys": {
     "HP": 42,
-    "Atk": 24,
-    "Spd": 23,
-    "Def": 22,
-    "Res": 36
+    "Atk": 22,
+    "Spd": 22,
+    "Def": 20,
+    "Res": 34
   },
   "Xander": {
     "HP": 44,
-    "Atk": 32,
-    "Spd": 24,
-    "Def": 37,
-    "Res": 17
+    "Atk": 30,
+    "Spd": 22,
+    "Def": 35,
+    "Res": 15
   },
   "Xander (Nohrian Summer)": {
     "HP": 43,
-    "Atk": 32,
-    "Spd": 30,
-    "Def": 36,
-    "Res": 16
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Xander (Spring Festival)": {
     "HP": 40,
-    "Atk": 25,
-    "Spd": 28,
-    "Def": 35,
-    "Res": 26
+    "Atk": null,
+    "Spd": null,
+    "Def": null,
+    "Res": null
   },
   "Zephiel": {
     "HP": 55,
-    "Atk": 35,
-    "Spd": 16,
-    "Def": 38,
-    "Res": 24
+    "Atk": 33,
+    "Spd": 14,
+    "Def": 36,
+    "Res": 22
   }
 }

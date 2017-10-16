@@ -10,15 +10,20 @@
     "cost": "500",
     "count": "5",
     "effect": "Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt.",
-    "require": "Sol|Luna",
-    "value": "Heal:0.5,Mit:0.5"
+    "require": "Sol|Luna"
   },
   "Astra": {
     "cost": "200",
     "count": "5",
     "effect": "Grants +150% to damage dealt.",
-    "require": "Night Sky",
-    "value": "Damage:2.5"
+    "require": "Night Sky"
+  },
+  "Regnal Astra": {
+    "cost": "500",
+    "count": "2",
+    "effect": "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)",
+    "require": "Astra",
+    "restriction": "Exclusive"
   },
   "Black Luna": {
     "cost": "500",

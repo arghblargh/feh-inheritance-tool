@@ -648,6 +648,11 @@
       "effect": "Unit can move to a space adjacent to a flier ally within 2 spaces.",
       "restriction": "Flying"
     },
+    "Follow-Up Ring": {
+      "cost": "300",
+      "effect": "Unit makes a guaranteed follow-up attack when unit's HP ≥ 50% at start of combat. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
+    },
     "G Tomebreaker 1": {
       "cost": "50",
       "effect": "If unit's HP ≥ 90% in combat against a green tome user, unit makes a followup attack and foe cannot.",
@@ -819,6 +824,11 @@
       "cost": "200",
       "effect": "If unit's HP ≥ 50% in combat against a red tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
+    },
+    "Recover Ring": {
+      "cost": "300",
+      "effect": "Restores 10 HP at the start of each turn. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
     },
     "Renewal 1": {
       "cost": "60",

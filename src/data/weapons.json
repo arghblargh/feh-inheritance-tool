@@ -73,6 +73,14 @@
     "effect": "Restores 5 HP to adjacent allies after any combat this unit initiates.",
     "restriction": "Exclusive"
   },
+  "Ayra's Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Spd+3. If unit's Spd - foe's Spd ≥ 1, gain Special cooldown charge +1 per attack. (If similar skill also used, only highest value applied.)",
+    "restriction": "Exclusive"
+  },
   "Berkut's Lance": {
     "color": "Blue",
     "type": "Lance",
@@ -1508,6 +1516,14 @@
     "cost": 400,
     "might": 16,
     "effect": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3.",
+    "restriction": "Exclusive"
+  },
+  "Valflame": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk/Res-4 until the end of foe's next action.",
     "restriction": "Exclusive"
   },
   "Vidofnir": {
