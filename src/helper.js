@@ -518,10 +518,11 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
     totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
 
     if (skills) {
-        if (skills.weapon)
+        if (skills.weapon) {
             totalMod[1] += weapons[skills.weapon].might;
+            applyWeaponStats();
+        }
 
-        applyWeaponStats();
         applyPassiveStats(skills.passiveA);
         applyPassiveStats(skills.seal);
         applySummonerSupportBonus();
@@ -576,30 +577,24 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
     }
 
     function applyWeaponStats() {
-        // Add stats from skills
-        if (/Brave|Dire Thunder/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 0, -5, 0, 0][i]; });
-        }
-        else if (/Cursed Lance/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 2, 2, 0, 0][i]; });
-        }
-        else if (/Geirskögul/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 0, 0, 3, 0][i]; });
-        }
-        else if (/Blazing Durandal/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 3, 0, 0, 0][i]; });
-        }
-        else if (/Blazing Durandal/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 3, 0, 0, 0][i]; });
-        }
-        else if (/Mulagir/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 0, 3, 0, 0][i]; });
-        }
-        else if (/Amiti/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 0, -2, 0, 0][i]; });
-        }
-        else if (/Divine Tyrfing/.test(skills.weapon)) {
-            totalMod = totalMod.map((x, i) => { return x + [0, 0, 0, 0, 3][i]; });
+        // Add stats from weapon
+        var match = /(?:Grants |^)([\w/]+[+-]\d)(?:\.| and)/.exec(weapons[skills.weapon].effect);
+        if (match) {
+            let bonus = /^[\w/]+\s?(\+|-)\d$/.exec(match[1]);
+            let sign = bonus[1] === '+' ? 1 : -1;
+            if (bonus) {
+                temp = parseInt((/[1-9]/.exec(bonus[0])), 10);
+                if (/HP/.test(bonus[0]))
+                    totalMod[0] += temp * sign;
+                if (/Atk|Attack/.test(bonus[0]))
+                    totalMod[1] += temp * sign;
+                if (/Spd|Speed/.test(bonus[0]))
+                    totalMod[2] += temp * sign;
+                if (/Def|Defense/.test(bonus[0]))
+                    totalMod[3] += temp * sign;
+                if (/Res|Resistance/.test(bonus[0]))
+                    totalMod[4] += temp * sign;
+            }
         }
     }
     

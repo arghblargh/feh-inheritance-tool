@@ -467,7 +467,8 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Grants Res+3. If in combat against foe using magic, unit receives 50% less damage from the first attack."
+    "effect": "Grants Res+3. If in combat against foe using magic, unit receives 50% less damage from the first attack.",
+    "restriction": "Exclusive"
   },
   "Durandal": {
     "color": "Red",
