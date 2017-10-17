@@ -604,7 +604,7 @@ class InheritanceTool extends Component {
       this.state.rawStatsOn ? null
                             : skills ? skills : this.state.skills,
       boonBane ? boonBane : this.state.boonBane,
-      merge ? merge : this.state.merge,
+      merge || merge === '' ? merge : this.state.merge,
       rank ? rank : this.state.supportRank
     )
   }
