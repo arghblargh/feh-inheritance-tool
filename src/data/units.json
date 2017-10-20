@@ -681,6 +681,9 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
