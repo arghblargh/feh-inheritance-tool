@@ -8,6 +8,15 @@
   "Atk Ploy 3": {
     "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action."
   },
+  "Atk Smoke 1": {
+    "effect": "After combat, inflicts Atk-3 on foes within within 2 spaces of target through their next actions."
+  },
+  "Atk Smoke 2": {
+    "effect": "After combat, inflicts Atk-5 on foes within within 2 spaces of target through their next actions."
+  },
+  "Atk Smoke 3": {
+    "effect": "After combat, inflicts Atk-7 on foes within within 2 spaces of target through their next actions."
+  },
   "Attack +1": {
     "effect": "Grants Atk +1."
   },
@@ -16,6 +25,15 @@
   },
   "Attack +3": {
     "effect": "Grants Atk +3."
+  },
+  "Brash Assault 1": {
+    "effect": "Unit automatically makes a followup when at HP ≤ 30% and attacking a foe that can counter."
+  },
+  "Brash Assault 2": {
+    "effect": "Unit automatically makes a followup when at HP ≤ 40% and attacking a foe that can counter."
+  },
+  "Brash Assault 3": {
+    "effect": "Unit automatically makes a followup when at HP ≤ 50% and attacking a foe that can counter."
   },
   "Breath of Life 1": {
     "effect": "If unit initiates attack, adjacent allies recover 3 HP after combat."
@@ -91,6 +109,18 @@
   },
   "Fortify Res 3": {
     "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn."
+  },
+  "Guidance 1": {
+    "effect": "If unit has 100% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+    "restriction": "Flying"
+  },
+  "Guidance 2": {
+    "effect": "If unit has ≥ 50% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+    "restriction": "Flying"
+  },
+  "Guidance 3": {
+    "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+    "restriction": "Flying"
   },
   "HP +3": {
     "effect": "Grants +3 to max HP."
