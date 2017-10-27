@@ -422,11 +422,22 @@ export function getPossibleSkills(unit) {
 
 // Apply stat mods to stats.
 function addStatMods(stats, mod) {
-    stats.HP += mod[0];
-    stats.Atk += mod[1];
-    stats.Spd += mod[2];
-    stats.Def += mod[3];
-    stats.Res += mod[4];
+    if (stats) {
+        stats.HP += mod[0];
+        stats.Atk += mod[1];
+        stats.Spd += mod[2];
+        stats.Def += mod[3];
+        stats.Res += mod[4];
+    }
+    else {
+        stats = {
+            HP: mod[0],
+            Atk: mod[1],
+            Spd: mod[2],
+            Def: mod[3],
+            Res: mod[4]
+        }
+    }
 
     return stats;
 }
@@ -441,6 +452,9 @@ function addStatMods(stats, mod) {
 // +6~10: Repeat
 // In case of tie: HP > Atk > Spd > Def > Res
 function calcMergeBonus(unit, merge, boonBaneMod) {
+    if (!lv1Stats[unit])
+        return [0, 0, 0, 0, 0];
+    
     let sortedStats = [];
     for (let stat in lv1Stats[unit]) {
         sortedStats.push({
@@ -528,8 +542,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
         applySummonerSupportBonus();
     }
 
-    //return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);
-    return addStatMods(JSON.parse(JSON.stringify(lv40Stats[unit])), totalMod);
+    return addStatMods(lv40Stats[unit] ? JSON.parse(JSON.stringify(lv40Stats[unit])) : null, totalMod);
 
     function applyPassiveStats(passive) {
         if (/^\w+\/\w+\s\+?\d$/.test(passive)) {

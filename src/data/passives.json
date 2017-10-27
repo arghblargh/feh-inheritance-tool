@@ -15,6 +15,18 @@
       "effect": "Grants Def+6 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
+    "Atk/Res Bond 1": {
+      "cost": "60",
+      "effect": "Grants Atk/Res+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Res Bond 2": {
+      "cost": "120",
+      "effect": "Grants Atk/Res+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Res Bond 3": {
+      "cost": "240",
+      "effect": "Grants Atk/Res+5 to this unit during combat if unit is adjacent to an ally."
+    },
     "Atk/Spd 1": {
       "cost": "80",
       "effect": "Grants Atk/Spd+1."
@@ -52,6 +64,17 @@
     "Attack/Res 2": {
       "cost": "160",
       "effect": "Grants Atk/Res+2."
+    },
+    "Bracing Blow 1": {
+      "cost": "120",
+      "effect": "Grants Def/Res+2 during combat when unit initiates attack.",
+      "require": "Armored Blow 1|Warding Blow 1",
+      "restriction": "Offense"
+    },
+    "Bracing Blow 2": {
+      "cost": "240",
+      "effect": "Grants Def/Res+4 during combat when unit initiates attack.",
+      "restriction": "Offense"
     },
     "Close Counter": {
       "cost": "300",
@@ -453,6 +476,18 @@
       "cost": "200",
       "effect": "Grants Res+6 during combat if unit initiates attack.",
       "restriction": "Offense"
+    },
+    "Warding Stance 1": {
+      "cost": "50",
+      "effect": "Grants Res+2 during combat when this unit is attacked."
+    },
+    "Warding Stance 2": {
+      "cost": "100",
+      "effect": "Grants Res+4 during combat when this unit is attacked."
+    },
+    "Warding Stance 3": {
+      "cost": "200",
+      "effect": "Grants Res+6 during combat when this unit is attacked."
     },
     "Water Boost 1": {
       "cost": "50",
@@ -1194,6 +1229,21 @@
     "Breath of Life 3": {
       "cost": "200",
       "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat."
+    },
+    "Dagger Valor 1": {
+      "cost": "30",
+      "effect": "If unit survives and uses a dagger, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Dagger"
+    },
+    "Dagger Valor 2": {
+      "cost": "60",
+      "effect": "If unit survives, all dagger users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Dagger"
+    },
+    "Dagger Valor 3": {
+      "cost": "120",
+      "effect": "If unit survives, all dagger users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Dagger"
     },
     "Def Ploy 1": {
       "cost": "60",

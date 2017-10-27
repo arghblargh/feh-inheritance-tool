@@ -357,7 +357,7 @@
     "type": "Dagger",
     "cost": 200,
     "might": 6,
-    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action."
+    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action."
   },
   "Dancer's Fan+": {
     "color": "Neutral",
@@ -655,7 +655,7 @@
     "type": "Bow",
     "cost": 400,
     "might": 14,
-    "effect": "Effective against flying units. Unit can pass through foes if own HP>=50%.",
+    "effect": "Effective against flying units. Unit can pass through foes if own HP ≥ 50%.",
     "restriction": "Exclusive"
   },
   "Fólkvangr": {
@@ -663,7 +663,7 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Grants Atk+5 at start of turn if unit's HP<50%.",
+    "effect": "Grants Atk+5 at start of turn if unit's HP ≤ 50%.",
     "restriction": "Exclusive"
   },
   "Geirskögul": {
@@ -702,6 +702,14 @@
     "cost": 300,
     "might": 11,
     "effect": "If unit initiates attack, unit recovers 4 HP after the battle."
+  },
+  "Grimoire": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "If unit has ≥ 50% HP, unit can move to a space adjacent to an ally within 2 spaces.",
+    "restriction": "Exclusive"
   },
   "Gronnblade": {
     "color": "Green",
@@ -900,6 +908,20 @@
     "might": 11,
     "effect": "Accelerates Special trigger (cooldown count-1)."
   },
+  "Kitty Paddle": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 5,
+    "effect": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-5 through foe's next action."
+  },
+  "Kitty Paddle+": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 8,
+    "effect": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action."
+  },
   "Legion's Axe": {
     "color": "Green",
     "type": "Axe",
@@ -969,6 +991,20 @@
     "cost": 300,
     "might": 14,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
+  },
+  "Monstrous Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
+  },
+  "Monstrous Bow+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
   },
   "Mulagir": {
     "color": "Neutral",
@@ -1429,8 +1465,22 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "If wielder initiates attack at HP <=50% any followup occurs immediately.",
+    "effect": "If wielder initiates attack at HP ≤ 50% any followup occurs immediately.",
     "restriction": "Exclusive"
+  },
+  "Spectral Tome": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
+  },
+  "Spectral Tome+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
   },
   "Steel Axe": {
     "color": "Green",

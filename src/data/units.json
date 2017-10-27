@@ -5409,6 +5409,73 @@
       ]
     }
   },
+  "Henry (Trick or Defeat!)": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Spectral Tome",
+          "unlock": 5
+        },
+        {
+          "name": "Spectral Tome+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 1
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 5
+        },
+        {
+          "name": "Reprisal",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Honor",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 5
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 5
+        },
+        {
+          "name": "Armor March 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Hinata": {
     "color": "Red",
     "wpnType": "Sword",
@@ -6107,6 +6174,77 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Jakob (Trick or Defeat!)": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Monstrous Bow",
+          "unlock": 5
+        },
+        {
+          "name": "Monstrous Bow+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 5
+        },
+        {
+          "name": "Ignis",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Bracing Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Bracing Blow 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wary Fighter 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
         }
       ]
     }
@@ -9428,6 +9566,77 @@
       ]
     }
   },
+  "Nowi (Trick or Defeat!)": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 5
+        },
+        {
+          "name": "Ruin",
+          "unlock": 5
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 5
+        },
+        {
+          "name": "Grimoire",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1",
+          "unlock": 5
+        },
+        {
+          "name": "Atk/Res Bond 2",
+          "unlock": 5
+        },
+        {
+          "name": "Atk/Res Bond 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Bounty",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 5
+        },
+        {
+          "name": "Hone Fliers",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Oboro": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -11281,6 +11490,89 @@
         },
         {
           "name": "Fortify Def 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Sakura (Trick or Defeat!)": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 5
+        },
+        {
+          "name": "Kitty Paddle",
+          "unlock": 5
+        },
+        {
+          "name": "Kitty Paddle+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Glacies",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1",
+          "unlock": 5
+        },
+        {
+          "name": "Warding Stance 2",
+          "unlock": 5
+        },
+        {
+          "name": "Warding Stance 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1",
+          "unlock": 5
+        },
+        {
+          "name": "Guard 2",
+          "unlock": 5
+        },
+        {
+          "name": "Guard 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Dagger Valor 1",
+          "unlock": 5
+        },
+        {
+          "name": "Dagger Valor 2",
+          "unlock": 5
+        },
+        {
+          "name": "Dagger Valor 3",
           "unlock": 5
         }
       ]
