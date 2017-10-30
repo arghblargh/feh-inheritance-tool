@@ -84,7 +84,7 @@ export const skillTypeIcon = {
 // Load all unit protraits from file
 export const unitPortrait = Object.keys(units).reduce(function(previous, current) {
     try {
-        previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_') + '.png');
+        previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_').replace(/!/g, '') + '.png');
     }
     catch (e) {
         previous[current] = require('./img/portrait/_temp.png');

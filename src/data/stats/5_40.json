@@ -503,6 +503,13 @@
     "Def": 32,
     "Res": 25
   },
+  "Henry (Trick or Defeat!)": {
+    "HP": 36,
+    "Atk": 33,
+    "Spd": 34,
+    "Def": 26,
+    "Res": 36
+  },
   "Hinata": {
     "HP": 47,
     "Atk": 32,
@@ -565,6 +572,13 @@
     "Spd": 31,
     "Def": 25,
     "Res": 24
+  },
+  "Jakob (Trick or Defeat!)": {
+    "HP": 42,
+    "Atk": 35,
+    "Spd": 23,
+    "Def": 33,
+    "Res": 32
   },
   "Jeorge": {
     "HP": 37,
@@ -867,6 +881,13 @@
     "Def": 30,
     "Res": 27
   },
+  "Nowi (Trick or Defeat!)": {
+    "HP": 34,
+    "Atk": 34,
+    "Spd": 32,
+    "Def": 20,
+    "Res": 27
+  },
   "Oboro": {
     "HP": 40,
     "Atk": 32,
@@ -1034,6 +1055,13 @@
     "Spd": 30,
     "Def": 24,
     "Res": 30
+  },
+  "Sakura (Trick or Defeat!)": {
+    "HP": 33,
+    "Atk": 32,
+    "Spd": 34,
+    "Def": 14,
+    "Res": 34
   },
   "Sanaki": {
     "HP": 33,

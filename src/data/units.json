@@ -5413,6 +5413,12 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Armored",
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6182,6 +6188,9 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Armored",
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6218,6 +6227,10 @@
         }
       ],
       "passiveA": [
+        {
+          "name": "Armored Blow 1",
+          "unlock": 5
+        },
         {
           "name": "Bracing Blow 1",
           "unlock": 5
@@ -9570,6 +9583,9 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Flying",
+    "boon": {
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -11499,6 +11515,9 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
+    "boon": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
