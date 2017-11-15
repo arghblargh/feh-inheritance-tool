@@ -532,7 +532,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
     totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
 
     if (skills) {
-        if (skills.weapon) {
+        if (skills.weapon && weapons[skills.weapon]) {
             totalMod[1] += weapons[skills.weapon].might;
             applyWeaponStats();
         }
@@ -591,7 +591,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
 
     function applyWeaponStats() {
         // Add stats from weapon
-        var match = /(?:Grants |^)([\w/]+[+-]\d)(?:\.| and)/.exec(weapons[skills.weapon].effect);
+        var match = /(?:Grants |^)([\w/]+\s?[+-]\d)(?:\.| and)/.exec(weapons[skills.weapon].effect);
         if (match) {
             let bonus = /^[\w/]+\s?(\+|-)\d$/.exec(match[1]);
             let sign = bonus[1] === '+' ? 1 : -1;

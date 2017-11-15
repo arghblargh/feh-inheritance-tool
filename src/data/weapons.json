@@ -65,6 +65,14 @@
     "might": 10,
     "effect": ""
   },
+  "Audhulma": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). Grants Res+5.",
+    "restriction": "Exclusive"
+  },
   "Aura": {
     "color": "Blue",
     "type": "Tome",
@@ -936,6 +944,14 @@
     "might": 14,
     "effect": "After combat, bonuses on targeted foe become penalties through its next action."
   },
+  "Leiptr": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "",
+    "restriction": "Exclusive"
+  },
   "Light Breath": {
     "color": "",
     "type": "Dragon",
@@ -1182,6 +1198,14 @@
     "cost": 400,
     "might": 16,
     "effect": "If foe's HP is 100% when combat starts, unit receives Atk/Spd+2 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Resolute Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. Grants +10 to damage when Special triggers.",
     "restriction": "Exclusive"
   },
   "Rexcalibur": {
@@ -1517,6 +1541,14 @@
     "might": 8,
     "effect": ""
   },
+  "Stout Tomahawk": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "restriction": "Exclusive"
+  },
   "Thoron": {
     "color": "Blue",
     "type": "Tome",
@@ -1583,6 +1615,14 @@
     "cost": 400,
     "might": 16,
     "effect": "If unit is attacked by foe using sword, axe, or lance, unit receives Def+7 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Weirding Tome": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. At start of turn, all foes in cardinal directions, and with Res 1 or more lower than unit, suffer Spd-5 until the end of foes' next actions.",
     "restriction": "Exclusive"
   },
   "Wind": {

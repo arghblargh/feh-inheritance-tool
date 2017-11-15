@@ -3316,6 +3316,92 @@
       ]
     }
   },
+  "Dorcas": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "boon": {
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Stout Tomahawk",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 5
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fierce Stance 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fierce Stance 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fierce Stance 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Quick Riposte 1",
+          "unlock": 5
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 5
+        },
+        {
+          "name": "Quick Riposte 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Pulse 1",
+          "unlock": 5
+        },
+        {
+          "name": "Infantry Pulse 2",
+          "unlock": 5
+        },
+        {
+          "name": "Infantry Pulse 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Draug": {
     "color": "Red",
     "wpnType": "Sword",
@@ -4361,6 +4447,61 @@
         {
           "name": "",
           "unlock": 1
+        }
+      ]
+    }
+  },
+  "Fjorm": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Leiptr",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Ice Mirror",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
         }
       ]
     }
@@ -6341,6 +6482,77 @@
       ]
     }
   },
+  "Joshua": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Audhulma",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Close Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Close Def 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Windsweep 1",
+          "unlock": 5
+        },
+        {
+          "name": "Windsweep 2",
+          "unlock": 5
+        },
+        {
+          "name": "Windsweep 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Julia": {
     "color": "Green",
     "wpnType": "Tome",
@@ -8067,6 +8279,76 @@
       ]
     }
   },
+  "Lute": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "bane": {
+      "Def": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 5
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 5
+        },
+        {
+          "name": "Thoron",
+          "unlock": 5
+        },
+        {
+          "name": "Weirding Tome",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Atk/Res",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "HP/Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "HP/Res 2",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Ploy 1",
+          "unlock": 5
+        },
+        {
+          "name": "Res Ploy 2",
+          "unlock": 5
+        },
+        {
+          "name": "Res Ploy 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Lyn": {
     "color": "Red",
     "wpnType": "Sword",
@@ -8821,6 +9103,88 @@
         {
           "name": "Spur Res 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Mia": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Resolute Blade",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 5
+        },
+        {
+          "name": "Luna",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Flashing Blade 1",
+          "unlock": 5
+        },
+        {
+          "name": "Flashing Blade 2",
+          "unlock": 5
+        },
+        {
+          "name": "Flashing Blade 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vantage 1",
+          "unlock": 5
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 5
+        },
+        {
+          "name": "Vantage 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "",
+          "unlock": 5
         }
       ]
     }

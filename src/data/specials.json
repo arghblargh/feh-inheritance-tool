@@ -164,6 +164,11 @@
     "effect": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
     "restriction": "Melee"
   },
+  "Ice Mirror": {
+    "cost": "0",
+    "count": "0",
+    "effect": ""
+  },
   "Iceberg": {
     "cost": "200",
     "count": "3",

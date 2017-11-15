@@ -212,6 +212,18 @@
       "cost": "50",
       "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat."
     },
+    "Fierce Stance 1": {
+      "cost": "50",
+      "effect": "Grants Atk+2 during combat when this unit is attacked."
+    },
+    "Fierce Stance 2": {
+      "cost": "100",
+      "effect": "Grants Atk+4 during combat when this unit is attacked."
+    },
+    "Fierce Stance 3": {
+      "cost": "200",
+      "effect": "Grants Atk+6 during combat when this unit is attacked."
+    },
     "Fire Boost 1": {
       "cost": "50",
       "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+2 during combat."
@@ -223,6 +235,18 @@
     "Fire Boost 3": {
       "cost": "50",
       "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat."
+    },
+    "Flashing Blade 1": {
+      "cost": "60",
+      "effect": "If unit's Spd - foe's Spd ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+    },
+    "Flashing Blade 2": {
+      "cost": "120",
+      "effect": "If unit's Spd - foe's Spd ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+    },
+    "Flashing Blade 3": {
+      "cost": "240",
+      "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "Fortress Def 1": {
       "cost": "50",
@@ -287,6 +311,14 @@
     "HP/Def 2": {
       "cost": "200",
       "effect": "Grants HP+4, Def+2."
+    },
+    "HP/Res 1": {
+      "cost": "100",
+      "effect": "Grants HP+3, Res+1."
+    },
+    "HP/Res 2": {
+      "cost": "200",
+      "effect": "Grants HP+4, Res+2."
     },
     "HP/Spd 1": {
       "cost": "100",
