@@ -6490,15 +6490,15 @@
       "weapon": [
         {
           "name": "Iron Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Steel Sword",
-          "unlock": 5
+          "unlock": 4
         },
         {
-          "name": "Silver Sword",
-          "unlock": 5
+          "name": "Slaying Edge",
+          "unlock": 4
         },
         {
           "name": "Audhulma",
@@ -6513,18 +6513,22 @@
       ],
       "special": [
         {
-          "name": "",
-          "unlock": 5
+          "name": "New Moon",
+          "unlock": 4
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "Close Def 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Close Def 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Close Def 3",
@@ -6534,11 +6538,11 @@
       "passiveB": [
         {
           "name": "Windsweep 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Windsweep 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Windsweep 3",
@@ -8307,6 +8311,10 @@
       ],
       "assist": [
         {
+          "name": "Rally Attack",
+          "unlock": 5
+        },
+        {
           "name": "Rally Atk/Res",
           "unlock": 5
         }
@@ -8318,6 +8326,10 @@
         }
       ],
       "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 5
+        },
         {
           "name": "HP/Res 1",
           "unlock": 5
@@ -9129,7 +9141,7 @@
           "unlock": 5
         },
         {
-          "name": "Silver Sword",
+          "name": "Wo Dao",
           "unlock": 5
         },
         {
@@ -9145,7 +9157,7 @@
       ],
       "special": [
         {
-          "name": "Night Sky",
+          "name": "New Moon",
           "unlock": 5
         },
         {
