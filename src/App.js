@@ -367,12 +367,17 @@ class UnitInfo extends Component {
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonSelect = this.handleBoonSelect.bind(this);
     this.handleBaneSelect = this.handleBaneSelect.bind(this);
+    this.handleLevelSelect = this.handleLevelSelect.bind(this);
     this.handleMergeSelect = this.handleMergeSelect.bind(this);
     this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
   }
 
   handleUnitSelect(unitName) {
     this.props.onUnitSelect(unitName);
+  }
+
+  handleLevelSelect(level) {
+    this.props.onLevelSelect(level);
   }
 
   handleBoonSelect(boon) {
@@ -392,7 +397,7 @@ class UnitInfo extends Component {
   }
 
   render() {
-    let name = this.props.unitName;
+    let name = this.props.state.unitName;
     let color = units[name].color;
     let wpnType = units[name].wpnType;
     let movType = units[name].movType;
@@ -402,7 +407,7 @@ class UnitInfo extends Component {
     return (
       <div>
         <div className="unit-info-container">
-          <img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} />
+          <img className="unit-portrait" src={unitPortrait[this.props.state.unitName]} title={this.props.state.unitName} alt={this.props.state.unitName} />
         </div>
         <div className="unit-info-container">
           <table>
@@ -415,7 +420,7 @@ class UnitInfo extends Component {
                 <td>
                   <Dropdown addClass='unitName'
                             options={Object.keys(units)}
-                            value={this.props.unitName}
+                            value={this.props.state.unitName}
                             onChange={this.handleUnitSelect} />
                 </td>
                 <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
@@ -428,34 +433,41 @@ class UnitInfo extends Component {
           <table>
             <tbody>
               <tr>
+                <th className="unit-level">Level</th>
                 <th className="unit-merge">Merge</th>
                 <th className="unit-support" title="Summoner Support Rank">Rank</th>
                 <th className="unit-bb">Boon</th>
                 <th className="unit-bb">Bane</th>
               </tr>
               <tr>
+                <td title="Rarity and Level">
+                  <Dropdown addClass='unitLevel'
+                            options={['5★40', '5★1', '4★40', '4★1']}
+                            value={this.props.state.rarity + '★' + this.props.state.level}
+                            onChange={this.handleLevelSelect} />
+                </td>
                 <td>
                   <Dropdown addClass='unitMerge'
                             options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
-                            value={'+' + this.props.merge}
+                            value={'+' + this.props.state.merge}
                             onChange={this.handleMergeSelect} />
                 </td>
                 <td title="Summoner Support Rank">
                   <Dropdown addClass="unitSupport"
                             options={[' ', 'C', 'B', 'A', 'S']}
-                            value={this.props.supportRank}
+                            value={this.props.state.supportRank}
                             onChange={this.handleSupportRankSelect} />
                 </td>
                 <td>
                   <Dropdown id="boon" addClass="unitBB"
                             options={bOptions.map(option => { return option ? '+' + option : ""; })}
-                            value={'+' + this.props.boonBane.boon}
+                            value={'+' + this.props.state.boonBane.boon}
                             onChange={this.handleBoonSelect} />
                 </td>
                 <td>
                   <Dropdown id="bane" addClass="unitBB"
                             options={bOptions.map(option => { return option ? '-' + option : ""; })}
-                            value={'-' + this.props.boonBane.bane}
+                            value={'-' + this.props.state.boonBane.bane}
                             onChange={this.handleBaneSelect} />
                 </td>
               </tr>
@@ -474,16 +486,16 @@ class UnitInfo extends Component {
                 <th className="unit-BST">Total</th>
               </tr>
               <tr>
-                <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
-                <td className={this.props.boonBane.boon === "Atk" ? "boon" : this.props.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.stats.Atk}</td>
-                <td className={this.props.boonBane.boon === "Spd" ? "boon" : this.props.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.stats.Spd}</td>
-                <td className={this.props.boonBane.boon === "Def" ? "boon" : this.props.boonBane.bane === "Def" ? "bane" : ""}>{this.props.stats.Def}</td>
-                <td className={this.props.boonBane.boon === "Res" ? "boon" : this.props.boonBane.bane === "Res" ? "bane" : ""}>{this.props.stats.Res}</td>
+                <td className={this.props.state.boonBane.boon === "HP" ? "boon" : this.props.state.boonBane.bane === "HP" ? "bane" : ""}>{this.props.state.stats.HP}</td>
+                <td className={this.props.state.boonBane.boon === "Atk" ? "boon" : this.props.state.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.state.stats.Atk}</td>
+                <td className={this.props.state.boonBane.boon === "Spd" ? "boon" : this.props.state.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.state.stats.Spd}</td>
+                <td className={this.props.state.boonBane.boon === "Def" ? "boon" : this.props.state.boonBane.bane === "Def" ? "bane" : ""}>{this.props.state.stats.Def}</td>
+                <td className={this.props.state.boonBane.boon === "Res" ? "boon" : this.props.state.boonBane.bane === "Res" ? "bane" : ""}>{this.props.state.stats.Res}</td>
                 <td>
-                  {Object.keys(this.props.stats).reduce((a,b) => {
+                  {Object.keys(this.props.state.stats).reduce((a,b) => {
                     if (Number.isInteger(a))
-                      return a + this.props.stats[b];
-                    return this.props.stats[a] + this.props.stats[b];
+                      return a + this.props.state.stats[b];
+                    return this.props.state.stats[a] + this.props.state.stats[b];
                   })}
                 </td>
               </tr>
@@ -561,6 +573,7 @@ class InheritanceTool extends Component {
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonBaneSelect = this.handleBoonBaneSelect.bind(this);
+    this.handleLevelSelect = this.handleLevelSelect.bind(this);
     this.handleMergeSelect = this.handleMergeSelect.bind(this);
     this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
@@ -581,15 +594,15 @@ class InheritanceTool extends Component {
         passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name,
         seal: ''
       };
-    let initBoonBane = {"boon":"","bane":""};
-    let initStats = calcStats(initUnit, initSkills);
 
     this.state = {
       unitName: initUnit,
-      boonBane: initBoonBane,
+      rarity: 5,
+      level: 40,
+      boonBane: {"boon":"","bane":""},
       merge: 0,
       supportRank: '',
-      stats: initStats,
+      stats: calcStats(initUnit, initSkills),
       skills: initSkills,
       rawStatsOn: false,
       usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits),
@@ -603,10 +616,16 @@ class InheritanceTool extends Component {
       unit ? unit : this.state.unitName,
       this.state.rawStatsOn ? null
                             : skills ? skills : this.state.skills,
+      this.state.rarity,
+      this.state.level,
       boonBane ? boonBane : this.state.boonBane,
       merge || merge === '' ? merge : this.state.merge,
       rank ? rank : this.state.supportRank
     )
+  }
+
+  updateStats() {
+    this.setState({ stats: this.getNewStats() });
   }
 
   handleUnitSelect(unitName) {
@@ -617,7 +636,7 @@ class InheritanceTool extends Component {
       boonBane: {"boon":"","bane":""},
       merge: 0,
       supportRank: '',
-      stats: this.state.rawStatsOn ? calcStats(unitName, null) : calcStats(unitName, newSkills),
+      stats: this.getNewStats({ unit: unitName, skills: newSkills }),
       skills: newSkills,
       totalCost: calcTotalCost(unitName, newSkills)
     });
@@ -635,6 +654,14 @@ class InheritanceTool extends Component {
       boonBane: newBoonBane,
       stats: this.getNewStats({ boonBane: newBoonBane })
     });
+  }
+
+  // {Rarity}★{Level}
+  handleLevelSelect(level) {
+    this.setState({
+      rarity: /^\d+/.exec(level)[0],
+      level: /\d+$/.exec(level)[0]
+    }, this.updateStats);
   }
 
   handleMergeSelect(mergeBonus) {
@@ -696,17 +723,7 @@ class InheritanceTool extends Component {
   }
 
   handleRawStatsToggle(isOn) {
-    if (isOn) {
-      this.setState({
-        rawStatsOn: true,
-        stats: calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
-      });
-    } else {
-      this.setState({
-        rawStatsOn: false,
-        stats: calcStats(this.state.unitName, this.state.skills, this.state.boonBane, this.state.merge)
-      });
-    }
+    this.setState({ rawStatsOn: isOn }, this.updateStats);
   }
 
   handlePortraitToggle(isOn) {
@@ -761,14 +778,10 @@ class InheritanceTool extends Component {
                      onSkillEffectToggle={this.handleSkillEffectToggle} />
         </div>
         <div className="char-info">
-          <UnitInfo unitName={this.state.unitName}
-                    boonBane={this.state.boonBane}
-                    merge={this.state.merge}
-                    supportRank={this.state.supportRank}
-                    stats={this.state.stats}
-                    rawStatsOn={this.state.rawStatsOn}
+          <UnitInfo state={this.state}
                     onUnitSelect={this.handleUnitSelect}
                     onBoonBaneSelect={this.handleBoonBaneSelect}
+                    onLevelSelect={this.handleLevelSelect}
                     onMergeSelect={this.handleMergeSelect}
                     onSupportRankSelect={this.handleSupportRankSelect} />
         </div>

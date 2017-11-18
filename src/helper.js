@@ -24,8 +24,16 @@ import React from 'react';
 import { Dropdown, escapeRegExp, jsonp } from './utility.js';
 
 const units = require('./data/units.json');
-const lv1Stats = require('./data/stats/5_1.json');
-const lv40Stats = require('./data/stats/5_40.json');
+const baseStats = {
+    4: {
+        1: require('./data/stats/4_1.json'),
+        40: require('./data/stats/4_40.json')
+    },
+    5: {
+        1: require('./data/stats/5_1.json'),
+        40: require('./data/stats/5_40.json')
+    }
+}
 
 const weapons = require('./data/weapons.json');
 const assists = require('./data/assists.json');
@@ -167,7 +175,7 @@ export class BuildManager extends React.PureComponent {
                 catch (TypeError) {
                     console.log('Error retrieving stats: ' + buildName);
                     //stats = units[unitName].stats;
-                    stats = lv40Stats[unitName];
+                    stats = baseStats[5][40][unitName];
                     hasError = true;
                 }
 
@@ -451,16 +459,16 @@ function addStatMods(stats, mod) {
 // +5: Fourth and fifth highest base stat
 // +6~10: Repeat
 // In case of tie: HP > Atk > Spd > Def > Res
-function calcMergeBonus(unit, merge, boonBaneMod) {
-    if (!lv1Stats[unit])
+function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
+    if (!baseStats[rarity][1][unit])
         return [0, 0, 0, 0, 0];
     
     let sortedStats = [];
-    for (let stat in lv1Stats[unit]) {
+    for (let stat in baseStats[rarity][1][unit]) {
         sortedStats.push({
-            "stat":stat,
-            "value":lv1Stats[unit][stat],
-            "bonus":0
+            "stat": stat,
+            "value": baseStats[rarity][1][unit][stat],
+            "bonus": 0
         });
     }
     for (let i in sortedStats) {
@@ -501,14 +509,15 @@ function calcMergeBonus(unit, merge, boonBaneMod) {
 }
 
 // Calculate unit stats
-export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank = '') {
+export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null, merge = 0, summonerRank = '') {
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
-
+    
+    var baseBonus = level === 40 ? 3 : 1;
     if (boonBane) {
         if (boonBane.boon) {
-            let boon = 3;
-            if(units[unit].boon && units[unit].boon[boonBane.boon])
+            let boon = baseBonus;
+            if(rarity === 5 && units[unit].boon && units[unit].boon[boonBane.boon])
                 boon = units[unit].boon[boonBane.boon];
             totalMod[boonBane.boon === "HP"  ? 0 :
                     boonBane.boon === "Atk" ? 1 :
@@ -517,8 +526,8 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
                 /*boonBane.boon === "Res" ?*/ 4 ] += boon;
         }
         if (boonBane.bane) {
-            let bane = 3;
-            if(units[unit].bane && units[unit].bane[boonBane.bane])
+            let bane = baseBonus;
+            if(rarity === 5 && units[unit].bane && units[unit].bane[boonBane.bane])
                 bane = units[unit].bane[boonBane.bane];
             totalMod[boonBane.bane === "HP"  ? 0 :
                     boonBane.bane === "Atk" ? 1 :
@@ -528,7 +537,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
         }
     }
 
-    let mergeMod = calcMergeBonus(unit, merge, totalMod);
+    let mergeMod = calcMergeBonus(unit, rarity, merge, totalMod);
     totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
 
     if (skills) {
@@ -542,7 +551,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0, summonerRank
         applySummonerSupportBonus();
     }
 
-    return addStatMods(lv40Stats[unit] ? JSON.parse(JSON.stringify(lv40Stats[unit])) : null, totalMod);
+    return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);
 
     function applyPassiveStats(passive) {
         if (/^\w+\/\w+\s\+?\d$/.test(passive)) {
