@@ -4482,25 +4482,57 @@
       ],
       "special": [
         {
+          "name": "Holy Vestments",
+          "unlock": 5
+        },
+        {
+          "name": "Sacred Cowl",
+          "unlock": 5
+        },
+        {
           "name": "Ice Mirror",
           "unlock": 5
         }
       ],
       "passiveA": [
         {
-          "name": "",
+          "name": "Atk/Def Bond 1",
+          "unlock": 5
+        },
+        {
+          "name": "Atk/Def Bond 2",
+          "unlock": 5
+        },
+        {
+          "name": "Atk/Def Bond 3",
           "unlock": 5
         }
       ],
       "passiveB": [
         {
-          "name": "",
+          "name": "Shield Pulse 1",
+          "unlock": 5
+        },
+        {
+          "name": "Shield Pulse 2",
+          "unlock": 5
+        },
+        {
+          "name": "Shield Pulse 3",
           "unlock": 5
         }
       ],
       "passiveC": [
         {
-          "name": "",
+          "name": "Spur Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Atk 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Atk 2",
           "unlock": 5
         }
       ]

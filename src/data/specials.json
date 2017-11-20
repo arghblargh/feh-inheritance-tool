@@ -53,8 +53,7 @@
     "cost": "200",
     "count": "3",
     "effect": "Boosts damage dealt by 50% of unit's Def.",
-    "require": "Glowing Ember",
-    "value": "Def:0.5"
+    "require": "Glowing Ember"
   },
   "Buckler": {
     "cost": "100",
@@ -65,34 +64,29 @@
   "Chilling Wind": {
     "cost": "100",
     "count": "4",
-    "effect": "Boosts damage dealt by 50% of unit's Res.",
-    "value": "Res:0.5"
+    "effect": "Boosts damage dealt by 50% of unit's Res."
   },
   "Daylight": {
     "cost": "100",
     "count": "4",
-    "effect": "Heal 30% of damage dealt in your next attack.",
-    "value": "Heal:0.3"
+    "effect": "Heal 30% of damage dealt in your next attack."
   },
   "Draconic Aura": {
     "cost": "200",
     "count": "3",
     "effect": "Grants +30% to Atk.",
-    "require": "Dragon Gaze",
-    "value": "Atk:0.3"
+    "require": "Dragon Gaze"
   },
   "Dragon Fang": {
     "cost": "200",
     "count": "4",
     "effect": "Grants +50% to Atk.",
-    "require": "Dragon Gaze",
-    "value": "Atk:0.5"
+    "require": "Dragon Gaze"
   },
   "Dragon Gaze": {
     "cost": "100",
     "count": "4",
-    "effect": "Grants +30% to Atk.",
-    "value": "Atk:0.3"
+    "effect": "Grants +30% to Atk."
   },
   "Escutcheon": {
     "cost": "100",
@@ -112,21 +106,18 @@
     "cost": "200",
     "count": "4",
     "effect": "Boosts damage dealt by 80% of unit's Res.",
-    "require": "Chilling Wind",
-    "value": "Res:0.8"
+    "require": "Chilling Wind"
   },
   "Glimmer": {
     "cost": "200",
     "count": "3",
     "effect": "Grants +50% to damage dealt.",
-    "require": "Night Sky",
-    "value": "Damage:1.5"
+    "require": "Night Sky"
   },
   "Glowing Ember": {
     "cost": "100",
     "count": "4",
-    "effect": "Boosts damage dealt by 50% of unit's Def.",
-    "value": "Def:0.5"
+    "effect": "Boosts damage dealt by 50% of unit's Def."
   },
   "Growing Flame": {
     "cost": "300",
@@ -165,23 +156,22 @@
     "restriction": "Melee"
   },
   "Ice Mirror": {
-    "cost": "0",
-    "count": "0",
-    "effect": ""
+    "cost": "500",
+    "count": "2",
+    "effect": "",
+    "restriction": "Exclusive"
   },
   "Iceberg": {
     "cost": "200",
     "count": "3",
     "effect": "Boosts damage dealt by 50% of unit's Res.",
-    "require": "Chilling Wind",
-    "value": "Res:0.5"
+    "require": "Chilling Wind"
   },
   "Ignis": {
     "cost": "200",
     "count": "4",
     "effect": "Boosts damage dealt by 80% of unit's Def.",
-    "require": "Glowing Ember",
-    "value": "Def:0.8"
+    "require": "Glowing Ember"
   },
   "Imbue": {
     "cost": "50",
@@ -199,8 +189,7 @@
     "cost": "200",
     "count": "3",
     "effect": "Resolve combat as if foe suffered Def/Res-50%.",
-    "require": "New Moon",
-    "value": "Mit:0.5"
+    "require": "New Moon"
   },
   "Miracle": {
     "cost": "200",
@@ -212,27 +201,23 @@
     "cost": "200",
     "count": "2",
     "effect": "Resolve combat as if foe suffered Def/Res-30%.",
-    "require": "New Moon",
-    "value": "Mit:0.3"
+    "require": "New Moon"
   },
   "New Moon": {
     "cost": "100",
     "count": "3",
-    "effect": "Resolve combat as if foe suffered Def/Res-30%.",
-    "value": "Mit:0.3"
+    "effect": "Resolve combat as if foe suffered Def/Res-30%."
   },
   "Night Sky": {
     "cost": "100",
     "count": "4",
-    "effect": "Grants +50% to damage dealt.",
-    "value": "Damage:1.5"
+    "effect": "Grants +50% to damage dealt."
   },
   "Noontime": {
     "cost": "200",
     "count": "3",
     "effect": "Heal 30% of damage dealt in your next attack.",
-    "require": "Daylight",
-    "value": "Heal:0.3"
+    "require": "Daylight"
   },
   "Pavise": {
     "cost": "200",
@@ -252,14 +237,12 @@
     "cost": "200",
     "count": "2",
     "effect": "Grants bonus to damage dealt equal to 30% of damage suffered.",
-    "require": "Retribution",
-    "value": "HPLoss:0.3"
+    "require": "Retribution"
   },
   "Retribution": {
     "cost": "100",
     "count": "3",
-    "effect": "Grants bonus to damage dealt equal to 30% of damage suffered.",
-    "value": "HPLoss:0.3"
+    "effect": "Grants bonus to damage dealt equal to 30% of damage suffered."
   },
   "Rising Flame": {
     "cost": "150",
@@ -292,8 +275,7 @@
     "cost": "200",
     "count": "4",
     "effect": "Heal 50% of damage dealt in your next attack.",
-    "require": "Daylight",
-    "value": "Heal:0.5"
+    "require": "Daylight"
   },
   "Solid-Earth Balm": {
     "cost": "150",
@@ -317,7 +299,6 @@
     "cost": "200",
     "count": "3",
     "effect": "Grants bonus to damage dealt equal to 50% of damage suffered.",
-    "require": "Retribution",
-    "value": "HPLoss:0.5"
+    "require": "Retribution"
   }
 }

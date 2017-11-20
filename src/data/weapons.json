@@ -484,6 +484,7 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk+4 during combat if unit initiates attack.",
+    "upgrade": "Blazing Durandal",
     "restriction": "Exclusive"
   },
   "Eckesachs": {

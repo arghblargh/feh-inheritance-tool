@@ -15,6 +15,18 @@
       "effect": "Grants Def+6 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
+    "Atk/Def Bond 1": {
+      "cost": "60",
+      "effect": "Grants Atk/Def+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Def Bond 2": {
+      "cost": "120",
+      "effect": "Grants Atk/Def+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Def Bond 3": {
+      "cost": "240",
+      "effect": "Grants Atk/Def+5 to this unit during combat if unit is adjacent to an ally."
+    },
     "Atk/Res Bond 1": {
       "cost": "60",
       "effect": "Grants Atk/Res+1 to this unit during combat if unit is adjacent to an ally."
