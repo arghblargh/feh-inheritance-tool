@@ -5215,6 +5215,9 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
+    "boon": {
+      "Spd": 4
+    },
     "bane": {
       "Atk": 4,
       "Res": 4
