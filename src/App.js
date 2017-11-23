@@ -659,8 +659,8 @@ class InheritanceTool extends Component {
   // {Rarity}★{Level}
   handleLevelSelect(level) {
     this.setState({
-      rarity: /^\d+/.exec(level)[0],
-      level: /\d+$/.exec(level)[0]
+      rarity: parseInt(/^\d+/.exec(level)[0], 10),
+      level: parseInt(/\d+$/.exec(level)[0], 10)
     }, this.updateStats);
   }
 

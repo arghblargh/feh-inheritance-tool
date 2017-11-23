@@ -513,7 +513,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
     
-    var baseBonus = level === 40 ? 3 : 1;
+    let baseBonus = level === 40 ? 3 : 1;
     if (boonBane) {
         if (boonBane.boon) {
             let boon = baseBonus;
