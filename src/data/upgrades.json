@@ -1,0 +1,40 @@
+{
+    "Common": {
+        "Attack": {
+            "HP": 5,
+            "Atk": 3
+        },
+        "Speed": {
+            "HP": 5,
+            "Atk": 1,
+            "Spd": 3
+        },
+        "Defense": {
+            "HP": 5,
+            "Def": 4
+        },
+        "Resistance": {
+            "HP": 5,
+            "Res": 4
+        },
+        "effect": "",
+        "cost": 350
+    },
+    "Upgrade": {
+        "Aura": "Dark Aura",
+        "Durandal": "Blazing Durandal",
+        "Excalibur": "Dark Excalibur",
+        "Naga": "Divine Naga",
+        "Tyrfing": "Divine Tyrfing"
+    },
+    "Siegmund": {
+        "Common": {
+            "cost": 400
+        },
+        "Special": {
+            "HP": 3,
+            "effect": "Unit makes a guaranteed follow-up attack when HP ≥ 90% and attacking a foe that can counter.",
+            "cost": 400
+        }
+    }
+}

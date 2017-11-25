@@ -40,6 +40,7 @@ const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
 const seals = require('./data/seals.json');
+const upgrades = require('./data/upgrades.json');
 
 // Load movement icons from file
 export const moveIcon = {
@@ -303,14 +304,22 @@ export function getUnitsWithSkill(skill, type) {
 function getDefaultSkills(unit) {
     var skills = [];
     var skillData = units[unit].skills;
-
+    
     for (let type in skillData) {
         for (let skill of skillData[type]) {
             skills.push(skill.name);
         }
     }
-    
     return skills;
+}
+
+function getWeaponUpgrade(unit) {
+    var maxWeapon = units[unit].skills.weapon[3].name;
+    
+    if (upgrades.Upgrade[maxWeapon])
+        return upgrades.Upgrade[maxWeapon];
+
+    return null;
 }
 
 // Check inheritance restrictions.
@@ -336,8 +345,12 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
             if (RegExp(r).test(unit))
                 return true;
 
-            if (/Exclusive/.test(r) && getDefaultSkills(unit).includes(skill))
-                return true;
+            if (/Exclusive/.test(r)) {
+                if (getDefaultSkills(unit).includes(skill))
+                    return true;
+                if (getWeaponUpgrade(unit) === skill)
+                    return true;
+            }
 
             if (/Offense/.test(r) && !/Staff/.test(unitData))
                 return true;

@@ -484,7 +484,6 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk+4 during combat if unit initiates attack.",
-    "upgrade": "Blazing Durandal",
     "restriction": "Exclusive"
   },
   "Eckesachs": {
@@ -543,7 +542,7 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Effective against dragons. At the start of every third turn, unit recovers 10HP.",
+    "effect": "Effective against dragons. At the start of every third turn, unit recovers 10 HP.",
     "restriction": "Exclusive"
   },
   "Fear": {

@@ -92,74 +92,20 @@ class SkillInfoRow extends Component {
     let inheritList = this.props.inheritList;
     let result = [];
 
-    if (inheritList[1]) {
-      result.push('1', <img className="rarity-icon" src={rarityIcon[1]} title={1 + '★'} alt={1 + '★'} key={1} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[1]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+    for (var rarity in inheritList) {
+      if (inheritList[rarity]) {
+        result.push(rarity, <img className="rarity-icon" src={rarityIcon[1]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />, ': ');
+        
+        if (this.props.usePortraits) {
+          for (let unitName of inheritList[rarity]) {
+            result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+          }
+          result.push(' ');
         }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[1].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[2]) {
-      result.push('2', <img className="rarity-icon" src={rarityIcon[2]} title={2 + '★'} alt={2 + '★'} key={2} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[2]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+        else {
+          result.push(inheritList[rarity].join(', '));
+          result.push('. ');
         }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[2].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[3]) {
-      result.push('3', <img className="rarity-icon" src={rarityIcon[3]} title={3 + '★'} alt={3 + '★'} key={3} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[3]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
-        }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[3].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[4]) {
-      result.push('4', <img className="rarity-icon" src={rarityIcon[4]} title={4 + '★'} alt={4 + '★'} key={4} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[4]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
-        }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[4].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[5]) {
-      result.push('5', <img className="rarity-icon" src={rarityIcon[5]} title={5 + '★'} alt={5 + '★'} key={5} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[5]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
-        }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[5].join(', '));
-        result.push('.');
       }
     }
 
@@ -171,6 +117,25 @@ class SkillInfoRow extends Component {
 
     let skillDropdown, skillLevel;
     let hasSkillLevel = false;
+
+    // if (this.props.category === 'Weapon' && (upgrades[this.props.skillName] || 'a'.includes('+'))) {
+    //   hasSkillLevel = true;
+    //   skillDropdown = 
+    //   <td className="skill-name-sub">
+    //     <Dropdown addClass='skillNameSub'
+    //               options={this.props.options}
+    //               value={this.props.skillName}
+    //               onChange={} />
+    //   </td>;
+    //   skillLevel =
+    //   <td className="skill-level">
+    //     <Dropdown addClass='skillLevel'
+    //               options={}
+    //               value={}
+    //               onChange={} />
+    //   </td>;
+    // }
+
     if (/[1-9]/.test(this.props.skillName)) {
       hasSkillLevel = true;
       skillDropdown = 
