@@ -34,6 +34,7 @@ const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
 const seals = require('./data/seals.json');
+// const upgrades = require('./data/upgrades.json');
 
 class SkillInfoRow extends Component {
   constructor(props) {
@@ -76,25 +77,13 @@ class SkillInfoRow extends Component {
     return [...result];
   }
 
-  // parseSkillEffect(skill, stats) {
-  //   if (skill === 'Chilling Wind') {
-  //     let value = specials[skill].value;
-  //     value = Math.floor(stats[/(.*):/.exec(value)[1]] * parseFloat(/:(.*)/.exec(value)[1]));
-  //     //return this.props.effect.replace(/{.*}/, value)
-  //     let result = /(.*)({.*})(.*)/.exec(this.props.effect).splice(1);
-  //     result[1] = <b className="skill-effect-value" key={skill}>{value}</b>;
-  //     return result;
-  //   }
-  //   return this.props.effect;
-  // }
-
   formatInheritList() {
     let inheritList = this.props.inheritList;
     let result = [];
 
     for (var rarity in inheritList) {
       if (inheritList[rarity]) {
-        result.push(rarity, <img className="rarity-icon" src={rarityIcon[1]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />, ': ');
+        result.push(rarity, <img className="rarity-icon" src={rarityIcon[rarity]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />, ': ');
         
         if (this.props.usePortraits) {
           for (let unitName of inheritList[rarity]) {
