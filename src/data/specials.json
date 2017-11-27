@@ -158,7 +158,8 @@
   "Ice Mirror": {
     "cost": "500",
     "count": "2",
-    "effect": "",
+    "effect": "Reduced damage unit takes from foes 2 spaces away by 30%. If Special triggers, boosts unit's next attack by total damage was reduced (by any source, including other skills). Resets at end of combat.(Skill cannot be inherited.)",
+    "require": "Sacred Cowl",
     "restriction": "Exclusive"
   },
   "Iceberg": {

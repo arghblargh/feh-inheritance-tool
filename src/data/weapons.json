@@ -949,7 +949,7 @@
     "type": "Lance",
     "cost": 400,
     "might": 16,
-    "effect": "",
+    "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
   "Light Breath": {
