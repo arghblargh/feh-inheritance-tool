@@ -623,6 +623,20 @@
     "might": 15,
     "effect": "Unit and enemies cannot use counterattacks."
   },
+  "Firesweep Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 11,
+    "effect": "Unit and enemies cannot use counterattacks."
+  },
+  "Firesweep Sword+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 15,
+    "effect": "Unit and enemies cannot use counterattacks."
+  },
   "First Bite": {
     "color": "Blue",
     "type": "Lance",
@@ -1667,5 +1681,45 @@
     "cost": 300,
     "might": 14,
     "effect": "Effective against cavalry units."
+  },
+  "Sinmara": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. Deals 20 damage to foes within 2 spaces at the start of each turn.",
+    "restriction": "Exclusive"
+  },
+  "Thökk": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 400,
+    "might": 14,
+    "effect": "Damage from staff calculated like other weapons. At start of turn, foes with bow, daggers, magic, or staff in cardinal directions with HP 3 of more lower than unit's can move only 1 space through their next actions.",
+    "restriction": "Exclusive"
+  },
+  "Laevatein": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. Adds total bonuses on unit to damage dealt.",
+    "restriction": "Exclusive"
+  },
+  "Dark Greatsword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk/Spd+4 during combat if unit initiates combat.",
+    "restriction": "Exclusive"
+  },
+  "Bright Naginata": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk/Def+4 during combat if foe initiates combat.",
+    "restriction": "Exclusive"
   }
 }

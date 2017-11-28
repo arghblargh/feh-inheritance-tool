@@ -412,6 +412,13 @@
     "Def": 5,
     "Res": 7
   },
+  "Fjorm": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 8,
+    "Res": 8
+  },
   "Florina": {
     "HP": 18,
     "Atk": 7,
