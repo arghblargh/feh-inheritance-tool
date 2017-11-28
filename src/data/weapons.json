@@ -273,6 +273,14 @@
     "might": 8,
     "effect": "Spd-5. Attack twice when initiating combat."
   },
+  "Bright Naginata": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk/Def+4 during combat if foe initiates combat.",
+    "restriction": "Exclusive"
+  },
   "Brynhildr": {
     "color": "Red",
     "type": "Tome",
@@ -430,6 +438,14 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants +10 to damage when Special triggers.",
+    "restriction": "Exclusive"
+  },
+  "Dark Greatsword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk/Spd+4 during combat if unit initiates combat.",
     "restriction": "Exclusive"
   },
   "Deathly Dagger": {
@@ -944,6 +960,14 @@
     "might": 8,
     "effect": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action."
   },
+  "Laevatein": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. Adds total bonuses on unit to damage dealt.",
+    "restriction": "Exclusive"
+  },
   "Legion's Axe": {
     "color": "Green",
     "type": "Axe",
@@ -1421,6 +1445,14 @@
     "might": 15,
     "effect": ""
   },
+  "Sinmara": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. Deals 20 damage to foes within 2 spaces at the start of each turn.",
+    "restriction": "Exclusive"
+  },
   "Slaying Axe": {
     "color": "Green",
     "type": "Axe",
@@ -1577,6 +1609,14 @@
     "might": 4,
     "effect": ""
   },
+  "Thökk": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 400,
+    "might": 14,
+    "effect": "Damage from staff calculated like other weapons. At start of turn, foes with bow, daggers, magic, or staff in cardinal directions with HP 3 of more lower than unit's can move only 1 space through their next actions.",
+    "restriction": "Exclusive"
+  },
   "Tomato Tome": {
     "color": "Red",
     "type": "Tome",
@@ -1681,45 +1721,5 @@
     "cost": 300,
     "might": 14,
     "effect": "Effective against cavalry units."
-  },
-  "Sinmara": {
-    "color": "Green",
-    "type": "Axe",
-    "cost": 400,
-    "might": 16,
-    "effect": "Grants Def+3. Deals 20 damage to foes within 2 spaces at the start of each turn.",
-    "restriction": "Exclusive"
-  },
-  "Thökk": {
-    "color": "Neutral",
-    "type": "Staff",
-    "cost": 400,
-    "might": 14,
-    "effect": "Damage from staff calculated like other weapons. At start of turn, foes with bow, daggers, magic, or staff in cardinal directions with HP 3 of more lower than unit's can move only 1 space through their next actions.",
-    "restriction": "Exclusive"
-  },
-  "Laevatein": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 400,
-    "might": 16,
-    "effect": "Grants Atk+3. Adds total bonuses on unit to damage dealt.",
-    "restriction": "Exclusive"
-  },
-  "Dark Greatsword": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 400,
-    "might": 16,
-    "effect": "Grants Atk/Spd+4 during combat if unit initiates combat.",
-    "restriction": "Exclusive"
-  },
-  "Bright Naginata": {
-    "color": "Blue",
-    "type": "Lance",
-    "cost": 400,
-    "might": 16,
-    "effect": "Grants Atk/Def+4 during combat if foe initiates combat.",
-    "restriction": "Exclusive"
   }
 }

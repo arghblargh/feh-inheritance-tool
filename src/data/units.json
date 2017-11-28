@@ -4455,6 +4455,11 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
+    "bane": {
+      "HP": 4,
+      "Atk": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
