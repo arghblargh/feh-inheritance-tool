@@ -44,6 +44,15 @@
   "Breath of Life 3": {
     "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat."
   },
+  "Close Def 1": {
+    "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+2 during combat."
+  },
+  "Close Def 2": {
+    "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat."
+  },
+  "Close Def 3": {
+    "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat."
+  },
   "Defense +1": {
     "effect": "Grants Def +1."
   },
@@ -140,6 +149,15 @@
   "Hardy Bearing 3": {
     "effect": "Disables skills that change unit's attack priority. Enemy skills that change attack priority are also disabled."
   },
+  "Hone Spd 1": {
+    "effect": "Grants adjacent allies Spd+2 through their next actions at the start of each turn."
+  },
+  "Hone Spd 2": {
+    "effect": "Grants adjacent allies Spd+3 through their next actions at the start of each turn."
+  },
+  "Hone Spd 3": {
+    "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn."
+  },
   "Panic Ploy 1": {
     "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action."
   },
@@ -169,6 +187,15 @@
   },
   "Resistance +3": {
     "effect": "Grants Res +3."
+  },
+  "Savage Blow 1": {
+    "effect": "If unit initiates attack, foes within 2 spaces of target take 3 damage after combat."
+  },
+  "Savage Blow 2": {
+    "effect": "If unit initiates attack, foes within 2 spaces of target take 5 damage after combat."
+  },
+  "Savage Blow 3": {
+    "effect": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat."
   },
   "Speed +1": {
     "effect": "Grants Spd +1."
