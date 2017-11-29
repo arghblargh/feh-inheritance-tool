@@ -26,6 +26,11 @@
         "effect": "Restores HP 7+ this unit's suffered damage. Unit Heals HP=half suffered damage. Slows Special trigger (cooldown count +1).",
         "restriction": "Staff"
     },
+    "Martyr+": {
+        "cost": "300",
+        "effect": "Restores HP = this unit's suffered damage +50% of Atk. (Minimum of 7 HP.) Also restores HP to unit = half suffered damage.",
+        "restriction": "Staff"
+    },
     "Mend": {
         "cost": "0",
         "effect": "Restores 10 HP.",
@@ -34,6 +39,11 @@
     "Physic": {
         "cost": "200",
         "effect": "Restores 8 HP. Rng:2.",
+        "restriction": "Staff"
+    },
+    "Physic+": {
+        "cost": "300",
+        "effect": "Restores HP = 50% of Atk. (Minimum of 8 HP.) Rng: 2.",
         "restriction": "Staff"
     },
     "Pivot": {
@@ -90,9 +100,19 @@
         "effect": "Restores 15 HP. Slows Special trigger (cooldown count +1).",
         "restriction": "Staff"
     },
+    "Recover+": {
+        "cost": "300",
+        "effect": "Restores HP = 50% of Atk +10. (Minimum of 15 HP.)",
+        "restriction": "Staff"
+    },
     "Rehabilitate": {
         "cost": "200",
         "effect": "Restores 7 HP or more the further below 50% the target's HP is. Slows Special trigger (cooldown count +1).",
+        "restriction": "Staff"
+    },
+    "Rehabilitate+": {
+        "cost": "300",
+        "effect": "Restores HP = 50% of Atk -10. (Minimum of 7 HP.) If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored.",
         "restriction": "Staff"
     },
     "Reposition": {

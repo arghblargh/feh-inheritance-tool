@@ -776,6 +776,10 @@
         {
           "name": "Pain",
           "unlock": 3
+        },
+        {
+          "name": "Pain+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -790,6 +794,10 @@
         {
           "name": "Martyr",
           "unlock": 4
+        },
+        {
+          "name": "Martyr+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -2508,6 +2516,10 @@
         {
           "name": "Fear",
           "unlock": 3
+        },
+        {
+          "name": "Fear+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -2522,6 +2534,10 @@
         {
           "name": "Martyr",
           "unlock": 4
+        },
+        {
+          "name": "Martyr+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -3778,6 +3794,10 @@
         {
           "name": "Gravity",
           "unlock": 5
+        },
+        {
+          "name": "Gravity+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -3791,6 +3811,10 @@
         },
         {
           "name": "Recover",
+          "unlock": 5
+        },
+        {
+          "name": "Recover+",
           "unlock": 5
         }
       ],
@@ -4937,6 +4961,10 @@
         {
           "name": "Gravity",
           "unlock": 5
+        },
+        {
+          "name": "Gravity+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -4950,6 +4978,10 @@
         },
         {
           "name": "Physic",
+          "unlock": 5
+        },
+        {
+          "name": "Physic+",
           "unlock": 5
         }
       ],
@@ -7010,35 +7042,43 @@
       "weapon": [
         {
           "name": "Assault",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Absorb",
+          "unlock": 4
+        },
+        {
+          "name": "Absorb+",
           "unlock": 5
         }
       ],
       "assist": [
         {
           "name": "Heal",
-          "unlock": 5
+          "unlock": 4
         },
         {
-          "name": "MEnd",
-          "unlock": 5
+          "name": "Mend",
+          "unlock": 4
         },
         {
           "name": "Physic",
-          "unlock": 5
+          "unlock": 4
+        },
+        {
+          "name": "Physic+",
+          "unlock": 4
         }
       ],
       "special": [
         {
           "name": "Imbue",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Solid-Earth Balm",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -7056,11 +7096,11 @@
       "passiveC": [
         {
           "name": "Spur Res 1",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Res 2",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Spur Res 3",
@@ -7646,6 +7686,10 @@
         {
           "name": "Gravity",
           "unlock": 3
+        },
+        {
+          "name": "Gravity+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -7660,6 +7704,10 @@
         {
           "name": "Rehabilitate",
           "unlock": 4
+        },
+        {
+          "name": "Rehabilitate+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -8112,6 +8160,10 @@
         {
           "name": "Pain",
           "unlock": 4
+        },
+        {
+          "name": "Pain+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -8126,6 +8178,10 @@
         {
           "name": "Martyr",
           "unlock": 4
+        },
+        {
+          "name": "Martyr+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -8589,6 +8645,10 @@
         {
           "name": "Candlelight",
           "unlock": 5
+        },
+        {
+          "name": "Candlelight+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -8602,6 +8662,10 @@
         },
         {
           "name": "Rehabilitate",
+          "unlock": 5
+        },
+        {
+          "name": "Rehabilitate+",
           "unlock": 5
         }
       ],
@@ -8740,6 +8804,10 @@
         {
           "name": "Panic",
           "unlock": 4
+        },
+        {
+          "name": "Panic+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -8754,6 +8822,10 @@
         {
           "name": "Physic",
           "unlock": 4
+        },
+        {
+          "name": "Physic+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -9406,6 +9478,10 @@
         {
           "name": "Slow",
           "unlock": 5
+        },
+        {
+          "name": "Slow+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -9419,6 +9495,10 @@
         },
         {
           "name": "Recover",
+          "unlock": 5
+        },
+        {
+          "name": "Recover+",
           "unlock": 5
         }
       ],
@@ -10786,6 +10866,10 @@
         {
           "name": "Panic",
           "unlock": 4
+        },
+        {
+          "name": "Panic+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -10800,6 +10884,10 @@
         {
           "name": "Rehabilitate",
           "unlock": 4
+        },
+        {
+          "name": "Rehabilitate+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -11873,6 +11961,10 @@
         {
           "name": "Fear",
           "unlock": 4
+        },
+        {
+          "name": "Fear+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -11887,6 +11979,10 @@
         {
           "name": "Physic",
           "unlock": 4
+        },
+        {
+          "name": "Physic+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -12252,6 +12348,10 @@
         {
           "name": "Absorb",
           "unlock": 3
+        },
+        {
+          "name": "Absorb+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -12266,6 +12366,10 @@
         {
           "name": "Recover",
           "unlock": 4
+        },
+        {
+          "name": "Recover+",
+          "unlock": 5
         }
       ],
       "special": [
@@ -14234,6 +14338,10 @@
         {
           "name": "Slow",
           "unlock": 3
+        },
+        {
+          "name": "Slow+",
+          "unlock": 5
         }
       ],
       "assist": [
@@ -14248,6 +14356,10 @@
         {
           "name": "Rehabilitate",
           "unlock": 4
+        },
+        {
+          "name": "Rehabilitate+",
+          "unlock": 5
         }
       ],
       "special": [

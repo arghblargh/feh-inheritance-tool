@@ -6,6 +6,13 @@
     "might": 4,
     "effect": "Recovers HP=50% of damage dealt."
   },
+  "Absorb+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 7,
+    "effect": "Recovers HP = 50% of damage dealt. After combat, restores 7 HP to allies within 2 spaces of unit."
+  },
   "Alondite": {
     "color": "Red",
     "type": "Sword",
@@ -296,6 +303,13 @@
     "might": 7,
     "effect": "After combat, foe inflicted with status preventing them from counterattacking."
   },
+  "Candlelight+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 11,
+    "effect": "After combat, foe and foes within 2 spaces of target inflicted with status preventing counterattack through their next actions."
+  },
   "Carrot Axe": {
     "color": "Green",
     "type": "Axe",
@@ -568,6 +582,13 @@
     "might": 5,
     "effect": "Inflicts Atk-6."
   },
+  "Fear+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "After combat, inflicts Atk-7 on target and foes within 2 spaces through their next actions."
+  },
   "Fenrir": {
     "color": "Red",
     "type": "Tome",
@@ -726,6 +747,13 @@
     "cost": 150,
     "might": 6,
     "effect": "After any combat, prevents foe from moving more than 1 space through its next action."
+  },
+  "Gravity+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 10,
+    "effect": "After combat, prevents target and foes within 1 space of target from moving more than 1 space through their next actions."
   },
   "Green Egg": {
     "color": "Green",
@@ -1107,12 +1135,26 @@
     "might": 3,
     "effect": "Inflicts 10 damage on Foe after combat."
   },
+  "Pain+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 10,
+    "effect": "Deals 10 damage to target and foes within 2 spaces of target after combat."
+  },
   "Panic": {
     "color": "Neutral",
     "type": "Staff",
     "cost": 150,
     "might": 7,
     "effect": "After combat, bonuses on targeted foe become penalties through its next action."
+  },
+  "Panic+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 11,
+    "effect": "After combat, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
   },
   "Parthia": {
     "color": "Neutral",
@@ -1515,6 +1557,13 @@
     "cost": 150,
     "might": 5,
     "effect": "After any combat, inflicts Spd-6 on foe through its next action."
+  },
+  "Slow+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "After combat, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions."
   },
   "Smoke Dagger": {
     "color": "Neutral",
