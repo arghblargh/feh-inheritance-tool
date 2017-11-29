@@ -51,19 +51,33 @@
     "might": 12,
     "effect": "Effective against armored units."
   },
+  "Armorsmasher+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "Effective against armored foes."
+  },
   "Assassin's Bow": {
     "color": "Neutral",
     "type": "Bow",
     "cost": 200,
     "might": 7,
-    "effect": "Effective against fliers. If target has a dagger, it can't make a followup attack and this unit will."
+    "effect": "Effective against flying units. If target has a dagger, it can't make a followup attack and this unit will."
   },
   "Assassin's Bow+": {
     "color": "Neutral",
     "type": "Bow",
     "cost": 300,
     "might": 11,
-    "effect": "Effective against fliers. If target has a dagger, it can't make a followup attack and this unit will."
+    "effect": "Effective against flying units. If target has a dagger, it can't make a followup attack and this unit will."
+  },
+  "Guard Bow+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
   },
   "Assault": {
     "color": "Neutral",
@@ -209,6 +223,13 @@
     "cost": 300,
     "might": 10,
     "effect": "Effective against cavalry units."
+  },
+  "Keen Blárwolf+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against cavalry foes."
   },
   "Bolganone": {
     "color": "Red",
@@ -833,6 +854,13 @@
     "might": 10,
     "effect": "Effective against cavalry units."
   },
+  "Keen Gronnwolf+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against cavalry foes."
+  },
   "Hammer": {
     "color": "Green",
     "type": "Axe",
@@ -846,6 +874,13 @@
     "cost": 300,
     "might": 12,
     "effect": "Effective against armored units."
+  },
+  "Slaying Hammer+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "Effective against armored foes."
   },
   "Hauteclere": {
     "color": "Green",
@@ -865,9 +900,16 @@
   "Heavy Spear+": {
     "color": "Blue",
     "type": "Lance",
-    "cost": 200,
+    "cost": 300,
     "might": 12,
     "effect": "Effective against armored units."
+  },
+  "Slaying Spear+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "Effective against armored foes."
   },
   "Hibiscus Tome": {
     "color": "Green",
@@ -1257,6 +1299,13 @@
     "cost": 300,
     "might": 10,
     "effect": "Effective against cavalry units."
+  },
+  "Keen Rauðrwolf+": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against cavalry foes."
   },
   "Refreshing Bolt": {
     "color": "Neutral",
