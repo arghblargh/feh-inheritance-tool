@@ -314,7 +314,7 @@ function getDefaultSkills(unit) {
 }
 
 function getWeaponUpgrade(unit) {
-    var maxWeapon = units[unit].skills.weapon[3].name;
+    var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
     
     if (upgrades.Upgrade[maxWeapon])
         return upgrades.Upgrade[maxWeapon];

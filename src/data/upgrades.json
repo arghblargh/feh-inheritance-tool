@@ -2,11 +2,10 @@
     "Common": {
         "Attack": {
             "HP": 5,
-            "Atk": 3
+            "Atk": 2
         },
         "Speed": {
             "HP": 5,
-            "Atk": 1,
             "Spd": 3
         },
         "Defense": {
@@ -25,7 +24,18 @@
         "Durandal": "Blazing Durandal",
         "Excalibur": "Dark Excalibur",
         "Naga": "Divine Naga",
-        "Tyrfing": "Divine Tyrfing"
+        "Tyrfing": "Divine Tyrfing",
+        "Killing Edge+": "Slaying Edge+",
+        "Killer Lance+": "Slaying Lance+",
+        "Killer Axe+": "Slaying Axe+",
+        "Killer Bow+": "Slaying Bow+",
+        "Armorslayer+": "Armorsmasher+",
+        "Heavy Spear+": "Slaying Spear+",
+        "Hammer+": "Slaying Hammer+",
+        "Assassin's Bow+": "Guard Bow+",
+        "Rauðrwolf+": "Keen Rauðrwolf+",
+        "Blárwolf+": "Keen Blárwolf+",
+        "Gronnwolf+": "Keen Gronnwolf+"
     },
     "Siegmund": {
         "Common": {
