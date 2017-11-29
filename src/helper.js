@@ -681,8 +681,13 @@ export function calcCost(unit, skill) {
         // Unit has the base weapon
         if (defaultSkills.has(/[^+]*/.exec(skill)[0]))
             return skillData.cost * 1.5;
-        else
+        else {
+            var baseWeapon = Object.keys(upgrades.Upgrade).find(base => upgrades.Upgrade[base] === skill);
+            if (baseWeapon)
+                return skillData.cost * 1.5 + calcCost(unit, baseWeapon);
+
             return skillData.cost * 1.5 + calcCost(unit, /[^+]*/.exec(skill)[0]);
+        }
     }
     // If skill has specific prerequisites
     else if (skillData.require) {
