@@ -224,6 +224,13 @@
     "might": 10,
     "effect": "Effective against cavalry units."
   },
+  "Keen Blárwolf": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against cavalry foes."
+  },
   "Keen Blárwolf+": {
     "color": "Blue",
     "type": "Tome",
@@ -854,6 +861,13 @@
     "might": 10,
     "effect": "Effective against cavalry units."
   },
+  "Keen Gronnwolf": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against cavalry foes."
+  },
   "Keen Gronnwolf+": {
     "color": "Green",
     "type": "Tome",
@@ -1299,6 +1313,13 @@
     "cost": 300,
     "might": 10,
     "effect": "Effective against cavalry units."
+  },
+  "Keen Rauðrwolf": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against cavalry foes."
   },
   "Keen Rauðrwolf+": {
     "color": "Red",

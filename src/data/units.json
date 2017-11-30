@@ -11237,6 +11237,84 @@
       ]
     }
   },
+  "Rhajat": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": {
+      "HP": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Elwind",
+          "unlock": 5
+        },
+        {
+          "name": "Keen Gronnwolf",
+          "unlock": 5
+        },
+        {
+          "name": "Keen Gronnwolf+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense",
+          "unlock": 5
+        },
+        {
+          "name": "Rally Atk/Def",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Distant Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Distant Def 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Savage Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Savage Blow 2",
+          "unlock": 5
+        },
+        {
+          "name": "Savage Blow 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Robin (F)": {
     "color": "Green",
     "wpnType": "Tome",
@@ -12863,6 +12941,159 @@
       ]
     }
   },
+  "Shiro": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "bane": {
+      "HP": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Bright Naginata",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Steady Stance 1",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Stance 2",
+          "unlock": 5
+        },
+        {
+          "name": "Steady Stance 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Tactic 1",
+          "unlock": 5
+        },
+        {
+          "name": "Def Tactic 2",
+          "unlock": 5
+        },
+        {
+          "name": "Def Tactic 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Siegbert": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "bane": {
+      "HP": 4,
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Dark Greatsword",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 5
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 5
+        },
+        {
+          "name": "Death Blow 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1",
+          "unlock": 5
+        },
+        {
+          "name": "Atk Tactic 2",
+          "unlock": 5
+        },
+        {
+          "name": "Atk Tactic 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
   "Sigurd": {
     "color": "Red",
     "wpnType": "Sword",
@@ -12933,6 +13164,88 @@
         },
         {
           "name": "Spd Smoke 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Soleil": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": {
+      "HP": 4,
+      "Res": 4
+    },
+    "bane": {
+      "Def": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Firesweep Sword",
+          "unlock": 5
+        },
+        {
+          "name": "Firesweep Sword+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Blazing Wind",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 5
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 5
+        },
+        {
+          "name": "Darting Blow 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Res 1",
+          "unlock": 5
+        },
+        {
+          "name": "Drive Res 2",
           "unlock": 5
         }
       ]

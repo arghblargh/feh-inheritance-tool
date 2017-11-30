@@ -250,15 +250,18 @@
     },
     "Flashing Blade 1": {
       "cost": "60",
-      "effect": "If unit's Spd - foe's Spd ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+      "effect": "If unit's Spd - foe's Spd ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction": "Armored|Infantry, Offense"
     },
     "Flashing Blade 2": {
       "cost": "120",
-      "effect": "If unit's Spd - foe's Spd ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+      "effect": "If unit's Spd - foe's Spd ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction": "Armored|Infantry, Offense"
     },
     "Flashing Blade 3": {
       "cost": "240",
-      "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+      "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction": "Armored|Infantry, Offense"
     },
     "Fortress Def 1": {
       "cost": "50",
@@ -1187,6 +1190,18 @@
       "cost": "240",
       "effect": "After combat, inflicts Atk-7 on foes within within 2 spaces of target through their next actions."
     },
+    "Atk Tactic 1": {
+      "cost": "60",
+      "effect": "At start of turn, grants Atk+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Atk Tactic 2": {
+      "cost": "120",
+      "effect": "At start of turn, grants Atk+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Atk Tactic 3": {
+      "cost": "240",
+      "effect": "At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
     "Axe Experience 1": {
       "cost": "30",
       "effect": "If unit survives and uses an axe, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
@@ -1300,6 +1315,18 @@
     "Def Ploy 3": {
       "cost": "240",
       "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action."
+    },
+    "Def Tactic 1": {
+      "cost": "60",
+      "effect": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Def Tactic 2": {
+      "cost": "120",
+      "effect": "At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Def Tactic 3": {
+      "cost": "240",
+      "effect": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Drive Atk 1": {
       "cost": "120",

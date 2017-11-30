@@ -54,6 +54,10 @@
         "cost": "150",
         "effect": "Grants Atk+4 to an adjacent ally until the end of the turn."
     },
+    "Rally Atk/Def": {
+        "cost": "300",
+        "effect": "Grants Atk/Def+3 to an adjacent ally until the end of the turn."
+    },
     "Rally Atk/Res": {
         "cost": "300",
         "effect": "Grants Atk/Res+3 to an adjacent ally until the end of the turn."

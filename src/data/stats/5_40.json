@@ -1021,6 +1021,13 @@
     "Def": 27,
     "Res": 25
   },
+  "Rhajat": {
+    "HP": 36,
+    "Atk": 35,
+    "Spd": 34,
+    "Def": 21,
+    "Res": 24
+  },
   "Robin (F)": {
     "HP": 40,
     "Atk": 29,
@@ -1168,12 +1175,33 @@
     "Def": 21,
     "Res": 24
   },
+  "Shiro": {
+    "HP": 41,
+    "Atk": 35,
+    "Spd": 30,
+    "Def": 35,
+    "Res": 22
+  },
+  "Siegbert": {
+    "HP": 41,
+    "Atk": 34,
+    "Spd": 35,
+    "Def": 31,
+    "Res": 16
+  },
   "Sigurd": {
     "HP": 41,
     "Atk": 35,
     "Spd": 32,
     "Def": 34,
     "Res": 17
+  },
+  "Soleil": {
+    "HP": 37,
+    "Atk": 38,
+    "Spd": 35,
+    "Def": 28,
+    "Res": 24
   },
   "Sonya": {
     "HP": 36,
