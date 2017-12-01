@@ -418,11 +418,11 @@
       "special": [
         {
           "name": "Buckler",
-          "unlock": 5
+          "unlock": 4
         },
         {
           "name": "Pavise",
-          "unlock": 5
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -440,15 +440,15 @@
       "passiveC": [
         {
           "name": "Spur Def 1",
-          "unlock": 5
+          "unlock": 3
         },
         {
           "name": "Drive Def 1",
-          "unlock": 5
+          "unlock": 3
         },
         {
           "name": "Drive Def 2",
-          "unlock": 5
+          "unlock": 4
         }
       ]
     }
@@ -588,11 +588,11 @@
         },
         {
           "name": "Def Ploy 2",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Def Ploy 3",
-          "unlock": 5
+          "unlock": 4
         }
       ]
     }
