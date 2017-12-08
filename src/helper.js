@@ -530,7 +530,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
     if (boonBane) {
         if (boonBane.boon) {
             let boon = baseBonus;
-            if(rarity === 5 && units[unit].boon && units[unit].boon[boonBane.boon])
+            if(rarity === 5 && baseBonus === 3 && units[unit].boon && units[unit].boon[boonBane.boon])
                 boon = units[unit].boon[boonBane.boon];
             totalMod[boonBane.boon === "HP"  ? 0 :
                     boonBane.boon === "Atk" ? 1 :
@@ -540,7 +540,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         }
         if (boonBane.bane) {
             let bane = baseBonus;
-            if(rarity === 5 && units[unit].bane && units[unit].bane[boonBane.bane])
+            if(rarity === 5 && baseBonus === 3 && units[unit].bane && units[unit].bane[boonBane.bane])
                 bane = units[unit].bane[boonBane.bane];
             totalMod[boonBane.bane === "HP"  ? 0 :
                     boonBane.bane === "Atk" ? 1 :
