@@ -263,18 +263,12 @@ export class BuildManager extends React.PureComponent {
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
     var skills = {};
-    skills.weapon = Array.isArray(skillData.weapon) ? skillData.weapon[skillData.weapon.length-1].name 
-                                                    : skillData.weapon.name;
-    skills.assist = Array.isArray(skillData.assist) ? skillData.assist[skillData.assist.length-1].name 
-                                                    : skillData.assist.name;
-    skills.special = Array.isArray(skillData.special) ? skillData.special[skillData.special.length-1].name 
-                                                      : skillData.special.name;
-    skills.passiveA = Array.isArray(skillData.passiveA) ? skillData.passiveA[skillData.passiveA.length-1].name 
-                                                        : skillData.passiveA.name;
-    skills.passiveB = Array.isArray(skillData.passiveB) ? skillData.passiveB[skillData.passiveB.length-1].name 
-                                                        : skillData.passiveB.name;
-    skills.passiveC = Array.isArray(skillData.passiveC) ? skillData.passiveC[skillData.passiveC.length-1].name 
-                                                        : skillData.passiveC.name;
+    skills.weapon = skillData.weapon ? skillData.weapon[skillData.weapon.length-1].name : '';
+    skills.assist = skillData.assist ? skillData.assist[skillData.assist.length-1].name : '';
+    skills.special = skillData.special ? skillData.special[skillData.special.length-1].name : '';
+    skills.passiveA = skillData.passiveA ? skillData.passiveA[skillData.passiveA.length-1].name : '';
+    skills.passiveB = skillData.passiveB ? skillData.passiveB[skillData.passiveB.length-1].name : '';
+    skills.passiveC = skillData.passiveC ? skillData.passiveC[skillData.passiveC.length-1].name : '';
     skills.seal = '';
 
     return skills;
@@ -289,11 +283,13 @@ export function getUnitsWithSkill(skill, type) {
     
     for (let unit in units) {
         let skillData = units[unit].skills[type];
-        for (let skl of skillData) {
-            if (reSkill.test(skl.name)) {
-                if (!unitList[skl.unlock])
-                    unitList[skl.unlock] = [];
-                unitList[skl.unlock].push(unit);
+        if (skillData) {
+            for (let skl of skillData) {
+                if (reSkill.test(skl.name)) {
+                    if (!unitList[skl.unlock])
+                        unitList[skl.unlock] = [];
+                    unitList[skl.unlock].push(unit);
+                }
             }
         }
     }
@@ -316,8 +312,8 @@ function getDefaultSkills(unit) {
 function getWeaponUpgrade(unit) {
     var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
     
-    if (upgrades.Upgrade[maxWeapon])
-        return upgrades.Upgrade[maxWeapon];
+    if (upgrades.Evolve[maxWeapon])
+        return upgrades.Evolve[maxWeapon];
 
     return null;
 }
@@ -682,7 +678,7 @@ export function calcCost(unit, skill) {
         if (defaultSkills.has(/[^+]*/.exec(skill)[0]))
             return skillData.cost * 1.5;
         else {
-            var baseWeapon = Object.keys(upgrades.Upgrade).find(base => upgrades.Upgrade[base] === skill);
+            var baseWeapon = Object.keys(upgrades.Evolve).find(base => upgrades.Evolve[base] === skill);
             if (baseWeapon)
                 return skillData.cost * 1.5 + calcCost(unit, baseWeapon);
 

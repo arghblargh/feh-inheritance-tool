@@ -28,12 +28,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Holy Vestments",
@@ -71,12 +65,6 @@
           "name": "Swordbreaker 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -103,12 +91,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -131,12 +113,6 @@
         {
           "name": "Death Blow 3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -181,12 +157,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Dragon Gaze",
@@ -224,12 +194,6 @@
           "name": "Windsweep 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -259,12 +223,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Holy Vestments",
@@ -286,12 +244,6 @@
         },
         {
           "name": "Earth Boost 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -334,12 +286,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -348,12 +294,6 @@
         {
           "name": "Astra",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -409,12 +349,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -423,12 +357,6 @@
         {
           "name": "Pavise",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 5
         }
       ],
       "passiveB": [
@@ -488,12 +416,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "HP +3",
@@ -521,12 +443,6 @@
           "name": "Lancebreaker 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -553,12 +469,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "Rising Flame",
@@ -567,12 +477,6 @@
         {
           "name": "Growing Flame",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 5
         }
       ],
       "passiveB": [
@@ -625,12 +529,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -653,12 +551,6 @@
         {
           "name": "Sturdy Blow 2",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -703,12 +595,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -748,12 +634,6 @@
         },
         {
           "name": "Desperation 3",
-          "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
           "unlock": 5
         }
       ]
@@ -810,18 +690,6 @@
           "unlock": 3
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Threaten Atk 1",
@@ -873,12 +741,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Speed +1",
@@ -891,12 +753,6 @@
         {
           "name": "Speed +3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -950,12 +806,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveA": [
         {
           "name": "Triangle Adept 1",
@@ -967,12 +817,6 @@
         },
         {
           "name": "Triangle Adept 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -1022,18 +866,6 @@
         {
           "name": "Reposition",
           "unlock": 3
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -1090,12 +922,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Fury 1",
@@ -1123,12 +949,6 @@
           "name": "Brash Assault 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -1155,12 +975,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Flame",
@@ -1183,12 +997,6 @@
         {
           "name": "Water Boost 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -1230,12 +1038,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -1265,12 +1067,6 @@
           "name": "Lunge",
           "unlock": 3
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -1295,12 +1091,6 @@
         {
           "name": "Alondite",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -1344,12 +1134,6 @@
           "name": "Wings of Mercy 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
-        }
       ]
     }
   },
@@ -1379,12 +1163,6 @@
         {
           "name": "Gronnowl+",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -1424,12 +1202,6 @@
           "name": "Renewal 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -1467,12 +1239,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Darting Blow 1",
@@ -1485,12 +1251,6 @@
         {
           "name": "Darting Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -1536,12 +1296,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -1564,12 +1318,6 @@
         {
           "name": "Attack/Res 2",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -1614,12 +1362,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -1628,12 +1370,6 @@
         {
           "name": "Escutcheon",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -1696,12 +1432,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Dracon Gaze",
@@ -1724,12 +1454,6 @@
         {
           "name": "Darting Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -1784,12 +1508,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Defiant Spd 1",
@@ -1808,12 +1526,6 @@
         {
           "name": "Live for Bounty",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -1841,12 +1553,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Thunder",
@@ -1861,12 +1567,6 @@
         {
           "name": "Grani's Shield",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -1915,12 +1615,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -1957,12 +1651,6 @@
         {
           "name": "Seal Atk 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -2003,12 +1691,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Attack +1",
@@ -2035,12 +1717,6 @@
         {
           "name": "Escape Route 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -2071,12 +1747,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Light",
@@ -2099,12 +1769,6 @@
         {
           "name": "Distant Def 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -2155,12 +1819,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Wind Boost 1",
@@ -2173,12 +1831,6 @@
         {
           "name": "Wind Boost 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -2229,12 +1881,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Attack +1",
@@ -2247,12 +1893,6 @@
         {
           "name": "Attack +3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -2300,12 +1940,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -2332,12 +1966,6 @@
         {
           "name": "Defiant Def 3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -2388,12 +2016,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Def +1",
@@ -2408,12 +2030,6 @@
           "unlock": 5
         }
       ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Axe Experience 1",
@@ -2425,6 +2041,65 @@
         },
         {
           "name": "Axe Experience 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Chrom (Winter's Envoy)": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Sack o' Gifts",
+          "unlock": 5
+        },
+        {
+          "name": "Sack o' Gifts+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Pivot",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Brazen Atk/Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Brazen Atk/Def 3",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 5
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 5
+        },
+        {
+          "name": "Wary Fighter 3",
           "unlock": 5
         }
       ]
@@ -2461,18 +2136,6 @@
         {
           "name": "Harsh Command",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -2563,18 +2226,6 @@
           "name": "Resistance +3",
           "unlock": 5
         }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -2601,12 +2252,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -2615,12 +2260,6 @@
         {
           "name": "Glimmer",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -2676,12 +2315,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -2711,12 +2344,6 @@
           "name": "Hit and Run",
           "unlock": 3
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -2744,12 +2371,6 @@
         {
           "name": "Brave Lance+",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -2793,12 +2414,6 @@
           "name": "Pass 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -2832,18 +2447,6 @@
         {
           "name": "Rally Atk/Spd",
           "unlock": 5
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -2905,12 +2508,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Dracon Gaze",
@@ -2919,12 +2516,6 @@
         {
           "name": "Draconic Aura",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -2983,12 +2574,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Dragon Gaze",
@@ -3011,12 +2596,6 @@
         {
           "name": "Swift Strike 2",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -3065,12 +2644,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Dragon Gaze",
@@ -3108,12 +2681,6 @@
           "name": "Obstruct 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -3150,18 +2717,6 @@
       "assist": [
         {
           "name": "Ardent Sacrifice",
-          "unlock": 5
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -3221,12 +2776,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Miracle",
@@ -3245,12 +2794,6 @@
         {
           "name": "Death Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -3298,12 +2841,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "HP +3",
@@ -3322,12 +2859,6 @@
         {
           "name": "Drag Back",
           "unlock": 3
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -3355,12 +2886,6 @@
         },
         {
           "name": "Stout Tomahawk",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -3441,12 +2966,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -3455,12 +2974,6 @@
         {
           "name": "Pavise",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -3520,12 +3033,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Death Blow 1",
@@ -3552,12 +3059,6 @@
         {
           "name": "Wary Fighter 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -3596,18 +3097,6 @@
         {
           "name": "Pivot",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -3661,12 +3150,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Light",
@@ -3695,12 +3178,6 @@
         {
           "name": "Lunge",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -3739,12 +3216,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveA": [
         {
           "name": "Death Blow 1",
@@ -3770,12 +3241,6 @@
         },
         {
           "name": "Flier Formation 3",
-          "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
           "unlock": 5
         }
       ]
@@ -3828,12 +3293,6 @@
           "unlock": 5
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveB": [
         {
           "name": "Live to Serve 1",
@@ -3846,12 +3305,6 @@
         {
           "name": "Live to Serve 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -3892,12 +3345,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Speed +1",
@@ -3910,12 +3357,6 @@
         {
           "name": "Spd/Res 2",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -3961,12 +3402,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Holy Vestments",
@@ -3975,12 +3410,6 @@
         {
           "name": "Sacred Cowl",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -4039,12 +3468,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -4053,12 +3476,6 @@
         {
           "name": "Moonbow",
           "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -4120,12 +3537,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Defiant Res 1",
@@ -4152,12 +3563,6 @@
         {
           "name": "Seal Spd 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -4196,18 +3601,6 @@
         {
           "name": "Draw Back",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -4267,12 +3660,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -4281,12 +3668,6 @@
         {
           "name": "Noontime",
           "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -4342,12 +3723,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -4370,12 +3745,6 @@
         {
           "name": "Resistance +3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -4423,12 +3792,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -4466,12 +3829,6 @@
           "name": "Pass 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -4500,12 +3857,6 @@
         },
         {
           "name": "Leiptr",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -4599,12 +3950,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Darting Blow 1",
@@ -4617,12 +3962,6 @@
         {
           "name": "Darting Blow 3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -4667,12 +4006,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -4681,12 +4014,6 @@
         {
           "name": "Luna",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -4753,12 +4080,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Armored Blow 1",
@@ -4785,12 +4106,6 @@
         {
           "name": "Seal Atk/Spd 2",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -4824,12 +4139,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Defiant Atk 1",
@@ -4856,12 +4165,6 @@
         {
           "name": "Pass 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -4893,12 +4196,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -4907,12 +4204,6 @@
         {
           "name": "Astra",
           "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -4995,12 +4286,6 @@
           "unlock": 5
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveB": [
         {
           "name": "Wrathful Staff 1",
@@ -5013,12 +4298,6 @@
         {
           "name": "Wrathful Staff 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -5055,12 +4334,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Attack +1",
@@ -5087,12 +4360,6 @@
         {
           "name": "Vantage 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -5129,12 +4396,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Wind Boost 1",
@@ -5147,12 +4408,6 @@
         {
           "name": "Wind Boost 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -5206,12 +4461,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Armored Blow 1",
@@ -5224,12 +4473,6 @@
         {
           "name": "Armored Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -5278,12 +4521,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -5292,12 +4529,6 @@
         {
           "name": "Escutcheon",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -5354,12 +4585,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Life and Death 1",
@@ -5386,12 +4611,6 @@
         {
           "name": "Obstruct 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -5422,12 +4641,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Light",
@@ -5450,12 +4663,6 @@
         {
           "name": "Death Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -5500,12 +4707,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -5520,12 +4721,6 @@
         {
           "name": "Distant Counter",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -5570,12 +4765,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Glowing Ember",
@@ -5613,12 +4802,6 @@
           "name": "G Tomebreaker 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -5651,12 +4834,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Retribution",
@@ -5664,12 +4841,6 @@
         },
         {
           "name": "Reprisal",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -5718,12 +4889,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -5761,12 +4926,6 @@
           "name": "Brash Assault 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -5799,12 +4958,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Wind",
@@ -5827,12 +4980,6 @@
         {
           "name": "Defiant Def 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -5877,12 +5024,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -5924,12 +5065,6 @@
           "name": "Swordbreaker 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -5957,12 +5092,6 @@
         {
           "name": "Urvan",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -6048,18 +5177,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveB": [
         {
           "name": "Gale Dance 1",
@@ -6117,12 +5234,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -6160,12 +5271,6 @@
           "name": "Cancel Affinity 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
-        }
       ]
     }
   },
@@ -6196,12 +5301,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -6224,12 +5323,6 @@
         {
           "name": "Life and Death 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -6271,12 +5364,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Holy Vestments",
@@ -6299,12 +5386,6 @@
         {
           "name": "Fury 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -6355,12 +5436,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Defense +1",
@@ -6388,12 +5463,6 @@
           "name": "Renewal 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -6420,12 +5489,6 @@
         },
         {
           "name": "Monstrous Bow+",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -6466,12 +5529,6 @@
           "name": "Wary Fighter 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
-        }
       ]
     }
   },
@@ -6502,12 +5559,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Flame",
@@ -6516,12 +5567,6 @@
         {
           "name": "Blazing Flame",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -6577,12 +5622,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -6620,12 +5659,6 @@
           "name": "Windsweep 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
-        }
       ]
     }
   },
@@ -6659,12 +5692,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Dragon Gaze",
@@ -6687,12 +5714,6 @@
         {
           "name": "Resistance +3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -6737,12 +5758,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Retribution",
@@ -6780,12 +5795,6 @@
           "name": "Daggerbreaker 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -6816,12 +5825,6 @@
         {
           "name": "Wo Dao+",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -6861,12 +5864,6 @@
           "name": "Desperation 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -6896,12 +5893,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -6924,12 +5915,6 @@
         {
           "name": "Swift Sparrow 2",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -6978,12 +5963,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -7020,12 +5999,6 @@
         {
           "name": "Quick Riposte 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -7081,18 +6054,6 @@
           "unlock": 4
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Spur Res 1",
@@ -7132,12 +6093,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -7146,12 +6101,6 @@
         {
           "name": "Noontime",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -7207,12 +6156,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Retribution",
@@ -7250,12 +6193,6 @@
           "name": "Obstruct 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -7290,12 +6227,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Light",
@@ -7304,12 +6235,6 @@
         {
           "name": "Blazing Light",
           "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -7372,12 +6297,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -7386,12 +6305,6 @@
         {
           "name": "Iceberg",
           "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -7454,12 +6367,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Glowing Ember",
@@ -7497,12 +6404,6 @@
           "name": "Guard 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -7536,12 +6437,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Flame",
@@ -7564,12 +6459,6 @@
         {
           "name": "Attack +3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -7624,12 +6513,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Speed +1",
@@ -7642,12 +6525,6 @@
         {
           "name": "Speed +3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -7720,12 +6597,6 @@
           "unlock": 3
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveB": [
         {
           "name": "Renewal 1",
@@ -7739,11 +6610,68 @@
           "name": "Renewal 3",
           "unlock": 5
         }
+      ]
+    }
+  },
+  "Lissa (Winter's Envoy)": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 5
+        },
+        {
+          "name": "Handbell",
+          "unlock": 5
+        },
+        {
+          "name": "Handbell+",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 5
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 5
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 5
+        },
+        {
+          "name": "Bold Fighter 3",
+          "unlock": 5
+        }
       ],
       "passiveC": [
         {
-          "name": "",
-          "unlock": 1
+          "name": "Fortify Def 1",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 5
+        },
+        {
+          "name": "Fortify Armor",
+          "unlock": 5
         }
       ]
     }
@@ -7771,12 +6699,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -7785,12 +6707,6 @@
         {
           "name": "Iceberg",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -7846,12 +6762,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -7889,12 +6799,6 @@
           "name": "Vantage 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -7924,12 +6828,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -7956,12 +6854,6 @@
         {
           "name": "Defiant Spd 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -8006,12 +6898,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -8037,12 +6923,6 @@
         },
         {
           "name": "Sturdy Blow 2",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -8098,12 +6978,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Darting Blow 1",
@@ -8130,12 +7004,6 @@
         {
           "name": "Seal Res 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -8207,18 +7075,6 @@
           "name": "HP +5",
           "unlock": 5
         }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -8246,12 +7102,6 @@
         {
           "name": "Killer Lance+",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -8291,12 +7141,6 @@
           "name": "Obstruct 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -8327,12 +7171,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Glowing Ember",
@@ -8355,12 +7193,6 @@
         {
           "name": "Fire Boost 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -8415,12 +7247,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveA": [
         {
           "name": "Resistance +1",
@@ -8432,12 +7258,6 @@
         },
         {
           "name": "HP/Res 2",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -8487,12 +7307,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -8519,12 +7333,6 @@
         {
           "name": "Defiant Atk 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -8571,12 +7379,6 @@
         {
           "name": "Mulagir",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -8679,12 +7481,6 @@
           "unlock": 5
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveB": [
         {
           "name": "Dazzling Staff 1",
@@ -8697,12 +7493,6 @@
         {
           "name": "Dazzling Staff 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -8741,18 +7531,6 @@
         {
           "name": "Draw Back",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -8838,18 +7616,6 @@
           "unlock": 4
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Fortify Res 1",
@@ -8897,18 +7663,6 @@
         {
           "name": "Pivot",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -8963,36 +7717,6 @@
           "name": "Falchion",
           "unlock": 5
         }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -9029,18 +7753,6 @@
         {
           "name": "Rally Resistance",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -9108,18 +7820,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveB": [
         {
           "name": "Poison Strike 1",
@@ -9179,12 +7879,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Wind",
@@ -9207,12 +7901,6 @@
         {
           "name": "HP +5",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -9261,12 +7949,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -9304,12 +7986,6 @@
           "name": "Vantage 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
-        }
       ]
     }
   },
@@ -9336,12 +8012,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Thunder",
@@ -9356,12 +8026,6 @@
         {
           "name": "Iote's Shield",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -9406,12 +8070,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Holy Vestments",
@@ -9434,12 +8092,6 @@
         {
           "name": "Life and Death 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -9512,18 +8164,6 @@
           "unlock": 5
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Spur Res 1",
@@ -9563,12 +8203,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Retribution",
@@ -9577,12 +8211,6 @@
         {
           "name": "Vengeance",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -9638,12 +8266,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Wind",
@@ -9652,12 +8274,6 @@
         {
           "name": "Blazing Wind",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -9716,12 +8332,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -9759,12 +8369,6 @@
           "name": "Wrath 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
-        }
       ]
     }
   },
@@ -9797,12 +8401,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -9825,12 +8423,6 @@
         {
           "name": "Warding Blow 3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -9882,18 +8474,6 @@
         {
           "name": "Dance",
           "unlock": 5
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -9958,12 +8538,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Resistance +1",
@@ -9976,12 +8550,6 @@
         {
           "name": "Resistance +3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -10033,12 +8601,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Defense +1",
@@ -10051,12 +8613,6 @@
         {
           "name": "Defense +3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -10104,12 +8660,6 @@
       "assist": [
         {
           "name": "Reposition",
-          "unlock": 5
-        }
-      ],
-      "special": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -10184,18 +8734,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveB": [
         {
           "name": "Seal Def 1",
@@ -10249,12 +8787,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -10292,12 +8824,6 @@
           "name": "R Tomebreaker 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -10330,12 +8856,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -10358,12 +8878,6 @@
         {
           "name": "Defiant Atk 3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -10417,18 +8931,6 @@
         {
           "name": "Dance",
           "unlock": 3
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -10489,12 +8991,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveA": [
         {
           "name": "Distant Def 1",
@@ -10520,12 +9016,6 @@
         },
         {
           "name": "Blaze Dance 3",
-          "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
           "unlock": 5
         }
       ]
@@ -10563,12 +9053,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Warding Blow 1",
@@ -10581,12 +9065,6 @@
         {
           "name": "Warding Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -10642,18 +9120,6 @@
         {
           "name": "Rally Spd/Def",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 5
         }
       ],
       "passiveB": [
@@ -10716,12 +9182,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -10730,12 +9190,6 @@
         {
           "name": "Moonbow",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -10794,12 +9248,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -10822,12 +9270,6 @@
         {
           "name": "Resistance +3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -10900,18 +9342,6 @@
           "unlock": 4
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Spur Def 1",
@@ -10957,12 +9387,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "HP +3",
@@ -10989,12 +9413,6 @@
         {
           "name": "Seal Res 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -11028,12 +9446,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -11056,12 +9468,6 @@
         {
           "name": "Defiant Spd 3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -11116,12 +9522,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Darting Blow 1",
@@ -11148,12 +9548,6 @@
         {
           "name": "Seal Atk 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -11185,12 +9579,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Thunder",
@@ -11199,12 +9587,6 @@
         {
           "name": "Blazing Thunder",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -11273,12 +9655,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveA": [
         {
           "name": "Distant Def 1",
@@ -11290,12 +9666,6 @@
         },
         {
           "name": "Distant Def 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -11338,12 +9708,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Glowing Ember",
@@ -11381,12 +9745,6 @@
           "name": "B Tomebreaker 3",
           "unlock": 4
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -11423,12 +9781,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Defense +1",
@@ -11440,12 +9792,6 @@
         },
         {
           "name": "HP/Def 2",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -11494,12 +9840,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Glowing Ember",
@@ -11524,12 +9864,6 @@
           "unlock": 5
         }
       ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Spur Def 1",
@@ -11542,6 +9876,65 @@
         {
           "name": "Spur Def 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Robin (Winter's Envoy)": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 5
+        },
+        {
+          "name": "Tannenboom!",
+          "unlock": 5
+        },
+        {
+          "name": "Tannenboom!+",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Spd 1",
+          "unlock": 5
+        },
+        {
+          "name": "Brazen Atk/Spd 2",
+          "unlock": 5
+        },
+        {
+          "name": "Brazen Atk/Spd 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 5
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 5
+        },
+        {
+          "name": "Armor March 3",
+          "unlock": 5
         }
       ]
     }
@@ -11583,18 +9976,6 @@
         {
           "name": "Rally Def/Res",
           "unlock": 4
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -11655,12 +10036,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Triangle Adept 1",
@@ -11687,12 +10062,6 @@
         {
           "name": "Seal Def 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -11724,12 +10093,6 @@
         {
           "name": "Blazing Durandal",
           "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "special": [
@@ -11773,12 +10136,6 @@
           "name": "Desperation 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
-        }
       ]
     }
   },
@@ -11809,12 +10166,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -11837,12 +10188,6 @@
         {
           "name": "Defiant Atk 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -11887,12 +10232,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Holy Vestments",
@@ -11929,12 +10268,6 @@
         {
           "name": "Shield Pulse 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -11973,18 +10306,6 @@
         {
           "name": "Harsh Command",
           "unlock": 3
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -12071,18 +10392,6 @@
         {
           "name": "Still-Water Balm",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -12222,12 +10531,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Triangle Adept 1",
@@ -12240,12 +10543,6 @@
         {
           "name": "Triangle Adept 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -12300,12 +10597,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Triangle Adept 1",
@@ -12318,12 +10609,6 @@
         {
           "name": "Triangle Adept 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -12371,12 +10656,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "HP +3",
@@ -12403,12 +10682,6 @@
         {
           "name": "Brash Assault 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -12460,18 +10733,6 @@
           "unlock": 3
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Hone Atk 1",
@@ -12520,12 +10781,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Fortress Def 1",
@@ -12552,12 +10807,6 @@
         {
           "name": "Seal Atk/Def 2",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -12597,12 +10846,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "HP +3",
@@ -12629,12 +10872,6 @@
         {
           "name": "Bowbreaker 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -12670,12 +10907,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Chilling Wind",
@@ -12684,12 +10915,6 @@
         {
           "name": "Iceberg",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -12751,12 +10976,6 @@
           "unlock": 2
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Speed +1",
@@ -12769,12 +10988,6 @@
         {
           "name": "Speed +3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -12822,12 +11035,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Buckler",
@@ -12842,12 +11049,6 @@
         {
           "name": "Svalinn Shield",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -12896,18 +11097,6 @@
       "assist": [
         {
           "name": "Sing",
-          "unlock": 5
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -12973,12 +11162,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveA": [
         {
           "name": "Steady Stance 1",
@@ -12990,12 +11173,6 @@
         },
         {
           "name": "Steady Stance 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -13042,12 +11219,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "Dragon Gaze",
@@ -13069,12 +11240,6 @@
         },
         {
           "name": "Death Blow 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -13118,12 +11283,6 @@
         },
         {
           "name": "Divine Tyrfing",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -13199,12 +11358,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "Rising Wind",
@@ -13226,12 +11379,6 @@
         },
         {
           "name": "Darting Blow 3",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -13278,12 +11425,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -13306,12 +11447,6 @@
         {
           "name": "Mirror Strike 2",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -13353,12 +11488,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Dragon Gaze",
@@ -13381,12 +11510,6 @@
         {
           "name": "Warding Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -13435,12 +11558,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Wind",
@@ -13449,12 +11566,6 @@
         {
           "name": "Growing Wind",
           "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -13522,12 +11633,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Defense +1",
@@ -13554,12 +11659,6 @@
         {
           "name": "Obstruct 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -13599,12 +11698,6 @@
           "unlock": 3
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Resistance +1",
@@ -13631,12 +11724,6 @@
         {
           "name": "Quick Riposte 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -13668,18 +11755,6 @@
         {
           "name": "Draw Back",
           "unlock": 3
-        }
-      ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveB": [
@@ -13752,12 +11827,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "passiveA": [
         {
           "name": "Attack +1",
@@ -13769,12 +11838,6 @@
         },
         {
           "name": "Attack/Res 2",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -13824,12 +11887,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Retribution",
@@ -13844,12 +11901,6 @@
         {
           "name": "Close Counter",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -13896,12 +11947,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -13923,12 +11968,6 @@
         },
         {
           "name": "Spd/Def 2",
-          "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
           "unlock": 5
         }
       ],
@@ -13974,12 +12013,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Retribution",
@@ -14004,12 +12037,6 @@
           "unlock": 4
         }
       ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveC": [
         {
           "name": "Spur Res 1",
@@ -14021,6 +12048,75 @@
         },
         {
           "name": "Spur Res 3",
+          "unlock": 5
+        }
+      ]
+    }
+  },
+  "Tharja (Winter's Envoy)": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 5
+        },
+        {
+          "name": "Ruin",
+          "unlock": 5
+        },
+        {
+          "name": "Candelabra",
+          "unlock": 5
+        },
+        {
+          "name": "Candelabra+",
+          "unlock": 5
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 5
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 5
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Counter",
+          "unlock": 5
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1",
+          "unlock": 5
+        },
+        {
+          "name": "Vengeful Fighter 2",
+          "unlock": 5
+        },
+        {
+          "name": "Vengeful Fighter 3",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "R Tome Valor 1",
+          "unlock": 5
+        },
+        {
+          "name": "R Tome Valor 2",
+          "unlock": 5
+        },
+        {
+          "name": "R Tome Valor 3",
           "unlock": 5
         }
       ]
@@ -14052,12 +12148,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Bonfire",
@@ -14080,12 +12170,6 @@
         {
           "name": "Defiant Atk 3",
           "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -14127,12 +12211,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Daylight",
@@ -14155,12 +12233,6 @@
         {
           "name": "Close Def 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -14205,12 +12277,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Flame",
@@ -14233,12 +12299,6 @@
         {
           "name": "Armored Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -14294,12 +12354,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Armored Blow 1",
@@ -14326,12 +12380,6 @@
         {
           "name": "Guard 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -14365,12 +12413,6 @@
           "unlock": 4
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveA": [
         {
           "name": "Attack +1",
@@ -14398,12 +12440,6 @@
           "name": "Seal Spd 3",
           "unlock": 5
         }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
-        }
       ]
     }
   },
@@ -14430,12 +12466,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Thunder",
@@ -14458,12 +12488,6 @@
         {
           "name": "Death Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -14505,12 +12529,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "New Moon",
@@ -14533,12 +12551,6 @@
         {
           "name": "Darting Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -14583,12 +12595,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Night Sky",
@@ -14625,12 +12631,6 @@
         {
           "name": "Seal Spd 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -14685,12 +12685,6 @@
           "unlock": 3
         }
       ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveB": [
         {
           "name": "Live to Serve 1",
@@ -14703,12 +12697,6 @@
         {
           "name": "Live to Serve 3",
           "unlock": 5
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ]
     }
@@ -14736,12 +12724,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Rising Light",
@@ -14764,12 +12746,6 @@
         {
           "name": "Armored Blow 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -14814,12 +12790,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "special": [
         {
           "name": "Glowing Ember",
@@ -14842,12 +12812,6 @@
         {
           "name": "Fire Boost 3",
           "unlock": 5
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "",
-          "unlock": 1
         }
       ],
       "passiveC": [
@@ -14903,18 +12867,6 @@
           "unlock": 5
         }
       ],
-      "special": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "",
-          "unlock": 1
-        }
-      ],
       "passiveB": [
         {
           "name": "Live for Honor",
@@ -14960,12 +12912,6 @@
           "unlock": 5
         }
       ],
-      "assist": [
-        {
-          "name": "",
-          "unlock": 5
-        }
-      ],
       "special": [
         {
           "name": "Retribution",
@@ -15002,12 +12948,6 @@
         {
           "name": "Wary Fighter 3",
           "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "",
-          "unlock": 5
         }
       ]
     }

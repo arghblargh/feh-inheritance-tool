@@ -539,13 +539,15 @@ class InheritanceTool extends Component {
   }
 
   initState(initUnit) {
+    let skills = units[initUnit].skills;
+
     let initSkills = {
-        weapon: units[initUnit].skills.weapon[units[initUnit].skills.weapon.length-1].name,
-        assist: units[initUnit].skills.assist[units[initUnit].skills.assist.length-1].name,
-        special: units[initUnit].skills.special[units[initUnit].skills.special.length-1].name,
-        passiveA: units[initUnit].skills.passiveA[units[initUnit].skills.passiveA.length-1].name,
-        passiveB: units[initUnit].skills.passiveB[units[initUnit].skills.passiveB.length-1].name,
-        passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name,
+        weapon: skills.weapon ? skills.weapon[skills.weapon.length-1].name : '',
+        assist: skills.assist ? skills.assist[skills.assist.length-1].name : '',
+        special: skills.special ? skills.special[skills.special.length-1].name : '',
+        passiveA: skills.passiveA ? skills.passiveA[skills.passiveA.length-1].name : '',
+        passiveB: skills.passiveB ? skills.passiveB[skills.passiveB.length-1].name : '',
+        passiveC: skills.passiveC ? skills.passiveC[skills.passiveC.length-1].name : '',
         seal: ''
       };
 

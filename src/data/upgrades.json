@@ -1,5 +1,5 @@
 {
-    "Common": {
+    "Melee": {
         "Attack": {
             "HP": 5,
             "Atk": 2
@@ -15,11 +15,30 @@
         "Resistance": {
             "HP": 5,
             "Res": 4
-        },
-        "effect": "",
-        "cost": 350
+        }
     },
-    "Upgrade": {
+    "Ranged": {
+        "Attack": {
+            "HP": 2,
+            "Atk": 1
+        },
+        "Speed": {
+            "HP": 2,
+            "Spd": 2
+        },
+        "Defense": {
+            "HP": 2,
+            "Def": 3
+        },
+        "Resistance": {
+            "HP": 2,
+            "Res": 3
+        }
+    },
+    "Legendary": {
+        "cost": 400
+    },
+    "Evolve": {
         "Aura": "Dark Aura",
         "Durandal": "Blazing Durandal",
         "Excalibur": "Dark Excalibur",
@@ -37,14 +56,120 @@
         "Blárwolf+": "Keen Blárwolf+",
         "Gronnwolf+": "Keen Gronnwolf+"
     },
+    "Armorsmasher+": {
+        "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Mystletainn": {
+        "effect": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
+    },
+    "Sol Katti": {
+        "effect": "If unit initiates combat with HP ≤ 75%, follow-up attacks occur immediately after unit's attack. Unit makes a guaranteed follow-up attack when HP ≤ 75% and attacking a foe that can counter."    
+    },
+    "Zanbato+": {
+        "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Berkut's Lance+": {
+        "effect": "Grants Res+7 when unit is attacked."
+    },
+    "Carrot Lance+": {
+        "effect": "Restores 4 HP after combat."
+    },
+    "First Bite": {
+        "effect": "After combat, grants Def/Res+5 to unit and allies within 2 spaces for 1 turn."
+    },
+    "Ridersbane+": {
+        "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
     "Siegmund": {
-        "Common": {
-            "cost": 400
+        "effect": "Unit makes a guaranteed follow-up attack when HP ≥ 90% and attacking a foe that can counter."
+    },
+    "Slaying Spear+": {
+        "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Carrot Axe+": {
+        "effect": "Restores 4 HP after combat."
+    },
+    "Hauteclere": {
+        "effect": "Accelerates Special trigger (cooldown count-1). Deals +10 damage when Special triggers."
+    },
+    "Legion's Axe+": {
+        "effect": "After combat, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
+    },
+    "Slaying Hammer+": {
+        "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Keen Rauðrwolf+": {
+        "effect": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Blessed Bouquet+": {
+        "effect": "After combat, grants Def/Res+5 to unit and allies within 2 spaces for 1 turn."
+    },
+    "Blue Egg+": {
+        "effect": "Restores 4 HP after combat."
+    },
+    "Keen Blárwolf+": {
+        "effect": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Green Egg+": {
+        "effect": "Restores 4 HP after combat."
+    },
+    "Keen Gronnwolf+": {
+        "effect": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Spectral Tome+": {
+        "effect": "After combat, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
+    },
+    "Dark Breath+": {
+        "effect": "After combat, inflicts Atk/Spd-7 to target and foes within 2 spaces of target through their next actions. If foes's Range = 2, damage calculated using the lower of foe's Def or Res."
+    },
+    "Flametongue+": {
+        "effect": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+    },
+    "Light Breath+": {
+        "effect": "After combat, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+    },
+    "Lightning Breath+": {
+        "effect": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+    },
+    "Clarisse's Bow+": {
+        "effect": "Effective against flying foes. After unit attacks, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
+    },
+    "Cupid Arrow+": {
+        "effect": "Effective against flying foes. After combat, grants Def/Res+5 to unit and allies within 2 spaces for 1 turn."
+    },
+    "Fujin Yumi": {
+        "effect": "Effective against flying foes. If unit's HP ≥ 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP ≥ 50%, unit can move adjacent to any ally within 2 spaces."
+    },
+    "Monstrous Bow+": {
+        "effect": "Effective against flying foes. After combat, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
+    },
+    "Dancer's Fan+": {
+        "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    },
+    "Deathly Dagger": {
+        "effect": "After combat, deals 10 damage to target and foes within 2 spaces of target. Also inflicts Def/Res-7 through their next actions. Foes using magic cannot counterattack.",
+        "common": {
+            "effect": "After combat, deals 10 damage to target and foes within 2 spaces of target. Also inflicts Def/Res-7 through their next actions."
+        }
+    },
+    "Rogue Dagger+": {
+        "effect": "After combat, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions. Also grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
+    },
+    "Seashell+": {
+        "effect": "After combat, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2. If attacking, unit takes 2 damage after combat."
+    },
+    "Silver Dagger+": {
+        "effect": "After combat, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    },
+    "Smoke Dagger+": {
+        "effect": "After combat, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
+    },
+    "Staff": {
+        "Wrathful": {
+            "effect": "Damage from unit's staff will be calculated the same as other weapons."
         },
-        "Special": {
-            "HP": 3,
-            "effect": "Unit makes a guaranteed follow-up attack when HP ≥ 90% and attacking a foe that can counter.",
-            "cost": 400
+        "Dazzling": {
+            "effect": "The enemy cannot counterattack."
         }
     }
 }

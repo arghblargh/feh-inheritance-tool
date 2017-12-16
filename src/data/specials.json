@@ -1,304 +1,304 @@
 {
   "Aegis": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Reduces damage inflicted by attacks from foes 2 spaces away by 50%.",
     "require": "Holy Vestments",
     "restriction": "Melee"
   },
   "Aether": {
-    "cost": "500",
-    "count": "5",
+    "cost": 500,
+    "count": 5,
     "effect": "Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP = half damage dealt.",
     "require": "Sol|Luna"
   },
   "Astra": {
-    "cost": "200",
-    "count": "5",
+    "cost": 200,
+    "count": 5,
     "effect": "Grants +150% to damage dealt.",
     "require": "Night Sky"
   },
   "Black Luna": {
-    "cost": "500",
-    "count": "3",
+    "cost": 500,
+    "count": 3,
     "effect": "Resolve combat as if foe suffered Def/Res-80%. (Skill cannot be inherited.)",
     "require": "Luna",
     "restriction": "Black Knight"
   },
   "Blazing Flame": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
     "require": "Rising Flame"
   },
   "Blazing Light": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
     "require": "Rising Light"
   },
   "Blazing Thunder": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
     "require": "Rising Thunder"
   },
   "Blazing Wind": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
     "require": "Rising Wind"
   },
   "Bonfire": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Boosts damage dealt by 50% of unit's Def.",
     "require": "Glowing Ember"
   },
   "Buckler": {
-    "cost": "100",
-    "count": "3",
+    "cost": 100,
+    "count": 3,
     "effect": "Reduces damage inflicted by attacks from adjacent foes by 30%.",
     "restriction": "Melee"
   },
   "Chilling Wind": {
-    "cost": "100",
-    "count": "4",
+    "cost": 100,
+    "count": 4,
     "effect": "Boosts damage dealt by 50% of unit's Res."
   },
   "Daylight": {
-    "cost": "100",
-    "count": "4",
+    "cost": 100,
+    "count": 4,
     "effect": "Heal 30% of damage dealt in your next attack."
   },
   "Draconic Aura": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Grants +30% to Atk.",
     "require": "Dragon Gaze"
   },
   "Dragon Fang": {
-    "cost": "200",
-    "count": "4",
+    "cost": 200,
+    "count": 4,
     "effect": "Grants +50% to Atk.",
     "require": "Dragon Gaze"
   },
   "Dragon Gaze": {
-    "cost": "100",
-    "count": "4",
+    "cost": 100,
+    "count": 4,
     "effect": "Grants +30% to Atk."
   },
   "Escutcheon": {
-    "cost": "100",
-    "count": "2",
+    "cost": 100,
+    "count": 2,
     "effect": "Reduces damage inflicted by attacks from adjacent foes by 30%.",
     "require": "Buckler",
     "restriction": "Melee"
   },
   "Galeforce": {
-    "cost": "500",
-    "count": "5",
+    "cost": 500,
+    "count": 5,
     "effect": "If this unit initiates an attack, it can take another action after combat. (Once per turn only.)",
     "require": "Astra",
     "restriction": "Weapon:SwLA"
   },
   "Glacies": {
-    "cost": "200",
-    "count": "4",
+    "cost": 200,
+    "count": 4,
     "effect": "Boosts damage dealt by 80% of unit's Res.",
     "require": "Chilling Wind"
   },
   "Glimmer": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Grants +50% to damage dealt.",
     "require": "Night Sky"
   },
   "Glowing Ember": {
-    "cost": "100",
-    "count": "4",
+    "cost": 100,
+    "count": 4,
     "effect": "Boosts damage dealt by 50% of unit's Def."
   },
   "Growing Flame": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Flame"
   },
   "Growing Light": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Light"
   },
   "Growing Thunder": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Thunder"
   },
   "Growing Wind": {
-    "cost": "300",
-    "count": "5",
+    "cost": 300,
+    "count": 5,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Wind"
   },
   "Heavenly Light": {
-    "cost": "150",
-    "count": "2",
+    "cost": 150,
+    "count": 2,
     "effect": "When healing an ally with a staff, heal every allies HP by 10.",
     "restriction": "Staff"
   },
   "Holy Vestments": {
-    "cost": "100",
-    "count": "3",
+    "cost": 100,
+    "count": 3,
     "effect": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
     "restriction": "Melee"
   },
   "Ice Mirror": {
-    "cost": "500",
-    "count": "2",
+    "cost": 500,
+    "count": 2,
     "effect": "Reduced damage unit takes from foes 2 spaces away by 30%. If Special triggers, boosts unit's next attack by total damage was reduced (by any source, including other skills). Resets at end of combat.(Skill cannot be inherited.)",
     "require": "Sacred Cowl",
     "restriction": "Exclusive"
   },
   "Iceberg": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Boosts damage dealt by 50% of unit's Res.",
     "require": "Chilling Wind"
   },
   "Ignis": {
-    "cost": "200",
-    "count": "4",
+    "cost": 200,
+    "count": 4,
     "effect": "Boosts damage dealt by 80% of unit's Def.",
     "require": "Glowing Ember"
   },
   "Imbue": {
-    "cost": "50",
-    "count": "1",
+    "cost": 50,
+    "count": 1,
     "effect": "When healing an ally with a staff, increases recovered HP by 10.",
     "restriction": "Staff"
   },
   "Kindled-Fire Balm": {
-    "cost": "150",
-    "count": "1",
+    "cost": 150,
+    "count": 1,
     "effect": "When healing an ally with a staff, grants all allies Atk +4 for 1 turn.",
     "restriction": "Staff"
   },
   "Luna": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Resolve combat as if foe suffered Def/Res-50%.",
     "require": "New Moon"
   },
   "Miracle": {
-    "cost": "200",
-    "count": "5",
+    "cost": 200,
+    "count": 5,
     "effect": "If HP > 1, survive a lethal attack with 1 HP remaining.",
     "restriction": "Staff|"
   },
   "Moonbow": {
-    "cost": "200",
-    "count": "2",
+    "cost": 200,
+    "count": 2,
     "effect": "Resolve combat as if foe suffered Def/Res-30%.",
     "require": "New Moon"
   },
   "New Moon": {
-    "cost": "100",
-    "count": "3",
+    "cost": 100,
+    "count": 3,
     "effect": "Resolve combat as if foe suffered Def/Res-30%."
   },
   "Night Sky": {
-    "cost": "100",
-    "count": "4",
+    "cost": 100,
+    "count": 4,
     "effect": "Grants +50% to damage dealt."
   },
   "Noontime": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Heal 30% of damage dealt in your next attack.",
     "require": "Daylight"
   },
   "Pavise": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Reduces damage inflicted by attacks from adjacent foes by 50%.",
     "require": "Buckler",
     "restriction": "Melee"
   },
   "Regnal Astra": {
-    "cost": "500",
-    "count": "2",
+    "cost": 500,
+    "count": 2,
     "effect": "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)",
     "require": "Astra",
     "restriction": "Exclusive"
   },
   "Reprisal": {
-    "cost": "200",
-    "count": "2",
+    "cost": 200,
+    "count": 2,
     "effect": "Grants bonus to damage dealt equal to 30% of damage suffered.",
     "require": "Retribution"
   },
   "Retribution": {
-    "cost": "100",
-    "count": "3",
+    "cost": 100,
+    "count": 3,
     "effect": "Grants bonus to damage dealt equal to 30% of damage suffered."
   },
   "Rising Flame": {
-    "cost": "150",
-    "count": "5",
+    "cost": 150,
+    "count": 5,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Rising Light": {
-    "cost": "150",
-    "count": "5",
+    "cost": 150,
+    "count": 5,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Rising Thunder": {
-    "cost": "150",
-    "count": "5",
+    "cost": 150,
+    "count": 5,
     "effect": "Before combat this unit initiates, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Rising Wind": {
-    "cost": "150",
-    "count": "5",
+    "cost": 150,
+    "count": 5,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Sacred Cowl": {
-    "cost": "200",
-    "count": "2",
+    "cost": 200,
+    "count": 2,
     "effect": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
     "require": "Holy Vestments",
     "restriction": "Melee"
   },
   "Sol": {
-    "cost": "200",
-    "count": "4",
+    "cost": 200,
+    "count": 4,
     "effect": "Heal 50% of damage dealt in your next attack.",
     "require": "Daylight"
   },
   "Solid-Earth Balm": {
-    "cost": "150",
-    "count": "1",
+    "cost": 150,
+    "count": 1,
     "effect": "When healing an ally with a staff, grants all allies Def +4 for 1 turn.",
     "restriction": "Staff"
   },
   "Still-Water Balm": {
-    "cost": "150",
-    "count": "1",
+    "cost": 150,
+    "count": 1,
     "effect": "When healing an ally with a staff, grants all allies Res +4 for 1 turn.",
     "restriction": "Staff"
   },
   "Swift-Winds Balm": {
-    "cost": "150",
-    "count": "1",
+    "cost": 150,
+    "count": 1,
     "effect": "When healing an ally with a staff, grants all allies Spd +4 for 1 turn.",
     "restriction": "Staff"
   },
   "Vengeance": {
-    "cost": "200",
-    "count": "3",
+    "cost": 200,
+    "count": 3,
     "effect": "Grants bonus to damage dealt equal to 50% of damage suffered.",
     "require": "Retribution"
   }
