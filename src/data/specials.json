@@ -14,7 +14,7 @@
   },
   "Astra": {
     "cost": 200,
-    "count": 5,
+    "count": 4,
     "effect": "Grants +150% to damage dealt.",
     "require": "Night Sky"
   },
@@ -27,25 +27,25 @@
   },
   "Blazing Flame": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
     "require": "Rising Flame"
   },
   "Blazing Light": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
     "require": "Rising Light"
   },
   "Blazing Thunder": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
     "require": "Rising Thunder"
   },
   "Blazing Wind": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's 1.5xAtk minus foe's Def or Res.",
     "require": "Rising Wind"
   },
@@ -68,7 +68,7 @@
   },
   "Daylight": {
     "cost": 100,
-    "count": 4,
+    "count": 3,
     "effect": "Heal 30% of damage dealt in your next attack."
   },
   "Draconic Aura": {
@@ -110,7 +110,7 @@
   },
   "Glimmer": {
     "cost": 200,
-    "count": 3,
+    "count": 2,
     "effect": "Grants +50% to damage dealt.",
     "require": "Night Sky"
   },
@@ -121,25 +121,25 @@
   },
   "Growing Flame": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Flame"
   },
   "Growing Light": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Light"
   },
   "Growing Thunder": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Thunder"
   },
   "Growing Wind": {
     "cost": 300,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in a wide area near target take damage equal to unit's Atk minus foe's Def or Res.",
     "require": "Rising Wind"
   },
@@ -211,12 +211,12 @@
   },
   "Night Sky": {
     "cost": 100,
-    "count": 4,
+    "count": 3,
     "effect": "Grants +50% to damage dealt."
   },
   "Noontime": {
     "cost": 200,
-    "count": 3,
+    "count": 2,
     "effect": "Heal 30% of damage dealt in your next attack.",
     "require": "Daylight"
   },
@@ -247,22 +247,22 @@
   },
   "Rising Flame": {
     "cost": 150,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Rising Light": {
     "cost": 150,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Rising Thunder": {
     "cost": 150,
-    "count": 5,
+    "count": 4,
     "effect": "Before combat this unit initiates, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Rising Wind": {
     "cost": 150,
-    "count": 5,
+    "count": 4,
     "effect": "Before initiating a combat, foes in an area near target take damage equal to unit's Atk minus foe's Def or Res."
   },
   "Sacred Cowl": {
@@ -274,7 +274,7 @@
   },
   "Sol": {
     "cost": 200,
-    "count": 4,
+    "count": 3,
     "effect": "Heal 50% of damage dealt in your next attack.",
     "require": "Daylight"
   },
