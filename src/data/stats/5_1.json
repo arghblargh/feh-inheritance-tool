@@ -223,6 +223,13 @@
     "Def": 6,
     "Res": 5
   },
+  "Chrom (Winter's Envoy)": {
+    "HP": 25,
+    "Atk": 12,
+    "Spd": 4,
+    "Def": 9,
+    "Res": 5
+  },
   "Clair": {
     "HP": 18,
     "Atk": 7,
@@ -706,6 +713,13 @@
     "Def": 6,
     "Res": 8
   },
+  "Lissa (Winter's Envoy)": {
+    "HP": 21,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 9,
+    "Res": 8
+  },
   "Lloyd": {
     "HP": 17,
     "Atk": 8,
@@ -1049,6 +1063,13 @@
     "Def": 7,
     "Res": 5
   },
+  "Robin (M) (Winter's Envoy)": {
+    "HP": 23,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 9,
+    "Res": 6
+  },
   "Roderick": {
     "HP": 18,
     "Atk": 7,
@@ -1272,6 +1293,13 @@
     "Spd": 8,
     "Def": 6,
     "Res": 5
+  },
+  "Tharja (Winter's Envoy)": {
+    "HP": 19,
+    "Atk": 10,
+    "Spd": 5,
+    "Def": 8,
+    "Res": 10
   },
   "Tiki (Adult)": {
     "HP": 18,

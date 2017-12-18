@@ -11,7 +11,7 @@
     "type": "Staff",
     "cost": 300,
     "might": 7,
-    "effect": "Recovers HP = 50% of damage dealt. After combat, restores 7 HP to allies within 2 spaces of unit."
+    "effect": "Recovers HP = 50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit."
   },
   "Alondite": {
     "color": "Red",
@@ -322,14 +322,14 @@
     "type": "Staff",
     "cost": 150,
     "might": 7,
-    "effect": "After combat, foe inflicted with status preventing them from counterattacking."
+    "effect": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action."
   },
   "Candlelight+": {
     "color": "Neutral",
     "type": "Staff",
     "cost": 300,
     "might": 11,
-    "effect": "After combat, foe and foes within 2 spaces of target inflicted with status preventing counterattack through their next actions."
+    "effect": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions."
   },
   "Carrot Axe": {
     "color": "Green",
@@ -408,14 +408,14 @@
     "type": "Dagger",
     "cost": 200,
     "might": 6,
-    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action."
+    "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action."
   },
   "Dancer's Fan+": {
     "color": "Neutral",
     "type": "Dagger",
     "cost": 300,
     "might": 10,
-    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action."
+    "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action."
   },
   "Dancer's Ring": {
     "color": "Green",
@@ -488,7 +488,7 @@
     "type": "Dagger",
     "cost": 300,
     "might": 11,
-    "effect": "After combat, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, 7 damage to foe after battle.",
+    "effect": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, 7 damage to foe after battle.",
     "restriction": "Exclusive"
   },
   "Deft Harpoon": {
@@ -608,7 +608,7 @@
     "type": "Staff",
     "cost": 300,
     "might": 12,
-    "effect": "After combat, inflicts Atk-7 on target and foes within 2 spaces through their next actions."
+    "effect": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces through their next actions."
   },
   "Fenrir": {
     "color": "Red",
@@ -774,7 +774,7 @@
     "type": "Staff",
     "cost": 300,
     "might": 10,
-    "effect": "After combat, prevents target and foes within 1 space of target from moving more than 1 space through their next actions."
+    "effect": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions."
   },
   "Green Egg": {
     "color": "Green",
@@ -944,7 +944,7 @@
     "type": "Dagger",
     "cost": 0,
     "might": 3,
-    "effect": "After combat, inflicts Def/Res-3 on foe through its next action."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action."
   },
   "Iron Lance": {
     "color": "Blue",
@@ -1063,14 +1063,14 @@
     "type": "Dagger",
     "cost": 200,
     "might": 5,
-    "effect": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-5 through foe's next action."
+    "effect": "Effective against foe using magic. After combat, if unit attacked and if foe uses magic, foe suffers Def/Res-5 through foe's next action."
   },
   "Kitty Paddle+": {
     "color": "Neutral",
     "type": "Dagger",
     "cost": 300,
     "might": 8,
-    "effect": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action."
+    "effect": "Effective against foe using magic. After combat, if unit attacked and if foe uses magic, foe suffers Def/Res-7 through foe's next action."
   },
   "Laevatein": {
     "color": "Red",
@@ -1085,14 +1085,14 @@
     "type": "Axe",
     "cost": 200,
     "might": 10,
-    "effect": "After combat, bonuses on targeted foe become penalties through its next action."
+    "effect": "After combat, if unit attacked, bonuses on targeted foe become penalties through its next action."
   },
   "Legion's Axe+": {
     "color": "Green",
     "type": "Axe",
     "cost": 300,
     "might": 14,
-    "effect": "After combat, bonuses on targeted foe become penalties through its next action."
+    "effect": "After combat, if unit attacked, bonuses on targeted foe become penalties through its next action."
   },
   "Leiptr": {
     "color": "Blue",
@@ -1163,14 +1163,14 @@
     "type": "Bow",
     "cost": 200,
     "might": 8,
-    "effect": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
+    "effect": "Effective against fliers. After combat, if unit attacked, bonuses become penalties on all foes within 2 spaces through foes' next action."
   },
   "Monstrous Bow+": {
     "color": "Neutral",
     "type": "Bow",
     "cost": 300,
     "might": 12,
-    "effect": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
+    "effect": "Effective against fliers. After combat, if unit attacked, bonuses become penalties on all foes within 2 spaces through foes' next action."
   },
   "Mulagir": {
     "color": "Neutral",
@@ -1231,14 +1231,14 @@
     "type": "Staff",
     "cost": 150,
     "might": 7,
-    "effect": "After combat, bonuses on targeted foe become penalties through its next action."
+    "effect": "After combat, if unit attacked, bonuses on targeted foe become penalties through its next action."
   },
   "Panic+": {
     "color": "Neutral",
     "type": "Staff",
     "cost": 300,
     "might": 11,
-    "effect": "After combat, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
+    "effect": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
   },
   "Parthia": {
     "color": "Neutral",
@@ -1405,14 +1405,14 @@
     "type": "Dagger",
     "cost": 200,
     "might": 4,
-    "effect": "After combat, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn."
   },
   "Rogue Dagger+": {
     "color": "Neutral",
     "type": "Dagger",
     "cost": 300,
     "might": 7,
-    "effect": "After combat, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn."
   },
   "Ruby Sword": {
     "color": "Red",
@@ -1482,14 +1482,14 @@
     "type": "Dagger",
     "cost": 200,
     "might": 7,
-    "effect": "Foe takes Def/Res-5 until end of foe's next action. If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
   },
   "Seashell+": {
     "color": "Neutral",
     "type": "Dagger",
     "cost": 300,
     "might": 10,
-    "effect": "Foe takes Def/Res-7 until end of foe's next action. If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
   },
   "Siegfried": {
     "color": "Red",
@@ -1548,14 +1548,14 @@
     "type": "Dagger",
     "cost": 200,
     "might": 7,
-    "effect": "After combat, inflicts Def/Res-5 on foe through its next action."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action."
   },
   "Silver Dagger+": {
     "color": "Neutral",
     "type": "Dagger",
     "cost": 300,
     "might": 10,
-    "effect": "After combat, inflicts Def/Res-7 on foe through its next action."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action."
   },
   "Silver Lance": {
     "color": "Blue",
@@ -1675,21 +1675,21 @@
     "type": "Staff",
     "cost": 300,
     "might": 12,
-    "effect": "After combat, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions."
+    "effect": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions."
   },
   "Smoke Dagger": {
     "color": "Neutral",
     "type": "Dagger",
     "cost": 200,
     "might": 6,
-    "effect": "After combat, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions."
   },
   "Smoke Dagger+": {
     "color": "Neutral",
     "type": "Dagger",
     "cost": 300,
     "might": 9,
-    "effect": "After combat, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions."
   },
   "Sol Katti": {
     "color": "Red",
@@ -1704,14 +1704,14 @@
     "type": "Tome",
     "cost": 200,
     "might": 8,
-    "effect": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
+    "effect": "After combat, if unit attacked, bonuses become penalties on all foes within 2 spaces through foe's next action."
   },
   "Spectral Tome+": {
     "color": "Green",
     "type": "Tome",
     "cost": 300,
     "might": 12,
-    "effect": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action."
+    "effect": "After combat, if unit attacked, bonuses become penalties on all foes within 2 spaces through foe's next action."
   },
   "Steel Axe": {
     "color": "Green",
@@ -1732,7 +1732,7 @@
     "type": "Dagger",
     "cost": 100,
     "might": 5,
-    "effect": "After combat, inflicts Def/Res-3 on foe through its next action."
+    "effect": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action."
   },
   "Steel Lance": {
     "color": "Blue",

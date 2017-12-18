@@ -6617,6 +6617,10 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
+    "bane": {
+      "HP": 4,
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -9880,10 +9884,16 @@
       ]
     }
   },
-  "Robin (Winter's Envoy)": {
+  "Robin (M) (Winter's Envoy)": {
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -12057,6 +12067,9 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Armored",
+    "bane": {
+      "Spd": 4
+    },
     "skills": {
       "weapon": [
         {

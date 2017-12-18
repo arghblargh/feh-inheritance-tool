@@ -90,11 +90,11 @@
     },
     "Brazen Atk/Def 1": {
       "cost": 60,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Def+7 during combat."
+      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Def+3 during combat."
     },
     "Brazen Atk/Def 2": {
       "cost": 120,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Def+7 during combat."
+      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Def+5 during combat."
     },
     "Brazen Atk/Def 3": {
       "cost": 240,
@@ -102,11 +102,11 @@
     },
     "Brazen Atk/Spd 1": {
       "cost": 60,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Spd+7 during combat."
+      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Spd+3 during combat."
     },
     "Brazen Atk/Spd 2": {
       "cost": 120,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Spd+7 during combat."
+      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Spd+5 during combat."
     },
     "Brazen Atk/Spd 3": {
       "cost": 240,
@@ -638,12 +638,12 @@
     },
     "Bold Fighter 1": {
       "cost": 60,
-      "effect": "If unit has 100% HP and initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "effect": "If unit's HP = 100% and unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
       "restriction": "Armored"
     },
     "Bold Fighter 2": {
       "cost": 120,
-      "effect": "If unit has ≥ 50% HP and initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "effect": "If unit's HP ≥ 50% and unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
       "restriction": "Armored"
     },
     "Bold Fighter 3": {
@@ -668,15 +668,15 @@
     },
     "Brash Assault 1": {
       "cost": 50,
-      "effect": "Unit automatically makes a followup when at HP ≤ 30% and attacking a foe that can counter."
+      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 30%, unit makes a guaranteed follow-up attack."
     },
     "Brash Assault 2": {
       "cost": 100,
-      "effect": "Unit automatically makes a followup when at HP ≤ 40% and attacking a foe that can counter."
+      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 40%, unit makes a guaranteed follow-up attack."
     },
     "Brash Assault 3": {
       "cost": 200,
-      "effect": "Unit automatically makes a followup when at HP ≤ 50% and attacking a foe that can counter."
+      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack."
     },
     "Cancel Affinity 1": {
       "cost": 50,
