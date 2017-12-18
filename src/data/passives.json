@@ -90,27 +90,27 @@
     },
     "Brazen Atk/Def 1": {
       "cost": 60,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Def+3 during combat."
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Def+3 during combat."
     },
     "Brazen Atk/Def 2": {
       "cost": 120,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Def+5 during combat."
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Def+5 during combat."
     },
     "Brazen Atk/Def 3": {
       "cost": 240,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Def+7 during combat."
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Def+7 during combat."
     },
     "Brazen Atk/Spd 1": {
       "cost": 60,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Spd+3 during combat."
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Spd+3 during combat."
     },
     "Brazen Atk/Spd 2": {
       "cost": 120,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Spd+5 during combat."
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Spd+5 during combat."
     },
     "Brazen Atk/Spd 3": {
       "cost": 240,
-      "effect": "If unit's HP ≥ 80% at the start of combat, grants Atk/Spd+7 during combat."
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Spd+7 during combat."
     },
     "Close Counter": {
       "cost": 300,
