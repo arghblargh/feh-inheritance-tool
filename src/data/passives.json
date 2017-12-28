@@ -431,6 +431,18 @@
       "cost": 160,
       "effect": "Grants Spd/Def+2."
     },
+    "Spd/Def Bond 1": {
+      "cost": 60,
+      "effect": "Grants Spd/Def+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Def Bond 2": {
+      "cost": 120,
+      "effect": "Grants Spd/Def+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Def Bond 3": {
+      "cost": 240,
+      "effect": "Grants Spd/Def+5 to this unit during combat if unit is adjacent to an ally."
+    },
     "Spd/Res 1": {
       "cost": 80,
       "effect": "Grants Spd/Res+1.",
@@ -693,6 +705,11 @@
       "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
       "restriction": "Weapon:SwLADrBDa"
     },
+    "Chilling Seal": {
+      "cost": 300,
+      "effect": "At the start of each turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
+    },
     "Crusader's Ward": {
       "cost": 300,
       "effect": "If unit receives consecutive attacks from a foe 2 spaces away, damage from second attack onward reduced by 80%. (Skill cannot be inherited.)",
@@ -741,6 +758,21 @@
       "cost": 150,
       "effect": "If unit initiates attack, the unit moves 1 space away after combat. Foe moves into unit's previous space.",
       "restriction": "Melee"
+    },
+    "Earth Dance 1": {
+      "cost": 50,
+      "effect": "If Sing or Dance is used, target also granted Def+2.",
+      "restriction": "Offense"
+    },
+    "Earth Dance 2": {
+      "cost": 100,
+      "effect": "If Sing or Dance is used, target also granted Def+3.",
+      "restriction": "Offense"
+    },
+    "Earth Dance 3": {
+      "cost": 200,
+      "effect": "If Sing or Dance is used, target also granted Def+4.",
+      "restriction": "Offense"
     },
     "Escape Route 1": {
       "cost": 60,

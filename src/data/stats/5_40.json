@@ -83,6 +83,13 @@
     "Def": 21,
     "Res": 28
   },
+  "Azura (Happy New Year!)": {
+    "HP": 37,
+    "Atk": 30,
+    "Spd": 35,
+    "Def": 22,
+    "Res": 26
+  },
   "Azura (Performing Arts)": {
     "HP": 35,
     "Atk": 32,
@@ -159,6 +166,13 @@
     "Spd": 32,
     "Def": 28,
     "Res": 31
+  },
+  "Camilla (Happy New Year!)": {
+    "HP": 40,
+    "Atk": 33,
+    "Spd": 35,
+    "Def": 31,
+    "Res": 23
   },
   "Camilla (Spring Festival)": {
     "HP": 39,
@@ -292,6 +306,13 @@
     "Spd": 32,
     "Def": 28,
     "Res": 24
+  },
+  "Corrin (M) (Happy New Year!)": {
+    "HP": 37,
+    "Atk": 32,
+    "Spd": 30,
+    "Def": 34,
+    "Res": 18
   },
   "Deirdre": {
     "HP": 36,
@@ -488,6 +509,13 @@
     "Spd": 24,
     "Def": 33,
     "Res": 18
+  },
+  "Gunnthrá": {
+    "HP": 37,
+    "Atk": 31,
+    "Spd": 33,
+    "Def": 19,
+    "Res": 25
   },
   "Gwendolyn": {
     "HP": 49,
@@ -1279,6 +1307,13 @@
     "Spd": 33,
     "Def": 25,
     "Res": 18
+  },
+  "Takumi (Happy New Year!)": {
+    "HP": 40,
+    "Atk": 34,
+    "Spd": 34,
+    "Def": 17,
+    "Res": 27
   },
   "Tana": {
     "HP": 36,

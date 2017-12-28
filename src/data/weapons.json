@@ -147,6 +147,13 @@
     "might": 12,
     "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates."
   },
+  "Blizzard": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. Grants bonus to unit's Atk equal to total penalties on foe during combat."
+  },
   "Blue Egg": {
     "color": "Blue",
     "type": "Tome",
@@ -861,6 +868,34 @@
     "might": 12,
     "effect": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
   },
+  "Hagoita": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "Grants Def/Res+2 during combat to allies within 2 spaces."
+  },
+  "Hagoita+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "Grants Def/Res+2 during combat to allies within 2 spaces."
+  },
+  "Hama Ya": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
+  },
+  "Hama Ya+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
+  },
   "Hammer": {
     "color": "Green",
     "type": "Axe",
@@ -959,6 +994,34 @@
     "cost": 0,
     "might": 6,
     "effect": ""
+  },
+  "Kadomatsu": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "Grants Def/Res+2 during combat to allies within 2 spaces."
+  },
+  "Kadomatsu+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "Grants Def/Res+2 during combat to allies within 2 spaces."
+  },
+  "Kagami Mochi": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces through their next actions."
+  },
+  "Kagami Mochi+": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
   },
   "Keen Blárwolf": {
     "color": "Blue",

@@ -286,9 +286,12 @@ export function getUnitsWithSkill(skill, type) {
         if (skillData) {
             for (let skl of skillData) {
                 if (reSkill.test(skl.name)) {
-                    if (!unitList[skl.unlock])
-                        unitList[skl.unlock] = [];
-                    unitList[skl.unlock].push(unit);
+                    var rarity = 5;
+                    if (skl.unlock)
+                        rarity = skl.unlock;
+                    if (!unitList[rarity])
+                        unitList[rarity] = [];
+                    unitList[rarity].push(unit);
                 }
             }
         }
