@@ -563,24 +563,9 @@ class InheritanceTool extends Component {
   constructor(props) {
     super(props);
 
-    this.initState('Abel');
-
-    this.handleUnitSelect = this.handleUnitSelect.bind(this);
-    this.handleBoonBaneSelect = this.handleBoonBaneSelect.bind(this);
-    this.handleLevelSelect = this.handleLevelSelect.bind(this);
-    this.handleMergeSelect = this.handleMergeSelect.bind(this);
-    this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
-    this.handleSkillSelect = this.handleSkillSelect.bind(this);
-    this.handleResetClick = this.handleResetClick.bind(this);
-    this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
-    this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
-    this.handleSkillEffectToggle = this.handleSkillEffectToggle.bind(this);
-    this.handleBuildLoad = this.handleBuildLoad.bind(this);
-  }
-
-  initState(initUnit) {
+    let initUnit = 'Abel';
+    
     let skills = units[initUnit].skills;
-
     let initSkills = {
         weapon: skills.weapon ? skills.weapon[skills.weapon.length-1].name : '',
         upgrade: '',
@@ -606,6 +591,18 @@ class InheritanceTool extends Component {
       showDesc: (storageAvailable('localStorage') && localStorage.showDesc) ? JSON.parse(localStorage.showDesc) : true,
       totalCost: calcTotalCost(initUnit, initSkills)
     }
+
+    this.handleUnitSelect = this.handleUnitSelect.bind(this);
+    this.handleBoonBaneSelect = this.handleBoonBaneSelect.bind(this);
+    this.handleLevelSelect = this.handleLevelSelect.bind(this);
+    this.handleMergeSelect = this.handleMergeSelect.bind(this);
+    this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
+    this.handleSkillSelect = this.handleSkillSelect.bind(this);
+    this.handleResetClick = this.handleResetClick.bind(this);
+    this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
+    this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
+    this.handleSkillEffectToggle = this.handleSkillEffectToggle.bind(this);
+    this.handleBuildLoad = this.handleBuildLoad.bind(this);
   }
 
   getNewStats({unit = '', skills = null, boonBane = null, merge = 0, rank = ''} = {}) {
