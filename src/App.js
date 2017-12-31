@@ -34,7 +34,7 @@ const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
 const seals = require('./data/seals.json');
-// const upgrades = require('./data/upgrades.json');
+const upgrades = require('./data/upgrades.json');
 
 class SkillInfoRow extends Component {
   constructor(props) {
@@ -42,6 +42,7 @@ class SkillInfoRow extends Component {
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handlePassiveSkillSelect = this.handlePassiveSkillSelect.bind(this);
     this.handleSkillLevelSelect = this.handleSkillLevelSelect.bind(this);
+    this.handleWeaponUpgradeSelect = this.handleWeaponUpgradeSelect.bind(this);
   }
 
   handleSkillSelect(skillName) {
@@ -54,6 +55,10 @@ class SkillInfoRow extends Component {
 
   handleSkillLevelSelect(skillLevel) {
     this.props.onSkillSelect(/[^1-9]*/.exec(this.props.skillName)[0] + skillLevel, this.props.skillType);
+  }
+
+  handleWeaponUpgradeSelect(upgradeType) {
+    this.props.onSkillSelect(upgradeType, 'upgrade');
   }
 
   getPassiveLevels(skillName, getFullMaxPassive = false) {
@@ -100,32 +105,47 @@ class SkillInfoRow extends Component {
 
     return result;
   }
-
+//weapons[this.props.skillName].type === 'Staff' ? ['W', 'D'] : 
   render() {
     let inheritList = this.formatInheritList();
 
     let skillDropdown, skillLevel;
     let hasSkillLevel = false;
 
-    // if (this.props.category === 'Weapon' && (upgrades[this.props.skillName] || 'a'.includes('+'))) {
-    //   hasSkillLevel = true;
-    //   skillDropdown = 
-    //   <td className="skill-name-sub">
-    //     <Dropdown addClass='skillNameSub'
-    //               options={this.props.options}
-    //               value={this.props.skillName}
-    //               onChange={} />
-    //   </td>;
-    //   skillLevel =
-    //   <td className="skill-level">
-    //     <Dropdown addClass='skillLevel'
-    //               options={}
-    //               value={}
-    //               onChange={} />
-    //   </td>;
-    // }
-
-    if (/[1-9]/.test(this.props.skillName)) {
+    if (this.props.category === 'Weapon' && weapons[this.props.skillName].upgrade) {
+      var upgradeFlags = weapons[this.props.skillName].upgrade;
+      hasSkillLevel = true;
+      skillDropdown = 
+        <td className="skill-name-sub">
+          <Dropdown addClass='skillNameSub'
+                    options={this.props.options}
+                    value={this.props.skillName}
+                    onChange={this.handleSkillSelect} />
+        </td>;
+      skillLevel =
+        <td className="skill-level">
+          <Dropdown addClass='skillLevel'
+                    options={(/Legendary|Special/.test(upgradeFlags) ? ['', 'X'] : ['']).concat(['A', 'S', 'D', 'R'])}
+                    value={this.props.upgrade}
+                    onChange={this.handleWeaponUpgradeSelect} />
+        </td>;
+    } else if (this.props.category === 'Weapon' && weapons[this.props.skillName].type === 'Staff' && /\+/.test(this.props.skillName)) {
+      hasSkillLevel = true;
+      skillDropdown = 
+        <td className="skill-name-sub">
+          <Dropdown addClass='skillNameSub'
+                    options={this.props.options}
+                    value={this.props.skillName}
+                    onChange={this.handleSkillSelect} />
+        </td>;
+      skillLevel =
+        <td className="skill-level">
+          <Dropdown addClass='skillLevel'
+                    options={['', 'W', 'D']}
+                    value={this.props.upgrade}
+                    onChange={this.handleWeaponUpgradeSelect} />
+        </td>;
+    } else if (/[1-9]/.test(this.props.skillName)) {
       hasSkillLevel = true;
       skillDropdown = 
         <td className="skill-name-sub">
@@ -218,6 +238,7 @@ class SkillInfoTable extends Component {
   render() {
     let skills = {};
     skills.weapon = this.props.skills.weapon;
+    skills.upgrade = this.props.skills.upgrade;
     skills.assist = this.props.skills.assist;
     skills.special = this.props.skills.special;
     skills.passiveA = this.props.skills.passiveA;
@@ -226,6 +247,24 @@ class SkillInfoTable extends Component {
     skills.seal = this.props.skills.seal;
     
     let skillOptions = getPossibleSkills(this.props.unitName);
+
+    let weaponEffect = '';
+    if (weapons[skills.weapon]) {
+      weaponEffect += 'Might: ' + weapons[skills.weapon].might + '. ';
+
+      if (skills.upgrade) {
+        if (skills.upgrade === 'X')
+          weaponEffect += upgrades[skills.weapon].effect;
+        else if (weapons[skills.weapon].type === 'Staff')
+          weaponEffect += weapons[skills.weapon].effect + ' ' + (skills.upgrade === 'W' ? upgrades.Staff.Wrathful.effect : upgrades.Staff.Dazzling.effect);
+        else if (upgrades[skills.weapon] && upgrades[skills.weapon].common)
+          weaponEffect += upgrades[skills.weapon].common.effect;
+        else
+          weaponEffect += weapons[skills.weapon].effect;
+      }
+      else
+        weaponEffect += weapons[skills.weapon].effect;
+    }
     
     return (
       <table>
@@ -243,9 +282,10 @@ class SkillInfoTable extends Component {
                         skillName={skills.weapon}
                         skillType='weapon'
                         options={skillOptions.weapons}
-                        effect={weapons[skills.weapon] ? 'Might: ' + weapons[skills.weapon].might + '. ' + weapons[skills.weapon].effect : ''} 
+                        upgrade={skills.upgrade}
+                        effect={weaponEffect} 
                         inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
-                        cost={calcCost(this.props.unitName, this.props.skills.weapon)}
+                        cost={calcCost(this.props.unitName, this.props.skills.weapon, this.props.skills.upgrade)}
                         usePortraits={this.props.usePortraits}
                         showDesc={this.props.showDesc}
                         onSkillSelect={this.handleSkillSelect} />
@@ -543,6 +583,7 @@ class InheritanceTool extends Component {
 
     let initSkills = {
         weapon: skills.weapon ? skills.weapon[skills.weapon.length-1].name : '',
+        upgrade: '',
         assist: skills.assist ? skills.assist[skills.assist.length-1].name : '',
         special: skills.special ? skills.special[skills.special.length-1].name : '',
         passiveA: skills.passiveA ? skills.passiveA[skills.passiveA.length-1].name : '',
@@ -586,6 +627,7 @@ class InheritanceTool extends Component {
 
   handleUnitSelect(unitName) {
     let newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
+    newSkills.upgrade = '';
 
     this.setState({
       unitName: unitName,
@@ -639,6 +681,10 @@ class InheritanceTool extends Component {
     switch(skillType) {
       case 'weapon':
         newSkills.weapon = skillName;
+        newSkills.upgrade = '';
+        break;
+      case 'upgrade':
+        newSkills.upgrade = skillName;
         break;
       case 'assist':
         newSkills.assist = skillName;

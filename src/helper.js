@@ -462,7 +462,6 @@ function addStatMods(stats, mod) {
     return stats;
 }
 
-// TODO: Change to use Lv1 stats
 // Calculate merge bonuses. Returns array with total stat increases.
 // +1: Highest and second highest base stat
 // +2: Third and fourth highest base stat
@@ -556,6 +555,11 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         if (skills.weapon && weapons[skills.weapon]) {
             totalMod[1] += weapons[skills.weapon].might;
             applyWeaponStats();
+
+            if (skills.upgrade) {
+                temp = getUpgradeStats();
+                totalMod = totalMod.map((x, i) => { return x + temp[i]; });
+            }
         }
 
         applyPassiveStats(skills.passiveA);
@@ -653,6 +657,48 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                 break;
         }
     }
+
+    function getUpgradeStats() {
+        var flags = weapons[skills.weapon].upgrade;
+        var upgradeMod;
+        var upgrade;
+
+        switch(skills.upgrade) {
+            case 'X':
+                upgrade = 'Special';
+                break;
+            case 'A':
+                upgrade = 'Attack';
+                break;
+            case 'S':
+                upgrade = 'Speed';
+                break;
+            case 'D':
+                upgrade = 'Defense';
+                break;
+            case 'R':
+                upgrade = 'Resistance';
+                break;
+            default:
+                return [0, 0, 0, 0, 0];
+        }
+
+        if (upgrade === 'Special') {
+            upgradeMod = JSON.parse(JSON.stringify(upgrades[skills.weapon].stats));
+        }
+        else if (/Sword|Lance|Axe|Dragon/.test(weapons[skills.weapon].type))
+            upgradeMod = JSON.parse(JSON.stringify(upgrades.Melee[upgrade]));
+        else if (/Bow|Dagger|Tome/.test(weapons[skills.weapon].type))
+            upgradeMod = JSON.parse(JSON.stringify(upgrades.Ranged[upgrade]));
+        else
+            upgradeMod = [0, 0, 0, 0, 0];
+
+        if (/Mt:/.test(flags)) {
+            upgradeMod[1] += parseInt(/Mt:(\d+)/.exec(flags)[1], 10);
+        }
+
+        return upgradeMod;
+    }
 }
 
 // Searches for and returns the object containing data for a skill
@@ -661,11 +707,12 @@ function getSkillData(skill) {
 }
 
 // Calculates the total SP cost of inheriting a skill
-export function calcCost(unit, skill) {
+export function calcCost(unit, skill, upgrade = null) {
     if (!skill) return 0;
 
-    let defaultSkills = new Set();
-    let skillData = getSkillData(skill);
+    var defaultSkills = new Set();
+    var skillData = getSkillData(skill);
+    var skillCost;
 
     for (let type in units[unit].skills)
         for (let skl of units[unit].skills[type])
@@ -674,42 +721,53 @@ export function calcCost(unit, skill) {
     
     // If unit already has skill
     if (defaultSkills.has(skill))
-        return 0;
+        skillCost = 0;
     // If skill is a + weapon and unit has the base weapon
     else if (/\+$/.test(skill)) {
         // Unit has the base weapon
         if (defaultSkills.has(/[^+]*/.exec(skill)[0]))
-            return skillData.cost * 1.5;
+            skillCost = skillData.cost * 1.5;
         else {
             var baseWeapon = Object.keys(upgrades.Evolve).find(base => upgrades.Evolve[base] === skill);
             if (baseWeapon)
-                return skillData.cost * 1.5 + calcCost(unit, baseWeapon);
-
-            return skillData.cost * 1.5 + calcCost(unit, /[^+]*/.exec(skill)[0]);
+                skillCost = skillData.cost * 1.5 + calcCost(unit, baseWeapon);
+            else
+                skillCost = skillData.cost * 1.5 + calcCost(unit, /[^+]*/.exec(skill)[0]);
         }
     }
     // If skill has specific prerequisites
     else if (skillData.require) {
         // If skill prerequisites can be fulfilled by multiple skills
         if (/\|/.test(skillData.require))
-            return skillData.cost * 1.5 + Math.min(calcCost(unit, /(.*)\|/.exec(skillData.require)[1]),
+            skillCost = skillData.cost * 1.5 + Math.min(calcCost(unit, /(.*)\|/.exec(skillData.require)[1]),
                                                    calcCost(unit, /\|(.*)/.exec(skillData.require)[1]));
         // Return 1.5xCost + cost of prerequisites
-        return skillData.cost * 1.5 + calcCost(unit, skillData.require);
+        else 
+            skillCost = skillData.cost * 1.5 + calcCost(unit, skillData.require);
     }
     // If skill is the second or third skill in a series
     else if (/[2-9]/.test(skill)) {
         let prereq = skill.slice(0, skill.length-1) + (skill.slice(skill.length-1)-1);
-        return skillData.cost * 1.5 + (getSkillData(prereq) ? calcCost(unit, prereq) : 0);
+        skillCost = skillData.cost * 1.5 + (getSkillData(prereq) ? calcCost(unit, prereq) : 0);
+    }
+    else
+        skillCost = skillData.cost * 1.5;
+
+    // If weapon upgrade is selected
+    if (upgrade && weapons[skill] && weapons[skill].upgrade) {
+        if (/Legendary/.test(weapons[skill].upgrade))
+            skillCost += 400;
+        else
+            skillCost += 350;
     }
     
-    return skillData.cost * 1.5;
+    return skillCost;
 }
 
 // Calculates the total SP costs of a build
 export function calcTotalCost(unit, skills) {
     let skillCosts = [
-        calcCost(unit, skills.weapon),
+        calcCost(unit, skills.weapon, skills.upgrade),
         calcCost(unit, skills.assist),
         calcCost(unit, skills.special),
         calcCost(unit, skills.passiveA),

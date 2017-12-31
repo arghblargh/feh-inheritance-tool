@@ -1,42 +1,15 @@
 {
     "Melee": {
-        "Attack": {
-            "HP": 5,
-            "Atk": 2
-        },
-        "Speed": {
-            "HP": 5,
-            "Spd": 3
-        },
-        "Defense": {
-            "HP": 5,
-            "Def": 4
-        },
-        "Resistance": {
-            "HP": 5,
-            "Res": 4
-        }
+        "Attack": [5, 2, 0, 0, 0],
+        "Speed": [5, 0, 3, 0, 0],
+        "Defense": [5, 0, 0, 4, 0],
+        "Resistance": [5, 0, 0, 0, 4]
     },
     "Ranged": {
-        "Attack": {
-            "HP": 2,
-            "Atk": 1
-        },
-        "Speed": {
-            "HP": 2,
-            "Spd": 2
-        },
-        "Defense": {
-            "HP": 2,
-            "Def": 3
-        },
-        "Resistance": {
-            "HP": 2,
-            "Res": 3
-        }
-    },
-    "Legendary": {
-        "cost": 400
+        "Attack": [2, 1, 0, 0, 0],
+        "Speed": [2, 0, 2, 0, 0],
+        "Defense": [2, 0, 0, 3, 0],
+        "Resistance": [2, 0, 0, 0, 3]
     },
     "Evolve": {
         "Aura": "Dark Aura",
@@ -54,115 +27,181 @@
         "Assassin's Bow+": "Guard Bow+",
         "Rauðrwolf+": "Keen Rauðrwolf+",
         "Blárwolf+": "Keen Blárwolf+",
+        "Thoron": "Thoron+",
         "Gronnwolf+": "Keen Gronnwolf+"
     },
     "Armorsmasher+": {
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Mystletainn": {
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
     "Sol Katti": {
-        "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack."
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
+        "common": {
+            "effect": "If unit initiates combat with HP ≤ 75%, follow-up attacks occur immediately after unit's attack."
+        }
     },
     "Zanbato+": {
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Berkut's Lance+": {
-        "effect": "Grants Res+7 when unit is attacked."
+        "common": {
+            "effect": "Grants Res+7 when unit is attacked."
+        }
     },
     "Carrot Lance+": {
-        "effect": "After combat, if unit attacked, restores 4 HP."
+        "common": {
+            "effect": "After combat, if unit attacked, restores 4 HP."
+        }
     },
-    "First Bite": {
-        "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
+    "First Bite+": {
+        "common": {
+            "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
+        }
     },
     "Ridersbane+": {
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Siegmund": {
-        "effect": "If unit initiates combat and unit's HP ≥ 90%, unit makes a guaranteed follow-up attack."
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "If unit initiates combat and unit's HP ≥ 90%, unit makes a guaranteed follow-up attack.",
+        "common": {
+            "effect": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
+        }
     },
     "Slaying Spear+": {
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Carrot Axe+": {
-        "effect": "After combat, if unit attacked, restores 4 HP."
+        "common": {
+            "effect": "After combat, if unit attacked, restores 4 HP."
+        }
     },
     "Hauteclere": {
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Accelerates Special trigger (cooldown count-1). Deals +10 damage when Special triggers."
     },
     "Legion's Axe+": {
-        "effect": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
+        "common": {
+            "effect": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
+        }
     },
     "Slaying Hammer+": {
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Keen Rauðrwolf+": {
+        "stats": [0, 0, 0, 0, 0],
         "effect": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Blessed Bouquet+": {
-        "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
+        "common": {
+            "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
+        }
     },
     "Blue Egg+": {
-        "effect": "After combat, if unit attacked, restores 4 HP."
+        "common": {
+            "effect": "After combat, if unit attacked, restores 4 HP."
+        }
     },
     "Keen Blárwolf+": {
+        "stats": [0, 0, 0, 0, 0],
         "effect": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Green Egg+": {
-        "effect": "After combat, if unit attacked, restores 4 HP."
+        "common": {
+            "effect": "After combat, if unit attacked, restores 4 HP."
+        }
     },
     "Keen Gronnwolf+": {
+        "stats": [0, 0, 0, 0, 0],
         "effect": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Spectral Tome+": {
-        "effect": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
+        "common": {
+            "effect": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
+        }
     },
     "Dark Breath+": {
-        "effect": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        "common": {
+            "effect": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        }
     },
     "Flametongue+": {
-        "effect": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        "common": {
+            "effect": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        }
     },
     "Light Breath+": {
-        "effect": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        "common": {
+            "effect": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        }
     },
     "Lightning Breath+": {
-        "effect": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        "common": {
+            "effect": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+        }
     },
     "Clarisse's Bow+": {
-        "effect": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
+        "common": {
+            "effect": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
+        }
     },
     "Cupid Arrow+": {
-        "effect": "Effective against flying foes. After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
+        "common": {
+            "effect": "Effective against flying foes. After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
+        }
     },
     "Fujin Yumi": {
-        "effect": "Effective against flying foes. If unit's HP ≥ 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP ≥ 50%, unit can move adjacent to any ally within 2 spaces."
+        "stats": [0, 0, 0, 0, 0],
+        "effect": "Effective against flying foes. If unit's HP ≥ 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP ≥ 50%, unit can move adjacent to any ally within 2 spaces.",
+        "common": {
+            "effect": "Effective against flying foes. If unit's HP ≥ 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
+        }
     },
     "Monstrous Bow+": {
-        "effect": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
+        "common": {
+            "effect": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
+        }
     },
     "Dancer's Fan+": {
-        "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+        "common": {
+            "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+        }
     },
     "Deathly Dagger": {
+        "stats": [0, 0, 0, 0, 0],
         "effect": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions. Foes using magic cannot counterattack.",
         "common": {
             "effect": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
         }
     },
     "Rogue Dagger+": {
-        "effect": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions. Also grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
+        "common": {
+            "effect": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions. Also grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
+        }
     },
     "Seashell+": {
-        "effect": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
+        "common": {
+            "effect": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
+        }
     },
     "Silver Dagger+": {
-        "effect": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+        "common": {
+            "effect": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+        }
     },
     "Smoke Dagger+": {
-        "effect": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
+        "common": {
+            "effect": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
+        }
     },
     "Staff": {
         "Wrathful": {
