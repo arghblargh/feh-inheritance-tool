@@ -708,7 +708,7 @@ function getSkillData(skill) {
 
 // Calculates the total SP cost of inheriting a skill
 export function calcCost(unit, skill, upgrade = null) {
-    if (!skill) return 0;
+    if (!skill || !getSkillData(skill)) return 0;
 
     var defaultSkills = new Set();
     var skillData = getSkillData(skill);

@@ -69,10 +69,13 @@ class SkillInfoRow extends Component {
     let result = new Set();
     for (let key in (type !== 'S' ? passives[type] : seals)) {
       if (RegExp(escapeRegExp(skillName)).test(key)) {
-        if (/[1-9]/.test(key))
-          result.add(/[1-9]/.exec(key)[0]);
-        else
+        if (!/\d/.test(key))
           return null;
+        let level = RegExp('^' + escapeRegExp(skillName) + '([1-9])').exec(key);
+        if (level)
+          result.add(level[1]);
+        else
+          break;
       }
     }
     
@@ -105,14 +108,14 @@ class SkillInfoRow extends Component {
 
     return result;
   }
-//weapons[this.props.skillName].type === 'Staff' ? ['W', 'D'] : 
+
   render() {
     let inheritList = this.formatInheritList();
 
     let skillDropdown, skillLevel;
     let hasSkillLevel = false;
 
-    if (this.props.category === 'Weapon' && weapons[this.props.skillName].upgrade) {
+    if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].upgrade) {
       var upgradeFlags = weapons[this.props.skillName].upgrade;
       hasSkillLevel = true;
       skillDropdown = 
@@ -129,7 +132,7 @@ class SkillInfoRow extends Component {
                     value={this.props.upgrade}
                     onChange={this.handleWeaponUpgradeSelect} />
         </td>;
-    } else if (this.props.category === 'Weapon' && weapons[this.props.skillName].type === 'Staff' && /\+/.test(this.props.skillName)) {
+    } else if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].type === 'Staff' && /\+/.test(this.props.skillName)) {
       hasSkillLevel = true;
       skillDropdown = 
         <td className="skill-name-sub">
