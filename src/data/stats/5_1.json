@@ -503,19 +503,19 @@
     "Def": 6,
     "Res": 3
   },
-  "Gunter": {
-    "HP": 21,
-    "Atk": 10,
-    "Spd": 7,
-    "Def": 11,
-    "Res": 5
-  },
   "Gunnthrá": {
     "HP": 15,
     "Atk": 7,
     "Spd": 9,
     "Def": 6,
     "Res": 6
+  },
+  "Gunter": {
+    "HP": 21,
+    "Atk": 10,
+    "Spd": 7,
+    "Def": 11,
+    "Res": 5
   },
   "Gwendolyn": {
     "HP": 23,
