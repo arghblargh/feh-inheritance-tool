@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.97c0e96b.css",
   "main.css.map": "static/css/main.97c0e96b.css.map",
-  "main.js": "static/js/main.efd1a14b.js",
-  "main.js.map": "static/js/main.efd1a14b.js.map",
+  "main.js": "static/js/main.0d491788.js",
+  "main.js.map": "static/js/main.0d491788.js.map",
   "static\\media\\Abel.png": "static/media/Abel.e5be407b.png",
   "static\\media\\Alfonse.png": "static/media/Alfonse.5a7d0c74.png",
   "static\\media\\Alm.png": "static/media/Alm.6652fcef.png",
@@ -133,6 +133,7 @@
   "static\\media\\Matthew.png": "static/media/Matthew.e996f730.png",
   "static\\media\\Merric.png": "static/media/Merric.5a0c9b1f.png",
   "static\\media\\Mia.png": "static/media/Mia.7a91fa6a.png",
+  "static\\media\\Micaiah.png": "static/media/Micaiah.8c0e7c50.png",
   "static\\media\\Michalis.png": "static/media/Michalis.a3a52253.png",
   "static\\media\\Minerva.png": "static/media/Minerva.cbecfc1d.png",
   "static\\media\\Mist.png": "static/media/Mist.0a7a2360.png",
@@ -147,6 +148,7 @@
   "static\\media\\Oboro.png": "static/media/Oboro.cf04b37a.png",
   "static\\media\\Odin.png": "static/media/Odin.94e110a2.png",
   "static\\media\\Ogma.png": "static/media/Ogma.391cbf37.png",
+  "static\\media\\Oliver.png": "static/media/Oliver.02fd65df.png",
   "static\\media\\Olivia.png": "static/media/Olivia.c3832366.png",
   "static\\media\\Olivia_(Performing_Arts).png": "static/media/Olivia_(Performing_Arts).b181ef2b.png",
   "static\\media\\Olwen.png": "static/media/Olwen.f1ba8e22.png",
@@ -188,6 +190,7 @@
   "static\\media\\Sonya.png": "static/media/Sonya.cd6de97a.png",
   "static\\media\\Sophia.png": "static/media/Sophia.75fe3cb7.png",
   "static\\media\\Soren.png": "static/media/Soren.f6d01371.png",
+  "static\\media\\Sothe.png": "static/media/Sothe.0074e4c5.png",
   "static\\media\\Stahl.png": "static/media/Stahl.a45f44de.png",
   "static\\media\\Subaki.png": "static/media/Subaki.62568622.png",
   "static\\media\\Sully.png": "static/media/Sully.e75e400e.png",
@@ -211,5 +214,6 @@
   "static\\media\\Xander.png": "static/media/Xander.f59f8a19.png",
   "static\\media\\Xander_(Nohrian_Summer).png": "static/media/Xander_(Nohrian_Summer).96c07083.png",
   "static\\media\\Xander_(Spring_Festival).png": "static/media/Xander_(Spring_Festival).fcc9be24.png",
+  "static\\media\\Zelgius.png": "static/media/Zelgius.7053805b.png",
   "static\\media\\Zephiel.png": "static/media/Zephiel.90ab4c67.png"
 }
