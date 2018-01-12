@@ -97,6 +97,13 @@
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
+    "Cymbeline": {
+        "stats": [0, 0, 0, 0, 0],
+        "effect": "Grants allies within 2 spaces Atk+3 during combat. Grants Atk/Res+5 during combat if within 2 spaces of a flying ally.",
+        "common": {
+            "effect": "Grants allies within 2 spaces Atk+3 during combat."
+        }
+    },
     "Keen Rauðrwolf+": {
         "stats": [0, 0, 0, 0, 0],
         "effect": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
@@ -169,6 +176,13 @@
     "Monstrous Bow+": {
         "common": {
             "effect": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
+        }
+    },
+    "Parthia": {
+        "stats": [0, 0, 0, 0, 0],
+        "effect": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%. Grants Atk+6 during combat if foe uses bow, dagger, magic, or staff.",
+        "common": {
+            "effect": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
         }
     },
     "Dancer's Fan+": {

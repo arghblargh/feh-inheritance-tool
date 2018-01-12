@@ -559,6 +559,13 @@
     "Def": 5,
     "Res": 2
   },
+  "Oliver": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 4,
+    "Def": 5,
+    "Res": 8
+  },
   "Olivia": {
     "HP": 16,
     "Atk": 6,

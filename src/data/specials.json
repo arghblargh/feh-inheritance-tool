@@ -23,7 +23,7 @@
     "count": 3,
     "effect": "Resolve combat as if foe suffered Def/Res-80%. (Skill cannot be inherited.)",
     "require": "Luna",
-    "restriction": "Black Knight"
+    "restriction": "Exclusive"
   },
   "Blazing Flame": {
     "cost": 300,

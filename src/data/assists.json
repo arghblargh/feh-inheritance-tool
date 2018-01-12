@@ -123,6 +123,11 @@
         "cost": 150,
         "effect": "Moves adjacent ally to opposite side of unit."
     },
+    "Sacrifice": {
+        "cost": 400,
+        "effect": "Converts penalties on target into bonuses. Restores target's HP = unit's current HP -1. Unit's HP reduced by amount restored.",
+        "restriction": "Exclusive"
+    },
     "Shove": {
         "cost": 150,
         "effect": "Push adjacent ally 1 space farther away."

@@ -1705,6 +1705,15 @@
       "cost": 200,
       "effect": "Grants adjacent allies Atk+4 during combat."
     },
+    "Spur Atk/Spd 1": {
+      "cost": 120,
+      "effect": "Grants adjacent allies Atk/Spd+2 during combat.",
+      "require": "Spur Atk 1|Spur Spd 1"
+    },
+    "Spur Atk/Spd 2": {
+      "cost": 240,
+      "effect": "Grants adjacent allies Atk/Spd+3 during combat."
+    },
     "Spur Def 1": {
       "cost": 50,
       "effect": "Grants adjacent allies Def+2 during combat."

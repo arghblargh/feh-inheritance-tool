@@ -888,6 +888,13 @@
     "Def": 6,
     "Res": 6
   },
+  "Micaiah": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 5,
+    "Res": 9
+  },
   "Michalis": {
     "HP": 19,
     "Atk": 8,
@@ -985,6 +992,13 @@
     "Spd": 10,
     "Def": 6,
     "Res": 3
+  },
+  "Oliver": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 6,
+    "Res": 8
   },
   "Olivia": {
     "HP": 17,
@@ -1273,6 +1287,13 @@
     "Def": 4,
     "Res": 7
   },
+  "Sothe": {
+    "HP": 17,
+    "Atk": 10,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 4
+  },
   "Stahl": {
     "HP": 19,
     "Atk": 7,
@@ -1419,6 +1440,13 @@
     "Spd": 6,
     "Def": 9,
     "Res": 7
+  },
+  "Zelgius": {
+    "HP": 22,
+    "Atk": 10,
+    "Spd": 7,
+    "Def": 10,
+    "Res": 6
   },
   "Zephiel": {
     "HP": 25,

@@ -426,7 +426,8 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Dancer's Fan": {
     "color": "Neutral",
@@ -578,6 +579,13 @@
   },
   "Elfire": {
     "color": "Red",
+    "type": "Tome",
+    "cost": 100,
+    "might": 6,
+    "effect": ""
+  },
+  "Ellight": {
+    "color": "Blue",
     "type": "Tome",
     "cost": 100,
     "might": 6,
@@ -1210,6 +1218,13 @@
     "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
+  "Light": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 50,
+    "might": 4,
+    "effect": ""
+  },
   "Light Breath": {
     "color": "",
     "type": "Dragon",
@@ -1360,6 +1375,15 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units. Grants Res+4 during combat if initiating an attack.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Peshkatz": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 14,
+    "effect": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.",
     "restriction": "Exclusive"
   },
   "Poison Dagger": {
@@ -1612,6 +1636,21 @@
     "might": 10,
     "effect": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.",
     "upgrade": "Mt:2"
+  },
+  "Shine": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 9,
+    "effect": ""
+  },
+  "Shine+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 13,
+    "effect": "",
+    "upgrade": "Mt:1"
   },
   "Siegfried": {
     "color": "Red",
@@ -1921,6 +1960,14 @@
     "might": 14,
     "effect": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.",
     "upgrade": "-"
+  },
+  "Thani": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. Effective against armored and cavalry foes. Against armored and cavalry foes using bow, dagger, magic, or staff, damage from first attack received by unit during combat reduced by 30%.",
+    "restriction": "Exclusive"
   },
   "Thoron": {
     "color": "Blue",

@@ -7468,6 +7468,75 @@
       ]
     }
   },
+  "Micaiah": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Spd": 4,
+      "Def": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light"
+        },
+        {
+          "name": "Ellight"
+        },
+        {
+          "name": "Shine"
+        },
+        {
+          "name": "Thani"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice"
+        },
+        {
+          "name": "Sacrifice"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Def 1"
+        },
+        {
+          "name": "Distant Def 2"
+        },
+        {
+          "name": "Distant Def 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1"
+        },
+        {
+          "name": "Guard 2"
+        },
+        {
+          "name": "Guard 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Drive Atk 1"
+        },
+        {
+          "name": "Drive Atk 2"
+        }
+      ]
+    }
+  },
   "Michalis": {
     "color": "Green",
     "wpnType": "Axe",
@@ -8293,6 +8362,68 @@
         },
         {
           "name": "Spur Atk 3"
+        }
+      ]
+    }
+  },
+  "Oliver": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 3
+        },
+        {
+          "name": "Ellight",
+          "unlock": 3
+        },
+        {
+          "name": "Shine",
+          "unlock": 3
+        },
+        {
+          "name": "Shine+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light",
+          "unlock": 3
+        },
+        {
+          "name": "Blazing Light",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Mirror Strike 1",
+          "unlock": 3
+        },
+        {
+          "name": "Mirror Strike 2",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Ploy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Ploy 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk Ploy 3",
+          "unlock": 5
         }
       ]
     }
@@ -10774,6 +10905,60 @@
       ]
     }
   },
+  "Sothe": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "bane": {
+      "HP": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Silver Dagger"
+        },
+        {
+          "name": "Peshkatz"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Life and Death 1"
+        },
+        {
+          "name": "Life and Death 2"
+        },
+        {
+          "name": "Life and Death 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk/Spd 1"
+        },
+        {
+          "name": "Spur Atk/Spd 2"
+        }
+      ]
+    }
+  },
   "Stahl": {
     "color": "Red",
     "wpnType": "Sword",
@@ -12011,6 +12196,60 @@
         },
         {
           "name": "Fortify Def 3"
+        }
+      ]
+    }
+  },
+  "Zelgius": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Alondite"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Luna"
+        },
+        {
+          "name": "Black Luna"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fierce Stance 1"
+        },
+        {
+          "name": "Fierce Stance 2"
+        },
+        {
+          "name": "Fierce Stance 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Panic Ploy 1"
+        },
+        {
+          "name": "Panic Ploy 2"
+        },
+        {
+          "name": "Panic Ploy 3"
         }
       ]
     }
