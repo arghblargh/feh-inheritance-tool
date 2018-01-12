@@ -1154,6 +1154,11 @@
       "effect": "If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
       "restriction": "Armored"
     },
+    "Warp Powder": {
+      "cost": 300,
+      "effect": "If unit's HP ≥ 80%, unit can move adjacent to any ally within 2 spaces.",
+      "restriction": "Exclusive"
+    },
     "Wary Fighter 1": {
       "cost": 60,
       "effect": "Prevents followup attacks in combat from unit and foes if unit's HP ≥ 90%.",

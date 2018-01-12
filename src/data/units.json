@@ -12241,6 +12241,11 @@
           "name": "Fierce Stance 3"
         }
       ],
+      "passiveB": [
+        {
+          "name": "Warp Powder"
+        }
+      ],
       "passiveC": [
         {
           "name": "Panic Ploy 1"
