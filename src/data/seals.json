@@ -149,6 +149,18 @@
   "Hardy Bearing 3": {
     "effect": "Disables skills that change unit's attack priority. Enemy skills that change attack priority are also disabled."
   },
+  "Heavy Blade 1": {
+    "effect": "If unit's Atk - foe's Atk ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+    "restriction": "Offense"
+  },
+  "Heavy Blade 2": {
+    "effect": "If unit's Atk - foe's Atk ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+    "restriction": "Offense"
+  },
+  "Heavy Blade 3": {
+    "effect": "If unit's Atk - foe's Atk ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+    "restriction": "Offense"
+  },
   "Hone Spd 1": {
     "effect": "Grants adjacent allies Spd+2 through their next actions at the start of each turn."
   },
@@ -157,6 +169,10 @@
   },
   "Hone Spd 3": {
     "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn."
+  },
+  "Iote's Shield": {
+    "effect": "Neutralizes \"effective against\" bonuses.",
+    "restriction": "Flying"
   },
   "Panic Ploy 1": {
     "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action."
@@ -287,5 +303,23 @@
   },
   "Squad Ace E 3": {
     "effect": "Grants Atk+3."
+  },
+  "Squad Ace F 1": {
+    "effect": "Grants HP+3."
+  },
+  "Squad Ace F 2": {
+    "effect": "Grants HP+4."
+  },
+  "Squad Ace F 3": {
+    "effect": "Grants HP+5."
+  },
+  "Threaten Spd 1": {
+    "effect": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Threaten Spd 2": {
+    "effect": "Inflicts Spd-4 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Threaten Spd 3": {
+    "effect": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn."
   }
 }
