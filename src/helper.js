@@ -152,65 +152,84 @@ export class BuildManager extends React.PureComponent {
             }
 
             for (var response of responses) {
-                var buildName, build = {}, skills = {}, stats = {}, neutralStats;
+                var buildName, build = {};
                 var hasError = false;
 
                 try {
-                    buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                    buildName = /name\s*?=\s*?(.+?)(?:\\n|[|}])/i.exec(response)[1].trim();
                 }
                 catch (TypeError) {
-                    console.log('Error retrieving build name.');
+                    console.error('Error retrieving build name.');
                     hasError = true;
                 }
 
                 try {
-                    if (/stats/.test(response)) {
-                        let statStr = /stats\s*=(.*?)[}|]/i.exec(response)[1].trim().split('/');
-                        stats.HP = statStr[0];
-                        stats.Atk = statStr[1];
-                        stats.Spd = statStr[2];
-                        stats.Def = statStr[3];
-                        stats.Res = statStr[4];
+                    if (/ivs/.test(response)) {
+                        let bbStr = /ivs\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim();
+                        if (!bbStr || /Neutral|Any/i.test(bbStr)) {
+                            build.Boon = '';
+                            build.Bane = '';
+                        } else {
+                            build.Boon = /\+(HP|Atk|Spd|Def|Res)/i.exec(bbStr)[1];
+                            build.Boon = build.Boon.slice(0,1) + build.Boon.slice(1).toLowerCase();
+                            build.Bane = /-(HP|Atk|Spd|Def|Res)/i.exec(bbStr)[1];
+                            build.Bane = build.Bane.slice(0,1) + build.Bane.slice(1).toLowerCase();
+                        }
                     }
                 }
                 catch (TypeError) {
-                    console.log('Error retrieving stats: ' + buildName);
-                    //stats = units[unitName].stats;
-                    stats = baseStats[5][40][unitName];
+                    console.error('Error retrieving boon/bane: ' + buildName);
+                    build.Boon = '';
+                    build.Bane = '';
                     hasError = true;
                 }
 
                 try {
-                    build.Weapon = skills.weapon = /weapon\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                    build.Assist = skills.assist = /assist\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                    build.Special = skills.special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                    build.PassiveA = skills.passiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                    build.PassiveB = skills.passiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                    build.PassiveC = skills.passiveC =  /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
+                    build.Weapon = /weapon=/.test(response) ? /weapon\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
+                    build.Assist = /assist=/.test(response) ? /assist\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
+                    build.Special = /special=/.test(response) ? /special\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveA = /passiveA=/.test(response) ? /passiveA\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveB = /passiveB=/.test(response) ? /passiveB\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveC = /passiveC=/.test(response) ? /passiveC\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
+                    build.Seal = /seal=/.test(response) ? /seal\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
 
                     build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr');
-                    // build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
+
+                    if (/weaponRefine=/.test(response)) {
+                        let upgrade = /weaponRefine\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim().toLowerCase();
+                        switch (upgrade) {
+                            case 'skill':
+                                build.Upgrade = units[unitName].wpnType === 'Staff' ? 'W' : 'X';
+                                break;
+                            case 'atk':
+                                build.Upgrade = 'A';
+                                break;
+                            case 'spd':
+                                build.Upgrade = 'S';
+                                break;
+                            case 'def':
+                                build.Upgrade = 'D';
+                                break;
+                            case 'res':
+                                build.Upgrade = 'R';
+                                break;
+                            case 'skill2':
+                                build.Upgrade = 'D';
+                                break;
+                            default:
+                                build.Upgrade = '';
+                                break;
+                        }
+                    }
 
                     for (let i in build) {
                         if (/^\s*flexible\s*$/i.test(build[i]))
                             build[i] = '';
                     }
-                    
-                    build.Boon = '';
-                    build.Bane = '';
-                    neutralStats = calcStats(unitName, skills);
-                    if (stats) {
-                        for (let s in stats) {
-                            if (stats[s] > neutralStats[s])
-                                build.Boon = s;
-                            else if (stats[s] < neutralStats[s])
-                                build.Bane = s;
-                        }
-                    }
                 }
                 catch (TypeError) {
-                    console.log('Error retrieving skills: ' + buildName);
-                    build = skills = units[unitName].skills;
+                    console.error('Error retrieving skills: ' + buildName);
+                    build = units[unitName].skills;
                     hasError = true;
                 }
 

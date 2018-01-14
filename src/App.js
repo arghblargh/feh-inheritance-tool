@@ -748,16 +748,18 @@ class InheritanceTool extends Component {
 
   handleBuildLoad(build) {
     let newBoonBane = {
-      "boon": build.Boon,
-      "bane": build.Bane
+      boon: build.Boon,
+      bane: build.Bane
     };
     let newSkills = {
-      "weapon": build.Weapon,
-      "assist": build.Assist,
-      "special": build.Special,
-      "passiveA": build.PassiveA,
-      "passiveB": build.PassiveB,
-      "passiveC": build.PassiveC,
+      weapon: build.Weapon,
+      upgrade: build.Upgrade,
+      assist: build.Assist,
+      special: build.Special,
+      passiveA: build.PassiveA,
+      passiveB: build.PassiveB,
+      passiveC: build.PassiveC,
+      seal: build.Seal
     }
 
     this.setState({
