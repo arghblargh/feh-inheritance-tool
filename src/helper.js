@@ -171,9 +171,11 @@ export class BuildManager extends React.PureComponent {
                             build.Bane = '';
                         } else {
                             build.Boon = /\+(HP|Atk|Spd|Def|Res)/i.exec(bbStr)[1];
-                            build.Boon = build.Boon.slice(0,1) + build.Boon.slice(1).toLowerCase();
+                            if (build.Bane !== 'HP')
+                                build.Boon = build.Boon.slice(0,1) + build.Boon.slice(1).toLowerCase();
                             build.Bane = /-(HP|Atk|Spd|Def|Res)/i.exec(bbStr)[1];
-                            build.Bane = build.Bane.slice(0,1) + build.Bane.slice(1).toLowerCase();
+                            if (build.Bane !== 'HP')
+                                build.Bane = build.Bane.slice(0,1) + build.Bane.slice(1).toLowerCase();
                         }
                     }
                 }
