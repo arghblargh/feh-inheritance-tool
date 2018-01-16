@@ -53,6 +53,15 @@
   "Close Def 3": {
     "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat."
   },
+  "Def Ploy 1": {
+    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3 until the end of foe's next action."
+  },
+  "Def Ploy 2": {
+    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-4 until the end of foe's next action."
+  },
+  "Def Ploy 3": {
+    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action."
+  },
   "Defense +1": {
     "effect": "Grants Def +1."
   },
@@ -192,6 +201,15 @@
   "Phantom Spd 3": {
     "effect": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +10 over actual value."
   },
+  "Quick Riposte 1": {
+    "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 90%."
+  },
+  "Quick Riposte 2": {
+    "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 80%."
+  },
+  "Quick Riposte 3": {
+    "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 70%."
+  },
   "Quickened Pulse": {
     "effect": "Special cooldown count -1 at start of Turn 1."
   },
@@ -212,6 +230,18 @@
   },
   "Savage Blow 3": {
     "effect": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat."
+  },
+  "Seal Atk 1": {
+    "effect": "After combat, foe suffers Atk-3 through its next action.",
+    "restriction": "Offense"
+  },
+  "Seal Atk 2": {
+    "effect": "After combat, foe suffers Atk-5 through its next action.",
+    "restriction": "Offense"
+  },
+  "Seal Atk 3": {
+    "effect": "After combat, foe suffers Atk-7 through its next action.",
+    "restriction": "Offense"
   },
   "Speed +1": {
     "effect": "Grants Spd +1."
