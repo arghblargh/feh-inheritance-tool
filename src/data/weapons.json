@@ -926,7 +926,8 @@
     "type": "Axe",
     "cost": 300,
     "might": 14,
-    "effect": "Grants Def/Res+2 during combat to allies within 2 spaces."
+    "effect": "Grants Def/Res+2 during combat to allies within 2 spaces.",
+    "upgrade": "-"
   },
   "Hama Ya": {
     "color": "Neutral",
