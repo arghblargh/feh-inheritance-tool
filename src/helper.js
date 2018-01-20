@@ -496,10 +496,10 @@ function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
         return [0, 0, 0, 0, 0];
     
     let sortedStats = [];
-    for (let stat in baseStats[rarity][1][unit]) {
+    for (let stat in baseStats[5][1][unit]) {
         sortedStats.push({
             "stat": stat,
-            "value": baseStats[rarity][1][unit][stat],
+            "value": baseStats[5][1][unit][stat],
             "bonus": 0
         });
     }
