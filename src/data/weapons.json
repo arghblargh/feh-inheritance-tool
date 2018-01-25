@@ -1350,6 +1350,14 @@
     "effect": "Grants Def/Res+2 when this unit is attacked.",
     "restriction": "Exclusive"
   },
+  "Naglfar": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants weapon-triangle advantage against colorless foes.",
+    "restriction": "Exclusive"
+  },
   "Nidhogg": {
     "color": "Neutral",
     "type": "Bow",

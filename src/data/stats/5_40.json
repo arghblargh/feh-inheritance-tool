@@ -363,6 +363,13 @@
     "Def": 26,
     "Res": 28
   },
+  "Eirika (Sacred Memories)": {
+    "HP": 36,
+    "Atk": 31,
+    "Spd": 35,
+    "Def": 20,
+    "Res": 22
+  },
   "Eldigan": {
     "HP": 45,
     "Atk": 32,
@@ -678,6 +685,13 @@
     "Def": 20,
     "Res": 24
   },
+  "L'Arachel": {
+    "HP": 33,
+    "Atk": 33,
+    "Spd": 31,
+    "Def": 17,
+    "Res": 31
+  },
   "Lachesis": {
     "HP": 39,
     "Atk": 32,
@@ -832,6 +846,13 @@
     "Def": 23,
     "Res": 24
   },
+  "Lyon": {
+    "HP": 41,
+    "Atk": 34,
+    "Spd": 21,
+    "Def": 26,
+    "Res": 30
+  },
   "Mae": {
     "HP": 35,
     "Atk": 36,
@@ -845,6 +866,13 @@
     "Spd": 34,
     "Def": 19,
     "Res": 32
+  },
+  "Marisa": {
+    "HP": 46,
+    "Atk": 30,
+    "Spd": 36,
+    "Def": 30,
+    "Res": 21
   },
   "Marth": {
     "HP": 41,
@@ -915,6 +943,13 @@
     "Spd": 28,
     "Def": 20,
     "Res": 34
+  },
+  "Myrrh": {
+    "HP": 42,
+    "Atk": 33,
+    "Spd": 25,
+    "Def": 36,
+    "Res": 31
   },
   "Narcian": {
     "HP": 42,

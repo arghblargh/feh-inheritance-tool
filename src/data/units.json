@@ -3059,13 +3059,16 @@
       ],
       "assist": [
         {
-          "name": "Rally Attack"
+          "name": "Rally Speed"
         },
         {
           "name": "Rally Atk/Spd"
         }
       ],
       "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
         {
           "name": "Swift Sparrow 1"
         },
@@ -5730,7 +5733,7 @@
       ]
     }
   },
-  "L'arachel": {
+  "L'Arachel": {
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
@@ -7119,13 +7122,56 @@
     "skills": {
       "weapon": [
         {
-          "name": "Flux"
+          "name": "Flux",
+          "unlock": 3
         },
         {
-          "name": "Ruin"
+          "name": "Ruin",
+          "unlock": 3
         },
         {
-          "name": "Fenrir"
+          "name": "Fenrir",
+          "unlock": 3
+        },
+        {
+          "name": "Naglfar"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeance",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 3
+        },
+        {
+          "name": "Attack/Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "Attack/Res 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Drive Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Drive Res 2",
+          "unlock": 4
         }
       ]
     }
@@ -7267,10 +7313,56 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Sword"
+          "name": "Iron Sword",
+          "unlock": 4
         },
         {
-          "name": "Steel Sword"
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Wo Dao",
+          "unlock": 4
+        },
+        {
+          "name": "Wo Dao+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 4
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "HP +3",
+          "unlock": 4
+        },
+        {
+          "name": "HP/Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "HP/Def 2",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Pulse 1",
+          "unlock": 4
+        },
+        {
+          "name": "Infantry Pulse 2",
+          "unlock": 4
+        },
+        {
+          "name": "Infantry Pulse 3"
         }
       ]
     }
@@ -7883,6 +7975,12 @@
         }
       ],
       "passiveC": [
+        {
+          "name": "Hone Atk 1"
+        },
+        {
+          "name": "Hone Atk 2"
+        },
         {
           "name": "Hone Dragons"
         }
