@@ -34,7 +34,7 @@
     "type": "Axe",
     "cost": 400,
     "might": 16,
-    "effect": "Unit makes a guaranteed followup attack when attacked at HP > 80%.",
+    "effect": "Unit makes a guaranteed follow-up attack when attacked at HP ≥ 80%.",
     "restriction": "Exclusive"
   },
   "Armorslayer": {
@@ -797,6 +797,14 @@
     "effect": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.",
     "restriction": "Exclusive"
   },
+  "Gleipnir": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. If foes' HP = 100% at start of combat, grants Atk/Spd+3 during combat.",
+    "restriction": "Exclusive"
+  },
   "Gradivus": {
     "color": "Blue",
     "type": "Lance",
@@ -818,6 +826,14 @@
     "cost": 300,
     "might": 10,
     "effect": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions."
+  },
+  "Great Flame": {
+    "color": "Green",
+    "type": "Dragon",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. If unit's Def - foe's Def ≥ 5, foe can't make a follow-up attack. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
   },
   "Green Egg": {
     "color": "Green",
@@ -1044,6 +1060,14 @@
     "cost": 0,
     "might": 6,
     "effect": ""
+  },
+  "Ivaldi": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Def+3. If foe's HP = 100% at start of combat, grants Atk/Spd+3 during combat.",
+    "restriction": "Exclusive"
   },
   "Kadomatsu": {
     "color": "Red",

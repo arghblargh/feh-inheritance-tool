@@ -150,13 +150,13 @@ export class BuildManager extends React.PureComponent {
             while (match = re.exec(text)) {
                 responses.push(match[1]);
             }
-
+            
             for (var response of responses) {
                 var buildName, build = {};
                 var hasError = false;
-
+                
                 try {
-                    buildName = /name\s*?=\s*?(.+?)(?:\\n|[|}])/i.exec(response)[1].trim();
+                    buildName = /name\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim();
                 }
                 catch (TypeError) {
                     console.error('Error retrieving build name.');

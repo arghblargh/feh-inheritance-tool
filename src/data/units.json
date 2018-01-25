@@ -3038,6 +3038,65 @@
       ]
     }
   },
+  "Eirika (Sacred Memories)": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Fenrir"
+        },
+        {
+          "name": "Gleipnir"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack"
+        },
+        {
+          "name": "Rally Atk/Spd"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Swift Sparrow 1"
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1"
+        },
+        {
+          "name": "Desperation 2"
+        },
+        {
+          "name": "Desperation 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "R Tome Exp. 1"
+        },
+        {
+          "name": "R Tome Exp. 2"
+        },
+        {
+          "name": "R Tome Exp. 3"
+        }
+      ]
+    }
+  },
   "Eldigan": {
     "color": "Red",
     "wpnType": "Sword",
@@ -5671,6 +5730,57 @@
       ]
     }
   },
+  "L'arachel": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light"
+        },
+        {
+          "name": "Ellight"
+        },
+        {
+          "name": "Shine"
+        },
+        {
+          "name": "Ivaldi"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light"
+        },
+        {
+          "name": "Growing Light"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Renewal 1"
+        },
+        {
+          "name": "Renewal 2"
+        },
+        {
+          "name": "Renewal 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Tactic 1"
+        },
+        {
+          "name": "Res Tactic 2"
+        },
+        {
+          "name": "Res Tactic 3"
+        }
+      ]
+    }
+  },
   "Lachesis": {
     "color": "Neutral",
     "wpnType": "Staff",
@@ -7002,6 +7112,24 @@
       ]
     }
   },
+  "Lyon": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Fenrir"
+        }
+      ]
+    }
+  },
   "Mae": {
     "color": "Blue",
     "wpnType": "Tome",
@@ -7128,6 +7256,21 @@
         },
         {
           "name": "Fortify Res 3"
+        }
+      ]
+    }
+  },
+  "Marisa": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
         }
       ]
     }
@@ -7697,6 +7840,51 @@
         },
         {
           "name": "Spur Def/Res 2"
+        }
+      ]
+    }
+  },
+  "Myrrh": {
+    "color": "Green",
+    "wpnType": "Dragon",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        },
+        {
+          "name": "Flametongue"
+        },
+        {
+          "name": "Great Flame"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Bonfire"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1"
+        },
+        {
+          "name": "Fury 2"
+        },
+        {
+          "name": "Fury 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Dragons"
         }
       ]
     }
