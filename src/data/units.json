@@ -4970,6 +4970,77 @@
       ]
     }
   },
+  "Ike (Vanguard Legend)": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "bane": {
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Ragnell"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight"
+        },
+        {
+          "name": "Sol"
+        },
+        {
+          "name": "Radiant Aether"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1"
+        },
+        {
+          "name": "Warding Stance 2"
+        },
+        {
+          "name": "Warding Breath"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Def 1"
+        },
+        {
+          "name": "Seal Atk/Def 1"
+        },
+        {
+          "name": "Seal Atk/Def 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Tactic 1"
+        },
+        {
+          "name": "Def Tactic 2"
+        },
+        {
+          "name": "Def Tactic 3"
+        }
+      ]
+    }
+  },
   "Inigo (Performing Arts)": {
     "color": "Green",
     "wpnType": "Tome",

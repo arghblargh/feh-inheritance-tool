@@ -563,6 +563,10 @@
       "effect": "Grants Res+6 during combat if unit initiates attack.",
       "restriction": "Offense"
     },
+    "Warding Breath": {
+      "cost": 240,
+      "effect": "Grants Res+4 during combat if unit is attacked. Also grants Special cooldown charge +1 per attack. (Does not stack. Only highest value applied.)"
+    },
     "Warding Stance 1": {
       "cost": 50,
       "effect": "Grants Res+2 during combat when this unit is attacked."

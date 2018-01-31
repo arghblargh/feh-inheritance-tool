@@ -227,6 +227,13 @@
     "require": "Buckler",
     "restriction": "Melee"
   },
+  "Radiant Aether": {
+    "cost": 500,
+    "count": 4,
+    "effect": "During combat, treats foe's Def/Res as if reduced by 50%. Restores HP = 50% of damage dealt.",
+    "require": "Sol",
+    "restriction": "Exclusive"
+  },
   "Regnal Astra": {
     "cost": 500,
     "count": 2,
