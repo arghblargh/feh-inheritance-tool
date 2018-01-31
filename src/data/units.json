@@ -4975,7 +4975,7 @@
     "wpnType": "Sword",
     "movType": "Infantry",
     "bane": {
-      "Res": 4
+      "HP": 4
     },
     "skills": {
       "weapon": [
