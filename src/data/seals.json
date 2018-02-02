@@ -110,6 +110,12 @@
   "Distant Def 3": {
     "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
   },
+  "Drive Def 1": {
+    "effect": "Grants allies within 2 spaces Def+2 during combat."
+  },
+  "Drive Def 2": {
+    "effect": "Grants allies within 2 spaces Def+3 during combat."
+  },
   "Fortify Def 1": {
     "effect": "Grants adjacent allies Def+2 through their next actions at the start of each turn."
   },
@@ -170,6 +176,15 @@
     "effect": "If unit's Atk - foe's Atk ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
     "restriction": "Offense"
   },
+  "Hone Atk 1": {
+    "effect": "Grants adjacent allies Atk+2 through their next actions at the start of each turn."
+  },
+  "Hone Atk 2": {
+    "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn."
+  },
+  "Hone Atk 3": {
+    "effect": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
+  },
   "Hone Spd 1": {
     "effect": "Grants adjacent allies Spd+2 through their next actions at the start of each turn."
   },
@@ -200,6 +215,18 @@
   },
   "Phantom Spd 3": {
     "effect": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +10 over actual value."
+  },
+  "Poison Strike 1": {
+    "effect": "Inflicts 4 damage to foe after any combat this unit initiates.",
+    "restriction": "Offense"
+  },
+  "Poison Strike 2": {
+    "effect": "Inflicts 7 damage to foe after any combat this unit initiates.",
+    "restriction": "Offense"
+  },
+  "Poison Strike 3": {
+    "effect": "Inflicts 10 damage to foe after any combat this unit initiates.",
+    "restriction": "Offense"
   },
   "Quick Riposte 1": {
     "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 90%."
