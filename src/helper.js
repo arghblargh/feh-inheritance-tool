@@ -607,6 +607,8 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         else if (/^\w+\s\+\d$|Squad Ace/.test(passive)) {
             temp = parseInt((/[1-9]/.exec(passive)), 10);
             if (/HP|Squad Ace [AF]/.test(passive))
+                totalMod[0] += temp;
+            if (/Squad Ace [AF]/.test(passive))
                 totalMod[0] += temp + 2;
             if (/Attack|Squad Ace E/.test(passive))
                 totalMod[1] += temp;
