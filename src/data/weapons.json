@@ -2112,7 +2112,7 @@
   "Wo Dao+": {
     "color": "Red",
     "type": "Sword",
-    "cost": 400,
+    "cost": 300,
     "might": 13,
     "effect": "Grants +10 to damage when Special triggers.",
     "upgrade": "Mt:1"
