@@ -36,7 +36,10 @@
     },
     "Eckesachs": {
         "stats": [3, 0, 0, 0, 0],
-        "effect": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions. If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
+        "effect": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions. If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat.",
+        "common": {
+            "effect": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions."
+        }
     },
     "Falchion": {
         "stats": [3, 0, 0, 0, 0],
