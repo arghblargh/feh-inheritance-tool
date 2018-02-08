@@ -256,8 +256,12 @@ class SkillInfoTable extends Component {
       weaponEffect += 'Might: ' + weapons[skills.weapon].might + '. ';
 
       if (skills.upgrade) {
-        if (skills.upgrade === 'X')
-          weaponEffect += upgrades[skills.weapon].effect;
+        if (skills.upgrade === 'X') {
+          if (upgrades[skills.weapon].units)
+            weaponEffect += upgrades[skills.weapon].units.find(unit => unit.name.split(',').includes(this.props.unitName)).effect;
+          else
+            weaponEffect += upgrades[skills.weapon].effect;
+        }
         else if (weapons[skills.weapon].type === 'Staff')
           weaponEffect += weapons[skills.weapon].effect + ' ' + (skills.upgrade === 'W' ? upgrades.Staff.Wrathful.effect : upgrades.Staff.Dazzling.effect);
         else if (upgrades[skills.weapon] && upgrades[skills.weapon].common)

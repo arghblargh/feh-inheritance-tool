@@ -405,6 +405,13 @@
     "Def": 23,
     "Res": 32
   },
+  "Eliwood (Love Abounds)": {
+    "HP": 47,
+    "Atk": 38,
+    "Spd": 32,
+    "Def": 29,
+    "Res": 29
+  },
   "Ephraim": {
     "HP": 45,
     "Atk": 35,
@@ -551,6 +558,13 @@
     "Spd": 24,
     "Def": 37,
     "Res": 19
+  },
+  "Hector (Love Abounds)": {
+    "HP": 50,
+    "Atk": 38,
+    "Spd": 21,
+    "Def": 40,
+    "Res": 24
   },
   "Henry": {
     "HP": 45,
@@ -748,6 +762,13 @@
     "Def": 19,
     "Res": 31
   },
+  "Lilina (Love Abounds)": {
+    "HP": 34,
+    "Atk": 35,
+    "Spd": 30,
+    "Def": 20,
+    "Res": 26
+  },
   "Linde": {
     "HP": 35,
     "Atk": 35,
@@ -852,6 +873,13 @@
     "Spd": 34,
     "Def": 23,
     "Res": 24
+  },
+  "Lyn (Love Abounds)": {
+    "HP": 37,
+    "Atk": 31,
+    "Spd": 36,
+    "Def": 27,
+    "Res": 34
   },
   "Lyon": {
     "HP": 41,
@@ -1174,6 +1202,13 @@
     "Spd": 34,
     "Def": 26,
     "Res": 24
+  },
+  "Roy (Love Abounds)": {
+    "HP": 34,
+    "Atk": 35,
+    "Spd": 19,
+    "Def": 27,
+    "Res": 30
   },
   "Ryoma": {
     "HP": 41,

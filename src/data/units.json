@@ -1195,6 +1195,9 @@
         },
         {
           "name": "Armorslayer+"
+        },
+        {
+          "name": "Wing Sword"
         }
       ],
       "assist": [
@@ -3374,6 +3377,67 @@
       ]
     }
   },
+  "Eliwood (Love Abounds)": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Casa Blanca",
+          "unlock": 4
+        },
+        {
+          "name": "Casa Blanca+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Def",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fire Boost 1",
+          "unlock": 4
+        },
+        {
+          "name": "Fire Boost 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fire Boost 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Goad Armor",
+          "unlock": 4
+        }
+      ]
+    }
+  },
   "Ephraim": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -3624,6 +3688,9 @@
         },
         {
           "name": "Silver Dagger+"
+        },
+        {
+          "name": "Felicia's Plate"
         }
       ],
       "special": [
@@ -4615,6 +4682,54 @@
       ]
     }
   },
+  "Hector (Love Abounds)": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "boon": {
+      "Atk": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Silver Axe"
+        },
+        {
+          "name": "Berserk Armads"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1"
+        },
+        {
+          "name": "Wary Fighter 2"
+        },
+        {
+          "name": "Wary Fighter 3"
+        }
+      ]
+    }
+  },
   "Henry": {
     "color": "Red",
     "wpnType": "Tome",
@@ -4814,6 +4929,9 @@
         },
         {
           "name": "Brave Lance+"
+        },
+        {
+          "name": "Hinoka's Spear"
         }
       ],
       "special": [
@@ -6295,6 +6413,61 @@
       ]
     }
   },
+  "Lilina (Love Abounds)": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "bane": {
+      "Spd": 4,
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Green Gift"
+        },
+        {
+          "name": "Green Gift+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Flame"
+        },
+        {
+          "name": "Blazing Flame"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1"
+        },
+        {
+          "name": "HP/Atk 1"
+        },
+        {
+          "name": "HP/Atk 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1"
+        },
+        {
+          "name": "Atk Tactic 2"
+        },
+        {
+          "name": "Atk Tactic 3"
+        }
+      ]
+    }
+  },
   "Linde": {
     "color": "Blue",
     "wpnType": "Tome",
@@ -7182,6 +7355,72 @@
         },
         {
           "name": "Dazzling Staff 3"
+        }
+      ]
+    }
+  },
+  "Lyn (Love Abounds)": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Armored",
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Atk": 4,
+      "Def": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light"
+        },
+        {
+          "name": "Ellight"
+        },
+        {
+          "name": "Blue Gift"
+        },
+        {
+          "name": "Blue Gift+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1"
+        },
+        {
+          "name": "Atk/Spd Bond 2"
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1"
+        },
+        {
+          "name": "Guard 2"
+        },
+        {
+          "name": "Guard 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1"
+        },
+        {
+          "name": "Armor March 2"
+        },
+        {
+          "name": "Armor March 3"
         }
       ]
     }
@@ -9298,6 +9537,9 @@
         },
         {
           "name": "Brave Axe+"
+        },
+        {
+          "name": "Basilikos"
         }
       ],
       "special": [
@@ -9935,6 +10177,58 @@
         },
         {
           "name": "Desperation 3"
+        }
+      ]
+    }
+  },
+  "Roy (Love Abounds)": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "bane": {
+      "Spd": 4,
+      "Def": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Gratia"
+        },
+        {
+          "name": "Gratia+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
+        {
+          "name": "Death Blow 2"
+        },
+        {
+          "name": "Death Blow 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Bow Valor 1"
+        },
+        {
+          "name": "Bow Valor 2"
+        },
+        {
+          "name": "Bow Valor 3"
         }
       ]
     }

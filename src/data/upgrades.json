@@ -34,6 +34,27 @@
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
+    "Eckesachs": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions. If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
+    },
+    "Falchion": {
+        "stats": [3, 0, 0, 0, 0],
+        "units": [
+            {
+                "name": "Marth",
+                "effect": "Effective against dragon foes. Restores HP at the start of every second turn. Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat."
+            },
+            {
+                "name": "Alm",
+                "effect": "Effective against dragon foes. Restores HP at the start of every second turn. If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice then takes 5 damage after combat."
+            },
+            {
+                "name": "Chrom,Lucina,Marth (Masked)",
+                "effect": "Effective against dragon foes. Restores HP at the start of every second turn. Grants Atk/Spd/Def/Res+4 during combat if unit is adjacent to an ally."
+            }
+        ]
+    },
     "Mystletainn": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
@@ -44,6 +65,10 @@
         "common": {
             "effect": "If unit initiates combat with HP ≤ 75%, follow-up attacks occur immediately after unit's attack."
         }
+    },
+    "Wing Sword": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Effective against cavalry and armored foes. If unit’s Spd - foe’s Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "Zanbato+": {
         "stats": [3, 0, 0, 0, 0],
@@ -64,6 +89,10 @@
             "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
         }
     },
+    "Hinoka's Spear": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit. Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
+    },
     "Ridersbane+": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
@@ -78,6 +107,10 @@
     "Slaying Spear+": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Basilikos": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Accelerates Special trigger (cooldown count -1). Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
     "Carrot Axe+": {
         "common": {
@@ -196,6 +229,10 @@
         "common": {
             "effect": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
         }
+    },
+    "Felicia's Plate": {
+        "stats": [0, 0, 0, 0, 0],
+        "effect": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res. Grants Special Cooldown charge +1 if foe uses magic. (Only highest value applied. Does not stack.)"
     },
     "Rogue Dagger+": {
         "common": {
