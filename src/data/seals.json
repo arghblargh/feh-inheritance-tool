@@ -1,4 +1,7 @@
 {
+  "Armored Boots": {
+    "effect": "If unit's HP = 100% at start of turn, unit can move 1 extra space. (That turn only; does not stack.)"
+  },
   "Atk Ploy 1": {
     "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3 until the end of foe's next action."
   },
@@ -369,6 +372,15 @@
   },
   "Squad Ace F 3": {
     "effect": "Grants HP+5."
+  },
+  "Squad Ace G 1": {
+    "effect": "Grants Def+1."
+  },
+  "Squad Ace G 2": {
+    "effect": "Grants Def+2."
+  },
+  "Squad Ace G 3": {
+    "effect": "Grants Def+3."
   },
   "Threaten Spd 1": {
     "effect": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn."

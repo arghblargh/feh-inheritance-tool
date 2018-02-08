@@ -610,13 +610,13 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                 totalMod[0] += temp;
             if (/Squad Ace [AF]/.test(passive))
                 totalMod[0] += temp + 2;
-            if (/Attack|Squad Ace E/.test(passive))
+            if (/Attack|Squad Ace [EJ]/.test(passive))
                 totalMod[1] += temp;
-            if (/Speed|Squad Ace D/.test(passive))
+            if (/Speed|Squad Ace [DI]/.test(passive))
                 totalMod[2] += temp;
-            if (/Defense|Squad Ace B/.test(passive))
+            if (/Defense|Squad Ace [BG]/.test(passive))
                 totalMod[3] += temp;
-            if (/Resistance|Squad Ace C/.test(passive))
+            if (/Resistance|Squad Ace [CH]/.test(passive))
                 totalMod[4] += temp;
         }
         else if (/Fury/.test(passive)) {
