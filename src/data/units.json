@@ -5929,13 +5929,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Light"
+          "name": "Light",
+          "unlock": 4
         },
         {
-          "name": "Ellight"
+          "name": "Ellight",
+          "unlock": 4
         },
         {
-          "name": "Shine"
+          "name": "Shine",
+          "unlock": 4
         },
         {
           "name": "Ivaldi"
@@ -5943,29 +5946,36 @@
       ],
       "special": [
         {
-          "name": "Rising Light"
+          "name": "Rising Light",
+          "unlock": 4
         },
         {
-          "name": "Growing Light"
+          "name": "Growing Light",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Renewal 1"
+          "name": "Renewal 1",
+          "unlock": 4
         },
         {
-          "name": "Renewal 2"
+          "name": "Renewal 2",
+          "unlock": 4
         },
         {
-          "name": "Renewal 3"
+          "name": "Renewal 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
-          "name": "Res Tactic 1"
+          "name": "Res Tactic 1",
+          "unlock": 4
         },
         {
-          "name": "Res Tactic 2"
+          "name": "Res Tactic 2",
+          "unlock": 4
         },
         {
           "name": "Res Tactic 3"

@@ -384,6 +384,13 @@
     "Def": 4,
     "Res": 4
   },
+  "L'Arachel": {
+    "HP": 15,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 3,
+    "Res": 6
+  },
   "Lachesis": {
     "HP": 16,
     "Atk": 5,

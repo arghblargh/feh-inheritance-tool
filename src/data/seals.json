@@ -1,6 +1,7 @@
 {
   "Armored Boots": {
-    "effect": "If unit's HP = 100% at start of turn, unit can move 1 extra space. (That turn only; does not stack.)"
+    "effect": "If unit's HP = 100% at start of turn, unit can move 1 extra space. (That turn only; does not stack.)",
+    "restriction": "Armored"
   },
   "Atk Ploy 1": {
     "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3 until the end of foe's next action."
