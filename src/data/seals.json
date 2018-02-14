@@ -138,6 +138,15 @@
   "Fortify Res 3": {
     "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn."
   },
+  "Fortress Res 1": {
+    "effect": "Grants Res+3. Inflicts Atk-3."
+  },
+  "Fortress Res 2": {
+    "effect": "Grants Res+4. Inflicts Atk-3."
+  },
+  "Fortress Res 3": {
+    "effect": "Grants Res+5. Inflicts Atk-3."
+  },
   "Guidance 1": {
     "effect": "If unit has 100% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
     "restriction": "Flying"
@@ -320,6 +329,69 @@
   "Spur Spd 3": {
     "effect": "Grants adjacent allies Spd+4 during combat."
   },
+  "Threaten Atk 1": {
+    "effect": "Inflicts Atk-3 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Threaten Atk 2": {
+    "effect": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Threaten Atk 3": {
+    "effect": "Inflicts Atk-5 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Threaten Spd 1": {
+    "effect": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Threaten Spd 2": {
+    "effect": "Inflicts Spd-4 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Threaten Spd 3": {
+    "effect": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn."
+  },
+  "Initiate Seal Atk 1": {
+    "effect": "Grants Atk+1."
+  },
+  "Initiate Seal Atk 2": {
+    "effect": "Grants Atk+2."
+  },
+  "Initiate Seal Atk 3": {
+    "effect": "Grants Atk+3."
+  },
+  "Initiate Seal Def 1": {
+    "effect": "Grants Def+1."
+  },
+  "Initiate Seal Def 2": {
+    "effect": "Grants Def+2."
+  },
+  "Initiate Seal Def 3": {
+    "effect": "Grants Def+3."
+  },
+  "Initiate Seal HP 1": {
+    "effect": "Grants HP+3."
+  },
+  "Initiate Seal HP 2": {
+    "effect": "Grants HP+4."
+  },
+  "Initiate Seal HP 3": {
+    "effect": "Grants HP+5."
+  },
+  "Initiate Seal Res 1": {
+    "effect": "Grants Res+1."
+  },
+  "Initiate Seal Res 2": {
+    "effect": "Grants Res+2."
+  },
+  "Initiate Seal Res 3": {
+    "effect": "Grants Res+3."
+  },
+  "Initiate Seal Spd 1": {
+    "effect": "Grants Spd+1."
+  },
+  "Initiate Seal Spd 2": {
+    "effect": "Grants Spd+2."
+  },
+  "Initiate Seal Spd 3": {
+    "effect": "Grants Spd+3."
+  },
   "Squad Ace A 1": {
     "effect": "Grants HP+3."
   },
@@ -382,14 +454,5 @@
   },
   "Squad Ace G 3": {
     "effect": "Grants Def+3."
-  },
-  "Threaten Spd 1": {
-    "effect": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn."
-  },
-  "Threaten Spd 2": {
-    "effect": "Inflicts Spd-4 on foes within 2 spaces through their next actions at the start of each turn."
-  },
-  "Threaten Spd 3": {
-    "effect": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn."
   }
 }
