@@ -11576,13 +11576,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Dagger"
+          "name": "Iron Dagger",
+          "unlock": 4
         },
         {
-          "name": "Steel Dagger"
+          "name": "Steel Dagger",
+          "unlock": 4
         },
         {
-          "name": "Silver Dagger"
+          "name": "Silver Dagger",
+          "unlock": 4
         },
         {
           "name": "Peshkatz"
@@ -11590,29 +11593,36 @@
       ],
       "special": [
         {
-          "name": "Night Sky"
+          "name": "Night Sky",
+          "unlock": 4
         },
         {
-          "name": "Glimmer"
+          "name": "Glimmer",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "Life and Death 1"
+          "name": "Life and Death 1",
+          "unlock": 4
         },
         {
-          "name": "Life and Death 2"
+          "name": "Life and Death 2",
+          "unlock": 4
         },
         {
-          "name": "Life and Death 3"
+          "name": "Life and Death 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
-          "name": "Spur Atk 1"
+          "name": "Spur Atk 1",
+          "unlock": 4
         },
         {
-          "name": "Spur Atk/Spd 1"
+          "name": "Spur Atk/Spd 1",
+          "unlock": 4
         },
         {
           "name": "Spur Atk/Spd 2"
