@@ -582,58 +582,44 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                 totalMod = totalMod.map((x, i) => { return x + temp[i]; });
             }
         }
-
-        applyPassiveStats(skills.passiveA);
-        applyPassiveStats(skills.seal);
+        
+        applyPassiveStats(skills.passiveA, 'A');
+        applyPassiveStats(skills.seal, 'S');
         applySummonerSupportBonus();
     }
 
     return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);
 
-    function applyPassiveStats(passive) {
-        if (/^\w+\/\w+\s\+?\d$/.test(passive)) {
-            temp = parseInt((/[1-9]/.exec(passive)), 10);
-            if (/HP/.test(passive))
-                totalMod[0] += temp + 2;
-            if (/Atk|Attack/.test(passive))
-                totalMod[1] += temp;
-            if (/Spd|Speed/.test(passive))
-                totalMod[2] += temp;
-            if (/Def|Defense/.test(passive))
-                totalMod[3] += temp;
-            if (/Res|Resistance/.test(passive))
-                totalMod[4] += temp;
+    function applyPassiveStats(passive, type) {
+        if (!passive || passive === 'undefined') return;
+
+        if (/HP \+\d/.test(passive)) {
+            totalMod[0] += parseInt((/[1-9]/.exec(passive)), 10);
+            return;
         }
-        else if (/^\w+\s\+\d$|Squad Ace/.test(passive)) {
-            temp = parseInt((/[1-9]/.exec(passive)), 10);
-            if (/HP/.test(passive))
-                totalMod[0] += temp;
-            if (/Squad Ace [AF]/.test(passive))
-                totalMod[0] += temp + 2;
-            if (/Attack|Squad Ace [EJ]/.test(passive))
-                totalMod[1] += temp;
-            if (/Speed|Squad Ace [DI]/.test(passive))
-                totalMod[2] += temp;
-            if (/Defense|Squad Ace [BG]/.test(passive))
-                totalMod[3] += temp;
-            if (/Resistance|Squad Ace [CH]/.test(passive))
-                totalMod[4] += temp;
-        }
-        else if (/Fury/.test(passive)) {
-            temp = parseInt((/[1-9]/.exec(passive)), 10);
-            totalMod = totalMod.map((x, i) => { return x + (temp * [0, 1, 1, 1, 1][i]); });
-        }
-        else if (/Life and Death/.test(passive)) {
-            temp = parseInt((/[1-9]/.exec(passive)), 10);
-            totalMod = totalMod.map((x, i) => { return x + ((temp + 2) * [0, 1, 1, -1, -1][i]); });
-        }
-        else if (/Fortress Def/.test(passive)) {
-            temp = parseInt((/[1-9]/.exec(passive)), 10);
-            totalMod = totalMod.map((x, i) => { return x + [0, -3, 0, temp + 2, 0][i]; });
-        }
-        else if (/Fortress Res/.test(passive)) {
-            temp = parseInt((/[1-9]/.exec(passive)), 10);
-            totalMod = totalMod.map((x, i) => { return x + [0, -3, 0, 0, temp + 2][i]; });
+
+        let skillData = type === 'S' ? seals[passive] : passives[type][passive];
+        let matches = [];
+        if (/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.test(skillData.effect))
+            matches.push(/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.exec(skillData.effect)[1]);
+        if (/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.test(skillData.effect))
+            matches.push(/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.exec(skillData.effect)[1]);
+        for (let match of matches) {
+            let bonus = /^([\w/]+)\s?(\+|-)(\d)$/.exec(match);
+            let sign = bonus[2] === '+' ? 1 : -1;
+            temp = parseInt(bonus[3], 10);
+            for (let stat of bonus[1].split('/')) {
+                if (/HP/.test(stat))
+                    totalMod[0] += temp * sign;
+                if (/Atk|Attack/.test(stat))
+                    totalMod[1] += temp * sign;
+                if (/Spd|Speed/.test(stat))
+                    totalMod[2] += temp * sign;
+                if (/Def|Defense/.test(stat))
+                    totalMod[3] += temp * sign;
+                if (/Res|Resistance/.test(stat))
+                    totalMod[4] += temp * sign;
+            }
         }
     }
 
