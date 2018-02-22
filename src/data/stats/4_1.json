@@ -811,6 +811,13 @@
     "Def": 3,
     "Res": 5
   },
+  "Takumi (Fallen Heroes)": {
+    "HP": 14,
+    "Atk": 9,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 4
+  },
   "Tharja": {
     "HP": 16,
     "Atk": 8,

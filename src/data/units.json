@@ -1768,6 +1768,64 @@
       ]
     }
   },
+  "Celica (Fallen Heroes)": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Def": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Beloved Zofia"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Luna"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Spd 1"
+        },
+        {
+          "name": "Chill Spd 2"
+        },
+        {
+          "name": "Chill Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1"
+        },
+        {
+          "name": "Hone Atk 2"
+        },
+        {
+          "name": "Hone Atk 3"
+        }
+      ]
+    }
+  },
   "Charlotte (Bridal Blessings)": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -4566,6 +4624,61 @@
         {
           "name": "Obstruct 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Hardin": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "bane": {
+      "HP": 4,
+      "Spd": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Silver Lance"
+        },
+        {
+          "name": "Gradivus"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution"
+        },
+        {
+          "name": "Vengeance"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Def/Res 1"
+        },
+        {
+          "name": "Brazen Def/Res 2"
+        },
+        {
+          "name": "Brazen Def/Res 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1"
+        },
+        {
+          "name": "Bold Fighter 2"
+        },
+        {
+          "name": "Bold Fighter 3"
         }
       ]
     }
@@ -9954,6 +10067,63 @@
       ]
     }
   },
+  "Robin (M) (Fallen Heroes)": {
+    "color": "Green",
+    "wpnType": "Dragon",
+    "movType": "Armored",
+    "boon": {
+      "Atk": 4
+    },
+    "bane": {
+      "Res": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        },
+        {
+          "name": "Flametongue"
+        },
+        {
+          "name": "Expiration"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Ignis"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1"
+        },
+        {
+          "name": "Vengeful Fighter 2"
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1"
+        },
+        {
+          "name": "Spur Def 2"
+        },
+        {
+          "name": "Ward Dragons"
+        }
+      ]
+    }
+  },
   "Robin (M) (Winter's Envoy)": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -11929,6 +12099,66 @@
         },
         {
           "name": "Threaten Spd 3"
+        }
+      ]
+    }
+  },
+  "Takumi (Fallen Heroes)": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Skadi"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeance",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 3
+        },
+        {
+          "name": "Fury 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Smoke 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Smoke 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd Smoke 3"
         }
       ]
     }

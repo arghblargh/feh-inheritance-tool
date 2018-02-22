@@ -209,6 +209,13 @@
     "Def": 22,
     "Res": 22
   },
+  "Celica (Fallen Heroes)": {
+    "HP": 40,
+    "Atk": 35,
+    "Spd": 35,
+    "Def": 27,
+    "Res": 26
+  },
   "Charlotte (Bridal Blessings)": {
     "HP": 46,
     "Atk": 36,
@@ -544,6 +551,13 @@
     "Spd": 36,
     "Def": 23,
     "Res": 26
+  },
+  "Hardin": {
+    "HP": 45,
+    "Atk": 34,
+    "Spd": 28,
+    "Def": 36,
+    "Res": 32
   },
   "Hawkeye": {
     "HP": 45,
@@ -1175,6 +1189,13 @@
     "Def": 29,
     "Res": 22
   },
+  "Robin (M) (Fallen Heroes)": {
+    "HP": 48,
+    "Atk": 40,
+    "Spd": 24,
+    "Def": 35,
+    "Res": 27
+  },
   "Robin (M) (Winter's Envoy)": {
     "HP": 45,
     "Atk": 35,
@@ -1405,6 +1426,13 @@
     "Spd": 33,
     "Def": 25,
     "Res": 18
+  },
+  "Takumi (Fallen Heroes)": {
+    "HP": 37,
+    "Atk": 31,
+    "Spd": 34,
+    "Def": 25,
+    "Res": 24
   },
   "Takumi (Happy New Year!)": {
     "HP": 40,

@@ -632,13 +632,14 @@ class InheritanceTool extends Component {
   handleUnitSelect(unitName) {
     let newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
     newSkills.upgrade = '';
+    let newBoonBane = {"boon":"","bane":""};
 
     this.setState({
       unitName: unitName,
-      boonBane: {"boon":"","bane":""},
+      boonBane: newBoonBane,
       merge: 0,
       supportRank: '',
-      stats: this.getNewStats({ unit: unitName, skills: newSkills }),
+      stats: this.getNewStats({ unit: unitName, skills: newSkills, boonBane: newBoonBane }),
       skills: newSkills,
       totalCost: calcTotalCost(unitName, newSkills)
     });

@@ -120,6 +120,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Beloved Zofia": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+4, but if unit attacked, unit takes 4 damage after combat.",
+    "restriction": "Exclusive"
+  },
   "Berkut's Lance": {
     "color": "Blue",
     "type": "Lance",
@@ -673,6 +681,14 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units.",
+    "restriction": "Exclusive"
+  },
+  "Expiration": {
+    "color": "Green",
+    "type": "Dragon",
+    "cost": 400,
+    "might": 16,
+    "effect": "If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.",
     "restriction": "Exclusive"
   },
   "Falchion": {
@@ -1463,6 +1479,14 @@
     "effect": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
     "restriction": "Exclusive"
   },
+  "Niu": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Spd+3. Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat.",
+    "restriction": "Exclusive"
+  },
   "Nóatún": {
     "color": "Green",
     "type": "Axe",
@@ -1888,6 +1912,14 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Def+3. Deals 20 damage to foes within 2 spaces at the start of each turn.",
+    "restriction": "Exclusive"
+  },
+  "Skadi": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against flying foes. Grants Spd+3. At the start of turn 3, foes within 3 columns centered on unit take 10 damage and bonuses on those foes become penalties through their next actions.",
     "restriction": "Exclusive"
   },
   "Slaying Axe": {
