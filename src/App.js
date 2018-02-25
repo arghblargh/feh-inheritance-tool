@@ -620,7 +620,7 @@ class InheritanceTool extends Component {
       this.state.rarity,
       this.state.level,
       boonBane ? boonBane : this.state.boonBane,
-      merge || merge === '' ? merge : this.state.merge,
+      (merge || merge === '') ? merge : this.state.merge,
       rank ? rank : this.state.supportRank
     )
   }
@@ -632,17 +632,15 @@ class InheritanceTool extends Component {
   handleUnitSelect(unitName) {
     let newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
     newSkills.upgrade = '';
-    let newBoonBane = {"boon":"","bane":""};
 
     this.setState({
       unitName: unitName,
-      boonBane: newBoonBane,
+      boonBane: { boon: '', bane: ''},
       merge: 0,
       supportRank: '',
-      stats: this.getNewStats({ unit: unitName, skills: newSkills, boonBane: newBoonBane }),
       skills: newSkills,
       totalCost: calcTotalCost(unitName, newSkills)
-    });
+    }, this.updateStats);
   }
 
   handleBoonBaneSelect(boonOrBane, value) {
@@ -654,9 +652,8 @@ class InheritanceTool extends Component {
       newBoonBane[other] = '';
 
     this.setState({
-      boonBane: newBoonBane,
-      stats: this.getNewStats({ boonBane: newBoonBane })
-    });
+      boonBane: newBoonBane
+    }, this.updateStats);
   }
 
   // {Rarity}★{Level}
@@ -669,16 +666,14 @@ class InheritanceTool extends Component {
 
   handleMergeSelect(mergeBonus) {
     this.setState({
-      merge: mergeBonus,
-      stats: this.getNewStats({ merge: mergeBonus })
-    });
+      merge: mergeBonus
+    }, this.updateStats);
   }
 
   handleSupportRankSelect(rank) {
     this.setState({
-      supportRank: rank,
-      stats: this.getNewStats({ rank: rank })
-    });
+      supportRank: rank
+    }, this.updateStats);
   }
 
   handleSkillSelect(skillName, skillType) {
@@ -713,20 +708,18 @@ class InheritanceTool extends Component {
         break;
     }
 
-    this.setState({ 
-      stats: this.getNewStats({ skills: newSkills }),
+    this.setState({
       skills: newSkills,
       totalCost: calcTotalCost(this.state.unitName, newSkills)
-    });
+    }, this.updateStats);
   }
 
   handleResetClick() {
     let skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
-      stats: this.getNewStats({ skills: skills }),
       skills: skills,
       totalCost: calcTotalCost(this.state.unitName, skills)
-    })
+    }, this.updateStats)
   }
 
   handleRawStatsToggle(isOn) {
@@ -770,9 +763,8 @@ class InheritanceTool extends Component {
     this.setState({
       boonBane: newBoonBane,
       skills: newSkills,
-      stats: this.getNewStats({ skills: newSkills, boonBane: newBoonBane }),
       totalCost: calcTotalCost(this.state.unitName, newSkills)
-    });
+    }, this.updateStats);
   }
 
   render() {
