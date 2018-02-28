@@ -426,6 +426,13 @@
     "Def": 8,
     "Res": 5
   },
+  "Ephraim (Legendary Lord)": {
+    "HP": 19,
+    "Atk": 10,
+    "Spd": 5,
+    "Def": 9,
+    "Res": 3
+  },
   "Est": {
     "HP": 17,
     "Atk": 9,

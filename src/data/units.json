@@ -3550,6 +3550,65 @@
       ]
     }
   },
+  "Ephraim (Legendary Lord)": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "bane": {
+      "Spd": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Heavy Spear"
+        },
+        {
+          "name": "Flame Siegmund"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight"
+        },
+        {
+          "name": "Sol"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fierce Stance 1"
+        },
+        {
+          "name": "Sturdy Stance 1"
+        },
+        {
+          "name": "Sturdy Stance 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Solar Brace"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1"
+        },
+        {
+          "name": "Fortify Def 2"
+        },
+        {
+          "name": "Fortify Def 3"
+        }
+      ]
+    }
+  },
   "Est": {
     "color": "Blue",
     "wpnType": "Lance",

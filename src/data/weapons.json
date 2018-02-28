@@ -824,6 +824,15 @@
     "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
     "upgrade": "-"
   },
+  "Flame Siegmund": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), unit makes a guaranteed follow-up attack.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Flametongue": {
     "color": "",
     "type": "Dragon",
