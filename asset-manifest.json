@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.97c0e96b.css",
   "main.css.map": "static/css/main.97c0e96b.css.map",
-  "main.js": "static/js/main.a43b3070.js",
-  "main.js.map": "static/js/main.a43b3070.js.map",
+  "main.js": "static/js/main.995f7e49.js",
+  "main.js.map": "static/js/main.995f7e49.js.map",
   "static\\media\\Abel.png": "static/media/Abel.e5be407b.png",
   "static\\media\\Alfonse.png": "static/media/Alfonse.5a7d0c74.png",
   "static\\media\\Alm.png": "static/media/Alm.6652fcef.png",
@@ -65,6 +65,7 @@
   "static\\media\\Eliwood.png": "static/media/Eliwood.e53223c8.png",
   "static\\media\\Eliwood_(Love_Abounds).png": "static/media/Eliwood_(Love_Abounds).71775f84.png",
   "static\\media\\Ephraim.png": "static/media/Ephraim.120d3ac9.png",
+  "static\\media\\Ephraim_(Legendary_Lord).png": "static/media/Ephraim_(Legendary_Lord).a08c854d.png",
   "static\\media\\Est.png": "static/media/Est.8d277c66.png",
   "static\\media\\Fae.png": "static/media/Fae.56780eee.png",
   "static\\media\\Faye.png": "static/media/Faye.1f57abc9.png",
