@@ -592,10 +592,21 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
 
     function applyPassiveStats(passive, type) {
         if (!passive || passive === 'undefined') return;
-
+        
         if (/HP \+\d/.test(passive)) {
             totalMod[0] += parseInt((/[1-9]/.exec(passive)), 10);
             return;
+        }
+        else if (/HP\/\w+ \d/.test(passive)) {
+            console.log(passive);
+            let match = /HP\/(\w+) (\d)/.exec(passive);
+            console.log(match);
+            temp = parseInt(match[2], 10);
+            totalMod[0] += temp + 2;
+            totalMod[match[1] === 'Atk' ? 1 :
+                     match[1] === 'Spd' ? 2 :
+                     match[1] === 'Def' ? 3 :
+                                          4 ] += temp;
         }
 
         let skillData = type === 'S' ? seals[passive] : passives[type][passive];
