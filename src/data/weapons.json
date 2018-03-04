@@ -1927,7 +1927,7 @@
     "color": "Neutral",
     "type": "Bow",
     "cost": 400,
-    "might": 16,
+    "might": 14,
     "effect": "Effective against flying foes. Grants Spd+3. At the start of turn 3, foes within 3 columns centered on unit take 10 damage and bonuses on those foes become penalties through their next actions.",
     "restriction": "Exclusive"
   },
