@@ -342,6 +342,19 @@ function getWeaponUpgrade(unit) {
     return null;
 }
 
+export function getUpgradeEffect(weapon, upgrade) {
+    if (upgrade === 'X') {
+        if (upgrades[weapon].units)
+            return upgrades[weapon].units.find(unit => unit.name.split(',').includes(this.props.unitName)).effect;
+        else
+            return upgrades[weapon].effect;
+    }
+    else if (upgrades[weapon] && upgrades[weapon].common)
+        return upgrades[weapon].common.effect;
+    else
+        return weapons[weapon].effect;
+}
+
 // Check inheritance restrictions.
 function checkRestrictions(unit, skill, restrictions, limitStaff = false, color = '') {
     let unitData = units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
@@ -575,7 +588,8 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
     if (skills) {
         if (skills.weapon && weapons[skills.weapon]) {
             totalMod[1] += weapons[skills.weapon].might;
-            applyWeaponStats();
+            // applyWeaponStats();
+            applySkillStats(skills.weapon, skills.upgrade ? 'U' : 'W');
 
             if (skills.upgrade) {
                 temp = getUpgradeStats();
@@ -583,23 +597,23 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
             }
         }
         
-        applyPassiveStats(skills.passiveA, 'A');
-        applyPassiveStats(skills.seal, 'S');
+        applySkillStats(skills.passiveA, 'A');
+        applySkillStats(skills.seal, 'S');
         applySummonerSupportBonus();
     }
 
     return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);
 
-    function applyPassiveStats(passive, type) {
-        if (!passive || passive === 'undefined') return;
+    function applySkillStats(skill, type) {
+        if (!skill || skill === 'undefined') return;
         
-        if (/HP \+\d/.test(passive)) {
-            totalMod[0] += parseInt((/[1-9]/.exec(passive)), 10);
+        if (/HP \+\d/.test(skill)) {
+            totalMod[0] += parseInt((/[1-9]/.exec(skill)), 10);
             return;
         }
-        else if (/HP\/\w+ \d/.test(passive)) {
-            console.log(passive);
-            let match = /HP\/(\w+) (\d)/.exec(passive);
+        else if (/HP\/\w+ \d/.test(skill)) {
+            console.log(skill);
+            let match = /HP\/(\w+) (\d)/.exec(skill);
             console.log(match);
             temp = parseInt(match[2], 10);
             totalMod[0] += temp + 2;
@@ -609,7 +623,11 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                                           4 ] += temp;
         }
 
-        let skillData = type === 'S' ? seals[passive] : passives[type][passive];
+        let skillData = type === 'S' ? seals[skill] :
+                        type === 'W' ? weapons[skill] : 
+                        type === 'U' ? { effect: getUpgradeEffect(skills.weapon, skills.upgrade) } :
+                                       passives[type][skill];
+        
         let matches = [];
         if (/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.test(skillData.effect))
             matches.push(/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.exec(skillData.effect)[1]);
@@ -629,28 +647,6 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                 if (/Def|Defense/.test(stat))
                     totalMod[3] += temp * sign;
                 if (/Res|Resistance/.test(stat))
-                    totalMod[4] += temp * sign;
-            }
-        }
-    }
-
-    function applyWeaponStats() {
-        // Add stats from weapon
-        var match = /(?:Grants |^)([\w/]+\s?[+-]\d)(?:\.| and)/.exec(weapons[skills.weapon].effect);
-        if (match) {
-            let bonus = /^[\w/]+\s?(\+|-)\d$/.exec(match[1]);
-            let sign = bonus[1] === '+' ? 1 : -1;
-            if (bonus) {
-                temp = parseInt((/[1-9]/.exec(bonus[0])), 10);
-                if (/HP/.test(bonus[0]))
-                    totalMod[0] += temp * sign;
-                if (/Atk|Attack/.test(bonus[0]))
-                    totalMod[1] += temp * sign;
-                if (/Spd|Speed/.test(bonus[0]))
-                    totalMod[2] += temp * sign;
-                if (/Def|Defense/.test(bonus[0]))
-                    totalMod[3] += temp * sign;
-                if (/Res|Resistance/.test(bonus[0]))
                     totalMod[4] += temp * sign;
             }
         }

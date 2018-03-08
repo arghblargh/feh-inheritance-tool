@@ -25,7 +25,7 @@ import './App.css';
 import { Dropdown, TextBox, escapeRegExp, storageAvailable } from './utility.js';
 import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getUnitsWithSkill, getPossibleSkills,
+         parseSkills, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect,
          calcStats, calcCost, calcTotalCost } from './helper.js';
 
 const units = require('./data/units.json');
@@ -255,20 +255,8 @@ class SkillInfoTable extends Component {
     if (weapons[skills.weapon]) {
       weaponEffect += 'Might: ' + weapons[skills.weapon].might + '. ';
 
-      if (skills.upgrade) {
-        if (skills.upgrade === 'X') {
-          if (upgrades[skills.weapon].units)
-            weaponEffect += upgrades[skills.weapon].units.find(unit => unit.name.split(',').includes(this.props.unitName)).effect;
-          else
-            weaponEffect += upgrades[skills.weapon].effect;
-        }
-        else if (weapons[skills.weapon].type === 'Staff')
-          weaponEffect += weapons[skills.weapon].effect + ' ' + (skills.upgrade === 'W' ? upgrades.Staff.Wrathful.effect : upgrades.Staff.Dazzling.effect);
-        else if (upgrades[skills.weapon] && upgrades[skills.weapon].common)
-          weaponEffect += upgrades[skills.weapon].common.effect;
-        else
-          weaponEffect += weapons[skills.weapon].effect;
-      }
+      if (skills.upgrade)
+        weaponEffect += getUpgradeEffect(skills.weapon, skills.upgrade);
       else
         weaponEffect += weapons[skills.weapon].effect;
     }

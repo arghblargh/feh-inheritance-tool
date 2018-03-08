@@ -112,7 +112,7 @@
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Basilikos": {
-        "stats": [3, 5, 5, -5, -5],
+        "stats": [3, 0, 0, 0, 0],
         "effect": "Accelerates Special trigger (cooldown count -1). Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
     "Carrot Axe+": {
