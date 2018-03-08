@@ -454,5 +454,14 @@
   },
   "Squad Ace G 3": {
     "effect": "Grants Def+3."
+  },
+  "Squad Ace H 1": {
+    "effect": "Grants Res+1."
+  },
+  "Squad Ace H 2": {
+    "effect": "Grants Res+2."
+  },
+  "Squad Ace H 3": {
+    "effect": "Grants Res+3."
   }
 }

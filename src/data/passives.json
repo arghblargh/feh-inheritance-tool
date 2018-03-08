@@ -274,15 +274,18 @@
     },
     "Fierce Stance 1": {
       "cost": 50,
-      "effect": "Grants Atk+2 during combat when this unit is attacked."
+      "effect": "Grants Atk+2 during combat when this unit is attacked.",
+      "restriction": "Offense"
     },
     "Fierce Stance 2": {
       "cost": 100,
-      "effect": "Grants Atk+4 during combat when this unit is attacked."
+      "effect": "Grants Atk+4 during combat when this unit is attacked.",
+      "restriction": "Offense"
     },
     "Fierce Stance 3": {
       "cost": 200,
-      "effect": "Grants Atk+6 during combat when this unit is attacked."
+      "effect": "Grants Atk+6 during combat when this unit is attacked.",
+      "restriction": "Offense"
     },
     "Fire Boost 1": {
       "cost": 50,
@@ -432,6 +435,17 @@
     "Life and Death 3": {
       "cost": 200,
       "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
+      "restriction": "Offense"
+    },
+    "Mirror Stance 1": {
+      "cost": 120,
+      "effect": "Grants Atk/Res+2 during combat if foe initiates attack.",
+      "require": "Warding Stance 1|Fierce Stance 1",
+      "restriction": "Offense"
+    },
+    "Mirror Stance 2": {
+      "cost": 240,
+      "effect": "Grants Atk/Res+4 during combat if foe initiates attack.",
       "restriction": "Offense"
     },
     "Mirror Strike 1": {
@@ -755,6 +769,18 @@
       "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
       "restriction": "Weapon:SwLADrBDa"
     },
+    "Chill Def 1": {
+      "cost": 50,
+      "effect": "At the start of each turn, inflicts Def-3 on foe on the enemy team with the highest Def through its next action."
+    },
+    "Chill Def 2": {
+      "cost": 100,
+      "effect": "At the start of each turn, inflicts Def-5 on foe on the enemy team with the highest Def through its next action."
+    },
+    "Chill Def 3": {
+      "cost": 200,
+      "effect": "At the start of each turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
+    },
     "Chill Spd 1": {
       "cost": 50,
       "effect": "At the start of each turn, inflicts Spd-3 on foe on the enemy team with the highest Spd through its next action."
@@ -815,6 +841,18 @@
     "Desperation 3": {
       "cost": 200,
       "effect": "If unit initiates combat with HP ≤ 75%, followup attacks occur immediately after unit's attack."
+    },
+    "Dull Ranged 1": {
+      "cost": 50,
+      "effect": "If unit's HP = 100% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Dull Ranged 2": {
+      "cost": 100,
+      "effect": "If unit's HP ≥ 50% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Dull Ranged 3": {
+      "cost": 200,
+      "effect": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Drag Back": {
       "cost": 150,

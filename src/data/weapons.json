@@ -262,6 +262,20 @@
     "might": 11,
     "effect": "Grants weapon advantage vs. colorless foes."
   },
+  "Blárserpent": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
+  },
+  "Blárserpent+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 10,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
+  },
   "Blárwolf": {
     "color": "Blue",
     "type": "Tome",
@@ -361,7 +375,8 @@
     "cost": 400,
     "might": 14,
     "effect": "If user initiates attack, foe cannot move more than 1 space next turn",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Candelabra": {
     "color": "Red",
@@ -963,6 +978,14 @@
     "effect": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
     "upgrade": "-"
   },
+  "Grima's Truth": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Def+3. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd+5 to unit and allies within 2 spaces for 1 turn.",
+    "restriction": "Exclusive"
+  },
   "Grimoire": {
     "color": "Red",
     "type": "Tome",
@@ -1013,6 +1036,20 @@
     "cost": 300,
     "might": 11,
     "effect": "Grants weapon advantage vs. colorless foes."
+  },
+  "Gronnserpent": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
+  },
+  "Gronnserpent+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 10,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
   },
   "Gronnwolf": {
     "color": "Green",
@@ -1563,6 +1600,21 @@
     "might": 5,
     "effect": "Effective against infantry units. Infantry foes suffer Def/Res-6 after combat through their next actions."
   },
+  "Poleaxe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "Effective against cavalry foes."
+  },
+  "Poleaxe+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "Effective against cavalry foes.",
+    "upgrade": "Special"
+  },
   "Ragnarok": {
     "color": "Red",
     "type": "Tome",
@@ -1629,6 +1681,20 @@
     "cost": 300,
     "might": 11,
     "effect": "Grants weapon advantage vs. colorless foes."
+  },
+  "Rauðrserpent": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 6,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
+  },
+  "Rauðrserpent+": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 300,
+    "might": 10,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
   },
   "Rauðrwolf": {
     "color": "Red",
@@ -1770,6 +1836,14 @@
     "might": 12,
     "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
   },
+  "Sealed Falchion": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against dragon foes. If unit's HP < 100% at start of combat, grants Atk/Spd/Def/Res+5 during combat.",
+    "restriction": "Exclusive"
+  },
   "Sealife Tome": {
     "color": "Blue",
     "type": "Tome",
@@ -1829,7 +1903,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Siegmund": {
     "color": "Blue",
@@ -2239,6 +2314,15 @@
     "cost": 0,
     "might": 4,
     "effect": ""
+  },
+  "Wind's Brand": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Wing Sword": {
     "color": "Red",

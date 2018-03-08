@@ -237,6 +237,13 @@
     "Def": 31,
     "Res": 17
   },
+  "Chrom (Branded King)": {
+    "HP": 41,
+    "Atk": 37,
+    "Spd": 28,
+    "Def": 34,
+    "Res": 17
+  },
   "Chrom (Spring Festival)": {
     "HP": 43,
     "Atk": 35,
@@ -516,6 +523,13 @@
     "Spd": 25,
     "Def": 21,
     "Res": 34
+  },
+  "Gerome": {
+    "HP": 45,
+    "Atk": 38,
+    "Spd": 25,
+    "Def": 34,
+    "Res": 19
   },
   "Gordin": {
     "HP": 43,
@@ -999,6 +1013,20 @@
     "Spd": 28,
     "Def": 20,
     "Res": 34
+  },
+  "Morgan (F)": {
+    "HP": 37,
+    "Atk": 34,
+    "Spd": 30,
+    "Def": 16,
+    "Res": 33
+  },
+  "Morgan (M)": {
+    "HP": 37,
+    "Atk": 33,
+    "Spd": 34,
+    "Def": 20,
+    "Res": 26
   },
   "Myrrh": {
     "HP": 42,

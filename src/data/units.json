@@ -2007,6 +2007,71 @@
       ]
     }
   },
+  "Chrom (Branded King)": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Sealed Falchion"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Luna"
+        },
+        {
+          "name": "Aether"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1"
+        },
+        {
+          "name": "Fury 2"
+        },
+        {
+          "name": "Fury 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Def 1"
+        },
+        {
+          "name": "Chill Def 2"
+        },
+        {
+          "name": "Chill Def 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Sword Valor 1"
+        },
+        {
+          "name": "Sword Valor 2"
+        },
+        {
+          "name": "Sword Valor 3"
+        }
+      ]
+    }
+  },
   "Chrom (Spring Festival)": {
     "color": "Green",
     "wpnType": "Axe",
@@ -4325,6 +4390,27 @@
         },
         {
           "name": "Wrathful Staff 3"
+        }
+      ]
+    }
+  },
+  "Gerome": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Poleaxe"
+        },
+        {
+          "name": "Poleaxe+"
         }
       ]
     }
@@ -8428,6 +8514,119 @@
       ]
     }
   },
+  "Morgan (F)": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light"
+        },
+        {
+          "name": "Ellight"
+        },
+        {
+          "name": "Blárserpent"
+        },
+        {
+          "name": "Blárserpent+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind"
+        },
+        {
+          "name": "Iceberg"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1"
+        },
+        {
+          "name": "Mirror Stance 1"
+        },
+        {
+          "name": "Mirror Stance 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1"
+        },
+        {
+          "name": "Guard 2"
+        },
+        {
+          "name": "Guard 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Ploy 1"
+        },
+        {
+          "name": "Atk Ploy 2"
+        },
+        {
+          "name": "Atk Ploy 3"
+        }
+      ]
+    }
+  },
+  "Morgan (M)": {
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Fenrir"
+        },
+        {
+          "name": "Grima's Truth"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Dragon Fang"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dull Ranged 1"
+        },
+        {
+          "name": "Dull Ranged 2"
+        },
+        {
+          "name": "Dull Ranged 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1"
+        },
+        {
+          "name": "Spur Def/Res 1"
+        },
+        {
+          "name": "Spur Def/Res 2"
+        }
+      ]
+    }
+  },
   "Myrrh": {
     "color": "Green",
     "wpnType": "Dragon",
@@ -11754,6 +11953,9 @@
         },
         {
           "name": "Rexcalibur+"
+        },
+        {
+          "name": "Wind's Brand"
         }
       ],
       "special": [

@@ -62,6 +62,13 @@
         "stats": [3, 0, 0, 0, 0],
         "effect": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
+    "Sieglinde": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "At start of turn, grants adjacent allies Atk+4 for 1 turn. During combat, grants bonus to Atk/Spd/Def/Res = highest bonus on allies within 2 spaces. Each stat bonus calculated independently.",
+        "common": {
+            "effect": "At start of turn, grants adjacent allies Atk+4 for 1 turn."
+        }
+    },
     "Sol Katti": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
@@ -129,9 +136,20 @@
             "effect": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
         }
     },
+    "Poleaxe+": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
     "Slaying Hammer+": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Brynhildr": {
+        "stats": [0, 0, 0, 0, 0],
+        "effect": "If in combat against magic foe, reduces damage from foe's first attack by 30%. If foe uses bow, dagger, magic, or staff and unit's Def ≥ foe's Def+1, foe cannot make a follow-up attack.",
+        "common": {
+            "effect": "If in combat against magic foe, reduces damage from foe's first attack by 30%."
+        }
     },
     "Cymbeline": {
         "stats": [0, 0, 0, 0, 0],
@@ -171,6 +189,10 @@
         "common": {
             "effect": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
         }
+    },
+    "Wind's Brand": {
+        "stats": [0, 0, 0, 0, 0],
+        "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action. During combat, boosts Atk/Spd/Def/Res by number of adjacent allies x 2."
     },
     "Dark Breath+": {
         "common": {

@@ -34,7 +34,7 @@ const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
 const seals = require('./data/seals.json');
-const upgrades = require('./data/upgrades.json');
+// const upgrades = require('./data/upgrades.json');
 
 class SkillInfoRow extends Component {
   constructor(props) {
