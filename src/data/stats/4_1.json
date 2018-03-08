@@ -293,6 +293,13 @@
     "Def": 4,
     "Res": 3
   },
+  "Gerome": {
+    "HP": 18,
+    "Atk": 10,
+    "Spd": 5,
+    "Def": 8,
+    "Res": 3
+  },
   "Gordin": {
     "HP": 18,
     "Atk": 7,

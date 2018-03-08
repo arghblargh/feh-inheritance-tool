@@ -266,15 +266,16 @@
     "color": "Blue",
     "type": "Tome",
     "cost": 200,
-    "might": 6,
+    "might": 8,
     "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
   },
   "Blárserpent+": {
     "color": "Blue",
     "type": "Tome",
     "cost": 300,
-    "might": 10,
-    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
+    "might": 12,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff.",
+    "upgrade": "-"
   },
   "Blárwolf": {
     "color": "Blue",
@@ -1041,15 +1042,16 @@
     "color": "Green",
     "type": "Tome",
     "cost": 200,
-    "might": 6,
+    "might": 8,
     "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
   },
   "Gronnserpent+": {
     "color": "Green",
     "type": "Tome",
     "cost": 300,
-    "might": 10,
-    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
+    "might": 12,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff.",
+    "upgrade": "-"
   },
   "Gronnwolf": {
     "color": "Green",
@@ -1605,14 +1607,14 @@
     "type": "Axe",
     "cost": 200,
     "might": 10,
-    "effect": "Effective against cavalry foes."
+    "effect": "Effective against cavalry units."
   },
   "Poleaxe+": {
     "color": "Green",
     "type": "Axe",
     "cost": 300,
     "might": 14,
-    "effect": "Effective against cavalry foes.",
+    "effect": "Effective against cavalry units.",
     "upgrade": "Special"
   },
   "Ragnarok": {
@@ -1686,15 +1688,16 @@
     "color": "Red",
     "type": "Tome",
     "cost": 200,
-    "might": 6,
+    "might": 8,
     "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
   },
   "Rauðrserpent+": {
     "color": "Red",
     "type": "Tome",
     "cost": 300,
-    "might": 10,
-    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff."
+    "might": 12,
+    "effect": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff.",
+    "upgrade": "-"
   },
   "Rauðrwolf": {
     "color": "Red",

@@ -2007,10 +2007,15 @@
       ]
     }
   },
-  "Chrom (Branded King)": {
+  "Chrom (The Branded King)": {
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
+    "bane": {
+      "HP": 4,
+      "Spd": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -4401,16 +4406,49 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Axe"
+          "name": "Iron Axe",
+          "unlock": 4
         },
         {
-          "name": "Steel Axe"
+          "name": "Steel Axe",
+          "unlock": 4
         },
         {
-          "name": "Poleaxe"
+          "name": "Poleaxe",
+          "unlock": 4
         },
         {
           "name": "Poleaxe+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Def",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fortress Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Fortress Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fortress Def 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Hit and Run",
+          "unlock": 4
         }
       ]
     }
@@ -8518,13 +8556,19 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
-          "name": "Light"
+          "name": "Thunder"
         },
         {
-          "name": "Ellight"
+          "name": "Elthunder"
         },
         {
           "name": "Blárserpent"
@@ -8580,6 +8624,10 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "boon": {
+      "HP": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -8616,7 +8664,7 @@
       ],
       "passiveC": [
         {
-          "name": "Spur Def 1"
+          "name": "Spur Res 1"
         },
         {
           "name": "Spur Def/Res 1"
