@@ -256,7 +256,7 @@ class SkillInfoTable extends Component {
       weaponEffect += 'Might: ' + weapons[skills.weapon].might + '. ';
 
       if (skills.upgrade)
-        weaponEffect += getUpgradeEffect(skills.weapon, skills.upgrade);
+        weaponEffect += getUpgradeEffect(skills.weapon, skills.upgrade, this.props.unitName);
       else
         weaponEffect += weapons[skills.weapon].effect;
     }

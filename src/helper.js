@@ -342,10 +342,10 @@ function getWeaponUpgrade(unit) {
     return null;
 }
 
-export function getUpgradeEffect(weapon, upgrade) {
+export function getUpgradeEffect(weapon, upgrade, unitName) {
     if (upgrade === 'X') {
         if (upgrades[weapon].units)
-            return upgrades[weapon].units.find(unit => unit.name.split(',').includes(this.props.unitName)).effect;
+            return upgrades[weapon].units.find(unit => unit.name.split(',').includes(unitName)).effect;
         else
             return upgrades[weapon].effect;
     }
@@ -625,7 +625,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
 
         let skillData = type === 'S' ? seals[skill] :
                         type === 'W' ? weapons[skill] : 
-                        type === 'U' ? { effect: getUpgradeEffect(skills.weapon, skills.upgrade) } :
+                        type === 'U' ? { effect: getUpgradeEffect(skills.weapon, skills.upgrade, unit) } :
                                        passives[type][skill];
         
         let matches = [];
