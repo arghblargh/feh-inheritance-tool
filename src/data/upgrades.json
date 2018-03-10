@@ -71,7 +71,7 @@
     },
     "Sol Katti": {
         "stats": [3, 0, 0, 0, 0],
-        "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
+        "effect": "If unit initiates combat with HP ≤ 75%, follow-up attacks occur immediately after unit's attack. If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
         "common": {
             "effect": "If unit initiates combat with HP ≤ 75%, follow-up attacks occur immediately after unit's attack."
         }
@@ -109,7 +109,7 @@
     },
     "Siegmund": {
         "stats": [3, 0, 0, 0, 0],
-        "effect": "If unit initiates combat and unit's HP ≥ 90%, unit makes a guaranteed follow-up attack.",
+        "effect": "Grants adjacent allies Atk+4 through their next actions at the start of each turn. If unit initiates combat and unit's HP ≥ 90%, unit makes a guaranteed follow-up attack.",
         "common": {
             "effect": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
         }
