@@ -114,57 +114,68 @@ class SkillInfoRow extends Component {
 
     let skillDropdown, skillLevel;
     let hasSkillLevel = false;
-
-    if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].upgrade) {
-      var upgradeFlags = weapons[this.props.skillName].upgrade;
-      hasSkillLevel = true;
-      skillDropdown = 
-        <td className="skill-name-sub">
-          <Dropdown addClass='skillNameSub'
-                    options={this.props.options}
-                    value={this.props.skillName}
-                    onChange={this.handleSkillSelect} />
-        </td>;
-      skillLevel =
-        <td className="skill-level">
-          <Dropdown addClass='skillLevel'
-                    options={(/Legendary|Special/.test(upgradeFlags) ? ['', 'X'] : ['']).concat(['A', 'S', 'D', 'R'])}
-                    value={this.props.upgrade}
-                    onChange={this.handleWeaponUpgradeSelect} />
-        </td>;
-    } else if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].type === 'Staff' && /\+/.test(this.props.skillName)) {
-      hasSkillLevel = true;
-      skillDropdown = 
-        <td className="skill-name-sub">
-          <Dropdown addClass='skillNameSub'
-                    options={this.props.options}
-                    value={this.props.skillName}
-                    onChange={this.handleSkillSelect} />
-        </td>;
-      skillLevel =
-        <td className="skill-level">
-          <Dropdown addClass='skillLevel'
-                    options={['', 'W', 'D']}
-                    value={this.props.upgrade}
-                    onChange={this.handleWeaponUpgradeSelect} />
-        </td>;
-    } else if (/[1-9]/.test(this.props.skillName)) {
-      hasSkillLevel = true;
-      skillDropdown = 
-        <td className="skill-name-sub">
-          <Dropdown addClass='skillNameSub'
-                    options={this.props.options}
-                    value={/[^1-9]*/.exec(this.props.skillName)[0]}
-                    onChange={this.handlePassiveSkillSelect} />
-        </td>;
-      skillLevel =
-        <td className="skill-level">
-          <Dropdown addClass='skillLevel'
-                    options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0])}
-                    value={/[1-9]/.exec(this.props.skillName)[0]}
-                    onChange={this.handleSkillLevelSelect} />
-        </td>;
-    } else {
+    
+    try {
+      if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].upgrade) {
+        var upgradeFlags = weapons[this.props.skillName].upgrade;
+        hasSkillLevel = true;
+        skillDropdown = 
+          <td className="skill-name-sub">
+            <Dropdown addClass='skillNameSub'
+                      options={this.props.options}
+                      value={this.props.skillName}
+                      onChange={this.handleSkillSelect} />
+          </td>;
+        skillLevel =
+          <td className="skill-level">
+            <Dropdown addClass='skillLevel'
+                      options={(/Legendary|Special/.test(upgradeFlags) ? ['', 'X'] : ['']).concat(['A', 'S', 'D', 'R'])}
+                      value={this.props.upgrade}
+                      onChange={this.handleWeaponUpgradeSelect} />
+          </td>;
+      } else if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].type === 'Staff' && /\+/.test(this.props.skillName)) {
+        hasSkillLevel = true;
+        skillDropdown = 
+          <td className="skill-name-sub">
+            <Dropdown addClass='skillNameSub'
+                      options={this.props.options}
+                      value={this.props.skillName}
+                      onChange={this.handleSkillSelect} />
+          </td>;
+        skillLevel =
+          <td className="skill-level">
+            <Dropdown addClass='skillLevel'
+                      options={['', 'W', 'D']}
+                      value={this.props.upgrade}
+                      onChange={this.handleWeaponUpgradeSelect} />
+          </td>;
+      } else if (/[1-9]/.test(this.props.skillName)) {
+        hasSkillLevel = true;
+        skillDropdown = 
+          <td className="skill-name-sub">
+            <Dropdown addClass='skillNameSub'
+                      options={this.props.options}
+                      value={/[^1-9]*/.exec(this.props.skillName)[0]}
+                      onChange={this.handlePassiveSkillSelect} />
+          </td>;
+        skillLevel =
+          <td className="skill-level">
+            <Dropdown addClass='skillLevel'
+                      options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0])}
+                      value={/[1-9]/.exec(this.props.skillName)[0]}
+                      onChange={this.handleSkillLevelSelect} />
+          </td>;
+      } else {
+        skillDropdown = 
+          <td className="skill-name" colSpan="2">
+            <Dropdown addClass='skillName'
+                      options={this.props.options}
+                      value={this.props.skillName}
+                      onChange={/passive|seal/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
+          </td>;
+      }
+    }
+    catch (ex) {
       skillDropdown = 
         <td className="skill-name" colSpan="2">
           <Dropdown addClass='skillName'

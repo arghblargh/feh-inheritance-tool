@@ -156,7 +156,7 @@ export class BuildManager extends React.PureComponent {
                 var hasError = false;
                 
                 try {
-                    buildName = /name\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim();
+                    buildName = /name\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim();
                 }
                 catch (TypeError) {
                     console.error('Error retrieving build name.');
@@ -165,7 +165,7 @@ export class BuildManager extends React.PureComponent {
 
                 try {
                     if (/ivs/.test(response)) {
-                        let bbStr = /ivs\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim();
+                        let bbStr = /ivs\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim();
                         if (!bbStr || /Neutral|Any/i.test(bbStr)) {
                             build.Boon = '';
                             build.Bane = '';
@@ -187,18 +187,18 @@ export class BuildManager extends React.PureComponent {
                 }
 
                 try {
-                    build.Weapon = /weapon=/.test(response) ? /weapon\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
-                    build.Assist = /assist=/.test(response) ? /assist\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
-                    build.Special = /special=/.test(response) ? /special\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
-                    build.PassiveA = /passiveA=/.test(response) ? /passiveA\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
-                    build.PassiveB = /passiveB=/.test(response) ? /passiveB\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
-                    build.PassiveC = /passiveC=/.test(response) ? /passiveC\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
-                    build.Seal = /seal=/.test(response) ? /seal\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim() : '';
+                    build.Weapon = /weapon=/.test(response) ? /weapon\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.Assist = /assist=/.test(response) ? /assist\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.Special = /special=/.test(response) ? /special\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveA = /passiveA=/.test(response) ? /passiveA\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveB = /passiveB=/.test(response) ? /passiveB\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveC = /passiveC=/.test(response) ? /passiveC\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.Seal = /seal=/.test(response) ? /seal\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
 
                     build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr');
-
+                    
                     if (/weaponRefine=/.test(response)) {
-                        let upgrade = /weaponRefine\s*?=\s*?(.*?)(?:\\n|[|}])/i.exec(response)[1].trim().toLowerCase();
+                        let upgrade = /weaponRefine\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim().toLowerCase();
                         switch (upgrade) {
                             case 'skill':
                                 build.Upgrade = units[unitName].wpnType === 'Staff' ? 'W' : 'X';
