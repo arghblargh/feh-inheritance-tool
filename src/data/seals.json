@@ -66,6 +66,15 @@
   "Def Ploy 3": {
     "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action."
   },
+  "Def Tactic 1": {
+    "effect": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+  },
+  "Def Tactic 2": {
+    "effect": "At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+  },
+  "Def Tactic 3": {
+    "effect": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+  },
   "Defense +1": {
     "effect": "Grants Def +1."
   },
@@ -211,6 +220,15 @@
     "effect": "Neutralizes \"effective against\" bonuses.",
     "restriction": "Flying"
   },
+  "Obstruct 1": {
+    "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 90%. (No effect on foes with a Pass skill.)"
+  },
+  "Obstruct 2": {
+    "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 70%. (No effect on foes with a Pass skill.)"
+  },
+  "Obstruct 3": {
+    "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 50%. (No effect on foes with a Pass skill.)"
+  },
   "Panic Ploy 1": {
     "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action."
   },
@@ -252,6 +270,15 @@
   },
   "Quickened Pulse": {
     "effect": "Special cooldown count -1 at start of Turn 1."
+  },
+  "Res Ploy 1": {
+    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3 until the end of foe's next action."
+  },
+  "Res Ploy 2": {
+    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-4 until the end of foe's next action."
+  },
+  "Res Ploy 3": {
+    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action."
   },
   "Resistance +1": {
     "effect": "Grants Res +1."
