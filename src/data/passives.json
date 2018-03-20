@@ -501,6 +501,18 @@
       "cost": 160,
       "effect": "Grants Spd/Res+2."
     },
+    "Spd/Res Bond 1": {
+      "cost": 60,
+      "effect": "Grants Spd/Res+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Res Bond 2": {
+      "cost": 120,
+      "effect": "Grants Spd/Res+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Res Bond 3": {
+      "cost": 240,
+      "effect": "Grants Spd/Res+5 to this unit during combat if unit is adjacent to an ally."
+    },
     "Speed +1": {
       "cost": 30,
       "effect": "Grants Spd +1."
@@ -577,6 +589,17 @@
     "Swift Sparrow 2": {
       "cost": 240,
       "effect": "If unit initiates combat, unit granted Atk/Spd+4 during battle.",
+      "restriction": "Offense"
+    },
+    "Swift Stance 1": {
+      "cost": 120,
+      "effect": "Grants Spd/Res+2 during combat if foe initiates combat.",
+      "require": "Warding Stance 1",
+      "restriction": "Offense"
+    },
+    "Swift Stance 2": {
+      "cost": 240,
+      "effect": "Grants Spd/Res+4 during combat if foe initiates combat.",
       "restriction": "Offense"
     },
     "Swift Strike 1": {
@@ -780,6 +803,18 @@
     "Chill Def 3": {
       "cost": 200,
       "effect": "At the start of each turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
+    },
+    "Chill Res 1": {
+      "cost": 50,
+      "effect": "At the start of each turn, inflicts Res-3 on foe on the enemy team with the highest Res through its next action."
+    },
+    "Chill Res 2": {
+      "cost": 100,
+      "effect": "At the start of each turn, inflicts Res-5 on foe on the enemy team with the highest Res through its next action."
+    },
+    "Chill Res 3": {
+      "cost": 200,
+      "effect": "At the start of each turn, inflicts Res-7 on foe on the enemy team with the highest Res through its next action."
     },
     "Chill Spd 1": {
       "cost": 50,
@@ -1527,6 +1562,18 @@
       "cost": 240,
       "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action."
     },
+    "Def Smoke 1": {
+      "cost": 60,
+      "effect": "After combat, inflicts Def-3 on foes within within 2 spaces of target through their next actions."
+    },
+    "Def Smoke 2": {
+      "cost": 120,
+      "effect": "After combat, inflicts Def-5 on foes within within 2 spaces of target through their next actions."
+    },
+    "Def Smoke 3": {
+      "cost": 240,
+      "effect": "After combat, inflicts Def-7 on foes within within 2 spaces of target through their next actions."
+    },
     "Def Tactic 1": {
       "cost": 60,
       "effect": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
@@ -1850,6 +1897,18 @@
     "Spd Smoke 3": {
       "cost": 240,
       "effect": "After combat, inflicts Spd-7 on foes within within 2 spaces of target through their next actions."
+    },
+    "Spd Tactic 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Spd+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Spd Tactic 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Spd+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Spd Tactic 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Spur Atk 1": {
       "cost": 50,

@@ -896,6 +896,20 @@
     "effect": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.",
     "restriction": "Exclusive"
   },
+  "Giant Spoon": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 9,
+    "effect": "Deals +10 damage when Special triggers."
+  },
+  "Giant Spoon+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 13,
+    "effect": "Deals +10 damage when Special triggers."
+  },
   "Gleipnir": {
     "color": "Red",
     "type": "Tome",
@@ -1187,6 +1201,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Huginn's Egg": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. At start of turn, if unit's HP ≥ 50%, inflicts Atk/Def-5 on foe on the enemy team with the lowest Res through its next action.",
+    "restriction": "Exclusive"
+  },
   "Iron Axe": {
     "color": "Green",
     "type": "Axe",
@@ -1404,6 +1426,20 @@
     "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
+  "Lethal Carrot": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Lethal Carrot+": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+  },
   "Light": {
     "color": "Blue",
     "type": "Tome",
@@ -1492,6 +1528,14 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units. Grants Spd+3. If foe is magic user, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat.",
+    "restriction": "Exclusive"
+  },
+  "Muninn's Egg": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. At start of turn, if unit's HP ≥ 50%, inflicts Atk/Res-5 on foe on the enemy team with the lowest Spd through its next action.",
     "restriction": "Exclusive"
   },
   "Mystletainn": {

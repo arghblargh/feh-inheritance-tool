@@ -13530,5 +13530,210 @@
         }
       ]
     }
+  },
+  "Catria (Hares at the Fair)": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Huginn's Egg"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Res 1"
+        },
+        {
+          "name": "Chill Res 2"
+        },
+        {
+          "name": "Chill Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1"
+        },
+        {
+          "name": "Drive Spd 1"
+        },
+        {
+          "name": "Drive Spd 2"
+        }
+      ]
+    }
+  },
+  "Sharena (Hares at the Fair)": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Muninn's Egg"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed"
+        },
+        {
+          "name": "Rally Atk/Spd"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1"
+        },
+        {
+          "name": "Swift Stance 1"
+        },
+        {
+          "name": "Swift Stance 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Bounty"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Tactic 1"
+        },
+        {
+          "name": "Res Tactic 2"
+        },
+        {
+          "name": "Res Tactic 3"
+        }
+      ]
+    }
+  },
+  "Alfonse (Hares at the Fair)": {
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Giant Spoon"
+        },
+        {
+          "name": "Giant Spoon+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight"
+        },
+        {
+          "name": "Noontime"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
+        {
+          "name": "Sturdy Blow 1"
+        },
+        {
+          "name": "Sturdy Blow 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Smoke 1"
+        },
+        {
+          "name": "Def Smoke 2"
+        },
+        {
+          "name": "Def Smoke 3"
+        }
+      ]
+    }
+  },
+  "Kagero (Hares at the Fair)": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Lethal Carrot"
+        },
+        {
+          "name": "Lethal Carrot+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Spd/Res Bond 1"
+        },
+        {
+          "name": "Spd/Res Bond 2"
+        },
+        {
+          "name": "Spd/Res Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Honor"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk 2"
+        },
+        {
+          "name": "Goad Fliers"
+        }
+      ]
+    }
   }
 }
