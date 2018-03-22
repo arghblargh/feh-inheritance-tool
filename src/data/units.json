@@ -8803,13 +8803,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Flux"
+          "name": "Flux",
+          "unlock": 4
         },
         {
-          "name": "Ruin"
+          "name": "Ruin",
+          "unlock": 4
         },
         {
-          "name": "Fenrir"
+          "name": "Fenrir",
+          "unlock": 4
         },
         {
           "name": "Grima's Truth"
@@ -8817,18 +8820,22 @@
       ],
       "special": [
         {
-          "name": "Dragon Gaze"
+          "name": "Dragon Gaze",
+          "unlock": 4
         },
         {
-          "name": "Dragon Fang"
+          "name": "Dragon Fang",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Dull Ranged 1"
+          "name": "Dull Ranged 1",
+          "unlock": 4
         },
         {
-          "name": "Dull Ranged 2"
+          "name": "Dull Ranged 2",
+          "unlock": 4
         },
         {
           "name": "Dull Ranged 3"
@@ -8836,13 +8843,16 @@
       ],
       "passiveC": [
         {
-          "name": "Spur Res 1"
+          "name": "Spur Res 1",
+          "unlock": 4
         },
         {
-          "name": "Spur Def/Res 1"
+          "name": "Spur Def/Res 1",
+          "unlock": 4
         },
         {
-          "name": "Spur Def/Res 2"
+          "name": "Spur Def/Res 2",
+          "unlock": 4
         }
       ]
     }
