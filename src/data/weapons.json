@@ -1431,7 +1431,7 @@
     "type": "Dagger",
     "cost": 200,
     "might": 8,
-    "effect": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    "effect": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
   },
   "Lethal Carrot+": {
     "color": "Neutral",

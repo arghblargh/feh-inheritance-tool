@@ -168,6 +168,21 @@
       "effect": "Grants Spd+6 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
+    "Darting Stance 1": {
+      "cost": 50,
+      "effect": "Grants Spd+2 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
+    "Darting Stance 2": {
+      "cost": 100,
+      "effect": "Grants Spd+4 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
+    "Darting Stance 3": {
+      "cost": 200,
+      "effect": "Grants Spd+6 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
     "Death Blow 1": {
       "cost": 50,
       "effect": "Grants Atk+2 during combat if unit initiates the attack.",
@@ -594,7 +609,7 @@
     "Swift Stance 1": {
       "cost": 120,
       "effect": "Grants Spd/Res+2 during combat if foe initiates combat.",
-      "require": "Warding Stance 1",
+      "require": "Warding Stance 1|Darting Stance 1",
       "restriction": "Offense"
     },
     "Swift Stance 2": {

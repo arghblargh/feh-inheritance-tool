@@ -13,6 +13,13 @@
     "Def": 32,
     "Res": 22
   },
+  "Alfonse (Hares at the Fair)": {
+    "HP": 41,
+    "Atk": 35,
+    "Spd": 33,
+    "Def": 30,
+    "Res": 18
+  },
   "Alm": {
     "HP": 45,
     "Atk": 33,
@@ -194,6 +201,13 @@
     "Spd": 34,
     "Def": 29,
     "Res": 25
+  },
+  "Catria (Hares at the Fair)": {
+    "HP": 36,
+    "Atk": 32,
+    "Spd": 35,
+    "Def": 18,
+    "Res": 23
   },
   "Cecilia": {
     "HP": 36,
@@ -719,6 +733,13 @@
     "Spd": 32,
     "Def": 22,
     "Res": 28
+  },
+  "Kagero (Hares at the Fair)": {
+    "HP": 36,
+    "Atk": 35,
+    "Spd": 34,
+    "Def": 18,
+    "Res": 27
   },
   "Karel": {
     "HP": 47,
@@ -1356,6 +1377,13 @@
     "Spd": 32,
     "Def": 29,
     "Res": 22
+  },
+  "Sharena (Hares at the Fair)": {
+    "HP": 37,
+    "Atk": 32,
+    "Spd": 36,
+    "Def": 16,
+    "Res": 30
   },
   "Sheena": {
     "HP": 45,
