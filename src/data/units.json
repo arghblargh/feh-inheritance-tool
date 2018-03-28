@@ -10436,6 +10436,62 @@
       ]
     }
   },
+  "Robin (F) (Fell Vessel)": {
+    "color": "Neutral",
+    "wpnType": "Dragon",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        },
+        {
+          "name": "Flametongue"
+        },
+        {
+          "name": "Expiration"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Bonfire"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Dragonskin"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Cancel Affinity 1"
+        },
+        {
+          "name": "Cancel Affinity 2"
+        },
+        {
+          "name": "Cancel Affinity 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Smoke 1"
+        },
+        {
+          "name": "Res Smoke 2"
+        },
+        {
+          "name": "Res Smoke 3"
+        }
+      ]
+    }
+  },
   "Robin (F) (Ylissean Summer)": {
     "color": "Blue",
     "wpnType": "Lance",

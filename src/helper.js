@@ -70,6 +70,7 @@ export const weaponIcon = {
     "Neutral" : {
         "Bow"    : require('./img/icon/weapon/neutral/Bow.png'),
         "Dagger" : require('./img/icon/weapon/neutral/Dagger.png'),
+        "Dragon" : require('./img/icon/weapon/neutral/Dragon.png'),
         "Staff"  : require('./img/icon/weapon/neutral/Staff.png')
     }
 };
@@ -612,9 +613,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
             return;
         }
         else if (/HP\/\w+ \d/.test(skill)) {
-            console.log(skill);
             let match = /HP\/(\w+) (\d)/.exec(skill);
-            console.log(match);
             temp = parseInt(match[2], 10);
             totalMod[0] += temp + 2;
             totalMod[match[1] === 'Atk' ? 1 :

@@ -700,7 +700,7 @@
     "restriction": "Exclusive"
   },
   "Expiration": {
-    "color": "Green",
+    "color": "",
     "type": "Dragon",
     "cost": 400,
     "might": 16,
@@ -956,7 +956,7 @@
     "effect": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions."
   },
   "Great Flame": {
-    "color": "Green",
+    "color": "",
     "type": "Dragon",
     "cost": 400,
     "might": 16,

@@ -275,6 +275,11 @@
       "cost": 240,
       "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
     },
+    "Dragonskin": {
+      "cost": 300,
+      "effect": "Neutralizes \"effective against flying\" bonuses. Grants Def/Res+4 during combat if foe initiates combat.",
+      "restriction": "Dragon"
+    },
     "Earth Boost 1": {
       "cost": 50,
       "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+2 during combat."
@@ -1864,6 +1869,18 @@
     "Res Ploy 3": {
       "cost": 240,
       "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action."
+    },
+    "Res Smoke 1": {
+      "cost": 60,
+      "effect": "After combat, inflicts Res-3 on foes within within 2 spaces of target through their next actions."
+    },
+    "Res Smoke 2": {
+      "cost": 120,
+      "effect": "After combat, inflicts Res-5 on foes within within 2 spaces of target through their next actions."
+    },
+    "Res Smoke 3": {
+      "cost": 240,
+      "effect": "After combat, inflicts Res-7 on foes within within 2 spaces of target through their next actions."
     },
     "Res Tactic 1": {
       "cost": 60,
