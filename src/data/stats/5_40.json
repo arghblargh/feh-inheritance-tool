@@ -1231,6 +1231,13 @@
     "Def": 29,
     "Res": 22
   },
+  "Robin (F) (Fell Vessel)": {
+    "HP": 40,
+    "Atk": 32,
+    "Spd": 35,
+    "Def": 30,
+    "Res": 25
+  },
   "Robin (F) (Ylissean Summer)": {
     "HP": 35,
     "Atk": 32,

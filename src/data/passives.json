@@ -278,7 +278,7 @@
     "Dragonskin": {
       "cost": 300,
       "effect": "Neutralizes \"effective against flying\" bonuses. Grants Def/Res+4 during combat if foe initiates combat.",
-      "restriction": "Dragon"
+      "restriction": "Exclusive"
     },
     "Earth Boost 1": {
       "cost": 50,

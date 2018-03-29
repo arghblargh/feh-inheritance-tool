@@ -10440,6 +10440,12 @@
     "color": "Neutral",
     "wpnType": "Dragon",
     "movType": "Flying",
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
