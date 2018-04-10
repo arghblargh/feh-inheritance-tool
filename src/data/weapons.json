@@ -4,7 +4,7 @@
     "type": "Staff",
     "cost": 150,
     "might": 4,
-    "effect": "Recovers HP=50% of damage dealt."
+    "effect": "Recovers HP = 50% of damage dealt."
   },
   "Absorb+": {
     "color": "Neutral",
@@ -18,7 +18,7 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
   "Amiti": {
@@ -157,7 +157,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Def/Res+2 when this unit is attacked.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Blazing Durandal": {
     "color": "Red",
@@ -871,6 +872,15 @@
     "might": 4,
     "effect": ""
   },
+  "Forblaze": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "At start of turn, inflicts Res-7 on foe on the enemy team with the highest Res through its next action.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Fujin Yumi": {
     "color": "Neutral",
     "type": "Bow",
@@ -923,7 +933,7 @@
     "type": "Lance",
     "cost": 400,
     "might": 16,
-    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
   "Gratia": {
@@ -1447,6 +1457,14 @@
     "might": 4,
     "effect": ""
   },
+  "Light Brand": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. If foe's Def ≥ foe's Res+5, deals +7 damage.",
+    "restriction": "Exclusive"
+  },
   "Light Breath": {
     "color": "",
     "type": "Dragon",
@@ -1467,14 +1485,14 @@
     "type": "Dragon",
     "cost": 200,
     "might": 7,
-    "effect": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1)."
+    "effect": "Unit can counterattack regardless of foe's range. Slows Special trigger (cooldown count+1)."
   },
   "Lightning Breath+": {
     "color": "",
     "type": "Dragon",
     "cost": 300,
     "might": 11,
-    "effect": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count +1)",
+    "effect": "Unit can counterattack regardless of foe's range. Slows Special trigger (cooldown count +1)",
     "upgrade": "Mt:1"
   },
   "Lilith Floatie": {
@@ -1491,6 +1509,14 @@
     "might": 14,
     "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
     "upgrade": "-"
+  },
+  "Meisterschwert": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 11,
+    "effect": "Inflicts Spd-5. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.)",
+    "restriction": "Exclusive"
   },
   "Melon Crusher": {
     "color": "Green",
@@ -1562,6 +1588,15 @@
     "might": 14,
     "effect": "Grants weapon-triangle advantage against colorless foes.",
     "restriction": "Exclusive"
+  },
+  "Nameless Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Nidhogg": {
     "color": "Neutral",
@@ -1674,7 +1709,7 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
   "Raijinto": {
@@ -1682,7 +1717,7 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
   "Rauðrblade": {
@@ -1778,7 +1813,8 @@
     "cost": 400,
     "might": 16,
     "effect": "If foe's HP is 100% when combat starts, unit receives Atk/Spd+2 during combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Resolute Blade": {
     "color": "Red",
@@ -1941,7 +1977,7 @@
     "type": "Sword",
     "cost": 400,
     "might": 16,
-    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
   "Sieglinde": {
@@ -2236,7 +2272,7 @@
     "type": "Axe",
     "cost": 400,
     "might": 16,
-    "effect": "Enables counterattack regardless of distance if this unit is attacked.",
+    "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
   "Tannenboom!": {
@@ -2283,6 +2319,14 @@
     "cost": 0,
     "might": 4,
     "effect": ""
+  },
+  "Thunderhead": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Adds total bonuses on unit to damage dealt.",
+    "restriction": "Exclusive"
   },
   "Thökk": {
     "color": "Neutral",
@@ -2345,6 +2389,14 @@
     "cost": 400,
     "might": 16,
     "effect": "If unit is attacked by foe using sword, axe, or lance, unit receives Def+7 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Wargod's Tome": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "At start of turn, inflicts Atk/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
     "restriction": "Exclusive"
   },
   "Weirding Tome": {

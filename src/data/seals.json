@@ -490,5 +490,14 @@
   },
   "Squad Ace H 3": {
     "effect": "Grants Res+3."
+  },
+  "Squad Ace I 1": {
+    "effect": "Grants Spd+1."
+  },
+  "Squad Ace I 2": {
+    "effect": "Grants Spd+2."
+  },
+  "Squad Ace I 3": {
+    "effect": "Grants Spd+3."
   }
 }

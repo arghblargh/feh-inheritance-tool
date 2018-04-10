@@ -123,6 +123,16 @@
         "cost": 150,
         "effect": "Moves adjacent ally to opposite side of unit."
     },
+    "Restore": {
+        "cost": 200,
+        "effect": "Restores 8 HP. Neutralizes ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action.",
+        "restriction": "Staff"
+    },
+    "Restore+": {
+        "cost": 300,
+        "effect": "Restores HP = 50% of Atk. (Minimum of 8 HP.) Neutralizes ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action.",
+        "restriction": "Staff"
+    },
     "Sacrifice": {
         "cost": 400,
         "effect": "Converts penalties on target into bonuses. Restores target's HP = unit's current HP -1. Unit's HP reduced by amount restored.",

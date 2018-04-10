@@ -4028,6 +4028,23 @@
       ]
     }
   },
+  "Finn": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "boon": {},
+    "bane": {},
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        }
+      ]
+    }
+  },
   "Fir": {
     "color": "Red",
     "wpnType": "Sword",
@@ -4054,6 +4071,9 @@
         },
         {
           "name": "Killing Edge+"
+        },
+        {
+          "name": "Nameless Blade"
         }
       ],
       "special": [
@@ -6234,6 +6254,9 @@
         },
         {
           "name": "Wo Dao+"
+        },
+        {
+          "name": "Nameless Blade"
         }
       ],
       "special": [
@@ -6638,6 +6661,64 @@
       ]
     }
   },
+  "Leif": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": {},
+    "bane": {},
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Light Brand"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light"
+        },
+        {
+          "name": "Blazing Light"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1"
+        },
+        {
+          "name": "Steady Blow 1"
+        },
+        {
+          "name": "Steady Blow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "S Drink"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Drive Atk 1"
+        },
+        {
+          "name": "Drive Atk 2"
+        }
+      ]
+    }
+  },
   "Leo": {
     "color": "Red",
     "wpnType": "Tome",
@@ -6850,6 +6931,9 @@
         },
         {
           "name": "Bolganone+"
+        },
+        {
+          "name": "Forblaze"
         }
       ],
       "special": [
@@ -8908,6 +8992,70 @@
       ]
     }
   },
+  "Nanna": {
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "boon": {},
+    "bane": {},
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault"
+        },
+        {
+          "name": "Absorb"
+        },
+        {
+          "name": "Absorb+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal"
+        },
+        {
+          "name": "Mend"
+        },
+        {
+          "name": "Restore"
+        },
+        {
+          "name": "Restore+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue"
+        },
+        {
+          "name": "Heavenly Light"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Resistance +1"
+        },
+        {
+          "name": "Spd/Res 1"
+        },
+        {
+          "name": "Spd/Res 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1"
+        },
+        {
+          "name": "Drive Def 1"
+        },
+        {
+          "name": "Drive Def 2"
+        }
+      ]
+    }
+  },
   "Narcian": {
     "color": "Green",
     "wpnType": "Axe",
@@ -9799,6 +9947,70 @@
       ]
     }
   },
+  "Olwen (World of Thracia)": {
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "boon": {},
+    "bane": {},
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Rexcalibur"
+        },
+        {
+          "name": "Thunderhead"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Wind"
+        },
+        {
+          "name": "Blazing Wind"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Sparrow 1"
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Renewal 1"
+        },
+        {
+          "name": "Renewal 2"
+        },
+        {
+          "name": "Renewal 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "G Tome Exp. 1"
+        },
+        {
+          "name": "G Tome Exp. 2"
+        },
+        {
+          "name": "G Tome Exp. 3"
+        }
+      ]
+    }
+  },
   "Oscar": {
     "color": "Blue",
     "wpnType": "Lance",
@@ -10317,6 +10529,70 @@
         },
         {
           "name": "Goad Cavalry"
+        }
+      ]
+    }
+  },
+  "Reinhardt (World of Thracia)": {
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "boon": {},
+    "bane": {},
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Meisterschwert"
+        }
+      ],
+      "special": [
+        {
+          "name": "Buckler"
+        },
+        {
+          "name": "Pavise"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
+        {
+          "name": "Death Blow 2"
+        },
+        {
+          "name": "Death Blow 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vantage 1"
+        },
+        {
+          "name": "Vantage 2"
+        },
+        {
+          "name": "Vantage 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk/Def 1"
+        },
+        {
+          "name": "Spur Atk/Def 2"
         }
       ]
     }
@@ -11068,6 +11344,29 @@
         },
         {
           "name": "Shield Pulse 3"
+        }
+      ]
+    }
+  },
+  "Saias": {
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": {},
+    "bane": {},
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Thoron"
+        },
+        {
+          "name": "Wargod's Tome"
         }
       ]
     }

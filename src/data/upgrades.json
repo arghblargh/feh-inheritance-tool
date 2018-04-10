@@ -12,10 +12,12 @@
         "Resistance": [2, 0, 0, 0, 3]
     },
     "Evolve": {
+        "Armads": "Berserk Armads",
         "Aura": "Dark Aura",
         "Durandal": "Blazing Durandal",
         "Excalibur": "Dark Excalibur",
         "Naga": "Divine Naga",
+        "Siegmund": "Flame Siegmund",
         "Tyrfing": "Divine Tyrfing",
         "Killing Edge+": "Slaying Edge+",
         "Killer Lance+": "Slaying Lance+",
@@ -33,6 +35,13 @@
     "Armorsmasher+": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Binding Blade": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat. If unit’s HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack.",
+        "common": {
+            "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat."
+        }
     },
     "Eckesachs": {
         "stats": [3, 0, 0, 0, 0],
@@ -58,9 +67,20 @@
             }
         ]
     },
+    "Nameless Blade": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Accelerates Special trigger (cooldown count-1). Deals +10 damage when Special triggers."
+    },
     "Mystletainn": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
+    },
+    "Regal Blade": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat. If unit is within 2 spaces of an infantry magic ally, grants Atk/Spd/Def/Res+3 during combat.",
+        "common": {
+            "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat."
+        }
     },
     "Sieglinde": {
         "stats": [3, 0, 0, 0, 0],
@@ -157,6 +177,10 @@
         "common": {
             "effect": "Grants allies within 2 spaces Atk+3 during combat."
         }
+    },
+    "Forblaze": {
+        "stats": [0, 0, 0, 0, 0],
+        "effect": "At start of turn, inflicts Res-7 on foe on the enemy team with the highest Res through its next action. If unit initiates combat, grants Atk+6 during combat."
     },
     "Keen Rauðrwolf+": {
         "stats": [0, 0, 0, 0, 0],

@@ -260,7 +260,7 @@
     },
     "Distant Counter": {
       "cost": 300,
-      "effect": "Enables unit to counterattack regardless of distance to attacker.",
+      "effect": "Unit can counterattack regardless of foe's range.",
       "restriction": "Melee"
     },
     "Distant Def 1": {
@@ -1150,6 +1150,10 @@
       "cost": 240,
       "effect": "At the start of every second turn, restores 10 HP."
     },
+    "S Drink": {
+      "cost": 300,
+      "effect": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1."
+    },
     "Sacae's Blessing": {
       "cost": 300,
       "effect": "If foe has sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
@@ -1690,6 +1694,21 @@
       "cost": 200,
       "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn."
     },
+    "G Tome Exp. 1": {
+      "cost": 50,
+      "effect": "If unit survives and uses a green tome, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Exp. 2": {
+      "cost": 100,
+      "effect": "If unit survives, all green tome users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Exp. 3": {
+      "cost": 200,
+      "effect": "If unit survives, all green tome users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
     "G Tome Valor 1": {
       "cost": 30,
       "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
@@ -1953,6 +1972,15 @@
     "Spur Atk 3": {
       "cost": 200,
       "effect": "Grants adjacent allies Atk+4 during combat."
+    },
+    "Spur Atk/Def 1": {
+      "cost": 120,
+      "effect": "Grants adjacent allies Atk/Def+2 during combat.",
+      "require": "Spur Atk 1|Spur Def 1"
+    },
+    "Spur Atk/Def 2": {
+      "cost": 240,
+      "effect": "Grants adjacent allies Atk/Def+3 during combat."
     },
     "Spur Atk/Spd 1": {
       "cost": 120,
