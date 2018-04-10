@@ -71,14 +71,14 @@
     "type": "Bow",
     "cost": 200,
     "might": 7,
-    "effect": "Effective against flying units. If target has a dagger, it can't make a followup attack and this unit will."
+    "effect": "Effective against flying foes. In combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack."
   },
   "Assassin's Bow+": {
     "color": "Neutral",
     "type": "Bow",
     "cost": 300,
     "might": 11,
-    "effect": "Effective against flying units. If target has a dagger, it can't make a followup attack and this unit will."
+    "effect": "Effective against flying foes. In combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack."
   },
   "Assault": {
     "color": "Neutral",
@@ -116,7 +116,7 @@
     "type": "Axe",
     "cost": 400,
     "might": 16,
-    "effect": "Accelerates Special trigger (cooldown count -1).",
+    "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },

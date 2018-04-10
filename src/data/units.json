@@ -4032,15 +4032,55 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": {},
-    "bane": {},
     "skills": {
       "weapon": [
         {
-          "name": "Iron Lance"
+          "name": "Iron Lance",
+          "unlock": 4
         },
         {
-          "name": "Steel Lance"
+          "name": "Steel Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Lance",
+          "unlock": 4
+        },
+        {
+          "name": "Brave Lance+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Miracle",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Goad Cavalry",
+          "unlock": 4
         }
       ]
     }
@@ -8996,8 +9036,13 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": {},
-    "bane": {},
+    "boon": {
+      "HP": 4,
+      "Res": 4
+    },
+    "bane": {
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -9951,8 +9996,10 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": {},
-    "bane": {},
+    "bane": {
+      "Atk": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -10537,8 +10584,10 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": {},
-    "bane": {},
+    "bane": {
+      "HP": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -11352,21 +11401,59 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {},
-    "bane": {},
     "skills": {
       "weapon": [
         {
-          "name": "Thunder"
+          "name": "Light",
+          "unlock": 3
         },
         {
-          "name": "Elthunder"
+          "name": "Ellight",
+          "unlock": 3
         },
         {
-          "name": "Thoron"
+          "name": "Shine",
+          "unlock": 3
         },
         {
           "name": "Wargod's Tome"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Escape Route 1",
+          "unlock": 3
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 4
+        },
+        {
+          "name": "Escape Route 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Ploy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Ploy 2",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Ploy 3",
+          "unlock": 4
         }
       ]
     }

@@ -772,17 +772,17 @@
     },
     "Bowbreaker 1": {
       "cost": 50,
-      "effect": "If unit's HP ≥ 90% in combat against a bow user, unit makes a followup attack and foe cannot.",
+      "effect": "If unit's HP ≥ 90% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "restriction": "Armored|Cavalry|Infantry"
     },
     "Bowbreaker 2": {
       "cost": 100,
-      "effect": "If unit's HP ≥ 70% in combat against a bow user, unit makes a followup attack and foe cannot.",
+      "effect": "If unit's HP ≥ 70% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "restriction": "Armored|Cavalry|Infantry"
     },
     "Bowbreaker 3": {
       "cost": 200,
-      "effect": "If unit's HP ≥ 50% in combat against a bow user, unit makes a followup attack and foe cannot.",
+      "effect": "If unit's HP ≥ 50% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "restriction": "Armored|Cavalry|Infantry"
     },
     "Brash Assault 1": {
@@ -860,15 +860,15 @@
     },
     "Daggerbreaker 1": {
       "cost": 50,
-      "effect": "If unit's HP ≥ 90% in combat against a dagger user, unit makes a followup attack and foe cannot."
+      "effect": "If unit's HP ≥ 90% in combat against a colorless dagger foe, unit makes a followup attack and foe cannot."
     },
     "Daggerbreaker 2": {
       "cost": 100,
-      "effect": "If unit's HP ≥ 70% in combat against a dagger user, unit makes a followup attack and foe cannot."
+      "effect": "If unit's HP ≥ 70% in combat against a colorless dagger foe, unit makes a followup attack and foe cannot."
     },
     "Daggerbreaker 3": {
       "cost": 200,
-      "effect": "If unit's HP ≥ 50% in combat against a dagger user, unit makes a followup attack and foe cannot."
+      "effect": "If unit's HP ≥ 50% in combat against a colorless dagger foe, unit makes a followup attack and foe cannot."
     },
     "Dazzling Staff 1": {
       "cost": 60,
