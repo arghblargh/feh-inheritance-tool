@@ -197,6 +197,15 @@ export class BuildManager extends React.PureComponent {
                     build.Seal = /seal=/.test(response) ? /seal\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
 
                     build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr');
+
+                    if (/Atk\/(Def|Res)/.test(build.PassiveA)) {
+                        if (/Def/.test(build.PassiveA)) {
+                            build.PassiveA = build.PassiveA.replace('Atk/Def ', 'Attack/Def +');
+                        }
+                        else if (/Res/.test(build.PassiveA)) {
+                            build.PassiveA = build.PassiveA.replace('Atk', 'Attack');
+                        }
+                    }
                     
                     if (/weaponRefine=/.test(response)) {
                         let upgrade = /weaponRefine\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim().toLowerCase();

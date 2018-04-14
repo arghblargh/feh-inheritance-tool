@@ -1152,7 +1152,8 @@
     },
     "S Drink": {
       "cost": 300,
-      "effect": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1."
+      "effect": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1.",
+      "restriction": "Exclusive"
     },
     "Sacae's Blessing": {
       "cost": 300,
