@@ -22,7 +22,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, TextBox, escapeRegExp, storageAvailable } from './utility.js';
+import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utility.js';
 import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
          parseSkills, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect,
@@ -185,31 +185,67 @@ class SkillInfoRow extends Component {
         </td>;
     }
     
-    return (
-      <tr>
-        <td className="skill-type">
-          {
-            this.props.category === "Weapon"  ? <img src={skillTypeIcon.Weapon} title="Weapon" alt="Weapon" /> :
-            this.props.category === "Assist"  ? <img src={skillTypeIcon.Assist} title="Assist" alt="Assist" /> :
-            this.props.category === "Special" ? <img src={skillTypeIcon.Special} title="Special" alt="Special" /> :
-                                                this.props.category
-          }
-        </td>
-        {skillDropdown}
-        {hasSkillLevel && skillLevel}
-        {!!this.props.showDesc &&
-        <td className="skill-info-container">
-          <div className="skill-effect">{this.props.effect}</div>
-        </td>
-        }
-        <td className="skill-info-container">
-          <div className="skill-inherit">{inheritList}</div>
-        </td>
-        <td className="skill-info-container">
-          <div className="skill-cost">{this.props.cost || ''}</div>
-        </td>
-      </tr>
-    );
+    if (isMobile()) {
+        return(
+          <tbody>
+            <tr>
+              <td className="skill-type">
+                {
+                  this.props.category === "Weapon"  ? <img src={skillTypeIcon.Weapon} title="Weapon" alt="Weapon" /> :
+                  this.props.category === "Assist"  ? <img src={skillTypeIcon.Assist} title="Assist" alt="Assist" /> :
+                  this.props.category === "Special" ? <img src={skillTypeIcon.Special} title="Special" alt="Special" /> :
+                                                      this.props.category
+                }
+              </td>
+              {skillDropdown}
+              {hasSkillLevel && skillLevel}
+              <td className="skill-info-container">
+                <div className="skill-inherit">{inheritList}</div>
+              </td>
+              <td className="skill-info-container">
+                <div className="skill-cost">{this.props.cost || ''}</div>
+              </td>
+            </tr>
+            {!!this.props.showDesc &&
+              <tr>
+                <td></td>
+                <td className="skill-info-container" colSpan="4">
+                  <div className="skill-effect">{this.props.effect}</div>
+                </td>
+              </tr>
+            }
+          </tbody>
+        );
+    }
+    else {
+      return (
+        <tbody>
+          <tr>
+            <td className="skill-type">
+              {
+                this.props.category === "Weapon"  ? <img src={skillTypeIcon.Weapon} title="Weapon" alt="Weapon" /> :
+                this.props.category === "Assist"  ? <img src={skillTypeIcon.Assist} title="Assist" alt="Assist" /> :
+                this.props.category === "Special" ? <img src={skillTypeIcon.Special} title="Special" alt="Special" /> :
+                                                    this.props.category
+              }
+            </td>
+            {skillDropdown}
+            {hasSkillLevel && skillLevel}
+            {!!this.props.showDesc &&
+            <td className="skill-info-container">
+              <div className="skill-effect">{this.props.effect}</div>
+            </td>
+            }
+            <td className="skill-info-container">
+              <div className="skill-inherit">{inheritList}</div>
+            </td>
+            <td className="skill-info-container">
+              <div className="skill-cost">{this.props.cost || ''}</div>
+            </td>
+          </tr>
+        </tbody>
+      );
+    }
   }
 }
 
@@ -278,84 +314,82 @@ class SkillInfoTable extends Component {
           <tr className="skill-header">
             <th className="reset-button-cell"></th>
             <th colSpan="2" className="dropdown-header text-left">Skill</th>
-            {!!this.props.showDesc && <th className="text-left">Effect</th>}
+            {!isMobile() && !!this.props.showDesc && <th className="text-left">Effect</th>}
             <th className="text-left">Inherited From</th>
             <th>SP</th>
           </tr>
         </thead>
-        <tbody>
-          <SkillInfoRow category='Weapon' 
-                        skillName={skills.weapon}
-                        skillType='weapon'
-                        options={skillOptions.weapons}
-                        upgrade={skills.upgrade}
-                        effect={weaponEffect} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
-                        cost={calcCost(this.props.unitName, this.props.skills.weapon, this.props.skills.upgrade)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='Assist' 
-                        skillName={skills.assist}
-                        skillType='assist'
-                        options={skillOptions.assists}
-                        effect={assists[skills.assist] ? assists[skills.assist].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
-                        cost={calcCost(this.props.unitName, this.props.skills.assist)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='Special' 
-                        skillName={skills.special}
-                        skillType='special'
-                        options={skillOptions.specials}
-                        effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
-                        cost={calcCost(this.props.unitName, this.props.skills.special)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='A' 
-                        skillName={skills.passiveA} 
-                        skillType='passiveA'
-                        options={skillOptions.passivesA}
-                        effect={passives.A[skills.passiveA] ? passives.A[skills.passiveA].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
-                        cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='B' 
-                        skillName={skills.passiveB} 
-                        skillType='passiveB'
-                        options={skillOptions.passivesB}
-                        effect={passives.B[skills.passiveB] ? passives.B[skills.passiveB].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
-                        cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='C' 
-                        skillName={skills.passiveC} 
-                        skillType='passiveC'
-                        options={skillOptions.passivesC}
-                        effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
-                        cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='S' 
-                        skillName={skills.seal} 
-                        skillType='seal'
-                        options={skillOptions.seals}
-                        effect={seals[skills.seal] ? seals[skills.seal].effect : ''}
-                        inheritList={[]}
-                        cost={0}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-        </tbody>
+        <SkillInfoRow category='Weapon' 
+                      skillName={skills.weapon}
+                      skillType='weapon'
+                      options={skillOptions.weapons}
+                      upgrade={skills.upgrade}
+                      effect={weaponEffect} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
+                      cost={calcCost(this.props.unitName, this.props.skills.weapon, this.props.skills.upgrade)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='Assist' 
+                      skillName={skills.assist}
+                      skillType='assist'
+                      options={skillOptions.assists}
+                      effect={assists[skills.assist] ? assists[skills.assist].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
+                      cost={calcCost(this.props.unitName, this.props.skills.assist)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='Special' 
+                      skillName={skills.special}
+                      skillType='special'
+                      options={skillOptions.specials}
+                      effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
+                      cost={calcCost(this.props.unitName, this.props.skills.special)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='A' 
+                      skillName={skills.passiveA} 
+                      skillType='passiveA'
+                      options={skillOptions.passivesA}
+                      effect={passives.A[skills.passiveA] ? passives.A[skills.passiveA].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
+                      cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='B' 
+                      skillName={skills.passiveB} 
+                      skillType='passiveB'
+                      options={skillOptions.passivesB}
+                      effect={passives.B[skills.passiveB] ? passives.B[skills.passiveB].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
+                      cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='C' 
+                      skillName={skills.passiveC} 
+                      skillType='passiveC'
+                      options={skillOptions.passivesC}
+                      effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
+                      cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='S' 
+                      skillName={skills.seal} 
+                      skillType='seal'
+                      options={skillOptions.seals}
+                      effect={seals[skills.seal] ? seals[skills.seal].effect : ''}
+                      inheritList={[]}
+                      cost={0}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
       </table>
     )
   }

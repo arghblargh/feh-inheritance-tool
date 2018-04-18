@@ -101,8 +101,10 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 
-.skill-info tr:last-of-type {
-  border-bottom: none;
+@media only screen and (min-device-width: 1024px) {
+  .skill-info tr:last-of-type {
+    border-bottom: none;
+  }
 }
 
 .char-info td:last-of-type {
