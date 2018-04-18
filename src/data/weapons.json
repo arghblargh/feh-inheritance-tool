@@ -918,7 +918,8 @@
     "type": "Axe",
     "cost": 300,
     "might": 13,
-    "effect": "Deals +10 damage when Special triggers."
+    "effect": "Deals +10 damage when Special triggers.",
+    "upgrade": "Mt:1"
   },
   "Gleipnir": {
     "color": "Red",
@@ -1448,7 +1449,8 @@
     "type": "Dagger",
     "cost": 300,
     "might": 12,
-    "effect": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    "effect": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
   },
   "Light": {
     "color": "Blue",
