@@ -4062,11 +4062,11 @@
           "unlock": 4
         },
         {
-          "name": "Atk/Def 1",
+          "name": "Attack/Def +1",
           "unlock": 4
         },
         {
-          "name": "Atk/Def 2"
+          "name": "Attack/Def +2"
         }
       ],
       "passiveC": [
