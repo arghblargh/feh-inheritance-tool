@@ -123,6 +123,12 @@
   "Distant Def 3": {
     "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
   },
+  "Drive Atk 1": {
+    "effect": "Grants allies within 2 spaces Atk+2 during combat."
+  },
+  "Drive Atk 2": {
+    "effect": "Grants allies within 2 spaces Atk+3 during combat."
+  },
   "Drive Def 1": {
     "effect": "Grants allies within 2 spaces Def+2 during combat."
   },
@@ -146,6 +152,15 @@
   },
   "Fortify Res 3": {
     "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn."
+  },
+  "Fortress Def 1": {
+    "effect": "Grants Def+3. Inflicts Atk-3."
+  },
+  "Fortress Def 2": {
+    "effect": "Grants Def+4. Inflicts Atk-3."
+  },
+  "Fortress Def 3": {
+    "effect": "Grants Def+5. Inflicts Atk-3."
   },
   "Fortress Res 1": {
     "effect": "Grants Res+3. Inflicts Atk-3."
@@ -308,6 +323,18 @@
   },
   "Seal Atk 3": {
     "effect": "After combat, foe suffers Atk-7 through its next action.",
+    "restriction": "Offense"
+  },
+  "Seal Spd 1": {
+    "effect": "After combat, foe suffers Spd-3 through its next action.",
+    "restriction": "Offense"
+  },
+  "Seal Spd 2": {
+    "effect": "After combat, foe suffers Spd-5 through its next action.",
+    "restriction": "Offense"
+  },
+  "Seal Spd 3": {
+    "effect": "After combat, foe suffers Spd-7 through its next action.",
     "restriction": "Offense"
   },
   "Speed +1": {
