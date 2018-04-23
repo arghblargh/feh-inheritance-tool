@@ -1165,6 +1165,21 @@
     "effect": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.",
     "upgrade": "-"
   },
+  "Harmonic Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 9,
+    "effect": "Deals +10 damage when Special triggers."
+  },
+  "Harmonic Lance+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 13,
+    "effect": "Deals +10 damage when Special triggers.",
+    "upgrade": "Mt:1"
+  },
   "Hauteclere": {
     "color": "Green",
     "type": "Axe",
@@ -2400,6 +2415,29 @@
     "might": 14,
     "effect": "At start of turn, inflicts Atk/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
     "restriction": "Exclusive"
+  },
+  "Warrior Princess": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying and armored foes. Grants Spd+3. Grants Atk+3 to allies within 2 spaces during combat.",
+    "restriction": "Exclusive"
+  },
+  "Water Breath": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using thel ower of foe's Def or Res."
+  },
+  "Water Breath+": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using thel ower of foe's Def or Res.",
+    "upgrade": "Mt:1"
   },
   "Weirding Tome": {
     "color": "Blue",

@@ -5431,6 +5431,68 @@
       ]
     }
   },
+  "Hinoka (Wings of Fate)": {
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Silver Bow"
+        },
+        {
+          "name": "Warrior Princess"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Luna"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1"
+        },
+        {
+          "name": "Atk/Spd Bond 2"
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Flier Formation 1"
+        },
+        {
+          "name": "Flier Formation 2"
+        },
+        {
+          "name": "Flier Formation 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Flier Guidance 1"
+        },
+        {
+          "name": "Flier Guidance 2"
+        },
+        {
+          "name": "Flier Guidance 3"
+        }
+      ]
+    }
+  },
   "Ike": {
     "color": "Red",
     "wpnType": "Sword",
@@ -6271,6 +6333,72 @@
       ]
     }
   },
+  "Kana (F)": {
+    "color": "Green",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        },
+        {
+          "name": "Water Breath"
+        },
+        {
+          "name": "Water Breath+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fierce Stance 1"
+        },
+        {
+          "name": "Fierce Stance 2"
+        },
+        {
+          "name": "Fierce Stance 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk 2"
+        },
+        {
+          "name": "Goad Dragons"
+        }
+      ]
+    }
+  },
+  "Kana (M)": {
+    "color": "Blue",
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        }
+      ]
+    }
+  },
   "Karel": {
     "color": "Red",
     "wpnType": "Sword",
@@ -6381,6 +6509,21 @@
         },
         {
           "name": "Atk Ploy 3"
+        }
+      ]
+    }
+  },
+  "Kaze": {
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
         }
       ]
     }
@@ -12263,6 +12406,57 @@
         {
           "name": "Fortify Armor",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Shigure": {
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Harmonic Lance"
+        },
+        {
+          "name": "Harmonic Lance+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight"
+        },
+        {
+          "name": "Noontime"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Stance 1"
+        },
+        {
+          "name": "Darting Stance 2"
+        },
+        {
+          "name": "Darting Stance 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1"
+        },
+        {
+          "name": "Spur Def 2"
+        },
+        {
+          "name": "Ward Fliers"
         }
       ]
     }

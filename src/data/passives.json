@@ -956,6 +956,21 @@
       "effect": "Unit can move to a space adjacent to a flier ally within 2 spaces.",
       "restriction": "Flying"
     },
+    "Flier Guidance 1": {
+      "cost": 60,
+      "effect": "If unit has 100% HP, flying allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": "Flying"
+    },
+    "Flier Guidance 2": {
+      "cost": 120,
+      "effect": "If unit has ≥ 50% HP, flying allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": "Flying"
+    },
+    "Flier Guidance 3": {
+      "cost": 240,
+      "effect": "Flying allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": "Flying"
+    },
     "Follow-Up Ring": {
       "cost": 300,
       "effect": "Unit makes a guaranteed follow-up attack when unit's HP ≥ 50% at start of combat. (Skill cannot be inherited.)",
@@ -1736,6 +1751,12 @@
       "effect": "Grants cavalry allies within 2 spaces Spd/Atk+4 during combat.",
       "require": "Spur Atk 2|Spur Spd 2",
       "restriction": "Cavalry"
+    },
+    "Goad Dragons": {
+      "cost": 200,
+      "effect": "Grants dragon allies within 2 spaces Spd/Atk+4 during combat.",
+      "require": "Spur Atk 2|Spur Spd 2",
+      "restriction": "Dragon"
     },
     "Goad Fliers": {
       "cost": 200,
