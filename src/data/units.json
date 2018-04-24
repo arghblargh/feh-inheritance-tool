@@ -6583,13 +6583,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Dagger"
+          "name": "Iron Dagger",
+          "unlock": 4
         },
         {
-          "name": "Steel Dagger"
+          "name": "Steel Dagger",
+          "unlock": 4
         },
         {
-          "name": "Barb Shuriken"
+          "name": "Barb Shuriken",
+          "unlock": 4
         },
         {
           "name": "Barb Shuriken+"
@@ -6597,18 +6600,22 @@
       ],
       "special": [
         {
-          "name": "Chilling Wind"
+          "name": "Chilling Wind",
+          "unlock": 4
         },
         {
-          "name": "Iceberg"
+          "name": "Iceberg",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Poison Strike 1"
+          "name": "Poison Strike 1",
+          "unlock": 4
         },
         {
-          "name": "Poison Strike 2"
+          "name": "Poison Strike 2",
+          "unlock": 4
         },
         {
           "name": "Poison Strike 3"
@@ -6616,13 +6623,16 @@
       ],
       "passiveC": [
         {
-          "name": "Atk Smoke 1"
+          "name": "Atk Smoke 1",
+          "unlock": 4
         },
         {
-          "name": "Atk Smoke 2"
+          "name": "Atk Smoke 2",
+          "unlock": 4
         },
         {
-          "name": "Atk Smoke 3"
+          "name": "Atk Smoke 3",
+          "unlock": 4
         }
       ]
     }
@@ -12565,10 +12575,10 @@
       ],
       "passiveC": [
         {
-          "name": "Spur Def 1"
+          "name": "Spur Res 1"
         },
         {
-          "name": "Spur Def 2"
+          "name": "Spur Res 2"
         },
         {
           "name": "Ward Fliers"

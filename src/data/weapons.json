@@ -123,7 +123,8 @@
     "type": "Dagger",
     "cost": 300,
     "might": 12,
-    "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
   },
   "Basilikos": {
     "color": "Green",
