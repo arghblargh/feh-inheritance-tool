@@ -1,929 +1,936 @@
 {
-  "Abel": {
+  "Abel: The Panther": {
     "HP": 36,
     "Atk": 30,
     "Spd": 30,
     "Def": 24,
     "Res": 23
   },
-  "Alfonse": {
+  "Alfonse: Prince of Askr": {
     "HP": 40,
     "Atk": 33,
     "Spd": 23,
     "Def": 30,
     "Res": 20
   },
-  "Anna": {
+  "Anna: Commander": {
     "HP": 38,
     "Atk": 27,
     "Spd": 36,
     "Def": 20,
     "Res": 25
   },
-  "Arden": {
+  "Arden: Strong and Tough": {
     "HP": 57,
     "Atk": 34,
     "Spd": 14,
     "Def": 39,
     "Res": 14
   },
-  "Arthur": {
+  "Arthur: Hapless Hero": {
     "HP": 40,
     "Atk": 30,
     "Spd": 26,
     "Def": 28,
     "Res": 22
   },
-  "Arvis": {
+  "Arvis: Emperor of Flame": {
     "HP": 31,
     "Atk": 32,
     "Spd": 29,
     "Def": 15,
     "Res": 30
   },
-  "Athena": {
+  "Athena: Borderland Sword": {
     "HP": 34,
     "Atk": 28,
     "Spd": 36,
     "Def": 26,
     "Res": 22
   },
-  "Azama": {
+  "Azama: Carefree Monk": {
     "HP": 40,
     "Atk": 19,
     "Spd": 25,
     "Def": 30,
     "Res": 23
   },
-  "Barst": {
+  "Barst: The Hatchet": {
     "HP": 43,
     "Atk": 31,
     "Spd": 30,
     "Def": 27,
     "Res": 15
   },
-  "Bartre": {
+  "Bartre: Fearless Warrior": {
     "HP": 46,
     "Atk": 34,
     "Spd": 23,
     "Def": 31,
     "Res": 12
   },
-  "Berkut": {
+  "Berkut: Prideful Prince": {
     "HP": 40,
     "Atk": 32,
     "Spd": 20,
     "Def": 29,
     "Res": 22
   },
-  "Beruka": {
+  "Beruka: Quiet Assassin": {
     "HP": 43,
     "Atk": 27,
     "Spd": 21,
     "Def": 35,
     "Res": 20
   },
-  "Black Knight": {
+  "Black Knight: Sinister General": {
     "HP": 45,
     "Atk": 32,
     "Spd": 31,
     "Def": 33,
     "Res": 16
   },
-  "Boey": {
+  "Boey: Skillful Survivor": {
     "HP": 40,
     "Atk": 27,
     "Spd": 24,
     "Def": 30,
     "Res": 16
   },
-  "Caeda": {
+  "Caeda: Talys's Heart": {
     "HP": 34,
     "Atk": 23,
     "Spd": 35,
     "Def": 22,
     "Res": 32
   },
-  "Cain": {
+  "Cain: The Bull": {
     "HP": 39,
     "Atk": 30,
     "Spd": 29,
     "Def": 26,
     "Res": 19
   },
-  "Camilla": {
+  "Camilla: Bewitching Beauty": {
     "HP": 35,
     "Atk": 28,
     "Spd": 30,
     "Def": 25,
     "Res": 28
   },
-  "Camus": {
+  "Camus: Sable Knight": {
     "HP": 39,
     "Atk": 30,
     "Spd": 31,
     "Def": 28,
     "Res": 15
   },
-  "Catria": {
+  "Catria: Middle Whitewing": {
     "HP": 36,
     "Atk": 29,
     "Spd": 32,
     "Def": 26,
     "Res": 23
   },
-  "Cecilia": {
+  "Cecilia: Etrurian General": {
     "HP": 34,
     "Atk": 30,
     "Spd": 23,
     "Def": 20,
     "Res": 27
   },
-  "Cherche": {
+  "Cherche: Wyvern Friend": {
     "HP": 43,
     "Atk": 36,
     "Spd": 23,
     "Def": 30,
     "Res": 14
   },
-  "Chrom": {
+  "Chrom: Exalted Prince": {
     "HP": 44,
     "Atk": 35,
     "Spd": 23,
     "Def": 29,
     "Res": 15
   },
-  "Clair": {
+  "Clair: Highborn Flier": {
     "HP": 35,
     "Atk": 24,
     "Spd": 34,
     "Def": 22,
     "Res": 31
   },
-  "Clarine": {
+  "Clarine: Refined Noble": {
     "HP": 33,
     "Atk": 23,
     "Spd": 31,
     "Def": 20,
     "Res": 27
   },
-  "Clarisse": {
+  "Clarisse: Sniper in the Dark": {
     "HP": 35,
     "Atk": 29,
     "Spd": 32,
     "Def": 23,
     "Res": 18
   },
-  "Clive": {
+  "Clive: Idealistic Knight": {
     "HP": 42,
     "Atk": 31,
     "Spd": 23,
     "Def": 30,
     "Res": 17
   },
-  "Cordelia": {
+  "Cordelia: Knight Paragon": {
     "HP": 37,
     "Atk": 33,
     "Spd": 33,
     "Def": 20,
     "Res": 23
   },
-  "Corrin (F)": {
-    "HP": 38,
-    "Atk": 26,
-    "Spd": 31,
-    "Def": 32,
-    "Res": 19
+  "Corrin: Enjoying Tradition": {
+    "HP": 35,
+    "Atk": 30,
+    "Spd": 28,
+    "Def": 31,
+    "Res": 16
   },
-  "Corrin (M)": {
+  "Corrin: Fateful Prince": {
     "HP": 39,
     "Atk": 30,
     "Spd": 30,
     "Def": 25,
     "Res": 22
   },
-  "Donnel": {
+  "Corrin: Fateful Princess": {
+    "HP": 38,
+    "Atk": 26,
+    "Spd": 31,
+    "Def": 32,
+    "Res": 19
+  },
+  "Donnel: Village Hero": {
     "HP": 40,
     "Atk": 33,
     "Spd": 26,
     "Def": 30,
     "Res": 21
   },
-  "Draug": {
+  "Draug: Gentle Giant": {
     "HP": 47,
     "Atk": 28,
     "Spd": 29,
     "Def": 37,
     "Res": 16
   },
-  "Effie": {
+  "Effie: Army of One": {
     "HP": 47,
     "Atk": 38,
     "Spd": 20,
     "Def": 31,
     "Res": 21
   },
-  "Eirika": {
+  "Eirika: Restoration Lady": {
     "HP": 39,
     "Atk": 25,
     "Spd": 33,
     "Def": 24,
     "Res": 25
   },
-  "Eliwood": {
-    "HP": 36,
-    "Atk": 28,
-    "Spd": 28,
-    "Def": 21,
-    "Res": 30
-  },
-  "Eliwood (Love Abounds)": {
+  "Eliwood: Devoted Love": {
     "HP": 44,
     "Atk": 36,
     "Spd": 30,
     "Def": 26,
     "Res": 26
   },
-  "Est": {
+  "Eliwood: Knight of Lycia": {
+    "HP": 36,
+    "Atk": 28,
+    "Spd": 28,
+    "Def": 21,
+    "Res": 30
+  },
+  "Est: Junior Whitewing": {
     "HP": 34,
     "Atk": 33,
     "Spd": 28,
     "Def": 22,
     "Res": 29
   },
-  "Fae": {
+  "Fae: Divine Dragon": {
     "HP": 43,
     "Atk": 30,
     "Spd": 25,
     "Def": 24,
     "Res": 28
   },
-  "Felicia": {
+  "Felicia: Maid Mayhem": {
     "HP": 32,
     "Atk": 21,
     "Spd": 35,
     "Def": 16,
     "Res": 33
   },
-  "Finn": {
+  "Finn: Lance of Legend": {
     "HP": 37,
     "Atk": 32,
     "Spd": 31,
     "Def": 29,
     "Res": 16
   },
-  "Fir": {
+  "Fir: Sword Student": {
     "HP": 38,
     "Atk": 23,
     "Spd": 34,
     "Def": 22,
     "Res": 29
   },
-  "Florina": {
+  "Florina: Lovely Flier": {
     "HP": 39,
     "Atk": 26,
     "Spd": 26,
     "Def": 23,
     "Res": 32
   },
-  "Frederick": {
+  "Frederick: Polite Knight": {
     "HP": 40,
     "Atk": 33,
     "Spd": 23,
     "Def": 34,
     "Res": 13
   },
-  "Gaius": {
+  "Gaius: Candy Stealer": {
     "HP": 39,
     "Atk": 27,
     "Spd": 34,
     "Def": 20,
     "Res": 17
   },
-  "Gerome": {
+  "Gerome: Masked Rider": {
     "HP": 42,
     "Atk": 36,
     "Spd": 23,
     "Def": 32,
     "Res": 17
   },
-  "Gordin": {
+  "Gordin: Altean Archer": {
     "HP": 40,
     "Atk": 29,
     "Spd": 23,
     "Def": 30,
     "Res": 15
   },
-  "Gunter": {
+  "Gunter: Inveterate Soldier": {
     "HP": 40,
     "Atk": 30,
     "Spd": 22,
     "Def": 31,
     "Res": 16
   },
-  "Gwendolyn": {
+  "Gwendolyn: Adorable Knight": {
     "HP": 46,
     "Atk": 28,
     "Spd": 22,
     "Def": 36,
     "Res": 25
   },
-  "Hana": {
+  "Hana: Focused Samurai": {
     "HP": 35,
     "Atk": 33,
     "Spd": 34,
     "Def": 21,
     "Res": 23
   },
-  "Hawkeye": {
+  "Hawkeye: Desert Guardian": {
     "HP": 42,
     "Atk": 31,
     "Spd": 20,
     "Def": 26,
     "Res": 27
   },
-  "Henry": {
+  "Henry: Twisted Mind": {
     "HP": 42,
     "Atk": 22,
     "Spd": 20,
     "Def": 30,
     "Res": 23
   },
-  "Hinata": {
+  "Hinata: Wild Samurai": {
     "HP": 44,
     "Atk": 30,
     "Spd": 22,
     "Def": 34,
     "Res": 16
   },
-  "Jagen": {
+  "Jagen: Veteran Knight": {
     "HP": 35,
     "Atk": 26,
     "Spd": 22,
     "Def": 23,
     "Res": 33
   },
-  "Jakob": {
+  "Jakob: Devoted Servant": {
     "HP": 36,
     "Atk": 27,
     "Spd": 29,
     "Def": 23,
     "Res": 22
   },
-  "Jeorge": {
+  "Jeorge: Perfect Shot": {
     "HP": 35,
     "Atk": 30,
     "Spd": 30,
     "Def": 22,
     "Res": 20
   },
-  "Joshua": {
+  "Joshua: Tempest King": {
     "HP": 37,
     "Atk": 28,
     "Spd": 33,
     "Def": 28,
     "Res": 25
   },
-  "Kagero": {
+  "Kagero: Honorable Ninja": {
     "HP": 29,
     "Atk": 33,
     "Spd": 30,
     "Def": 20,
     "Res": 25
   },
-  "Kana (M)": {
+  "Kana: Dragon Spawn": {
     "HP": 37,
     "Atk": 29,
     "Spd": 31,
     "Def": 28,
     "Res": 26
   },
-  "Klein": {
+  "Klein: Silver Nobleman": {
     "HP": 37,
     "Atk": 29,
     "Spd": 31,
     "Def": 18,
     "Res": 22
   },
-  "L'Arachel": {
+  "L'Arachel: Princess of Light": {
     "HP": 31,
     "Atk": 31,
     "Spd": 29,
     "Def": 15,
     "Res": 28
   },
-  "Lachesis": {
+  "Lachesis: Lionheart's Sister": {
     "HP": 36,
     "Atk": 29,
     "Spd": 24,
     "Def": 20,
     "Res": 28
   },
-  "Laslow": {
+  "Laslow: Dancing Duelist": {
     "HP": 41,
     "Atk": 33,
     "Spd": 25,
     "Def": 27,
     "Res": 20
   },
-  "Legion": {
+  "Legion: Masked Maniac": {
     "HP": 43,
     "Atk": 34,
     "Spd": 33,
     "Def": 20,
     "Res": 16
   },
-  "Leon": {
+  "Leon: True of Heart": {
     "HP": 36,
     "Atk": 32,
     "Spd": 27,
     "Def": 28,
     "Res": 14
   },
-  "Lilina": {
+  "Lilina: Delightful Noble": {
     "HP": 33,
     "Atk": 35,
     "Spd": 23,
     "Def": 17,
     "Res": 29
   },
-  "Lissa": {
+  "Lissa: Sprightly Cleric": {
     "HP": 36,
     "Atk": 25,
     "Spd": 23,
     "Def": 25,
     "Res": 28
   },
-  "Lloyd": {
+  "Lloyd: White Wolf": {
     "HP": 38,
     "Atk": 30,
     "Spd": 33,
     "Def": 18,
     "Res": 27
   },
-  "Lon'qu": {
+  "Lon'qu: Solitary Blade": {
     "HP": 42,
     "Atk": 27,
     "Spd": 37,
     "Def": 20,
     "Res": 20
   },
-  "Lucius": {
+  "Lucius: The Light": {
     "HP": 35,
     "Atk": 29,
     "Spd": 28,
     "Def": 12,
     "Res": 33
   },
-  "Lukas": {
+  "Lukas: Sharp Soldier": {
     "HP": 42,
     "Atk": 33,
     "Spd": 20,
     "Def": 36,
     "Res": 15
   },
-  "Lyon": {
-    "HP": 35,
+  "Lyon: Shadow Prince": {
+    "HP": 38,
     "Atk": 32,
     "Spd": 19,
     "Def": 23,
     "Res": 28
   },
-  "Mae": {
+  "Mae: Bundle of Energy": {
     "HP": 33,
     "Atk": 34,
     "Spd": 28,
     "Def": 14,
     "Res": 28
   },
-  "Maria": {
+  "Maria: Minerva's Sister": {
     "HP": 34,
     "Atk": 24,
     "Spd": 32,
     "Def": 17,
     "Res": 30
   },
-  "Marisa": {
+  "Marisa: Crimson Flash": {
     "HP": 43,
     "Atk": 28,
     "Spd": 34,
     "Def": 27,
     "Res": 19
   },
-  "Marth": {
+  "Marth: Altean Prince": {
     "HP": 38,
     "Atk": 29,
     "Spd": 32,
     "Def": 26,
     "Res": 21
   },
-  "Marth (Masked)": {
+  "Marth: Enigmatic Blade": {
     "HP": 40,
     "Atk": 32,
     "Spd": 34,
     "Def": 23,
     "Res": 17
   },
-  "Mathilda": {
+  "Mathilda: Legendary Knight": {
     "HP": 33,
     "Atk": 26,
     "Spd": 30,
     "Def": 22,
     "Res": 32
   },
-  "Matthew": {
+  "Matthew: Faithful Spy": {
     "HP": 38,
     "Atk": 24,
     "Spd": 32,
     "Def": 27,
     "Res": 16
   },
-  "Merric": {
+  "Merric: Wind Mage": {
     "HP": 40,
     "Atk": 25,
     "Spd": 30,
     "Def": 25,
     "Res": 17
   },
-  "Michalis": {
+  "Michalis: Ambitious King": {
     "HP": 40,
     "Atk": 32,
     "Spd": 24,
     "Def": 33,
     "Res": 17
   },
-  "Morgan (M)": {
+  "Morgan: Lad from Afar": {
     "HP": 35,
     "Atk": 31,
     "Spd": 32,
     "Def": 18,
     "Res": 24
   },
-  "Nanna": {
+  "Nanna: Nordion Princess": {
     "HP": 34,
     "Atk": 24,
     "Spd": 32,
     "Def": 19,
     "Res": 25
   },
-  "Narcian": {
+  "Narcian: Wyvern General": {
     "HP": 39,
     "Atk": 27,
     "Spd": 26,
     "Def": 30,
     "Res": 24
   },
-  "Navarre": {
+  "Navarre: Scarlet Sword": {
     "HP": 39,
     "Atk": 29,
     "Spd": 35,
     "Def": 21,
     "Res": 22
   },
-  "Niles": {
+  "Niles: Cruel to Be Kind": {
     "HP": 35,
     "Atk": 23,
     "Spd": 32,
     "Def": 15,
     "Res": 32
   },
-  "Nino": {
+  "Nino: Pious Mage": {
     "HP": 31,
     "Atk": 31,
     "Spd": 34,
     "Def": 17,
     "Res": 24
   },
-  "Nowi": {
+  "Nowi: Eternal Youth": {
     "HP": 42,
     "Atk": 32,
     "Spd": 24,
     "Def": 28,
     "Res": 24
   },
-  "Oboro": {
+  "Oboro: Fierce Fighter": {
     "HP": 37,
     "Atk": 30,
     "Spd": 24,
     "Def": 33,
     "Res": 22
   },
-  "Odin": {
+  "Odin: Potent Force": {
     "HP": 40,
     "Atk": 20,
     "Spd": 30,
     "Def": 24,
     "Res": 23
   },
-  "Ogma": {
+  "Ogma: Loyal Blade": {
     "HP": 44,
     "Atk": 33,
     "Spd": 32,
     "Def": 25,
     "Res": 12
   },
-  "Oliver": {
+  "Oliver: Admirer of Beauty": {
     "HP": 39,
     "Atk": 30,
     "Spd": 18,
     "Def": 21,
     "Res": 32
   },
-  "Olivia": {
+  "Olivia: Blushing Beauty": {
     "HP": 34,
     "Atk": 26,
     "Spd": 31,
     "Def": 24,
     "Res": 23
   },
-  "Oscar": {
+  "Oscar: Agile Horseman": {
     "HP": 37,
     "Atk": 31,
     "Spd": 32,
     "Def": 24,
     "Res": 19
   },
-  "Palla": {
+  "Palla: Eldest Whitewing": {
     "HP": 39,
     "Atk": 29,
     "Spd": 29,
     "Def": 25,
     "Res": 24
   },
-  "Peri": {
+  "Peri: Playful Slayer": {
     "HP": 33,
     "Atk": 31,
     "Spd": 31,
     "Def": 21,
     "Res": 27
   },
-  "Priscilla": {
+  "Priscilla: Delicate Princess": {
     "HP": 34,
     "Atk": 27,
     "Spd": 26,
     "Def": 17,
     "Res": 30
   },
-  "Raigh": {
+  "Raigh: Dark Child": {
     "HP": 34,
     "Atk": 30,
     "Spd": 27,
     "Def": 20,
     "Res": 26
   },
-  "Raven": {
+  "Raven: Peerless Fighter": {
     "HP": 38,
     "Atk": 32,
     "Spd": 33,
     "Def": 23,
     "Res": 20
   },
-  "Rebecca": {
+  "Rebecca: Wildflower": {
     "HP": 35,
     "Atk": 27,
     "Spd": 32,
     "Def": 19,
     "Res": 24
   },
-  "Reinhardt": {
+  "Reinhardt: Thunder's Fist": {
     "HP": 35,
     "Atk": 30,
     "Spd": 21,
     "Def": 24,
     "Res": 24
   },
-  "Robin (F)": {
+  "Robin: High Deliverer": {
     "HP": 37,
     "Atk": 27,
     "Spd": 27,
     "Def": 26,
     "Res": 20
   },
-  "Robin (M)": {
+  "Robin: Mystery Tactician": {
     "HP": 37,
     "Atk": 27,
     "Spd": 27,
     "Def": 26,
     "Res": 20
   },
-  "Roderick": {
+  "Roderick: Steady Squire": {
     "HP": 37,
     "Atk": 29,
     "Spd": 32,
     "Def": 23,
     "Res": 22
   },
-  "Roy": {
+  "Roy: Young Lion": {
     "HP": 41,
     "Atk": 28,
     "Spd": 29,
     "Def": 23,
     "Res": 25
   },
-  "Saias": {
+  "Saias: Bishop of Flame": {
     "HP": 34,
     "Atk": 30,
     "Spd": 28,
     "Def": 16,
     "Res": 32
   },
-  "Saizo": {
+  "Saizo: Angry Ninja": {
     "HP": 34,
     "Atk": 26,
     "Spd": 32,
     "Def": 31,
     "Res": 14
   },
-  "Sakura": {
+  "Sakura: Loving Priestess": {
     "HP": 34,
     "Atk": 25,
     "Spd": 28,
     "Def": 22,
     "Res": 28
   },
-  "Selena": {
+  "Selena: Cutting Wit": {
     "HP": 35,
     "Atk": 23,
     "Spd": 33,
     "Def": 30,
     "Res": 25
   },
-  "Seliph": {
+  "Seliph: Heir of Light": {
     "HP": 44,
     "Atk": 32,
     "Spd": 22,
     "Def": 28,
     "Res": 20
   },
-  "Serra": {
+  "Serra: Outspoken Cleric": {
     "HP": 31,
     "Atk": 27,
     "Spd": 29,
     "Def": 19,
     "Res": 31
   },
-  "Seth": {
+  "Seth: Silver Knight": {
     "HP": 35,
     "Atk": 30,
     "Spd": 28,
     "Def": 30,
     "Res": 20
   },
-  "Setsuna": {
+  "Setsuna: Absent Archer": {
     "HP": 35,
     "Atk": 26,
     "Spd": 35,
     "Def": 20,
     "Res": 21
   },
-  "Shanna": {
+  "Shanna: Sprightly Flier": {
     "HP": 36,
     "Atk": 28,
     "Spd": 33,
     "Def": 23,
     "Res": 26
   },
-  "Sharena": {
+  "Sharena: Princess of Askr": {
     "HP": 40,
     "Atk": 30,
     "Spd": 30,
     "Def": 26,
     "Res": 20
   },
-  "Sheena": {
+  "Sheena: Princess of Gra": {
     "HP": 42,
     "Atk": 28,
     "Spd": 23,
     "Def": 34,
     "Res": 30
   },
-  "Soleil": {
+  "Soleil: Adorable Adorer": {
     "HP": 35,
     "Atk": 36,
     "Spd": 33,
     "Def": 25,
     "Res": 22
   },
-  "Sophia": {
+  "Sophia: Nabata Prophet": {
     "HP": 37,
     "Atk": 31,
     "Spd": 17,
     "Def": 25,
     "Res": 27
   },
-  "Soren": {
+  "Soren: Shrewd Strategist": {
     "HP": 34,
     "Atk": 31,
     "Spd": 31,
     "Def": 15,
     "Res": 26
   },
-  "Sothe": {
+  "Sothe: Zephyr": {
     "HP": 36,
     "Atk": 34,
     "Spd": 31,
     "Def": 20,
     "Res": 19
   },
-  "Stahl": {
+  "Stahl: Viridian Knight": {
     "HP": 42,
     "Atk": 29,
     "Spd": 24,
     "Def": 28,
     "Res": 20
   },
-  "Subaki": {
+  "Subaki: Perfect Expert": {
     "HP": 37,
     "Atk": 23,
     "Spd": 33,
     "Def": 33,
     "Res": 20
   },
-  "Sully": {
+  "Sully: Crimson Knight": {
     "HP": 39,
     "Atk": 25,
     "Spd": 32,
     "Def": 22,
     "Res": 25
   },
-  "Tailtiu": {
+  "Tailtiu: Thunder Noble": {
     "HP": 36,
     "Atk": 30,
     "Spd": 33,
     "Def": 15,
     "Res": 23
   },
-  "Takumi (Fallen Heroes)": {
+  "Takumi: Empty Vessel": {
     "HP": 34,
     "Atk": 29,
     "Spd": 32,
     "Def": 23,
     "Res": 22
   },
-  "Tharja": {
+  "Tharja: Dark Shadow": {
     "HP": 36,
     "Atk": 30,
     "Spd": 32,
     "Def": 21,
     "Res": 18
   },
-  "Tiki (Adult)": {
+  "Tiki: Naga's Voice": {
     "HP": 37,
     "Atk": 33,
     "Spd": 21,
     "Def": 33,
     "Res": 22
   },
-  "Titania": {
+  "Titania: Mighty Mercenary": {
     "HP": 35,
     "Atk": 25,
     "Spd": 32,
     "Def": 23,
     "Res": 28
   },
-  "Tobin": {
+  "Tobin: The Clueless One": {
     "HP": 43,
     "Atk": 29,
     "Spd": 25,
     "Def": 30,
     "Res": 23
   },
-  "Ursula": {
+  "Ursula: Blue Crow": {
     "HP": 33,
     "Atk": 26,
     "Spd": 30,
     "Def": 17,
     "Res": 28
   },
-  "Valter": {
+  "Valter: Dark Moonstone": {
     "HP": 39,
     "Atk": 30,
     "Spd": 29,
     "Def": 31,
     "Res": 17
   },
-  "Virion": {
+  "Virion: Elite Archer": {
     "HP": 43,
     "Atk": 29,
     "Spd": 29,
     "Def": 24,
     "Res": 12
   },
-  "Wrys": {
+  "Wrys: Kindly Priest": {
     "HP": 39,
     "Atk": 22,
     "Spd": 22,
     "Def": 20,
     "Res": 34
   },
-  "Xander": {
+  "Xander: Paragon Knight": {
     "HP": 41,
     "Atk": 30,
     "Spd": 22,
     "Def": 35,
     "Res": 15
   },
-  "Zephiel": {
+  "Zephiel: The Liberator": {
     "HP": 52,
     "Atk": 33,
     "Spd": 14,

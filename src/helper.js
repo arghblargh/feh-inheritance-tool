@@ -25,6 +25,10 @@ import { Dropdown, escapeRegExp, jsonp } from './utility.js';
 
 const units = require('./data/units.json');
 const baseStats = {
+    3: {
+        1: require('./data/stats/3_1.json'),
+        40: require('./data/stats/3_40.json')
+    },
     4: {
         1: require('./data/stats/4_1.json'),
         40: require('./data/stats/4_40.json')
@@ -94,7 +98,7 @@ export const skillTypeIcon = {
 // Load all unit protraits from file
 export const unitPortrait = Object.keys(units).reduce(function(previous, current) {
     try {
-        previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_').replace(/!/g, '') + '.png');
+        previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_').replace(/[!:"]/g, '') + '.png');
     }
     catch (e) {
         previous[current] = require('./img/portrait/_temp.png');
@@ -343,6 +347,14 @@ function getDefaultSkills(unit) {
     return skills;
 }
 
+// Returns the lowest available rarity of a unit, down to 3★
+export function getLowestRarity(unit) {
+    for (let i = 3; i <= 5; i++) {
+        if (baseStats[i][1][unit])
+            return i;
+    }
+}
+
 function getWeaponUpgrade(unit) {
     var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
     
@@ -571,9 +583,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
     let baseBonus = level === 40 ? 3 : 1;
     if (boonBane) {
         if (boonBane.boon) {
-            let boon = baseBonus;
-            if(rarity === 5 && baseBonus === 3 && units[unit].boon && units[unit].boon[boonBane.boon])
-                boon = units[unit].boon[boonBane.boon];
+            let boon = (rarity === 5 && level === 40 && units[unit].boon && units[unit].boon.includes(boonBane.boon)) ? 4 : baseBonus;
             totalMod[boonBane.boon === "HP"  ? 0 :
                     boonBane.boon === "Atk" ? 1 :
                     boonBane.boon === "Spd" ? 2 :
@@ -581,9 +591,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                 /*boonBane.boon === "Res" ?*/ 4 ] += boon;
         }
         if (boonBane.bane) {
-            let bane = baseBonus;
-            if(rarity === 5 && baseBonus === 3 && units[unit].bane && units[unit].bane[boonBane.bane])
-                bane = units[unit].bane[boonBane.bane];
+            let bane = (rarity === 5 && level === 40 && units[unit].bane && units[unit].bane.includes(boonBane.bane)) ? 4 : baseBonus;
             totalMod[boonBane.bane === "HP"  ? 0 :
                     boonBane.bane === "Atk" ? 1 :
                     boonBane.bane === "Spd" ? 2 :

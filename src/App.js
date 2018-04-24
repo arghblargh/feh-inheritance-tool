@@ -25,7 +25,7 @@ import './App.css';
 import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utility.js';
 import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect,
+         parseSkills, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect, getLowestRarity,
          calcStats, calcCost, calcTotalCost } from './helper.js';
 
 const units = require('./data/units.json');
@@ -437,6 +437,18 @@ class UnitInfo extends Component {
     let movType = units[name].movType;
     let fullWpnType = color + ' ' + wpnType;
     let bOptions = ["", "HP", "Atk", "Spd", "Def", "Res"];
+    let lvOptions = [];
+
+    switch (getLowestRarity(this.props.state.unitName)) {
+      case 3:
+        lvOptions = ['3★40', '3★1'];
+        // eslint-disable-next-line
+      case 4:
+        lvOptions = ['4★40', '4★1'].concat(lvOptions);
+        // eslint-disable-next-line
+      default:
+        lvOptions = ['5★40', '5★1'].concat(lvOptions);
+    }
 
     return (
       <div>
@@ -476,7 +488,7 @@ class UnitInfo extends Component {
               <tr>
                 <td title="Rarity and Level">
                   <Dropdown addClass='unitLevel'
-                            options={['5★40', '5★1', '4★40', '4★1']}
+                            options={lvOptions}
                             value={this.props.state.rarity + '★' + this.props.state.level}
                             onChange={this.handleLevelSelect} />
                 </td>
@@ -603,7 +615,7 @@ class InheritanceTool extends Component {
   constructor(props) {
     super(props);
 
-    let initUnit = 'Abel';
+    let initUnit = 'Abel: The Panther';
     
     let skills = units[initUnit].skills;
     let initSkills = {

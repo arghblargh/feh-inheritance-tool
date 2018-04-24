@@ -1,14 +1,16 @@
 {
-  "Abel": {
+  "Abel: The Panther": {
+    "name": "Abel",
+    "title": "The Panther",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -66,7 +68,9 @@
       ]
     }
   },
-  "Alfonse": {
+  "Alfonse: Prince of Askr": {
+    "name": "Alfonse",
+    "title": "Prince of Askr",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
@@ -127,14 +131,16 @@
       ]
     }
   },
-  "Alfonse (Hares at the Fair)": {
+  "Alfonse: Spring Prince": {
+    "name": "Alfonse",
+    "title": "Spring Prince",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -182,13 +188,15 @@
       ]
     }
   },
-  "Alm": {
+  "Alm: Hero of Prophecy": {
+    "name": "Alm",
+    "title": "Hero of Prophecy",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": {
-      "Def": 4
-    },
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -236,13 +244,15 @@
       ]
     }
   },
-  "Amelia": {
+  "Amelia: Rose of the War": {
+    "name": "Amelia",
+    "title": "Rose of the War",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": {
-      "Res": 4
-    },
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -290,7 +300,9 @@
       ]
     }
   },
-  "Anna": {
+  "Anna: Commander": {
+    "name": "Anna",
+    "title": "Commander",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
@@ -351,7 +363,9 @@
       ]
     }
   },
-  "Arden": {
+  "Arden: Strong and Tough": {
+    "name": "Arden",
+    "title": "Strong and Tough",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Armored",
@@ -404,16 +418,18 @@
       ]
     }
   },
-  "Arthur": {
+  "Arthur: Hapless Hero": {
+    "name": "Arthur",
+    "title": "Hapless Hero",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -467,7 +483,9 @@
       ]
     }
   },
-  "Arvis": {
+  "Arvis: Emperor of Flame": {
+    "name": "Arvis",
+    "title": "Emperor of Flame",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
@@ -521,15 +539,17 @@
       ]
     }
   },
-  "Athena": {
+  "Athena: Borderland Sword": {
+    "name": "Athena",
+    "title": "Borderland Sword",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -587,13 +607,15 @@
       ]
     }
   },
-  "Ayra": {
+  "Ayra: Astra's Wielder": {
+    "name": "Ayra",
+    "title": "Astra's Wielder",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -644,14 +666,16 @@
       ]
     }
   },
-  "Azama": {
+  "Azama: Carefree Monk": {
+    "name": "Azama",
+    "title": "Carefree Monk",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4,
-      "Res": 4
-    },
+    "boon": [
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -708,68 +732,16 @@
       ]
     }
   },
-  "Azura": {
-    "color": "Blue",
-    "wpnType": "Lance",
-    "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Lance"
-        },
-        {
-          "name": "Steel Lance"
-        },
-        {
-          "name": "Sapphire Lance"
-        },
-        {
-          "name": "Sapphire Lance+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Sing"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Speed +1"
-        },
-        {
-          "name": "Speed +2"
-        },
-        {
-          "name": "Speed +3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Fortify Res 1"
-        },
-        {
-          "name": "Fortify Res 2"
-        },
-        {
-          "name": "Fortify Res 3"
-        }
-      ]
-    }
-  },
-  "Azura (Happy New Year!)": {
+  "Azura: Celebratory Spirit": {
+    "name": "Azura",
+    "title": "Celebratory Spirit",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -814,16 +786,18 @@
       ]
     }
   },
-  "Azura (Performing Arts)": {
+  "Azura: Lady of Ballads": {
+    "name": "Azura",
+    "title": "Lady of Ballads",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -868,13 +842,71 @@
       ]
     }
   },
-  "Barst": {
+  "Azura: Lady of the Lake": {
+    "name": "Azura",
+    "title": "Lady of the Lake",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Sapphire Lance"
+        },
+        {
+          "name": "Sapphire Lance+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Sing"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Speed +1"
+        },
+        {
+          "name": "Speed +2"
+        },
+        {
+          "name": "Speed +3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Res 1"
+        },
+        {
+          "name": "Fortify Res 2"
+        },
+        {
+          "name": "Fortify Res 3"
+        }
+      ]
+    }
+  },
+  "Barst: The Hatchet": {
+    "name": "Barst",
+    "title": "The Hatchet",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": {
-      "Res": 4
-    },
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -921,13 +953,15 @@
       ]
     }
   },
-  "Bartre": {
+  "Bartre: Fearless Warrior": {
+    "name": "Bartre",
+    "title": "Fearless Warrior",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
+    "boon": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -981,7 +1015,9 @@
       ]
     }
   },
-  "Berkut": {
+  "Berkut: Prideful Prince": {
+    "name": "Berkut",
+    "title": "Prideful Prince",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
@@ -1042,10 +1078,15 @@
       ]
     }
   },
-  "Beruka": {
+  "Beruka: Quiet Assassin": {
+    "name": "Beruka",
+    "title": "Quiet Assassin",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1096,7 +1137,9 @@
       ]
     }
   },
-  "Black Knight": {
+  "Black Knight: Sinister General": {
+    "name": "Black Knight",
+    "title": "Sinister General",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Armored",
@@ -1159,15 +1202,17 @@
       ]
     }
   },
-  "Boey": {
+  "Boey: Skillful Survivor": {
+    "name": "Boey",
+    "title": "Skillful Survivor",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": {
-      "Atk": 4,
-      "Spd": 4,
-      "Res": 4
-    },
+    "bane": [
+      "Atk",
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1225,15 +1270,74 @@
       ]
     }
   },
-  "Caeda": {
+  "Caeda: Talys's Bride": {
+    "name": "Caeda",
+    "title": "Talys's Bride",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "bane": [
+      "Atk",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Blessed Bouquet"
+        },
+        {
+          "name": "Blessed Bouquet+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind"
+        },
+        {
+          "name": "Iceberg"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Resistance +1"
+        },
+        {
+          "name": "Attack/Res 1"
+        },
+        {
+          "name": "Attack/Res 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1"
+        },
+        {
+          "name": "Hone Spd 2"
+        },
+        {
+          "name": "Hone Spd 3"
+        }
+      ]
+    }
+  },
+  "Caeda: Talys's Heart": {
+    "name": "Caeda",
+    "title": "Talys's Heart",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": {
-      "HP": 4,
-      "Atk": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP",
+      "Atk",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1290,68 +1394,15 @@
       ]
     }
   },
-  "Caeda (Bridal Blessings)": {
-    "color": "Blue",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Thunder"
-        },
-        {
-          "name": "Elthunder"
-        },
-        {
-          "name": "Blessed Bouquet"
-        },
-        {
-          "name": "Blessed Bouquet+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Chilling Wind"
-        },
-        {
-          "name": "Iceberg"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Resistance +1"
-        },
-        {
-          "name": "Attack/Res 1"
-        },
-        {
-          "name": "Attack/Res 2"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Hone Spd 1"
-        },
-        {
-          "name": "Hone Spd 2"
-        },
-        {
-          "name": "Hone Spd 3"
-        }
-      ]
-    }
-  },
-  "Cain": {
+  "Cain: The Bull": {
+    "name": "Cain",
+    "title": "The Bull",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1409,17 +1460,19 @@
       ]
     }
   },
-  "Camilla": {
+  "Camilla: Bewitching Beauty": {
+    "name": "Camilla",
+    "title": "Bewitching Beauty",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1477,16 +1530,18 @@
       ]
     }
   },
-  "Camilla (Happy New Year!)": {
+  "Camilla: Holiday Traveler": {
+    "name": "Camilla",
+    "title": "Holiday Traveler",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1534,17 +1589,19 @@
       ]
     }
   },
-  "Camilla (Spring Festival)": {
+  "Camilla: Spring Princess": {
+    "name": "Camilla",
+    "title": "Spring Princess",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1583,7 +1640,9 @@
       ]
     }
   },
-  "Camus": {
+  "Camus: Sable Knight": {
+    "name": "Camus",
+    "title": "Sable Knight",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
@@ -1637,17 +1696,19 @@
       ]
     }
   },
-  "Catria": {
+  "Catria: Middle Whitewing": {
+    "name": "Catria",
+    "title": "Middle Whitewing",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1705,16 +1766,18 @@
       ]
     }
   },
-  "Catria (Hares at the Fair)": {
+  "Catria: Spring Whitewing": {
+    "name": "Catria",
+    "title": "Spring Whitewing",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1759,17 +1822,19 @@
       ]
     }
   },
-  "Cecilia": {
+  "Cecilia: Etrurian General": {
+    "name": "Cecilia",
+    "title": "Etrurian General",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4,
-      "Spd": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Spd"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1823,13 +1888,15 @@
       ]
     }
   },
-  "Celica": {
+  "Celica: Caring Princess": {
+    "name": "Celica",
+    "title": "Caring Princess",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1877,17 +1944,19 @@
       ]
     }
   },
-  "Celica (Fallen Heroes)": {
+  "Celica: Imprisoned Soul": {
+    "name": "Celica",
+    "title": "Imprisoned Soul",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1935,13 +2004,15 @@
       ]
     }
   },
-  "Charlotte (Bridal Blessings)": {
+  "Charlotte: Money Maiden": {
+    "name": "Charlotte",
+    "title": "Money Maiden",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -1986,13 +2057,15 @@
       ]
     }
   },
-  "Cherche": {
+  "Cherche: Wyvern Friend": {
+    "name": "Cherche",
+    "title": "Wyvern Friend",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "bane": {
-      "Res": 4
-    },
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2046,16 +2119,18 @@
       ]
     }
   },
-  "Chrom": {
+  "Chrom: Exalted Prince": {
+    "name": "Chrom",
+    "title": "Exalted Prince",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2116,13 +2191,12 @@
       ]
     }
   },
-  "Chrom (Spring Festival)": {
+  "Chrom: Gifted Leader": {
+    "name": "Chrom",
+    "title": "Gifted Leader",
     "color": "Green",
     "wpnType": "Axe",
-    "movType": "Infantry",
-    "bane": {
-      "Def": 4
-    },
+    "movType": "Armored",
     "skills": {
       "weapon": [
         {
@@ -2132,50 +2206,52 @@
           "name": "Steel Axe"
         },
         {
-          "name": "Carrot Axe"
+          "name": "Sack o' Gifts"
         },
         {
-          "name": "Carrot Axe+"
+          "name": "Sack o' Gifts+"
         }
       ],
       "assist": [
         {
-          "name": "Shove"
+          "name": "Pivot"
         }
       ],
       "passiveA": [
         {
-          "name": "Def +1"
+          "name": "Brazen Atk/Def 1"
         },
         {
-          "name": "Attack/Def +1"
+          "name": "Brazen Atk/Def 2"
         },
         {
-          "name": "Attack/Def +2"
+          "name": "Brazen Atk/Def 3"
         }
       ],
-      "passiveC": [
+      "passiveB": [
         {
-          "name": "Axe Experience 1"
+          "name": "Wary Fighter 1"
         },
         {
-          "name": "Axe Experience 2"
+          "name": "Wary Fighter 2"
         },
         {
-          "name": "Axe Experience 3"
+          "name": "Wary Fighter 3"
         }
       ]
     }
   },
-  "Chrom (The Branded King)": {
+  "Chrom: Knight Exalt": {
+    "name": "Chrom",
+    "title": "Knight Exalt",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Spd": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2237,10 +2313,15 @@
       ]
     }
   },
-  "Chrom (Winter's Envoy)": {
+  "Chrom: Spring Exalt": {
+    "name": "Chrom",
+    "title": "Spring Exalt",
     "color": "Green",
     "wpnType": "Axe",
-    "movType": "Armored",
+    "movType": "Infantry",
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2250,49 +2331,51 @@
           "name": "Steel Axe"
         },
         {
-          "name": "Sack o' Gifts"
+          "name": "Carrot Axe"
         },
         {
-          "name": "Sack o' Gifts+"
+          "name": "Carrot Axe+"
         }
       ],
       "assist": [
         {
-          "name": "Pivot"
+          "name": "Shove"
         }
       ],
       "passiveA": [
         {
-          "name": "Brazen Atk/Def 1"
+          "name": "Def +1"
         },
         {
-          "name": "Brazen Atk/Def 2"
+          "name": "Attack/Def +1"
         },
         {
-          "name": "Brazen Atk/Def 3"
+          "name": "Attack/Def +2"
         }
       ],
-      "passiveB": [
+      "passiveC": [
         {
-          "name": "Wary Fighter 1"
+          "name": "Axe Experience 1"
         },
         {
-          "name": "Wary Fighter 2"
+          "name": "Axe Experience 2"
         },
         {
-          "name": "Wary Fighter 3"
+          "name": "Axe Experience 3"
         }
       ]
     }
   },
-  "Clair": {
+  "Clair: Highborn Flier": {
+    "name": "Clair",
+    "title": "Highborn Flier",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2338,16 +2421,18 @@
       ]
     }
   },
-  "Clarine": {
+  "Clarine: Refined Noble": {
+    "name": "Clarine",
+    "title": "Refined Noble",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2404,7 +2489,9 @@
       ]
     }
   },
-  "Clarisse": {
+  "Clarisse: Sniper in the Dark": {
+    "name": "Clarisse",
+    "title": "Sniper in the Dark",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
@@ -2465,7 +2552,9 @@
       ]
     }
   },
-  "Clive": {
+  "Clive: Idealistic Knight": {
+    "name": "Clive",
+    "title": "Idealistic Knight",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
@@ -2518,13 +2607,15 @@
       ]
     }
   },
-  "Cordelia": {
+  "Cordelia: Knight Paragon": {
+    "name": "Cordelia",
+    "title": "Knight Paragon",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2585,13 +2676,15 @@
       ]
     }
   },
-  "Cordelia (Bridal Blessings)": {
+  "Cordelia: Perfect Bride": {
+    "name": "Cordelia",
+    "title": "Perfect Bride",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
+    "boon": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2636,138 +2729,89 @@
       ]
     }
   },
-  "Corrin (F)": {
-    "color": "Blue",
-    "wpnType": "Dragon",
+  "Corrin: Enjoying Tradition": {
+    "name": "Corrin",
+    "title": "Enjoying Tradition",
+    "color": "Neutral",
+    "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
-          "name": "Fire Breath",
-          "unlock": 3
-        },
-        {
-          "name": "Fire Breath+",
-          "unlock": 3
-        },
-        {
-          "name": "Dark Breath",
-          "unlock": 3
-        },
-        {
-          "name": "Dark Breath+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Dracon Gaze",
-          "unlock": 3
-        },
-        {
-          "name": "Draconic Aura",
-          "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Seal Res 1",
-          "unlock": 3
-        },
-        {
-          "name": "Seal Res 2",
+          "name": "Iron Bow",
           "unlock": 4
         },
         {
-          "name": "Seal Res 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Hone Atk 1",
-          "unlock": 3
-        },
-        {
-          "name": "Hone Atk 2",
-          "unlock": 3
-        },
-        {
-          "name": "Hone Atk 3",
+          "name": "Steel Bow",
           "unlock": 4
-        }
-      ]
-    }
-  },
-  "Corrin (F) (Nohrian Summer)": {
-    "color": "Blue",
-    "wpnType": "Tome",
-    "movType": "Flying",
-    "boon": {
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Thunder"
         },
         {
-          "name": "Elthunder"
+          "name": "Hama Ya",
+          "unlock": 4
         },
         {
-          "name": "Sealife Tome"
-        },
-        {
-          "name": "Sealife Tome+"
+          "name": "Hama Ya+"
         }
       ],
-      "special": [
+      "assist": [
         {
-          "name": "Dragon Gaze"
+          "name": "Rally Defense",
+          "unlock": 4
         },
         {
-          "name": "Dragon Fang"
+          "name": "Rally Def/Res",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "Darting Blow 1"
+          "name": "Defense +1",
+          "unlock": 4
         },
         {
-          "name": "Swift Strike 1"
+          "name": "Attack/Def +1",
+          "unlock": 4
         },
         {
-          "name": "Swift Strike 2"
+          "name": "Attack/Def +2"
         }
       ],
       "passiveC": [
         {
-          "name": "Fortify Res 1"
+          "name": "Spur Def 1",
+          "unlock": 4
         },
         {
-          "name": "Fortify Res 2"
+          "name": "Spur Def/Res 1",
+          "unlock": 4
         },
         {
-          "name": "Fortify Fliers"
+          "name": "Spur Def/Res 2",
+          "unlock": 4
         }
       ]
     }
   },
-  "Corrin (M)": {
+  "Corrin: Fateful Prince": {
+    "name": "Corrin",
+    "title": "Fateful Prince",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2825,75 +2869,144 @@
       ]
     }
   },
-  "Corrin (M) (Happy New Year!)": {
-    "color": "Neutral",
-    "wpnType": "Bow",
+  "Corrin: Fateful Princess": {
+    "name": "Corrin",
+    "title": "Fateful Princess",
+    "color": "Blue",
+    "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Spd": 4,
-      "Res": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
-          "name": "Iron Bow"
+          "name": "Fire Breath",
+          "unlock": 3
         },
         {
-          "name": "Steel Bow"
+          "name": "Fire Breath+",
+          "unlock": 3
         },
         {
-          "name": "Hama Ya"
+          "name": "Dark Breath",
+          "unlock": 3
         },
         {
-          "name": "Hama Ya+"
+          "name": "Dark Breath+"
         }
       ],
-      "assist": [
+      "special": [
         {
-          "name": "Rally Defense"
+          "name": "Dracon Gaze",
+          "unlock": 3
         },
         {
-          "name": "Rally Def/Res"
+          "name": "Draconic Aura",
+          "unlock": 4
         }
       ],
-      "passiveA": [
+      "passiveB": [
         {
-          "name": "Defense +1"
+          "name": "Seal Res 1",
+          "unlock": 3
         },
         {
-          "name": "Attack/Def +1"
+          "name": "Seal Res 2",
+          "unlock": 4
         },
         {
-          "name": "Attack/Def +2"
+          "name": "Seal Res 3"
         }
       ],
       "passiveC": [
         {
-          "name": "Spur Def 1"
+          "name": "Hone Atk 1",
+          "unlock": 3
         },
         {
-          "name": "Spur Def/Res 1"
+          "name": "Hone Atk 2",
+          "unlock": 3
         },
         {
-          "name": "Spur Def/Res 2"
+          "name": "Hone Atk 3",
+          "unlock": 4
         }
       ]
     }
   },
-  "Deirdre": {
+  "Corrin: Novice Vacationer": {
+    "name": "Corrin",
+    "title": "Novice Vacationer",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "boon": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Sealife Tome"
+        },
+        {
+          "name": "Sealife Tome+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Dragon Fang"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Strike 1"
+        },
+        {
+          "name": "Swift Strike 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Res 1"
+        },
+        {
+          "name": "Fortify Res 2"
+        },
+        {
+          "name": "Fortify Fliers"
+        }
+      ]
+    }
+  },
+  "Deirdre: Lady of the Forest": {
+    "name": "Deirdre",
+    "title": "Lady of the Forest",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Spd": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Spd",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2938,13 +3051,15 @@
       ]
     }
   },
-  "Delthea": {
+  "Delthea: Free Spirit": {
+    "name": "Delthea",
+    "title": "Free Spirit",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -2989,10 +3104,15 @@
       ]
     }
   },
-  "Donnel": {
+  "Donnel: Village Hero": {
+    "name": "Donnel",
+    "title": "Village Hero",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3039,13 +3159,15 @@
       ]
     }
   },
-  "Dorcas": {
+  "Dorcas: Serene Warrior": {
+    "name": "Dorcas",
+    "title": "Serene Warrior",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3104,10 +3226,15 @@
       ]
     }
   },
-  "Draug": {
+  "Draug: Gentle Giant": {
+    "name": "Draug",
+    "title": "Gentle Giant",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Armored",
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3158,16 +3285,18 @@
       ]
     }
   },
-  "Effie": {
+  "Effie: Army of One": {
+    "name": "Effie",
+    "title": "Army of One",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3221,67 +3350,15 @@
       ]
     }
   },
-  "Eirika": {
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "boon": {
-      "Atk": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword",
-          "unlock": 4
-        },
-        {
-          "name": "Steel Sword",
-          "unlock": 4
-        },
-        {
-          "name": "Silver Sword",
-          "unlock": 4
-        },
-        {
-          "name": "Sieglinde"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Pivot",
-          "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Drag Back",
-          "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Hone Spd 1",
-          "unlock": 4
-        },
-        {
-          "name": "Hone Spd 2",
-          "unlock": 4
-        },
-        {
-          "name": "Hone Spd 3",
-          "unlock": 4
-        }
-      ]
-    }
-  },
-  "Eirika (Sacred Memories)": {
+  "Eirika: Anamnesis Lady": {
+    "name": "Eirika",
+    "title": "Anamnesis Lady",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Cavalry",
+    "boon": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3340,16 +3417,77 @@
       ]
     }
   },
-  "Eldigan": {
+  "Eirika: Restoration Lady": {
+    "name": "Eirika",
+    "title": "Restoration Lady",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": [
+      "Atk",
+      "Def"
+    ],
+    "bane": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 4
+        },
+        {
+          "name": "Sieglinde"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Pivot",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Drag Back",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Hone Spd 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Eldigan: Lionheart": {
+    "name": "Eldigan",
+    "title": "Lionheart",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3391,15 +3529,17 @@
       ]
     }
   },
-  "Elincia": {
+  "Elincia: Lost Princess": {
+    "name": "Elincia",
+    "title": "Lost Princess",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": {
-      "HP": 4,
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3444,7 +3584,9 @@
       ]
     }
   },
-  "Elise": {
+  "Elise: Budding Flower": {
+    "name": "Elise",
+    "title": "Budding Flower",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
@@ -3495,13 +3637,15 @@
       ]
     }
   },
-  "Elise (Nohrian Summer)": {
+  "Elise: Tropical Flower": {
+    "name": "Elise",
+    "title": "Tropical Flower",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3549,72 +3693,9 @@
       ]
     }
   },
-  "Eliwood": {
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Spd": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Steel Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Silver Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Durandal"
-        }
-      ],
-      "special": [
-        {
-          "name": "Holy Vestments",
-          "unlock": 3
-        },
-        {
-          "name": "Sacred Cowl",
-          "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Axebreaker 1",
-          "unlock": 3
-        },
-        {
-          "name": "Axebreaker 2",
-          "unlock": 4
-        },
-        {
-          "name": "Axebreaker 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Res 1",
-          "unlock": 3
-        },
-        {
-          "name": "Spur Res 2",
-          "unlock": 3
-        },
-        {
-          "name": "Ward Cavalry",
-          "unlock": 4
-        }
-      ]
-    }
-  },
-  "Eliwood (Love Abounds)": {
+  "Eliwood: Devoted Love": {
+    "name": "Eliwood",
+    "title": "Devoted Love",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
@@ -3675,67 +3756,82 @@
       ]
     }
   },
-  "Ephraim": {
-    "color": "Blue",
-    "wpnType": "Lance",
-    "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
+  "Eliwood: Knight of Lycia": {
+    "name": "Eliwood",
+    "title": "Knight of Lycia",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "bane": [
+      "HP",
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
-          "name": "Iron Lance"
+          "name": "Iron Sword",
+          "unlock": 3
         },
         {
-          "name": "Steel Lance"
+          "name": "Steel Sword",
+          "unlock": 3
         },
         {
-          "name": "Heavy Spear"
+          "name": "Silver Sword",
+          "unlock": 3
         },
         {
-          "name": "Siegmund"
+          "name": "Durandal"
         }
       ],
       "special": [
         {
-          "name": "New Moon"
+          "name": "Holy Vestments",
+          "unlock": 3
         },
         {
-          "name": "Moonbow"
+          "name": "Sacred Cowl",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Seal Def 1"
+          "name": "Axebreaker 1",
+          "unlock": 3
         },
         {
-          "name": "Seal Def 2"
+          "name": "Axebreaker 2",
+          "unlock": 4
         },
         {
-          "name": "Seal Def 3"
+          "name": "Axebreaker 3"
         }
       ],
       "passiveC": [
         {
-          "name": "Threaten Def 1"
+          "name": "Spur Res 1",
+          "unlock": 3
         },
         {
-          "name": "Threaten Def 2"
+          "name": "Spur Res 2",
+          "unlock": 3
         },
         {
-          "name": "Threaten Def 3"
+          "name": "Ward Cavalry",
+          "unlock": 4
         }
       ]
     }
   },
-  "Ephraim (Legendary Lord)": {
+  "Ephraim: Legendary Lord": {
+    "name": "Ephraim",
+    "title": "Legendary Lord",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "bane": {
-      "Spd": 4
-    },
+    "bane": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3788,10 +3884,75 @@
       ]
     }
   },
-  "Est": {
+  "Ephraim: Restoration Lord": {
+    "name": "Ephraim",
+    "title": "Restoration Lord",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "boon": [
+      "Spd"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Heavy Spear"
+        },
+        {
+          "name": "Siegmund"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Moonbow"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Def 1"
+        },
+        {
+          "name": "Seal Def 2"
+        },
+        {
+          "name": "Seal Def 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Def 1"
+        },
+        {
+          "name": "Threaten Def 2"
+        },
+        {
+          "name": "Threaten Def 3"
+        }
+      ]
+    }
+  },
+  "Est: Junior Whitewing": {
+    "name": "Est",
+    "title": "Junior Whitewing",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3845,17 +4006,19 @@
       ]
     }
   },
-  "Fae": {
+  "Fae: Divine Dragon": {
+    "name": "Fae",
+    "title": "Divine Dragon",
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3909,14 +4072,16 @@
       ]
     }
   },
-  "Faye": {
+  "Faye: Devoted Heart": {
+    "name": "Faye",
+    "title": "Devoted Heart",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "bane": {
-      "Spd": 4,
-      "Def": 4
-    },
+    "bane": [
+      "Spd",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -3964,10 +4129,15 @@
       ]
     }
   },
-  "Felicia": {
+  "Felicia: Maid Mayhem": {
+    "name": "Felicia",
+    "title": "Maid Mayhem",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
+    "boon": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4028,7 +4198,9 @@
       ]
     }
   },
-  "Finn": {
+  "Finn: Lance of Legend": {
+    "name": "Finn",
+    "title": "Lance of Legend",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
@@ -4085,16 +4257,18 @@
       ]
     }
   },
-  "Fir": {
+  "Fir: Sword Student": {
+    "name": "Fir",
+    "title": "Sword Student",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4155,15 +4329,17 @@
       ]
     }
   },
-  "Fjorm": {
+  "Fjorm: Princess of Ice": {
+    "name": "Fjorm",
+    "title": "Princess of Ice",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Atk": 4,
-      "Def": 4
-    },
+    "bane": [
+      "HP",
+      "Atk",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4225,13 +4401,15 @@
       ]
     }
   },
-  "Florina": {
+  "Florina: Lovely Flier": {
+    "name": "Florina",
+    "title": "Lovely Flier",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": {
-      "Spd": 4
-    },
+    "boon": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4285,13 +4463,70 @@
       ]
     }
   },
-  "Frederick": {
+  "Frederick: Horizon Watcher": {
+    "name": "Frederick",
+    "title": "Horizon Watcher",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "bane": [
+      "HP",
+      "Def",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Seashell"
+        },
+        {
+          "name": "Seashell+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1"
+        },
+        {
+          "name": "Armored Blow 2"
+        },
+        {
+          "name": "Armored Blow 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Atk 1"
+        },
+        {
+          "name": "Seal Atk/Spd 1"
+        },
+        {
+          "name": "Seal Atk/Spd 2"
+        }
+      ]
+    }
+  },
+  "Frederick: Polite Knight": {
+    "name": "Frederick",
+    "title": "Polite Knight",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "boon": {
-      "Spd": 4
-    },
+    "boon": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4349,63 +4584,15 @@
       ]
     }
   },
-  "Frederick (Ylissean Summer)": {
+  "Gaius: Candy Stealer": {
+    "name": "Gaius",
+    "title": "Candy Stealer",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Def": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Dagger"
-        },
-        {
-          "name": "Steel Dagger"
-        },
-        {
-          "name": "Seashell"
-        },
-        {
-          "name": "Seashell+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Ardent Sacrifice"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Armored Blow 1"
-        },
-        {
-          "name": "Armored Blow 2"
-        },
-        {
-          "name": "Armored Blow 3"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Seal Atk 1"
-        },
-        {
-          "name": "Seal Atk/Spd 1"
-        },
-        {
-          "name": "Seal Atk/Spd 2"
-        }
-      ]
-    }
-  },
-  "Gaius": {
-    "color": "Neutral",
-    "wpnType": "Dagger",
-    "movType": "Infantry",
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4459,14 +4646,16 @@
       ]
     }
   },
-  "Gaius (Ylissean Summer)": {
+  "Gaius: Thief Exposed": {
+    "name": "Gaius",
+    "title": "Thief Exposed",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4514,13 +4703,15 @@
       ]
     }
   },
-  "Genny": {
+  "Genny: Endearing Ally": {
+    "name": "Genny",
+    "title": "Endearing Ally",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
+    "boon": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4568,7 +4759,9 @@
       ]
     }
   },
-  "Gerome": {
+  "Gerome: Masked Rider": {
+    "name": "Gerome",
+    "title": "Masked Rider",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
@@ -4622,13 +4815,15 @@
       ]
     }
   },
-  "Gordin": {
+  "Gordin: Altean Archer": {
+    "name": "Gordin",
+    "title": "Altean Archer",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "bane": {
-      "Res": 4
-    },
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4682,13 +4877,15 @@
       ]
     }
   },
-  "Gray": {
+  "Gray: Wry Comrade": {
+    "name": "Gray",
+    "title": "Wry Comrade",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4733,17 +4930,19 @@
       ]
     }
   },
-  "Gunnthrá": {
+  "Gunnthrá: Voice of Dreams": {
+    "name": "Gunnthrá",
+    "title": "Voice of Dreams",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4796,16 +4995,18 @@
       ]
     }
   },
-  "Gunter": {
+  "Gunter: Inveterate Soldier": {
+    "name": "Gunter",
+    "title": "Inveterate Soldier",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Atk": 4,
-      "Def": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Atk",
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4859,17 +5060,19 @@
       ]
     }
   },
-  "Gwendolyn": {
+  "Gwendolyn: Adorable Knight": {
+    "name": "Gwendolyn",
+    "title": "Adorable Knight",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4920,13 +5123,15 @@
       ]
     }
   },
-  "Hana": {
+  "Hana: Focused Samurai": {
+    "name": "Hana",
+    "title": "Focused Samurai",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": {
-      "Res": 4
-    },
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -4980,14 +5185,16 @@
       ]
     }
   },
-  "Hardin": {
+  "Hardin: Dark Emperor": {
+    "name": "Hardin",
+    "title": "Dark Emperor",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "bane": {
-      "HP": 4,
-      "Spd": 4
-    },
+    "bane": [
+      "HP",
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5035,13 +5242,15 @@
       ]
     }
   },
-  "Hawkeye": {
+  "Hawkeye: Desert Guardian": {
+    "name": "Hawkeye",
+    "title": "Desert Guardian",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": {
-      "Def": 4
-    },
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5099,13 +5308,15 @@
       ]
     }
   },
-  "Hector": {
+  "Hector: General of Ostia": {
+    "name": "Hector",
+    "title": "General of Ostia",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": {
-      "Spd": 4
-    },
+    "boon": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5147,13 +5358,15 @@
       ]
     }
   },
-  "Hector (Love Abounds)": {
+  "Hector: Just Here to Fight": {
+    "name": "Hector",
+    "title": "Just Here to Fight",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": {
-      "Atk": 4
-    },
+    "boon": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5195,13 +5408,68 @@
       ]
     }
   },
-  "Henry": {
+  "Henry: Happy Vampire": {
+    "name": "Henry",
+    "title": "Happy Vampire",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Armored",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Spectral Tome"
+        },
+        {
+          "name": "Spectral Tome+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution"
+        },
+        {
+          "name": "Reprisal"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Honor"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1"
+        },
+        {
+          "name": "Armor March 2"
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
+  "Henry: Twisted Mind": {
+    "name": "Henry",
+    "title": "Twisted Mind",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5259,61 +5527,15 @@
       ]
     }
   },
-  "Henry (Trick or Defeat!)": {
-    "color": "Green",
-    "wpnType": "Tome",
-    "movType": "Armored",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Wind"
-        },
-        {
-          "name": "Elwind"
-        },
-        {
-          "name": "Spectral Tome"
-        },
-        {
-          "name": "Spectral Tome+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Retribution"
-        },
-        {
-          "name": "Reprisal"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Live for Honor"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Armor March 1"
-        },
-        {
-          "name": "Armor March 2"
-        },
-        {
-          "name": "Armor March 3"
-        }
-      ]
-    }
-  },
-  "Hinata": {
+  "Hinata: Wild Samurai": {
+    "name": "Hinata",
+    "title": "Wild Samurai",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
+    "boon": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5371,77 +5593,19 @@
       ]
     }
   },
-  "Hinoka": {
-    "color": "Blue",
-    "wpnType": "Lance",
-    "movType": "Flying",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Lance"
-        },
-        {
-          "name": "Steel Lance"
-        },
-        {
-          "name": "Brave Lance"
-        },
-        {
-          "name": "Brave Lance+"
-        },
-        {
-          "name": "Hinoka's Spear"
-        }
-      ],
-      "special": [
-        {
-          "name": "Rising Wind"
-        },
-        {
-          "name": "Blazing Wind"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Defiant Def 1"
-        },
-        {
-          "name": "Defiant Def 2"
-        },
-        {
-          "name": "Defiant Def 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Hone Spd 1"
-        },
-        {
-          "name": "Hone Spd 2"
-        },
-        {
-          "name": "Hone Fliers"
-        }
-      ]
-    }
-  },
-  "Hinoka (Wings of Fate)": {
+  "Hinoka: Blue Sky Warrior": {
+    "name": "Hinoka",
+    "title": "Blue Sky Warrior",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Flying",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5500,73 +5664,77 @@
       ]
     }
   },
-  "Ike": {
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "bane": {
-      "Res": 4
-    },
+  "Hinoka: Warrior Princess": {
+    "name": "Hinoka",
+    "title": "Warrior Princess",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
-          "name": "Iron Sword",
-          "unlock": 3
+          "name": "Iron Lance"
         },
         {
-          "name": "Steel Sword",
-          "unlock": 3
+          "name": "Steel Lance"
         },
         {
-          "name": "Silver Sword",
-          "unlock": 4
+          "name": "Brave Lance"
         },
         {
-          "name": "Ragnell"
+          "name": "Brave Lance+"
+        },
+        {
+          "name": "Hinoka's Spear"
         }
       ],
       "special": [
         {
-          "name": "New Moon"
+          "name": "Rising Wind"
         },
         {
-          "name": "Luna"
-        },
-        {
-          "name": "Aether"
+          "name": "Blazing Wind"
         }
       ],
       "passiveA": [
         {
-          "name": "Heavy Blade 1"
+          "name": "Defiant Def 1"
         },
         {
-          "name": "Heavy Blade 2"
+          "name": "Defiant Def 2"
         },
         {
-          "name": "Heavy Blade 3"
+          "name": "Defiant Def 3"
         }
       ],
-      "passiveB": [
+      "passiveC": [
         {
-          "name": "Swordbreaker 1"
+          "name": "Hone Spd 1"
         },
         {
-          "name": "Swordbreaker 2"
+          "name": "Hone Spd 2"
         },
         {
-          "name": "Swordbreaker 3"
+          "name": "Hone Fliers"
         }
       ]
     }
   },
-  "Ike (Brave Heroes)": {
+  "Ike: Brave Mercenary": {
+    "name": "Ike",
+    "title": "Brave Mercenary",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": {
-      "Spd": 4
-    },
+    "bane": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5622,26 +5790,25 @@
       ]
     }
   },
-  "Ike (Vanguard Legend)": {
+  "Ike: Vanguard Legend": {
+    "name": "Ike",
+    "title": "Vanguard Legend",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
-          "name": "Iron Sword",
-          "unlock": 3
+          "name": "Iron Sword"
         },
         {
-          "name": "Steel Sword",
-          "unlock": 3
+          "name": "Steel Sword"
         },
         {
-          "name": "Silver Sword",
-          "unlock": 4
+          "name": "Silver Sword"
         },
         {
           "name": "Ragnell"
@@ -5693,14 +5860,75 @@
       ]
     }
   },
-  "Inigo (Performing Arts)": {
+  "Ike: Young Mercenary": {
+    "name": "Ike",
+    "title": "Young Mercenary",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "bane": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Ragnell"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Luna"
+        },
+        {
+          "name": "Aether"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Heavy Blade 1"
+        },
+        {
+          "name": "Heavy Blade 2"
+        },
+        {
+          "name": "Heavy Blade 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Swordbreaker 1"
+        },
+        {
+          "name": "Swordbreaker 2"
+        },
+        {
+          "name": "Swordbreaker 3"
+        }
+      ]
+    }
+  },
+  "Inigo: Indigo Dancer": {
+    "name": "Inigo",
+    "title": "Indigo Dancer",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Atk": 4
-    },
+    "bane": [
+      "HP",
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5745,14 +5973,16 @@
       ]
     }
   },
-  "Innes": {
+  "Innes: Regal Strategician": {
+    "name": "Innes",
+    "title": "Regal Strategician",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5800,14 +6030,16 @@
       ]
     }
   },
-  "Jaffar": {
+  "Jaffar: Angel of Death": {
+    "name": "Jaffar",
+    "title": "Angel of Death",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Atk",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5855,10 +6087,15 @@
       ]
     }
   },
-  "Jagen": {
+  "Jagen: Veteran Knight": {
+    "name": "Jagen",
+    "title": "Veteran Knight",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
+    "boon": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5916,13 +6153,71 @@
       ]
     }
   },
-  "Jakob": {
+  "Jakob: Devoted Monster": {
+    "name": "Jakob",
+    "title": "Devoted Monster",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Armored",
+    "bane": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Monstrous Bow"
+        },
+        {
+          "name": "Monstrous Bow+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Ignis"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1"
+        },
+        {
+          "name": "Bracing Blow 1"
+        },
+        {
+          "name": "Bracing Blow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1"
+        },
+        {
+          "name": "Wary Fighter 2"
+        },
+        {
+          "name": "Wary Fighter 3"
+        }
+      ]
+    }
+  },
+  "Jakob: Devoted Servant": {
+    "name": "Jakob",
+    "title": "Devoted Servant",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -5976,68 +6271,16 @@
       ]
     }
   },
-  "Jakob (Trick or Defeat!)": {
-    "color": "Neutral",
-    "wpnType": "Bow",
-    "movType": "Armored",
-    "bane": {
-      "HP": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Bow"
-        },
-        {
-          "name": "Steel Bow"
-        },
-        {
-          "name": "Monstrous Bow"
-        },
-        {
-          "name": "Monstrous Bow+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Glowing Ember"
-        },
-        {
-          "name": "Ignis"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Armored Blow 1"
-        },
-        {
-          "name": "Bracing Blow 1"
-        },
-        {
-          "name": "Bracing Blow 2"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Wary Fighter 1"
-        },
-        {
-          "name": "Wary Fighter 2"
-        },
-        {
-          "name": "Wary Fighter 3"
-        }
-      ]
-    }
-  },
-  "Jeorge": {
+  "Jeorge: Perfect Shot": {
+    "name": "Jeorge",
+    "title": "Perfect Shot",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6095,7 +6338,9 @@
       ]
     }
   },
-  "Joshua": {
+  "Joshua: Tempest King": {
+    "name": "Joshua",
+    "title": "Tempest King",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
@@ -6155,17 +6400,19 @@
       ]
     }
   },
-  "Julia": {
+  "Julia: Naga's Blood": {
+    "name": "Julia",
+    "title": "Naga's Blood",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6213,13 +6460,15 @@
       ]
     }
   },
-  "Kagero": {
+  "Kagero: Honorable Ninja": {
+    "name": "Kagero",
+    "title": "Honorable Ninja",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": {
-      "Res": 4
-    },
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6277,17 +6526,19 @@
       ]
     }
   },
-  "Kagero (Hares at the Fair)": {
+  "Kagero: Spring Ninja": {
+    "name": "Kagero",
+    "title": "Spring Ninja",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Flying",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6340,17 +6591,19 @@
       ]
     }
   },
-  "Kana (F)": {
+  "Kana: Dragon Princess": {
+    "name": "Kana",
+    "title": "Dragon Princess",
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Atk": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6398,7 +6651,9 @@
       ]
     }
   },
-  "Kana (M)": {
+  "Kana: Dragon Spawn": {
+    "name": "Kana",
+    "title": "Dragon Spawn",
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Infantry",
@@ -6459,16 +6714,18 @@
       ]
     }
   },
-  "Karel": {
+  "Karel: Sword Demon": {
+    "name": "Karel",
+    "title": "Sword Demon",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6519,13 +6776,15 @@
       ]
     }
   },
-  "Katarina": {
+  "Katarina: Wayward One": {
+    "name": "Katarina",
+    "title": "Wayward One",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6573,13 +6832,15 @@
       ]
     }
   },
-  "Kaze": {
+  "Kaze: Easygoing Ninja": {
+    "name": "Kaze",
+    "title": "Easygoing Ninja",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": {
-      "Def": 4
-    },
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6637,17 +6898,19 @@
       ]
     }
   },
-  "Klein": {
+  "Klein: Silver Nobleman": {
+    "name": "Klein",
+    "title": "Silver Nobleman",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Atk": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6705,10 +6968,15 @@
       ]
     }
   },
-  "L'Arachel": {
+  "L'Arachel: Princess of Light": {
+    "name": "L'Arachel",
+    "title": "Princess of Light",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6766,14 +7034,16 @@
       ]
     }
   },
-  "Lachesis": {
+  "Lachesis: Lionheart's Sister": {
+    "name": "Lachesis",
+    "title": "Lionheart's Sister",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6831,10 +7101,15 @@
       ]
     }
   },
-  "Laslow": {
+  "Laslow: Dancing Duelist": {
+    "name": "Laslow",
+    "title": "Dancing Duelist",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
+    "boon": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6892,7 +7167,9 @@
       ]
     }
   },
-  "Legion": {
+  "Legion: Masked Maniac": {
+    "name": "Legion",
+    "title": "Masked Maniac",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
@@ -6953,12 +7230,16 @@
       ]
     }
   },
-  "Leif": {
+  "Leif: Prince of Leonster": {
+    "name": "Leif",
+    "title": "Prince of Leonster",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {},
-    "bane": {},
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7011,18 +7292,80 @@
       ]
     }
   },
-  "Leo": {
+  "Leo: Seashore's Prince": {
+    "name": "Leo",
+    "title": "Seashore's Prince",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Spd"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Tomato Tome"
+        },
+        {
+          "name": "Tomato Tome+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind"
+        },
+        {
+          "name": "Iceberg"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Res 1"
+        },
+        {
+          "name": "Seal Res 2"
+        },
+        {
+          "name": "Seal Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Ploy 1"
+        },
+        {
+          "name": "Atk Ploy 2"
+        },
+        {
+          "name": "Atk Ploy 3"
+        }
+      ]
+    }
+  },
+  "Leo: Sorcerous Prince": {
+    "name": "Leo",
+    "title": "Sorcerous Prince",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Atk": 4,
-      "Res": 4
-    },
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP",
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7070,75 +7413,19 @@
       ]
     }
   },
-  "Leo (Nohrian Summer)": {
-    "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Spd": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "FLux"
-        },
-        {
-          "name": "Ruin"
-        },
-        {
-          "name": "Tomato Tome"
-        },
-        {
-          "name": "Tomato Tome+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Chilling Wind"
-        },
-        {
-          "name": "Iceberg"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Seal Res 1"
-        },
-        {
-          "name": "Seal Res 2"
-        },
-        {
-          "name": "Seal Res 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Atk Ploy 1"
-        },
-        {
-          "name": "Atk Ploy 2"
-        },
-        {
-          "name": "Atk Ploy 3"
-        }
-      ]
-    }
-  },
-  "Leon": {
+  "Leon: True of Heart": {
+    "name": "Leon",
+    "title": "True of Heart",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7196,17 +7483,76 @@
       ]
     }
   },
-  "Lilina": {
+  "Lilina: Blush of Youth": {
+    "name": "Lilina",
+    "title": "Blush of Youth",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "bane": [
+      "Spd",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Green Gift"
+        },
+        {
+          "name": "Green Gift+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Flame"
+        },
+        {
+          "name": "Blazing Flame"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1"
+        },
+        {
+          "name": "HP/Atk 1"
+        },
+        {
+          "name": "HP/Atk 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1"
+        },
+        {
+          "name": "Atk Tactic 2"
+        },
+        {
+          "name": "Atk Tactic 3"
+        }
+      ]
+    }
+  },
+  "Lilina: Delightful Noble": {
+    "name": "Lilina",
+    "title": "Delightful Noble",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Spd": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Spd"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7267,72 +7613,19 @@
       ]
     }
   },
-  "Lilina (Love Abounds)": {
-    "color": "Green",
-    "wpnType": "Tome",
-    "movType": "Cavalry",
-    "bane": {
-      "Spd": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Wind"
-        },
-        {
-          "name": "Elwind"
-        },
-        {
-          "name": "Green Gift"
-        },
-        {
-          "name": "Green Gift+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Rising Flame"
-        },
-        {
-          "name": "Blazing Flame"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Attack +1"
-        },
-        {
-          "name": "HP/Atk 1"
-        },
-        {
-          "name": "HP/Atk 2"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Atk Tactic 1"
-        },
-        {
-          "name": "Atk Tactic 2"
-        },
-        {
-          "name": "Atk Tactic 3"
-        }
-      ]
-    }
-  },
-  "Linde": {
+  "Linde: Light Mage": {
+    "name": "Linde",
+    "title": "Light Mage",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7378,17 +7671,76 @@
       ]
     }
   },
-  "Lissa": {
+  "Lissa: Pure Joy": {
+    "name": "Lissa",
+    "title": "Pure Joy",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "bane": {
+      "HP": 4,
+      "Spd": 4
+    },
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Handbell"
+        },
+        {
+          "name": "Handbell+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Bonfire"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1"
+        },
+        {
+          "name": "Bold Fighter 2"
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1"
+        },
+        {
+          "name": "Fortify Def 2"
+        },
+        {
+          "name": "Fortify Armor"
+        }
+      ]
+    }
+  },
+  "Lissa: Sprightly Cleric": {
+    "name": "Lissa",
+    "title": "Sprightly Cleric",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7445,62 +7797,9 @@
       ]
     }
   },
-  "Lissa (Winter's Envoy)": {
-    "color": "Green",
-    "wpnType": "Axe",
-    "movType": "Armored",
-    "bane": {
-      "HP": 4,
-      "Spd": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Axe"
-        },
-        {
-          "name": "Steel Axe"
-        },
-        {
-          "name": "Handbell"
-        },
-        {
-          "name": "Handbell+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Glowing Ember"
-        },
-        {
-          "name": "Bonfire"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Bold Fighter 1"
-        },
-        {
-          "name": "Bold Fighter 2"
-        },
-        {
-          "name": "Bold Fighter 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Fortify Def 1"
-        },
-        {
-          "name": "Fortify Def 2"
-        },
-        {
-          "name": "Fortify Armor"
-        }
-      ]
-    }
-  },
-  "Lloyd": {
+  "Lloyd: White Wolf": {
+    "name": "Lloyd",
+    "title": "White Wolf",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
@@ -7561,10 +7860,15 @@
       ]
     }
   },
-  "Lon'qu": {
+  "Lon'qu: Solitary Blade": {
+    "name": "Lon'qu",
+    "title": "Solitary Blade",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7622,70 +7926,15 @@
       ]
     }
   },
-  "Lucina": {
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword"
-        },
-        {
-          "name": "Steel Sword"
-        },
-        {
-          "name": "Silver Sword"
-        },
-        {
-          "name": "Falchion"
-        }
-      ],
-      "special": [
-        {
-          "name": "New Moon"
-        },
-        {
-          "name": "Luna"
-        },
-        {
-          "name": "Aether"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Defiant Spd 1"
-        },
-        {
-          "name": "Defiant Spd 2"
-        },
-        {
-          "name": "Defiant Spd 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Atk 1"
-        },
-        {
-          "name": "Spur Atk 2"
-        },
-        {
-          "name": "Spur Atk 3"
-        }
-      ]
-    }
-  },
-  "Lucina (Brave Heroes)": {
+  "Lucina: Brave Princess": {
+    "name": "Lucina",
+    "title": "Brave Princess",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7736,17 +7985,78 @@
       ]
     }
   },
-  "Lucina (Spring Festival)": {
+  "Lucina: Future Witness": {
+    "name": "Lucina",
+    "title": "Future Witness",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": [
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Falchion"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Luna"
+        },
+        {
+          "name": "Aether"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Defiant Spd 1"
+        },
+        {
+          "name": "Defiant Spd 2"
+        },
+        {
+          "name": "Defiant Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk 2"
+        },
+        {
+          "name": "Spur Atk 3"
+        }
+      ]
+    }
+  },
+  "Lucina: Spring Exalt": {
+    "name": "Lucina",
+    "title": "Spring Exalt",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Res": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
+    "boon": [
+      "HP",
+      "Res"
+    ],
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7791,17 +8101,19 @@
       ]
     }
   },
-  "Lucius": {
+  "Lucius: The Light": {
+    "name": "Lucius",
+    "title": "The Light",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Spd": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7858,13 +8170,15 @@
       ]
     }
   },
-  "Lukas": {
+  "Lukas: Sharp Soldier": {
+    "name": "Lukas",
+    "title": "Sharp Soldier",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": {
-      "Res": 4
-    },
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7922,14 +8236,16 @@
       ]
     }
   },
-  "Luke": {
+  "Luke: Rowdy Squire": {
+    "name": "Luke",
+    "title": "Rowdy Squire",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": {
-      "Spd": 4,
-      "Def": 4
-    },
+    "bane": [
+      "Spd",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7977,13 +8293,15 @@
       ]
     }
   },
-  "Lute": {
+  "Lute: Prodigy": {
+    "name": "Lute",
+    "title": "Prodigy",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": {
-      "Def": 4
-    },
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8031,78 +8349,19 @@
       ]
     }
   },
-  "Lyn": {
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword"
-        },
-        {
-          "name": "Steel Sword"
-        },
-        {
-          "name": "Silver Sword"
-        },
-        {
-          "name": "Sol Katti"
-        }
-      ],
-      "special": [
-        {
-          "name": "Night Sky"
-        },
-        {
-          "name": "Astra"
-        },
-        {
-          "name": "Galeforce"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Defiant Atk 1"
-        },
-        {
-          "name": "Defiant Atk 2"
-        },
-        {
-          "name": "Defiant Atk 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Spd 1"
-        },
-        {
-          "name": "Spur Spd 2"
-        },
-        {
-          "name": "Spur Spd 3"
-        }
-      ]
-    }
-  },
-  "Lyn (Brave Heroes)": {
+  "Lyn: Brave Lady": {
+    "name": "Lyn",
+    "title": "Brave Lady",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8155,17 +8414,19 @@
       ]
     }
   },
-  "Lyn (Bridal Blessings)": {
+  "Lyn: Bride of the Plains": {
+    "name": "Lyn",
+    "title": "Bride of the Plains",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Atk": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8213,17 +8474,82 @@
       ]
     }
   },
-  "Lyn (Love Abounds)": {
+  "Lyn: Lady of the Plains": {
+    "name": "Lyn",
+    "title": "Lady of the Plains",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Atk"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Sol Katti"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Astra"
+        },
+        {
+          "name": "Galeforce"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Defiant Atk 1"
+        },
+        {
+          "name": "Defiant Atk 2"
+        },
+        {
+          "name": "Defiant Atk 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1"
+        },
+        {
+          "name": "Spur Spd 2"
+        },
+        {
+          "name": "Spur Spd 3"
+        }
+      ]
+    }
+  },
+  "Lyn: Wind's Embrace": {
+    "name": "Lyn",
+    "title": "Wind's Embrace",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Armored",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8279,7 +8605,9 @@
       ]
     }
   },
-  "Lyon": {
+  "Lyon: Shadow Prince": {
+    "name": "Lyon",
+    "title": "Shadow Prince",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
@@ -8340,17 +8668,19 @@
       ]
     }
   },
-  "Mae": {
+  "Mae: Bundle of Energy": {
+    "name": "Mae",
+    "title": "Bundle of Energy",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8404,16 +8734,18 @@
       ]
     }
   },
-  "Maria": {
+  "Maria: Minerva's Sister": {
+    "name": "Maria",
+    "title": "Minerva's Sister",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8470,7 +8802,9 @@
       ]
     }
   },
-  "Marisa": {
+  "Marisa: Crimson Flash": {
+    "name": "Marisa",
+    "title": "Crimson Flash",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
@@ -8531,14 +8865,16 @@
       ]
     }
   },
-  "Marth": {
+  "Marth: Altean Prince": {
+    "name": "Marth",
+    "title": "Altean Prince",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8592,7 +8928,9 @@
       ]
     }
   },
-  "Marth (Masked)": {
+  "Marth: Enigmatic Blade": {
+    "name": "Marth",
+    "title": "Enigmatic Blade",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
@@ -8616,16 +8954,18 @@
       ]
     }
   },
-  "Mathilda": {
+  "Mathilda: Legendary Knight": {
+    "name": "Mathilda",
+    "title": "Legendary Knight",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8679,16 +9019,18 @@
       ]
     }
   },
-  "Matthew": {
+  "Matthew: Faithful Spy": {
+    "name": "Matthew",
+    "title": "Faithful Spy",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8742,16 +9084,18 @@
       ]
     }
   },
-  "Merric": {
+  "Merric: Wind Mage": {
+    "name": "Merric",
+    "title": "Wind Mage",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8809,17 +9153,19 @@
       ]
     }
   },
-  "Mia": {
+  "Mia: Lady of Blades": {
+    "name": "Mia",
+    "title": "Lady of Blades",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8867,17 +9213,19 @@
       ]
     }
   },
-  "Micaiah": {
+  "Micaiah: Priestess of Dawn": {
+    "name": "Micaiah",
+    "title": "Priestess of Dawn",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Spd": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Spd",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8936,7 +9284,9 @@
       ]
     }
   },
-  "Michalis": {
+  "Michalis: Ambitious King": {
+    "name": "Michalis",
+    "title": "Ambitious King",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
@@ -8988,13 +9338,15 @@
       ]
     }
   },
-  "Minerva": {
+  "Minerva: Red Dragoon": {
+    "name": "Minerva",
+    "title": "Red Dragoon",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9042,17 +9394,19 @@
       ]
     }
   },
-  "Mist": {
+  "Mist: Helpful Sister": {
+    "name": "Mist",
+    "title": "Helpful Sister",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Spd": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "HP",
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9100,16 +9454,85 @@
       ]
     }
   },
-  "Morgan (F)": {
+  "Morgan: Lad from Afar": {
+    "name": "Morgan",
+    "title": "Lad from Afar",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": [
+      "HP",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 4
+        },
+        {
+          "name": "Ruin",
+          "unlock": 4
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 4
+        },
+        {
+          "name": "Grima's Truth"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dull Ranged 1",
+          "unlock": 4
+        },
+        {
+          "name": "Dull Ranged 2",
+          "unlock": 4
+        },
+        {
+          "name": "Dull Ranged 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Def/Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "Spur Def/Res 2",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Morgan: Lass from Afar": {
+    "name": "Morgan",
+    "title": "Lass from Afar",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9168,75 +9591,18 @@
       ]
     }
   },
-  "Morgan (M)": {
-    "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Flux",
-          "unlock": 4
-        },
-        {
-          "name": "Ruin",
-          "unlock": 4
-        },
-        {
-          "name": "Fenrir",
-          "unlock": 4
-        },
-        {
-          "name": "Grima's Truth"
-        }
-      ],
-      "special": [
-        {
-          "name": "Dragon Gaze",
-          "unlock": 4
-        },
-        {
-          "name": "Dragon Fang",
-          "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Dull Ranged 1",
-          "unlock": 4
-        },
-        {
-          "name": "Dull Ranged 2",
-          "unlock": 4
-        },
-        {
-          "name": "Dull Ranged 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Res 1",
-          "unlock": 4
-        },
-        {
-          "name": "Spur Def/Res 1",
-          "unlock": 4
-        },
-        {
-          "name": "Spur Def/Res 2",
-          "unlock": 4
-        }
-      ]
-    }
-  },
-  "Myrrh": {
+  "Myrrh: Great Dragon": {
+    "name": "Myrrh",
+    "title": "Great Dragon",
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Flying",
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9284,17 +9650,19 @@
       ]
     }
   },
-  "Nanna": {
+  "Nanna: Nordion Princess": {
+    "name": "Nanna",
+    "title": "Nordion Princess",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4,
-      "Res": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
+    "boon": [
+      "HP",
+      "Res"
+    ],
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9365,7 +9733,9 @@
       ]
     }
   },
-  "Narcian": {
+  "Narcian: Wyvern General": {
+    "name": "Narcian",
+    "title": "Wyvern General",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
@@ -9426,7 +9796,9 @@
       ]
     }
   },
-  "Navarre": {
+  "Navarre: Scarlet Sword": {
+    "name": "Navarre",
+    "title": "Scarlet Sword",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
@@ -9487,13 +9859,15 @@
       ]
     }
   },
-  "Nephenee": {
+  "Nephenee: Fierce Halberdier": {
+    "name": "Nephenee",
+    "title": "Fierce Halberdier",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
+    "boon": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9541,16 +9915,18 @@
       ]
     }
   },
-  "Niles": {
+  "Niles: Cruel to Be Kind": {
+    "name": "Niles",
+    "title": "Cruel to Be Kind",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9608,16 +9984,18 @@
       ]
     }
   },
-  "Ninian": {
+  "Ninian: Oracle of Destiny": {
+    "name": "Ninian",
+    "title": "Oracle of Destiny",
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9662,13 +10040,15 @@
       ]
     }
   },
-  "Nino": {
+  "Nino: Pious Mage": {
+    "name": "Nino",
+    "title": "Pious Mage",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9722,14 +10102,74 @@
       ]
     }
   },
-  "Nowi": {
+  "Nowi: Eternal Witch": {
+    "name": "Nowi",
+    "title": "Eternal Witch",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "boon": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Fenrir"
+        },
+        {
+          "name": "Grimoire"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1"
+        },
+        {
+          "name": "Atk/Res Bond 2"
+        },
+        {
+          "name": "Atk/Res Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Bounty"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1"
+        },
+        {
+          "name": "Hone Atk 2"
+        },
+        {
+          "name": "Hone Fliers"
+        }
+      ]
+    }
+  },
+  "Nowi: Eternal Youth": {
+    "name": "Nowi",
+    "title": "Eternal Youth",
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "bane": {
-      "Spd": 4,
-      "Res": 4
-    },
+    "bane": [
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9783,72 +10223,18 @@
       ]
     }
   },
-  "Nowi (Trick or Defeat!)": {
-    "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Flying",
-    "boon": {
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Flux"
-        },
-        {
-          "name": "Ruin"
-        },
-        {
-          "name": "Fenrir"
-        },
-        {
-          "name": "Grimoire"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Reposition"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Atk/Res Bond 1"
-        },
-        {
-          "name": "Atk/Res Bond 2"
-        },
-        {
-          "name": "Atk/Res Bond 3"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Live for Bounty"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Hone Atk 1"
-        },
-        {
-          "name": "Hone Atk 2"
-        },
-        {
-          "name": "Hone Fliers"
-        }
-      ]
-    }
-  },
-  "Oboro": {
+  "Oboro: Fierce Fighter": {
+    "name": "Oboro",
+    "title": "Fierce Fighter",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9902,10 +10288,16 @@
       ]
     }
   },
-  "Odin": {
+  "Odin: Potent Force": {
+    "name": "Odin",
+    "title": "Potent Force",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "boon": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -9963,16 +10355,18 @@
       ]
     }
   },
-  "Ogma": {
+  "Ogma: Loyal Blade": {
+    "name": "Ogma",
+    "title": "Loyal Blade",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10030,7 +10424,9 @@
       ]
     }
   },
-  "Oliver": {
+  "Oliver: Admirer of Beauty": {
+    "name": "Oliver",
+    "title": "Admirer of Beauty",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
@@ -10092,18 +10488,20 @@
       ]
     }
   },
-  "Olivia": {
+  "Olivia: Blushing Beauty": {
+    "name": "Olivia",
+    "title": "Blushing Beauty",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10150,17 +10548,19 @@
       ]
     }
   },
-  "Olivia (Performing Arts)": {
+  "Olivia: Festival Dancer": {
+    "name": "Olivia",
+    "title": "Festival Dancer",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10205,13 +10605,15 @@
       ]
     }
   },
-  "Olwen": {
+  "Olwen: Blue Mage Knight": {
+    "name": "Olwen",
+    "title": "Blue Mage Knight",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": {
-      "Atk": 4
-    },
+    "boon": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10256,14 +10658,16 @@
       ]
     }
   },
-  "Olwen (World of Thracia)": {
+  "Olwen: Righteous Knight": {
+    "name": "Olwen",
+    "title": "Righteous Knight",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10322,16 +10726,18 @@
       ]
     }
   },
-  "Oscar": {
+  "Oscar: Agile Horseman": {
+    "name": "Oscar",
+    "title": "Agile Horseman",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10389,17 +10795,19 @@
       ]
     }
   },
-  "Palla": {
+  "Palla: Eldest Whitewing": {
+    "name": "Palla",
+    "title": "Eldest Whitewing",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "Spd": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "Spd",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10457,13 +10865,15 @@
       ]
     }
   },
-  "Peri": {
+  "Peri: Playful Slayer": {
+    "name": "Peri",
+    "title": "Playful Slayer",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4
-    },
+    "boon": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10521,17 +10931,19 @@
       ]
     }
   },
-  "Priscilla": {
+  "Priscilla: Delicate Princess": {
+    "name": "Priscilla",
+    "title": "Delicate Princess",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Spd": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10588,10 +11000,19 @@
       ]
     }
   },
-  "Raigh": {
+  "Raigh: Dark Child": {
+    "name": "Raigh",
+    "title": "Dark Child",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10645,16 +11066,18 @@
       ]
     }
   },
-  "Raven": {
+  "Raven: Peerless Fighter": {
+    "name": "Raven",
+    "title": "Peerless Fighter",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10715,17 +11138,19 @@
       ]
     }
   },
-  "Rebecca": {
+  "Rebecca: Wildflower": {
+    "name": "Rebecca",
+    "title": "Wildflower",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10779,14 +11204,16 @@
       ]
     }
   },
-  "Reinhardt": {
+  "Reinhardt: Thunder's Fist": {
+    "name": "Reinhardt",
+    "title": "Thunder's Fist",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10844,14 +11271,16 @@
       ]
     }
   },
-  "Reinhardt (World of Thracia)": {
+  "Reinhardt: Thunder's Sword": {
+    "name": "Reinhardt",
+    "title": "Thunder's Sword",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10910,13 +11339,15 @@
       ]
     }
   },
-  "Rhajat": {
+  "Rhajat: Black Magician": {
+    "name": "Rhajat",
+    "title": "Black Magician",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
+    "boon": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -10964,7 +11395,257 @@
       ]
     }
   },
-  "Robin (F)": {
+  "Robin: Fell Reincarnation": {
+    "name": "Robin",
+    "title": "Fell Reincarnation",
+    "color": "Green",
+    "wpnType": "Dragon",
+    "movType": "Armored",
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        },
+        {
+          "name": "Flametongue"
+        },
+        {
+          "name": "Expiration"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Ignis"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1"
+        },
+        {
+          "name": "Vengeful Fighter 2"
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1"
+        },
+        {
+          "name": "Spur Def 2"
+        },
+        {
+          "name": "Ward Dragons"
+        }
+      ]
+    }
+  },
+  "Robin: Fell Vessel": {
+    "name": "Robin",
+    "title": "Fell Vessel",
+    "color": "Neutral",
+    "wpnType": "Dragon",
+    "movType": "Flying",
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        },
+        {
+          "name": "Flametongue"
+        },
+        {
+          "name": "Expiration"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Bonfire"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Dragonskin"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Cancel Affinity 1"
+        },
+        {
+          "name": "Cancel Affinity 2"
+        },
+        {
+          "name": "Cancel Affinity 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Smoke 1"
+        },
+        {
+          "name": "Res Smoke 2"
+        },
+        {
+          "name": "Res Smoke 3"
+        }
+      ]
+    }
+  },
+  "Robin: Festive Tactician": {
+    "name": "Robin",
+    "title": "Festive Tactician",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Tannenboom!"
+        },
+        {
+          "name": "Tannenboom!+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Spd 1"
+        },
+        {
+          "name": "Brazen Atk/Spd 2"
+        },
+        {
+          "name": "Brazen Atk/Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1"
+        },
+        {
+          "name": "Armor March 2"
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
+  "Robin: High Deliverer": {
+    "name": "Robin",
+    "title": "High Deliverer",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "bane": [
+      "HP",
+      "Atk",
+      "Spd",
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 3
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 3
+        },
+        {
+          "name": "Blárraven",
+          "unlock": 3
+        },
+        {
+          "name": "Blárraven+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 4
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Defiant Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Defiant Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Defiant Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Def 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Robin: Mystery Tactician": {
+    "name": "Robin",
+    "title": "Mystery Tactician",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
@@ -11025,76 +11706,16 @@
       ]
     }
   },
-  "Robin (F) (Fell Vessel)": {
-    "color": "Neutral",
-    "wpnType": "Dragon",
-    "movType": "Flying",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "Def": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Fire Breath"
-        },
-        {
-          "name": "Fire Breath+"
-        },
-        {
-          "name": "Flametongue"
-        },
-        {
-          "name": "Expiration"
-        }
-      ],
-      "special": [
-        {
-          "name": "Glowing Ember"
-        },
-        {
-          "name": "Bonfire"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Dragonskin"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Cancel Affinity 1"
-        },
-        {
-          "name": "Cancel Affinity 2"
-        },
-        {
-          "name": "Cancel Affinity 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Res Smoke 1"
-        },
-        {
-          "name": "Res Smoke 2"
-        },
-        {
-          "name": "Res Smoke 3"
-        }
-      ]
-    }
-  },
-  "Robin (F) (Ylissean Summer)": {
+  "Robin: Seaside Tactician": {
+    "name": "Robin",
+    "title": "Seaside Tactician",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": {
-      "Def": 4,
-      "Res": 4
-    },
+    "bane": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11139,194 +11760,18 @@
       ]
     }
   },
-  "Robin (M)": {
-    "color": "Blue",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Atk": 4,
-      "Spd": 4,
-      "Def": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Thunder",
-          "unlock": 3
-        },
-        {
-          "name": "Elthunder",
-          "unlock": 3
-        },
-        {
-          "name": "Blárraven",
-          "unlock": 3
-        },
-        {
-          "name": "Blárraven+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Glowing Ember",
-          "unlock": 4
-        },
-        {
-          "name": "Bonfire",
-          "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Defiant Spd 1",
-          "unlock": 3
-        },
-        {
-          "name": "Defiant Spd 2",
-          "unlock": 4
-        },
-        {
-          "name": "Defiant Spd 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Def 1",
-          "unlock": 3
-        },
-        {
-          "name": "Spur Def 2",
-          "unlock": 3
-        },
-        {
-          "name": "Spur Def 3",
-          "unlock": 4
-        }
-      ]
-    }
-  },
-  "Robin (M) (Fallen Heroes)": {
-    "color": "Green",
-    "wpnType": "Dragon",
-    "movType": "Armored",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Fire Breath"
-        },
-        {
-          "name": "Fire Breath+"
-        },
-        {
-          "name": "Flametongue"
-        },
-        {
-          "name": "Expiration"
-        }
-      ],
-      "special": [
-        {
-          "name": "Glowing Ember"
-        },
-        {
-          "name": "Ignis"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Vengeful Fighter 1"
-        },
-        {
-          "name": "Vengeful Fighter 2"
-        },
-        {
-          "name": "Vengeful Fighter 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Def 1"
-        },
-        {
-          "name": "Spur Def 2"
-        },
-        {
-          "name": "Ward Dragons"
-        }
-      ]
-    }
-  },
-  "Robin (M) (Winter's Envoy)": {
-    "color": "Blue",
-    "wpnType": "Lance",
-    "movType": "Armored",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Lance"
-        },
-        {
-          "name": "Steel Lance"
-        },
-        {
-          "name": "Tannenboom!"
-        },
-        {
-          "name": "Tannenboom!+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Reciprocal Aid"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Brazen Atk/Spd 1"
-        },
-        {
-          "name": "Brazen Atk/Spd 2"
-        },
-        {
-          "name": "Brazen Atk/Spd 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Armor March 1"
-        },
-        {
-          "name": "Armor March 2"
-        },
-        {
-          "name": "Armor March 3"
-        }
-      ]
-    }
-  },
-  "Roderick": {
+  "Roderick: Steady Squire": {
+    "name": "Roderick",
+    "title": "Steady Squire",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11376,17 +11821,81 @@
       ]
     }
   },
-  "Roy": {
+  "Roy: Brave Lion": {
+    "name": "Roy",
+    "title": "Brave Lion",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Blazing Durandal"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Astra"
+        },
+        {
+          "name": "Galeforce"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Steady Blow 1"
+        },
+        {
+          "name": "Steady Blow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1"
+        },
+        {
+          "name": "Desperation 2"
+        },
+        {
+          "name": "Desperation 3"
+        }
+      ]
+    }
+  },
+  "Roy: Young Lion": {
+    "name": "Roy",
+    "title": "Young Lion",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Spd": 4
-    },
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "Atk",
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11440,74 +11949,16 @@
       ]
     }
   },
-  "Roy (Brave Heroes)": {
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Cavalry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword"
-        },
-        {
-          "name": "Steel Sword"
-        },
-        {
-          "name": "Silver Sword"
-        },
-        {
-          "name": "Blazing Durandal"
-        }
-      ],
-      "special": [
-        {
-          "name": "Night Sky"
-        },
-        {
-          "name": "Astra"
-        },
-        {
-          "name": "Galeforce"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Darting Blow 1"
-        },
-        {
-          "name": "Steady Blow 1"
-        },
-        {
-          "name": "Steady Blow 2"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Desperation 1"
-        },
-        {
-          "name": "Desperation 2"
-        },
-        {
-          "name": "Desperation 3"
-        }
-      ]
-    }
-  },
-  "Roy (Love Abounds)": {
+  "Roy: Youthful Gifts": {
+    "name": "Roy",
+    "title": "Youthful Gifts",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Cavalry",
-    "bane": {
-      "Spd": 4,
-      "Def": 4
-    },
+    "bane": [
+      "Spd",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11552,14 +12003,16 @@
       ]
     }
   },
-  "Ryoma": {
+  "Ryoma: Peerless Samurai": {
+    "name": "Ryoma",
+    "title": "Peerless Samurai",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11607,13 +12060,15 @@
       ]
     }
   },
-  "Saber": {
+  "Saber: Driven Mercenary": {
+    "name": "Saber",
+    "title": "Driven Mercenary",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11661,7 +12116,9 @@
       ]
     }
   },
-  "Saias": {
+  "Saias: Bishop of Flame": {
+    "name": "Saias",
+    "title": "Bishop of Flame",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
@@ -11722,17 +12179,19 @@
       ]
     }
   },
-  "Saizo": {
+  "Saizo: Angry Ninja": {
+    "name": "Saizo",
+    "title": "Angry Ninja",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11786,82 +12245,15 @@
       ]
     }
   },
-  "Sakura": {
-    "color": "Neutral",
-    "wpnType": "Staff",
-    "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Spd": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Assault",
-          "unlock": 4
-        },
-        {
-          "name": "Fear",
-          "unlock": 4
-        },
-        {
-          "name": "Fear+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Heal",
-          "unlock": 4
-        },
-        {
-          "name": "Mend",
-          "unlock": 4
-        },
-        {
-          "name": "Physic",
-          "unlock": 4
-        },
-        {
-          "name": "Physic+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Imbue",
-          "unlock": 4
-        },
-        {
-          "name": "Still-Water Balm",
-          "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Fortify Def 1",
-          "unlock": 4
-        },
-        {
-          "name": "Fortify Def 1",
-          "unlock": 4
-        },
-        {
-          "name": "Fortify Def 3"
-        }
-      ]
-    }
-  },
-  "Sakura (Trick or Defeat!)": {
+  "Sakura: Gentle Nekomata": {
+    "name": "Sakura",
+    "title": "Gentle Nekomata",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11925,16 +12317,89 @@
       ]
     }
   },
-  "Sanaki": {
+  "Sakura: Loving Priestess": {
+    "name": "Sakura",
+    "title": "Loving Priestess",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Atk",
+      "Spd",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 4
+        },
+        {
+          "name": "Fear",
+          "unlock": 4
+        },
+        {
+          "name": "Fear+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 4
+        },
+        {
+          "name": "Mend",
+          "unlock": 4
+        },
+        {
+          "name": "Physic",
+          "unlock": 4
+        },
+        {
+          "name": "Physic+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 4
+        },
+        {
+          "name": "Still-Water Balm",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Fortify Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Fortify Def 3"
+        }
+      ]
+    }
+  },
+  "Sanaki: Begnion's Apostle": {
+    "name": "Sanaki",
+    "title": "Begnion's Apostle",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -11979,17 +12444,19 @@
       ]
     }
   },
-  "Selena": {
+  "Selena: Cutting Wit": {
+    "name": "Selena",
+    "title": "Cutting Wit",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Atk": 4
-    },
-    "bane": {
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Atk"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12043,10 +12510,15 @@
       ]
     }
   },
-  "Seliph": {
+  "Seliph: Heir of Light": {
+    "name": "Seliph",
+    "title": "Heir of Light",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12100,10 +12572,15 @@
       ]
     }
   },
-  "Serra": {
+  "Serra: Outspoken Cleric": {
+    "name": "Serra",
+    "title": "Outspoken Cleric",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
+    "bane": [
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12160,13 +12637,15 @@
       ]
     }
   },
-  "Seth": {
+  "Seth: Silver Knight": {
+    "name": "Seth",
+    "title": "Silver Knight",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4
-    },
+    "boon": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12220,16 +12699,18 @@
       ]
     }
   },
-  "Setsuna": {
+  "Setsuna: Absent Archer": {
+    "name": "Setsuna",
+    "title": "Absent Archer",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12283,18 +12764,20 @@
       ]
     }
   },
-  "Shanna": {
+  "Shanna: Sprightly Flier": {
+    "name": "Shanna",
+    "title": "Sprightly Flier",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Atk": 4,
-      "Res": 4
-    },
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP",
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12352,7 +12835,9 @@
       ]
     }
   },
-  "Sharena": {
+  "Sharena: Princess of Askr": {
+    "name": "Sharena",
+    "title": "Princess of Askr",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
@@ -12409,16 +12894,18 @@
       ]
     }
   },
-  "Sharena (Hares at the Fair)": {
+  "Sharena: Spring Princess": {
+    "name": "Sharena",
+    "title": "Spring Princess",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12471,16 +12958,18 @@
       ]
     }
   },
-  "Sheena": {
+  "Sheena: Princess of Gra": {
+    "name": "Sheena",
+    "title": "Princess of Gra",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "Atk": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12531,14 +13020,70 @@
       ]
     }
   },
-  "Shigure": {
+  "Shigure: Dark Sky Singer": {
+    "name": "Shigure",
+    "title": "Dark Sky Singer",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": [
+      "HP",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Dancer's Score"
+        },
+        {
+          "name": "Dancer's Score+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Sing"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Torrent Dance 1"
+        },
+        {
+          "name": "Geyser Dance 1"
+        },
+        {
+          "name": "Geyser Dance 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "B Tome Valor 1"
+        },
+        {
+          "name": "B Tome Valor 2"
+        },
+        {
+          "name": "B Tome Valor 3"
+        }
+      ]
+    }
+  },
+  "Shigure: Uplifting Artist": {
+    "name": "Shigure",
+    "title": "Uplifting Artist",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12586,65 +13131,15 @@
       ]
     }
   },
-  "Shigure (Performing Arts)": {
-    "color": "Blue",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Thunder"
-        },
-        {
-          "name": "Elthunder"
-        },
-        {
-          "name": "Dancer's Score"
-        },
-        {
-          "name": "Dancer's Score+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Sing"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Torrent Dance 1"
-        },
-        {
-          "name": "Geyser Dance 1"
-        },
-        {
-          "name": "Geyser Dance 2"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "B Tome Valor 1"
-        },
-        {
-          "name": "B Tome Valor 2"
-        },
-        {
-          "name": "B Tome Valor 3"
-        }
-      ]
-    }
-  },
-  "Shiro": {
+  "Shiro: Raw Talent": {
+    "name": "Shire",
+    "title": "Raw Talent",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12689,14 +13184,16 @@
       ]
     }
   },
-  "Siegbert": {
+  "Siegbert: Future King": {
+    "name": "Siegbert",
+    "title": "Future King",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12744,14 +13241,16 @@
       ]
     }
   },
-  "Sigurd": {
+  "Sigurd: Holy Knight": {
+    "name": "Sigurd",
+    "title": "Holy Knight",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12801,17 +13300,19 @@
       ]
     }
   },
-  "Soleil": {
+  "Soleil: Adorable Adorer": {
+    "name": "Soleil",
+    "title": "Adorable Adorer",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Res": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "HP",
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12869,14 +13370,16 @@
       ]
     }
   },
-  "Sonya": {
+  "Sonya: Vengeful Mage": {
+    "name": "Sonya",
+    "title": "Vengeful Mage",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12924,10 +13427,17 @@
       ]
     }
   },
-  "Sophia": {
+  "Sophia: Nabata Prophet": {
+    "name": "Sophia",
+    "title": "Nabata Prophet",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "bane": [
+      "HP",
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -12985,17 +13495,19 @@
       ]
     }
   },
-  "Soren": {
+  "Soren: Shrewd Strategist": {
+    "name": "Soren",
+    "title": "Shrewd Strategist",
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "HP": 4
-    },
-    "bane": {
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13056,13 +13568,15 @@
       ]
     }
   },
-  "Sothe": {
+  "Sothe: Zephyr": {
+    "name": "Sothe",
+    "title": "Zephyr",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13120,16 +13634,18 @@
       ]
     }
   },
-  "Stahl": {
+  "Stahl: Viridian Knight": {
+    "name": "Stahl",
+    "title": "Viridian Knight",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": {
-      "Spd": 4
-    },
-    "bane": {
-      "Def": 4
-    },
+    "boon": [
+      "Spd"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13183,16 +13699,18 @@
       ]
     }
   },
-  "Subaki": {
+  "Subaki: Perfect Expert": {
+    "name": "Subaki",
+    "title": "Perfect Expert",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": {
-      "Atk": 4
-    },
-    "bane": {
-      "HP": 4
-    },
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13246,10 +13764,18 @@
       ]
     }
   },
-  "Sully": {
+  "Sully: Crimson Knight": {
+    "name": "Sully",
+    "title": "Crimson Knight",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13303,17 +13829,19 @@
       ]
     }
   },
-  "Tailtiu": {
+  "Tailtiu: Thunder Noble": {
+    "name": "Tailtiu",
+    "title": "Thunder Noble",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Def": 4
-    },
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13371,59 +13899,9 @@
       ]
     }
   },
-  "Takumi": {
-    "color": "Neutral",
-    "wpnType": "Bow",
-    "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Bow"
-        },
-        {
-          "name": "Steel Bow"
-        },
-        {
-          "name": "Silver Bow"
-        },
-        {
-          "name": "Fujin Yumi"
-        }
-      ],
-      "special": [
-        {
-          "name": "Retribution"
-        },
-        {
-          "name": "Vengeance"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Close Counter"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Threaten Spd 1"
-        },
-        {
-          "name": "Threaten Spd 2"
-        },
-        {
-          "name": "Threaten Spd 3"
-        }
-      ]
-    }
-  },
-  "Takumi (Fallen Heroes)": {
+  "Takumi: Empty Vessel": {
+    "name": "Takumi",
+    "title": "Empty Vessel",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
@@ -13484,15 +13962,17 @@
       ]
     }
   },
-  "Takumi (Happy New Year!)": {
+  "Takumi: Prince of Soup": {
+    "name": "Takumi",
+    "title": "Prince of Soup",
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4,
-      "Def": 4,
-      "Res": 4
-    },
+    "bane": [
+      "HP",
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13540,15 +14020,71 @@
       ]
     }
   },
-  "Tana": {
+  "Takumi: Wild Card": {
+    "name": "Takumi",
+    "title": "Wild Card",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "boon": [
+      "Def"
+    ],
+    "bane": [
+      "HP",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Silver Bow"
+        },
+        {
+          "name": "Fujin Yumi"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution"
+        },
+        {
+          "name": "Vengeance"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Counter"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Spd 1"
+        },
+        {
+          "name": "Threaten Spd 2"
+        },
+        {
+          "name": "Threaten Spd 3"
+        }
+      ]
+    }
+  },
+  "Tana: Winged Princess": {
+    "name": "Tana",
+    "title": "Winged Princess",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": {
-      "HP": 4,
-      "Def": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13596,13 +14132,76 @@
       ]
     }
   },
-  "Tharja": {
+  "Tharja: \"Normal Girl\"": {
+    "name": "Tharja",
+    "title": "\"Normal Girl\"",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Armored",
+    "bane": [
+      "Spd"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Candelabra"
+        },
+        {
+          "name": "Candelabra+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind"
+        },
+        {
+          "name": "Iceberg"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1"
+        },
+        {
+          "name": "Vengeful Fighter 2"
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "R Tome Valor 1"
+        },
+        {
+          "name": "R Tome Valor 2"
+        },
+        {
+          "name": "R Tome Valor 3"
+        }
+      ]
+    }
+  },
+  "Tharja: Dark Shadow": {
+    "name": "Tharja",
+    "title": "Dark Shadow",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13660,72 +14259,71 @@
       ]
     }
   },
-  "Tharja (Winter's Envoy)": {
+  "Tiki: Dragon Scion": {
+    "name": "Tiki",
+    "title": "Dragon Scion",
     "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Armored",
-    "bane": {
-      "Spd": 4
-    },
+    "wpnType": "Dragon",
+    "movType": "Infantry",
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
-          "name": "Flux"
+          "name": "Fire Breath"
         },
         {
-          "name": "Ruin"
+          "name": "Fire Breath+"
         },
         {
-          "name": "Candelabra"
+          "name": "Flametongue"
         },
         {
-          "name": "Candelabra+"
+          "name": "Flametongue+"
         }
       ],
       "special": [
         {
-          "name": "Chilling Wind"
+          "name": "Rising Flame"
         },
         {
-          "name": "Iceberg"
+          "name": "Growing Flame"
         }
       ],
       "passiveA": [
         {
-          "name": "Close Counter"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Vengeful Fighter 1"
+          "name": "Armored Blow 1"
         },
         {
-          "name": "Vengeful Fighter 2"
+          "name": "Armored Blow 2"
         },
         {
-          "name": "Vengeful Fighter 3"
+          "name": "Armored Blow 3"
         }
       ],
       "passiveC": [
         {
-          "name": "R Tome Valor 1"
+          "name": "Breath of Life 1"
         },
         {
-          "name": "R Tome Valor 2"
+          "name": "Breath of Life 2"
         },
         {
-          "name": "R Tome Valor 3"
+          "name": "Breath of Life 3"
         }
       ]
     }
   },
-  "Tiki (Adult)": {
+  "Tiki: Naga's Voice": {
+    "name": "Tiki",
+    "title": "Naga's Voice",
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "bane": {
-      "HP": 4
-    },
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13783,7 +14381,9 @@
       ]
     }
   },
-  "Tiki (Adult) (Ylissean Summer)": {
+  "Tiki: Summering Scion": {
+    "name": "Tiki",
+    "title": "Summering Scion",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
@@ -13834,72 +14434,20 @@
       ]
     }
   },
-  "Tiki (Young)": {
-    "color": "Red",
-    "wpnType": "Dragon",
-    "movType": "Infantry",
-    "bane": {
-      "Res": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Fire Breath"
-        },
-        {
-          "name": "Fire Breath+"
-        },
-        {
-          "name": "Flametongue"
-        },
-        {
-          "name": "Flametongue+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Rising Flame"
-        },
-        {
-          "name": "Growing Flame"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Armored Blow 1"
-        },
-        {
-          "name": "Armored Blow 2"
-        },
-        {
-          "name": "Armored Blow 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Breath of Life 1"
-        },
-        {
-          "name": "Breath of Life 2"
-        },
-        {
-          "name": "Breath of Life 3"
-        }
-      ]
-    }
-  },
-  "Titania": {
+  "Titania: Mighty Mercenary": {
+    "name": "Titania",
+    "title": "Mighty Mercenary",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "boon": {
-      "HP": 4,
-      "Def": 4
-    },
-    "bane": {
-      "Atk": 4,
-      "Res": 4
-    },
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -13953,7 +14501,9 @@
       ]
     }
   },
-  "Tobin": {
+  "Tobin: The Clueless One": {
+    "name": "Tobin",
+    "title": "The Clueless One",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
@@ -14010,7 +14560,9 @@
       ]
     }
   },
-  "Ursula": {
+  "Ursula: Blue Crow": {
+    "name": "Ursula",
+    "title": "Blue Crow",
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
@@ -14071,7 +14623,9 @@
       ]
     }
   },
-  "Valter": {
+  "Valter: Dark Moonstone": {
+    "name": "Valter",
+    "title": "Dark Moonstone",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
@@ -14131,13 +14685,15 @@
       ]
     }
   },
-  "Virion": {
+  "Virion: Elite Archer": {
+    "name": "Virion",
+    "title": "Elite Archer",
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": {
-      "Def": 4
-    },
+    "boon": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -14195,13 +14751,15 @@
       ]
     }
   },
-  "Wrys": {
+  "Wrys: Kindly Priest": {
+    "name": "Wrys",
+    "title": "Kindly Priest",
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "bane": {
-      "Atk": 4
-    },
+    "bane": [
+      "Atk"
+    ],
     "skills": {
       "weapon": [
         {
@@ -14258,7 +14816,9 @@
       ]
     }
   },
-  "Xander": {
+  "Xander: Paragon Knight": {
+    "name": "Xander",
+    "title": "Paragon Knight",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
@@ -14318,13 +14878,67 @@
       ]
     }
   },
-  "Xander (Nohrian Summer)": {
+  "Xander: Spring Prince": {
+    "name": "Xander",
+    "title": "Spring Prince",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "boon": [
+      "Atk",
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Spd"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Carrot Lance"
+        },
+        {
+          "name": "Carrot Lance+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Live for Honor"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1"
+        },
+        {
+          "name": "Fortify Def 2"
+        },
+        {
+          "name": "Fortify Def 3"
+        }
+      ]
+    }
+  },
+  "Xander: Student Swimmer": {
+    "name": "Xander",
+    "title": "Student Swimmer",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": {
-      "Res": 4
-    },
+    "boon": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -14372,57 +14986,9 @@
       ]
     }
   },
-  "Xander (Spring Festival)": {
-    "color": "Blue",
-    "wpnType": "Lance",
-    "movType": "Cavalry",
-    "boon": {
-      "Atk": 4,
-      "Res": 4
-    },
-    "bane": {
-      "HP": 4,
-      "Spd": 4
-    },
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Lance"
-        },
-        {
-          "name": "Steel Lance"
-        },
-        {
-          "name": "Carrot Lance"
-        },
-        {
-          "name": "Carrot Lance+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Swap"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Live for Honor"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Fortify Def 1"
-        },
-        {
-          "name": "Fortify Def 2"
-        },
-        {
-          "name": "Fortify Def 3"
-        }
-      ]
-    }
-  },
-  "Zelgius": {
+  "Zelgius: Jet-Black General": {
+    "name": "Zelgius",
+    "title": "Jet-Black General",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Armored",
@@ -14481,7 +15047,9 @@
       ]
     }
   },
-  "Zephiel": {
+  "Zephiel: The Liberator": {
+    "name": "Zephiel",
+    "title": "The Liberator",
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Armored",
