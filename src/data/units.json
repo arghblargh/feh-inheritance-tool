@@ -6405,13 +6405,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Fire Breath"
+          "name": "Fire Breath",
+          "unlock": 4
         },
         {
-          "name": "Fire Breath+"
+          "name": "Fire Breath+",
+          "unlock": 4
         },
         {
-          "name": "Water Breath"
+          "name": "Water Breath",
+          "unlock": 4
         },
         {
           "name": "Water Breath+"
@@ -6419,29 +6422,36 @@
       ],
       "special": [
         {
-          "name": "Dragon Gaze"
+          "name": "Dragon Gaze",
+          "unlock": 4
         },
         {
-          "name": "Dragon Fang"
+          "name": "Dragon Fang",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "Brazen Def/Res 1"
+          "name": "Brazen Def/Res 1",
+          "unlock": 4
         },
         {
-          "name": "Brazen Def/Res 2"
+          "name": "Brazen Def/Res 2",
+          "unlock": 4
         },
         {
-          "name": "Brazen Def/Res 3"
+          "name": "Brazen Def/Res 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
-          "name": "Fortify Def 1"
+          "name": "Fortify Def 1",
+          "unlock": 4
         },
         {
-          "name": "Fortify Def 2"
+          "name": "Fortify Def 2",
+          "unlock": 4
         },
         {
           "name": "Fortify Dragons"
@@ -6567,6 +6577,9 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
+    "bane": {
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {
