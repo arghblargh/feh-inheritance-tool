@@ -5435,6 +5435,13 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Flying",
+    "boon": {
+      "HP": 4
+    },
+    "bane": {
+      "Def": 4,
+      "Res": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6337,6 +6344,13 @@
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Infantry",
+    "boon": {
+      "Res": 4
+    },
+    "bane": {
+      "HP": 4,
+      "Atk": 4
+    },
     "skills": {
       "weapon": [
         {
@@ -6395,6 +6409,36 @@
         },
         {
           "name": "Fire Breath+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Dragon Fang"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Def/Res 1"
+        },
+        {
+          "name": "Brazen Def/Res 2"
+        },
+        {
+          "name": "Brazen Def/Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1"
+        },
+        {
+          "name": "Fortify Def 2"
+        },
+        {
+          "name": "Fortify Dragons"
         }
       ]
     }
@@ -6524,6 +6568,42 @@
         },
         {
           "name": "Steel Dagger"
+        },
+        {
+          "name": "Barb Shuriken"
+        },
+        {
+          "name": "Barb Shuriken+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind"
+        },
+        {
+          "name": "Iceberg"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Poison Strike 1"
+        },
+        {
+          "name": "Poison Strike 2"
+        },
+        {
+          "name": "Poison Strike 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Smoke 1"
+        },
+        {
+          "name": "Atk Smoke 2"
+        },
+        {
+          "name": "Atk Smoke 3"
         }
       ]
     }
@@ -9189,10 +9269,12 @@
     "skills": {
       "weapon": [
         {
-          "name": "Assault"
+          "name": "Assault",
+          "unlock": 4
         },
         {
-          "name": "Absorb"
+          "name": "Absorb",
+          "unlock": 4
         },
         {
           "name": "Absorb+"
@@ -9200,13 +9282,16 @@
       ],
       "assist": [
         {
-          "name": "Heal"
+          "name": "Heal",
+          "unlock": 4
         },
         {
-          "name": "Mend"
+          "name": "Reconcile",
+          "unlock": 4
         },
         {
-          "name": "Restore"
+          "name": "Restore",
+          "unlock": 4
         },
         {
           "name": "Restore+"
@@ -9214,18 +9299,22 @@
       ],
       "special": [
         {
-          "name": "Imbue"
+          "name": "Imbue",
+          "unlock": 4
         },
         {
-          "name": "Heavenly Light"
+          "name": "Heavenly Light",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "Resistance +1"
+          "name": "Resistance +1",
+          "unlock": 4
         },
         {
-          "name": "Spd/Res 1"
+          "name": "Spd/Res 1",
+          "unlock": 4
         },
         {
           "name": "Spd/Res 2"
@@ -9233,13 +9322,16 @@
       ],
       "passiveC": [
         {
-          "name": "Spur Def 1"
+          "name": "Spur Def 1",
+          "unlock": 4
         },
         {
-          "name": "Drive Def 1"
+          "name": "Drive Def 1",
+          "unlock": 4
         },
         {
-          "name": "Drive Def 2"
+          "name": "Drive Def 2",
+          "unlock": 4
         }
       ]
     }
@@ -12414,6 +12506,10 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
+    "bane": {
+      "HP": 4,
+      "Def": 4
+    },
     "skills": {
       "weapon": [
         {

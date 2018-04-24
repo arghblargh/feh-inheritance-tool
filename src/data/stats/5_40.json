@@ -650,6 +650,13 @@
     "Def": 25,
     "Res": 24
   },
+  "Hinoka (Wings of Fate)": {
+    "HP": 37,
+    "Atk": 32,
+    "Spd": 35,
+    "Def": 17,
+    "Res": 29
+  },
   "Ike": {
     "HP": 42,
     "Atk": 35,
@@ -748,6 +755,20 @@
     "Def": 18,
     "Res": 27
   },
+  "Kana (F)": {
+    "HP": 40,
+    "Atk": 30,
+    "Spd": 34,
+    "Def": 33,
+    "Res": 26
+  },
+  "Kana (M)": {
+    "HP": 40,
+    "Atk": 31,
+    "Spd": 33,
+    "Def": 31,
+    "Res": 29
+  },
   "Karel": {
     "HP": 47,
     "Atk": 30,
@@ -761,6 +782,13 @@
     "Spd": 34,
     "Def": 15,
     "Res": 32
+  },
+  "Kaze": {
+    "HP": 34,
+    "Atk": 30,
+    "Spd": 36,
+    "Def": 17,
+    "Res": 34
   },
   "Klein": {
     "HP": 40,
@@ -1440,6 +1468,13 @@
     "Spd": 25,
     "Def": 36,
     "Res": 33
+  },
+  "Shigure": {
+    "HP": 40,
+    "Atk": 33,
+    "Spd": 37,
+    "Def": 27,
+    "Res": 25
   },
   "Shigure (Performing Arts)": {
     "HP": 34,

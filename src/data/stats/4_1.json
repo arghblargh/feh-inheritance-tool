@@ -391,6 +391,13 @@
     "Def": 4,
     "Res": 5
   },
+  "Kana (M)": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 6,
+    "Res": 6
+  },
   "Klein": {
     "HP": 17,
     "Atk": 9,
@@ -551,6 +558,13 @@
     "Spd": 8,
     "Def": 4,
     "Res": 6
+  },
+  "Nanna": {
+    "HP": 16,
+    "Atk": 4,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 7
   },
   "Narcian": {
     "HP": 17,

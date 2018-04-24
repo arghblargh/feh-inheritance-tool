@@ -111,6 +111,20 @@
     "effect": "Grants Spd+3. If unit's Spd - foe's Spd ≥ 1, gain Special cooldown charge +1 per attack. (If similar skill also used, only highest value applied.)",
     "restriction": "Exclusive"
   },
+  "Barb Shuriken": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Barb Shuriken+": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+  },
   "Basilikos": {
     "color": "Green",
     "type": "Axe",
@@ -2437,7 +2451,7 @@
     "cost": 300,
     "might": 14,
     "effect": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using thel ower of foe's Def or Res.",
-    "upgrade": "Mt:1"
+    "upgrade": "-"
   },
   "Weirding Tome": {
     "color": "Blue",
