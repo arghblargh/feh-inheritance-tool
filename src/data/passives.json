@@ -442,6 +442,11 @@
       "effect": "Neutralizes \"effective against\" bonuses.",
       "restriction": "Flying"
     },
+    "Laws of Sacae": {
+      "cost": 300,
+      "effect": "If foe initiates combat and the number of allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+4 during combat.",
+      "restriction": "Exclusive"
+    },
     "Life and Death 1": {
       "cost": 50,
       "effect": "Grants Atk/Spd+3. Inflicts Def/Res-3.",

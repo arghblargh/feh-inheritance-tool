@@ -2307,6 +2307,14 @@
     "effect": "Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
   },
+  "Swift Mulagir": {
+    "color": "Green",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying units. Grants Res+3. If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), grants Atk/Spd+5 during combat.",
+    "restriction": "Exclusive"
+  },
   "Tannenboom!": {
     "color": "Blue",
     "type": "Lance",
