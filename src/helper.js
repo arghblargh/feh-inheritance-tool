@@ -59,17 +59,20 @@ export const weaponIcon = {
     "Red" : {
         "Sword"  : require('./img/icon/weapon/red/Sword.png'),
         "Dragon" : require('./img/icon/weapon/red/Dragon.png'),
-        "Tome"   : require('./img/icon/weapon/red/Tome.png')
+        "Tome"   : require('./img/icon/weapon/red/Tome.png'),
+        "Bow"    : require('./img/icon/weapon/red/Bow.png')
     },
     "Blue" : {
         "Lance"  : require('./img/icon/weapon/blue/Lance.png'),
         "Dragon" : require('./img/icon/weapon/blue/Dragon.png'),
-        "Tome"   : require('./img/icon/weapon/blue/Tome.png')
+        "Tome"   : require('./img/icon/weapon/blue/Tome.png'),
+        "Bow"    : require('./img/icon/weapon/blue/Bow.png')
     },
     "Green" : {
         "Axe"    : require('./img/icon/weapon/green/Axe.png'),
         "Dragon" : require('./img/icon/weapon/green/Dragon.png'),
-        "Tome"   : require('./img/icon/weapon/green/Tome.png')
+        "Tome"   : require('./img/icon/weapon/green/Tome.png'),
+        "Bow"    : require('./img/icon/weapon/green/Bow.png')
     },
     "Neutral" : {
         "Bow"    : require('./img/icon/weapon/neutral/Bow.png'),
