@@ -8543,6 +8543,13 @@
     "color": "Green",
     "wpnType": "Bow",
     "movType": "Infantry",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -8560,7 +8567,7 @@
       ],
       "assist": [
         {
-          "name": "Rally Def"
+          "name": "Rally Defense"
         },
         {
           "name": "Rally Def/Res"
