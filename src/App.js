@@ -62,9 +62,9 @@ class SkillInfoRow extends Component {
   }
 
   getPassiveLevels(skillName, getFullMaxPassive = false) {
-    let type = RegExp(escapeRegExp(skillName)).test(Object.keys(passives.A).toString()) ? 'A' :
-               RegExp(escapeRegExp(skillName)).test(Object.keys(passives.B).toString()) ? 'B' : 
-               RegExp(escapeRegExp(skillName)).test(Object.keys(passives.C).toString()) ? 'C' :
+    let type = RegExp('^' + escapeRegExp(skillName)).test(Object.keys(passives.A).toString()) ? 'A' :
+               RegExp('^' + escapeRegExp(skillName)).test(Object.keys(passives.B).toString()) ? 'B' : 
+               RegExp('^' + escapeRegExp(skillName)).test(Object.keys(passives.C).toString()) ? 'C' :
                                                                                           'S';
     let result = new Set();
     for (let key in (type !== 'S' ? passives[type] : seals)) {
