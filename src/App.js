@@ -50,7 +50,8 @@ class SkillInfoRow extends Component {
   }
 
   handlePassiveSkillSelect(skillName) {
-    this.props.onSkillSelect(this.getPassiveLevels(skillName, true) ? this.getPassiveLevels(skillName, true) : skillName, this.props.skillType);
+    let fullName = this.getPassiveLevels(skillName, this.props.skillType, true);
+    this.props.onSkillSelect(fullName ? fullName : skillName, this.props.skillType);
   }
 
   handleSkillLevelSelect(skillLevel) {
@@ -61,11 +62,11 @@ class SkillInfoRow extends Component {
     this.props.onSkillSelect(upgradeType, 'upgrade');
   }
 
-  getPassiveLevels(skillName, getFullMaxPassive = false) {
-    let type = RegExp('^' + escapeRegExp(skillName)).test(Object.keys(passives.A).toString()) ? 'A' :
-               RegExp('^' + escapeRegExp(skillName)).test(Object.keys(passives.B).toString()) ? 'B' : 
-               RegExp('^' + escapeRegExp(skillName)).test(Object.keys(passives.C).toString()) ? 'C' :
-                                                                                          'S';
+  getPassiveLevels(skillName, skillType, getFullMaxPassive = false) {
+    let type = skillType === 'passiveA' ? 'A' :
+               skillType === 'passiveB' ? 'B' :
+               skillType === 'passiveC' ? 'C' : 'S';
+
     let result = new Set();
     for (let key in (type !== 'S' ? passives[type] : seals)) {
       if (RegExp(escapeRegExp(skillName)).test(key)) {
@@ -161,7 +162,7 @@ class SkillInfoRow extends Component {
         skillLevel =
           <td className="skill-level">
             <Dropdown addClass='skillLevel'
-                      options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0])}
+                      options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0], this.props.skillType)}
                       value={/[1-9]/.exec(this.props.skillName)[0]}
                       onChange={this.handleSkillLevelSelect} />
           </td>;
