@@ -67,14 +67,14 @@
     "upgrade": "Special"
   },
   "Assassin's Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 7,
     "effect": "Effective against flying foes. In combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack."
   },
   "Assassin's Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 11,
@@ -337,14 +337,14 @@
     "effect": "Spd-5. Attack twice when initiating combat."
   },
   "Brave Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 4,
     "effect": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat."
   },
   "Brave Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 7,
@@ -470,14 +470,14 @@
     "upgrade": "-"
   },
   "Clarisse's Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 7,
     "effect": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units."
   },
   "Clarisse's Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 11,
@@ -485,14 +485,14 @@
     "upgrade": "-"
   },
   "Cupid Arrow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers."
   },
   "Cupid Arrow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
@@ -800,14 +800,14 @@
     "effect": ""
   },
   "Firesweep Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 7,
     "effect": "Effective against fliers. Unit and enemies cannot use counterattacks."
   },
   "Firesweep Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 11,
@@ -897,7 +897,7 @@
     "upgrade": "Legendary"
   },
   "Fujin Yumi": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 400,
     "might": 14,
@@ -953,14 +953,14 @@
     "restriction": "Exclusive"
   },
   "Gratia": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
   },
   "Gratia+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
@@ -1108,14 +1108,14 @@
     "effect": "Effective against cavalry units."
   },
   "Guard Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
   },
   "Guard Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
@@ -1138,14 +1138,14 @@
     "upgrade": "-"
   },
   "Hama Ya": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
   },
   "Hama Ya+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
@@ -1258,7 +1258,7 @@
     "effect": ""
   },
   "Iron Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 0,
     "might": 4,
@@ -1381,14 +1381,14 @@
     "effect": "Accelerates Special trigger (cooldown count-1)."
   },
   "Killer Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 5,
     "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
   },
   "Killer Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 9,
@@ -1566,14 +1566,14 @@
     "upgrade": "-"
   },
   "Monstrous Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "Effective against fliers. After combat, if unit attacked, bonuses become penalties on all foes within 2 spaces through foes' next action."
   },
   "Monstrous Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
@@ -1581,7 +1581,7 @@
     "upgrade": "-"
   },
   "Mulagir": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 400,
     "might": 14,
@@ -1631,7 +1631,7 @@
     "upgrade": "Legendary"
   },
   "Nidhogg": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 400,
     "might": 14,
@@ -1683,7 +1683,7 @@
     "effect": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
   },
   "Parthia": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 400,
     "might": 14,
@@ -1825,14 +1825,14 @@
     "effect": "Effective against cavalry units."
   },
   "Refreshing Bolt": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
   },
   "Refreshing Bolt+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
@@ -2046,14 +2046,14 @@
     "upgrade": "Mt:1"
   },
   "Silver Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 9,
     "effect": "Effective against flying units."
   },
   "Silver Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 13,
@@ -2114,7 +2114,7 @@
     "restriction": "Exclusive"
   },
   "Skadi": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 400,
     "might": 14,
@@ -2137,14 +2137,14 @@
     "upgrade": "-"
   },
   "Slaying Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
   },
   "Slaying Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
@@ -2272,7 +2272,7 @@
     "effect": ""
   },
   "Steel Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 100,
     "might": 6,
@@ -2308,7 +2308,7 @@
     "restriction": "Exclusive"
   },
   "Swift Mulagir": {
-    "color": "Green",
+    "color": "",
     "type": "Bow",
     "cost": 400,
     "might": 14,
@@ -2440,7 +2440,7 @@
     "restriction": "Exclusive"
   },
   "Warrior Princess": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 400,
     "might": 14,
