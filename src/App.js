@@ -25,7 +25,7 @@ import './App.css';
 import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utility.js';
 import { BuildManager,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getUnitsWithSkill, getPossibleSkills,
+         parseSkills, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect, getLowestRarity,
          calcStats, calcCost, calcTotalCost } from './helper.js';
 
 const units = require('./data/units.json');
@@ -33,6 +33,8 @@ const weapons = require('./data/weapons.json');
 const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
+const seals = require('./data/seals.json');
+// const upgrades = require('./data/upgrades.json');
 
 class SkillInfoRow extends Component {
   constructor(props) {
@@ -40,6 +42,7 @@ class SkillInfoRow extends Component {
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handlePassiveSkillSelect = this.handlePassiveSkillSelect.bind(this);
     this.handleSkillLevelSelect = this.handleSkillLevelSelect.bind(this);
+    this.handleWeaponUpgradeSelect = this.handleWeaponUpgradeSelect.bind(this);
   }
 
   handleSkillSelect(skillName) {
@@ -47,24 +50,33 @@ class SkillInfoRow extends Component {
   }
 
   handlePassiveSkillSelect(skillName) {
-    this.props.onSkillSelect(this.getPassiveLevels(skillName, true) ? this.getPassiveLevels(skillName, true) : skillName, this.props.skillType);
+    let fullName = this.getPassiveLevels(skillName, this.props.skillType, true);
+    this.props.onSkillSelect(fullName ? fullName : skillName, this.props.skillType);
   }
 
   handleSkillLevelSelect(skillLevel) {
     this.props.onSkillSelect(/[^1-9]*/.exec(this.props.skillName)[0] + skillLevel, this.props.skillType);
   }
 
-  getPassiveLevels(skillName, getFullMaxPassive = false) {
-    let type = RegExp(escapeRegExp(skillName)).test(Object.keys(passives.A).toString()) ? 'A' :
-               RegExp(escapeRegExp(skillName)).test(Object.keys(passives.B).toString()) ? 'B' : 
-                                                                                          'C';
+  handleWeaponUpgradeSelect(upgradeType) {
+    this.props.onSkillSelect(upgradeType, 'upgrade');
+  }
+
+  getPassiveLevels(skillName, skillType, getFullMaxPassive = false) {
+    let type = skillType === 'passiveA' ? 'A' :
+               skillType === 'passiveB' ? 'B' :
+               skillType === 'passiveC' ? 'C' : 'S';
+
     let result = new Set();
-    for (let key in passives[type]) {
+    for (let key in (type !== 'S' ? passives[type] : seals)) {
       if (RegExp(escapeRegExp(skillName)).test(key)) {
-        if (/[1-9]/.test(key))
-          result.add(/[1-9]/.exec(key)[0]);
-        else
+        if (!/\d/.test(key))
           return null;
+        let level = RegExp('^' + escapeRegExp(skillName) + '([1-9])').exec(key);
+        if (level)
+          result.add(level[1]);
+        else
+          break;
       }
     }
     
@@ -74,90 +86,24 @@ class SkillInfoRow extends Component {
     return [...result];
   }
 
-  // parseSkillEffect(skill, stats) {
-  //   if (skill === 'Chilling Wind') {
-  //     let value = specials[skill].value;
-  //     value = Math.floor(stats[/(.*):/.exec(value)[1]] * parseFloat(/:(.*)/.exec(value)[1]));
-  //     //return this.props.effect.replace(/{.*}/, value)
-  //     let result = /(.*)({.*})(.*)/.exec(this.props.effect).splice(1);
-  //     result[1] = <b className="skill-effect-value" key={skill}>{value}</b>;
-  //     return result;
-  //   }
-  //   return this.props.effect;
-  // }
-
   formatInheritList() {
     let inheritList = this.props.inheritList;
     let result = [];
 
-    if (inheritList[1]) {
-      result.push('1', <img className="rarity-icon" src={rarityIcon[1]} title={1 + '★'} alt={1 + '★'} key={1} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[1]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+    for (var rarity in inheritList) {
+      if (inheritList[rarity]) {
+        result.push(rarity, <img className="rarity-icon" src={rarityIcon[rarity]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />, ': ');
+        
+        if (this.props.usePortraits) {
+          for (let unitName of inheritList[rarity]) {
+            result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+          }
+          result.push(' ');
         }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[1].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[2]) {
-      result.push('2', <img className="rarity-icon" src={rarityIcon[2]} title={2 + '★'} alt={2 + '★'} key={2} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[2]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+        else {
+          result.push(inheritList[rarity].join(', '));
+          result.push('. ');
         }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[2].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[3]) {
-      result.push('3', <img className="rarity-icon" src={rarityIcon[3]} title={3 + '★'} alt={3 + '★'} key={3} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[3]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
-        }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[3].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[4]) {
-      result.push('4', <img className="rarity-icon" src={rarityIcon[4]} title={4 + '★'} alt={4 + '★'} key={4} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[4]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
-        }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[4].join(', '));
-        result.push('. ');
-      }
-    }
-    if (inheritList[5]) {
-      result.push('5', <img className="rarity-icon" src={rarityIcon[5]} title={5 + '★'} alt={5 + '★'} key={5} />, ': ');
-      
-      if (this.props.usePortraits) {
-        for (let unitName of inheritList[5]) {
-          result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
-        }
-        result.push(' ');
-      }
-      else {
-        result.push(inheritList[5].join(', '));
-        result.push('.');
       }
     }
 
@@ -169,57 +115,138 @@ class SkillInfoRow extends Component {
 
     let skillDropdown, skillLevel;
     let hasSkillLevel = false;
-    if (/[1-9]/.test(this.props.skillName)) {
-      hasSkillLevel = true;
-      skillDropdown = 
-        <td className="skill-name-sub">
-          <Dropdown addClass='skillNameSub'
-                    options={this.props.options}
-                    value={/[^1-9]*/.exec(this.props.skillName)[0]}
-                    onChange={this.handlePassiveSkillSelect} />
-        </td>;
-      skillLevel =
-        <td className="skill-level">
-          <Dropdown addClass='skillLevel'
-                    options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0])}
-                    value={/[1-9]/.exec(this.props.skillName)[0]}
-                    onChange={this.handleSkillLevelSelect} />
-        </td>;
-    } else {
+    
+    try {
+      if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].upgrade) {
+        var upgradeFlags = weapons[this.props.skillName].upgrade;
+        hasSkillLevel = true;
+        skillDropdown = 
+          <td className="skill-name-sub">
+            <Dropdown addClass='skillNameSub'
+                      options={this.props.options}
+                      value={this.props.skillName}
+                      onChange={this.handleSkillSelect} />
+          </td>;
+        skillLevel =
+          <td className="skill-level">
+            <Dropdown addClass='skillLevel'
+                      options={(/Legendary|Special/.test(upgradeFlags) ? ['', 'X'] : ['']).concat(['A', 'S', 'D', 'R'])}
+                      value={this.props.upgrade}
+                      onChange={this.handleWeaponUpgradeSelect} />
+          </td>;
+      } else if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].type === 'Staff' && /\+/.test(this.props.skillName)) {
+        hasSkillLevel = true;
+        skillDropdown = 
+          <td className="skill-name-sub">
+            <Dropdown addClass='skillNameSub'
+                      options={this.props.options}
+                      value={this.props.skillName}
+                      onChange={this.handleSkillSelect} />
+          </td>;
+        skillLevel =
+          <td className="skill-level">
+            <Dropdown addClass='skillLevel'
+                      options={['', 'W', 'D']}
+                      value={this.props.upgrade}
+                      onChange={this.handleWeaponUpgradeSelect} />
+          </td>;
+      } else if (/[1-9]/.test(this.props.skillName)) {
+        hasSkillLevel = true;
+        skillDropdown = 
+          <td className="skill-name-sub">
+            <Dropdown addClass='skillNameSub'
+                      options={this.props.options}
+                      value={/[^1-9]*/.exec(this.props.skillName)[0]}
+                      onChange={this.handlePassiveSkillSelect} />
+          </td>;
+        skillLevel =
+          <td className="skill-level">
+            <Dropdown addClass='skillLevel'
+                      options={this.getPassiveLevels(/[^1-9]*/.exec(this.props.skillName)[0], this.props.skillType)}
+                      value={/[1-9]/.exec(this.props.skillName)[0]}
+                      onChange={this.handleSkillLevelSelect} />
+          </td>;
+      } else {
+        skillDropdown = 
+          <td className="skill-name" colSpan="2">
+            <Dropdown addClass='skillName'
+                      options={this.props.options}
+                      value={this.props.skillName}
+                      onChange={/passive|seal/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
+          </td>;
+      }
+    }
+    catch (ex) {
       skillDropdown = 
         <td className="skill-name" colSpan="2">
           <Dropdown addClass='skillName'
                     options={this.props.options}
                     value={this.props.skillName}
-                    onChange={/passive/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
+                    onChange={/passive|seal/.test(this.props.skillType) ? this.handlePassiveSkillSelect : this.handleSkillSelect} />
         </td>;
     }
     
-    return (
-      <tr>
-        <td className="skill-type">
-          {
-            this.props.category === "Weapon"  ? <img src={skillTypeIcon.Weapon} title="Weapon" alt="Weapon" /> :
-            this.props.category === "Assist"  ? <img src={skillTypeIcon.Assist} title="Assist" alt="Assist" /> :
-            this.props.category === "Special" ? <img src={skillTypeIcon.Special} title="Special" alt="Special" /> :
-                                                this.props.category
-          }
-        </td>
-        {skillDropdown}
-        {hasSkillLevel && skillLevel}
-        {!!this.props.showDesc &&
-        <td className="skill-info-container">
-          <div className="skill-effect">{this.props.effect}</div>
-        </td>
-        }
-        <td className="skill-info-container">
-          <div className="skill-inherit">{inheritList}</div>
-        </td>
-        <td className="skill-info-container">
-          <div className="skill-cost">{this.props.cost || ''}</div>
-        </td>
-      </tr>
-    );
+    if (isMobile()) {
+        return(
+          <tbody>
+            <tr>
+              <td className="skill-type">
+                {
+                  this.props.category === "Weapon"  ? <img src={skillTypeIcon.Weapon} title="Weapon" alt="Weapon" /> :
+                  this.props.category === "Assist"  ? <img src={skillTypeIcon.Assist} title="Assist" alt="Assist" /> :
+                  this.props.category === "Special" ? <img src={skillTypeIcon.Special} title="Special" alt="Special" /> :
+                                                      this.props.category
+                }
+              </td>
+              {skillDropdown}
+              {hasSkillLevel && skillLevel}
+              <td className="skill-info-container">
+                <div className="skill-inherit">{inheritList}</div>
+              </td>
+              <td className="skill-info-container">
+                <div className="skill-cost">{this.props.cost || ''}</div>
+              </td>
+            </tr>
+            {!!this.props.showDesc &&
+              <tr>
+                <td></td>
+                <td className="skill-info-container" colSpan="4">
+                  <div className="skill-effect">{this.props.effect}</div>
+                </td>
+              </tr>
+            }
+          </tbody>
+        );
+    }
+    else {
+      return (
+        <tbody>
+          <tr>
+            <td className="skill-type">
+              {
+                this.props.category === "Weapon"  ? <img src={skillTypeIcon.Weapon} title="Weapon" alt="Weapon" /> :
+                this.props.category === "Assist"  ? <img src={skillTypeIcon.Assist} title="Assist" alt="Assist" /> :
+                this.props.category === "Special" ? <img src={skillTypeIcon.Special} title="Special" alt="Special" /> :
+                                                    this.props.category
+              }
+            </td>
+            {skillDropdown}
+            {hasSkillLevel && skillLevel}
+            {!!this.props.showDesc &&
+            <td className="skill-info-container">
+              <div className="skill-effect">{this.props.effect}</div>
+            </td>
+            }
+            <td className="skill-info-container">
+              <div className="skill-inherit">{inheritList}</div>
+            </td>
+            <td className="skill-info-container">
+              <div className="skill-cost">{this.props.cost || ''}</div>
+            </td>
+          </tr>
+        </tbody>
+      );
+    }
   }
 }
 
@@ -241,7 +268,7 @@ class SkillInfoTable extends Component {
 
     for (let rarity in unitList) {
       for (let unit of unitList[rarity]) {
-        if (/Alfonse|Anna|Sharena/.test(unit))
+        if (/^(Alfonse|Anna|Sharena)$/.test(unit))
           exclude.push(unit);
         // if (RegExp(escapeRegExp(unitName) + '$').test(unit))
         //   return '';
@@ -262,13 +289,25 @@ class SkillInfoTable extends Component {
   render() {
     let skills = {};
     skills.weapon = this.props.skills.weapon;
+    skills.upgrade = this.props.skills.upgrade;
     skills.assist = this.props.skills.assist;
     skills.special = this.props.skills.special;
     skills.passiveA = this.props.skills.passiveA;
     skills.passiveB = this.props.skills.passiveB;
     skills.passiveC = this.props.skills.passiveC;
-
+    skills.seal = this.props.skills.seal;
+    
     let skillOptions = getPossibleSkills(this.props.unitName);
+
+    let weaponEffect = '';
+    if (weapons[skills.weapon]) {
+      weaponEffect += 'Might: ' + weapons[skills.weapon].might + '. ';
+
+      if (skills.upgrade)
+        weaponEffect += getUpgradeEffect(skills.weapon, skills.upgrade, this.props.unitName);
+      else
+        weaponEffect += weapons[skills.weapon].effect;
+    }
     
     return (
       <table>
@@ -276,73 +315,82 @@ class SkillInfoTable extends Component {
           <tr className="skill-header">
             <th className="reset-button-cell"></th>
             <th colSpan="2" className="dropdown-header text-left">Skill</th>
-            {!!this.props.showDesc && <th className="text-left">Effect</th>}
+            {!isMobile() && !!this.props.showDesc && <th className="text-left">Effect</th>}
             <th className="text-left">Inherited From</th>
             <th>SP</th>
           </tr>
         </thead>
-        <tbody>
-          <SkillInfoRow category='Weapon' 
-                        skillName={skills.weapon}
-                        skillType='weapon'
-                        options={skillOptions.weapons}
-                        effect={weapons[skills.weapon] ? 'Might: ' + weapons[skills.weapon].might + '. ' + weapons[skills.weapon].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
-                        cost={calcCost(this.props.unitName, this.props.skills.weapon)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='Assist' 
-                        skillName={skills.assist}
-                        skillType='assist'
-                        options={skillOptions.assists}
-                        effect={assists[skills.assist] ? assists[skills.assist].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
-                        cost={calcCost(this.props.unitName, this.props.skills.assist)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='Special' 
-                        skillName={skills.special}
-                        skillType='special'
-                        options={skillOptions.specials}
-                        effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
-                        cost={calcCost(this.props.unitName, this.props.skills.special)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='A' 
-                        skillName={skills.passiveA} 
-                        skillType='passiveA'
-                        options={skillOptions.passivesA}
-                        effect={passives.A[skills.passiveA] ? passives.A[skills.passiveA].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
-                        cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='B' 
-                        skillName={skills.passiveB} 
-                        skillType='passiveB'
-                        options={skillOptions.passivesB}
-                        effect={passives.B[skills.passiveB] ? passives.B[skills.passiveB].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
-                        cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-          <SkillInfoRow category='C' 
-                        skillName={skills.passiveC} 
-                        skillType='passiveC'
-                        options={skillOptions.passivesC}
-                        effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
-                        inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
-                        cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
-                        usePortraits={this.props.usePortraits}
-                        showDesc={this.props.showDesc}
-                        onSkillSelect={this.handleSkillSelect} />
-        </tbody>
+        <SkillInfoRow category='Weapon' 
+                      skillName={skills.weapon}
+                      skillType='weapon'
+                      options={skillOptions.weapons}
+                      upgrade={skills.upgrade}
+                      effect={weaponEffect} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.weapon,'weapon')}
+                      cost={calcCost(this.props.unitName, this.props.skills.weapon, this.props.skills.upgrade)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='Assist' 
+                      skillName={skills.assist}
+                      skillType='assist'
+                      options={skillOptions.assists}
+                      effect={assists[skills.assist] ? assists[skills.assist].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.assist,'assist')}
+                      cost={calcCost(this.props.unitName, this.props.skills.assist)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='Special' 
+                      skillName={skills.special}
+                      skillType='special'
+                      options={skillOptions.specials}
+                      effect={specials[skills.special] ? 'Charge: ' + specials[skills.special].count + '. ' + specials[skills.special].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.special,'special')}
+                      cost={calcCost(this.props.unitName, this.props.skills.special)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='A' 
+                      skillName={skills.passiveA} 
+                      skillType='passiveA'
+                      options={skillOptions.passivesA}
+                      effect={passives.A[skills.passiveA] ? passives.A[skills.passiveA].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.passiveA,'passiveA')}
+                      cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='B' 
+                      skillName={skills.passiveB} 
+                      skillType='passiveB'
+                      options={skillOptions.passivesB}
+                      effect={passives.B[skills.passiveB] ? passives.B[skills.passiveB].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.passiveB,'passiveB')}
+                      cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='C' 
+                      skillName={skills.passiveC} 
+                      skillType='passiveC'
+                      options={skillOptions.passivesC}
+                      effect={passives.C[skills.passiveC] ? passives.C[skills.passiveC].effect : ''} 
+                      inheritList={this.getInheritList(this.props.unitName,skills.passiveC,'passiveC')}
+                      cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
+        <SkillInfoRow category='S' 
+                      skillName={skills.seal} 
+                      skillType='seal'
+                      options={skillOptions.seals}
+                      effect={seals[skills.seal] ? seals[skills.seal].effect : ''}
+                      inheritList={[]}
+                      cost={0}
+                      usePortraits={this.props.usePortraits}
+                      showDesc={this.props.showDesc}
+                      onSkillSelect={this.handleSkillSelect} />
       </table>
     )
   }
@@ -354,11 +402,17 @@ class UnitInfo extends Component {
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonSelect = this.handleBoonSelect.bind(this);
     this.handleBaneSelect = this.handleBaneSelect.bind(this);
+    this.handleLevelSelect = this.handleLevelSelect.bind(this);
     this.handleMergeSelect = this.handleMergeSelect.bind(this);
+    this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
   }
 
   handleUnitSelect(unitName) {
     this.props.onUnitSelect(unitName);
+  }
+
+  handleLevelSelect(level) {
+    this.props.onLevelSelect(level);
   }
 
   handleBoonSelect(boon) {
@@ -369,86 +423,132 @@ class UnitInfo extends Component {
     this.props.onMergeSelect(mergeBonus ? mergeBonus.slice(1) : '');
   }
 
+  handleSupportRankSelect(rank) {
+    this.props.onSupportRankSelect(rank);
+  }
+
   handleBaneSelect(bane) {
     this.props.onBoonBaneSelect("bane", bane ? bane.slice(1) : '');
   }
 
   render() {
-    let name = this.props.unitName;
+    let name = this.props.state.unitName;
     let color = units[name].color;
     let wpnType = units[name].wpnType;
     let movType = units[name].movType;
     let fullWpnType = color + ' ' + wpnType;
     let bOptions = ["", "HP", "Atk", "Spd", "Def", "Res"];
+    let lvOptions = [];
+
+    switch (getLowestRarity(this.props.state.unitName)) {
+      case 3:
+        lvOptions = ['3★40', '3★1'];
+        // eslint-disable-next-line
+      case 4:
+        lvOptions = ['4★40', '4★1'].concat(lvOptions);
+        // eslint-disable-next-line
+      default:
+        lvOptions = ['5★40', '5★1'].concat(lvOptions);
+    }
 
     return (
       <div>
-        <table id="unitInfoLeft">
-          <tbody>
-            <tr>
-              <td rowSpan="2"><img className="unit-portrait" src={unitPortrait[this.props.unitName]} title={this.props.unitName} alt={this.props.unitName} /></td>
-              <th className="unit-name text-left dropdown-header">Name</th>
-              <th className="unit-type" colSpan="2">Type</th>
-              <th className="unit-merge">Merge</th>
-            </tr>
-            <tr>
-              <td>
-                <Dropdown addClass='unitName'
-                          options={Object.keys(units)}
-                          value={this.props.unitName}
-                          onChange={this.handleUnitSelect} />
-              </td>
-              <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
-              <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
-              <td>
-                <Dropdown addClass='unitMerge'
-                          options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
-                          value={'+' + this.props.merge}
-                          onChange={this.handleMergeSelect} />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table id="unitInfoRight">
-          <tbody>
-            <tr>
-              <th className="unit-bb">Boon</th>
-              <th className="unit-bb">Bane</th>
-              <th className="unit-stat">HP</th>
-              <th className="unit-stat">Atk</th>
-              <th className="unit-stat">Spd</th>
-              <th className="unit-stat">Def</th>
-              <th className="unit-stat">Res</th>
-              <th className="unit-BST">Total</th>
-            </tr>
-            <tr>
-              <td>
-                <Dropdown id="boon" addClass="unitBB"
-                          options={bOptions.map(option => { return option ? '+' + option : ""; })}
-                          value={'+' + this.props.boonBane.boon}
-                          onChange={this.handleBoonSelect} />
-              </td>
-              <td>
-                <Dropdown id="bane" addClass="unitBB"
-                          options={bOptions.map(option => { return option ? '-' + option : ""; })}
-                          value={'-' + this.props.boonBane.bane}
-                          onChange={this.handleBaneSelect} />
-              </td>
-              <td className={this.props.boonBane.boon === "HP" ? "boon" : this.props.boonBane.bane === "HP" ? "bane" : ""}>{this.props.stats.HP}</td>
-              <td className={this.props.boonBane.boon === "Atk" ? "boon" : this.props.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.stats.Atk}</td>
-              <td className={this.props.boonBane.boon === "Spd" ? "boon" : this.props.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.stats.Spd}</td>
-              <td className={this.props.boonBane.boon === "Def" ? "boon" : this.props.boonBane.bane === "Def" ? "bane" : ""}>{this.props.stats.Def}</td>
-              <td className={this.props.boonBane.boon === "Res" ? "boon" : this.props.boonBane.bane === "Res" ? "bane" : ""}>{this.props.stats.Res}</td>
-              <td>
-                {Object.keys(this.props.stats).reduce((a,b) => {
-                  if (Number.isInteger(a))
-                    return a + this.props.stats[b];
-                  return this.props.stats[a] + this.props.stats[b];
-                })}
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="unit-info-container">
+          <img className="unit-portrait" src={unitPortrait[this.props.state.unitName]} title={this.props.state.unitName} alt={this.props.state.unitName} />
+        </div>
+        <div className="unit-info-container">
+          <table>
+            <tbody>
+              <tr>
+                <th className="unit-name text-left dropdown-header">Name</th>
+                <th className="unit-type" colSpan="2">Type</th>
+              </tr>
+              <tr>
+                <td>
+                  <Dropdown addClass='unitName'
+                            options={Object.keys(units)}
+                            value={this.props.state.unitName}
+                            onChange={this.handleUnitSelect} />
+                </td>
+                <td className="unit-type-sub"><img src={weaponIcon[color][wpnType]} title={fullWpnType} alt={fullWpnType} /></td>
+                <td className="unit-type-sub"><img src={moveIcon[movType]} title={movType} alt={movType} /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="unit-info-container">
+          <table>
+            <tbody>
+              <tr>
+                <th className="unit-level">Level</th>
+                <th className="unit-merge">Merge</th>
+                <th className="unit-support" title="Summoner Support Rank">Rank</th>
+                <th className="unit-bb">Boon</th>
+                <th className="unit-bb">Bane</th>
+              </tr>
+              <tr>
+                <td title="Rarity and Level">
+                  <Dropdown addClass='unitLevel'
+                            options={lvOptions}
+                            value={this.props.state.rarity + '★' + this.props.state.level}
+                            onChange={this.handleLevelSelect} />
+                </td>
+                <td>
+                  <Dropdown addClass='unitMerge'
+                            options={[...Array(11).keys()].map(x => { return x ? '+' + x : ''; })}
+                            value={'+' + this.props.state.merge}
+                            onChange={this.handleMergeSelect} />
+                </td>
+                <td title="Summoner Support Rank">
+                  <Dropdown addClass="unitSupport"
+                            options={[' ', 'C', 'B', 'A', 'S']}
+                            value={this.props.state.supportRank}
+                            onChange={this.handleSupportRankSelect} />
+                </td>
+                <td>
+                  <Dropdown id="boon" addClass="unitBB"
+                            options={bOptions.map(option => { return option ? '+' + option : ""; })}
+                            value={'+' + this.props.state.boonBane.boon}
+                            onChange={this.handleBoonSelect} />
+                </td>
+                <td>
+                  <Dropdown id="bane" addClass="unitBB"
+                            options={bOptions.map(option => { return option ? '-' + option : ""; })}
+                            value={'-' + this.props.state.boonBane.bane}
+                            onChange={this.handleBaneSelect} />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="unit-info-container">
+          <table>
+            <tbody>
+              <tr>
+                <th className="unit-stat">HP</th>
+                <th className="unit-stat">Atk</th>
+                <th className="unit-stat">Spd</th>
+                <th className="unit-stat">Def</th>
+                <th className="unit-stat">Res</th>
+                <th className="unit-BST">Total</th>
+              </tr>
+              <tr>
+                <td className={this.props.state.boonBane.boon === "HP" ? "boon" : this.props.state.boonBane.bane === "HP" ? "bane" : ""}>{this.props.state.stats.HP}</td>
+                <td className={this.props.state.boonBane.boon === "Atk" ? "boon" : this.props.state.boonBane.bane === "Atk" ? "bane" : ""}>{this.props.state.stats.Atk}</td>
+                <td className={this.props.state.boonBane.boon === "Spd" ? "boon" : this.props.state.boonBane.bane === "Spd" ? "bane" : ""}>{this.props.state.stats.Spd}</td>
+                <td className={this.props.state.boonBane.boon === "Def" ? "boon" : this.props.state.boonBane.bane === "Def" ? "bane" : ""}>{this.props.state.stats.Def}</td>
+                <td className={this.props.state.boonBane.boon === "Res" ? "boon" : this.props.state.boonBane.bane === "Res" ? "bane" : ""}>{this.props.state.stats.Res}</td>
+                <td>
+                  {Object.keys(this.props.state.stats).reduce((a,b) => {
+                    if (Number.isInteger(a))
+                      return a + this.props.state.stats[b];
+                    return this.props.state.stats[a] + this.props.state.stats[b];
+                  })}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     )
   }
@@ -515,12 +615,41 @@ class ToggleBox extends Component {
 class InheritanceTool extends Component {
   constructor(props) {
     super(props);
+
+    let initUnit = 'Abel: The Panther';
     
-    this.initState('Abel');
+    let skills = units[initUnit].skills;
+    let initSkills = {
+        weapon: skills.weapon ? skills.weapon[skills.weapon.length-1].name : '',
+        upgrade: '',
+        assist: skills.assist ? skills.assist[skills.assist.length-1].name : '',
+        special: skills.special ? skills.special[skills.special.length-1].name : '',
+        passiveA: skills.passiveA ? skills.passiveA[skills.passiveA.length-1].name : '',
+        passiveB: skills.passiveB ? skills.passiveB[skills.passiveB.length-1].name : '',
+        passiveC: skills.passiveC ? skills.passiveC[skills.passiveC.length-1].name : '',
+        seal: ''
+      };
+
+    this.state = {
+      unitName: initUnit,
+      rarity: 5,
+      level: 40,
+      boonBane: {"boon":"","bane":""},
+      merge: 0,
+      supportRank: '',
+      stats: calcStats(initUnit, initSkills),
+      skills: initSkills,
+      rawStatsOn: false,
+      usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits),
+      showDesc: (storageAvailable('localStorage') && localStorage.showDesc) ? JSON.parse(localStorage.showDesc) : true,
+      totalCost: calcTotalCost(initUnit, initSkills)
+    }
 
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonBaneSelect = this.handleBoonBaneSelect.bind(this);
+    this.handleLevelSelect = this.handleLevelSelect.bind(this);
     this.handleMergeSelect = this.handleMergeSelect.bind(this);
+    this.handleSupportRankSelect = this.handleSupportRankSelect.bind(this);
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handleResetClick = this.handleResetClick.bind(this);
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
@@ -529,42 +658,35 @@ class InheritanceTool extends Component {
     this.handleBuildLoad = this.handleBuildLoad.bind(this);
   }
 
-  initState(initUnit) {
-    let initSkills = {
-        weapon: units[initUnit].skills.weapon[units[initUnit].skills.weapon.length-1].name,
-        assist: units[initUnit].skills.assist[units[initUnit].skills.assist.length-1].name,
-        special: units[initUnit].skills.special[units[initUnit].skills.special.length-1].name,
-        passiveA: units[initUnit].skills.passiveA[units[initUnit].skills.passiveA.length-1].name,
-        passiveB: units[initUnit].skills.passiveB[units[initUnit].skills.passiveB.length-1].name,
-        passiveC: units[initUnit].skills.passiveC[units[initUnit].skills.passiveC.length-1].name
-      };
-    let initBoonBane = {"boon":"","bane":""};
-    let initStats = calcStats(initUnit, initSkills, initBoonBane);
+  getNewStats({unit = '', skills = null, boonBane = null, merge = 0, rank = ''} = {}) {
+    return calcStats(
+      unit ? unit : this.state.unitName,
+      this.state.rawStatsOn ? null
+                            : skills ? skills : this.state.skills,
+      this.state.rarity,
+      this.state.level,
+      boonBane ? boonBane : this.state.boonBane,
+      (merge || merge === '') ? merge : this.state.merge,
+      rank ? rank : this.state.supportRank
+    )
+  }
 
-    this.state = {
-      unitName: initUnit,
-      boonBane: initBoonBane,
-      merge: 0,
-      stats: initStats,
-      skills: initSkills,
-      rawStatsOn: false,
-      usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits),
-      showDesc: (storageAvailable('localStorage') && localStorage.showDesc) ? JSON.parse(localStorage.showDesc) : true,
-      totalCost: calcTotalCost(initUnit, initSkills)
-    }
+  updateStats() {
+    this.setState({ stats: this.getNewStats() });
   }
 
   handleUnitSelect(unitName) {
     let newSkills = parseSkills(JSON.parse(JSON.stringify(units[unitName].skills)));
+    newSkills.upgrade = '';
 
     this.setState({
       unitName: unitName,
-      boonBane: {"boon":"","bane":""},
+      boonBane: { boon: '', bane: ''},
       merge: 0,
-      stats: this.state.rawStatsOn ? calcStats(unitName, null) : calcStats(unitName, newSkills),
+      supportRank: '',
       skills: newSkills,
       totalCost: calcTotalCost(unitName, newSkills)
-    });
+    }, this.updateStats);
   }
 
   handleBoonBaneSelect(boonOrBane, value) {
@@ -576,18 +698,28 @@ class InheritanceTool extends Component {
       newBoonBane[other] = '';
 
     this.setState({
-      boonBane: newBoonBane,
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
-                                   : calcStats(this.state.unitName, this.state.skills, this.state.boonBane, this.state.merge),
-    });
+      boonBane: newBoonBane
+    }, this.updateStats);
+  }
+
+  // {Rarity}★{Level}
+  handleLevelSelect(level) {
+    this.setState({
+      rarity: parseInt(/^\d+/.exec(level)[0], 10),
+      level: parseInt(/\d+$/.exec(level)[0], 10)
+    }, this.updateStats);
   }
 
   handleMergeSelect(mergeBonus) {
     this.setState({
-      merge: mergeBonus,
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, mergeBonus)
-                                   : calcStats(this.state.unitName, this.state.skills, this.state.boonBane, mergeBonus),
-    });
+      merge: mergeBonus
+    }, this.updateStats);
+  }
+
+  handleSupportRankSelect(rank) {
+    this.setState({
+      supportRank: rank
+    }, this.updateStats);
   }
 
   handleSkillSelect(skillName, skillType) {
@@ -595,6 +727,10 @@ class InheritanceTool extends Component {
     switch(skillType) {
       case 'weapon':
         newSkills.weapon = skillName;
+        newSkills.upgrade = '';
+        break;
+      case 'upgrade':
+        newSkills.upgrade = skillName;
         break;
       case 'assist':
         newSkills.assist = skillName;
@@ -611,40 +747,29 @@ class InheritanceTool extends Component {
       case 'passiveC':
         newSkills.passiveC = skillName;
         break;
+      case 'seal':
+        newSkills.seal = skillName;
+        break;
       default:
         break;
     }
 
-    this.setState({ 
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge) 
-                                   : calcStats(this.state.unitName, newSkills, this.state.boonBane, this.state.merge),
+    this.setState({
       skills: newSkills,
       totalCost: calcTotalCost(this.state.unitName, newSkills)
-    });
+    }, this.updateStats);
   }
 
   handleResetClick() {
     let skills = parseSkills(JSON.parse(JSON.stringify(units[this.state.unitName].skills)));
     this.setState({
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
-                                   : calcStats(this.state.unitName, skills, this.state.boonBane, this.state.merge),
       skills: skills,
       totalCost: calcTotalCost(this.state.unitName, skills)
-    })
+    }, this.updateStats)
   }
 
   handleRawStatsToggle(isOn) {
-    if (isOn) {
-      this.setState({
-        rawStatsOn: true,
-        stats: calcStats(this.state.unitName, null, this.state.boonBane, this.state.merge)
-      });
-    } else {
-      this.setState({
-        rawStatsOn: false,
-        stats: calcStats(this.state.unitName, this.state.skills, this.state.boonBane, this.state.merge)
-      });
-    }
+    this.setState({ rawStatsOn: isOn }, this.updateStats);
   }
 
   handlePortraitToggle(isOn) {
@@ -667,25 +792,25 @@ class InheritanceTool extends Component {
 
   handleBuildLoad(build) {
     let newBoonBane = {
-      "boon": build.Boon,
-      "bane": build.Bane
+      boon: build.Boon,
+      bane: build.Bane
     };
     let newSkills = {
-      "weapon": build.Weapon,
-      "assist": build.Assist,
-      "special": build.Special,
-      "passiveA": build.PassiveA,
-      "passiveB": build.PassiveB,
-      "passiveC": build.PassiveC,
+      weapon: build.Weapon,
+      upgrade: build.Upgrade,
+      assist: build.Assist,
+      special: build.Special,
+      passiveA: build.PassiveA,
+      passiveB: build.PassiveB,
+      passiveC: build.PassiveC,
+      seal: build.Seal
     }
 
     this.setState({
       boonBane: newBoonBane,
       skills: newSkills,
-      stats: this.state.rawStatsOn ? calcStats(this.state.unitName, null, newBoonBane, this.state.merge)
-                                   : calcStats(this.state.unitName, newSkills, newBoonBane, this.state.merge),
       totalCost: calcTotalCost(this.state.unitName, newSkills)
-    });
+    }, this.updateStats);
   }
 
   render() {
@@ -700,14 +825,12 @@ class InheritanceTool extends Component {
                      onSkillEffectToggle={this.handleSkillEffectToggle} />
         </div>
         <div className="char-info">
-          <UnitInfo unitName={this.state.unitName}
-                    boonBane={this.state.boonBane}
-                    merge={this.state.merge}
-                    stats={this.state.stats}
-                    rawStatsOn={this.state.rawStatsOn}
+          <UnitInfo state={this.state}
                     onUnitSelect={this.handleUnitSelect}
                     onBoonBaneSelect={this.handleBoonBaneSelect}
-                    onMergeSelect={this.handleMergeSelect} />
+                    onLevelSelect={this.handleLevelSelect}
+                    onMergeSelect={this.handleMergeSelect}
+                    onSupportRankSelect={this.handleSupportRankSelect} />
         </div>
         <div className="skill-info">
           <SkillInfoTable unitName={this.state.unitName}
@@ -747,7 +870,7 @@ class App extends Component {
               Bug reports, feedback, or suggestions? Submit 
               an <a href="https://github.com/arghblargh/feh-inheritance-tool">issue</a> on Github or 
               message <a href="https://www.reddit.com/u/omgwtfhax_">/u/omgwtfhax_</a> on Reddit. 
-              <a id="tip" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XLGEXXDZ8EY5A" target="_blank">
+              <a id="tip" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XLGEXXDZ8EY5A" target="_blank" rel="noopener noreferrer">
                 <img src="https://arghblargh.github.io/feh-inheritance-tool/orb.png" alt="Send a tip" title="Send a tip" />
               </a>
             </p>

@@ -21,13 +21,30 @@
 // SOFTWARE.
 
 import React from 'react';
-import { Dropdown, escapeRegExp, storageAvailable, jsonp } from './utility.js';
+import { Dropdown, escapeRegExp, jsonp } from './utility.js';
 
 const units = require('./data/units.json');
+const baseStats = {
+    3: {
+        1: require('./data/stats/3_1.json'),
+        40: require('./data/stats/3_40.json')
+    },
+    4: {
+        1: require('./data/stats/4_1.json'),
+        40: require('./data/stats/4_40.json')
+    },
+    5: {
+        1: require('./data/stats/5_1.json'),
+        40: require('./data/stats/5_40.json')
+    }
+}
+
 const weapons = require('./data/weapons.json');
 const assists = require('./data/assists.json');
 const specials = require('./data/specials.json');
 const passives = require('./data/passives.json');
+const seals = require('./data/seals.json');
+const upgrades = require('./data/upgrades.json');
 
 // Load movement icons from file
 export const moveIcon = {
@@ -42,21 +59,25 @@ export const weaponIcon = {
     "Red" : {
         "Sword"  : require('./img/icon/weapon/red/Sword.png'),
         "Dragon" : require('./img/icon/weapon/red/Dragon.png'),
-        "Tome"   : require('./img/icon/weapon/red/Tome.png')
+        "Tome"   : require('./img/icon/weapon/red/Tome.png'),
+        "Bow"    : require('./img/icon/weapon/red/Bow.png')
     },
     "Blue" : {
         "Lance"  : require('./img/icon/weapon/blue/Lance.png'),
         "Dragon" : require('./img/icon/weapon/blue/Dragon.png'),
-        "Tome"   : require('./img/icon/weapon/blue/Tome.png')
+        "Tome"   : require('./img/icon/weapon/blue/Tome.png'),
+        "Bow"    : require('./img/icon/weapon/blue/Bow.png')
     },
     "Green" : {
         "Axe"    : require('./img/icon/weapon/green/Axe.png'),
         "Dragon" : require('./img/icon/weapon/green/Dragon.png'),
-        "Tome"   : require('./img/icon/weapon/green/Tome.png')
+        "Tome"   : require('./img/icon/weapon/green/Tome.png'),
+        "Bow"    : require('./img/icon/weapon/green/Bow.png')
     },
     "Neutral" : {
         "Bow"    : require('./img/icon/weapon/neutral/Bow.png'),
         "Dagger" : require('./img/icon/weapon/neutral/Dagger.png'),
+        "Dragon" : require('./img/icon/weapon/neutral/Dragon.png'),
         "Staff"  : require('./img/icon/weapon/neutral/Staff.png')
     }
 };
@@ -80,7 +101,7 @@ export const skillTypeIcon = {
 // Load all unit protraits from file
 export const unitPortrait = Object.keys(units).reduce(function(previous, current) {
     try {
-        previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_') + '.png');
+        previous[current] = require('./img/portrait/' + current.replace(/\s/g, '_').replace(/[!:"]/g, '') + '.png');
     }
     catch (e) {
         previous[current] = require('./img/portrait/_temp.png');
@@ -92,74 +113,78 @@ const userBuildLabel = '----- User Builds -----';
 const wikiBuildLabel = '----- Wiki Builds -----';
 
 // Asynchronously get recommended builds from the wiki and list them in a Dropdown component
-export const BuildManager = React.createClass({
-    // constructor: function(props) {
-    //     //this.super(props);
-    // },
+export class BuildManager extends React.PureComponent {
+    constructor(props) {
+        super(props);
 
-    getInitialState: function() {
-        return {
-            newBuild: false,
-            newBuildName: null,
+        this.state = {
+            unit: 'Abel',
             link: null,
             builds: {},
-            current: wikiBuildLabel
-        };
-    },
-
-    componentDidMount: function() {
-        this.retrieveData('Abel');
-    },
-
-    componentWillReceiveProps: function(props) {
-        this.retrieveData(props.unitName);
-
-        this.setState({
+            current: wikiBuildLabel,
             newBuild: false,
             newBuildName: null
-        });
-    },
+        };
 
-    handleChange: function(buildName) {
+        this.handleChange = this.handleChange.bind(this);
+        this.handleLoadClick = this.handleLoadClick.bind(this);
+    }
+
+    componentDidMount() {
+        this.retrieveData('Abel');
+    }
+
+    componentWillReceiveProps(props) {
+        if (this.state.unit !== props.unitName) {
+            this.retrieveData(props.unitName);
+            this.setState({ 
+                unit: props.unitName,
+                newBuild: false,
+                newBuildName: null
+            });
+        }
+    }
+
+    handleChange(buildName) {
         this.setState({ 
             newBuild: false,
             newBuildName: null,
             current: buildName 
         });
-    },
+    }
 
-    handleNewClick: function() {
+    handleNewClick() {
         if (!this.state.newBuild) {
             this.setState({
                 newBuild: true
             });
         }
-    },
+    }
 
-    handleBuildNameChange: function(buildName) {
+    handleBuildNameChange(buildName) {
         this.setState({ 
             newBuildName: buildName
         });
-    },
+    }
 
-    handleSaveClick: function() {
+    handleSaveClick() {
         let builds = this.state.builds;
 
         // let newBuild = 
-    },
+    }
 
-    handleLoadClick: function() {
+    handleLoadClick() {
         if (this.state.current !== wikiBuildLabel) {
             this.props.onLoadClick(this.state.builds[this.state.current]);
         }
-    },
+    }
 
-    loadStorageData: function(unitName) {
+    loadStorageData(unitName) {
         let builds = storageAvailable('localStorage') && localStorage.userBuilds && JSON.parse(localStorage.userBuilds);
 
-    },
-
-    retrieveData: function(unitName) {
+    }
+    
+    retrieveData(unitName) {
         jsonp('https://feheroes.gamepedia.com/api.php?action=query&titles=' + unitName.replace(/\s/g, '_') + '/Builds&prop=revisions&rvprop=content&format=json').then(function(data) {
             let responses = [], builds = [],
                 match, re = /{{\\?n?(Skillbuild[_ ]Infobox\s?.*?})}/g;
@@ -169,47 +194,102 @@ export const BuildManager = React.createClass({
             while (match = re.exec(text)) {
                 responses.push(match[1]);
             }
-
-            for (let response of responses) {
-                let build = {}, skills = {};
-                let buildName = /name\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-
-                let stats = {}, neutralStats;
-                if (/stats/.test(response)) {
-                    let statStr = /stats\s*=(.*?)[}|]/i.exec(response)[1].trim().split('/');
-                    stats.HP = statStr[0];
-                    stats.Atk = statStr[1];
-                    stats.Spd = statStr[2];
-                    stats.Def = statStr[3];
-                    stats.Res = statStr[4];
-                }
-
-                build.Weapon = skills.weapon = /weapon\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.Assist = skills.assist = /assist\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.Special = skills.special = /special\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveA = skills.passiveA = /passiveA\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveB = skills.passiveB = /passiveB\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-                build.PassiveC = skills.passiveC =  /passiveC\s*=(.*?)(\\n)?[}|]/i.exec(response)[1].trim();
-
-                build.Weapon = build.Weapon.replace(/Blar/, 'Blár');
-                build.Weapon = build.Weapon.replace(/Raudr/, 'Rauðr');
-
-                for (let i in build) {
-                    if (/^\s*flexible\s*$/i.test(build[i]))
-                        build[i] = '';
-                }
+            
+            for (var response of responses) {
+                var buildName, build = {};
+                var hasError = false;
                 
-                build.Boon = '';
-                build.Bane = '';
-                neutralStats = calcStats(unitName, skills);
-                if (stats) {
-                    for (let s in stats) {
-                        if (stats[s] > neutralStats[s])
-                            build.Boon = s;
-                        else if (stats[s] < neutralStats[s])
-                            build.Bane = s;
+                try {
+                    buildName = /name\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim();
+                }
+                catch (TypeError) {
+                    console.error('Error retrieving build name.');
+                    hasError = true;
+                }
+
+                try {
+                    if (/ivs/.test(response)) {
+                        let bbStr = /ivs\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim();
+                        if (!bbStr || /Neutral|Any/i.test(bbStr)) {
+                            build.Boon = '';
+                            build.Bane = '';
+                        } else {
+                            build.Boon = /\+(HP|Atk|Spd|Def|Res)/i.exec(bbStr)[1];
+                            if (build.Bane !== 'HP')
+                                build.Boon = build.Boon.slice(0,1) + build.Boon.slice(1).toLowerCase();
+                            build.Bane = /-(HP|Atk|Spd|Def|Res)/i.exec(bbStr)[1];
+                            if (build.Bane !== 'HP')
+                                build.Bane = build.Bane.slice(0,1) + build.Bane.slice(1).toLowerCase();
+                        }
                     }
                 }
+                catch (TypeError) {
+                    console.error('Error retrieving boon/bane: ' + buildName);
+                    build.Boon = '';
+                    build.Bane = '';
+                    hasError = true;
+                }
+
+                try {
+                    build.Weapon = /weapon=/.test(response) ? /weapon\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.Assist = /assist=/.test(response) ? /assist\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.Special = /special=/.test(response) ? /special\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveA = /passiveA=/.test(response) ? /passiveA\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveB = /passiveB=/.test(response) ? /passiveB\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.PassiveC = /passiveC=/.test(response) ? /passiveC\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+                    build.Seal = /seal=/.test(response) ? /seal\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
+
+                    build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr');
+
+                    if (/Atk\/(Def|Res)/.test(build.PassiveA)) {
+                        if (/Def/.test(build.PassiveA)) {
+                            build.PassiveA = build.PassiveA.replace('Atk/Def ', 'Attack/Def +');
+                        }
+                        else if (/Res/.test(build.PassiveA)) {
+                            build.PassiveA = build.PassiveA.replace('Atk', 'Attack');
+                        }
+                    }
+                    
+                    if (/weaponRefine=/.test(response)) {
+                        let upgrade = /weaponRefine\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim().toLowerCase();
+                        switch (upgrade) {
+                            case 'skill':
+                                build.Upgrade = units[unitName].wpnType === 'Staff' ? 'W' : 'X';
+                                break;
+                            case 'atk':
+                                build.Upgrade = 'A';
+                                break;
+                            case 'spd':
+                                build.Upgrade = 'S';
+                                break;
+                            case 'def':
+                                build.Upgrade = 'D';
+                                break;
+                            case 'res':
+                                build.Upgrade = 'R';
+                                break;
+                            case 'skill2':
+                                build.Upgrade = 'D';
+                                break;
+                            default:
+                                build.Upgrade = '';
+                                break;
+                        }
+                    }
+
+                    for (let i in build) {
+                        if (/^\s*flexible\s*$/i.test(build[i]))
+                            build[i] = '';
+                    }
+                }
+                catch (TypeError) {
+                    console.error('Error retrieving skills: ' + buildName);
+                    build = units[unitName].skills;
+                    hasError = true;
+                }
+
+                if (hasError)
+                    buildName += ' !!Error!!';
 
                 if (buildName.length > 0 && buildName !== '-')
                     builds[buildName] = build;
@@ -221,9 +301,9 @@ export const BuildManager = React.createClass({
                 current: builds[this.state.current] ? this.state.current : wikiBuildLabel
             });
         }.bind(this));
-    },
+    }
 
-    render: function() {
+    render() {
         let buildSelect = null;
         if (this.state.link) {
             if (Object.keys(this.state.builds).length > 0) {
@@ -259,24 +339,19 @@ export const BuildManager = React.createClass({
             </div>
         )
     }
-});
+}
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
-    let skills = {};
-    skills.weapon = Array.isArray(skillData.weapon) ? skillData.weapon[skillData.weapon.length-1].name 
-                                                    : skillData.weapon.name;
-    skills.assist = Array.isArray(skillData.assist) ? skillData.assist[skillData.assist.length-1].name 
-                                                    : skillData.assist.name;
-    skills.special = Array.isArray(skillData.special) ? skillData.special[skillData.special.length-1].name 
-                                                      : skillData.special.name;
-    skills.passiveA = Array.isArray(skillData.passiveA) ? skillData.passiveA[skillData.passiveA.length-1].name 
-                                                        : skillData.passiveA.name;
-    skills.passiveB = Array.isArray(skillData.passiveB) ? skillData.passiveB[skillData.passiveB.length-1].name 
-                                                        : skillData.passiveB.name;
-    skills.passiveC = Array.isArray(skillData.passiveC) ? skillData.passiveC[skillData.passiveC.length-1].name 
-                                                        : skillData.passiveC.name;
-    
+    var skills = {};
+    skills.weapon = skillData.weapon ? skillData.weapon[skillData.weapon.length-1].name : '';
+    skills.assist = skillData.assist ? skillData.assist[skillData.assist.length-1].name : '';
+    skills.special = skillData.special ? skillData.special[skillData.special.length-1].name : '';
+    skills.passiveA = skillData.passiveA ? skillData.passiveA[skillData.passiveA.length-1].name : '';
+    skills.passiveB = skillData.passiveB ? skillData.passiveB[skillData.passiveB.length-1].name : '';
+    skills.passiveC = skillData.passiveC ? skillData.passiveC[skillData.passiveC.length-1].name : '';
+    skills.seal = '';
+
     return skills;
 }
 
@@ -284,26 +359,73 @@ export function parseSkills(skillData) {
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
 
-    let reSkill = RegExp(escapeRegExp(skill) + '$');
-    let unitList = {};
+    var reSkill = RegExp('^' + escapeRegExp(skill) + '$');
+    var unitList = {};
     
     for (let unit in units) {
         let skillData = units[unit].skills[type];
-        for (let skl of skillData) {
-            if (reSkill.test(skl.name)) {
-                if (!unitList[skl.unlock])
-                    unitList[skl.unlock] = [];
-                unitList[skl.unlock].push(unit);
+        if (skillData) {
+            for (let skl of skillData) {
+                if (reSkill.test(skl.name)) {
+                    var rarity = 5;
+                    if (skl.unlock)
+                        rarity = skl.unlock;
+                    if (!unitList[rarity])
+                        unitList[rarity] = [];
+                    unitList[rarity].push(unit);
+                }
             }
         }
     }
     return unitList;
 }
 
+// Returns an array of a unit's default skills
+function getDefaultSkills(unit) {
+    var skills = [];
+    var skillData = units[unit].skills;
+    
+    for (let type in skillData) {
+        for (let skill of skillData[type]) {
+            skills.push(skill.name);
+        }
+    }
+    return skills;
+}
+
+// Returns the lowest available rarity of a unit, down to 3★
+export function getLowestRarity(unit) {
+    for (let i = 3; i <= 5; i++) {
+        if (baseStats[i][1][unit])
+            return i;
+    }
+}
+
+function getWeaponUpgrade(unit) {
+    var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
+    
+    if (upgrades.Evolve[maxWeapon])
+        return upgrades.Evolve[maxWeapon];
+
+    return null;
+}
+
+export function getUpgradeEffect(weapon, upgrade, unitName) {
+    if (upgrade === 'X') {
+        if (upgrades[weapon].units)
+            return upgrades[weapon].units.find(unit => unit.name.split(',').includes(unitName)).effect;
+        else
+            return upgrades[weapon].effect;
+    }
+    else if (upgrades[weapon] && upgrades[weapon].common)
+        return upgrades[weapon].common.effect;
+    else
+        return weapons[weapon].effect;
+}
+
 // Check inheritance restrictions.
-function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
+function checkRestrictions(unit, skill, restrictions, limitStaff = false, color = '') {
     let unitData = units[unit].color + ' ' + units[unit].wpnType + ' ' + units[unit].movType;
-    let rstr = restrictions.split(', ');
     
     if (color) {
         let colorList = color.split(', ');
@@ -318,64 +440,74 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
             return false;
     }
 
-    for (let r of rstr) {
-        if (RegExp(r).test(unit))
-            return true;
-
-        if (/Offense/.test(r) && !/Staff/.test(unitData))
-            return true;
-
-        if (limitStaff && /Staff/.test(unitData) && !/Staff/.test(r))
-            return false;
-                
-        if (/Melee/.test(r) && /Sword|Lance|Axe|Dragon/.test(unitData))
-            return true;
-
-        if (/Ranged/.test(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
-            return true;
-
-        if (/Color/.test(r)) {
-            let flags = /Color:(.*)/.exec(r)[1];
-            if (/R/.test(flags) && /Red/.test(unitData))
+    if (restrictions) {
+        let rstr = restrictions.split(', ');
+        for (let r of rstr) {
+            if (RegExp(r).test(unit))
                 return true;
-            else if (/B/.test(flags) && /Blue/.test(unitData))
+
+            if (/Exclusive/.test(r)) {
+                if (getDefaultSkills(unit).includes(skill))
+                    return true;
+                if (getWeaponUpgrade(unit) === skill)
+                    return true;
+            }
+
+            if (/Offense/.test(r) && !/Staff/.test(unitData))
                 return true;
-            else if (/G/.test(flags) && /Green/.test(unitData))
+
+            if (limitStaff && /Staff/.test(unitData) && !/Staff/.test(r))
+                return false;
+                    
+            if (/Melee/.test(r) && /Sword|Lance|Axe|Dragon/.test(unitData))
                 return true;
-            else if (/N/.test(flags) && /Neutral/.test(unitData))
+
+            if (/Ranged/.test(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
                 return true;
-                
-            return false;
+
+            if (/Color/.test(r)) {
+                let flags = /Color:(.*)/.exec(r)[1];
+                if (/R/.test(flags) && /Red/.test(unitData))
+                    return true;
+                else if (/B/.test(flags) && /Blue/.test(unitData))
+                    return true;
+                else if (/G/.test(flags) && /Green/.test(unitData))
+                    return true;
+                else if (/N/.test(flags) && /Neutral/.test(unitData))
+                    return true;
+                    
+                return false;
+            }
+
+            if (/Weapon/.test(r)) {
+                let flags = /Weapon:(.*)/.exec(r)[1];
+                if (/Sw/.test(flags) && /Sword/.test(unitData))
+                    return true;
+                else if (/L/.test(flags) && /Lance/.test(unitData))
+                    return true;
+                else if (/A/.test(flags) && /Axe/.test(unitData))
+                    return true;
+                else if (/Dr/.test(flags) && /Dragon/.test(unitData))
+                    return true;
+                else if (/Tr/.test(flags) && /Tome/.test(unitData) && /Red/.test(unitData))
+                    return true;
+                else if (/Tb/.test(flags) && /Tome/.test(unitData) && /Blue/.test(unitData))
+                    return true;
+                else if (/Tg/.test(flags) && /Tome/.test(unitData) && /Green/.test(unitData))
+                    return true;
+                else if (/B/.test(flags) && /Bow/.test(unitData))
+                    return true;
+                else if (/Da/.test(flags) && /Dagger/.test(unitData))
+                    return true;
+                else if (/St/.test(flags) && /Staff/.test(unitData))
+                    return true;
+
+                return false;
+            }
+            
+            if (!RegExp(r).test(unitData))
+                return false;
         }
-
-        if (/Weapon/.test(r)) {
-            let flags = /Weapon:(.*)/.exec(r)[1];
-            if (/Sw/.test(flags) && /Sword/.test(unitData))
-                return true;
-            else if (/L/.test(flags) && /Lance/.test(unitData))
-                return true;
-            else if (/A/.test(flags) && /Axe/.test(unitData))
-                return true;
-            else if (/Dr/.test(flags) && /Dragon/.test(unitData))
-                return true;
-            else if (/Tr/.test(flags) && /Tome/.test(unitData) && /Red/.test(unitData))
-                return true;
-            else if (/Tb/.test(flags) && /Tome/.test(unitData) && /Blue/.test(unitData))
-                return true;
-            else if (/Tg/.test(flags) && /Tome/.test(unitData) && /Green/.test(unitData))
-                return true;
-            else if (/B/.test(flags) && /Bow/.test(unitData))
-                return true;
-            else if (/Da/.test(flags) && /Dagger/.test(unitData))
-                return true;
-            else if (/St/.test(flags) && /Staff/.test(unitData))
-                return true;
-
-            return false;
-        }
-        
-        if (!RegExp(r).test(unitData))
-            return false;
     }
     
     return true;
@@ -385,21 +517,25 @@ function checkRestrictions(unit, restrictions, limitStaff = false, color = '') {
 export function getPossibleSkills(unit) {
     let skills = {};
     skills.weapons = ['', ...new Set(Object.keys(weapons).filter(skill =>  
-        checkRestrictions(unit, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), false, weapons[skill].color)))];
+        checkRestrictions(unit, skill, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), false, weapons[skill].color)))];
     skills.assists = ['', ...new Set(Object.keys(assists).filter(skill =>
-        checkRestrictions(unit, assists[skill].restriction, true)))];
+        checkRestrictions(unit, skill, assists[skill].restriction, true)))];
     skills.specials = ['', ...new Set(Object.keys(specials).filter(skill =>
-        checkRestrictions(unit, specials[skill].restriction, true)))];
+        checkRestrictions(unit, skill, specials[skill].restriction, true)))];
     skills.passivesA = ['', ...new Set(Object.keys(passives.A).filter(skill =>
-        checkRestrictions(unit, passives.A[skill].restriction)).map(name => { 
+        checkRestrictions(unit, skill, passives.A[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];
         }))];
     skills.passivesB = ['', ...new Set(Object.keys(passives.B).filter(skill =>
-        checkRestrictions(unit, passives.B[skill].restriction)).map(name => { 
+        checkRestrictions(unit, skill, passives.B[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];
         }))];
     skills.passivesC = ['', ...new Set(Object.keys(passives.C).filter(skill =>
-        checkRestrictions(unit, passives.C[skill].restriction)).map(name => { 
+        checkRestrictions(unit, skill, passives.C[skill].restriction)).map(name => { 
+            return /[^1-9]*/i.exec(name)[0];
+        }))];
+    skills.seals = ['', ...new Set(Object.keys(seals).filter(skill =>
+        checkRestrictions(unit, skill, seals[skill].restriction)).map(name => { 
             return /[^1-9]*/i.exec(name)[0];
         }))];
 
@@ -408,11 +544,22 @@ export function getPossibleSkills(unit) {
 
 // Apply stat mods to stats.
 function addStatMods(stats, mod) {
-    stats.HP += mod[0];
-    stats.Atk += mod[1];
-    stats.Spd += mod[2];
-    stats.Def += mod[3];
-    stats.Res += mod[4];
+    if (stats) {
+        stats.HP += mod[0];
+        stats.Atk += mod[1];
+        stats.Spd += mod[2];
+        stats.Def += mod[3];
+        stats.Res += mod[4];
+    }
+    else {
+        stats = {
+            HP: mod[0],
+            Atk: mod[1],
+            Spd: mod[2],
+            Def: mod[3],
+            Res: mod[4]
+        }
+    }
 
     return stats;
 }
@@ -425,17 +572,20 @@ function addStatMods(stats, mod) {
 // +5: Fourth and fifth highest base stat
 // +6~10: Repeat
 // In case of tie: HP > Atk > Spd > Def > Res
-function calcMergeBonus(unit, merge, boonBaneMod) {
+function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
+    if (!baseStats[rarity][1][unit])
+        return [0, 0, 0, 0, 0];
+    
     let sortedStats = [];
-    for (let stat in units[unit].stats) {
+    for (let stat in baseStats[5][1][unit]) {
         sortedStats.push({
-            "stat":stat,
-            "value":units[unit].stats[stat],
-            "bonus":0
+            "stat": stat,
+            "value": baseStats[5][1][unit][stat],
+            "bonus": 0
         });
     }
     for (let i in sortedStats) {
-        sortedStats[i].value += boonBaneMod[i];
+        sortedStats[i].value += Math.sign(boonBaneMod[i]);
     }
     sortedStats.sort((a,b) => { return b.value - a.value; });
     
@@ -468,20 +618,18 @@ function calcMergeBonus(unit, merge, boonBaneMod) {
             default:
         }
     }
-    
     return resultMod;
 }
 
 // Calculate unit stats
-export function calcStats(unit, skills, boonBane = null, merge = 0) {
+export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null, merge = 0, summonerRank = '') {
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
-
+    
+    let baseBonus = level === 40 ? 3 : 1;
     if (boonBane) {
         if (boonBane.boon) {
-            let boon = 3;
-            if(units[unit].boon && units[unit].boon[boonBane.boon])
-                boon = units[unit].boon[boonBane.boon];
+            let boon = (rarity === 5 && level === 40 && units[unit].boon && units[unit].boon.includes(boonBane.boon)) ? 4 : baseBonus;
             totalMod[boonBane.boon === "HP"  ? 0 :
                     boonBane.boon === "Atk" ? 1 :
                     boonBane.boon === "Spd" ? 2 :
@@ -489,9 +637,7 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
                 /*boonBane.boon === "Res" ?*/ 4 ] += boon;
         }
         if (boonBane.bane) {
-            let bane = 3;
-            if(units[unit].bane && units[unit].bane[boonBane.bane])
-                bane = units[unit].bane[boonBane.bane];
+            let bane = (rarity === 5 && level === 40 && units[unit].bane && units[unit].bane.includes(boonBane.bane)) ? 4 : baseBonus;
             totalMod[boonBane.bane === "HP"  ? 0 :
                     boonBane.bane === "Atk" ? 1 :
                     boonBane.bane === "Spd" ? 2 :
@@ -500,67 +646,137 @@ export function calcStats(unit, skills, boonBane = null, merge = 0) {
         }
     }
 
-    let mergeMod = calcMergeBonus(unit, merge, totalMod);
+    let mergeMod = calcMergeBonus(unit, rarity, merge, totalMod);
     totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
 
     if (skills) {
-        if (skills.weapon)
+        if (skills.weapon && weapons[skills.weapon]) {
             totalMod[1] += weapons[skills.weapon].might;
+            // applyWeaponStats();
+            applySkillStats(skills.weapon, skills.upgrade ? 'U' : 'W');
 
-        // Add stats from skills
-        if (/Brave|Dire Thunder/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,0,-5,0,0][i]; });
-        } else if (/Cursed Lance/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,2,2,0,0][i]; });
-        } else if (/Geirskögul/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,0,0,3,0][i]; });
-        } else if (/Blazing Durandal/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
-        } else if (/Blazing Durandal/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,3,0,0,0][i]; });
-        } else if (/Mulagir/.test(skills.weapon)) {
-            totalMod = totalMod.map((x,i) => { return x + [0,0,3,0,0][i]; });
+            if (skills.upgrade) {
+                temp = getUpgradeStats();
+                totalMod = totalMod.map((x, i) => { return x + temp[i]; });
+            }
         }
-        if (/^\w+\/\w+\s\+?\d$/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            if (/HP/.test(skills.passiveA))
-                totalMod[0] += temp + 2;
-            if (/Atk|Attack/.test(skills.passiveA))
-                totalMod[1] += temp;
-            if (/Spd|Speed/.test(skills.passiveA))
-                totalMod[2] += temp;
-            if (/Def|Defense/.test(skills.passiveA))
-                totalMod[3] += temp;
-            if (/Res|Resistance/.test(skills.passiveA))
-                totalMod[4] += temp;
-        } else if (/^\w+\s\+\d$/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            if (/HP/.test(skills.passiveA))
-                totalMod[0] += temp;
-            if (/Attack/.test(skills.passiveA))
-                totalMod[1] += temp;
-            if (/Speed/.test(skills.passiveA))
-                totalMod[2] += temp;
-            if (/Defense/.test(skills.passiveA))
-                totalMod[3] += temp;
-            if (/Resistance/.test(skills.passiveA))
-                totalMod[4] += temp;
-        } else if (/Fury/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + (temp * [0,1,1,1,1][i]); });
-        } else if (/Life and Death/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + ((temp + 2) * [0,1,1,-1,-1][i]); });
-        } else if (/Fortress Def/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + [0,-3,0,temp+2,0][i]; });
-        } else if (/Fortress Res/.test(skills.passiveA)) {
-            temp = parseInt((/[1-9]/.exec(skills.passiveA)), 10);
-            totalMod = totalMod.map((x,i) => { return x + [0,-3,0,0,temp+2][i]; });
+        
+        applySkillStats(skills.passiveA, 'A');
+        applySkillStats(skills.seal, 'S');
+        applySummonerSupportBonus();
+    }
+
+    return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);
+
+    function applySkillStats(skill, type) {
+        if (!skill || skill === 'undefined') return;
+        
+        if (/HP \+\d/.test(skill)) {
+            totalMod[0] += parseInt((/[1-9]/.exec(skill)), 10);
+            return;
+        }
+        else if (/HP\/\w+ \d/.test(skill)) {
+            let match = /HP\/(\w+) (\d)/.exec(skill);
+            temp = parseInt(match[2], 10);
+            totalMod[0] += temp + 2;
+            totalMod[match[1] === 'Atk' ? 1 :
+                     match[1] === 'Spd' ? 2 :
+                     match[1] === 'Def' ? 3 :
+                                          4 ] += temp;
+        }
+
+        let skillData = type === 'S' ? seals[skill] :
+                        type === 'W' ? weapons[skill] : 
+                        type === 'U' ? { effect: getUpgradeEffect(skills.weapon, skills.upgrade, unit) } :
+                                       passives[type][skill];
+        
+        let matches = [];
+        if (/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.test(skillData.effect))
+            matches.push(/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.exec(skillData.effect)[1]);
+        if (/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.test(skillData.effect))
+            matches.push(/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.exec(skillData.effect)[1]);
+        for (let match of matches) {
+            let bonus = /^([\w/]+)\s?(\+|-)(\d)$/.exec(match);
+            let sign = bonus[2] === '+' ? 1 : -1;
+            temp = parseInt(bonus[3], 10);
+            for (let stat of bonus[1].split('/')) {
+                if (/HP/.test(stat))
+                    totalMod[0] += temp * sign;
+                if (/Atk|Attack/.test(stat))
+                    totalMod[1] += temp * sign;
+                if (/Spd|Speed/.test(stat))
+                    totalMod[2] += temp * sign;
+                if (/Def|Defense/.test(stat))
+                    totalMod[3] += temp * sign;
+                if (/Res|Resistance/.test(stat))
+                    totalMod[4] += temp * sign;
+            }
+        }
+    }
+    
+    function applySummonerSupportBonus() {
+        switch (summonerRank) {
+            case 'S':
+                totalMod[0] += 1;
+                totalMod[1] += 2;
+                // eslint-disable-next-line
+            case 'A':
+                totalMod[2] += 2;
+                // eslint-disable-next-line
+            case 'B':
+                totalMod[0] += 1;
+                totalMod[3] += 2;
+                // eslint-disable-next-line
+            case 'C':
+                totalMod[0] += 3;
+                totalMod[4] += 2;
+                // eslint-disable-next-line
+            default:
+                break;
         }
     }
 
-    return addStatMods(JSON.parse(JSON.stringify(units[unit].stats)), totalMod);
+    function getUpgradeStats() {
+        var flags = weapons[skills.weapon].upgrade;
+        var upgradeMod;
+        var upgrade;
+
+        switch(skills.upgrade) {
+            case 'X':
+                upgrade = 'Special';
+                break;
+            case 'A':
+                upgrade = 'Attack';
+                break;
+            case 'S':
+                upgrade = 'Speed';
+                break;
+            case 'D':
+                upgrade = 'Defense';
+                break;
+            case 'R':
+                upgrade = 'Resistance';
+                break;
+            default:
+                return [0, 0, 0, 0, 0];
+        }
+
+        if (upgrade === 'Special') {
+            upgradeMod = JSON.parse(JSON.stringify(upgrades[skills.weapon].stats));
+        }
+        else if (/Sword|Lance|Axe|Dragon/.test(weapons[skills.weapon].type))
+            upgradeMod = JSON.parse(JSON.stringify(upgrades.Melee[upgrade]));
+        else if (/Bow|Dagger|Tome/.test(weapons[skills.weapon].type))
+            upgradeMod = JSON.parse(JSON.stringify(upgrades.Ranged[upgrade]));
+        else
+            upgradeMod = [0, 0, 0, 0, 0];
+
+        if (/Mt:/.test(flags)) {
+            upgradeMod[1] += parseInt(/Mt:(\d+)/.exec(flags)[1], 10);
+        }
+
+        return upgradeMod;
+    }
 }
 
 // Searches for and returns the object containing data for a skill
@@ -569,11 +785,12 @@ function getSkillData(skill) {
 }
 
 // Calculates the total SP cost of inheriting a skill
-export function calcCost(unit, skill) {
-    if (!skill) return 0;
+export function calcCost(unit, skill, upgrade = null) {
+    if (!skill || !getSkillData(skill)) return 0;
 
-    let defaultSkills = new Set();
-    let skillData = getSkillData(skill);
+    var defaultSkills = new Set();
+    var skillData = getSkillData(skill);
+    var skillCost;
 
     for (let type in units[unit].skills)
         for (let skl of units[unit].skills[type])
@@ -582,37 +799,53 @@ export function calcCost(unit, skill) {
     
     // If unit already has skill
     if (defaultSkills.has(skill))
-        return 0;
+        skillCost = 0;
     // If skill is a + weapon and unit has the base weapon
     else if (/\+$/.test(skill)) {
         // Unit has the base weapon
         if (defaultSkills.has(/[^+]*/.exec(skill)[0]))
-            return skillData.cost * 1.5;
-        else
-            return skillData.cost * 1.5 + calcCost(unit, /[^+]*/.exec(skill)[0]);
+            skillCost = skillData.cost * 1.5;
+        else {
+            var baseWeapon = Object.keys(upgrades.Evolve).find(base => upgrades.Evolve[base] === skill);
+            if (baseWeapon)
+                skillCost = skillData.cost * 1.5 + calcCost(unit, baseWeapon);
+            else
+                skillCost = skillData.cost * 1.5 + calcCost(unit, /[^+]*/.exec(skill)[0]);
+        }
     }
     // If skill has specific prerequisites
     else if (skillData.require) {
         // If skill prerequisites can be fulfilled by multiple skills
         if (/\|/.test(skillData.require))
-            return skillData.cost * 1.5 + Math.min(calcCost(unit, /(.*)\|/.exec(skillData.require)[1]),
+            skillCost = skillData.cost * 1.5 + Math.min(calcCost(unit, /(.*)\|/.exec(skillData.require)[1]),
                                                    calcCost(unit, /\|(.*)/.exec(skillData.require)[1]));
         // Return 1.5xCost + cost of prerequisites
-        return skillData.cost * 1.5 + calcCost(unit, skillData.require);
+        else 
+            skillCost = skillData.cost * 1.5 + calcCost(unit, skillData.require);
     }
     // If skill is the second or third skill in a series
     else if (/[2-9]/.test(skill)) {
         let prereq = skill.slice(0, skill.length-1) + (skill.slice(skill.length-1)-1);
-        return skillData.cost * 1.5 + (getSkillData(prereq) ? calcCost(unit, prereq) : 0);
+        skillCost = skillData.cost * 1.5 + (getSkillData(prereq) ? calcCost(unit, prereq) : 0);
+    }
+    else
+        skillCost = skillData.cost * 1.5;
+
+    // If weapon upgrade is selected
+    if (upgrade && weapons[skill] && weapons[skill].upgrade) {
+        if (/Legendary/.test(weapons[skill].upgrade))
+            skillCost += 400;
+        else
+            skillCost += 350;
     }
     
-    return skillData.cost * 1.5;
+    return skillCost;
 }
 
 // Calculates the total SP costs of a build
 export function calcTotalCost(unit, skills) {
     let skillCosts = [
-        calcCost(unit, skills.weapon),
+        calcCost(unit, skills.weapon, skills.upgrade),
         calcCost(unit, skills.assist),
         calcCost(unit, skills.special),
         calcCost(unit, skills.passiveA),

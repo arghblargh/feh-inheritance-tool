@@ -1,1639 +1,2175 @@
 {
   "A": {
     "Armored Blow 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Grants Def+2 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
     "Armored Blow 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Grants Def+4 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
     "Armored Blow 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants Def+6 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
+    "Atk/Def Bond 1": {
+      "cost": 60,
+      "effect": "Grants Atk/Def+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Def Bond 2": {
+      "cost": 120,
+      "effect": "Grants Atk/Def+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Def Bond 3": {
+      "cost": 240,
+      "effect": "Grants Atk/Def+5 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Res Bond 1": {
+      "cost": 60,
+      "effect": "Grants Atk/Res+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Res Bond 2": {
+      "cost": 120,
+      "effect": "Grants Atk/Res+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Res Bond 3": {
+      "cost": 240,
+      "effect": "Grants Atk/Res+5 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Spd 1": {
+      "cost": 80,
+      "effect": "Grants Atk/Spd+1."
+    },
+    "Atk/Spd 2": {
+      "cost": 160,
+      "effect": "Grants Atk/Spd+2."
+    },
+    "Atk/Spd Bond 1": {
+      "cost": 60,
+      "effect": "Grants Atk/Spd+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Spd Bond 2": {
+      "cost": 120,
+      "effect": "Grants Atk/Spd+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Atk/Spd Bond 3": {
+      "cost": 240,
+      "effect": "Grants Atk/Spd+5 to this unit during combat if unit is adjacent to an ally."
+    },
     "Attack +1": {
-      "cost": "30",
-      "effect": "Grants Atk +1.",
-      "restriction": ""
+      "cost": 30,
+      "effect": "Grants Atk +1."
     },
     "Attack +2": {
-      "cost": "60",
-      "effect": "Grants Atk +2.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "Grants Atk +2."
     },
     "Attack +3": {
-      "cost": "120",
-      "effect": "Grants Atk +3.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "Grants Atk +3."
     },
     "Attack/Def +1": {
-      "cost": "80",
+      "cost": 80,
       "effect": "Grants Atk/Def+1.",
-      "require": "Attack +1|Defense +1",
-      "restriction": ""
+      "require": "Attack +1|Defense +1"
     },
     "Attack/Def +2": {
-      "cost": "160",
-      "effect": "Grants Atk/Def+2.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants Atk/Def+2."
     },
-    "Attack/Res +1": {
-      "cost": "80",
+    "Attack/Res 1": {
+      "cost": 80,
       "effect": "Grants Atk/Res+1.",
-      "require": "Attack +1|Resistance +1",
-      "restriction": ""
+      "require": "Attack +1|Resistance +1"
     },
-    "Attack/Res +2": {
-      "cost": "160",
-      "effect": "Grants Atk/Res+2.",
-      "restriction": ""
+    "Attack/Res 2": {
+      "cost": 160,
+      "effect": "Grants Atk/Res+2."
+    },
+    "Bracing Blow 1": {
+      "cost": 120,
+      "effect": "Grants Def/Res+2 during combat when unit initiates attack.",
+      "require": "Armored Blow 1|Warding Blow 1",
+      "restriction": "Offense"
+    },
+    "Bracing Blow 2": {
+      "cost": 240,
+      "effect": "Grants Def/Res+4 during combat when unit initiates attack.",
+      "restriction": "Offense"
+    },
+    "Brazen Atk/Def 1": {
+      "cost": 60,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Def+3 during combat."
+    },
+    "Brazen Atk/Def 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Def+5 during combat."
+    },
+    "Brazen Atk/Def 3": {
+      "cost": 240,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Def+7 during combat."
+    },
+    "Brazen Atk/Spd 1": {
+      "cost": 60,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Spd+3 during combat."
+    },
+    "Brazen Atk/Spd 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Spd+5 during combat."
+    },
+    "Brazen Atk/Spd 3": {
+      "cost": 240,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Atk/Spd+7 during combat."
+    },
+    "Brazen Def/Res 1": {
+      "cost": 60,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Def/Res+3 during combat."
+    },
+    "Brazen Def/Res 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Def/Res+5 during combat."
+    },
+    "Brazen Def/Res 3": {
+      "cost": 240,
+      "effect": "If unit's HP ≤ 80% at the start of combat, grants Def/Res+7 during combat."
     },
     "Close Counter": {
-      "cost": "300",
+      "cost": 300,
       "effect": "Enables unit to counterattack regardless of distance to attacker.",
       "restriction": "Ranged"
     },
     "Close Def 1": {
-      "cost": "60",
-      "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+2 during combat.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+2 during combat."
     },
     "Close Def 2": {
-      "cost": "120",
-      "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat."
     },
     "Close Def 3": {
-      "cost": "240",
-      "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat."
     },
     "Darting Blow 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Grants Spd+2 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
     "Darting Blow 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Grants Spd+4 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
     "Darting Blow 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants Spd+6 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
+    "Darting Stance 1": {
+      "cost": 50,
+      "effect": "Grants Spd+2 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
+    "Darting Stance 2": {
+      "cost": 100,
+      "effect": "Grants Spd+4 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
+    "Darting Stance 3": {
+      "cost": 200,
+      "effect": "Grants Spd+6 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
     "Death Blow 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Grants Atk+2 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
     "Death Blow 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Grants Atk+4 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
     "Death Blow 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants Atk+6 during combat if unit initiates the attack.",
       "restriction": "Offense"
     },
     "Defense +1": {
-      "cost": "30",
-      "effect": "Grants Def +1.",
-      "restriction": ""
+      "cost": 30,
+      "effect": "Grants Def +1."
     },
     "Defense +2": {
-      "cost": "60",
-      "effect": "Grants Def +2.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "Grants Def +2."
     },
     "Defense +3": {
-      "cost": "120",
-      "effect": "Grants Def +3.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "Grants Def +3."
     },
     "Defiant Atk 1": {
-      "cost": "40",
-      "effect": "Grants Atk +3 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 40,
+      "effect": "Grants Atk +3 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Atk 2": {
-      "cost": "80",
-      "effect": "Grants Atk +5 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 80,
+      "effect": "Grants Atk +5 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Atk 3": {
-      "cost": "160",
-      "effect": "Grants Atk +7 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants Atk +7 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Def 1": {
-      "cost": "40",
-      "effect": "Grants Def +3 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 40,
+      "effect": "Grants Def +3 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Def 2": {
-      "cost": "80",
-      "effect": "Grants Def +5 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 80,
+      "effect": "Grants Def +5 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Def 3": {
-      "cost": "160",
-      "effect": "Grants Def +7 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants Def +7 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Res 1": {
-      "cost": "40",
-      "effect": "Grants Res+3 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 40,
+      "effect": "Grants Res+3 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Res 2": {
-      "cost": "80",
-      "effect": "Grants Res+5 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 80,
+      "effect": "Grants Res+5 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Res 3": {
-      "cost": "160",
-      "effect": "Grants Res+7 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants Res+7 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Spd 1": {
-      "cost": "40",
-      "effect": "Grants Spd +3 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 40,
+      "effect": "Grants Spd +3 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Spd 2": {
-      "cost": "80",
-      "effect": "Grants Spd +5 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 80,
+      "effect": "Grants Spd +5 at start of turn if unit's HP ≤ 50%."
     },
     "Defiant Spd 3": {
-      "cost": "160",
-      "effect": "Grants Spd +7 at start of turn if unit's HP ≤ 50%.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants Spd +7 at start of turn if unit's HP ≤ 50%."
     },
     "Distant Counter": {
-      "cost": "300",
-      "effect": "Enables unit to counterattack regardless of distance to attacker.",
+      "cost": 300,
+      "effect": "Unit can counterattack regardless of foe's range.",
       "restriction": "Melee"
     },
     "Distant Def 1": {
-      "cost": "60",
-      "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+2 during combat.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+2 during combat."
     },
     "Distant Def 2": {
-      "cost": "120",
-      "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+4 during combat.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+4 during combat."
     },
     "Distant Def 3": {
-      "cost": "240",
-      "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
+    },
+    "Dragonskin": {
+      "cost": 300,
+      "effect": "Neutralizes \"effective against flying\" bonuses. Grants Def/Res+4 during combat if foe initiates combat.",
+      "restriction": "Exclusive"
     },
     "Earth Boost 1": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+2 during combat."
     },
     "Earth Boost 2": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+4 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+4 during combat."
     },
     "Earth Boost 3": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat."
+    },
+    "Fierce Stance 1": {
+      "cost": 50,
+      "effect": "Grants Atk+2 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
+    "Fierce Stance 2": {
+      "cost": 100,
+      "effect": "Grants Atk+4 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
+    "Fierce Stance 3": {
+      "cost": 200,
+      "effect": "Grants Atk+6 during combat when this unit is attacked.",
+      "restriction": "Offense"
     },
     "Fire Boost 1": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+2 during combat."
     },
     "Fire Boost 2": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+4 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+4 during combat."
     },
     "Fire Boost 3": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat."
+    },
+    "Flashing Blade 1": {
+      "cost": 60,
+      "effect": "If unit's Spd - foe's Spd ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction": "Armored|Infantry, Offense"
+    },
+    "Flashing Blade 2": {
+      "cost": 120,
+      "effect": "If unit's Spd - foe's Spd ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction": "Armored|Infantry, Offense"
+    },
+    "Flashing Blade 3": {
+      "cost": 240,
+      "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+      "restriction": "Armored|Infantry, Offense"
     },
     "Fortress Def 1": {
-      "cost": "50",
-      "effect": "Grants Def+3. Inflicts Atk-3.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants Def+3. Inflicts Atk-3."
     },
     "Fortress Def 2": {
-      "cost": "100",
-      "effect": "Grants Def+4. Inflicts Atk-3.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants Def+4. Inflicts Atk-3."
     },
     "Fortress Def 3": {
-      "cost": "200",
-      "effect": "Grants Def+5. Inflicts Atk-3.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants Def+5. Inflicts Atk-3."
     },
     "Fortress Res 1": {
-      "cost": "50",
-      "effect": "Grants Res+3. Inflicts Atk-3.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants Res+3. Inflicts Atk-3."
     },
     "Fortress Res 2": {
-      "cost": "100",
-      "effect": "Grants Res+4. Inflicts Atk-3.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants Res+4. Inflicts Atk-3."
     },
     "Fortress Res 3": {
-      "cost": "200",
-      "effect": "Grants Res+5. Inflicts Atk-3.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants Res+5. Inflicts Atk-3."
     },
     "Fury 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Grants Atk/Spd/Def/Res+1. Unit takes 2 damage after combat.",
       "restriction": "Offense"
     },
     "Fury 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Grants Atk/Spd/Def/Res+2. Unit takes 4 damage after combat.",
       "restriction": "Offense"
     },
     "Fury 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat.",
       "restriction": "Offense"
     },
     "Grani's Shield": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Neutralizes \"effective against\" bonuses.",
       "restriction": "Cavalry"
     },
     "HP +3": {
-      "cost": "40",
-      "effect": "Grants +3 to max HP.",
-      "restriction": ""
+      "cost": 40,
+      "effect": "Grants +3 to max HP."
     },
     "HP +4": {
-      "cost": "80",
-      "effect": "Grants +4 to max HP.",
-      "restriction": ""
+      "cost": 80,
+      "effect": "Grants +4 to max HP."
     },
     "HP +5": {
-      "cost": "160",
-      "effect": "Grants +5 to max HP.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants +5 to max HP."
+    },
+    "HP/Atk 1": {
+      "cost": 100,
+      "effect": "Grants HP+3, Atk+1."
+    },
+    "HP/Atk 2": {
+      "cost": 200,
+      "effect": "Grants HP+4, Atk+2."
     },
     "HP/Def 1": {
-      "cost": "100",
-      "effect": "Grants HP+3, Def+1.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants HP+3, Def+1."
     },
     "HP/Def 2": {
-      "cost": "200",
-      "effect": "Grants HP+4, Def+2.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants HP+4, Def+2."
+    },
+    "HP/Res 1": {
+      "cost": 100,
+      "effect": "Grants HP+3, Res+1."
+    },
+    "HP/Res 2": {
+      "cost": 200,
+      "effect": "Grants HP+4, Res+2."
     },
     "HP/Spd 1": {
-      "cost": "100",
-      "effect": "Grants HP+3, Spd+1.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants HP+3, Spd+1."
     },
     "HP/Spd 2": {
-      "cost": "200",
-      "effect": "Grants HP+4, Spd+2.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants HP+4, Spd+2."
     },
     "Heavy Blade 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit's Atk - foe's Atk ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Heavy Blade 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit's Atk - foe's Atk ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Heavy Blade 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "If unit's Atk - foe's Atk ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
-      "restriction": ""
+      "restriction": "Offense"
     },
     "Iote's Shield": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Neutralizes \"effective against\" bonuses.",
       "restriction": "Flying"
     },
+    "Laws of Sacae": {
+      "cost": 300,
+      "effect": "If foe initiates combat and the number of allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+4 during combat.",
+      "restriction": "Exclusive"
+    },
     "Life and Death 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Grants Atk/Spd+3. Inflicts Def/Res-3.",
       "restriction": "Offense"
     },
     "Life and Death 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Grants Atk/Spd+4. Inflicts Def/Res-4.",
       "restriction": "Offense"
     },
     "Life and Death 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
       "restriction": "Offense"
     },
+    "Mirror Stance 1": {
+      "cost": 120,
+      "effect": "Grants Atk/Res+2 during combat if foe initiates attack.",
+      "require": "Warding Stance 1|Fierce Stance 1",
+      "restriction": "Offense"
+    },
+    "Mirror Stance 2": {
+      "cost": 240,
+      "effect": "Grants Atk/Res+4 during combat if foe initiates attack.",
+      "restriction": "Offense"
+    },
     "Mirror Strike 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Grants Atk/Res+2 during combat if unit initiates attack.",
       "require": "Warding Blow 1|Death Blow 1",
       "restriction": "Offense"
     },
     "Mirror Strike 2": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Grants Atk/Res+4 during combat if unit initiates attack.",
       "restriction": "Offense"
     },
     "Resistance +1": {
-      "cost": "30",
-      "effect": "Grants Res +1.",
-      "restriction": ""
+      "cost": 30,
+      "effect": "Grants Res +1."
     },
     "Resistance +2": {
-      "cost": "60",
-      "effect": "Grants Res +2.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "Grants Res +2."
     },
     "Resistance +3": {
-      "cost": "120",
-      "effect": "Grants Res +3.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "Grants Res +3."
     },
     "Spd/Def 1": {
-      "cost": "100",
+      "cost": 80,
       "effect": "Grants Spd/Def+1.",
-      "require": "Speed +1|Defense +1",
-      "restriction": ""
+      "require": "Speed +1|Defense +1"
     },
     "Spd/Def 2": {
-      "cost": "200",
-      "effect": "Grants Spd/Def+2.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants Spd/Def+2."
+    },
+    "Spd/Def Bond 1": {
+      "cost": 60,
+      "effect": "Grants Spd/Def+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Def Bond 2": {
+      "cost": 120,
+      "effect": "Grants Spd/Def+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Def Bond 3": {
+      "cost": 240,
+      "effect": "Grants Spd/Def+5 to this unit during combat if unit is adjacent to an ally."
     },
     "Spd/Res 1": {
-      "cost": "100",
+      "cost": 80,
       "effect": "Grants Spd/Res+1.",
-      "require": "Speed +1|Resistance +1",
-      "restriction": ""
+      "require": "Speed +1|Resistance +1"
     },
     "Spd/Res 2": {
-      "cost": "200",
-      "effect": "Grants Spd/Res+2.",
-      "restriction": ""
+      "cost": 160,
+      "effect": "Grants Spd/Res+2."
+    },
+    "Spd/Res Bond 1": {
+      "cost": 60,
+      "effect": "Grants Spd/Res+1 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Res Bond 2": {
+      "cost": 120,
+      "effect": "Grants Spd/Res+3 to this unit during combat if unit is adjacent to an ally."
+    },
+    "Spd/Res Bond 3": {
+      "cost": 240,
+      "effect": "Grants Spd/Res+5 to this unit during combat if unit is adjacent to an ally."
     },
     "Speed +1": {
-      "cost": "30",
-      "effect": "Grants Spd +1.",
-      "restriction": ""
+      "cost": 30,
+      "effect": "Grants Spd +1."
     },
     "Speed +2": {
-      "cost": "60",
-      "effect": "Grants Spd +2.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "Grants Spd +2."
     },
     "Speed +3": {
-      "cost": "120",
-      "effect": "Grants Spd +3.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "Grants Spd +3."
     },
     "Steady Blow 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Grants Spd/Def+2 during combat when unit initiates attack.",
       "require": "Armored Blow 1|Darting Blow 1",
       "restriction": "Offense"
     },
     "Steady Blow 2": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Grants Spd/Def+4 during combat when unit initiates attack.",
       "restriction": "Offense"
     },
+    "Steady Breath": {
+      "cost": 240,
+      "effect": "If attacked, unit granted Def+4 during combat; also gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)",
+      "require": "Steady Stance 2"
+    },
     "Steady Stance 1": {
-      "cost": "50",
-      "effect": "Grants Def+2 during combat when this unit is attacked.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants Def+2 during combat when this unit is attacked."
     },
     "Steady Stance 2": {
-      "cost": "100",
-      "effect": "Grants Def+4 during combat when this unit is attacked.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants Def+4 during combat when this unit is attacked."
     },
-    "Steady Breath": {
-      "cost": "240",
-      "effect": "If attacked, unit granted Def+4 during combat; also gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)",
-      "require": "Steady Stance 2",
-      "restriction": ""
+    "Steady Stance 3": {
+      "cost": 200,
+      "effect": "Grants Def+6 during combat when this unit is attacked."
     },
     "Sturdy Blow 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit initiates combat, unit granted Atk/Def+2 during battle.",
       "require": "Armored Blow 1|Death Blow 1",
       "restriction": "Offense"
     },
     "Sturdy Blow 2": {
-      "cost": "240",
+      "cost": 240,
       "effect": "If unit initiates combat, unit granted Atk/Def+4 during battle.",
       "restriction": "Offense"
     },
+    "Sturdy Stance 1": {
+      "cost": 120,
+      "effect": "Grants Atk/Def+2 during combat when this unit is attacked.",
+      "require": "Fierce Stance 1|Steady Stance 1",
+      "restriction": "Offense"
+    },
+    "Sturdy Stance 2": {
+      "cost": 240,
+      "effect": "Grants Atk/Def+4 during combat when this unit is attacked.",
+      "restriction": "Offense"
+    },
     "Svalinn Shield": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Neutralizes \"effective against\" bonuses.",
       "restriction": "Armored"
     },
     "Swift Sparrow 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit initiates combat, unit granted Atk/Spd+2 during battle.",
       "require": "Darting Blow 1|Death Blow 1",
       "restriction": "Offense"
     },
     "Swift Sparrow 2": {
-      "cost": "240",
+      "cost": 240,
       "effect": "If unit initiates combat, unit granted Atk/Spd+4 during battle.",
       "restriction": "Offense"
     },
+    "Swift Stance 1": {
+      "cost": 120,
+      "effect": "Grants Spd/Res+2 during combat if foe initiates combat.",
+      "require": "Warding Stance 1|Darting Stance 1",
+      "restriction": "Offense"
+    },
+    "Swift Stance 2": {
+      "cost": 240,
+      "effect": "Grants Spd/Res+4 during combat if foe initiates combat.",
+      "restriction": "Offense"
+    },
     "Swift Strike 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Grants Spd/Res+2 during combat if unit initiates attack.",
       "require": "Darting Blow 1|Warding Blow 1",
       "restriction": "Offense"
     },
     "Swift Strike 2": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Grants Spd/Res+4 during combat if unit initiates attack.",
       "restriction": "Offense"
     },
     "Triangle Adept 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Gives Atk+10% if weapon-triangle advantage, Atk-10% if disadvantage.",
       "restriction": "Color:RGB"
     },
     "Triangle Adept 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Gives Atk+15% if weapon-triangle advantage, Atk-15% if disadvantage.",
       "restriction": "Color:RGB"
     },
     "Triangle Adept 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
       "restriction": "Color:RGB"
     },
     "Warding Blow 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Grants Res+2 during combat if unit initiates attack.",
       "restriction": "Offense"
     },
     "Warding Blow 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Grants Res+4 during combat if unit initiates attack.",
       "restriction": "Offense"
     },
     "Warding Blow 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants Res+6 during combat if unit initiates attack.",
       "restriction": "Offense"
     },
+    "Warding Breath": {
+      "cost": 240,
+      "effect": "Grants Res+4 during combat if unit is attacked. Also grants Special cooldown charge +1 per attack. (Does not stack. Only highest value applied.)"
+    },
+    "Warding Stance 1": {
+      "cost": 50,
+      "effect": "Grants Res+2 during combat when this unit is attacked."
+    },
+    "Warding Stance 2": {
+      "cost": 100,
+      "effect": "Grants Res+4 during combat when this unit is attacked."
+    },
+    "Warding Stance 3": {
+      "cost": 200,
+      "effect": "Grants Res+6 during combat when this unit is attacked."
+    },
     "Water Boost 1": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+2 during combat."
     },
     "Water Boost 2": {
-      "cost": "100",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+4 during combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+4 during combat."
     },
     "Water Boost 3": {
-      "cost": "200",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat."
     },
     "Wind Boost 1": {
-      "cost": "50",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+2 during combat."
     },
     "Wind Boost 2": {
-      "cost": "100",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat."
     },
     "Wind Boost 3": {
-      "cost": "200",
-      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat."
     }
   },
   "B": {
     "Axebreaker 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against an axe user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RGN"
     },
     "Axebreaker 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "If unit's HP ≥ 70% in combat against an axe user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RGN"
     },
     "Axebreaker 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "If unit's HP ≥ 50% in combat against an axe user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RGN"
     },
     "B Tomebreaker 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:BGN"
     },
     "B Tomebreaker 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "If unit's HP ≥ 70% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:BGN"
     },
     "B Tomebreaker 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "If unit's HP ≥ 50% in combat against a blue tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:BGN"
     },
     "Beorc's Blessing": {
-      "cost": "300",
-      "effect": "Effective against flying and cavalry units. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat. (Skill cannot be inherited.)",
-      "restriction": "Ike \\(Brave Heroes\\)"
+      "cost": 300,
+      "effect": "If foe is cavalry or flier type, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
+    },
+    "Blaze Dance 1": {
+      "cost": 50,
+      "effect": "If Sing or Dance is used, target also granted Atk+2.",
+      "restriction": "Offense"
+    },
+    "Blaze Dance 2": {
+      "cost": 100,
+      "effect": "If Sing or Dance is used, target also granted Atk+3.",
+      "restriction": "Offense"
+    },
+    "Blaze Dance 3": {
+      "cost": 200,
+      "effect": "If Sing or Dance is used, target also granted Atk+4.",
+      "restriction": "Offense"
+    },
+    "Bold Fighter 1": {
+      "cost": 60,
+      "effect": "If unit's HP = 100% and unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "restriction": "Armored"
+    },
+    "Bold Fighter 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≥ 50% and unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "restriction": "Armored"
+    },
+    "Bold Fighter 3": {
+      "cost": 240,
+      "effect": "If unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "restriction": "Armored"
     },
     "Bowbreaker 1": {
-      "cost": "50",
-      "effect": "If unit's HP ≥ 90% in combat against a bow user, unit makes a followup attack and foe cannot.",
+      "cost": 50,
+      "effect": "If unit's HP ≥ 90% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "restriction": "Armored|Cavalry|Infantry"
     },
     "Bowbreaker 2": {
-      "cost": "100",
-      "effect": "If unit's HP ≥ 70% in combat against a bow user, unit makes a followup attack and foe cannot.",
+      "cost": 100,
+      "effect": "If unit's HP ≥ 70% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "restriction": "Armored|Cavalry|Infantry"
     },
     "Bowbreaker 3": {
-      "cost": "200",
-      "effect": "If unit's HP ≥ 50% in combat against a bow user, unit makes a followup attack and foe cannot.",
+      "cost": 200,
+      "effect": "If unit's HP ≥ 50% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "restriction": "Armored|Cavalry|Infantry"
     },
     "Brash Assault 1": {
-      "cost": "50",
-      "effect": "Unit automatically makes a followup when at HP ≤ 30% and attacking a foe that can counter.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 30%, unit makes a guaranteed follow-up attack."
     },
     "Brash Assault 2": {
-      "cost": "100",
-      "effect": "Unit automatically makes a followup when at HP ≤ 40% and attacking a foe that can counter.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 40%, unit makes a guaranteed follow-up attack."
     },
     "Brash Assault 3": {
-      "cost": "200",
-      "effect": "Unit automatically makes a followup when at HP ≤ 50% and attacking a foe that can counter.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack."
     },
     "Cancel Affinity 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "Any weapon triangle affinity granted by unit's skills is negated. Also negates any weapon triangle affinity granted by foe's skills.",
       "restriction": "Weapon:SwLADrBDa"
     },
     "Cancel Affinity 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is negated.",
       "restriction": "Weapon:SwLADrBDa"
     },
     "Cancel Affinity 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
       "restriction": "Weapon:SwLADrBDa"
     },
+    "Chill Def 1": {
+      "cost": 50,
+      "effect": "At the start of each turn, inflicts Def-3 on foe on the enemy team with the highest Def through its next action."
+    },
+    "Chill Def 2": {
+      "cost": 100,
+      "effect": "At the start of each turn, inflicts Def-5 on foe on the enemy team with the highest Def through its next action."
+    },
+    "Chill Def 3": {
+      "cost": 200,
+      "effect": "At the start of each turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
+    },
+    "Chill Res 1": {
+      "cost": 50,
+      "effect": "At the start of each turn, inflicts Res-3 on foe on the enemy team with the highest Res through its next action."
+    },
+    "Chill Res 2": {
+      "cost": 100,
+      "effect": "At the start of each turn, inflicts Res-5 on foe on the enemy team with the highest Res through its next action."
+    },
+    "Chill Res 3": {
+      "cost": 200,
+      "effect": "At the start of each turn, inflicts Res-7 on foe on the enemy team with the highest Res through its next action."
+    },
+    "Chill Spd 1": {
+      "cost": 50,
+      "effect": "At the start of each turn, inflicts Spd-3 on foe on the enemy team with the highest Spd through its next action."
+    },
+    "Chill Spd 2": {
+      "cost": 100,
+      "effect": "At the start of each turn, inflicts Spd-5 on foe on the enemy team with the highest Spd through its next action."
+    },
+    "Chill Spd 3": {
+      "cost": 200,
+      "effect": "At the start of each turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action."
+    },
+    "Chilling Seal": {
+      "cost": 300,
+      "effect": "At the start of each turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
+    },
+    "Crusader's Ward": {
+      "cost": 300,
+      "effect": "If unit receives consecutive attacks from a foe 2 spaces away, damage from second attack onward reduced by 80%. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
+    },
     "Daggerbreaker 1": {
-      "cost": "50",
-      "effect": "If unit's HP ≥ 90% in combat against a dagger user, unit makes a followup attack and foe cannot.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If unit's HP ≥ 90% in combat against a colorless dagger foe, unit makes a followup attack and foe cannot."
     },
     "Daggerbreaker 2": {
-      "cost": "100",
-      "effect": "If unit's HP ≥ 70% in combat against a dagger user, unit makes a followup attack and foe cannot.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit's HP ≥ 70% in combat against a colorless dagger foe, unit makes a followup attack and foe cannot."
     },
     "Daggerbreaker 3": {
-      "cost": "200",
-      "effect": "If unit's HP ≥ 50% in combat against a dagger user, unit makes a followup attack and foe cannot.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If unit's HP ≥ 50% in combat against a colorless dagger foe, unit makes a followup attack and foe cannot."
     },
     "Dazzling Staff 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit has 100% HP at the start of combat, the enemy cannot counterattack.",
       "restriction": "Staff"
     },
     "Dazzling Staff 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit has ≥ 50% HP at the start of combat, the enemy cannot counterattack.",
       "restriction": "Staff"
     },
     "Dazzling Staff 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "The enemy cannot counterattack.",
       "restriction": "Staff"
     },
     "Desperation 1": {
-      "cost": "50",
-      "effect": "If unit initiates combat with HP ≤ 25%, followup attacks occur immediately after unit's attack.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If unit initiates combat with HP ≤ 25%, followup attacks occur immediately after unit's attack."
     },
     "Desperation 2": {
-      "cost": "100",
-      "effect": "If unit initiates combat with HP ≤ 50%, followup attacks occur immediately after unit's attack.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit initiates combat with HP ≤ 50%, followup attacks occur immediately after unit's attack."
     },
     "Desperation 3": {
-      "cost": "200",
-      "effect": "If unit initiates combat with HP ≤ 75%, followup attacks occur immediately after unit's attack.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If unit initiates combat with HP ≤ 75%, followup attacks occur immediately after unit's attack."
+    },
+    "Dull Ranged 1": {
+      "cost": 50,
+      "effect": "If unit's HP = 100% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Dull Ranged 2": {
+      "cost": 100,
+      "effect": "If unit's HP ≥ 50% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Dull Ranged 3": {
+      "cost": 200,
+      "effect": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Drag Back": {
-      "cost": "150",
+      "cost": 150,
       "effect": "If unit initiates attack, the unit moves 1 space away after combat. Foe moves into unit's previous space.",
       "restriction": "Melee"
     },
+    "Earth Dance 1": {
+      "cost": 50,
+      "effect": "If Sing or Dance is used, target also granted Def+2.",
+      "restriction": "Offense"
+    },
+    "Earth Dance 2": {
+      "cost": 100,
+      "effect": "If Sing or Dance is used, target also granted Def+3.",
+      "restriction": "Offense"
+    },
+    "Earth Dance 3": {
+      "cost": 200,
+      "effect": "If Sing or Dance is used, target also granted Def+4.",
+      "restriction": "Offense"
+    },
     "Escape Route 1": {
-      "cost": "60",
-      "effect": "Enables unit whose own HP is ≤ 30% to warp adjacent to any ally.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "Enables unit whose own HP is ≤ 30% to warp adjacent to any ally."
     },
     "Escape Route 2": {
-      "cost": "120",
-      "effect": "Enables unit whose own HP is ≤ 40% to warp adjacent to any ally.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "Enables unit whose own HP is ≤ 40% to warp adjacent to any ally."
     },
     "Escape Route 3": {
-      "cost": "240",
-      "effect": "Enables unit whose own HP is ≤ 50% to warp adjacent to any ally.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "Enables unit whose own HP is ≤ 50% to warp adjacent to any ally."
+    },
+    "Flier Formation 1": {
+      "cost": 60,
+      "effect": "If unit has 100% HP, unit can move to a space adjacent to a flier ally within 2 spaces.",
+      "restriction": "Flying"
+    },
+    "Flier Formation 2": {
+      "cost": 120,
+      "effect": "If unit has ≥ 50% HP, unit can move to a space adjacent to a flier ally within 2 spaces.",
+      "restriction": "Flying"
+    },
+    "Flier Formation 3": {
+      "cost": 240,
+      "effect": "Unit can move to a space adjacent to a flier ally within 2 spaces.",
+      "restriction": "Flying"
+    },
+    "Follow-Up Ring": {
+      "cost": 300,
+      "effect": "Unit makes a guaranteed follow-up attack when unit's HP ≥ 50% at start of combat. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
     },
     "G Tomebreaker 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against a green tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RGN"
     },
     "G Tomebreaker 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "If unit's HP ≥ 70% in combat against a green tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RGN"
     },
     "G Tomebreaker 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "If unit's HP ≥ 50% in combat against a green tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RGN"
     },
+    "Gale Dance 1": {
+      "cost": 50,
+      "effect": "If Sing or Dance is used, target also granted Spd+2.",
+      "restriction": "Offense"
+    },
+    "Gale Dance 2": {
+      "cost": 100,
+      "effect": "If Sing or Dance is used, target also granted Spd+3.",
+      "restriction": "Offense"
+    },
+    "Gale Dance 3": {
+      "cost": 200,
+      "effect": "If Sing or Dance is used, target also granted Spd+4.",
+      "restriction": "Offense"
+    },
+    "Geyser Dance 1": {
+      "cost": 120,
+      "effect": "If Sing or Dance is used, target also granted Def/Res+3.",
+      "require": "Torrent Dance 1",
+      "restriction": "Offense"
+    },
+    "Geyser Dance 2": {
+      "cost": 240,
+      "effect": "If Sing or Dance is used, target also granted Def/Res+4.",
+      "restriction": "Offense"
+    },
     "Guard 1": {
-      "cost": "50",
-      "effect": "If unit's HP ≥ 100% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If unit's HP ≥ 100% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)"
     },
     "Guard 2": {
-      "cost": "100",
-      "effect": "If unit's HP ≥ 90% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit's HP ≥ 90% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)"
     },
     "Guard 3": {
-      "cost": "200",
-      "effect": "If unit's HP ≥ 80% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If unit's HP ≥ 80% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)"
     },
     "Hit and Run": {
-      "cost": "150",
+      "cost": 150,
       "effect": "If unit initiates attack, unit advances 1 space after battle.",
       "restriction": "Melee"
     },
     "Knock Back": {
-      "cost": "150",
+      "cost": 150,
       "effect": "If unit initiates attack, foe is moved 1 space away after combat.",
       "restriction": "Melee"
     },
     "Lancebreaker 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against a lance user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:BGN"
     },
     "Lancebreaker 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "If unit's HP ≥ 70% in combat against a lance user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:BGN"
     },
     "Lancebreaker 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "If unit's HP ≥ 50% in combat against a lance user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:BGN"
     },
     "Live for Bounty": {
-      "cost": "100",
-      "effect": "If unit survives, get 1.5x normal crystals from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit survives, get 1.5x normal crystals from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "Live for Honor": {
-      "cost": "100",
-      "effect": "If unit survives, get 1.5x normal badges from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit survives, get 1.5x normal badges from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "Live to Serve 1": {
-      "cost": "40",
+      "cost": 40,
       "effect": "When healing allies with a staff, unit also recovers 50% of the HP restored.",
       "restriction": "Staff"
     },
     "Live to Serve 2": {
-      "cost": "80",
+      "cost": 80,
       "effect": "When healing allies with a staff, unit also recovers 75% of the HP restored.",
       "restriction": "Staff"
     },
     "Live to Serve 3": {
-      "cost": "160",
+      "cost": 160,
       "effect": "When healing allies with a staff, unit also recovers the same amount.",
       "restriction": "Staff"
     },
     "Lunge": {
-      "cost": "150",
+      "cost": 150,
       "effect": "If unit initiates attack, after combat, unit and targeted foe swap places.",
       "restriction": "Melee"
     },
     "Obstruct 1": {
-      "cost": "50",
-      "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 90%. (No effect on foes with a Pass skill.)",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 90%. (No effect on foes with a Pass skill.)"
     },
     "Obstruct 2": {
-      "cost": "100",
-      "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 70%. (No effect on foes with a Pass skill.)",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 70%. (No effect on foes with a Pass skill.)"
     },
     "Obstruct 3": {
-      "cost": "200",
-      "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 50%. (No effect on foes with a Pass skill.)",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 50%. (No effect on foes with a Pass skill.)"
     },
     "Pass 1": {
-      "cost": "50",
-      "effect": "Units can pass through foes if its own HP ≥ 75%.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Units can pass through foes if its own HP ≥ 75%."
     },
     "Pass 2": {
-      "cost": "100",
-      "effect": "Units can pass through foes if its own HP ≥ 50%.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Units can pass through foes if its own HP ≥ 50%."
     },
     "Pass 3": {
-      "cost": "200",
-      "effect": "Units can pass through foes if its own HP ≥ 25%.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Units can pass through foes if its own HP ≥ 25%."
     },
     "Poison Strike 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "Inflicts 4 damage to foe after any combat this unit initiates.",
       "restriction": "Offense"
     },
     "Poison Strike 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Inflicts 7 damage to foe after any combat this unit initiates.",
       "restriction": "Offense"
     },
     "Poison Strike 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Inflicts 10 damage to foe after any combat this unit initiates.",
       "restriction": "Offense"
     },
     "Quick Riposte 1": {
-      "cost": "60",
-      "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 90%.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 90%."
     },
     "Quick Riposte 2": {
-      "cost": "120",
-      "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 80%.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 80%."
     },
     "Quick Riposte 3": {
-      "cost": "240",
-      "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 70%.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 70%."
     },
     "R Tomebreaker 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against a red tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
     },
     "R Tomebreaker 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "If unit's HP ≥ 70% in combat against a red tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
     },
     "R Tomebreaker 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "If unit's HP ≥ 50% in combat against a red tome user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
     },
+    "Recover Ring": {
+      "cost": 300,
+      "effect": "Restores 10 HP at the start of each turn. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
+    },
     "Renewal 1": {
-      "cost": "60",
-      "effect": "At the start of every fourth turn, restores 10 HP.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "At the start of every fourth turn, restores 10 HP."
     },
     "Renewal 2": {
-      "cost": "120",
-      "effect": "At the start of every third turn, restores 10 HP.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "At the start of every third turn, restores 10 HP."
     },
     "Renewal 3": {
-      "cost": "240",
-      "effect": "At the start of every second turn, restores 10 HP.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "At the start of every second turn, restores 10 HP."
+    },
+    "S Drink": {
+      "cost": 300,
+      "effect": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1.",
+      "restriction": "Exclusive"
     },
     "Sacae's Blessing": {
-      "cost": "300",
+      "cost": 300,
       "effect": "If foe has sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
-      "restriction": "Lyn \\(Brave Heroes\\)"
+      "restriction": "Exclusive"
     },
     "Seal Atk 1": {
-      "cost": "40",
+      "cost": 40,
       "effect": "After combat, foe suffers Atk-3 through its next action.",
       "restriction": "Offense"
     },
     "Seal Atk 2": {
-      "cost": "80",
+      "cost": 80,
       "effect": "After combat, foe suffers Atk-5 through its next action.",
       "restriction": "Offense"
     },
     "Seal Atk 3": {
-      "cost": "160",
+      "cost": 160,
       "effect": "After combat, foe suffers Atk-7 through its next action.",
       "restriction": "Offense"
     },
     "Seal Atk/Def 1": {
-      "cost": "80",
+      "cost": 80,
       "effect": "After combat, inflicts Atk/Def-3 on foe through its next action.",
       "require": "Seal Atk 1|Seal Def 1",
       "restriction": "Offense"
     },
     "Seal Atk/Def 2": {
-      "cost": "160",
+      "cost": 160,
       "effect": "After combat, inflicts Atk/Def-5 on foe through its next action.",
       "restriction": "Offense"
     },
     "Seal Atk/Spd 1": {
-      "cost": "80",
+      "cost": 80,
       "effect": "After combat, inflicts Atk/Spd-3 on foe through its next action.",
       "require": "Seal Atk 1|Seal Spd 1",
       "restriction": "Offense"
     },
     "Seal Atk/Spd 2": {
-      "cost": "160",
+      "cost": 160,
       "effect": "After combat, inflicts Atk/Spd-5 on foe through its next action.",
       "restriction": "Offense"
     },
     "Seal Def 1": {
-      "cost": "40",
+      "cost": 40,
       "effect": "After combat, foe suffers Def-3 through its next action.",
       "restriction": "Offense"
     },
     "Seal Def 2": {
-      "cost": "80",
+      "cost": 80,
       "effect": "After combat, foe suffers Def-5 through its next action.",
       "restriction": "Offense"
     },
     "Seal Def 3": {
-      "cost": "160",
+      "cost": 160,
       "effect": "After combat, foe suffers Def-7 through its next action.",
       "restriction": "Offense"
     },
     "Seal Res 1": {
-      "cost": "40",
+      "cost": 40,
       "effect": "After combat, foe suffers Res-3 through its next action.",
       "restriction": "Offense"
     },
     "Seal Res 2": {
-      "cost": "80",
+      "cost": 80,
       "effect": "After combat, foe suffers Res-5 through its next action.",
       "restriction": "Offense"
     },
     "Seal Res 3": {
-      "cost": "160",
+      "cost": 160,
       "effect": "After combat, foe suffers Res-7 through its next action.",
       "restriction": "Offense"
     },
     "Seal Spd 1": {
-      "cost": "40",
+      "cost": 40,
       "effect": "After combat, foe suffers Spd-3 through its next action.",
       "restriction": "Offense"
     },
     "Seal Spd 2": {
-      "cost": "80",
+      "cost": 80,
       "effect": "After combat, foe suffers Spd-5 through its next action.",
       "restriction": "Offense"
     },
     "Seal Spd 3": {
-      "cost": "160",
+      "cost": 160,
       "effect": "After combat, foe suffers Spd-7 through its next action.",
       "restriction": "Offense"
     },
     "Shield Pulse 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-1 at start of turn 1.",
       "restriction": "Armored|Infantry, Melee"
     },
     "Shield Pulse 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-1 at start of turn 1. Unit takes 5 less damage when Special triggers.",
       "restriction": "Armored|Infantry, Melee"
     },
     "Shield Pulse 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers.",
       "restriction": "Armored|Infantry, Melee"
     },
+    "Solar Brace": {
+      "cost": 300,
+      "effect": "Restores 30% of damage dealt when Special triggers during combat. (Stacks with effects of skills like Sol.)",
+      "restriction": "Exclusive"
+    },
     "Swordbreaker 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against a sword user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
     },
     "Swordbreaker 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "If unit's HP ≥ 70% in combat against a sword user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
     },
     "Swordbreaker 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "If unit's HP ≥ 50% in combat against a sword user, unit makes a followup attack and foe cannot.",
       "restriction": "Color:RBN"
     },
+    "Torrent Dance 1": {
+      "cost": 50,
+      "effect": "If Sing or Dance is used, target also granted Res+2.",
+      "restriction": "Offense"
+    },
+    "Torrent Dance 2": {
+      "cost": 100,
+      "effect": "If Sing or Dance is used, target also granted Res+3.",
+      "restriction": "Offense"
+    },
+    "Torrent Dance 3": {
+      "cost": 200,
+      "effect": "If Sing or Dance is used, target also granted Res+4.",
+      "restriction": "Offense"
+    },
     "Vantage 1": {
-      "cost": "50",
-      "effect": "Unit counterattacks first when attacked at HP ≤ 25%.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Unit counterattacks first when attacked at HP ≤ 25%."
     },
     "Vantage 2": {
-      "cost": "100",
-      "effect": "Unit counterattacks first when attacked at HP ≤ 50%.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Unit counterattacks first when attacked at HP ≤ 50%."
     },
     "Vantage 3": {
-      "cost": "200",
-      "effect": "Unit counterattacks first when attacked at HP ≤ 75%.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Unit counterattacks first when attacked at HP ≤ 75%."
+    },
+    "Vengeful Fighter 1": {
+      "cost": 60,
+      "effect": "If unit's HP ≥ 90% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "restriction": "Armored"
+    },
+    "Vengeful Fighter 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≥ 70% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "restriction": "Armored"
+    },
+    "Vengeful Fighter 3": {
+      "cost": 240,
+      "effect": "If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+      "restriction": "Armored"
+    },
+    "Warp Powder": {
+      "cost": 300,
+      "effect": "If unit's HP ≥ 80%, unit can move adjacent to any ally within 2 spaces.",
+      "restriction": "Exclusive"
     },
     "Wary Fighter 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "Prevents followup attacks in combat from unit and foes if unit's HP ≥ 90%.",
       "restriction": "Armored"
     },
     "Wary Fighter 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Prevents followup attacks in combat from unit and foes if unit's HP ≥ 70%.",
       "restriction": "Armored"
     },
     "Wary Fighter 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Prevents followup attacks in combat from unit and foes if unit's HP ≥ 50%.",
       "restriction": "Armored"
     },
     "Watersweep 1": {
-      "cost": "60",
-      "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 5, foe can't counterattack.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 5, foe can't counterattack."
     },
     "Watersweep 2": {
-      "cost": "120",
-      "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 3, foe can't counterattack.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 3, foe can't counterattack."
     },
     "Watersweep 3": {
-      "cost": "240",
-      "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 1, foe can't counterattack.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff, or dragonstone, if unit's Spd - foe's Spd ≥ 1, foe can't counterattack."
     },
     "Windsweep 1": {
-      "cost": "60",
-      "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 5, foe can't counterattack.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 5, foe can't counterattack."
     },
     "Windsweep 2": {
-      "cost": "120",
-      "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 3, foe can't counterattack.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 3, foe can't counterattack."
     },
     "Windsweep 3": {
-      "cost": "240",
-      "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 1, foe can't counterattack.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd ≥ 1, foe can't counterattack."
     },
     "Wings of Mercy 1": {
-      "cost": "60",
-      "effect": "Enables unit to warp adjacent to any ally with HP ≤ 30%.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "Enables unit to warp adjacent to any ally with HP ≤ 30%."
     },
     "Wings of Mercy 2": {
-      "cost": "120",
-      "effect": "Enables unit to warp adjacent to any ally with HP ≤ 40%.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "Enables unit to warp adjacent to any ally with HP ≤ 40%."
     },
     "Wings of Mercy 3": {
-      "cost": "240",
-      "effect": "Enables unit to warp adjacent to any ally with HP ≤ 50%.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "Enables unit to warp adjacent to any ally with HP ≤ 50%."
+    },
+    "Wrath 1": {
+      "cost": 60,
+      "effect": "If unit's HP ≤ 25%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
+      "restriction": "Armored|Infantry, Melee"
+    },
+    "Wrath 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≤ 50%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
+      "restriction": "Armored|Infantry, Melee"
+    },
+    "Wrath 3": {
+      "cost": 240,
+      "effect": "If unit's HP ≤ 75%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
+      "restriction": "Armored|Infantry, Melee"
     },
     "Wrathful Staff 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit has 100% HP at the start of combat, damage from their staff will be calculated the same as other weapons.",
       "restriction": "Staff"
     },
     "Wrathful Staff 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit has ≥ 50% HP at the start of combat, damage from their staff will be calculated the same as other weapons.",
       "restriction": "Staff"
     },
     "Wrathful Staff 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Damage from unit's staff will be calculated the same as other weapons.",
       "restriction": "Staff"
     }
   },
   "C": {
     "Armor March 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit has 100% HP and an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
       "restriction": "Armored"
     },
     "Armor March 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit has ≥ 50% HP an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
       "restriction": "Armored"
     },
     "Armor March 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "If unit has an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
       "restriction": "Armored"
     },
     "Atk Ploy 1": {
-      "cost": "60",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3 until the end of foe's next action."
     },
     "Atk Ploy 2": {
-      "cost": "120",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-4 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-4 until the end of foe's next action."
     },
     "Atk Ploy 3": {
-      "cost": "240",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action."
     },
     "Atk Smoke 1": {
-      "cost": "60",
-      "effect": "After combat, inflicts Atk-3 on foes within within 2 spaces of target through their next actions.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "After combat, inflicts Atk-3 on foes within within 2 spaces of target through their next actions."
     },
     "Atk Smoke 2": {
-      "cost": "120",
-      "effect": "After combat, inflicts Atk-5 on foes within within 2 spaces of target through their next actions.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "After combat, inflicts Atk-5 on foes within within 2 spaces of target through their next actions."
     },
     "Atk Smoke 3": {
-      "cost": "240",
-      "effect": "After combat, inflicts Atk-7 on foes within within 2 spaces of target through their next actions.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "After combat, inflicts Atk-7 on foes within within 2 spaces of target through their next actions."
+    },
+    "Atk Tactic 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Atk+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Atk Tactic 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Atk+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Atk Tactic 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Axe Experience 1": {
-      "cost": "30",
+      "cost": 30,
       "effect": "If unit survives and uses an axe, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Axe"
     },
     "Axe Experience 2": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit survives, all axe users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Axe"
     },
     "Axe Experience 3": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit survives, all axe users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Axe"
     },
     "Axe Valor 1": {
-      "cost": "30",
+      "cost": 30,
       "effect": "If unit survives and uses an axe, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Axe"
     },
     "Axe Valor 2": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit survives, all axe users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Axe"
     },
     "Axe Valor 3": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit survives, all axe users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Axe"
     },
-    "Bow Experience 1": {
-      "cost": "30",
-      "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Bow"
-    },
-    "Bow Experience 2": {
-      "cost": "60",
-      "effect": "If unit survives, all bow users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Bow"
-    },
-    "Bow Experience 3": {
-      "cost": "120",
-      "effect": "If unit survives, all bow users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Bow"
-    },
     "B Tome Exp. 1": {
-      "cost": "50",
+      "cost": 50,
       "effect": "If unit survives and uses a blue tome, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Tome, Color:B"
     },
     "B Tome Exp. 2": {
-      "cost": "100",
+      "cost": 100,
       "effect": "If unit survives, all blue tome users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Tome, Color:B"
     },
     "B Tome Exp. 3": {
-      "cost": "200",
+      "cost": 200,
       "effect": "If unit survives, all blue tome users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Tome, Color:B"
     },
+    "B Tome Valor 1": {
+      "cost": 30,
+      "effect": "If unit survives and uses a blue tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:B"
+    },
+    "B Tome Valor 2": {
+      "cost": 60,
+      "effect": "If unit survives, all blue tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:B"
+    },
+    "B Tome Valor 3": {
+      "cost": 120,
+      "effect": "If unit survives, all blue tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:B"
+    },
+    "Bow Experience 1": {
+      "cost": 30,
+      "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
+    "Bow Experience 2": {
+      "cost": 60,
+      "effect": "If unit survives, all bow users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
+    "Bow Experience 3": {
+      "cost": 120,
+      "effect": "If unit survives, all bow users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
+    "Bow Valor 1": {
+      "cost": 30,
+      "effect": "If unit survives and uses an bow, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
+    "Bow Valor 2": {
+      "cost": 60,
+      "effect": "If unit survives, all bow users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
+    "Bow Valor 3": {
+      "cost": 120,
+      "effect": "If unit survives, all bow users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Bow"
+    },
     "Breath of Life 1": {
-      "cost": "50",
-      "effect": "If unit initiates attack, adjacent allies recover 3 HP after combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If unit initiates attack, adjacent allies recover 3 HP after combat."
     },
     "Breath of Life 2": {
-      "cost": "100",
-      "effect": "If unit initiates attack, adjacent allies recover 5 HP after combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit initiates attack, adjacent allies recover 5 HP after combat."
     },
     "Breath of Life 3": {
-      "cost": "200",
-      "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat."
+    },
+    "Dagger Valor 1": {
+      "cost": 30,
+      "effect": "If unit survives and uses a dagger, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Dagger"
+    },
+    "Dagger Valor 2": {
+      "cost": 60,
+      "effect": "If unit survives, all dagger users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Dagger"
+    },
+    "Dagger Valor 3": {
+      "cost": 120,
+      "effect": "If unit survives, all dagger users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Dagger"
     },
     "Def Ploy 1": {
-      "cost": "60",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3 until the end of foe's next action."
     },
     "Def Ploy 2": {
-      "cost": "120",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-4 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-4 until the end of foe's next action."
     },
     "Def Ploy 3": {
-      "cost": "240",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action."
+    },
+    "Def Smoke 1": {
+      "cost": 60,
+      "effect": "After combat, inflicts Def-3 on foes within within 2 spaces of target through their next actions."
+    },
+    "Def Smoke 2": {
+      "cost": 120,
+      "effect": "After combat, inflicts Def-5 on foes within within 2 spaces of target through their next actions."
+    },
+    "Def Smoke 3": {
+      "cost": 240,
+      "effect": "After combat, inflicts Def-7 on foes within within 2 spaces of target through their next actions."
+    },
+    "Def Tactic 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Def Tactic 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Def Tactic 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Drive Atk 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Grants allies within 2 spaces Atk+2 during combat.",
-      "require": "Spur Atk 1",
-      "restriction": ""
+      "require": "Spur Atk 1"
     },
     "Drive Atk 2": {
-      "cost": "240",
-      "effect": "Grants allies within 2 spaces Atk+3 during combat.",
-      "restriction": ""
-    },
-    "Drive Spd 1": {
-      "cost": "120",
-      "effect": "Grants allies within 2 spaces Spd+2 during combat.",
-      "require": "Spur Spd 1",
-      "restriction": ""
-    },
-    "Drive Spd 2": {
-      "cost": "240",
-      "effect": "Grants allies within 2 spaces Spd+3 during combat.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "Grants allies within 2 spaces Atk+3 during combat."
     },
     "Drive Def 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Grants allies within 2 spaces Def+2 during combat.",
-      "require": "Spur Def 1",
-      "restriction": ""
+      "require": "Spur Def 1"
     },
     "Drive Def 2": {
-      "cost": "240",
-      "effect": "Grants allies within 2 spaces Def+3 during combat.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "Grants allies within 2 spaces Def+3 during combat."
+    },
+    "Drive Res 1": {
+      "cost": 120,
+      "effect": "Grants allies within 2 spaces Res+2 during combat.",
+      "require": "Spur Res 1"
+    },
+    "Drive Res 2": {
+      "cost": 240,
+      "effect": "Grants allies within 2 spaces Res+3 during combat."
+    },
+    "Drive Spd 1": {
+      "cost": 120,
+      "effect": "Grants allies within 2 spaces Spd+2 during combat.",
+      "require": "Spur Spd 1"
+    },
+    "Drive Spd 2": {
+      "cost": 240,
+      "effect": "Grants allies within 2 spaces Spd+3 during combat."
+    },
+    "Flier Guidance 1": {
+      "cost": 60,
+      "effect": "If unit has 100% HP, flying allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": "Flying"
+    },
+    "Flier Guidance 2": {
+      "cost": 120,
+      "effect": "If unit has ≥ 50% HP, flying allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": "Flying"
+    },
+    "Flier Guidance 3": {
+      "cost": 240,
+      "effect": "Flying allies within 2 spaces can move to a space adjacent to unit.",
+      "restriction": "Flying"
     },
     "Fortify Armor": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants adjacent armor allies Def/Res+6 through their next actions at the start of each turn.",
       "require": "Fortify Def 2|Fortify Res 2",
       "restriction": "Armored"
     },
     "Fortify Cavalry": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants adjacent cavalry allies Def/Res+6 through their next actions at the start of each turn.",
       "require": "Fortify Def 2|Fortify Res 2",
       "restriction": "Cavalry"
     },
     "Fortify Def 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Def+2 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Def+2 through their next actions at the start of each turn."
     },
     "Fortify Def 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Def+3 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Def+3 through their next actions at the start of each turn."
     },
     "Fortify Def 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Def+4 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Def+4 through their next actions at the start of each turn."
     },
     "Fortify Dragons": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants adjacent dragon allies Def/Res+6 through their next actions at the start of each turn.",
       "require": "Fortify Def 2|Fortify Res 2",
       "restriction": "Dragon"
     },
     "Fortify Fliers": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants adjacent flying allies Def/Res+6 through their next actions at the start of each turn.",
       "require": "Fortify Def 2|Fortify Res 2",
       "restriction": "Flying"
     },
     "Fortify Res 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Res+2 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Res+2 through their next actions at the start of each turn."
     },
     "Fortify Res 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Res+3 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Res+3 through their next actions at the start of each turn."
     },
     "Fortify Res 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn."
+    },
+    "G Tome Exp. 1": {
+      "cost": 50,
+      "effect": "If unit survives and uses a green tome, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Exp. 2": {
+      "cost": 100,
+      "effect": "If unit survives, all green tome users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Exp. 3": {
+      "cost": 200,
+      "effect": "If unit survives, all green tome users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Valor 1": {
+      "cost": 30,
+      "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Valor 2": {
+      "cost": 60,
+      "effect": "If unit survives, all green tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
+    },
+    "G Tome Valor 3": {
+      "cost": 120,
+      "effect": "If unit survives, all green tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:G"
     },
     "Goad Armor": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants armored allies within 2 spaces Spd/Atk+4 during combat.",
       "require": "Spur Atk 2|Spur Spd 2",
       "restriction": "Armored"
     },
     "Goad Cavalry": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants cavalry allies within 2 spaces Spd/Atk+4 during combat.",
       "require": "Spur Atk 2|Spur Spd 2",
       "restriction": "Cavalry"
     },
+    "Goad Dragons": {
+      "cost": 200,
+      "effect": "Grants dragon allies within 2 spaces Spd/Atk+4 during combat.",
+      "require": "Spur Atk 2|Spur Spd 2",
+      "restriction": "Dragon"
+    },
     "Goad Fliers": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants flying allies within 2 spaces Spd/Atk+4 during combat.",
       "require": "Spur Atk 2|Spur Spd 2",
       "restriction": "Flying"
     },
     "Guidance 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit has 100% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
       "restriction": "Flying"
     },
     "Guidance 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit has ≥ 50% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
       "restriction": "Flying"
     },
     "Guidance 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
       "restriction": "Flying"
     },
-    "G Tome Valor 1": {
-      "cost": "30",
-      "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Tome, Color:G"
-    },
-    "G Tome Valor 2": {
-      "cost": "60",
-      "effect": "If unit survives, all green tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Tome, Color:G"
-    },
-    "G Tome Valor 3": {
-      "cost": "120",
-      "effect": "If unit survives, all green tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
-      "restriction": "Tome, Color:G"
-    },
     "Hone Armor": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants adjacent armored allies Atk/Spd+6 through their next actions at the start of each turn.",
       "require": "Hone Atk 2|Hone Spd 2",
       "restriction": "Armored"
     },
     "Hone Atk 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Atk+2 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Atk+2 through their next actions at the start of each turn."
     },
     "Hone Atk 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn."
     },
     "Hone Atk 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Atk+4 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
     "Hone Cavalry": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants adjacent cavalry allies Atk/Spd+6 through their next actions at the start of each turn.",
       "require": "Hone Atk 2|Hone Spd 2",
       "restriction": "Cavalry"
     },
+    "Hone Dragons": {
+      "cost": 200,
+      "effect": "Grants adjacent dragon allies Atk/Spd+6 through their next actions at the start of each turn.",
+      "require": "Hone Atk 2|Hone Spd 2",
+      "restriction": "Dragon"
+    },
     "Hone Fliers": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants adjacent flying allies Atk/Spd+6 through their next actions at the start of each turn.",
       "require": "Hone Atk 2|Hone Spd 2",
       "restriction": "Flying"
     },
     "Hone Spd 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Spd+2 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Spd+2 through their next actions at the start of each turn."
     },
     "Hone Spd 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Spd+3 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Spd+3 through their next actions at the start of each turn."
     },
     "Hone Spd 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn."
     },
     "Infantry Pulse 1": {
-      "cost": "60",
+      "cost": 60,
       "effect": "Special cooldown count-1 at start of turn 1 for any infantry allies with at least 5 fewer HP than unit. (Effects will stack with similar skills.)",
       "restriction": "Infantry"
     },
     "Infantry Pulse 2": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Special cooldown count-1 at start of turn 1 for any infantry allies with at least 3 fewer HP than unit. (Effects will stack with similar skills.)",
       "restriction": "Infantry"
     },
     "Infantry Pulse 3": {
-      "cost": "240",
+      "cost": 240,
       "effect": "Special cooldown count-1 at start of turn 1 for any infantry allies with at least 1 fewer HP than unit. (Effects will stack with similar skills.)",
       "restriction": "Infantry"
     },
     "Lance Valor 1": {
-      "cost": "30",
+      "cost": 30,
       "effect": "If unit survives and uses a lance, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Lance"
     },
     "Lance Valor 2": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit survives, all lance users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Lance"
     },
     "Lance Valor 3": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit survives, all lance users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Lance"
     },
     "Panic Ploy 1": {
-      "cost": "60",
-      "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action."
     },
     "Panic Ploy 2": {
-      "cost": "120",
-      "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 3 or more lower than unit through foe's next action.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 3 or more lower than unit through foe's next action."
     },
     "Panic Ploy 3": {
-      "cost": "240",
-      "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 1 or more lower than unit through foe's next action.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 1 or more lower than unit through foe's next action."
+    },
+    "R Tome Exp. 1": {
+      "cost": 50,
+      "effect": "If unit survives and uses a red tome, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:R"
+    },
+    "R Tome Exp. 2": {
+      "cost": 100,
+      "effect": "If unit survives, all red tome users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:R"
+    },
+    "R Tome Exp. 3": {
+      "cost": 200,
+      "effect": "If unit survives, all red tome users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:R"
+    },
+    "R Tome Valor 1": {
+      "cost": 30,
+      "effect": "If unit survives and uses a red tome, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:R"
+    },
+    "R Tome Valor 2": {
+      "cost": 60,
+      "effect": "If unit survives, all red tome users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:R"
+    },
+    "R Tome Valor 3": {
+      "cost": 120,
+      "effect": "If unit survives, all red tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
+      "restriction": "Tome, Color:R"
     },
     "Res Ploy 1": {
-      "cost": "60",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 60,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3 until the end of foe's next action."
     },
     "Res Ploy 2": {
-      "cost": "120",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-4 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 120,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-4 until the end of foe's next action."
     },
     "Res Ploy 3": {
-      "cost": "240",
-      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action."
+    },
+    "Res Smoke 1": {
+      "cost": 60,
+      "effect": "After combat, inflicts Res-3 on foes within within 2 spaces of target through their next actions."
+    },
+    "Res Smoke 2": {
+      "cost": 120,
+      "effect": "After combat, inflicts Res-5 on foes within within 2 spaces of target through their next actions."
+    },
+    "Res Smoke 3": {
+      "cost": 240,
+      "effect": "After combat, inflicts Res-7 on foes within within 2 spaces of target through their next actions."
+    },
+    "Res Tactic 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Res+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Res Tactic 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Res Tactic 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Savage Blow 1": {
-      "cost": "50",
-      "effect": "If unit initiates attack, foes within 2 spaces of target take 3 damage after combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "If unit initiates attack, foes within 2 spaces of target take 3 damage after combat."
     },
     "Savage Blow 2": {
-      "cost": "100",
-      "effect": "If unit initiates attack, foes within 2 spaces of target take 5 damage after combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "If unit initiates attack, foes within 2 spaces of target take 5 damage after combat."
     },
     "Savage Blow 3": {
-      "cost": "200",
-      "effect": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat."
+    },
+    "Spd Ploy 1": {
+      "cost": 60,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-3 until the end of foe's next action."
+    },
+    "Spd Ploy 2": {
+      "cost": 120,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-4 until the end of foe's next action."
+    },
+    "Spd Ploy 3": {
+      "cost": 240,
+      "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-5 until the end of foe's next action."
+    },
+    "Spd Smoke 1": {
+      "cost": 60,
+      "effect": "After combat, inflicts Spd-3 on foes within within 2 spaces of target through their next actions."
+    },
+    "Spd Smoke 2": {
+      "cost": 120,
+      "effect": "After combat, inflicts Spd-5 on foes within within 2 spaces of target through their next actions."
+    },
+    "Spd Smoke 3": {
+      "cost": 240,
+      "effect": "After combat, inflicts Spd-7 on foes within within 2 spaces of target through their next actions."
+    },
+    "Spd Tactic 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Spd+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Spd Tactic 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Spd+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Spd Tactic 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Spur Atk 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Atk+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Atk+2 during combat."
     },
     "Spur Atk 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Atk+3 during combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Atk+3 during combat."
     },
     "Spur Atk 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Atk+4 during combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Atk+4 during combat."
+    },
+    "Spur Atk/Def 1": {
+      "cost": 120,
+      "effect": "Grants adjacent allies Atk/Def+2 during combat.",
+      "require": "Spur Atk 1|Spur Def 1"
+    },
+    "Spur Atk/Def 2": {
+      "cost": 240,
+      "effect": "Grants adjacent allies Atk/Def+3 during combat."
+    },
+    "Spur Atk/Spd 1": {
+      "cost": 120,
+      "effect": "Grants adjacent allies Atk/Spd+2 during combat.",
+      "require": "Spur Atk 1|Spur Spd 1"
+    },
+    "Spur Atk/Spd 2": {
+      "cost": 240,
+      "effect": "Grants adjacent allies Atk/Spd+3 during combat."
     },
     "Spur Def 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Def+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Def+2 during combat."
     },
     "Spur Def 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Def+3 during combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Def+3 during combat."
     },
     "Spur Def 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Def+4 during combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Def+4 during combat."
     },
     "Spur Def/Res 1": {
-      "cost": "120",
+      "cost": 120,
       "effect": "Grants adjacent allies Def/Res+2 during combat.",
-      "require": "Spur Def 1|Spur Res 1",
-      "restriction": ""
+      "require": "Spur Def 1|Spur Res 1"
     },
     "Spur Def/Res 2": {
-      "cost": "240",
-      "effect": "Grants adjacent allies Def/Res+3 during combat.",
-      "restriction": ""
+      "cost": 240,
+      "effect": "Grants adjacent allies Def/Res+3 during combat."
     },
     "Spur Res 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Res+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Res+2 during combat."
     },
     "Spur Res 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Res+3 during combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Res+3 during combat."
     },
     "Spur Res 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Res+4 during combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Res+4 during combat."
     },
     "Spur Spd 1": {
-      "cost": "50",
-      "effect": "Grants adjacent allies Spd+2 during combat.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Grants adjacent allies Spd+2 during combat."
     },
     "Spur Spd 2": {
-      "cost": "100",
-      "effect": "Grants adjacent allies Spd+3 during combat.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Grants adjacent allies Spd+3 during combat."
     },
     "Spur Spd 3": {
-      "cost": "200",
-      "effect": "Grants adjacent allies Spd+4 during combat.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Grants adjacent allies Spd+4 during combat."
+    },
+    "Spur Spd/Def 1": {
+      "cost": 120,
+      "effect": "Grants adjacent allies Spd/Def+2 during combat.",
+      "require": "Spur Spd 1|Spur Def 1"
+    },
+    "Spur Spd/Def 2": {
+      "cost": 240,
+      "effect": "Grants adjacent allies Spd/Def+3 during combat."
     },
     "Sword Exp. 1": {
-      "cost": "30",
+      "cost": 30,
       "effect": "If unit survives and uses a sword, unit gets 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Sword"
     },
     "Sword Exp. 2": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit survives, all sword users on team get 1.5x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Sword"
     },
     "Sword Exp. 3": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit survives, all sword users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Sword"
     },
     "Sword Valor 1": {
-      "cost": "30",
+      "cost": 30,
       "effect": "If unit survives and uses a sword, unit gets 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Sword"
     },
     "Sword Valor 2": {
-      "cost": "60",
+      "cost": 60,
       "effect": "If unit survives, all sword users on team get 1.5x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Sword"
     },
     "Sword Valor 3": {
-      "cost": "120",
+      "cost": 120,
       "effect": "If unit survives, all sword users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Sword"
     },
     "Threaten Atk 1": {
-      "cost": "50",
-      "effect": "Inflicts Atk-3 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Inflicts Atk-3 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Atk 2": {
-      "cost": "100",
-      "effect": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Atk 3": {
-      "cost": "200",
-      "effect": "Inflicts Atk-5 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Inflicts Atk-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Def 1": {
-      "cost": "50",
-      "effect": "Inflicts Def-3 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Inflicts Def-3 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Def 2": {
-      "cost": "100",
-      "effect": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Def 3": {
-      "cost": "200",
-      "effect": "Inflicts Def-5 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Inflicts Def-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Res 1": {
-      "cost": "50",
-      "effect": "Inflicts Res-3 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Inflicts Res-3 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Res 2": {
-      "cost": "100",
-      "effect": "Inflicts Res-4 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Inflicts Res-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Res 3": {
-      "cost": "200",
-      "effect": "Inflicts Res-5 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Inflicts Res-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Spd 1": {
-      "cost": "50",
-      "effect": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 50,
+      "effect": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Spd 2": {
-      "cost": "100",
-      "effect": "Inflicts Spd-4 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 100,
+      "effect": "Inflicts Spd-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Threaten Spd 3": {
-      "cost": "200",
-      "effect": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn.",
-      "restriction": ""
+      "cost": 200,
+      "effect": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "Ward Armor": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants armored allies within 2 spaces Def/Res+4 during combat.",
       "require": "Spur Def 2|Spur Res 2",
       "restriction": "Armored"
     },
     "Ward Cavalry": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants cavalry allies within 2 spaces Def/Res+4 during combat.",
       "require": "Spur Def 2|Spur Res 2",
       "restriction": "Cavalry"
     },
+    "Ward Dragons": {
+      "cost": 200,
+      "effect": "Grants dragon allies within 2 spaces Def/Res+4 during combat.",
+      "require": "Spur Def 2|Spur Res 2",
+      "restriction": "Dragon"
+    },
     "Ward Fliers": {
-      "cost": "200",
+      "cost": 200,
       "effect": "Grants flying allies within 2 spaces Def/Res+4 during combat.",
       "require": "Spur Def 2|Spur Res 2",
       "restriction": "Flying"
