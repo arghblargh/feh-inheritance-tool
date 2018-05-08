@@ -2532,5 +2532,35 @@
     "might": 14,
     "effect": "Effective against cavalry units.",
     "upgrade": "Special"
+  },
+  "Dark Mystletainn": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If Special triggers before or during combat, grants Special cooldown count-2 after combat.",
+    "restriction": "Exclusive"
+  },
+  "Safeguard": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Def+7 during combat."
+  },
+  "Safeguard+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Def+7 during combat."
+  },
+  "Mjölnir": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit initiates combat, grants Spd+6 during combat.",
+    "restriction": "Exclusive"
   }
 }
