@@ -319,17 +319,6 @@
       "cost": 50,
       "effect": "If Unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat."
     },
-    "Firestorm Dance 1": {
-      "cost": 120,
-      "effect": "If Sing or Dance is used, grants Atk/Spd+2 to target.",
-      "require": "Blaze Dance 1|Gale Dance 1",
-      "restriction": "Offense"
-    },
-    "Firestorm Dance 2": {
-      "cost": 240,
-      "effect": "If Sing or Dance is used, grants Atk/Spd+3 to target.",
-      "restriction": "Offense"
-    },
     "Flashing Blade 1": {
       "cost": 60,
       "effect": "If unit's Spd - foe's Spd ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
@@ -956,6 +945,17 @@
     "Escape Route 3": {
       "cost": 240,
       "effect": "Enables unit whose own HP is ≤ 50% to warp adjacent to any ally."
+    },
+    "Firestorm Dance 1": {
+      "cost": 120,
+      "effect": "If Sing or Dance is used, grants Atk/Spd+2 to target.",
+      "require": "Blaze Dance 1|Gale Dance 1",
+      "restriction": "Offense"
+    },
+    "Firestorm Dance 2": {
+      "cost": 240,
+      "effect": "If Sing or Dance is used, grants Atk/Spd+3 to target.",
+      "restriction": "Offense"
     },
     "Flier Formation 1": {
       "cost": 60,
