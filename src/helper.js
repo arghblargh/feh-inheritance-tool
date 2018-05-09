@@ -361,8 +361,12 @@ export function getLowestRarity(unit) {
 function getWeaponUpgrade(unit) {
     var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
     
-    if (upgrades.Evolve[maxWeapon])
-        return upgrades.Evolve[maxWeapon];
+    if (upgrades.Evolve[maxWeapon]) {
+        if (upgrades.Evolve[maxWeapon].unit && upgrades.Evolve[maxWeapon].unit.includes(unit))
+            return upgrades.Evolve[maxWeapon].weapon;
+        else
+            return upgrades.Evolve[maxWeapon];
+    }
 
     return null;
 }

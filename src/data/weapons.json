@@ -395,6 +395,15 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Camilla's Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit is within 2 spaces of a cavalry or flying ally, grants Atk/Spd+4 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Candelabra": {
     "color": "Red",
     "type": "Tome",
@@ -598,6 +607,14 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk/Spd+4 during combat if unit initiates combat.",
+    "restriction": "Exclusive"
+  },
+  "Dark Mystletainn": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If Special triggers before or during combat, grants Special cooldown count-2 after combat.",
     "restriction": "Exclusive"
   },
   "Deathly Dagger": {
@@ -1565,6 +1582,14 @@
     "effect": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
     "upgrade": "-"
   },
+  "Mjölnir": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit initiates combat, grants Spd+6 during combat.",
+    "restriction": "Exclusive"
+  },
   "Monstrous Bow": {
     "color": "",
     "type": "Bow",
@@ -1871,6 +1896,15 @@
     "effect": "",
     "upgrade": "Mt:1"
   },
+  "Rhomphaia": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored and cavalry foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Ridersbane": {
     "color": "Blue",
     "type": "Lance",
@@ -1936,6 +1970,20 @@
     "might": 14,
     "effect": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.",
     "upgrade": "-"
+  },
+  "Safeguard": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Def+7 during combat."
+  },
+  "Safeguard+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Def+7 during combat."
   },
   "Sapphire Lance": {
     "color": "Blue",
@@ -2516,7 +2564,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Spd+4 during combat if unit initiates attack.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Zanbato": {
     "color": "Red",
@@ -2532,35 +2581,5 @@
     "might": 14,
     "effect": "Effective against cavalry units.",
     "upgrade": "Special"
-  },
-  "Dark Mystletainn": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 400,
-    "might": 16,
-    "effect": "Accelerates Special trigger (cooldown count-1). If Special triggers before or during combat, grants Special cooldown count-2 after combat.",
-    "restriction": "Exclusive"
-  },
-  "Safeguard": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 200,
-    "might": 10,
-    "effect": "If foe initiates combat, grants Def+7 during combat."
-  },
-  "Safeguard+": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 300,
-    "might": 14,
-    "effect": "If foe initiates combat, grants Def+7 during combat."
-  },
-  "Mjölnir": {
-    "color": "Blue",
-    "type": "Tome",
-    "cost": 400,
-    "might": 14,
-    "effect": "Accelerates Special trigger (cooldown count-1). If unit initiates combat, grants Spd+6 during combat.",
-    "restriction": "Exclusive"
   }
 }

@@ -16,6 +16,10 @@
         "Aura": "Dark Aura",
         "Durandal": "Blazing Durandal",
         "Excalibur": "Dark Excalibur",
+        "Falchion": {
+            "weapon": "Sealed Falchion",
+            "unit": "Chrom: Exalted Prince,Lucina: Future Witness,Marth: Enigmatic Blade"
+        },
         "Naga": "Divine Naga",
         "Siegmund": "Flame Siegmund",
         "Tyrfing": "Divine Tyrfing",
@@ -54,15 +58,15 @@
         "stats": [3, 0, 0, 0, 0],
         "units": [
             {
-                "name": "Marth",
+                "name": "Marth: Altean Prince",
                 "effect": "Effective against dragon foes. Restores HP at the start of every second turn. Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat."
             },
             {
-                "name": "Alm",
+                "name": "Alm: Hero of Prophecy",
                 "effect": "Effective against dragon foes. Restores HP at the start of every second turn. If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice then takes 5 damage after combat."
             },
             {
-                "name": "Chrom,Lucina,Marth (Masked)",
+                "name": "Chrom: Exalted Prince,Lucina: Future Witness,Marth: Enigmatic Blade",
                 "effect": "Effective against dragon foes. Restores HP at the start of every second turn. Grants Atk/Spd/Def/Res+4 during combat if unit is adjacent to an ally."
             }
         ]
@@ -100,6 +104,13 @@
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against cavalry and armored foes. If unit’s Spd - foe’s Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
+    "Yato": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Grants Atk/Spd/Def/Res+2. If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+4 to that ally during combat.",
+        "common": {
+            "effect": "Grants Atk/Spd/Def/Res+2."
+        }
+    },
     "Zanbato+": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
@@ -123,6 +134,10 @@
         "stats": [3, 0, 0, 0, 0],
         "effect": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit. Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
     },
+    "Rhomphaia": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "Effective against armored and cavalry foes. If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+    },
     "Ridersbane+": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
@@ -141,6 +156,10 @@
     "Basilikos": {
         "stats": [3, 0, 0, 0, 0],
         "effect": "Accelerates Special trigger (cooldown count -1). Grants Atk/Spd+5. Inflicts Def/Res-5."
+    },
+    "Camilla's Axe": {
+        "stats": [3, 0, 0, 0, 0],
+        "effect": "If unit is within 2 spaces of a cavalry or flying ally, grants Atk/Spd+4 during combat. Grants Atk/Spd+3 to cavalry and flying allies within 2 spaces during combat."
     },
     "Carrot Axe+": {
         "common": {
