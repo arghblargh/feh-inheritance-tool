@@ -526,5 +526,14 @@
   },
   "Squad Ace I 3": {
     "effect": "Grants Spd+3."
+  },
+  "Squad Ace J 1": {
+    "effect": "Grants Atk+1."
+  },
+  "Squad Ace J 2": {
+    "effect": "Grants Atk+2."
+  },
+  "Squad Ace J 3": {
+    "effect": "Grants Atk+3."
   }
 }

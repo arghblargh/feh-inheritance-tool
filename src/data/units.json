@@ -6592,10 +6592,19 @@
     "skills": {
       "weapon": [
         {
-          "name": "Flux"
+          "name": "Flux",
+          "unlock": 3
         },
         {
-          "name": "Ruin"
+          "name": "Ruin",
+          "unlock": 3
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 3
+        },
+        {
+          "name": "Loptous"
         }
       ]
     }

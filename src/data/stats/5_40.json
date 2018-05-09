@@ -48,6 +48,13 @@
     "Def": 41,
     "Res": 16
   },
+  "Ares: Black Knight": {
+    "HP": 40,
+    "Atk": 36,
+    "Spd": 30,
+    "Def": 33,
+    "Res": 18
+  },
   "Arthur: Hapless Hero": {
     "HP": 43,
     "Atk": 32,
@@ -692,6 +699,13 @@
     "Def": 14,
     "Res": 31
   },
+  "Ishtar: Thunder Goddess": {
+    "HP": 38,
+    "Atk": 34,
+    "Spd": 36,
+    "Def": 17,
+    "Res": 26
+  },
   "Jaffar: Angel of Death": {
     "HP": 41,
     "Atk": 26,
@@ -740,6 +754,13 @@
     "Spd": 26,
     "Def": 17,
     "Res": 32
+  },
+  "Julius: Scion of Darkness": {
+    "HP": 38,
+    "Atk": 35,
+    "Spd": 26,
+    "Def": 16,
+    "Res": 35
   },
   "Kagero: Honorable Ninja": {
     "HP": 31,
@@ -831,6 +852,13 @@
     "Spd": 38,
     "Def": 30,
     "Res": 23
+  },
+  "Lene: Yearning Dancer": {
+    "HP": 35,
+    "Atk": 28,
+    "Spd": 35,
+    "Def": 23,
+    "Res": 28
   },
   "Leo: Seashore's Prince": {
     "HP": 37,

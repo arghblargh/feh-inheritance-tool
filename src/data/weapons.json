@@ -1559,6 +1559,14 @@
     "effect": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
     "upgrade": "-"
   },
+  "Loptous": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. Skills with \"effective against dragons\" are effective against unit. If foe has no skills with \"effective against dragons,\" inflicts Atk-6 on foe during combat.",
+    "restriction": "Exclusive"
+  },
   "Meisterschwert": {
     "color": "Red",
     "type": "Sword",
