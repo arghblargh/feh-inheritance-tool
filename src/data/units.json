@@ -424,6 +424,11 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
+    "bane": [
+      "HP",
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -433,7 +438,7 @@
           "name": "Steel Sword"
         },
         {
-          "name": "Silver Sword"
+          "name": "Slaying Edge"
         },
         {
           "name": "Dark Mystletainn"
@@ -6095,6 +6100,13 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -6104,7 +6116,7 @@
           "name": "Elthunder"
         },
         {
-          "name": "Rexcalibur"
+          "name": "Thoron"
         },
         {
           "name": "Mjölnir"
@@ -6605,6 +6617,43 @@
         },
         {
           "name": "Loptous"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1",
+          "unlock": 3
+        },
+        {
+          "name": "Guard 2",
+          "unlock": 4
+        },
+        {
+          "name": "Guard 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Ploy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Ploy 2",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Ploy 3",
+          "unlock": 4
         }
       ]
     }
@@ -7447,6 +7496,14 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7469,7 +7526,7 @@
       ],
       "passiveB": [
         {
-          "name": "Blaze Dance 1"
+          "name": "Gale Dance 1"
         },
         {
           "name": "Firestorm Dance 1"

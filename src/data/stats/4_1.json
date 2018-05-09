@@ -391,6 +391,13 @@
     "Def": 8,
     "Res": 5
   },
+  "Julius: Scion of Darkness": {
+    "HP": 15,
+    "Atk": 9,
+    "Spd": 7,
+    "Def": 2,
+    "Res": 9
+  },
   "Kagero: Honorable Ninja": {
     "HP": 15,
     "Atk": 9,
@@ -404,6 +411,13 @@
     "Spd": 7,
     "Def": 6,
     "Res": 6
+  },
+  "Kaze: Easygoing Ninja": {
+    "HP": 16,
+    "Atk": 5,
+    "Spd": 10,
+    "Def": 3,
+    "Res": 8
   },
   "Klein: Silver Nobleman": {
     "HP": 17,

@@ -758,7 +758,7 @@
   "Julius: Scion of Darkness": {
     "HP": 38,
     "Atk": 35,
-    "Spd": 26,
+    "Spd": 27,
     "Def": 16,
     "Res": 35
   },
@@ -1630,7 +1630,7 @@
     "Def": 25,
     "Res": 25
   },
-  "Tharja: \"Normal Girl\"": {
+  "Tharja: &quot;Normal Girl&quot;": {
     "HP": 43,
     "Atk": 34,
     "Spd": 18,

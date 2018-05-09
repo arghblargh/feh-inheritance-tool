@@ -760,7 +760,7 @@
     "Atk": 9,
     "Spd": 8,
     "Def": 3,
-    "Res": 12
+    "Res": 9
   },
   "Kagero: Honorable Ninja": {
     "HP": 16,
@@ -1630,7 +1630,7 @@
     "Def": 6,
     "Res": 6
   },
-  "Tharja: \"Normal Girl\"": {
+  "Tharja: &quot;Normal Girl&quot;": {
     "HP": 19,
     "Atk": 10,
     "Spd": 5,
