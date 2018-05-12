@@ -189,7 +189,8 @@ export class BuildManager extends React.PureComponent {
             Special: this.props.skills.special,
             PassiveA: this.props.skills.passiveA,
             PassiveB: this.props.skills.passiveB,
-            PassiveC: this.props.skills.passiveC
+            PassiveC: this.props.skills.passiveC,
+            Seal: this.props.skills.seal
         }
 
         let storedBuilds = this.state.storedBuilds;
