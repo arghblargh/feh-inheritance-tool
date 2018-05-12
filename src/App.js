@@ -176,7 +176,7 @@ class SkillInfoRow extends Component {
           </td>;
       }
     }
-    catch (ex) {
+    catch (e) {
       skillDropdown = 
         <td className="skill-name" colSpan="2">
           <Dropdown addClass='skillName'

@@ -48,6 +48,13 @@
     "Def": 13,
     "Res": 3
   },
+  "Ares: Black Knight": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 5
+  },
   "Arthur: Hapless Hero": {
     "HP": 19,
     "Atk": 8,
@@ -692,6 +699,13 @@
     "Def": 4,
     "Res": 7
   },
+  "Ishtar: Thunder Goddess": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 4,
+    "Res": 7
+  },
   "Jaffar: Angel of Death": {
     "HP": 17,
     "Atk": 7,
@@ -740,6 +754,13 @@
     "Spd": 7,
     "Def": 4,
     "Res": 8
+  },
+  "Julius: Scion of Darkness": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 9
   },
   "Kagero: Honorable Ninja": {
     "HP": 16,
@@ -830,6 +851,13 @@
     "Atk": 6,
     "Spd": 10,
     "Def": 8,
+    "Res": 6
+  },
+  "Lene: Yearning Dancer": {
+    "HP": 16,
+    "Atk": 6,
+    "Spd": 7,
+    "Def": 4,
     "Res": 6
   },
   "Leo: Seashore's Prince": {
@@ -1602,7 +1630,7 @@
     "Def": 6,
     "Res": 6
   },
-  "Tharja: \"Normal Girl\"": {
+  "Tharja: &quot;Normal Girl&quot;": {
     "HP": 19,
     "Atk": 10,
     "Spd": 5,

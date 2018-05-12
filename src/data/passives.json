@@ -946,6 +946,17 @@
       "cost": 240,
       "effect": "Enables unit whose own HP is ≤ 50% to warp adjacent to any ally."
     },
+    "Firestorm Dance 1": {
+      "cost": 120,
+      "effect": "If Sing or Dance is used, grants Atk/Spd+2 to target.",
+      "require": "Blaze Dance 1|Gale Dance 1",
+      "restriction": "Offense"
+    },
+    "Firestorm Dance 2": {
+      "cost": 240,
+      "effect": "If Sing or Dance is used, grants Atk/Spd+3 to target.",
+      "restriction": "Offense"
+    },
     "Flier Formation 1": {
       "cost": 60,
       "effect": "If unit has 100% HP, unit can move to a space adjacent to a flier ally within 2 spaces.",
@@ -999,7 +1010,7 @@
     "Geyser Dance 1": {
       "cost": 120,
       "effect": "If Sing or Dance is used, target also granted Def/Res+3.",
-      "require": "Torrent Dance 1",
+      "require": "Torrent Dance 1|Earth Dance 1",
       "restriction": "Offense"
     },
     "Geyser Dance 2": {
@@ -1215,6 +1226,17 @@
     "Seal Def 3": {
       "cost": 160,
       "effect": "After combat, foe suffers Def-7 through its next action.",
+      "restriction": "Offense"
+    },
+    "Seal Def/Res 1": {
+      "cost": 80,
+      "effect": "Inflicts Def/Res-3 on foe through its next action after combat.",
+      "require": "Seal Def 1|Seal Res 1",
+      "restriction": "Offense"
+    },
+    "Seal Def/Res 2": {
+      "cost": 160,
+      "effect": "Inflicts Def/Res-5 on foe through its next action after combat.",
       "restriction": "Offense"
     },
     "Seal Res 1": {
@@ -1861,6 +1883,18 @@
       "cost": 120,
       "effect": "If unit survives, all lance users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)",
       "restriction": "Lance"
+    },
+    "Odd Atk Wave 1": {
+      "cost": 60,
+      "effect": "At start of odd-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Odd Atk Wave 2": {
+      "cost": 120,
+      "effect": "At start of odd-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Odd Atk Wave 3": {
+      "cost": 240,
+      "effect": "At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
     },
     "Panic Ploy 1": {
       "cost": 60,

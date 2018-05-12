@@ -418,6 +418,64 @@
       ]
     }
   },
+  "Ares: Black Knight": {
+    "name": "Ares",
+    "title": "Black Knight",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "bane": [
+      "HP",
+      "Spd",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Slaying Edge"
+        },
+        {
+          "name": "Dark Mystletainn"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Def 1"
+        },
+        {
+          "name": "Brazen Atk/Def 2"
+        },
+        {
+          "name": "Brazen Atk/Def 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Def 1"
+        },
+        {
+          "name": "Seal Def/Res 1"
+        },
+        {
+          "name": "Seal Def/Res 2"
+        }
+      ]
+    }
+  },
   "Arthur: Hapless Hero": {
     "name": "Arthur",
     "title": "Hapless Hero",
@@ -1489,6 +1547,9 @@
         },
         {
           "name": "Brave Axe+"
+        },
+        {
+          "name": "Camilla's Axe"
         }
       ],
       "special": [
@@ -2392,6 +2453,9 @@
         },
         {
           "name": "Silver Lance+"
+        },
+        {
+          "name": "Rhomphaia"
         }
       ],
       "assist": [
@@ -6030,6 +6094,77 @@
       ]
     }
   },
+  "Ishtar: Thunder Goddess": {
+    "name": "Ishtar",
+    "title": "Thunder Goddess",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Thoron"
+        },
+        {
+          "name": "Mjölnir"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Moonbow"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Sparrow 1"
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vantage 1"
+        },
+        {
+          "name": "Vantage 2"
+        },
+        {
+          "name": "Vantage 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Atk Wave 1"
+        },
+        {
+          "name": "Odd Atk Wave 2"
+        },
+        {
+          "name": "Odd Atk Wave 3"
+        }
+      ]
+    }
+  },
   "Jaffar: Angel of Death": {
     "name": "Jaffar",
     "title": "Angel of Death",
@@ -6456,6 +6591,69 @@
         },
         {
           "name": "Breath of Life 3"
+        }
+      ]
+    }
+  },
+  "Julius: Scion of Darkness": {
+    "name": "Julius",
+    "title": "Scion of Darkness",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 3
+        },
+        {
+          "name": "Ruin",
+          "unlock": 3
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 3
+        },
+        {
+          "name": "Loptous"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1",
+          "unlock": 3
+        },
+        {
+          "name": "Guard 2",
+          "unlock": 4
+        },
+        {
+          "name": "Guard 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Ploy 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Ploy 2",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Ploy 3",
+          "unlock": 4
         }
       ]
     }
@@ -7288,6 +7486,64 @@
         },
         {
           "name": "Drive Atk 2"
+        }
+      ]
+    }
+  },
+  "Lene: Yearning Dancer": {
+    "name": "Lene",
+    "title": "Yearning Dancer",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Safeguard"
+        },
+        {
+          "name": "Safeguard+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Gale Dance 1"
+        },
+        {
+          "name": "Firestorm Dance 1"
+        },
+        {
+          "name": "Firestorm Dance 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Sword Valor 1"
+        },
+        {
+          "name": "Sword Valor 2"
+        },
+        {
+          "name": "Sword Valor 3"
         }
       ]
     }

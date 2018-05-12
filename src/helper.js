@@ -202,7 +202,7 @@ export class BuildManager extends React.PureComponent {
                 try {
                     buildName = /name\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim();
                 }
-                catch (TypeError) {
+                catch (e) {
                     console.error('Error retrieving build name.');
                     hasError = true;
                 }
@@ -223,7 +223,7 @@ export class BuildManager extends React.PureComponent {
                         }
                     }
                 }
-                catch (TypeError) {
+                catch (e) {
                     console.error('Error retrieving boon/bane: ' + buildName);
                     build.Boon = '';
                     build.Bane = '';
@@ -241,7 +241,7 @@ export class BuildManager extends React.PureComponent {
 
                     build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr');
 
-                    if (/Atk\/(Def|Res)/.test(build.PassiveA)) {
+                    if (/^Atk\/(Def|Res)/.test(build.PassiveA)) {
                         if (/Def/.test(build.PassiveA)) {
                             build.PassiveA = build.PassiveA.replace('Atk/Def ', 'Attack/Def +');
                         }
@@ -282,7 +282,7 @@ export class BuildManager extends React.PureComponent {
                             build[i] = '';
                     }
                 }
-                catch (TypeError) {
+                catch (e) {
                     console.error('Error retrieving skills: ' + buildName);
                     build = units[unitName].skills;
                     hasError = true;
@@ -404,8 +404,12 @@ export function getLowestRarity(unit) {
 function getWeaponUpgrade(unit) {
     var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
     
-    if (upgrades.Evolve[maxWeapon])
-        return upgrades.Evolve[maxWeapon];
+    if (upgrades.Evolve[maxWeapon]) {
+        if (upgrades.Evolve[maxWeapon].unit && upgrades.Evolve[maxWeapon].unit.includes(unit))
+            return upgrades.Evolve[maxWeapon].weapon;
+        else
+            return upgrades.Evolve[maxWeapon];
+    }
 
     return null;
 }
@@ -690,27 +694,32 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                         type === 'U' ? { effect: getUpgradeEffect(skills.weapon, skills.upgrade, unit) } :
                                        passives[type][skill];
         
-        let matches = [];
-        if (/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.test(skillData.effect))
-            matches.push(/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.exec(skillData.effect)[1]);
-        if (/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.test(skillData.effect))
-            matches.push(/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.exec(skillData.effect)[1]);
-        for (let match of matches) {
-            let bonus = /^([\w/]+)\s?(\+|-)(\d)$/.exec(match);
-            let sign = bonus[2] === '+' ? 1 : -1;
-            temp = parseInt(bonus[3], 10);
-            for (let stat of bonus[1].split('/')) {
-                if (/HP/.test(stat))
-                    totalMod[0] += temp * sign;
-                if (/Atk|Attack/.test(stat))
-                    totalMod[1] += temp * sign;
-                if (/Spd|Speed/.test(stat))
-                    totalMod[2] += temp * sign;
-                if (/Def|Defense/.test(stat))
-                    totalMod[3] += temp * sign;
-                if (/Res|Resistance/.test(stat))
-                    totalMod[4] += temp * sign;
+        try {
+            let matches = [];
+            if (/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.test(skillData.effect))
+                matches.push(/(?:Grants |^)([\w/]+\s?[+]\d)(?:\.| and)/.exec(skillData.effect)[1]);
+            if (/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.test(skillData.effect))
+                matches.push(/(?:Inflicts |^)([\w/]+\s?[-]\d)(?:\.| and)/.exec(skillData.effect)[1]);
+            for (let match of matches) {
+                let bonus = /^([\w/]+)\s?(\+|-)(\d)$/.exec(match);
+                let sign = bonus[2] === '+' ? 1 : -1;
+                temp = parseInt(bonus[3], 10);
+                for (let stat of bonus[1].split('/')) {
+                    if (/HP/.test(stat))
+                        totalMod[0] += temp * sign;
+                    if (/Atk|Attack/.test(stat))
+                        totalMod[1] += temp * sign;
+                    if (/Spd|Speed/.test(stat))
+                        totalMod[2] += temp * sign;
+                    if (/Def|Defense/.test(stat))
+                        totalMod[3] += temp * sign;
+                    if (/Res|Resistance/.test(stat))
+                        totalMod[4] += temp * sign;
+                }
             }
+        }
+        catch (e) {
+            console.error('Error calculating skill stats (' + skill + ', ' + skillData + ')');
         }
     }
     
