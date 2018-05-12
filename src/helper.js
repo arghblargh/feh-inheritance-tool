@@ -392,7 +392,7 @@ export class BuildManager extends React.PureComponent {
                 }
                 <div className="link"><a href={this.state.link} target="_blank">More Info...</a></div>
                 <div className="buttons">
-                    <button onClick={this.handleNewClick}>New</button>
+                    <button onClick={this.handleNewClick} hidden={this.state.newBuild}>New</button>
                     <button onClick={this.handleDeleteClick} hidden={!canSave}>{this.state.newBuild ? 'Cancel' : 'Delete'}</button>
                     <button onClick={this.handleSaveClick} disabled={!canSave}>Save</button>
                     <button onClick={this.handleLoadClick}>Load</button>
