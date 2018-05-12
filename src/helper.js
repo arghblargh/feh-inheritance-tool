@@ -21,7 +21,7 @@
 // SOFTWARE.
 
 import React from 'react';
-import { Dropdown, escapeRegExp, jsonp } from './utility.js';
+import { Dropdown, escapeRegExp, jsonp, storageAvailable } from './utility.js';
 
 const units = require('./data/units.json');
 const baseStats = {
@@ -109,6 +109,7 @@ export const unitPortrait = Object.keys(units).reduce(function(previous, current
     return previous;
 }, {});
 
+const initUnit = 'Abel: The Panther';
 const userBuildLabel = '----- User Builds -----';
 const wikiBuildLabel = '----- Wiki Builds -----';
 
@@ -118,20 +119,26 @@ export class BuildManager extends React.PureComponent {
         super(props);
 
         this.state = {
-            unit: 'Abel',
+            unit: initUnit,
             link: null,
             builds: {},
+            userBuilds: {},
             current: wikiBuildLabel,
             newBuild: false,
-            newBuildName: null
+            newBuildName: '',
+            storedBuilds: (storageAvailable('localStorage') && localStorage.userBuilds && JSON.parse(localStorage.userBuilds)) || {}
         };
 
         this.handleChange = this.handleChange.bind(this);
+        this.handleNewClick = this.handleNewClick.bind(this);
+        this.handleSaveClick = this.handleSaveClick.bind(this);
         this.handleLoadClick = this.handleLoadClick.bind(this);
+        this.handleDeleteClick = this.handleDeleteClick.bind(this);
+        this.handleBuildNameChange = this.handleBuildNameChange.bind(this);
     }
 
     componentDidMount() {
-        this.retrieveData('Abel');
+        this.retrieveData(initUnit);
     }
 
     componentWillReceiveProps(props) {
@@ -140,7 +147,8 @@ export class BuildManager extends React.PureComponent {
             this.setState({ 
                 unit: props.unitName,
                 newBuild: false,
-                newBuildName: null
+                newBuildName: '',
+                userBuilds: this.state.storedBuilds[props.unitName] ? this.state.storedBuilds[props.unitName] : {}
             });
         }
     }
@@ -148,7 +156,7 @@ export class BuildManager extends React.PureComponent {
     handleChange(buildName) {
         this.setState({ 
             newBuild: false,
-            newBuildName: null,
+            newBuildName: '',
             current: buildName 
         });
     }
@@ -161,27 +169,70 @@ export class BuildManager extends React.PureComponent {
         }
     }
 
-    handleBuildNameChange(buildName) {
+    handleBuildNameChange(event) {
+        let buildName = event.target.value;
         this.setState({ 
             newBuildName: buildName
         });
     }
 
     handleSaveClick() {
-        let builds = this.state.builds;
+        let builds = this.state.userBuilds;
+        let buildName = this.state.newBuild ? this.state.newBuildName : this.state.current;
 
-        // let newBuild = 
+        builds[buildName] = {
+            Boon: this.props.boonBane.boon,
+            Bane: this.props.boonBane.bane,
+            Weapon: this.props.skills.weapon,
+            Upgrade: this.props.skills.upgrade,
+            Assist: this.props.skills.assist,
+            Special: this.props.skills.special,
+            PassiveA: this.props.skills.passiveA,
+            PassiveB: this.props.skills.passiveB,
+            PassiveC: this.props.skills.passiveC
+        }
+
+        let storedBuilds = this.state.storedBuilds;
+        if (storageAvailable('localStorage')) {
+            storedBuilds[this.props.unitName] = builds;
+            localStorage.userBuilds = JSON.stringify(storedBuilds);
+        }
+
+        this.setState({
+            newBuild: false,
+            userBuilds: builds,
+            current: buildName,
+            storedBuilds: storedBuilds
+        });
     }
 
     handleLoadClick() {
-        if (this.state.current !== wikiBuildLabel) {
-            this.props.onLoadClick(this.state.builds[this.state.current]);
+        if (this.state.current !== wikiBuildLabel && this.state.current !== userBuildLabel) {
+            this.props.onLoadClick(this.state.builds[this.state.current] ? this.state.builds[this.state.current] : this.state.userBuilds[this.state.current]);
         }
     }
 
-    loadStorageData(unitName) {
-        let builds = storageAvailable('localStorage') && localStorage.userBuilds && JSON.parse(localStorage.userBuilds);
+    handleDeleteClick() {
+        if (this.state.newBuild) {
+            this.setState({
+                newBuild: false
+            });
+        }
+        else if (this.state.userBuilds[this.state.current]) {
+            let builds = this.state.userBuilds;
+            delete builds[this.state.current];
 
+            let storedBuilds = this.state.storedBuilds;
+            if (storageAvailable('localStorage')) {
+                storedBuilds[this.props.unitName] = builds;
+                localStorage.userBuilds = JSON.stringify(storedBuilds);
+            }
+
+            this.setState({
+                userBuilds: builds,
+                current: userBuildLabel
+            });
+        }
     }
     
     retrieveData(unitName) {
@@ -298,17 +349,24 @@ export class BuildManager extends React.PureComponent {
             this.setState({
                 link: "https://feheroes.gamepedia.com/" + unitName.replace(/\s/g, '_') + "/Builds",
                 builds: builds,
-                current: builds[this.state.current] ? this.state.current : wikiBuildLabel
+                current: builds[this.state.current] ? this.state.current : wikiBuildLabel,
+                userBuilds: this.state.storedBuilds[unitName] ? this.state.storedBuilds[unitName] : {}
             });
         }.bind(this));
     }
 
     render() {
         let buildSelect = null;
-        if (this.state.link) {
-            if (Object.keys(this.state.builds).length > 0) {
+        let numWikiBuilds = Object.keys(this.state.builds).length;
+        let numUserBuilds = Object.keys(this.state.userBuilds).length;
+        let buildList = [wikiBuildLabel].concat(Object.keys(this.state.builds));
+        if (numUserBuilds > 0)
+            buildList = buildList.concat([userBuildLabel].concat(Object.keys(this.state.userBuilds)));
+
+        if (numWikiBuilds + numUserBuilds > 0) {
+            if (numWikiBuilds > 0) {
                 buildSelect = <Dropdown id="BuildSelectDropdown"
-                                options={[wikiBuildLabel].concat(Object.keys(this.state.builds))}
+                                options={buildList}
                                 value={this.state.current}
                                 onChange={this.handleChange} />;
             } else {
@@ -322,6 +380,8 @@ export class BuildManager extends React.PureComponent {
                                     value={'Loading...'} />;
         }
 
+        let canSave = this.state.newBuild || this.state.userBuilds[this.state.current];
+
         return (
             <div className="build-manager">
                 <div className="select">{buildSelect}</div>
@@ -333,7 +393,8 @@ export class BuildManager extends React.PureComponent {
                 <div className="link"><a href={this.state.link} target="_blank">More Info...</a></div>
                 <div className="buttons">
                     <button onClick={this.handleNewClick}>New</button>
-                    <button onClick={this.handleSaveClick} disabled={!this.state.newBuild}>Save</button>
+                    <button onClick={this.handleDeleteClick} hidden={!canSave}>{this.state.newBuild ? 'Cancel' : 'Delete'}</button>
+                    <button onClick={this.handleSaveClick} disabled={!canSave}>Save</button>
                     <button onClick={this.handleLoadClick}>Load</button>
                 </div>
             </div>
