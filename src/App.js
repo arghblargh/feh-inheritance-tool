@@ -268,7 +268,7 @@ class SkillInfoTable extends Component {
 
     for (let rarity in unitList) {
       for (let unit of unitList[rarity]) {
-        if (/^(Alfonse|Anna|Sharena)$/.test(unit))
+        if (/^(Alfonse: Prince of Askr|Anna: Commander|Sharena: Princess of Askr)$/.test(unit))
           exclude.push(unit);
         // if (RegExp(escapeRegExp(unitName) + '$').test(unit))
         //   return '';
@@ -774,7 +774,7 @@ class InheritanceTool extends Component {
 
   handlePortraitToggle(isOn) {
     if (storageAvailable('localStorage')) {
-      localStorage.usePortraits = JSON.stringify(isOn);
+      localStorage.usePortraits = (isOn);
     }
     this.setState({
       usePortraits: isOn
