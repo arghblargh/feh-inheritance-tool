@@ -817,6 +817,18 @@
       "effect": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
       "restriction": "Weapon:SwLADrBDa"
     },
+    "Chill Atk 1": {
+      "cost": 50,
+      "effect": "At the start of each turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action."
+    },
+    "Chill Atk 2": {
+      "cost": 100,
+      "effect": "At the start of each turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action."
+    },
+    "Chill Atk 3": {
+      "cost": 200,
+      "effect": "At the start of each turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."
+    },
     "Chill Def 1": {
       "cost": 50,
       "effect": "At the start of each turn, inflicts Def-3 on foe on the enemy team with the highest Def through its next action."
@@ -889,6 +901,18 @@
       "cost": 240,
       "effect": "The enemy cannot counterattack.",
       "restriction": "Staff"
+    },
+    "Def/Res Link 1": {
+      "cost": 60,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Def/Res+2 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Def/Res Link 2": {
+      "cost": 120,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Def/Res+4 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Def/Res Link 3": {
+      "cost": 240,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Def/Res+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
     "Desperation 1": {
       "cost": 50,
@@ -1288,6 +1312,18 @@
       "cost": 300,
       "effect": "Restores 30% of damage dealt when Special triggers during combat. (Stacks with effects of skills like Sol.)",
       "restriction": "Exclusive"
+    },
+    "Spd Feint 1": {
+      "cost": 60,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-3 on foes in cardinal directions of unit through their next actions."
+    },
+    "Spd Feint 2": {
+      "cost": 120,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-5 on foes in cardinal directions of unit through their next actions."
+    },
+    "Spd Feint 3": {
+      "cost": 240,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-7 on foes in cardinal directions of unit through their next actions."
     },
     "Swordbreaker 1": {
       "cost": 50,

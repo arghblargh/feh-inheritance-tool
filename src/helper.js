@@ -730,6 +730,8 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         applySkillStats(skills.passiveA, 'A');
         applySkillStats(skills.seal, 'S');
         applySummonerSupportBonus();
+
+        totalMod = totalMod.map((x, i) => { return x < 0 ? 0 : x; });
     }
 
     return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);

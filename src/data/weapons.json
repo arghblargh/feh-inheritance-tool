@@ -913,6 +913,21 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Fresh Bouquet": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit and adjacent allies for 1 turn."
+  },
+  "Fresh Bouquet+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit and adjacent allies for 1 turn.",
+    "upgrade": "-"
+  },
   "Fujin Yumi": {
     "color": "",
     "type": "Bow",
@@ -1638,6 +1653,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Múspell Fireposy": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. During combat, boosts unit's Atk/Spd by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.)",
+    "restriction": "Exclusive"
+  },
   "Naga": {
     "color": "Green",
     "type": "Tome",
@@ -1669,6 +1692,14 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+    "restriction": "Exclusive"
+  },
+  "Nifl Frostflowers": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Atk+3. During combat, boosts unit's Atk/Spd by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.)",
     "restriction": "Exclusive"
   },
   "Niu": {
