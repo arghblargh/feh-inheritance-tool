@@ -358,27 +358,25 @@ export class BuildManager extends React.PureComponent {
 
     render() {
         let buildSelect = null;
+        let buildList = [];
+
         let numWikiBuilds = Object.keys(this.state.builds).length;
+        if (numWikiBuilds > 0)
+            buildList = buildList.concat([wikiBuildLabel].concat(Object.keys(this.state.builds)));
+
         let numUserBuilds = Object.keys(this.state.userBuilds).length;
-        let buildList = [wikiBuildLabel].concat(Object.keys(this.state.builds));
         if (numUserBuilds > 0)
             buildList = buildList.concat([userBuildLabel].concat(Object.keys(this.state.userBuilds)));
 
         if (numWikiBuilds + numUserBuilds > 0) {
-            if (numWikiBuilds > 0) {
-                buildSelect = <Dropdown id="BuildSelectDropdown"
-                                options={buildList}
-                                value={this.state.current}
-                                onChange={this.handleChange} />;
-            } else {
-                buildSelect = <Dropdown id="BuildSelectDropdown"
-                                options={['No Recommended Builds']}
-                                value={'No Recommended Builds'} />;
-            }
+            buildSelect = <Dropdown id="BuildSelectDropdown"
+                            options={buildList}
+                            value={this.state.current}
+                            onChange={this.handleChange} />;
         } else {
             buildSelect = <Dropdown id="BuildSelectDropdown"
-                                    options={['Loading...']}
-                                    value={'Loading...'} />;
+                            options={['----- No Builds -----']}
+                            value={'----- No Builds -----'} />;
         }
 
         let canSave = this.state.newBuild || this.state.userBuilds[this.state.current];
