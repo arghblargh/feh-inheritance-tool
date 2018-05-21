@@ -1042,6 +1042,13 @@
     "Def": 6,
     "Res": 6
   },
+  "Marth: Altean Groom": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 5
+  },
   "Marth: Altean Prince": {
     "HP": 19,
     "Atk": 7,
@@ -1167,6 +1174,13 @@
     "Spd": 8,
     "Def": 4,
     "Res": 8
+  },
+  "Ninian: Bright-Eyed Bride": {
+    "HP": 15,
+    "Atk": 6,
+    "Spd": 7,
+    "Def": 3,
+    "Res": 5
   },
   "Ninian: Oracle of Destiny": {
     "HP": 16,
@@ -1434,6 +1448,13 @@
     "Def": 5,
     "Res": 8
   },
+  "Sanaki: Apostle in White": {
+    "HP": 16,
+    "Atk": 10,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 7
+  },
   "Sanaki: Begnion's Apostle": {
     "HP": 16,
     "Atk": 9,
@@ -1643,6 +1664,13 @@
     "Spd": 8,
     "Def": 6,
     "Res": 5
+  },
+  "Tharja: Obsessive Bride": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 4
   },
   "Tiki: Dragon Scion": {
     "HP": 15,

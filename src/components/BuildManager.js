@@ -131,7 +131,8 @@ export default class BuildManager extends React.PureComponent {
     }
     
     retrieveData(unitName) {
-        jsonp('https://feheroes.gamepedia.com/api.php?action=query&titles=' + unitName.replace(/\s/g, '_') + '/Builds&prop=revisions&rvprop=content&format=json').then(function(data) {
+        jsonp('https://feheroes.gamepedia.com/api.php?action=query&titles=' + unitName.replace(/\s/g, '_') + '/Builds&prop=revisions&rvprop=content&format=json')
+        .then(function(data) {
             let responses = [], builds = [],
                 match, re = /{{\\?n?(Skillbuild[_ ]Infobox\s?.*?})}/g;
         

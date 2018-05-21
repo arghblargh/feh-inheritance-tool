@@ -22,6 +22,11 @@ export function jsonp(url) {
     });
 }
 
+export function getJson(url) {
+    return fetch(url)
+        .then(response => response.json());
+}
+
 export function isMobile() {
     return /Mobile|Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent);
 }

@@ -15437,6 +15437,13 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -15487,6 +15494,13 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Flying",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Spd",
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -15537,6 +15551,9 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -15584,22 +15601,65 @@
       ]
     }
   },
-  "Marth: ???": {
+  "Marth: Altean Groom": {
     "name": "Marth",
-    "title": "???",
+    "title": "Altean Groom",
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
     "skills": {
       "weapon": [
         {
-          "name": "Iron Axe"
+          "name": "Iron Axe",
+          "unlock": 4
         },
         {
-          "name": "Steel Axe"
+          "name": "Steel Axe",
+          "unlock": 4
         },
         {
-          "name": "Silver Axe"
+          "name": "Ardent Service",
+          "unlock": 4
+        },
+        {
+          "name": "Ardent Service+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Spd/Def",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wings of Mercy 1",
+          "unlock": 4
+        },
+        {
+          "name": "Wings of Mercy 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wings of Mercy 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Drive Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Drive Atk 2",
+          "unlock": 4
         }
       ]
     }

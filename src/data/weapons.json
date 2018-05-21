@@ -29,6 +29,21 @@
     "effect": "Spd-2. Attack twice when initiating combat.",
     "restriction": "Exclusive"
   },
+  "Ardent Service": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn."
+  },
+  "Ardent Service+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn.",
+    "upgrade": "-"
+  },
   "Armads": {
     "color": "Green",
     "type": "Axe",
