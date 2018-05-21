@@ -9186,6 +9186,69 @@
       ]
     }
   },
+  "Marth: Altean Groom": {
+    "name": "Marth",
+    "title": "Altean Groom",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 4
+        },
+        {
+          "name": "Ardent Service",
+          "unlock": 4
+        },
+        {
+          "name": "Ardent Service+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Spd/Def",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wings of Mercy 1",
+          "unlock": 4
+        },
+        {
+          "name": "Wings of Mercy 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wings of Mercy 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Drive Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Drive Atk 2",
+          "unlock": 4
+        }
+      ]
+    }
+  },
   "Marth: Altean Prince": {
     "name": "Marth",
     "title": "Altean Prince",
@@ -10301,6 +10364,63 @@
         },
         {
           "name": "Spur Res 3"
+        }
+      ]
+    }
+  },
+  "Ninian: Bright-Eyed Bride": {
+    "name": "Ninian",
+    "title": "Bright-Eyed Bride",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Atk",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Fresh Bouquet"
+        },
+        {
+          "name": "Fresh Bouquet+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1"
+        },
+        {
+          "name": "Chill Atk 2"
+        },
+        {
+          "name": "Chill Atk 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1"
+        },
+        {
+          "name": "Drive Spd 1"
+        },
+        {
+          "name": "Drive Spd 2"
         }
       ]
     }
@@ -12709,6 +12829,63 @@
       ]
     }
   },
+  "Sanaki: Apostle in White": {
+    "name": "Sanaki",
+    "title": "Apostle in White",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Spd",
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Rexcalibur"
+        },
+        {
+          "name": "Nifl Frostflowers"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1"
+        },
+        {
+          "name": "Atk/Res Bond 2"
+        },
+        {
+          "name": "Atk/Res Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Def/Res Link 1"
+        },
+        {
+          "name": "Def/Res Link 2"
+        },
+        {
+          "name": "Def/Res Link 3"
+        }
+      ]
+    }
+  },
   "Sanaki: Begnion's Apostle": {
     "name": "Sanaki",
     "title": "Begnion's Apostle",
@@ -14580,6 +14757,62 @@
       ]
     }
   },
+  "Tharja: Obsessive Bride": {
+    "name": "Tharja",
+    "title": "Obsessive Bride",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "bane": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Fenrir"
+        },
+        {
+          "name": "Múspell Fireposy"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed"
+        },
+        {
+          "name": "Rally Atk/Spd"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1"
+        },
+        {
+          "name": "Atk/Spd Bond 2"
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd Feint 1"
+        },
+        {
+          "name": "Spd Feint 2"
+        },
+        {
+          "name": "Spd Feint 3"
+        }
+      ]
+    }
+  },
   "Tiki: Dragon Scion": {
     "name": "Tiki",
     "title": "Dragon Scion",
@@ -15426,239 +15659,6 @@
         },
         {
           "name": "Wary Fighter 3",
-          "unlock": 4
-        }
-      ]
-    }
-  },
-  "Ninian: Bright-Eyed Bride": {
-    "name": "Ninian",
-    "title": "Bright-Eyed Bride",
-    "color": "Blue",
-    "wpnType": "Tome",
-    "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
-    "skills": {
-      "weapon": [
-        {
-          "name": "Thunder"
-        },
-        {
-          "name": "Elthunder"
-        },
-        {
-          "name": "Fresh Bouquet"
-        },
-        {
-          "name": "Fresh Bouquet+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Dance"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Chill Atk 1"
-        },
-        {
-          "name": "Chill Atk 2"
-        },
-        {
-          "name": "Chill Atk 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Spd 1"
-        },
-        {
-          "name": "Drive Spd 1"
-        },
-        {
-          "name": "Drive Spd 2"
-        }
-      ]
-    }
-  },
-  "Sanaki: Apostle in White": {
-    "name": "Sanaki",
-    "title": "Apostle in White",
-    "color": "Green",
-    "wpnType": "Tome",
-    "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Spd",
-      "Def"
-    ],
-    "skills": {
-      "weapon": [
-        {
-          "name": "Wind"
-        },
-        {
-          "name": "Elwind"
-        },
-        {
-          "name": "Rexcalibur"
-        },
-        {
-          "name": "Nifl Frostflowers"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Draw Back"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Atk/Res Bond 1"
-        },
-        {
-          "name": "Atk/Res Bond 2"
-        },
-        {
-          "name": "Atk/Res Bond 3"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Def/Res Link 1"
-        },
-        {
-          "name": "Def/Res Link 2"
-        },
-        {
-          "name": "Def/Res Link 3"
-        }
-      ]
-    }
-  },
-  "Tharja: Obsessive Bride": {
-    "name": "Tharja",
-    "title": "Obsessive Bride",
-    "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
-    "skills": {
-      "weapon": [
-        {
-          "name": "Flux"
-        },
-        {
-          "name": "Ruin"
-        },
-        {
-          "name": "Fenrir"
-        },
-        {
-          "name": "Múspell Fireposy"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Rally Speed"
-        },
-        {
-          "name": "Rally Atk/Spd"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Atk/Spd Bond 1"
-        },
-        {
-          "name": "Atk/Spd Bond 2"
-        },
-        {
-          "name": "Atk/Spd Bond 3"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Spd Feint 1"
-        },
-        {
-          "name": "Spd Feint 2"
-        },
-        {
-          "name": "Spd Feint 3"
-        }
-      ]
-    }
-  },
-  "Marth: Altean Groom": {
-    "name": "Marth",
-    "title": "Altean Groom",
-    "color": "Green",
-    "wpnType": "Axe",
-    "movType": "Cavalry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Axe",
-          "unlock": 4
-        },
-        {
-          "name": "Steel Axe",
-          "unlock": 4
-        },
-        {
-          "name": "Ardent Service",
-          "unlock": 4
-        },
-        {
-          "name": "Ardent Service+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Rally Defense",
-          "unlock": 4
-        },
-        {
-          "name": "Rally Spd/Def",
-          "unlock": 4
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Wings of Mercy 1",
-          "unlock": 4
-        },
-        {
-          "name": "Wings of Mercy 2",
-          "unlock": 4
-        },
-        {
-          "name": "Wings of Mercy 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Atk 1",
-          "unlock": 4
-        },
-        {
-          "name": "Drive Atk 1",
-          "unlock": 4
-        },
-        {
-          "name": "Drive Atk 2",
           "unlock": 4
         }
       ]
