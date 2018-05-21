@@ -27,6 +27,13 @@
     "Def": 39,
     "Res": 14
   },
+  "Ares: Black Knight": {
+    "HP": 37,
+    "Atk": 34,
+    "Spd": 28,
+    "Def": 30,
+    "Res": 16
+  },
   "Arthur: Hapless Hero": {
     "HP": 40,
     "Atk": 30,
@@ -531,6 +538,13 @@
     "Def": 27,
     "Res": 19
   },
+  "Marth: Altean Groom": {
+    "HP": 37,
+    "Atk": 29,
+    "Spd": 34,
+    "Def": 27,
+    "Res": 18
+  },
   "Marth: Altean Prince": {
     "HP": 38,
     "Atk": 29,
@@ -818,6 +832,13 @@
     "Def": 34,
     "Res": 30
   },
+  "Shigure: Uplifting Artist": {
+    "HP": 37,
+    "Atk": 30,
+    "Spd": 35,
+    "Def": 24,
+    "Res": 24
+  },
   "Soleil: Adorable Adorer": {
     "HP": 35,
     "Atk": 36,
@@ -880,6 +901,13 @@
     "Spd": 32,
     "Def": 23,
     "Res": 22
+  },
+  "Takumi: Wild Card": {
+    "HP": 37,
+    "Atk": 30,
+    "Spd": 31,
+    "Def": 23,
+    "Res": 16
   },
   "Tharja: Dark Shadow": {
     "HP": 36,

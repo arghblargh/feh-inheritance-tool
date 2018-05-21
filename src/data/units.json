@@ -432,13 +432,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Sword"
+          "name": "Iron Sword",
+          "unlock": 4
         },
         {
-          "name": "Steel Sword"
+          "name": "Steel Sword",
+          "unlock": 4
         },
         {
-          "name": "Slaying Edge"
+          "name": "Slaying Edge",
+          "unlock": 4
         },
         {
           "name": "Dark Mystletainn"
@@ -446,29 +449,36 @@
       ],
       "special": [
         {
-          "name": "Dragon Gaze"
+          "name": "Dragon Gaze",
+          "unlock": 4
         },
         {
-          "name": "Draconic Aura"
+          "name": "Draconic Aura",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "Brazen Atk/Def 1"
+          "name": "Brazen Atk/Def 1",
+          "unlock": 4
         },
         {
-          "name": "Brazen Atk/Def 2"
+          "name": "Brazen Atk/Def 2",
+          "unlock": 4
         },
         {
-          "name": "Brazen Atk/Def 3"
+          "name": "Brazen Atk/Def 3",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Seal Def 1"
+          "name": "Seal Def 1",
+          "unlock": 4
         },
         {
-          "name": "Seal Def/Res 1"
+          "name": "Seal Def/Res 1",
+          "unlock": 4
         },
         {
           "name": "Seal Def/Res 2"
@@ -9212,7 +9222,7 @@
       ],
       "assist": [
         {
-          "name": "Rally Defense",
+          "name": "Rally Speed",
           "unlock": 4
         },
         {
@@ -10384,10 +10394,10 @@
     "skills": {
       "weapon": [
         {
-          "name": "Thunder"
+          "name": "Light"
         },
         {
-          "name": "Elthunder"
+          "name": "Ellight"
         },
         {
           "name": "Fresh Bouquet"
@@ -14769,13 +14779,13 @@
     "skills": {
       "weapon": [
         {
-          "name": "Flux"
+          "name": "Fire"
         },
         {
-          "name": "Ruin"
+          "name": "Elfire"
         },
         {
-          "name": "Fenrir"
+          "name": "Bolganone"
         },
         {
           "name": "Múspell Fireposy"
