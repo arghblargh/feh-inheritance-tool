@@ -1,70 +1,70 @@
 {
   "Armored Boots": {
-    "effect": "If unit's HP = 100% at start of turn, unit can move 1 extra space. (That turn only; does not stack.)",
+    "effect": "At start of turn, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)",
     "restriction": "Armored"
   },
   "Atk Ploy 1": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Atk-3 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Atk Ploy 2": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-4 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Atk-4 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Atk Ploy 3": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Atk-5 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Atk Smoke 1": {
-    "effect": "After combat, inflicts Atk-3 on foes within within 2 spaces of target through their next actions."
+    "effect": "Inflicts Atk-3 on foes within 2 spaces of target through their next actions after combat."
   },
   "Atk Smoke 2": {
-    "effect": "After combat, inflicts Atk-5 on foes within within 2 spaces of target through their next actions."
+    "effect": "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat."
   },
   "Atk Smoke 3": {
-    "effect": "After combat, inflicts Atk-7 on foes within within 2 spaces of target through their next actions."
+    "effect": "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat."
   },
   "Attack +1": {
-    "effect": "Grants Atk +1."
+    "effect": "Grants Atk+1."
   },
   "Attack +2": {
-    "effect": "Grants Atk +2."
+    "effect": "Grants Atk+2."
   },
   "Attack +3": {
-    "effect": "Grants Atk +3."
+    "effect": "Grants Atk+3."
   },
   "Brash Assault 1": {
-    "effect": "Unit automatically makes a followup when at HP ≤ 30% and attacking a foe that can counter."
+    "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 30%, unit makes a guaranteed follow-up attack."
   },
   "Brash Assault 2": {
-    "effect": "Unit automatically makes a followup when at HP ≤ 40% and attacking a foe that can counter."
+    "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 40%, unit makes a guaranteed follow-up attack."
   },
   "Brash Assault 3": {
-    "effect": "Unit automatically makes a followup when at HP ≤ 50% and attacking a foe that can counter."
+    "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack."
   },
   "Breath of Life 1": {
-    "effect": "If unit initiates attack, adjacent allies recover 3 HP after combat."
+    "effect": "If unit initiates combat, restores 3 HP to adjacent allies after combat."
   },
   "Breath of Life 2": {
-    "effect": "If unit initiates attack, adjacent allies recover 5 HP after combat."
+    "effect": "If unit initiates combat, restores 5 HP to adjacent allies after combat."
   },
   "Breath of Life 3": {
-    "effect": "If unit initiates attack, adjacent allies recover 7 HP after combat."
+    "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat."
   },
   "Close Def 1": {
-    "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+2 during combat."
+    "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+2 during combat."
   },
   "Close Def 2": {
-    "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat."
+    "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+4 during combat."
   },
   "Close Def 3": {
-    "effect": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat."
+    "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+6 during combat."
   },
   "Def Ploy 1": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Def-3 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Def Ploy 2": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-4 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Def-5 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Def Ploy 3": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Def-7 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Def Tactic 1": {
     "effect": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
@@ -76,82 +76,82 @@
     "effect": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
   },
   "Defense +1": {
-    "effect": "Grants Def +1."
+    "effect": "Grants Def+1."
   },
   "Defense +2": {
-    "effect": "Grants Def +2."
+    "effect": "Grants Def+2."
   },
   "Defense +3": {
-    "effect": "Grants Def +3."
+    "effect": "Grants Def+3."
   },
   "Deflect Magic 1": {
-    "effect": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 30%."
+    "effect": "If unit receives consecutive attacks and foe uses magic, reduces damage from foe's second attack onward by 30%."
   },
   "Deflect Magic 2": {
-    "effect": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 50%."
+    "effect": "If unit receives consecutive attacks and foe uses magic, reduces damage from foe's second attack onward by 50%."
   },
   "Deflect Magic 3": {
-    "effect": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 80%."
+    "effect": "If unit receives consecutive attacks and foe uses magic, reduces damage from foe's second attack onward by 80%."
   },
   "Deflect Melee 1": {
-    "effect": "If unit receives consecutive attacks from a foe using sword, lance, or axe, damage from second attack onward reduced by 30%.",
+    "effect": "If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 30%.",
     "restriction": "Melee"
   },
   "Deflect Melee 2": {
-    "effect": "If unit receives consecutive attacks from a foe using sword, lance, or axe, damage from second attack onward reduced by 50%.",
+    "effect": "If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 50%.",
     "restriction": "Melee"
   },
   "Deflect Melee 3": {
-    "effect": "If unit receives consecutive attacks from a foe using sword, lance, or axe, damage from second attack onward reduced by 80%.",
+    "effect": "If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 80%.",
     "restriction": "Melee"
   },
   "Deflect Missile 1": {
-    "effect": "If unit receives consecutive attacks from a foe using bow or dagger, damage from second attack onward reduced by 30%."
+    "effect": "If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 30%."
   },
   "Deflect Missile 2": {
-    "effect": "If unit receives consecutive attacks from a foe using bow or dagger, damage from second attack onward reduced by 50%."
+    "effect": "If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 50%."
   },
   "Deflect Missile 3": {
-    "effect": "If unit receives consecutive attacks from a foe using bow or dagger, damage from second attack onward reduced by 80%."
+    "effect": "If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 80%."
   },
   "Distant Def 1": {
-    "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+2 during combat."
+    "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+2 during combat."
   },
   "Distant Def 2": {
-    "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+4 during combat."
+    "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+4 during combat."
   },
   "Distant Def 3": {
-    "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
+    "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat."
   },
   "Drive Atk 1": {
-    "effect": "Grants allies within 2 spaces Atk+2 during combat."
+    "effect": "Grants Atk+2 to allies within 2 spaces during combat."
   },
   "Drive Atk 2": {
-    "effect": "Grants allies within 2 spaces Atk+3 during combat."
+    "effect": "Grants Atk+23 to allies within 2 spaces during combat."
   },
   "Drive Def 1": {
-    "effect": "Grants allies within 2 spaces Def+2 during combat."
+    "effect": "Grants Def+2 to allies within 2 spaces during combat."
   },
   "Drive Def 2": {
-    "effect": "Grants allies within 2 spaces Def+3 during combat."
+    "effect": "Grants Def+3 to allies within 2 spaces during combat."
   },
   "Fortify Def 1": {
-    "effect": "Grants adjacent allies Def+2 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Def+2 to adjacent allies for 1 turn."
   },
   "Fortify Def 2": {
-    "effect": "Grants adjacent allies Def+3 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Def+3 to adjacent allies for 1 turn."
   },
   "Fortify Def 3": {
-    "effect": "Grants adjacent allies Def+4 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Def+4 to adjacent allies for 1 turn."
   },
   "Fortify Res 1": {
-    "effect": "Grants adjacent allies Res+2 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Res+2 to adjacent allies for 1 turn."
   },
   "Fortify Res 2": {
-    "effect": "Grants adjacent allies Res+3 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Res+3 to adjacent allies for 1 turn."
   },
   "Fortify Res 3": {
-    "effect": "Grants adjacent allies Res+4 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Res+4 to adjacent allies for 1 turn."
   },
   "Fortress Def 1": {
     "effect": "Grants Def+3. Inflicts Atk-3."
@@ -172,234 +172,234 @@
     "effect": "Grants Res+5. Inflicts Atk-3."
   },
   "Guidance 1": {
-    "effect": "If unit has 100% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+    "effect": "If unit's HP = 100%, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
     "restriction": "Flying"
   },
   "Guidance 2": {
-    "effect": "If unit has ≥ 50% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+    "effect": "If unit's HP ≥ 50% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
     "restriction": "Flying"
   },
   "Guidance 3": {
     "effect": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
     "restriction": "Flying"
   },
-  "HP +3": {
-    "effect": "Grants +3 to max HP."
-  },
-  "HP +4": {
-    "effect": "Grants +4 to max HP."
-  },
-  "HP +5": {
-    "effect": "Grants +5 to max HP."
-  },
   "Hardy Bearing 1": {
-    "effect": "Disables skills that change unit's attack priority. If unit has 100% HP at start of battle, enemy skills that change attack priority are also disabled."
+    "effect": "Disables unit's skills that change attack priority. At start of combat, if unit's HP = 100%, disables foe's skills that change attack priority."
   },
   "Hardy Bearing 2": {
-    "effect": "Disables skills that change unit's attack priority. If unit has 50% HP at start of battle, enemy skills that change attack priority are also disabled."
+    "effect": "Disables unit's skills that change attack priority. At start of combat, if unit's HP ≥ 50%, disables foe's skills that change attack priority."
   },
   "Hardy Bearing 3": {
-    "effect": "Disables skills that change unit's attack priority. Enemy skills that change attack priority are also disabled."
+    "effect": "Disables unit's and foe's skills that change attack priority."
   },
   "Heavy Blade 1": {
-    "effect": "If unit's Atk - foe's Atk ≥ 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+    "effect": "If unit's Atk ≥ foe's Atk+5, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
     "restriction": "Offense"
   },
   "Heavy Blade 2": {
-    "effect": "If unit's Atk - foe's Atk ≥ 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+    "effect": "If unit's Atk ≥ foe's Atk+3, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
     "restriction": "Offense"
   },
   "Heavy Blade 3": {
-    "effect": "If unit's Atk - foe's Atk ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)",
+    "effect": "If unit's Atk > foe's Atk, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
     "restriction": "Offense"
   },
   "Hone Atk 1": {
-    "effect": "Grants adjacent allies Atk+2 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Atk+2 to adjacent allies for 1 turn."
   },
   "Hone Atk 2": {
-    "effect": "Grants adjacent allies Atk+3 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Atk+3 to adjacent allies for 1 turn."
   },
   "Hone Atk 3": {
-    "effect": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Atk+4 to adjacent allies for 1 turn."
   },
   "Hone Spd 1": {
-    "effect": "Grants adjacent allies Spd+2 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Spd+2 to adjacent allies for 1 turn."
   },
   "Hone Spd 2": {
-    "effect": "Grants adjacent allies Spd+3 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Spd+3 to adjacent allies for 1 turn."
   },
   "Hone Spd 3": {
-    "effect": "Grants adjacent allies Spd+4 through their next actions at the start of each turn."
+    "effect": "At start of turn, grants Spd+4 to adjacent allies for 1 turn."
+  },
+  "HP +3": {
+    "effect": "Grants HP+3."
+  },
+  "HP +4": {
+    "effect": "Grants HP+4."
+  },
+  "HP +5": {
+    "effect": "Grants HP+5."
   },
   "Iote's Shield": {
-    "effect": "Neutralizes \"effective against\" bonuses.",
+    "effect": "Neutralizes \"effective against flying\" bonuses.",
     "restriction": "Flying"
   },
   "Obstruct 1": {
-    "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 90%. (No effect on foes with a Pass skill.)"
+    "effect": "If unit's HP ≥ 90%, foes cannot move through spaces adjacent to unit. (Does not affect foes with Pass skills.)"
   },
   "Obstruct 2": {
-    "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 70%. (No effect on foes with a Pass skill.)"
+    "effect": "If unit's HP ≥ 70%, foes cannot move through spaces adjacent to unit. (Does not affect foes with Pass skills.)"
   },
   "Obstruct 3": {
-    "effect": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 50%. (No effect on foes with a Pass skill.)"
+    "effect": "If unit's HP ≥ 50%, foes cannot move through spaces adjacent to unit. (Does not affect foes with Pass skills.)"
   },
   "Panic Ploy 1": {
-    "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5 or more lower than unit through foe's next action."
+    "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP ≤ unit's HP-5 into penalties through their next actions."
   },
   "Panic Ploy 2": {
-    "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 3 or more lower than unit through foe's next action."
+    "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP ≤ unit's HP-3 into penalties through their next actions."
   },
   "Panic Ploy 3": {
-    "effect": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 1 or more lower than unit through foe's next action."
+    "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions."
   },
   "Phantom Spd 1": {
-    "effect": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +5 over actual value."
+    "effect": "If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +5."
   },
   "Phantom Spd 2": {
-    "effect": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +8 over actual value."
+    "effect": "If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +8."
   },
   "Phantom Spd 3": {
-    "effect": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +10 over actual value."
+    "effect": "If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +10."
   },
   "Poison Strike 1": {
-    "effect": "Inflicts 4 damage to foe after any combat this unit initiates.",
+    "effect": "If unit initiates combat, deals 4 damage to foe after combat.",
     "restriction": "Offense"
   },
   "Poison Strike 2": {
-    "effect": "Inflicts 7 damage to foe after any combat this unit initiates.",
+    "effect": "If unit initiates combat, deals 7 damage to foe after combat.",
     "restriction": "Offense"
   },
   "Poison Strike 3": {
-    "effect": "Inflicts 10 damage to foe after any combat this unit initiates.",
+    "effect": "If unit initiates combat, deals 10 damage to foe after combat.",
     "restriction": "Offense"
   },
   "Quick Riposte 1": {
-    "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 90%."
+    "effect": "If unit's HP ≥ 90% and foe initiates combat, unit makes a guaranteed follow-up attack."
   },
   "Quick Riposte 2": {
-    "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 80%."
+    "effect": "If unit's HP ≥ 80% and foe initiates combat, unit makes a guaranteed follow-up attack."
   },
   "Quick Riposte 3": {
-    "effect": "Unit automatically makes a followup attack if attacked at HP ≥ 70%."
+    "effect": "If unit's HP ≥ 70% and foe initiates combat, unit makes a guaranteed follow-up attack."
   },
   "Quickened Pulse": {
-    "effect": "Special cooldown count -1 at start of Turn 1."
+    "effect": "At the start of turn 1, grants Special cooldown count-1."
   },
   "Res Ploy 1": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Res Ploy 2": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-4 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Res-4 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Res Ploy 3": {
-    "effect": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action."
+    "effect": "At start of turn, inflicts Res-5 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Resistance +1": {
-    "effect": "Grants Res +1."
+    "effect": "Grants Res+1."
   },
   "Resistance +2": {
-    "effect": "Grants Res +2."
+    "effect": "Grants Res+2."
   },
   "Resistance +3": {
-    "effect": "Grants Res +3."
+    "effect": "Grants Res+3."
   },
   "Savage Blow 1": {
-    "effect": "If unit initiates attack, foes within 2 spaces of target take 3 damage after combat."
+    "effect": "If unit initiates combat, deals 3 damage to foes within 2 spaces of target after combat."
   },
   "Savage Blow 2": {
-    "effect": "If unit initiates attack, foes within 2 spaces of target take 5 damage after combat."
+    "effect": "If unit initiates combat, deals 5 damage to foes within 2 spaces of target after combat."
   },
   "Savage Blow 3": {
-    "effect": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat."
+    "effect": "If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat."
   },
   "Seal Atk 1": {
-    "effect": "After combat, foe suffers Atk-3 through its next action.",
+    "effect": "Inflicts Atk-3 on foe through its next action after combat.",
     "restriction": "Offense"
   },
   "Seal Atk 2": {
-    "effect": "After combat, foe suffers Atk-5 through its next action.",
+    "effect": "Inflicts Atk-5 on foe through its next action after combat.",
     "restriction": "Offense"
   },
   "Seal Atk 3": {
-    "effect": "After combat, foe suffers Atk-7 through its next action.",
+    "effect": "Inflicts Atk-7 on foe through its next action after combat.",
     "restriction": "Offense"
   },
   "Seal Spd 1": {
-    "effect": "After combat, foe suffers Spd-3 through its next action.",
+    "effect": "Inflicts Spd-3 on foe through its next action after combat.",
     "restriction": "Offense"
   },
   "Seal Spd 2": {
-    "effect": "After combat, foe suffers Spd-5 through its next action.",
+    "effect": "Inflicts Spd-5 on foe through its next action after combat.",
     "restriction": "Offense"
   },
   "Seal Spd 3": {
-    "effect": "After combat, foe suffers Spd-7 through its next action.",
+    "effect": "Inflicts Spd-7 on foe through its next action after combat.",
     "restriction": "Offense"
   },
   "Speed +1": {
-    "effect": "Grants Spd +1."
+    "effect": "Grants Spd+1."
   },
   "Speed +2": {
-    "effect": "Grants Spd +2."
+    "effect": "Grants Spd+2."
   },
   "Speed +3": {
-    "effect": "Grants Spd +3."
+    "effect": "Grants Spd+3."
   },
   "Spur Atk 1": {
-    "effect": "Grants adjacent allies Atk+2 during combat."
+    "effect": "Grants Atk+2 to adjacent allies during combat."
   },
   "Spur Atk 2": {
-    "effect": "Grants adjacent allies Atk+3 during combat."
+    "effect": "Grants Atk+3 to adjacent allies during combat."
   },
   "Spur Atk 3": {
-    "effect": "Grants adjacent allies Atk+4 during combat."
+    "effect": "Grants Atk+4 to adjacent allies during combat."
   },
   "Spur Def 1": {
-    "effect": "Grants adjacent allies Def+2 during combat."
+    "effect": "Grants Def+2 to adjacent allies during combat."
   },
   "Spur Def 2": {
-    "effect": "Grants adjacent allies Def+3 during combat."
+    "effect": "Grants Def+3 to adjacent allies during combat."
   },
   "Spur Def 3": {
-    "effect": "Grants adjacent allies Def+4 during combat."
+    "effect": "Grants Def+4 to adjacent allies during combat."
   },
   "Spur Res 1": {
     "cost": "50",
-    "effect": "Grants adjacent allies Res+2 during combat."
+    "effect": "Grants Res+2 to adjacent allies during combat."
   },
   "Spur Res 2": {
-    "effect": "Grants adjacent allies Res+3 during combat."
+    "effect": "Grants Res+3 to adjacent allies during combat."
   },
   "Spur Res 3": {
-    "effect": "Grants adjacent allies Res+4 during combat."
+    "effect": "Grants Res+4 to adjacent allies during combat."
   },
   "Spur Spd 1": {
-    "effect": "Grants adjacent allies Spd+2 during combat."
+    "effect": "Grants Spd+2 to adjacent allies during combat."
   },
   "Spur Spd 2": {
-    "effect": "Grants adjacent allies Spd+3 during combat."
+    "effect": "Grants Spd+3 to adjacent allies during combat."
   },
   "Spur Spd 3": {
-    "effect": "Grants adjacent allies Spd+4 during combat."
+    "effect": "Grants Spd+4 to adjacent allies during combat."
   },
   "Threaten Atk 1": {
-    "effect": "Inflicts Atk-3 on foes within 2 spaces through their next actions at the start of each turn."
+    "effect": "At start of turn, inflicts Atk-3 on foes within 2 spaces through their next actions."
   },
   "Threaten Atk 2": {
-    "effect": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn."
+    "effect": "At start of turn, inflicts Atk-4 on foes within 2 spaces through their next actions."
   },
   "Threaten Atk 3": {
-    "effect": "Inflicts Atk-5 on foes within 2 spaces through their next actions at the start of each turn."
+    "effect": "At start of turn, inflicts Atk-5 on foes within 2 spaces through their next actions."
   },
   "Threaten Spd 1": {
-    "effect": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn."
+    "effect": "At start of turn, inflicts Spd-3 on foes within 2 spaces through their next actions."
   },
   "Threaten Spd 2": {
-    "effect": "Inflicts Spd-4 on foes within 2 spaces through their next actions at the start of each turn."
+    "effect": "At start of turn, inflicts Spd-4 on foes within 2 spaces through their next actions."
   },
   "Threaten Spd 3": {
-    "effect": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn."
+    "effect": "At start of turn, inflicts Spd-5 on foes within 2 spaces through their next actions."
   },
   "Initiate Seal Atk 1": {
     "effect": "Grants Atk+1."
