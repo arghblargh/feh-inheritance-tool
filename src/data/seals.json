@@ -30,6 +30,12 @@
   "Attack +3": {
     "effect": "Grants Atk+3."
   },
+  "Attack/Def +1": {
+    "effect": "Grants Atk/Def+1."
+  },
+  "Attack/Def +2": {
+    "effect": "Grants Atk/Def+2."
+  },
   "Brash Assault 1": {
     "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 30%, unit makes a guaranteed follow-up attack."
   },
@@ -134,6 +140,18 @@
   },
   "Drive Def 2": {
     "effect": "Grants Def+3 to allies within 2 spaces during combat."
+  },
+  "Flier Formation 1": {
+    "effect": "If unit HP = 100%, unit can move to a space adjacent to a flying ally within 2 spaces.",
+    "restriction": "Flying"
+  },
+  "Flier Formation 2": {
+    "effect": "If unit HP ≥ 50%, unit can move to a space adjacent to a flying ally within 2 spaces.",
+    "restriction": "Flying"
+  },
+  "Flier Formation 3": {
+    "effect": "Unit can move to a space adjacent to a flying ally within 2 spaces.",
+    "restriction": "Flying"
   },
   "Fortify Def 1": {
     "effect": "At start of turn, grants Def+2 to adjacent allies for 1 turn."
@@ -345,6 +363,18 @@
   },
   "Speed +3": {
     "effect": "Grants Spd+3."
+  },
+  "Spd Smoke 1": {
+    "effect": "Inflicts Spd-3 on foes within 2 spaces of target through their next actions after combat.",
+    "restriction": "Offense"
+  },
+  "Spd Smoke 2": {
+    "effect": "Inflicts Spd-5 on foes within 2 spaces of target through their next actions after combat.",
+    "restriction": "Offense"
+  },
+  "Spd Smoke 3": {
+    "effect": "Inflicts Spd-7 on foes within 2 spaces of target through their next actions after combat.",
+    "restriction": "Offense"
   },
   "Spur Atk 1": {
     "effect": "Grants Atk+2 to adjacent allies during combat."
