@@ -37,37 +37,33 @@
         "Gronnwolf+": "Keen Gronnwolf+"
     },
     "Armorsmasher+": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against armored foes. Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Binding Blade": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat. If unit’s HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack.",
+        "effect": "If unit’s HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack.",
         "common": {
             "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat."
         }
     },
     "Eckesachs": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "At start of turn, inflicts Def-6 on foes (excluding dragons) within 2 spaces through their next actions. If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat.",
+        "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat.",
         "common": {
             "effect": "At start of turn, inflicts Def-6 on foes (excluding dragons) within 2 spaces through their next actions."
         }
     },
     "Falchion": {
-        "stats": [3, 0, 0, 0, 0],
         "units": [
             {
                 "name": "Marth: Altean Prince",
-                "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP. Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat."
+                "effect": "Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat."
             },
             {
                 "name": "Alm: Hero of Prophecy",
-                "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP. If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 5 damage to unit after combat."
+                "effect": "If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 5 damage to unit after combat."
             },
             {
                 "name": "Chrom: Exalted Prince,Lucina: Future Witness,Marth: Enigmatic Blade",
-                "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP. If unit is adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat."
+                "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat."
             }
         ],
         "common": {
@@ -75,48 +71,40 @@
         }
     },
     "Nameless Blade": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Accelerates Special trigger (cooldown count-1). Deals +10 damage when Special triggers."
+        "effect": "Deals +10 damage when Special triggers."
     },
     "Mystletainn": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
+        "effect": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
     "Regal Blade": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat. If unit is within 2 spaces of an infantry magic ally, grants Atk/Spd/Def/Res+3 during combat.",
+        "effect": "If unit is within 2 spaces of an infantry magic ally, grants Atk/Spd/Def/Res+3 during combat.",
         "common": {
             "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat."
         }
     },
     "Sieglinde": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "At start of turn, grants Atk+4 to adjacent allies for 1 turn. Grants bonus to Atk/Spd/Def/Res = highest bonus on allies within 2 spaces during combat. Calculates each stat bonus independently.",
+        "effect": "Grants bonus to Atk/Spd/Def/Res = highest bonus on allies within 2 spaces during combat. Calculates each stat bonus independently.",
         "common": {
             "effect": "At start of turn, grants Atk+4 to adjacent allies for 1 turn."
         }
     },
     "Sol Katti": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack. If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
+        "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
         "common": {
             "effect": "If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
         }
     },
     "Wing Sword": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against cavalry and armored foes. If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+        "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "Yato": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Grants Atk/Spd/Def/Res+2. If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+4 to that ally during combat.",
+        "effect": "If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+4 to that ally during combat.",
         "common": {
             "effect": "Grants Atk/Spd/Def/Res+2."
         }
     },
     "Zanbato+": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against cavalry foes. Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Berkut's Lance+": {
         "common": {
@@ -134,35 +122,28 @@
         }
     },
     "Hinoka's Spear": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "If unit is within 2 spaces of a flying or infantry ally, grants Atk/Spd+4 during combat. Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
+        "effect": "Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
     },
     "Rhomphaia": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against armored and cavalry foes. If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+        "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "Ridersbane+": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against cavalry foes. Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Siegmund": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "At the start of turn, grants adjacent allies Atk+4 for 1 turn. If unit's HP ≥ 90% and unit initiates combat, unit makes a guaranteed follow-up attack.",
+        "effect": "If unit's HP ≥ 90% and unit initiates combat, unit makes a guaranteed follow-up attack.",
         "common": {
             "effect": "At the start of turn, grants adjacent allies Atk+4 for 1 turn."
         }
     },
     "Slaying Spear+": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against armored foes. Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Basilikos": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd+5. Inflicts Def/Res-5."
+        "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
     "Camilla's Axe": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "If unit is within 2 spaces of a cavalry or flying ally, grants Atk/Spd+4 during combat. Grants Atk/Spd+3 to cavalry and flying allies within 2 spaces during combat."
+        "effect": "Grants Atk/Spd+3 to cavalry and flying allies within 2 spaces during combat."
     },
     "Carrot Axe+": {
         "common": {
@@ -170,8 +151,7 @@
         }
     },
     "Hauteclere": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Accelerates Special trigger (cooldown count-1). Deals +10 damage when Special triggers."
+        "effect": "Deals +10 damage when Special triggers."
     },
     "Legion's Axe+": {
         "common": {
@@ -179,34 +159,28 @@
         }
     },
     "Poleaxe+": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against cavalry foes. Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Slaying Hammer+": {
-        "stats": [3, 0, 0, 0, 0],
-        "effect": "Effective against armored foes. Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Brynhildr": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "If in combat against magic foe, reduces damage from foe's first attack by 30%. If foe uses bow, dagger, magic, or staff and unit's Def ≥ foe's Def+1, foe cannot make a follow-up attack.",
+        "effect": "If foe uses bow, dagger, magic, or staff and unit's Def ≥ foe's Def+1, foe cannot make a follow-up attack.",
         "common": {
             "effect": "If in combat against magic foe, reduces damage from foe's first attack by 30%."
         }
     },
     "Cymbeline": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "Grants Atk+3 to allies within 2 spaces during combat. If unit is within 2 spaces of a flying ally, grants Atk/Res+5 during combat.",
+        "effect": "If unit is within 2 spaces of a flying ally, grants Atk/Res+5 during combat.",
         "common": {
             "effect": "Grants Atk+3 to allies within 2 spaces during combat."
         }
     },
     "Forblaze": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "At start of turn, inflicts Res-7 on foe on the enemy team with the highest Res through its next action. If unit initiates combat, grants Atk+6 during combat."
+        "effect": "If unit initiates combat, grants Atk+6 during combat."
     },
     "Keen Rauðrwolf+": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "Effective against cavalry foes. Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Blessed Bouquet+": {
         "common": {
@@ -219,8 +193,7 @@
         }
     },
     "Keen Blárwolf+": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "Effective against cavalry foes. Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Green Egg+": {
         "common": {
@@ -228,8 +201,7 @@
         }
     },
     "Keen Gronnwolf+": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "Effective against cavalry foes. Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Spectral Tome+": {
         "common": {
@@ -237,8 +209,7 @@
         }
     },
     "Wind's Brand": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action. During combat, boosts Atk/Spd/Def/Res by number of adjacent allies x 2."
+        "effect": "During combat, boosts Atk/Spd/Def/Res by number of adjacent allies x 2."
     },
     "Dark Breath+": {
         "common": {
@@ -271,8 +242,7 @@
         }
     },
     "Fujin Yumi": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "Effective against flying foes. If unit's HP ≥ 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP ≥ 50%, unit can move adjacent to any ally within 2 spaces.",
+        "effect": "If unit's HP ≥ 50%, unit can move adjacent to any ally within 2 spaces.",
         "common": {
             "effect": "Effective against flying foes. If unit's HP ≥ 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
         }
@@ -283,8 +253,7 @@
         }
     },
     "Parthia": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "Effective against flying foes. Reduces damage from magic foe's first attack by 30%. If foe uses bow, dagger, magic, or staff, grants Atk+6 during combat.",
+        "effect": "If foe uses bow, dagger, magic, or staff, grants Atk+6 during combat.",
         "common": {
             "effect": "Effective against flying foes. Reduces damage from magic foe's first attack by 30%."
         }
@@ -295,15 +264,13 @@
         }
     },
     "Deathly Dagger": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions. Foes using magic cannot counterattack.",
+        "effect": "Foes using magic cannot counterattack.",
         "common": {
             "effect": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
         }
     },
     "Felicia's Plate": {
-        "stats": [0, 0, 0, 0, 0],
-        "effect": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res. Grants Special Cooldown charge +1 if foe uses magic. (Only highest value applied. Does not stack.)"
+        "effect": "Grants Special Cooldown charge +1 if foe uses magic. (Only highest value applied. Does not stack.)"
     },
     "Rogue Dagger+": {
         "common": {

@@ -161,16 +161,21 @@ function getWeaponUpgrade(unit) {
 }
 
 export function getUpgradeEffect(weapon, upgrade, unitName) {
+    var effect = weapons[weapon].effect;
+
+    if (upgrades[weapon] && upgrades[weapon].common)
+        effect = upgrades[weapon].common.effect;
+
     if (upgrade === 'X') {
         if (upgrades[weapon].units)
-            return upgrades[weapon].units.find(unit => unit.name.split(',').includes(unitName)).effect;
+            return effect + ' ' + upgrades[weapon].units.find(unit => unit.name.split(',').includes(unitName)).effect;
         else
-            return upgrades[weapon].effect;
+            return effect + ' ' + upgrades[weapon].effect;
     }
-    else if (upgrades[weapon] && upgrades[weapon].common)
-        return upgrades[weapon].common.effect;
+    else if (/[WD]/.test(upgrade))
+        return effect + ' ' + (upgrade === 'W' ? upgrades['Staff']['Wrathful'].effect : upgrades['Staff']['Dazzling'].effect);
     else
-        return weapons[weapon].effect;
+        return effect;
 }
 
 // Check inheritance restrictions.
@@ -520,7 +525,14 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         }
 
         if (upgrade === 'Special') {
-            upgradeMod = JSON.parse(JSON.stringify(upgrades[skills.weapon].stats));
+            if (upgrades[skills.weapon].stats)
+                upgradeMod = JSON.parse(JSON.stringify(upgrades[skills.weapon].stats));
+            else {
+                if (/Sword|Lance|Axe|Dragon/.test(weapons[skills.weapon].type))
+                    upgradeMod = [3, 0, 0, 0, 0];
+                else 
+                    upgradeMod = [0, 0, 0, 0, 0];
+            }
         }
         else if (/Sword|Lance|Axe|Dragon/.test(weapons[skills.weapon].type))
             upgradeMod = JSON.parse(JSON.stringify(upgrades.Melee[upgrade]));
