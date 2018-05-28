@@ -69,7 +69,10 @@
                 "name": "Chrom: Exalted Prince,Lucina: Future Witness,Marth: Enigmatic Blade",
                 "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP. If unit is adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat."
             }
-        ]
+        ],
+        "common": {
+            "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP."
+        }
     },
     "Nameless Blade": {
         "stats": [3, 0, 0, 0, 0],
