@@ -47,7 +47,7 @@ class SkillInfoRow extends Component {
 
     let result = new Set();
     for (let key in (type !== 'S' ? passives[type] : seals)) {
-      if (RegExp(escapeRegExp(skillName)).test(key)) {
+      if (RegExp('^' + escapeRegExp(skillName)).test(key)) {
         if (!/\d/.test(key))
           return null;
         let level = RegExp('^' + escapeRegExp(skillName) + '([1-9])').exec(key);
