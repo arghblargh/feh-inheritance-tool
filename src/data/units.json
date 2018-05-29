@@ -12511,6 +12511,64 @@
       ]
     }
   },
+  "Ryoma: Supreme Samurai": {
+    "name": "Ryoma",
+    "title": "Supreme Samurai",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Raijinto"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Stance 1"
+        },
+        {
+          "name": "Kestrel Stance 1"
+        },
+        {
+          "name": "Kestrel Stance 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bushido"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Guidance 1"
+        },
+        {
+          "name": "Guidance 2"
+        },
+        {
+          "name": "Guidance 3"
+        }
+      ]
+    }
+  },
   "Saber: Driven Mercenary": {
     "name": "Saber",
     "title": "Driven Mercenary",

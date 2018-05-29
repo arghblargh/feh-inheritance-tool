@@ -442,6 +442,17 @@
       "effect": "Neutralizes \"effective against flying\" bonuses.",
       "restriction": "Flying"
     },
+    "Kestrel Stance 1": {
+      "cost": 120,
+      "effect": "If foe initiates combat, grants Atk/Spd+2 during combat.",
+      "require": "Fierce Stance 1|Darting Stance 1",
+      "restriction": "Offense"
+    },
+    "Kestrel Stance 2": {
+      "cost": 240,
+      "effect": "If foe initiates combat, grants Atk/Spd+4 during combat.",
+      "restriction": "Offense"
+    },
     "Laws of Sacae": {
       "cost": 300,
       "effect": "If foe initiates combat and the number of allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+4 during combat.",
@@ -801,6 +812,11 @@
     "Brash Assault 3": {
       "cost": 200,
       "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack."
+    },
+    "Bushido": {
+      "cost": 300,
+      "effect": "Deals +10 damage when Special triggers.",
+      "restriction": "Exclusive"
     },
     "Cancel Affinity 1": {
       "cost": 50,
