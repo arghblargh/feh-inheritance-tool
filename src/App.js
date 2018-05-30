@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utility.js';
 import { moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect, getLowestRarity,
+         parseSkills, getRandomUnit, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect, getLowestRarity,
          calcStats, calcCost, calcTotalCost } from './helper.js';
 import BuildManager from './components/BuildManager.js';
 
@@ -594,7 +594,7 @@ class InheritanceTool extends Component {
   constructor(props) {
     super(props);
 
-    let initUnit = 'Abel: The Panther';
+    let initUnit = getRandomUnit();
     
     let skills = units[initUnit].skills;
     let initSkills = {

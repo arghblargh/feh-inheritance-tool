@@ -101,6 +101,11 @@ export function parseSkills(skillData) {
     return skills;
 }
 
+export function getRandomUnit() {
+    var unitNames = Object.keys(units);
+    return unitNames[Math.floor(unitNames.length * Math.random())];
+}
+
 // Gets an object of all units that can learn a skill { Rarity# : [UnitList] }
 export function getUnitsWithSkill(skill, type) {
     if (!['weapon','assist','special','passiveA','passiveB','passiveC'].includes(type)) return null;
