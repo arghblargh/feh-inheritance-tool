@@ -12517,6 +12517,9 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
