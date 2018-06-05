@@ -721,6 +721,21 @@
     }
   },
   "B": {
+    "Aerobatics 1": {
+      "cost": 60,
+      "effect": "If unit HP = 100%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+      "restriction": "Flying"
+    },
+    "Aerobatics 2": {
+      "cost": 120,
+      "effect": "If unit HP ≥ 50%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+      "restriction": "Flying"
+    },
+    "Aerobatics 3": {
+      "cost": 240,
+      "effect": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+      "restriction": "Flying"
+    },
     "Axebreaker 1": {
       "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against an axe foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
@@ -1725,6 +1740,18 @@
     "Drive Spd 2": {
       "cost": 240,
       "effect": "Grants Spd+3 to allies within 2 spaces during combat."
+    },
+    "Even Spd Wave 1": {
+      "cost": 60,
+      "effect": "At start of even-numbered turns, grants Spd+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Even Spd Wave 2": {
+      "cost": 120,
+      "effect": "At start of even-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Even Spd Wave 3": {
+      "cost": 240,
+      "effect": "At start of even-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
     },
     "Flier Guidance 1": {
       "cost": 60,

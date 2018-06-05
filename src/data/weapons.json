@@ -983,6 +983,14 @@
     "effect": "Deals +10 damage when Special triggers.",
     "upgrade": "Mt:1"
   },
+  "Giga Excalibur": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit's Spd > foe's Spd, boosts damage dealt by 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)",
+    "restriction": "Exclusive"
+  },
   "Gleipnir": {
     "color": "Red",
     "type": "Tome",
@@ -2440,6 +2448,21 @@
     "effect": "Effective against armored and cavalry foes. Grants Res+3. If armored or cavalry foe uses bow, dagger, magic, or staff, reduces damage from foe's first attack by 30%.",
     "restriction": "Exclusive"
   },
+  "The Cleaner": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Adds total bonuses on foe to damage dealt during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+  },
+  "The Cleaner+": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Adds total bonuses on foe to damage dealt during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
   "Thoron": {
     "color": "Blue",
     "type": "Tome",
@@ -2523,6 +2546,14 @@
     "cost": 400,
     "might": 14,
     "effect": "At start of turn, inflicts Atk/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
+    "restriction": "Exclusive"
+  },
+  "Vassal's Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit's Spd > foe's Spd, boosts damage dealt by 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)",
     "restriction": "Exclusive"
   },
   "Vidofnir": {

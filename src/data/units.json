@@ -15734,5 +15734,175 @@
         }
       ]
     }
+  },
+  "Karla: Sword Vassal": {
+    "name": "Karla",
+    "title": "Sword Vassal",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Vassal's Blade"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1"
+        },
+        {
+          "name": "Wrath 2"
+        },
+        {
+          "name": "Wrath 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Spd Wave 1"
+        },
+        {
+          "name": "Even Spd Wave 2"
+        },
+        {
+          "name": "Even Spd Wave 3"
+        }
+      ]
+    }
+  },
+  "Legault: The Hurricane": {
+    "name": "Legault",
+    "title": "The Hurricane",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "The Cleaner"
+        },
+        {
+          "name": "The Cleaner+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Strike 1"
+        },
+        {
+          "name": "Swift Strike 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1"
+        },
+        {
+          "name": "Atk Tactic 2"
+        },
+        {
+          "name": "Atk Tactic 3"
+        }
+      ]
+    }
+  },
+  "Nino: Pale Flower": {
+    "name": "Nino",
+    "title": "Pale Flower",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Rexcalibur"
+        },
+        {
+          "name": "Giga Excalibur"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Moonbow"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Sparrow 1"
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Aerobatics 1"
+        },
+        {
+          "name": "Aerobatics 2"
+        },
+        {
+          "name": "Aerobatics 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Smoke 1"
+        },
+        {
+          "name": "Spd Smoke 2"
+        },
+        {
+          "name": "Spd Smoke 3"
+        }
+      ]
+    }
   }
 }
