@@ -177,7 +177,7 @@ export function getUpgradeEffect(weapon, upgrade, unitName) {
         else
             return effect + ' ' + upgrades[weapon].effect;
     }
-    else if (/[WD]/.test(upgrade))
+    else if (weapons[weapon].type === 'Staff' && /[WD]/.test(upgrade))
         return effect + ' ' + (upgrade === 'W' ? upgrades['Staff']['Wrathful'].effect : upgrades['Staff']['Dazzling'].effect);
     else
         return effect;
