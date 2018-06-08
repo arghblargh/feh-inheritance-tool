@@ -182,6 +182,12 @@
     "Keen Rauðrwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
+    "Aura": {
+        "effect": "If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.",
+        "common": {
+            "effect": "At start of turn, grants Atk+6 to adjacent magic and staff allies for 1 turn."
+        }
+    },
     "Blessed Bouquet+": {
         "common": {
             "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
@@ -194,6 +200,12 @@
     },
     "Keen Blárwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Excalibur": {
+        "effect": "If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.",
+        "common": {
+            "effect": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
+        }
     },
     "Green Egg+": {
         "common": {
@@ -210,6 +222,9 @@
     },
     "Wind's Brand": {
         "effect": "During combat, boosts Atk/Spd/Def/Res by number of adjacent allies x 2."
+    },
+    "Breath of Fog": {
+        "effect": "If unit is within 2 spaces of sword or dragon ally, grants Atk/Def+5 during combat."
     },
     "Dark Breath+": {
         "common": {

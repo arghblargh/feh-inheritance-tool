@@ -9222,7 +9222,7 @@
       ],
       "assist": [
         {
-          "name": "Rally Speed",
+          "name": "Rally Defense",
           "unlock": 4
         },
         {
@@ -14906,6 +14906,9 @@
         },
         {
           "name": "Flametongue+"
+        },
+        {
+          "name": "Breath of Fog"
         }
       ],
       "special": [
@@ -14965,6 +14968,9 @@
         },
         {
           "name": "Lightning Breath+"
+        },
+        {
+          "name": "Breath of Fog"
         }
       ],
       "special": [
@@ -15901,6 +15907,49 @@
         },
         {
           "name": "Spd Smoke 3"
+        }
+      ]
+    }
+  },
+  "Linus: Mad Dog": {
+    "name": "Linus",
+    "title": "Mad Dog",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        }
+      ]
+    }
+  },
+  "Canas: Seeker of Wisdom": {
+    "name": "Canas",
+    "title": "Seeker of Wisdom",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 4
+        },
+        {
+          "name": "Ruin",
+          "unlock": 4
+        },
+        {
+          "name": "Rauðrowl",
+          "unlock": 4
+        },
+        {
+          "name": "Rauðrowl+"
         }
       ]
     }

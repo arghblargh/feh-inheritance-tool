@@ -393,6 +393,14 @@
     "might": 8,
     "effect": "Inflicts Spd-5. If unit initiates combat, unit attacks twice."
   },
+  "Breath of Fog": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
   "Bright Naginata": {
     "color": "Blue",
     "type": "Lance",
