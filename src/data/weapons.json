@@ -116,7 +116,8 @@
     "cost": 400,
     "might": 14,
     "effect": "If unit initiates combat, restores 5 HP to adjacent allies after combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Ayra's Blade": {
     "color": "Red",
@@ -399,7 +400,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Bright Naginata": {
     "color": "Blue",
@@ -753,7 +755,8 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying foes.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Expiration": {
     "color": "",
