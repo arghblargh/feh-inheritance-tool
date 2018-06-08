@@ -132,6 +132,13 @@
     "Def": 28,
     "Res": 15
   },
+  "Canas: Seeker of Wisdom": {
+    "HP": 34,
+    "Atk": 30,
+    "Spd": 26,
+    "Def": 19,
+    "Res": 31
+  },
   "Catria: Middle Whitewing": {
     "HP": 36,
     "Atk": 29,
@@ -474,6 +481,13 @@
     "Spd": 23,
     "Def": 17,
     "Res": 29
+  },
+  "Linus: Mad Dog": {
+    "HP": 39,
+    "Atk": 35,
+    "Spd": 31,
+    "Def": 29,
+    "Res": 17
   },
   "Lissa: Sprightly Cleric": {
     "HP": 36,

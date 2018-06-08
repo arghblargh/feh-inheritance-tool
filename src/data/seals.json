@@ -565,5 +565,14 @@
   },
   "Squad Ace J 3": {
     "effect": "Grants Atk+3."
+  },
+  "Squad Ace K 1": {
+    "effect": "Grants HP+3."
+  },
+  "Squad Ace K 2": {
+    "effect": "Grants HP+4."
+  },
+  "Squad Ace K 3": {
+    "effect": "Grants HP+5."
   }
 }

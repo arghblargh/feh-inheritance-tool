@@ -405,6 +405,13 @@
     "Def": 3,
     "Res": 8
   },
+  "Linus: Mad Dog": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 3
+  },
   "Lissa: Sprightly Cleric": {
     "HP": 16,
     "Atk": 6,

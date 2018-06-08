@@ -1767,6 +1767,65 @@
       ]
     }
   },
+  "Canas: Seeker of Wisdom": {
+    "name": "Canas",
+    "title": "Seeker of Wisdom",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 4
+        },
+        {
+          "name": "Ruin",
+          "unlock": 4
+        },
+        {
+          "name": "Rauðrowl",
+          "unlock": 4
+        },
+        {
+          "name": "Rauðrowl+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Resistance +1",
+          "unlock": 4
+        },
+        {
+          "name": "HP/Res 1",
+          "unlock": 4
+        },
+        {
+          "name": "HP/Res 2",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Tactic 1",
+          "unlock": 4
+        },
+        {
+          "name": "Res Tactic 2",
+          "unlock": 4
+        },
+        {
+          "name": "Res Tactic 3"
+        }
+      ]
+    }
+  },
   "Catria: Middle Whitewing": {
     "name": "Catria",
     "title": "Middle Whitewing",
@@ -6984,6 +7043,62 @@
       ]
     }
   },
+  "Karla: Sword Vassal": {
+    "name": "Karla",
+    "title": "Sword Vassal",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "boon": [
+      "Spd"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Vassal's Blade"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1"
+        },
+        {
+          "name": "Wrath 2"
+        },
+        {
+          "name": "Wrath 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Spd Wave 1"
+        },
+        {
+          "name": "Even Spd Wave 2"
+        },
+        {
+          "name": "Even Spd Wave 3"
+        }
+      ]
+    }
+  },
   "Katarina: Wayward One": {
     "name": "Katarina",
     "title": "Wayward One",
@@ -7371,6 +7486,62 @@
         },
         {
           "name": "Hone Spd 3"
+        }
+      ]
+    }
+  },
+  "Legault: The Hurricane": {
+    "name": "Legault",
+    "title": "The Hurricane",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "bane": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "The Cleaner"
+        },
+        {
+          "name": "The Cleaner+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Strike 1"
+        },
+        {
+          "name": "Swift Strike 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1"
+        },
+        {
+          "name": "Atk Tactic 2"
+        },
+        {
+          "name": "Atk Tactic 3"
         }
       ]
     }
@@ -7933,6 +8104,69 @@
         },
         {
           "name": "Fortify Res 3"
+        }
+      ]
+    }
+  },
+  "Linus: Mad Dog": {
+    "name": "Linus",
+    "title": "Mad Dog",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Basilikos"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Brazen Atk/Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Brazen Atk/Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Drive Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Drive Def 2",
+          "unlock": 4
         }
       ]
     }
@@ -10487,6 +10721,77 @@
         },
         {
           "name": "Fortify Dragons"
+        }
+      ]
+    }
+  },
+  "Nino: Pale Flower": {
+    "name": "Nino",
+    "title": "Pale Flower",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "boon": [
+      "HP",
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Rexcalibur"
+        },
+        {
+          "name": "Giga Excalibur"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Moonbow"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
+        {
+          "name": "Swift Sparrow 1"
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Aerobatics 1"
+        },
+        {
+          "name": "Aerobatics 2"
+        },
+        {
+          "name": "Aerobatics 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Smoke 1"
+        },
+        {
+          "name": "Spd Smoke 2"
+        },
+        {
+          "name": "Spd Smoke 3"
         }
       ]
     }
@@ -15737,219 +16042,6 @@
         {
           "name": "Wary Fighter 3",
           "unlock": 4
-        }
-      ]
-    }
-  },
-  "Karla: Sword Vassal": {
-    "name": "Karla",
-    "title": "Sword Vassal",
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword"
-        },
-        {
-          "name": "Steel Sword"
-        },
-        {
-          "name": "Silver Sword"
-        },
-        {
-          "name": "Vassal's Blade"
-        }
-      ],
-      "special": [
-        {
-          "name": "Dragon Gaze"
-        },
-        {
-          "name": "Draconic Aura"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Wrath 1"
-        },
-        {
-          "name": "Wrath 2"
-        },
-        {
-          "name": "Wrath 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Even Spd Wave 1"
-        },
-        {
-          "name": "Even Spd Wave 2"
-        },
-        {
-          "name": "Even Spd Wave 3"
-        }
-      ]
-    }
-  },
-  "Legault: The Hurricane": {
-    "name": "Legault",
-    "title": "The Hurricane",
-    "color": "Neutral",
-    "wpnType": "Dagger",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Dagger"
-        },
-        {
-          "name": "Steel Dagger"
-        },
-        {
-          "name": "The Cleaner"
-        },
-        {
-          "name": "The Cleaner+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Night Sky"
-        },
-        {
-          "name": "Glimmer"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Darting Blow 1"
-        },
-        {
-          "name": "Swift Strike 1"
-        },
-        {
-          "name": "Swift Strike 2"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Atk Tactic 1"
-        },
-        {
-          "name": "Atk Tactic 2"
-        },
-        {
-          "name": "Atk Tactic 3"
-        }
-      ]
-    }
-  },
-  "Nino: Pale Flower": {
-    "name": "Nino",
-    "title": "Pale Flower",
-    "color": "Green",
-    "wpnType": "Tome",
-    "movType": "Flying",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Wind"
-        },
-        {
-          "name": "Elwind"
-        },
-        {
-          "name": "Rexcalibur"
-        },
-        {
-          "name": "Giga Excalibur"
-        }
-      ],
-      "special": [
-        {
-          "name": "New Moon"
-        },
-        {
-          "name": "Moonbow"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Darting Blow 1"
-        },
-        {
-          "name": "Swift Sparrow 1"
-        },
-        {
-          "name": "Swift Sparrow 2"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Aerobatics 1"
-        },
-        {
-          "name": "Aerobatics 2"
-        },
-        {
-          "name": "Aerobatics 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spd Smoke 1"
-        },
-        {
-          "name": "Spd Smoke 2"
-        },
-        {
-          "name": "Spd Smoke 3"
-        }
-      ]
-    }
-  },
-  "Linus: Mad Dog": {
-    "name": "Linus",
-    "title": "Mad Dog",
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword"
-        },
-        {
-          "name": "Steel Sword"
-        }
-      ]
-    }
-  },
-  "Canas: Seeker of Wisdom": {
-    "name": "Canas",
-    "title": "Seeker of Wisdom",
-    "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Flux",
-          "unlock": 4
-        },
-        {
-          "name": "Ruin",
-          "unlock": 4
-        },
-        {
-          "name": "Rauðrowl",
-          "unlock": 4
-        },
-        {
-          "name": "Rauðrowl+"
         }
       ]
     }

@@ -202,6 +202,13 @@
     "Def": 31,
     "Res": 17
   },
+  "Canas: Seeker of Wisdom": {
+    "HP": 36,
+    "Atk": 32,
+    "Spd": 29,
+    "Def": 21,
+    "Res": 33
+  },
   "Catria: Middle Whitewing": {
     "HP": 39,
     "Atk": 31,
@@ -797,6 +804,13 @@
     "Def": 25,
     "Res": 20
   },
+  "Karla: Sword Vassal": {
+    "HP": 42,
+    "Atk": 35,
+    "Spd": 40,
+    "Def": 23,
+    "Res": 22
+  },
   "Katarina: Wayward One": {
     "HP": 34,
     "Atk": 32,
@@ -838,6 +852,13 @@
     "Spd": 26,
     "Def": 30,
     "Res": 22
+  },
+  "Legault: The Hurricane": {
+    "HP": 39,
+    "Atk": 31,
+    "Spd": 38,
+    "Def": 24,
+    "Res": 19
   },
   "Legion: Masked Maniac": {
     "HP": 46,
@@ -901,6 +922,13 @@
     "Spd": 36,
     "Def": 14,
     "Res": 27
+  },
+  "Linus: Mad Dog": {
+    "HP": 42,
+    "Atk": 37,
+    "Spd": 33,
+    "Def": 32,
+    "Res": 19
   },
   "Lissa: Pure Joy": {
     "HP": 43,
@@ -1188,6 +1216,13 @@
     "Spd": 33,
     "Def": 23,
     "Res": 27
+  },
+  "Nino: Pale Flower": {
+    "HP": 36,
+    "Atk": 33,
+    "Spd": 38,
+    "Def": 17,
+    "Res": 25
   },
   "Nino: Pious Mage": {
     "HP": 33,
