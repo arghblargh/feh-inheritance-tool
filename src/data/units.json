@@ -1807,8 +1807,7 @@
           "unlock": 4
         },
         {
-          "name": "HP/Res 2",
-          "unlock": 4
+          "name": "HP/Res 2"
         }
       ],
       "passiveC": [
@@ -1821,7 +1820,8 @@
           "unlock": 4
         },
         {
-          "name": "Res Tactic 3"
+          "name": "Res Tactic 3",
+          "unlock": 4
         }
       ]
     }
@@ -7061,7 +7061,7 @@
           "name": "Steel Sword"
         },
         {
-          "name": "Silver Sword"
+          "name": "Wo Dao"
         },
         {
           "name": "Vassal's Blade"
