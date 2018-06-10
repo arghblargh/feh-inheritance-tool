@@ -3,7 +3,6 @@ import { Dropdown, jsonp, storageAvailable } from '../utility.js';
 
 const units = require('../data/units.json');
 
-const initUnit = 'Abel: The Panther';
 const userBuildLabel = '----- User Builds -----';
 const wikiBuildLabel = '----- Wiki Builds -----';
 
@@ -13,7 +12,7 @@ export default class BuildManager extends React.PureComponent {
         super(props);
 
         this.state = {
-            unit: initUnit,
+            unit: null,
             link: null,
             builds: {},
             userBuilds: {},
@@ -32,17 +31,17 @@ export default class BuildManager extends React.PureComponent {
     }
 
     componentDidMount() {
-        this.retrieveData(initUnit);
+        this.retrieveData(this.props.unitName);
     }
 
-    componentWillReceiveProps(props) {
-        if (this.state.unit !== props.unitName) {
-            this.retrieveData(props.unitName);
+    componentDidUpdate(prevProps) {
+        if (prevProps.unitName !== this.props.unitName) {
+            this.retrieveData(this.props.unitName);
             this.setState({ 
-                unit: props.unitName,
+                unit: this.props.unitName,
                 newBuild: false,
                 newBuildName: '',
-                userBuilds: this.state.storedBuilds[props.unitName] ? this.state.storedBuilds[props.unitName] : {}
+                userBuilds: this.state.storedBuilds[this.props.unitName] ? this.state.storedBuilds[this.props.unitName] : {}
             });
         }
     }
@@ -157,7 +156,7 @@ export default class BuildManager extends React.PureComponent {
                 try {
                     if (/ivs/.test(response)) {
                         let bbStr = /ivs\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim();
-                        if (!bbStr || /Neutral|Any/i.test(bbStr)) {
+                        if (!bbStr || /Neutral|Any|Flexible/i.test(bbStr)) {
                             build.Boon = '';
                             build.Bane = '';
                         } else {
@@ -186,7 +185,7 @@ export default class BuildManager extends React.PureComponent {
                     build.PassiveC = /passiveC=/.test(response) ? /passiveC\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
                     build.Seal = /seal=/.test(response) ? /seal\s*?=\s*?(.*?)(?:\\|[|}])/i.exec(response)[1].trim() : '';
 
-                    build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr');
+                    build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr').replace(/ \(\w+\)/, '');
 
                     if (/^Atk\/(Def|Res)/.test(build.PassiveA)) {
                         if (/Def/.test(build.PassiveA)) {

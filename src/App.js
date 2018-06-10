@@ -17,10 +17,22 @@ const seals = require('./data/seals.json');
 class SkillInfoRow extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      showRarities: []
+    };
+
     this.handleSkillSelect = this.handleSkillSelect.bind(this);
     this.handlePassiveSkillSelect = this.handlePassiveSkillSelect.bind(this);
     this.handleSkillLevelSelect = this.handleSkillLevelSelect.bind(this);
     this.handleWeaponUpgradeSelect = this.handleWeaponUpgradeSelect.bind(this);
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.skillName !== prevProps.skillName)
+      this.setState({
+        showRarities: []
+      });
   }
 
   handleSkillSelect(skillName) {
@@ -38,6 +50,15 @@ class SkillInfoRow extends Component {
 
   handleWeaponUpgradeSelect(upgradeType) {
     this.props.onSkillSelect(upgradeType, 'upgrade');
+  }
+
+  handleExpandClick(rarity) {
+    let shown = this.state.showRarities;
+    shown.push(rarity);
+
+    this.setState({
+      showRarities: shown
+    });
   }
 
   getPassiveLevels(skillName, skillType, getFullMaxPassive = false) {
@@ -72,15 +93,20 @@ class SkillInfoRow extends Component {
       if (inheritList[rarity]) {
         result.push(rarity, <img className="rarity-icon" src={rarityIcon[rarity]} title={rarity + '★'} alt={rarity + '★'} key={rarity} />, ': ');
         
-        if (this.props.usePortraits) {
-          for (let unitName of inheritList[rarity]) {
-            result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
-          }
-          result.push(' ');
+        if (this.props.showMinRarity && result.length > 5 && !this.state.showRarities.includes(rarity)) {
+          result.push(<span title={inheritList[rarity].join(', ')} onClick={this.handleExpandClick.bind(this, rarity)} key={rarity + ' condensed'} >... </span>);
         }
         else {
-          result.push(inheritList[rarity].join(', '));
-          result.push('. ');
+          if (this.props.usePortraits) {
+            for (let unitName of inheritList[rarity]) {
+              result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+            }
+            result.push(' ');
+          }
+          else {
+            result.push(inheritList[rarity].join(', '));
+            result.push('. ');
+          }
         }
       }
     }
@@ -308,6 +334,7 @@ class SkillInfoTable extends Component {
                       cost={calcCost(this.props.unitName, this.props.skills.weapon, this.props.skills.upgrade)}
                       usePortraits={this.props.usePortraits}
                       showDesc={this.props.showDesc}
+                      showMinRarity={this.props.showMinRarity}
                       onSkillSelect={this.handleSkillSelect} />
         <SkillInfoRow category='Assist' 
                       skillName={skills.assist}
@@ -318,6 +345,7 @@ class SkillInfoTable extends Component {
                       cost={calcCost(this.props.unitName, this.props.skills.assist)}
                       usePortraits={this.props.usePortraits}
                       showDesc={this.props.showDesc}
+                      showMinRarity={this.props.showMinRarity}
                       onSkillSelect={this.handleSkillSelect} />
         <SkillInfoRow category='Special' 
                       skillName={skills.special}
@@ -328,6 +356,7 @@ class SkillInfoTable extends Component {
                       cost={calcCost(this.props.unitName, this.props.skills.special)}
                       usePortraits={this.props.usePortraits}
                       showDesc={this.props.showDesc}
+                      showMinRarity={this.props.showMinRarity}
                       onSkillSelect={this.handleSkillSelect} />
         <SkillInfoRow category='A' 
                       skillName={skills.passiveA} 
@@ -338,6 +367,7 @@ class SkillInfoTable extends Component {
                       cost={calcCost(this.props.unitName, this.props.skills.passiveA)}
                       usePortraits={this.props.usePortraits}
                       showDesc={this.props.showDesc}
+                      showMinRarity={this.props.showMinRarity}
                       onSkillSelect={this.handleSkillSelect} />
         <SkillInfoRow category='B' 
                       skillName={skills.passiveB} 
@@ -348,6 +378,7 @@ class SkillInfoTable extends Component {
                       cost={calcCost(this.props.unitName, this.props.skills.passiveB)}
                       usePortraits={this.props.usePortraits}
                       showDesc={this.props.showDesc}
+                      showMinRarity={this.props.showMinRarity}
                       onSkillSelect={this.handleSkillSelect} />
         <SkillInfoRow category='C' 
                       skillName={skills.passiveC} 
@@ -358,6 +389,7 @@ class SkillInfoTable extends Component {
                       cost={calcCost(this.props.unitName, this.props.skills.passiveC)}
                       usePortraits={this.props.usePortraits}
                       showDesc={this.props.showDesc}
+                      showMinRarity={this.props.showMinRarity}
                       onSkillSelect={this.handleSkillSelect} />
         <SkillInfoRow category='S' 
                       skillName={skills.seal} 
@@ -368,6 +400,7 @@ class SkillInfoTable extends Component {
                       cost={0}
                       usePortraits={this.props.usePortraits}
                       showDesc={this.props.showDesc}
+                      showMinRarity={this.props.showMinRarity}
                       onSkillSelect={this.handleSkillSelect} />
       </table>
     )
@@ -540,6 +573,7 @@ class ToggleBox extends Component {
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
     this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
     this.handleSkillEffectToggle = this.handleSkillEffectToggle.bind(this);
+    this.handleRarityListToggle = this.handleRarityListToggle.bind(this);
   }
   
   handleResetClick() {
@@ -556,6 +590,10 @@ class ToggleBox extends Component {
 
   handleSkillEffectToggle(e) {
     this.props.onSkillEffectToggle(e.target.checked);
+  }
+
+  handleRarityListToggle(e) {
+    this.props.onRarityListToggle(e.target.checked);
   }
 
   render() {
@@ -583,6 +621,12 @@ class ToggleBox extends Component {
           <label>
             <input type="checkbox" checked={!!this.props.showDesc} onChange={this.handleSkillEffectToggle} />
             <div className="toggle-label noselect">Effects</div>
+          </label>
+        </div>
+        <div className="toggle" title="Only display lowest rarity in list">
+          <label>
+            <input type="checkbox" checked={!!this.props.showMinRarity} onChange={this.handleRarityListToggle} />
+            <div className="toggle-label noselect">Min. Rarity</div>
           </label>
         </div>
       </div>
@@ -620,6 +664,7 @@ class InheritanceTool extends Component {
       rawStatsOn: false,
       usePortraits: storageAvailable('localStorage') && localStorage.usePortraits && JSON.parse(localStorage.usePortraits),
       showDesc: (storageAvailable('localStorage') && localStorage.showDesc) ? JSON.parse(localStorage.showDesc) : true,
+      showMinRarity: (storageAvailable('localStorage') && localStorage.showMinRarity) && JSON.parse(localStorage.showMinRarity),
       totalCost: calcTotalCost(initUnit, initSkills)
     }
 
@@ -633,6 +678,7 @@ class InheritanceTool extends Component {
     this.handleRawStatsToggle = this.handleRawStatsToggle.bind(this);
     this.handlePortraitToggle = this.handlePortraitToggle.bind(this);
     this.handleSkillEffectToggle = this.handleSkillEffectToggle.bind(this);
+    this.handleRarityListToggle = this.handleRarityListToggle.bind(this);
     this.handleBuildLoad = this.handleBuildLoad.bind(this);
   }
 
@@ -768,6 +814,15 @@ class InheritanceTool extends Component {
     });
   }
 
+  handleRarityListToggle(isOn) {
+    if (storageAvailable('localStorage')) {
+      localStorage.showMinRarity = JSON.stringify(isOn);
+    }
+    this.setState({
+      showMinRarity: isOn
+    });
+  }
+
   handleBuildLoad(build) {
     let newBoonBane = {
       boon: build.Boon,
@@ -797,10 +852,12 @@ class InheritanceTool extends Component {
         <div className="toggle-box">
           <ToggleBox usePortraits={this.state.usePortraits}
                      showDesc={this.state.showDesc}
+                     showMinRarity={this.state.showMinRarity}
                      onResetClick={this.handleResetClick}
                      onRawStatsToggle={this.handleRawStatsToggle}
                      onPortraitToggle={this.handlePortraitToggle}
-                     onSkillEffectToggle={this.handleSkillEffectToggle} />
+                     onSkillEffectToggle={this.handleSkillEffectToggle}
+                     onRarityListToggle={this.handleRarityListToggle} />
         </div>
         <div className="char-info">
           <UnitInfo state={this.state}
@@ -816,6 +873,7 @@ class InheritanceTool extends Component {
                           skills={this.state.skills}
                           usePortraits={this.state.usePortraits}
                           showDesc={this.state.showDesc}
+                          showMinRarity={this.state.showMinRarity}
                           onSkillSelect={this.handleSkillSelect} />
         </div>
         <div className="bottom-row">
