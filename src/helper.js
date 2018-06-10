@@ -385,7 +385,7 @@ function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
 }
 
 // Calculate unit stats
-export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null, merge = 0, summonerRank = '') {
+export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null, merge = 0, summonerRank = '', getMod = false) {
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
     
@@ -429,7 +429,10 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         applySummonerSupportBonus();
     }
 
-    return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);
+    if (getMod)
+        return totalMod;
+    else
+        return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);
 
     function applySkillStats(skill, type) {
         if (!skill || skill === 'undefined') return;
@@ -552,6 +555,26 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
 
         return upgradeMod;
     }
+}
+
+// Determine boon/bane from input stats
+export function calcBoonBane(unit, rarity, level, merge, rank, skills, stats) {
+    var base = JSON.parse(JSON.stringify(baseStats[rarity][level][unit]));
+    var skillMod = calcStats(unit, skills, rarity, level, null, merge, rank, true);
+    var statArr = [
+        { stat: 'HP', value: stats.HP - base.HP - skillMod[0] },
+        { stat: 'Atk', value: stats.Atk - base.Atk - skillMod[1] },
+        { stat: 'Spd', value: stats.Spd - base.Spd - skillMod[2] },
+        { stat: 'Def', value: stats.Def - base.Def - skillMod[3] },
+        { stat: 'Res', value: stats.Res - base.Res - skillMod[4] }
+    ];
+
+    statArr = statArr.sort((a, b) => b.value - a.value);
+
+    if (statArr[0].value - statArr[4].value > 1)
+        return {boon: statArr[0].stat, bane: statArr[4].stat};
+    else
+        return {boon: '', bane: ''};
 }
 
 // Searches for and returns the object containing data for a skill
