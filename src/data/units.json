@@ -15983,65 +15983,219 @@
       ]
     }
   },
-  "Zephiel: The Liberator": {
-    "name": "Zephiel",
-    "title": "The Liberator",
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Armored",
+  "Cordelia: Knight Paradise": {
+    "name": "Cordelia",
+    "title": "Knight Paradise",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
     "skills": {
       "weapon": [
         {
-          "name": "Iron Sword",
-          "unlock": 3
+          "name": "Iron Lance"
         },
         {
-          "name": "Steel Sword",
-          "unlock": 3
+          "name": "Steel Lance"
         },
         {
-          "name": "Silver Sword",
-          "unlock": 3
+          "name": "Shell Lance"
         },
         {
-          "name": "Eckesachs"
+          "name": "Shell Lance+"
         }
       ],
-      "special": [
+      "assist": [
         {
-          "name": "Retribution",
-          "unlock": 3
-        },
-        {
-          "name": "Reprisal",
-          "unlock": 4
+          "name": "Harsh Command"
         }
       ],
       "passiveA": [
         {
-          "name": "Life and Death 1",
-          "unlock": 3
+          "name": "Death Blow 1"
         },
         {
-          "name": "Life and Death 2",
-          "unlock": 4
+          "name": "Sturdy Blow 1"
         },
         {
-          "name": "Life and Death 3"
+          "name": "Sturdy Blow 2"
         }
       ],
       "passiveB": [
         {
-          "name": "Wary Fighter 1",
-          "unlock": 3
+          "name": "Dull Close 1"
         },
         {
-          "name": "Wary Fighter 2",
-          "unlock": 3
+          "name": "Dull Close 2"
         },
         {
-          "name": "Wary Fighter 3",
-          "unlock": 4
+          "name": "Dull Close 3"
+        }
+      ]
+    }
+  },
+  "Noire: Shade Seeker": {
+    "name": "Noire",
+    "title": "Shade Seeker",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Cocobow"
+        },
+        {
+          "name": "Cocobow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1"
+        },
+        {
+          "name": "Atk/Spd 1"
+        },
+        {
+          "name": "Atk/Spd 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Rush 1"
+        },
+        {
+          "name": "Infantry Rush 2"
+        },
+        {
+          "name": "Infantry Rush 3"
+        }
+      ]
+    }
+  },
+  "Innes: Flawless Form": {
+    "name": "Innes",
+    "title": "Flawless Form",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Beach Banner"
+        },
+        {
+          "name": "Beach Banner+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack"
+        },
+        {
+          "name": "Rally Atk/Def"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Def Feint 1"
+        },
+        {
+          "name": "Def Feint 2"
+        },
+        {
+          "name": "Def Feint 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk 2"
+        },
+        {
+          "name": "Goad Fliers"
+        }
+      ]
+    }
+  },
+  "Tana: Noble and Nimble": {
+    "name": "Tana",
+    "title": "Noble and Nimble",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire"
+        },
+        {
+          "name": "Elfire"
+        },
+        {
+          "name": "Bolganone"
+        },
+        {
+          "name": "Fruit of Iðunn"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed"
+        },
+        {
+          "name": "Rally Spd/Res"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Push 1"
+        },
+        {
+          "name": "Atk/Spd Push 2"
+        },
+        {
+          "name": "Atk/Spd Push 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Renewal 1"
+        },
+        {
+          "name": "Renewal 2"
+        },
+        {
+          "name": "Renewal 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk/Def 1"
+        },
+        {
+          "name": "Spur Atk/Def 2"
         }
       ]
     }

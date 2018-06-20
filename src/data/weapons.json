@@ -151,6 +151,21 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Beach Banner": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat."
+  },
+  "Beach Banner+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+    "upgrade": "-"
+  },
   "Beloved Zofia": {
     "color": "Red",
     "type": "Sword",
@@ -516,6 +531,21 @@
     "cost": 300,
     "might": 11,
     "effect": "Effective against flying foes. If unit initiates combat, inflicts Atk/Spd-5 on foes within 2 spaces of target through their next actions after combat.",
+    "upgrade": "-"
+  },
+  "Cocobow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat."
+  },
+  "Cocobow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
     "upgrade": "-"
   },
   "Cupid Arrow": {
@@ -953,6 +983,14 @@
     "might": 12,
     "effect": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit and adjacent allies for 1 turn.",
     "upgrade": "-"
+  },
+  "Fruit of Iðunn": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit's HP ≥ 50%, allies within 2 spaces can move to a space adjacent to unit.",
+    "restriction": "Exclusive"
   },
   "Fujin Yumi": {
     "color": "",
@@ -2110,6 +2148,21 @@
     "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit. After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action.",
     "upgrade": "Mt:2"
   },
+  "Shell Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat."
+  },
+  "Shell Lance+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+    "upgrade": "-"
+  },
   "Shine": {
     "color": "Blue",
     "type": "Tome",
@@ -2596,14 +2649,14 @@
     "type": "Dragon",
     "cost": 200,
     "might": 10,
-    "effect": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using thel ower of foe's Def or Res."
+    "effect": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
   },
   "Water Breath+": {
     "color": "",
     "type": "Dragon",
     "cost": 300,
     "might": 14,
-    "effect": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using thel ower of foe's Def or Res.",
+    "effect": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
     "upgrade": "-"
   },
   "Weirding Tome": {

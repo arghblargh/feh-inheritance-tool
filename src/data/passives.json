@@ -59,6 +59,18 @@
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Spd+5 during combat."
     },
+    "Atk/Spd Push 1": {
+      "cost": 60,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+3, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Spd Push 2": {
+      "cost": 120,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+4, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Spd Push 3": {
+      "cost": 240,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat."
+    },
     "Attack +1": {
       "cost": 30,
       "effect": "Grants Atk+1."
@@ -933,6 +945,18 @@
       "effect": "Foe cannot counterattack.",
       "restriction": "Staff"
     },
+    "Def Feint 1": {
+      "cost": 60,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-3 on foes in cardinal directions of unit through their next actions."
+    },
+    "Def Feint 2": {
+      "cost": 120,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-5 on foes in cardinal directions of unit through their next actions."
+    },
+    "Def Feint 3": {
+      "cost": 240,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-7 on foes in cardinal directions of unit through their next actions."
+    },
     "Def/Res Link 1": {
       "cost": 60,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Def/Res+2 to unit and target ally or unit and targeting ally for 1 turn."
@@ -961,6 +985,18 @@
       "cost": 150,
       "effect": "If unit initiates combat, unit moves 1 space away after combat. Target foe moves to unit's previous space.",
       "restriction": "Melee"
+    },
+    "Dull Close 1": {
+      "cost": 50,
+      "effect": "At start of combat, if unit's HP ≥ 100% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Dull Close 2": {
+      "cost": 100,
+      "effect": "At start of combat, if unit's HP ≥ 50% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Dull Close 3": {
+      "cost": 200,
+      "effect": "If foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "Dull Ranged 1": {
       "cost": 50,
@@ -1946,6 +1982,21 @@
     "Infantry Pulse 3": {
       "cost": 240,
       "effect": "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP < unit's HP. (Stacks with similar skills.)",
+      "restriction": "Infantry"
+    },
+    "Infantry Rush 1": {
+      "cost": 60,
+      "effect": "If unit's HP = 100%, infantry allies withing 2 spaces gain: \"If unit's Atk ≥ foe's Atk+1, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
+    },
+    "Infantry Rush 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≥ 50% HP, infantry allies withing 2 spaces gain: \"If unit's Atk ≥ foe's Atk+1, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
+    },
+    "Infantry Rush 3": {
+      "cost": 240,
+      "effect": "Infantry allies withing 2 spaces gain: \"If unit's Atk ≥ foe's Atk+1, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
       "restriction": "Infantry"
     },
     "Lance Valor 1": {
