@@ -2740,6 +2740,56 @@
       ]
     }
   },
+  "Cordelia: Knight Paradise": {
+    "name": "Cordelia",
+    "title": "Knight Paradise",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Shell Lance"
+        },
+        {
+          "name": "Shell Lance+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Harsh Command"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Armored Blow 1"
+        },
+        {
+          "name": "Sturdy Blow 1"
+        },
+        {
+          "name": "Sturdy Blow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dull Close 1"
+        },
+        {
+          "name": "Dull Close 2"
+        },
+        {
+          "name": "Dull Close 3"
+        }
+      ]
+    }
+  },
   "Cordelia: Knight Paragon": {
     "name": "Cordelia",
     "title": "Knight Paragon",
@@ -6102,6 +6152,59 @@
         },
         {
           "name": "Hone Atk 3"
+        }
+      ]
+    }
+  },
+  "Innes: Flawless Form": {
+    "name": "Innes",
+    "title": "Flawless Form",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Beach Banner"
+        },
+        {
+          "name": "Beach Banner+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense"
+        },
+        {
+          "name": "Rally Atk/Def"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Def Feint 1"
+        },
+        {
+          "name": "Def Feint 2"
+        },
+        {
+          "name": "Def Feint 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Spur Atk 2"
+        },
+        {
+          "name": "Goad Fliers"
         }
       ]
     }
@@ -10858,6 +10961,56 @@
       ]
     }
   },
+  "Noire: Shade Seeker": {
+    "name": "Noire",
+    "title": "Shade Seeker",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Cocobow"
+        },
+        {
+          "name": "Cocobow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Speed +1"
+        },
+        {
+          "name": "Atk/Spd 1"
+        },
+        {
+          "name": "Atk/Spd 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Rush 1"
+        },
+        {
+          "name": "Infantry Rush 2"
+        },
+        {
+          "name": "Infantry Rush 3"
+        }
+      ]
+    }
+  },
   "Nowi: Eternal Witch": {
     "name": "Nowi",
     "title": "Eternal Witch",
@@ -14948,6 +15101,70 @@
       ]
     }
   },
+  "Tana: Noble and Nimble": {
+    "name": "Tana",
+    "title": "Noble and Nimble",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire"
+        },
+        {
+          "name": "Elfire"
+        },
+        {
+          "name": "Bolganone"
+        },
+        {
+          "name": "Fruit of Iðunn"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed"
+        },
+        {
+          "name": "Rally Spd/Res"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Push 1"
+        },
+        {
+          "name": "Atk/Spd Push 2"
+        },
+        {
+          "name": "Atk/Spd Push 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Renewal 1"
+        },
+        {
+          "name": "Renewal 2"
+        },
+        {
+          "name": "Renewal 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1"
+        },
+        {
+          "name": "Spur Atk/Def 1"
+        },
+        {
+          "name": "Spur Atk/Def 2"
+        }
+      ]
+    }
+  },
   "Tana: Winged Princess": {
     "name": "Tana",
     "title": "Winged Princess",
@@ -15979,223 +16196,6 @@
         },
         {
           "name": "Panic Ploy 3"
-        }
-      ]
-    }
-  },
-  "Cordelia: Knight Paradise": {
-    "name": "Cordelia",
-    "title": "Knight Paradise",
-    "color": "Blue",
-    "wpnType": "Lance",
-    "movType": "Cavalry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Lance"
-        },
-        {
-          "name": "Steel Lance"
-        },
-        {
-          "name": "Shell Lance"
-        },
-        {
-          "name": "Shell Lance+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Harsh Command"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Death Blow 1"
-        },
-        {
-          "name": "Sturdy Blow 1"
-        },
-        {
-          "name": "Sturdy Blow 2"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Dull Close 1"
-        },
-        {
-          "name": "Dull Close 2"
-        },
-        {
-          "name": "Dull Close 3"
-        }
-      ]
-    }
-  },
-  "Noire: Shade Seeker": {
-    "name": "Noire",
-    "title": "Shade Seeker",
-    "color": "Neutral",
-    "wpnType": "Bow",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Bow"
-        },
-        {
-          "name": "Steel Bow"
-        },
-        {
-          "name": "Cocobow"
-        },
-        {
-          "name": "Cocobow+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Ardent Sacrifice"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Attack +1"
-        },
-        {
-          "name": "Atk/Spd 1"
-        },
-        {
-          "name": "Atk/Spd 2"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Infantry Rush 1"
-        },
-        {
-          "name": "Infantry Rush 2"
-        },
-        {
-          "name": "Infantry Rush 3"
-        }
-      ]
-    }
-  },
-  "Innes: Flawless Form": {
-    "name": "Innes",
-    "title": "Flawless Form",
-    "color": "Green",
-    "wpnType": "Axe",
-    "movType": "Flying",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Axe"
-        },
-        {
-          "name": "Steel Axe"
-        },
-        {
-          "name": "Beach Banner"
-        },
-        {
-          "name": "Beach Banner+"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Rally Attack"
-        },
-        {
-          "name": "Rally Atk/Def"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Def Feint 1"
-        },
-        {
-          "name": "Def Feint 2"
-        },
-        {
-          "name": "Def Feint 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Atk 1"
-        },
-        {
-          "name": "Spur Atk 2"
-        },
-        {
-          "name": "Goad Fliers"
-        }
-      ]
-    }
-  },
-  "Tana: Noble and Nimble": {
-    "name": "Tana",
-    "title": "Noble and Nimble",
-    "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Flying",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Fire"
-        },
-        {
-          "name": "Elfire"
-        },
-        {
-          "name": "Bolganone"
-        },
-        {
-          "name": "Fruit of Iðunn"
-        }
-      ],
-      "assist": [
-        {
-          "name": "Rally Speed"
-        },
-        {
-          "name": "Rally Spd/Res"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Atk/Spd Push 1"
-        },
-        {
-          "name": "Atk/Spd Push 2"
-        },
-        {
-          "name": "Atk/Spd Push 3"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Renewal 1"
-        },
-        {
-          "name": "Renewal 2"
-        },
-        {
-          "name": "Renewal 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Atk 1"
-        },
-        {
-          "name": "Spur Atk/Def 1"
-        },
-        {
-          "name": "Spur Atk/Def 2"
         }
       ]
     }

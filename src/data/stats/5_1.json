@@ -314,6 +314,13 @@
     "Def": 8,
     "Res": 4
   },
+  "Cordelia: Knight Paradise": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 5
+  },
   "Cordelia: Knight Paragon": {
     "HP": 18,
     "Atk": 9,
@@ -698,6 +705,13 @@
     "Spd": 7,
     "Def": 5,
     "Res": 3
+  },
+  "Innes: Flawless Form": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 5
   },
   "Innes: Regal Strategician": {
     "HP": 16,
@@ -1231,6 +1245,13 @@
     "Def": 4,
     "Res": 7
   },
+  "Noire: Shade Seeker": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 5
+  },
   "Nowi: Eternal Witch": {
     "HP": 17,
     "Atk": 8,
@@ -1685,6 +1706,13 @@
     "Spd": 7,
     "Def": 6,
     "Res": 5
+  },
+  "Tana: Noble and Nimble": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 5,
+    "Res": 6
   },
   "Tana: Winged Princess": {
     "HP": 17,
