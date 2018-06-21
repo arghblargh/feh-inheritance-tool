@@ -2746,6 +2746,10 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
+    "bane": [
+      "Def",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -7031,11 +7035,11 @@
       "weapon": [
         {
           "name": "Fire Breath",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Fire Breath+",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Water Breath",
@@ -7048,7 +7052,7 @@
       "special": [
         {
           "name": "Dragon Gaze",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Dragon Fang",
@@ -7058,7 +7062,7 @@
       "passiveA": [
         {
           "name": "Brazen Def/Res 1",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Brazen Def/Res 2",
@@ -7066,20 +7070,21 @@
         },
         {
           "name": "Brazen Def/Res 3",
-          "unlock": 4
+          "unlock": 5
         }
       ],
       "passiveC": [
         {
           "name": "Fortify Def 1",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Fortify Def 2",
-          "unlock": 4
+          "unlock": 3
         },
         {
-          "name": "Fortify Dragons"
+          "name": "Fortify Dragons",
+          "unlock": 4
         }
       ]
     }
@@ -7605,13 +7610,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Dagger"
+          "name": "Iron Dagger",
+          "unlock": 4
         },
         {
-          "name": "Steel Dagger"
+          "name": "Steel Dagger",
+          "unlock": 4
         },
         {
-          "name": "The Cleaner"
+          "name": "The Cleaner",
+          "unlock": 4
         },
         {
           "name": "The Cleaner+"
@@ -7619,18 +7627,22 @@
       ],
       "special": [
         {
-          "name": "Night Sky"
+          "name": "Night Sky",
+          "unlock": 4
         },
         {
-          "name": "Glimmer"
+          "name": "Glimmer",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "Darting Blow 1"
+          "name": "Darting Blow 1",
+          "unlock": 4
         },
         {
-          "name": "Swift Strike 1"
+          "name": "Swift Strike 1",
+          "unlock": 4
         },
         {
           "name": "Swift Strike 2"
@@ -7638,13 +7650,16 @@
       ],
       "passiveC": [
         {
-          "name": "Atk Tactic 1"
+          "name": "Atk Tactic 1",
+          "unlock": 4
         },
         {
-          "name": "Atk Tactic 2"
+          "name": "Atk Tactic 2",
+          "unlock": 4
         },
         {
-          "name": "Atk Tactic 3"
+          "name": "Atk Tactic 3",
+          "unlock": 4
         }
       ]
     }
@@ -10967,6 +10982,12 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -15107,6 +15128,10 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Flying",
+    "boon": [
+      "HP",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
