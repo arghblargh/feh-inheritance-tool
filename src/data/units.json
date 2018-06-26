@@ -8295,10 +8295,10 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "bane": {
-      "HP": 4,
-      "Spd": 4
-    },
+    "bane": [
+      "HP",
+      "Spd"
+    ],
     "skills": {
       "weapon": [
         {
