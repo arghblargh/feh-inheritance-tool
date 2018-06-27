@@ -5595,6 +5595,58 @@
       ]
     }
   },
+  "Hector: Marquess of Ostia": {
+    "name": "Hector",
+    "title": "Marquess of Ostia",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Silver Axe"
+        },
+        {
+          "name": "Thunder Armads"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1"
+        },
+        {
+          "name": "Vengeful Fighter 2"
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Ostia's Pulse"
+        }
+      ]
+    }
+  },
   "Henry: Happy Vampire": {
     "name": "Henry",
     "title": "Happy Vampire",

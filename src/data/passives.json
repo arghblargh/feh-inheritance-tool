@@ -2026,6 +2026,11 @@
       "cost": 240,
       "effect": "At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
     },
+    "Ostia's Pulse": {
+      "cost": 300,
+      "effect": "At the start of turn 1, grants Special cooldown count-1 to all allies. Granted only if number of those allies' movement types on current team ≤ 2.",
+      "restriction": "Exclusive"
+    },
     "Panic Ploy 1": {
       "cost": 60,
       "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP ≤ unit's HP-5 into penalties through their next actions."

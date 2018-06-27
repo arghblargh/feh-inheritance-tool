@@ -2549,6 +2549,14 @@
     "might": 4,
     "effect": ""
   },
+  "Thunder Armads": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
   "Thunderhead": {
     "color": "Green",
     "type": "Tome",
