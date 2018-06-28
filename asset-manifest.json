@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.e78b071c.css",
   "main.css.map": "static/css/main.e78b071c.css.map",
-  "main.js": "static/js/main.e824cde8.js",
-  "main.js.map": "static/js/main.e824cde8.js.map",
+  "main.js": "static/js/main.0f33e73a.js",
+  "main.js.map": "static/js/main.0f33e73a.js.map",
   "static\\media\\Abel_The_Panther.png": "static/media/Abel_The_Panther.e5be407b.png",
   "static\\media\\Alfonse_Prince_of_Askr.png": "static/media/Alfonse_Prince_of_Askr.5a7d0c74.png",
   "static\\media\\Alfonse_Spring_Prince.png": "static/media/Alfonse_Spring_Prince.219e03da.png",
@@ -96,6 +96,7 @@
   "static\\media\\Hawkeye_Desert_Guardian.png": "static/media/Hawkeye_Desert_Guardian.8362f9f2.png",
   "static\\media\\Hector_General_of_Ostia.png": "static/media/Hector_General_of_Ostia.9902c21e.png",
   "static\\media\\Hector_Just_Here_to_Fight.png": "static/media/Hector_Just_Here_to_Fight.8c02a09b.png",
+  "static\\media\\Hector_Marquess_of_Ostia.png": "static/media/Hector_Marquess_of_Ostia.e36a9211.png",
   "static\\media\\Helbindi_Savage_Scourge.png": "static/media/Helbindi_Savage_Scourge.3d989d17.png",
   "static\\media\\Henry_Happy_Vampire.png": "static/media/Henry_Happy_Vampire.3a50cb09.png",
   "static\\media\\Henry_Twisted_Mind.png": "static/media/Henry_Twisted_Mind.48a4cd26.png",
