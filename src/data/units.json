@@ -5601,6 +5601,12 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
+    "boon": [
+      "Atk"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {

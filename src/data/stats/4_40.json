@@ -132,7 +132,7 @@
     "Def": 28,
     "Res": 15
   },
-  "Canas: Seeker of Wisdom": {
+  "Canas: Wisdom Seeker": {
     "HP": 34,
     "Atk": 30,
     "Spd": 26,
@@ -460,6 +460,13 @@
     "Spd": 25,
     "Def": 27,
     "Res": 20
+  },
+  "Legault: The Hurricane": {
+    "HP": 36,
+    "Atk": 29,
+    "Spd": 36,
+    "Def": 22,
+    "Res": 17
   },
   "Legion: Masked Maniac": {
     "HP": 43,

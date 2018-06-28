@@ -202,7 +202,7 @@
     "Def": 31,
     "Res": 17
   },
-  "Canas: Seeker of Wisdom": {
+  "Canas: Wisdom Seeker": {
     "HP": 36,
     "Atk": 32,
     "Spd": 29,
@@ -642,6 +642,13 @@
     "Spd": 21,
     "Def": 40,
     "Res": 24
+  },
+  "Hector: Marquess of Ostia": {
+    "HP": 47,
+    "Atk": 40,
+    "Spd": 23,
+    "Def": 38,
+    "Res": 26
   },
   "Henry: Happy Vampire": {
     "HP": 36,
