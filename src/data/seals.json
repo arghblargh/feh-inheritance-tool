@@ -153,6 +153,18 @@
     "effect": "If Sing or Dance is used, grants Def+5 to target.",
     "restriction": "Offense"
   },
+  "Flashing Blade 1": {
+    "effect": "If unit's Spd ≥ foe's Spd+5, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+    "restriction": "Armored|Infantry, Offense"
+  },
+  "Flashing Blade 2": {
+    "effect": "If unit's Spd ≥ foe's Spd+3, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+    "restriction": "Armored|Infantry, Offense"
+  },
+  "Flashing Blade 3": {
+    "effect": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+    "restriction": "Armored|Infantry, Offense"
+  },
   "Flier Formation 1": {
     "effect": "If unit HP = 100%, unit can move to a space adjacent to a flying ally within 2 spaces.",
     "restriction": "Flying"
@@ -260,6 +272,12 @@
   },
   "HP +5": {
     "effect": "Grants HP+5."
+  },
+  "HP/Res 1": {
+    "effect": "Grants HP+3, Res+1."
+  },
+  "HP/Res 2": {
+    "effect": "Grants HP+4, Res+2."
   },
   "Iote's Shield": {
     "effect": "Neutralizes \"effective against flying\" bonuses.",
@@ -396,6 +414,15 @@
   },
   "Speed +3": {
     "effect": "Grants Spd+3."
+  },
+  "Spd Ploy 1": {
+    "effect": "At start of turn, inflicts Spd-3 on foes in cardinal directions with Res < unit's Res through their next actions."
+  },
+  "Spd Ploy 2": {
+    "effect": "At start of turn, inflicts Spd-4 on foes in cardinal directions with Res < unit's Res through their next actions."
+  },
+  "Spd Ploy 3": {
+    "effect": "At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Spd Smoke 1": {
     "effect": "Inflicts Spd-3 on foes within 2 spaces of target through their next actions after combat.",
