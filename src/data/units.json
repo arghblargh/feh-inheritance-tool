@@ -16298,6 +16298,12 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Cavalry",
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
@@ -16348,6 +16354,10 @@
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Flying",
+    "bane": [
+      "Spd",
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -16406,6 +16416,9 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Flying",
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -16459,6 +16472,9 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
