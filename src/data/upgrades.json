@@ -20,6 +20,7 @@
             "weapon": "Sealed Falchion",
             "unit": "Chrom: Exalted Prince,Lucina: Future Witness,Marth: Enigmatic Blade"
         },
+        "Mystletainn": "Dark Mystletainn",
         "Naga": "Divine Naga",
         "Siegmund": "Flame Siegmund",
         "Tyrfing": "Divine Tyrfing",
@@ -116,6 +117,9 @@
             "effect": "After combat, if unit attacked, restores 4 HP."
         }
     },
+    "Dauntless Lance": {
+        "effect": "If foe initiates combat, grants Spd/Def+4 during combat."
+    },
     "First Bite+": {
         "common": {
             "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
@@ -150,6 +154,9 @@
             "effect": "After combat, if unit attacked, restores 4 HP."
         }
     },
+    "Draconic Poleax": {
+        "effect": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
     "Hauteclere": {
         "effect": "Deals +10 damage when Special triggers."
     },
@@ -181,6 +188,9 @@
     },
     "Keen Rauðrwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Reese's Tome": {
+        "effect": "At start of turn, inflicts Spd/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions."
     },
     "Aura": {
         "effect": "If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.",

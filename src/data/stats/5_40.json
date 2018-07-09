@@ -195,6 +195,13 @@
     "Def": 30,
     "Res": 19
   },
+  "Camilla: Tropical Beauty": {
+    "HP": 39,
+    "Atk": 33,
+    "Spd": 36,
+    "Def": 23,
+    "Res": 19
+  },
   "Camus: Sable Knight": {
     "HP": 42,
     "Atk": 32,
@@ -943,6 +950,13 @@
     "Spd": 36,
     "Def": 14,
     "Res": 27
+  },
+  "Linde: Summer Rays": {
+    "HP": 33,
+    "Atk": 34,
+    "Spd": 35,
+    "Def": 16,
+    "Res": 26
   },
   "Linus: Mad Dog": {
     "HP": 42,
@@ -1700,6 +1714,13 @@
     "Def": 25,
     "Res": 24
   },
+  "Takumi: Prince at Play": {
+    "HP": 40,
+    "Atk": 35,
+    "Spd": 35,
+    "Def": 21,
+    "Res": 19
+  },
   "Takumi: Prince of Soup": {
     "HP": 40,
     "Atk": 34,
@@ -1748,6 +1769,13 @@
     "Spd": 35,
     "Def": 21,
     "Res": 21
+  },
+  "Tiki: Beachside Scion": {
+    "HP": 40,
+    "Atk": 33,
+    "Spd": 37,
+    "Def": 32,
+    "Res": 26
   },
   "Tiki: Dragon Scion": {
     "HP": 41,

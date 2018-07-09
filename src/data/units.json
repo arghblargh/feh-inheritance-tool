@@ -7287,6 +7287,9 @@
         },
         {
           "name": "Rauðrowl+"
+        },
+        {
+          "name": "Reese's Tome"
         }
       ],
       "special": [
@@ -10685,6 +10688,9 @@
         },
         {
           "name": "Slaying Lance+"
+        },
+        {
+          "name": "Dauntless Lance"
         }
       ],
       "special": [
@@ -15700,6 +15706,9 @@
         },
         {
           "name": "Emerald Axe+"
+        },
+        {
+          "name": "Draconic Poleax"
         }
       ],
       "assist": [
@@ -16279,6 +16288,231 @@
         },
         {
           "name": "Panic Ploy 3"
+        }
+      ]
+    }
+  },
+  "Linde: Summer Rays": {
+    "name": "Linde",
+    "title": "Summer Rays",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Starfish"
+        },
+        {
+          "name": "Starfish+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Res 1"
+        },
+        {
+          "name": "Brazen Atk/Res 2"
+        },
+        {
+          "name": "Brazen Atk/Res 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Cancel Affinity 1"
+        },
+        {
+          "name": "Cancel Affinity 2"
+        },
+        {
+          "name": "Cancel Affinity 3"
+        }
+      ]
+    }
+  },
+  "Tiki: Beachside Scion": {
+    "name": "Tiki",
+    "title": "Beachside Scion",
+    "color": "Red",
+    "wpnType": "Dragon",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath"
+        },
+        {
+          "name": "Fire Breath+"
+        },
+        {
+          "name": "Flametongue"
+        },
+        {
+          "name": "Summer's Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Moonbow"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Bond 1"
+        },
+        {
+          "name": "Atk/Def Bond 2"
+        },
+        {
+          "name": "Atk/Def Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Hit and Run"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Dragon Valor 1"
+        },
+        {
+          "name": "Dragon Valor 2"
+        },
+        {
+          "name": "Dragon Valor 3"
+        }
+      ]
+    }
+  },
+  "Takumi: Prince at Play": {
+    "name": "Takumi",
+    "title": "Prince at Play",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Fishie Bow"
+        },
+        {
+          "name": "Fishie Bow+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1"
+        },
+        {
+          "name": "Fury 2"
+        },
+        {
+          "name": "Fury 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Res Wave 1"
+        },
+        {
+          "name": "Odd Res Wave 2"
+        },
+        {
+          "name": "Odd Res Wave 3"
+        }
+      ]
+    }
+  },
+  "Camilla: Tropical Beauty": {
+    "name": "Camilla",
+    "title": "Tropical Beauty",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Juicy Wave"
+        },
+        {
+          "name": "Juicy Wave+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
+        {
+          "name": "Death Blow 2"
+        },
+        {
+          "name": "Death Blow 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Flier Formation 1"
+        },
+        {
+          "name": "Flier Formation 2"
+        },
+        {
+          "name": "Flier Formation 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1"
+        },
+        {
+          "name": "Hone Atk 2"
+        },
+        {
+          "name": "Hone Fliers"
         }
       ]
     }
