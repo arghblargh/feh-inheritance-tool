@@ -2151,7 +2151,8 @@
     "type": "Sword",
     "cost": 300,
     "might": 14,
-    "effect": "If foe initiates combat, grants Def+7 during combat."
+    "effect": "If foe initiates combat, grants Def+7 during combat.",
+    "upgrade": "-"
   },
   "Sapphire Lance": {
     "color": "Blue",
