@@ -930,6 +930,13 @@
     "Def": 30,
     "Res": 15
   },
+  "Libra: Fetching Friar": {
+    "HP": 40,
+    "Atk": 35,
+    "Spd": 32,
+    "Def": 28,
+    "Res": 29
+  },
   "Lilina: Blush of Youth": {
     "HP": 34,
     "Atk": 35,
@@ -1713,6 +1720,13 @@
     "Spd": 34,
     "Def": 24,
     "Res": 28
+  },
+  "Sumia: Maid of Flowers": {
+    "HP": 39,
+    "Atk": 30,
+    "Spd": 39,
+    "Def": 29,
+    "Res": 25
   },
   "Tailtiu: Thunder Noble": {
     "HP": 39,

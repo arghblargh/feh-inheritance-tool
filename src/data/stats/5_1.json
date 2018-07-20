@@ -930,6 +930,13 @@
     "Def": 8,
     "Res": 5
   },
+  "Libra: Fetching Friar": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 7
+  },
   "Lilina: Blush of Youth": {
     "HP": 17,
     "Atk": 9,
@@ -1711,6 +1718,13 @@
     "HP": 18,
     "Atk": 7,
     "Spd": 8,
+    "Def": 7,
+    "Res": 6
+  },
+  "Sumia: Maid of Flowers": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 11,
     "Def": 7,
     "Res": 6
   },
