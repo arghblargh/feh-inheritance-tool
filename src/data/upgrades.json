@@ -71,6 +71,12 @@
             "effect": "Effective against dragon foes. At the start of every second turn, restores 10 HP."
         }
     },
+    "Fólkvangr": {
+        "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+        "common": {
+            "effect": "At start of turn, if unit's HP ≤ 80%, grants Atk/Def+7 during combat."
+        }
+    },
     "Nameless Blade": {
         "effect": "Deals +10 damage when Special triggers."
     },
@@ -120,6 +126,12 @@
     "Dauntless Lance": {
         "effect": "If foe initiates combat, grants Spd/Def+4 during combat."
     },
+    "Fensalir": {
+        "effect": "If unit is adjacent to an ally, grants Spd/Def+5 during combat.",
+        "common": {
+            "effect": "Neutralizes foes' bonuses (from skills like Fortify, Rally, etc.) during combat."
+        }
+    },
     "First Bite+": {
         "common": {
             "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
@@ -163,6 +175,12 @@
     "Legion's Axe+": {
         "common": {
             "effect": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
+        }
+    },
+    "Nóatún": {
+        "effect": "If unit's HP ≥ 50% HP, unit can move to a space adjacent to any ally within 2 spaces.",
+        "common": {
+            "effect": "If unit’s HP ≤ 50%, unit can move to a space adjacent to any ally."
         }
     },
     "Poleaxe+": {

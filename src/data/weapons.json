@@ -867,7 +867,8 @@
     "cost": 400,
     "might": 16,
     "effect": "At start of turn, inflicts Atk-4 on foes within 2 spaces through their next actions.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Fire": {
     "color": "Red",
@@ -1040,7 +1041,8 @@
     "cost": 400,
     "might": 16,
     "effect": "At start of turn, if unit's HP ≤ 50%, grants Atk+5 for 1 turn.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Geirskögul": {
     "color": "Blue",
@@ -1836,7 +1838,8 @@
     "cost": 400,
     "might": 16,
     "effect": "If unit’s HP ≤ 40%, unit can move to a space adjacent to any ally.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Pain": {
     "color": "Neutral",
@@ -2040,6 +2043,21 @@
     "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd+2 during combat.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Reprisal Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Atk+6 during combat."
+  },
+  "Reprisal Lance+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Atk+6 during combat.",
+    "upgrade": "-"
   },
   "Resolute Blade": {
     "color": "Red",
@@ -2351,6 +2369,14 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying foes. Grants Spd+3. At the start of turn 3, deals 10 damage to foes within 3 columns centered on unit, and converts bonuses on those foes into penalties through their next actions.",
+    "restriction": "Exclusive"
+  },
+  "Skuld": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "If Sing or Dance is used, grants Atk/Spd/Def/Res+3 to target.",
     "restriction": "Exclusive"
   },
   "Slaying Axe": {
@@ -2669,6 +2695,20 @@
     "effect": "Grants Atk/Spd+1 to allies within 2 spaces during combat.",
     "upgrade": "-"
   },
+  "Trilemma": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 150,
+    "might": 5,
+    "effect": "After combat, if unit attacked, inflicts the following status on foe through its next action: \"If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\""
+  },
+  "Trilemma+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "After combat, if unit attacked, inflicts the following status on target and foes within 2 spaces of target through their next actions: \"If unit has weapon- triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\""
+  },
   "Tyrfing": {
     "color": "Red",
     "type": "Sword",
@@ -2795,6 +2835,29 @@
     "might": 13,
     "effect": "Grants +10 to damage when Special triggers.",
     "upgrade": "Mt:1"
+  },
+  "Wo Gùn": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 9,
+    "effect": "Deals +10 damage when Special triggers."
+  },
+  "Wo Gùn+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 13,
+    "effect": "Deals +10 damage when Special triggers.",
+    "upgrade": "-"
+  },
+  "Wolf Berg": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Atk/Spd/Def/Res+2 during combat.",
+    "restriction": "Exclusive"
   },
   "Yato": {
     "color": "Red",

@@ -769,6 +769,13 @@
     "Def": 21,
     "Res": 24
   },
+  "Tailtiu: Thunder Noble": {
+    "HP": 35,
+    "Atk": 28,
+    "Spd": 31,
+    "Def": 14,
+    "Res": 22
+  },
   "Takumi: Empty Vessel": {
     "HP": 33,
     "Atk": 27,
@@ -817,6 +824,13 @@
     "Spd": 27,
     "Def": 23,
     "Res": 11
+  },
+  "Walhart: The Conqueror": {
+    "HP": 37,
+    "Atk": 33,
+    "Spd": 23,
+    "Def": 32,
+    "Res": 13
   },
   "Wrys: Kindly Priest": {
     "HP": 38,

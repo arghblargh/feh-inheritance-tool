@@ -1098,6 +1098,13 @@
     "Def": 4,
     "Res": 10
   },
+  "Maribelle: Dire Damsel": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 3,
+    "Res": 5
+  },
   "Marisa: Crimson Flash": {
     "HP": 18,
     "Atk": 8,
@@ -1327,6 +1334,13 @@
     "Atk": 6,
     "Spd": 8,
     "Def": 3,
+    "Res": 4
+  },
+  "Olivia: Sky-High Dancer": {
+    "HP": 17,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 4,
     "Res": 4
   },
   "Olwen: Blue Mage Knight": {
@@ -1831,6 +1845,13 @@
     "Atk": 7,
     "Spd": 7,
     "Def": 7,
+    "Res": 3
+  },
+  "Walhart: The Conqueror": {
+    "HP": 19,
+    "Atk": 11,
+    "Spd": 5,
+    "Def": 8,
     "Res": 3
   },
   "Wrys: Kindly Priest": {
