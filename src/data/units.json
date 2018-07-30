@@ -16846,5 +16846,66 @@
         }
       ]
     }
+  },
+  "Lucina: Glorious Archer": {
+    "name": "Lucina",
+    "title": "Glorious Archer",
+    "color": "Blue",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Silver Bow"
+        },
+        {
+          "name": "Thögn"
+        }
+      ],
+      "Assist": [
+        {
+          "name": "Future Vision"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Sparrow 1"
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wings of Mercy 1"
+        },
+        {
+          "name": "Wings of Mercy 2"
+        },
+        {
+          "name": "Wings of Mercy 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Distant Guard 1"
+        },
+        {
+          "name": "Distant Guard 2"
+        },
+        {
+          "name": "Distant Guard 3"
+        }
+      ]
+    }
   }
 }

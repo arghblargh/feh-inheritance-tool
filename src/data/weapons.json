@@ -2589,7 +2589,7 @@
     "restriction": "Exclusive"
   },
   "Swift Mulagir": {
-    "color": "",
+    "color": "Green",
     "type": "Bow",
     "cost": 400,
     "might": 14,
@@ -2679,6 +2679,15 @@
     "might": 14,
     "effect": "Calculates damage from staff like other weapons. At start of turn, if foe's HP ≤ unit's HP+3 and foe is in cardinal direction and uses bow, dagger, magic, or staff, foe cannot move more than 1 space through its action.",
     "restriction": "Exclusive"
+  },
+  "Thögn": {
+    "color": "Blue",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying foes. Grants Spd+3. If unit initiates combat and foe uses sword, lance, axe, or dragonstone, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Tomato Tome": {
     "color": "Red",

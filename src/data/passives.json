@@ -1776,6 +1776,18 @@
       "cost": 240,
       "effect": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
+    "Distant Guard 1": {
+      "cost": 60,
+      "effect": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+2 during combat.\""
+    },
+    "Distant Guard 2": {
+      "cost": 120,
+      "effect": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+3 during combat.\""
+    },
+    "Distant Guard 3": {
+      "cost": 240,
+      "effect": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+4 during combat.\""
+    },
     "Dragon Valor 1": {
       "cost": 30,
       "effect": "If unit survives and uses a dragonstone, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",

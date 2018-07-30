@@ -12,6 +12,11 @@
         "cost": 150,
         "effect": "Unit moves 1 space away from target ally. Ally moves to unit’s previous space."
     },
+    "Future Vision": {
+        "cost": 300,
+        "effect": "Unit and target ally swap spaces. Grants another action to unit. (Additional action granted once per turn only.)",
+        "restriction": "Exclusive"
+    },
     "Harsh Command": {
         "cost": 150,
         "effect": "Converts penalties on target into bonuses."
