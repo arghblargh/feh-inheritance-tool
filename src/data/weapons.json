@@ -2686,8 +2686,7 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying foes. Grants Spd+3. If unit initiates combat and foe uses sword, lance, axe, or dragonstone, grants Atk/Spd/Def/Res+4 during combat.",
-    "restriction": "Exclusive",
-    "upgrade": "Legendary"
+    "restriction": "Exclusive"
   },
   "Tomato Tome": {
     "color": "Red",
