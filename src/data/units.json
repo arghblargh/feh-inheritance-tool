@@ -16537,17 +16537,6 @@
         {
           "name": "Chill Def 3"
         }
-      ],
-      "passiveC": [
-        {
-          "name": "Panic Ploy 1"
-        },
-        {
-          "name": "Panic Ploy 2"
-        },
-        {
-          "name": "Panic Ploy 3"
-        }
       ]
     }
   },

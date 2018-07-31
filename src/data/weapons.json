@@ -2845,15 +2845,15 @@
     "upgrade": "Mt:1"
   },
   "Wo Gùn": {
-    "color": "Red",
-    "type": "Sword",
+    "color": "Green",
+    "type": "Axe",
     "cost": 200,
     "might": 9,
     "effect": "Deals +10 damage when Special triggers."
   },
   "Wo Gùn+": {
-    "color": "Red",
-    "type": "Sword",
+    "color": "Green",
+    "type": "Axe",
     "cost": 300,
     "might": 13,
     "effect": "Deals +10 damage when Special triggers.",
