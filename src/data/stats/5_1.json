@@ -1014,6 +1014,13 @@
     "Def": 6,
     "Res": 4
   },
+  "Lucina: Glorious Archer": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 5
+  },
   "Lucina: Spring Exalt": {
     "HP": 16,
     "Atk": 7,
