@@ -16847,6 +16847,69 @@
       ]
     }
   },
+  "Zephiel: The Liberator": {
+    "name": "Zephiel",
+    "title": "The Liberator",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Eckesachs"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Reprisal",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Life and Death 1",
+          "unlock": 3
+        },
+        {
+          "name": "Life and Death 2",
+          "unlock": 4
+        },
+        {
+          "name": "Life and Death 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
   "Lucina: Glorious Archer": {
     "name": "Lucina",
     "title": "Glorious Archer",
