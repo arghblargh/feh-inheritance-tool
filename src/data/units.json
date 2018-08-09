@@ -3783,6 +3783,70 @@
       ]
     }
   },
+  "Elincia: Estival Princess": {
+    "name": "Elincia",
+    "title": "Estival Princess",
+    "color": "Green",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "boon": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Cloud Maiougi"
+        },
+        {
+          "name": "Cloud Maiougi+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Push 1"
+        },
+        {
+          "name": "Atk/Spd Push 2"
+        },
+        {
+          "name": "Atk/Spd Push 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Gale Dance 1"
+        },
+        {
+          "name": "Rockslide Dance 1"
+        },
+        {
+          "name": "Rockslide Dance 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Res 1"
+        },
+        {
+          "name": "Drive Res 1"
+        },
+        {
+          "name": "Drive Res 2"
+        }
+      ]
+    }
+  },
   "Elincia: Lost Princess": {
     "name": "Elincia",
     "title": "Lost Princess",
@@ -10402,6 +10466,70 @@
       ]
     }
   },
+  "Micaiah: Summer's Dawn": {
+    "name": "Micaiah",
+    "title": "Summer's Dawn",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire"
+        },
+        {
+          "name": "Elfire"
+        },
+        {
+          "name": "Bolganone"
+        },
+        {
+          "name": "Dawn Suzu"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1"
+        },
+        {
+          "name": "Atk/Res Bond 2"
+        },
+        {
+          "name": "Atk/Res Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Torrent Dance 1"
+        },
+        {
+          "name": "Fireflood Dance 1"
+        },
+        {
+          "name": "Fireflood Dance 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Ploy 1"
+        },
+        {
+          "name": "Res Ploy 2"
+        },
+        {
+          "name": "Res Ploy 3"
+        }
+      ]
+    }
+  },
   "Michalis: Ambitious King": {
     "name": "Michalis",
     "title": "Ambitious King",
@@ -13372,6 +13500,71 @@
         },
         {
           "name": "Bow Valor 3"
+        }
+      ]
+    }
+  },
+  "Ryoma: Dancing Samurai": {
+    "name": "Ryoma",
+    "title": "Dancing Samurai",
+    "color": "Blue",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "bane": [
+      "HP",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Sky Maiougi"
+        },
+        {
+          "name": "Sky Maiougi+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Triangle Adept 1"
+        },
+        {
+          "name": "Triangle Adept 2"
+        },
+        {
+          "name": "Triangle Adept 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Def 1"
+        },
+        {
+          "name": "Chill Def 2"
+        },
+        {
+          "name": "Chill Def 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1"
+        },
+        {
+          "name": "Spur Spd/Res 1"
+        },
+        {
+          "name": "Spur Spd/Res 2"
         }
       ]
     }
@@ -16666,6 +16859,66 @@
         },
         {
           "name": "Live to Serve 3"
+        }
+      ]
+    }
+  },
+  "Xander: Dancing Knight": {
+    "name": "Xander",
+    "title": "Dancing Knight",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "bane": [
+      "HP",
+      "Spd",
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Dusk Uchiwa"
+        },
+        {
+          "name": "Dusk Uchiwa+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Quick Riposte 1"
+        },
+        {
+          "name": "Quick Riposte 2"
+        },
+        {
+          "name": "Quick Riposte 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Def Wave 1"
+        },
+        {
+          "name": "Odd Def Wave 2"
+        },
+        {
+          "name": "Odd Def Wave 3"
         }
       ]
     }

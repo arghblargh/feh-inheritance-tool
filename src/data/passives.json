@@ -1072,6 +1072,17 @@
       "cost": 240,
       "effect": "If unit’s HP ≤ 50%, unit can move to a space adjacent to any ally."
     },
+    "Fireflood Dance 1": {
+      "cost": 120,
+      "effect": "If Sing or Dance is used, grants Atk+2 and Res+3 to target.",
+      "require": "Blaze Dance 1|Torrent Dance 1",
+      "restriction": "Offense"
+    },
+    "Fireflood Dance 2": {
+      "cost": 240,
+      "effect": "If Sing or Dance is used, grants Atk+3 and Res+4 to target.",
+      "restriction": "Offense"
+    },
     "Firestorm Dance 1": {
       "cost": 120,
       "effect": "If Sing or Dance is used, grants Atk/Spd+2 to target.",
@@ -1291,6 +1302,17 @@
     "Renewal 3": {
       "cost": 240,
       "effect": "At the start of every second turn, restores 10 HP."
+    },
+    "Rockslide Dance 1": {
+      "cost": 120,
+      "effect": "If Sing or Dance is used, grants Spd+2 and Def+3 to target.",
+      "require": "Earth Dance 1|Gale Dance 1",
+      "restriction": "Offense"
+    },
+    "Rockslide Dance 2": {
+      "cost": 240,
+      "effect": "If Sing or Dance is used, grants Spd+3 and Def+4 to target.",
+      "restriction": "Offense"
     },
     "S Drink": {
       "cost": 300,
@@ -2088,6 +2110,18 @@
       "cost": 240,
       "effect": "At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
     },
+    "Odd Def Wave 1": {
+      "cost": 60,
+      "effect": "At start of odd-numbered turns, grants Def+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Odd Def Wave 2": {
+      "cost": 120,
+      "effect": "At start of odd-numbered turns, grants Def+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Odd Def Wave 3": {
+      "cost": 240,
+      "effect": "At start of odd-numbered turns, grants Def+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
     "Odd Res Wave 1": {
       "cost": 60,
       "effect": "At start of odd-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
@@ -2326,6 +2360,15 @@
     "Spur Spd/Def 2": {
       "cost": 240,
       "effect": "Grants Spd/Def+3 to adjacent allies during combat."
+    },
+    "Spur Spd/Res 1": {
+      "cost": 120,
+      "effect": "Grants Spd/Res+2 to adjacent allies during combat.",
+      "require": "Spur Spd 1|Spur Res 1"
+    },
+    "Spur Spd/Res 2": {
+      "cost": 240,
+      "effect": "Grants Spd/Res+3 to adjacent allies during combat."
     },
     "Staff Valor 1": {
       "cost": 30,

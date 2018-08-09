@@ -128,14 +128,14 @@
     "restriction": "Exclusive"
   },
   "Barb Shuriken": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 8,
     "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
   },
   "Barb Shuriken+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 12,
@@ -533,6 +533,21 @@
     "effect": "Effective against flying foes. If unit initiates combat, inflicts Atk/Spd-5 on foes within 2 spaces of target through their next actions after combat.",
     "upgrade": "-"
   },
+  "Cloud Maiougi": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against dragon foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Cloud Maiougi+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against dragon foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
   "Cocobow": {
     "color": "",
     "type": "Bow",
@@ -581,14 +596,14 @@
     "upgrade": "Legendary"
   },
   "Dancer's Fan": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 6,
     "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action."
   },
   "Dancer's Fan+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 10,
@@ -681,8 +696,16 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Dawn Suzu": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against armored and cavalry foes. Grants Atk+3. Disables unit's and foe's skills that change attack priority.",
+    "restriction": "Exclusive"
+  },
   "Deathly Dagger": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 11,
@@ -745,6 +768,21 @@
     "might": 16,
     "effect": "If unit initiates combat, grants Atk+4 during combat.",
     "restriction": "Exclusive"
+  },
+  "Dusk Uchiwa": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against cavalry foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Dusk Uchiwa+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against cavalry foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
   },
   "Eckesachs": {
     "color": "Red",
@@ -838,7 +876,7 @@
     "effect": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces through their next actions."
   },
   "Felicia's Plate": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 400,
     "might": 14,
@@ -1404,7 +1442,7 @@
     "effect": "Effective against flying foes."
   },
   "Iron Dagger": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 0,
     "might": 3,
@@ -1462,14 +1500,14 @@
     "effect": "Grants Def/Res+2 to allies within 2 spaces during combat."
   },
   "Kagami Mochi": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 8,
     "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces through their next actions."
   },
   "Kagami Mochi+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 12,
@@ -1577,14 +1615,14 @@
     "effect": "Accelerates Special trigger (cooldown count-1)."
   },
   "Kitty Paddle": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 5,
     "effect": "Effective against foe using magic. After combat, if unit attacked and if foe uses magic, foe suffers Def/Res-5 through foe's next action."
   },
   "Kitty Paddle+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 8,
@@ -1622,14 +1660,14 @@
     "restriction": "Exclusive"
   },
   "Lethal Carrot": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 8,
     "effect": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
   },
   "Lethal Carrot+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 12,
@@ -1879,7 +1917,7 @@
     "upgrade": "Legendary"
   },
   "Peshkatz": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 400,
     "might": 14,
@@ -1887,14 +1925,14 @@
     "restriction": "Exclusive"
   },
   "Poison Dagger": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 2,
     "effect": "Effective against infantry foes. After combat, if unit attacked, inflicts Def/Res-4 on infantry foe through its next action."
   },
   "Poison Dagger+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 5,
@@ -2107,14 +2145,14 @@
     "upgrade": "Special"
   },
   "Rogue Dagger": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 4,
     "effect": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn."
   },
   "Rogue Dagger+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 7,
@@ -2210,14 +2248,14 @@
     "upgrade": "-"
   },
   "Seashell": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 7,
     "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit. After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action."
   },
   "Seashell+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 10,
@@ -2311,14 +2349,14 @@
     "upgrade": "Mt:1"
   },
   "Silver Dagger": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 7,
     "effect": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action."
   },
   "Silver Dagger+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 10,
@@ -2378,6 +2416,21 @@
     "might": 16,
     "effect": "If Sing or Dance is used, grants Atk/Spd/Def/Res+3 to target.",
     "restriction": "Exclusive"
+  },
+  "Sky Maiougi": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against armored foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Sky Maiougi+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against armored foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
   },
   "Slaying Axe": {
     "color": "Green",
@@ -2484,14 +2537,14 @@
     "effect": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions."
   },
   "Smoke Dagger": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 6,
     "effect": "After combat, if unit attacked, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions."
   },
   "Smoke Dagger+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 9,
@@ -2523,14 +2576,14 @@
     "upgrade": "-"
   },
   "Starfish": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 8,
     "effect": "If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
   },
   "Starfish+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 12,
@@ -2552,7 +2605,7 @@
     "effect": "Effective against flying foes."
   },
   "Steel Dagger": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 100,
     "might": 5,
@@ -2620,14 +2673,14 @@
     "restriction": "Exclusive"
   },
   "The Cleaner": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 200,
     "might": 8,
     "effect": "Adds total bonuses on foe to damage dealt during combat. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
   },
   "The Cleaner+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Dagger",
     "cost": 300,
     "might": 12,
@@ -2672,20 +2725,20 @@
     "effect": "Adds total bonuses on unit to damage dealt.",
     "restriction": "Exclusive"
   },
-  "Thökk": {
-    "color": "Neutral",
-    "type": "Staff",
-    "cost": 400,
-    "might": 14,
-    "effect": "Calculates damage from staff like other weapons. At start of turn, if foe's HP ≤ unit's HP+3 and foe is in cardinal direction and uses bow, dagger, magic, or staff, foe cannot move more than 1 space through its action.",
-    "restriction": "Exclusive"
-  },
   "Thögn": {
     "color": "Blue",
     "type": "Bow",
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying foes. Grants Spd+3. If unit initiates combat and foe uses sword, lance, axe, or dragonstone, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Thökk": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 400,
+    "might": 14,
+    "effect": "Calculates damage from staff like other weapons. At start of turn, if foe's HP ≤ unit's HP+3 and foe is in cardinal direction and uses bow, dagger, magic, or staff, foe cannot move more than 1 space through its action.",
     "restriction": "Exclusive"
   },
   "Tomato Tome": {

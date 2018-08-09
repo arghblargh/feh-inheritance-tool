@@ -433,6 +433,13 @@
     "Def": 8,
     "Res": 6
   },
+  "Elincia: Estival Princess": {
+    "HP": 15,
+    "Atk": 5,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 4
+  },
   "Elincia: Lost Princess": {
     "HP": 16,
     "Atk": 8,
@@ -1182,6 +1189,13 @@
     "Def": 5,
     "Res": 9
   },
+  "Micaiah: Summer's Dawn": {
+    "HP": 14,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 3,
+    "Res": 6
+  },
   "Michalis: Ambitious King": {
     "HP": 19,
     "Atk": 8,
@@ -1510,6 +1524,13 @@
     "Spd": 6,
     "Def": 5,
     "Res": 6
+  },
+  "Ryoma: Dancing Samurai": {
+    "HP": 14,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 4
   },
   "Ryoma: Peerless Samurai": {
     "HP": 19,
@@ -1881,6 +1902,13 @@
     "Spd": 6,
     "Def": 5,
     "Res": 10
+  },
+  "Xander: Dancing Knight": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 4,
+    "Def": 6,
+    "Res": 3
   },
   "Xander: Paragon Knight": {
     "HP": 20,
