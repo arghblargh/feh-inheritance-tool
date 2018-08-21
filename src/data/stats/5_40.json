@@ -251,6 +251,13 @@
     "Def": 27,
     "Res": 26
   },
+  "Celica: Warrior Priestess": {
+    "HP": 38,
+    "Atk": 33,
+    "Spd": 39,
+    "Def": 29,
+    "Res": 24
+  },
   "Charlotte: Money Maiden": {
     "HP": 46,
     "Atk": 36,
@@ -489,6 +496,13 @@
     "Def": 32,
     "Res": 20
   },
+  "Ephraim: Sacred Twin Lord": {
+    "HP": 46,
+    "Atk": 38,
+    "Spd": 27,
+    "Def": 37,
+    "Res": 26
+  },
   "Est: Junior Whitewing": {
     "HP": 36,
     "Atk": 35,
@@ -642,6 +656,13 @@
     "Spd": 22,
     "Def": 28,
     "Res": 30
+  },
+  "Hector: Brave Warrior": {
+    "HP": 48,
+    "Atk": 37,
+    "Spd": 22,
+    "Def": 39,
+    "Res": 28
   },
   "Hector: General of Ostia": {
     "HP": 52,
@@ -1880,6 +1901,13 @@
     "Atk": 32,
     "Spd": 31,
     "Def": 34,
+    "Res": 19
+  },
+  "Veronica: Brave Princess": {
+    "HP": 36,
+    "Atk": 32,
+    "Spd": 36,
+    "Def": 21,
     "Res": 19
   },
   "Virion: Elite Archer": {

@@ -308,5 +308,17 @@
     "count": 3,
     "effect": "Grants bonus to damage dealt equal to 50% of damage suffered.",
     "require": "Retribution"
+  },
+  "Windfire Balm": {
+    "cost": 150,
+    "count": 1,
+    "effect": "When healing an ally with a staff, grants Atk/Spd+4 to all allies for 1 turn.",
+    "restriction": "Staff"
+  },
+  "Windfire Balm+": {
+    "cost": 150,
+    "count": 1,
+    "effect": "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn.",
+    "restriction": "Staff"
   }
 }

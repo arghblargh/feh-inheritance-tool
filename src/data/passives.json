@@ -233,6 +233,11 @@
       "effect": "If unit initiates combat, grants Atk+6 during combat.",
       "restriction": "Offense"
     },
+    "Death Blow 4": {
+      "cost": 300,
+      "effect": "If unit initiates combat, grants Atk+8 during combat.",
+      "restriction": "Offense"
+    },
     "Defense +1": {
       "cost": 30,
       "effect": "Grants Def+1."
@@ -529,6 +534,11 @@
       "cost": 240,
       "effect": "If unit initiates combat, grants Atk/Res+4 during combat.",
       "restriction": "Offense"
+    },
+    "Ostian Counter": {
+      "cost": 300,
+      "effect": "Unit can counterattack regardless of foe's range. If foe initiates combat, grants Atk/Def+4 during combat.",
+      "restriction": "Exclusive"
     },
     "Resistance +1": {
       "cost": 30,
@@ -1016,6 +1026,10 @@
       "cost": 200,
       "effect": "If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
     },
+    "Double Lion": {
+      "cost": 300,
+      "effect": "If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 1 damage to unit after combat. (Does not stack.)"
+    },
     "Drag Back": {
       "cost": 150,
       "effect": "If unit initiates combat, unit moves 1 space away after combat. Target foe moves to unit's previous space.",
@@ -1449,6 +1463,18 @@
       "cost": 240,
       "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-7 on foes in cardinal directions of unit through their next actions."
     },
+    "Special Fighter 1": {
+      "cost": 60,
+      "effect": "At start of combat, if unit's HP ≥ 90%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+    },
+    "Special Fighter 2": {
+      "cost": 120,
+      "effect": "At start of combat, if unit's HP ≥ 70%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+    },
+    "Special Fighter 3": {
+      "cost": 240,
+      "effect": "At start of combat, if unit's HP ≥ 50%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+    },
     "Swordbreaker 1": {
       "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against a sword foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
@@ -1747,6 +1773,18 @@
       "cost": 200,
       "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat."
     },
+    "Close Guard 1": {
+      "cost": 60,
+      "effect": "Allies within 2 spaces gain: \"If foe uses sword, lance, axe, or dragonstone, grants Def/Res+2 during combat.\""
+    },
+    "Close Guard 2": {
+      "cost": 120,
+      "effect": "Allies within 2 spaces gain: \"If foe uses sword, lance, axe, or dragonstone, grants Def/Res+3 during combat.\""
+    },
+    "Close Guard 3": {
+      "cost": 240,
+      "effect": "Allies within 2 spaces gain: \"If foe uses sword, lance, axe, or dragonstone, grants Def/Res+4 during combat.\""
+    },
     "Dagger Valor 1": {
       "cost": 30,
       "effect": "If unit survives and uses a dagger, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
@@ -1860,6 +1898,18 @@
     "Drive Spd 2": {
       "cost": 240,
       "effect": "Grants Spd+3 to allies within 2 spaces during combat."
+    },
+    "Even Res Wave 1": {
+      "cost": 60,
+      "effect": "At start of even-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Even Res Wave 2": {
+      "cost": 120,
+      "effect": "At start of even-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Even Res Wave 3": {
+      "cost": 240,
+      "effect": "At start of even-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
     },
     "Even Spd Wave 1": {
       "cost": 60,

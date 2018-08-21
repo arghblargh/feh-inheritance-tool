@@ -1082,6 +1082,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Garm": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. If a bonus granted by a skill like Rally or Hone and/or extra movement granted by a skill like Armor March or Armored Boots is active, unit makes a guaranteed follow-up attack.",
+    "restriction": "Exclusive"
+  },
   "Geirskögul": {
     "color": "Blue",
     "type": "Lance",
@@ -1419,6 +1427,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Hliðskjálf": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 400,
+    "might": 14,
+    "effect": "Foe cannot counterattack. After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.",
+    "restriction": "Exclusive"
+  },
   "Huginn's Egg": {
     "color": "Blue",
     "type": "Tome",
@@ -1740,6 +1756,14 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants Res+3. Skills with \"effective against dragons\" are effective against unit. If foe has no skills with \"effective against dragons,\" inflicts Atk-6 on foe during combat.",
+    "restriction": "Exclusive"
+  },
+  "Maltet": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack.",
     "restriction": "Exclusive"
   },
   "Meisterschwert": {
@@ -2158,6 +2182,14 @@
     "might": 7,
     "effect": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn.",
     "upgrade": "Mt:5"
+  },
+  "Royal Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Spd+3. If unit is within 2 spaces of an ally, grants unit Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+    "restriction": "Exclusive"
   },
   "Ruby Sword": {
     "color": "Red",

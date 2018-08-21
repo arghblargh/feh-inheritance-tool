@@ -2201,6 +2201,74 @@
       ]
     }
   },
+  "Celica: Warrior Priestess": {
+    "name": "Celica",
+    "title": "Warrior Priestess",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "bane": [
+      "HP",
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Royal Sword"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Astra"
+        },
+        {
+          "name": "Galeforce"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
+        {
+          "name": "Death Blow 2"
+        },
+        {
+          "name": "Death Blow 3"
+        },
+        {
+          "name": "Death Blow 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Double Lion"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1"
+        },
+        {
+          "name": "Atk Tactic 2"
+        },
+        {
+          "name": "Atk Tactic 3"
+        }
+      ]
+    }
+  },
   "Charlotte: Money Maiden": {
     "name": "Charlotte",
     "title": "Money Maiden",
@@ -4258,6 +4326,76 @@
       ]
     }
   },
+  "Ephraim: Sacred Twin Lord": {
+    "name": "Ephraim",
+    "title": "Sacred Twin Lord",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "bane": [
+      "Spd"
+    ],
+    "boon": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe"
+        },
+        {
+          "name": "Steel Axe"
+        },
+        {
+          "name": "Silver Axe"
+        },
+        {
+          "name": "Garm"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Def 1"
+        },
+        {
+          "name": "Close Def 2"
+        },
+        {
+          "name": "Close Def 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Fighter 1"
+        },
+        {
+          "name": "Special Fighter 2"
+        },
+        {
+          "name": "Special Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1"
+        },
+        {
+          "name": "Armor March 2"
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
   "Est: Junior Whitewing": {
     "name": "Est",
     "title": "Junior Whitewing",
@@ -5622,6 +5760,70 @@
         {
           "name": "Threaten Atk 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Hector: Brave Warrior": {
+    "name": "Hector",
+    "title": "Brave Warrior",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "bane": [
+      "Res"
+    ],
+    "boon": [
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Silver Lance"
+        },
+        {
+          "name": "Maltet"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember"
+        },
+        {
+          "name": "Ignis"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Ostian Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1"
+        },
+        {
+          "name": "Bold Fighter 2"
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Res Wave 1"
+        },
+        {
+          "name": "Even Res Wave 2"
+        },
+        {
+          "name": "Even Res Wave 3"
         }
       ]
     }
@@ -8244,13 +8446,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Axe"
+          "name": "Iron Axe",
+          "unlock": 4
         },
         {
-          "name": "Steel Axe"
+          "name": "Steel Axe",
+          "unlock": 4
         },
         {
-          "name": "Wo Gùn"
+          "name": "Wo Gùn",
+          "unlock": 4
         },
         {
           "name": "Wo Gùn+"
@@ -8258,18 +8463,22 @@
       ],
       "special": [
         {
-          "name": "Daylight"
+          "name": "Daylight",
+          "unlock": 4
         },
         {
-          "name": "Noontime"
+          "name": "Noontime",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Renewal 1"
+          "name": "Renewal 1",
+          "unlock": 4
         },
         {
-          "name": "Renewal 2"
+          "name": "Renewal 2",
+          "unlock": 4
         },
         {
           "name": "Renewal 3"
@@ -8277,13 +8486,16 @@
       ],
       "passiveC": [
         {
-          "name": "Spur Res 1"
+          "name": "Spur Res 1",
+          "unlock": 4
         },
         {
-          "name": "Spur Atk/Res 1"
+          "name": "Spur Atk/Res 1",
+          "unlock": 4
         },
         {
-          "name": "Spur Atk/Res 2"
+          "name": "Spur Atk/Res 2",
+          "unlock": 4
         }
       ]
     }
@@ -16673,6 +16885,76 @@
         },
         {
           "name": "Panic Ploy 3"
+        }
+      ]
+    }
+  },
+  "Veronica: Brave Princess": {
+    "name": "Veronica",
+    "title": "Brave Princess",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "boon": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault"
+        },
+        {
+          "name": "Hliðskjálf"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal"
+        },
+        {
+          "name": "Mend"
+        },
+        {
+          "name": "Recover"
+        },
+        {
+          "name": "Recover+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue"
+        },
+        {
+          "name": "Kindled-Fire Balm"
+        },
+        {
+          "name": "Windfire Balm"
+        },
+        {
+          "name": "Windfire Balm+"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrathful Staff 1"
+        },
+        {
+          "name": "Wrathful Staff 2"
+        },
+        {
+          "name": "Wrathful Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Close Guard 1"
+        },
+        {
+          "name": "Close Guard 2"
+        },
+        {
+          "name": "Close Guard 3"
         }
       ]
     }
