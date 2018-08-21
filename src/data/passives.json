@@ -1028,7 +1028,8 @@
     },
     "Double Lion": {
       "cost": 300,
-      "effect": "If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 1 damage to unit after combat. (Does not stack.)"
+      "effect": "If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 1 damage to unit after combat. (Does not stack.)",
+      "restriction": "Exclusive"
     },
     "Drag Back": {
       "cost": 150,
