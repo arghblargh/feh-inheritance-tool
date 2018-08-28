@@ -797,6 +797,13 @@
     "Def": 6,
     "Res": 5
   },
+  "Jamke: Prince of Verdane": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 7,
+    "Res": 4
+  },
   "Jeorge: Perfect Shot": {
     "HP": 18,
     "Atk": 8,
@@ -1173,6 +1180,13 @@
     "Atk": 8,
     "Spd": 10,
     "Def": 6,
+    "Res": 4
+  },
+  "Marth: Hero-King": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 8,
     "Res": 4
   },
   "Mathilda: Legendary Knight": {

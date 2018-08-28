@@ -781,6 +781,18 @@
       "effect": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
       "restriction": "Flying"
     },
+    "Affinity Breaker 1": {
+      "cost": 60,
+      "effect": ""
+    },
+    "Affinity Breaker 2": {
+      "cost": 120,
+      "effect": ""
+    },
+    "Affinity Breaker 3": {
+      "cost": 240,
+      "effect": ""
+    },
     "Atk/Def Link 1": {
       "cost": 60,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Def+2 to unit and target ally or unit and targeting ally for 1 turn."
@@ -826,6 +838,11 @@
     "Beorc's Blessing": {
       "cost": 300,
       "effect": "Neutralizes cavalry and flying foe's bonuses (from skills like Fortify, Rally, etc.) during combat. (Skill cannot be inherited.)",
+      "restriction": "Exclusive"
+    },
+    "Binding Shield": {
+      "cost": 300,
+      "effect": "In combat against a dragon foe, unit makes a guaranteed follow-up attack and foe cannot counterattack or make a follow-up attack.",
       "restriction": "Exclusive"
     },
     "Blaze Dance 1": {
@@ -2103,6 +2120,21 @@
     "Hone Spd 3": {
       "cost": 200,
       "effect": "At start of turn, grants Spd+4 to adjacent allies for 1 turn."
+    },
+    "Infantry Flash 1": {
+      "cost": 60,
+      "effect": "If unit's HP = 100%, infantry allies within 2 spaces gain: \"If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
+    },
+    "Infantry Flash 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≥ 50% HP, infantry allies within 2 spaces gain: \"If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
+    },
+    "Infantry Flash 3": {
+      "cost": 240,
+      "effect": "Infantry allies within 2 spaces gain: \"If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
     },
     "Infantry Pulse 1": {
       "cost": 60,

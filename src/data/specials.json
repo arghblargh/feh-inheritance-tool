@@ -95,6 +95,13 @@
     "require": "Buckler",
     "restriction": "Melee"
   },
+  "Fire Emblem": {
+    "cost": 500,
+    "count": 2,
+    "effect": "Boosts damage dealt by 30% of unit's Spd. Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
+    "require": "Dragon Gaze",
+    "restriction": "Exclusive"
+  },
   "Galeforce": {
     "cost": 500,
     "count": 5,

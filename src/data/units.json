@@ -6973,6 +6973,69 @@
       ]
     }
   },
+  "Jamke: Prince of Verdane": {
+    "name": "Jamke",
+    "title": "Prince of Verdane",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Slaying Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Slaying Bow+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Astra",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Heavy Blade 1",
+          "unlock": 3
+        },
+        {
+          "name": "Heavy Blade 2",
+          "unlock": 4
+        },
+        {
+          "name": "Heavy Blade 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Affinity Breaker 1",
+          "unlock": 3
+        },
+        {
+          "name": "Affinity Breaker 2",
+          "unlock": 3
+        },
+        {
+          "name": "Affinity Breaker 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
   "Jeorge: Perfect Shot": {
     "name": "Jeorge",
     "title": "Perfect Shot",
@@ -10344,6 +10407,67 @@
         },
         {
           "name": "Falchion"
+        }
+      ]
+    }
+  },
+  "Marth: Hero-King": {
+    "name": "Marth",
+    "title": "Hero-King",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "bane": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        },
+        {
+          "name": "Exalted Falchion"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Fire Emblem"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1"
+        },
+        {
+          "name": "Atk/Spd Bond 2"
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Binding Shield"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Flash 1"
+        },
+        {
+          "name": "Infantry Flash 2"
+        },
+        {
+          "name": "Infantry Flash 3"
         }
       ]
     }
