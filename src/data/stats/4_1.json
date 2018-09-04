@@ -391,6 +391,13 @@
     "Def": 5,
     "Res": 4
   },
+  "Jamke: Prince of Verdane": {
+    "HP": 15,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 3
+  },
   "Jeorge: Perfect Shot": {
     "HP": 17,
     "Atk": 8,

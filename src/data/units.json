@@ -7022,15 +7022,15 @@
       ],
       "passiveB": [
         {
-          "name": "Affinity Breaker 1",
+          "name": "Cancel Affinity 1",
           "unlock": 3
         },
         {
-          "name": "Affinity Breaker 2",
+          "name": "Cancel Affinity 2",
           "unlock": 3
         },
         {
-          "name": "Affinity Breaker 3",
+          "name": "Cancel Affinity 3",
           "unlock": 4
         }
       ]
