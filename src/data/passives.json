@@ -608,19 +608,30 @@
     },
     "Steady Blow 1": {
       "cost": 120,
-      "effect": "If unit initiates combat, grants Spd/Def+2 during battle.",
+      "effect": "If unit initiates combat, grants Spd/Def+2 during combat.",
       "require": "Armored Blow 1|Darting Blow 1",
       "restriction": "Offense"
     },
     "Steady Blow 2": {
       "cost": 240,
-      "effect": "If unit initiates combat, grants Spd/Def+4 during battle.",
+      "effect": "If unit initiates combat, grants Spd/Def+4 during combat.",
       "restriction": "Offense"
     },
     "Steady Breath": {
       "cost": 240,
       "effect": "If foe initiates combat, grants Def+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
       "require": "Steady Stance 2"
+    },
+    "Steady Posture 1": {
+      "cost": 120,
+      "effect": "If foe initiates combat, grants Spd/Def+2 during combat.",
+      "require": "Steady Stance 1|Darting Stance 1",
+      "restriction": "Offense"
+    },
+    "Steady Posture 2": {
+      "cost": 240,
+      "effect": "If foe initiates combat, grants Spd/Def+4 during combat.",
+      "restriction": "Offense"
     },
     "Steady Stance 1": {
       "cost": 50,
@@ -1030,6 +1041,17 @@
     "Def/Res Link 3": {
       "cost": 240,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Def/Res+6 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Deluge Dance 1": {
+      "cost": 120,
+      "effect": "If Sing or Dance is used, grants Spd+2 and Res+3 to target.",
+      "require": "Gale Dance 1|Torrent Dance 1",
+      "restriction": "Offense"
+    },
+    "Deluge Dance 2": {
+      "cost": 240,
+      "effect": "If Sing or Dance is used, grants Spd+3 and Res+4 to target.",
+      "restriction": "Offense"
     },
     "Desperation 1": {
       "cost": 50,
@@ -1468,6 +1490,18 @@
       "cost": 300,
       "effect": "Restores HP = 30% of damage dealt when Special triggers. (Stacks with effects of skills like Sol.)",
       "restriction": "Exclusive"
+    },
+    "Special Spiral 1": {
+      "cost": 60,
+      "effect": "If unit's HP = 100% and if Special triggers before or during combat, grants Special cooldown count-2 after combat."
+    },
+    "Special Spiral 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≥ 50% and if Special triggers before or during combat, grants Special cooldown count-2 after combat."
+    },
+    "Special Spiral 3": {
+      "cost": 240,
+      "effect": "If Special triggers before or during combat, grants Special cooldown count-2 after combat."
     },
     "Spd Feint 1": {
       "cost": 60,

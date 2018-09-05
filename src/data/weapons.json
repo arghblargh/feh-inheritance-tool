@@ -142,6 +142,21 @@
     "effect": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
     "upgrade": "-"
   },
+  "Barrier Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Res+7 during combat."
+  },
+  "Barrier Blade+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Res+7 during combat.",
+    "upgrade": "-"
+  },
   "Basilikos": {
     "color": "Green",
     "type": "Axe",
@@ -1049,6 +1064,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Forseti": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "restriction": "Exclusive"
+  },
   "Fresh Bouquet": {
     "color": "Blue",
     "type": "Tome",
@@ -1314,6 +1337,14 @@
     "might": 12,
     "effect": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.",
     "upgrade": "-"
+  },
+  "Gáe Bolg": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "In combat against an infantry, armored, or cavalry foe, grants Atk/Def+5 during combat.",
+    "restriction": "Exclusive"
   },
   "Hagoita": {
     "color": "Green",

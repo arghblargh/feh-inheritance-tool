@@ -17622,5 +17622,205 @@
         }
       ]
     }
+  },
+  "Quan: Luminous Lancer": {
+    "name": "Quan",
+    "title": "Luminous Lancer",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Silver Lance"
+        },
+        {
+          "name": "Gáe Bolg"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense"
+        },
+        {
+          "name": "Rally Spd/Def"
+        },
+        {
+          "name": "Rally Spd/Def+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze"
+        },
+        {
+          "name": "Draconic Aura"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Steady Stance 1"
+        },
+        {
+          "name": "Steady Posture 1"
+        },
+        {
+          "name": "Steady Posture 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1"
+        },
+        {
+          "name": "Drive Atk 1"
+        },
+        {
+          "name": "Drive Atk 2"
+        }
+      ]
+    }
+  },
+  "Silvia: Traveling Dancer": {
+    "name": "Silvia",
+    "title": "Traveling Dancer",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Barrier Blade"
+        },
+        {
+          "name": "Barrier Blade+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1"
+        },
+        {
+          "name": "Mirror Stance 1"
+        },
+        {
+          "name": "Mirror Stance 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Torrent Dance 1"
+        },
+        {
+          "name": "Deluge Dance 1"
+        },
+        {
+          "name": "Deluge Dance 2"
+        }
+      ]
+    }
+  },
+  "Lewyn: Guiding Breeze": {
+    "name": "Lewyn",
+    "title": "Guiding Breeze",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind"
+        },
+        {
+          "name": "Elwind"
+        },
+        {
+          "name": "Rexcalibur"
+        },
+        {
+          "name": "Forseti"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky"
+        },
+        {
+          "name": "Glimmer"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1"
+        },
+        {
+          "name": "Swift Sparrow 1"
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Spiral 1"
+        },
+        {
+          "name": "Special Spiral 2"
+        },
+        {
+          "name": "Special Spiral 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Atk Wave 1"
+        },
+        {
+          "name": "Odd Atk Wave 2"
+        },
+        {
+          "name": "Odd Atk Wave 3"
+        }
+      ]
+    }
+  },
+  "Ethlyn: Spirited Princess": {
+    "name": "Ethlyn",
+    "title": "Spirited Princess",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal"
+        },
+        {
+          "name": "Mend"
+        }
+      ]
+    }
   }
 }
