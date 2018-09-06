@@ -2022,7 +2022,8 @@
     "cost": 400,
     "might": 14,
     "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but after combat, if unit attacked, deals 5 damage to unit.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Ragnell": {
     "color": "Red",
