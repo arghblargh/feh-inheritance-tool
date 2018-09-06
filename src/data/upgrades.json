@@ -166,6 +166,9 @@
             "effect": "After combat, if unit attacked, restores 4 HP."
         }
     },
+    "Cherche's Axe": {
+        "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions."
+    },
     "Draconic Poleax": {
         "effect": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
@@ -207,6 +210,12 @@
     "Keen Rauðrwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
+    "Ragnarok": {
+        "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Spd+7 during combat.",
+        "common": {
+            "effect": "Grants Atk/Spd+5 during combat. After combat, if unit attacked, deals 5 damage to unit."
+        }
+    },
     "Reese's Tome": {
         "effect": "At start of turn, inflicts Spd/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions."
     },
@@ -228,6 +237,9 @@
     },
     "Keen Blárwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Odin's Grimoire": {
+        "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
     "Excalibur": {
         "effect": "If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.",

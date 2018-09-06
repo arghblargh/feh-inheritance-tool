@@ -510,6 +510,13 @@
     "Def": 24,
     "Res": 32
   },
+  "Ethlyn: Spirited Princess": {
+    "HP": 38,
+    "Atk": 28,
+    "Spd": 34,
+    "Def": 26,
+    "Res": 20
+  },
   "Fae: Divine Dragon": {
     "HP": 46,
     "Atk": 33,
@@ -964,6 +971,13 @@
     "Spd": 30,
     "Def": 30,
     "Res": 15
+  },
+  "Lewyn: Guiding Breeze": {
+    "HP": 38,
+    "Atk": 34,
+    "Spd": 37,
+    "Def": 17,
+    "Res": 25
   },
   "Libra: Fetching Friar": {
     "HP": 40,
@@ -1448,6 +1462,13 @@
     "Def": 19,
     "Res": 32
   },
+  "Quan: Luminous Lancer": {
+    "HP": 44,
+    "Atk": 37,
+    "Spd": 29,
+    "Def": 31,
+    "Res": 16
+  },
   "Raigh: Dark Child": {
     "HP": 36,
     "Atk": 32,
@@ -1727,6 +1748,13 @@
     "Spd": 32,
     "Def": 34,
     "Res": 17
+  },
+  "Silvia: Traveling Dancer": {
+    "HP": 40,
+    "Atk": 27,
+    "Spd": 36,
+    "Def": 17,
+    "Res": 30
   },
   "Soleil: Adorable Adorer": {
     "HP": 37,

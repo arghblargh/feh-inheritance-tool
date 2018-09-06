@@ -88,7 +88,7 @@
         "effect": "Grants Spd/Def+3 to target ally for 1 turn."
     },
     "Rally Spd/Def+": {
-        "cost": 300,
+        "cost": 400,
         "effect": "Grants Spd/Def+6 to target ally for 1 turn."
     },
     "Rally Spd/Res": {

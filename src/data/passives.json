@@ -1493,15 +1493,18 @@
     },
     "Special Spiral 1": {
       "cost": 60,
-      "effect": "If unit's HP = 100% and if Special triggers before or during combat, grants Special cooldown count-2 after combat."
+      "effect": "If unit's HP = 100% and if Special triggers before or during combat, grants Special cooldown count-2 after combat.",
+      "restriction": "Armored|Infantry, Offense"
     },
     "Special Spiral 2": {
       "cost": 120,
-      "effect": "If unit's HP ≥ 50% and if Special triggers before or during combat, grants Special cooldown count-2 after combat."
+      "effect": "If unit's HP ≥ 50% and if Special triggers before or during combat, grants Special cooldown count-2 after combat.",
+      "restriction": "Armored|Infantry, Offense"
     },
     "Special Spiral 3": {
       "cost": 240,
-      "effect": "If Special triggers before or during combat, grants Special cooldown count-2 after combat."
+      "effect": "If Special triggers before or during combat, grants Special cooldown count-2 after combat.",
+      "restriction": "Armored|Infantry, Offense"
     },
     "Spd Feint 1": {
       "cost": 60,
