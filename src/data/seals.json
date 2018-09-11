@@ -36,6 +36,18 @@
   "Attack/Def +2": {
     "effect": "Grants Atk/Def+2."
   },
+  "Blaze Dance 1": {
+    "effect": "If Sing or Dance is used, grants Atk+2 to target.",
+    "restriction": "Offense"
+  },
+  "Blaze Dance 2": {
+    "effect": "If Sing or Dance is used, grants Atk+3 to target.",
+    "restriction": "Offense"
+  },
+  "Blaze Dance 3": {
+    "effect": "If Sing or Dance is used, grants Atk+4 to target.",
+    "restriction": "Offense"
+  },
   "Brash Assault 1": {
     "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 30%, unit makes a guaranteed follow-up attack."
   },
@@ -140,6 +152,12 @@
   },
   "Drive Def 2": {
     "effect": "Grants Def+3 to allies within 2 spaces during combat."
+  },
+  "Drive Spd 1": {
+    "effect": "Grants Spd+2 to allies within 2 spaces during combat."
+  },
+  "Drive Spd 2": {
+    "effect": "Grants Spd+3 to allies within 2 spaces during combat."
   },
   "Earth Dance 1": {
     "effect": "If Sing or Dance is used, grants Def+3 to target.",
@@ -481,6 +499,15 @@
   },
   "Threaten Atk 3": {
     "effect": "At start of turn, inflicts Atk-5 on foes within 2 spaces through their next actions."
+  },
+  "Threaten Def 1": {
+    "effect": "At start of turn, inflicts Def-3 on foes within 2 spaces through their next actions."
+  },
+  "Threaten Def 2": {
+    "effect": "At start of turn, inflicts Def-4 on foes within 2 spaces through their next actions."
+  },
+  "Threaten Def 3": {
+    "effect": "At start of turn, inflicts Def-5 on foes within 2 spaces through their next actions."
   },
   "Threaten Spd 1": {
     "effect": "At start of turn, inflicts Spd-3 on foes within 2 spaces through their next actions."
