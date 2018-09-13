@@ -533,6 +533,15 @@
     "effect": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
     "upgrade": "-"
   },
+  "Cherche's Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 11,
+    "effect": "Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Clarisse's Bow": {
     "color": "",
     "type": "Bow",
@@ -1474,6 +1483,14 @@
     "effect": "Foe cannot counterattack. After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.",
     "restriction": "Exclusive"
   },
+  "Hoarfrost Knife": {
+    "color": "Red",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit initiates combat and foe uses sword, lance, axe, or dragonstone, grants Def+20 during combat, and if foe can counter, unit makes a guaranteed follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "restriction": "Exclusive"
+  },
   "Huginn's Egg": {
     "color": "Blue",
     "type": "Tome",
@@ -1828,6 +1845,14 @@
     "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.",
     "upgrade": "-"
   },
+  "Missiletainn": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-1 for each magic ally on your team (including unit).",
+    "restriction": "Exclusive"
+  },
   "Mjölnir": {
     "color": "Blue",
     "type": "Tome",
@@ -1939,6 +1964,15 @@
     "cost": 400,
     "might": 16,
     "effect": "If unit’s HP ≤ 40%, unit can move to a space adjacent to any ally.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Odin's Grimoire": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Adds total bonuses on unit to damage dealt.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
@@ -2363,6 +2397,21 @@
     "might": 13,
     "effect": "",
     "upgrade": "Mt:1"
+  },
+  "Shining Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage."
+  },
+  "Shining Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage.",
+    "upgrade": "-"
   },
   "Siegfried": {
     "color": "Red",
@@ -3015,23 +3064,5 @@
     "might": 14,
     "effect": "Effective against cavalry foes.",
     "upgrade": "Special"
-  },
-  "Cherche's Axe": {
-    "color": "Green",
-    "type": "Axe",
-    "cost": 400,
-    "might": 11,
-    "effect": "Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
-    "restriction": "Exclusive",
-    "upgrade": "Legendary"
-  },
-  "Odin's Grimoire": {
-    "color": "Blue",
-    "type": "Tome",
-    "cost": 400,
-    "might": 14,
-    "effect": "Adds total bonuses on unit to damage dealt.",
-    "restriction": "Exclusive",
-    "upgrade": "Legendary"
   }
 }

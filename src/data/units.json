@@ -17899,5 +17899,261 @@
         }
       ]
     }
+  },
+  "Ophelia: Dramatic Heroine": {
+    "name": "Ophelia",
+    "title": "Dramatic Heroine",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder"
+        },
+        {
+          "name": "Elthunder"
+        },
+        {
+          "name": "Thoron"
+        },
+        {
+          "name": "Missiletainn"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack"
+        },
+        {
+          "name": "Rally Up Atk"
+        },
+        {
+          "name": "Rally Up Atk+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light"
+        },
+        {
+          "name": "Blazing Light"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1"
+        },
+        {
+          "name": "Sturdy Blow 1"
+        },
+        {
+          "name": "Sturdy Blow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Res 1"
+        },
+        {
+          "name": "Chill Res 2"
+        },
+        {
+          "name": "Chill Res 3"
+        }
+      ]
+    }
+  },
+  "Nina: Eye Spy": {
+    "name": "Nina",
+    "title": "Eye Spy",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow"
+        },
+        {
+          "name": "Steel Bow"
+        },
+        {
+          "name": "Shining Bow"
+        },
+        {
+          "name": "Shining Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon"
+        },
+        {
+          "name": "Moonbow"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd/Res Link 1"
+        },
+        {
+          "name": "Spd/Res Link 2"
+        },
+        {
+          "name": "Spd/Res Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Bow Valor 1"
+        },
+        {
+          "name": "Bow Valor 2"
+        },
+        {
+          "name": "Bow Valor 3"
+        }
+      ]
+    }
+  },
+  "Silas: Loyal Knight": {
+    "name": "Silas",
+    "title": "Loyal Knight",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance"
+        },
+        {
+          "name": "Steel Lance"
+        },
+        {
+          "name": "Slaying Spear"
+        },
+        {
+          "name": "Slaying Spear+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Steady Stance 1"
+        },
+        {
+          "name": "Steady Stance 2"
+        },
+        {
+          "name": "Steady Stance 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Def Wave 1"
+        },
+        {
+          "name": "Even Def Wave 2"
+        },
+        {
+          "name": "Even Def Wave 3"
+        }
+      ]
+    }
+  },
+  "Flora: Cold as Ice": {
+    "name": "Flora",
+    "title": "Cold as Ice",
+    "color": "Red",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger"
+        },
+        {
+          "name": "Steel Dagger"
+        },
+        {
+          "name": "Silver Dagger"
+        },
+        {
+          "name": "Hoarfrost Knife"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind"
+        },
+        {
+          "name": "Iceberg"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Solo 1"
+        },
+        {
+          "name": "Atk/Res Solo 2"
+        },
+        {
+          "name": "Atk/Res Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Quick Riposte 1"
+        },
+        {
+          "name": "Quick Riposte 2"
+        },
+        {
+          "name": "Quick Riposte 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Ploy 1"
+        },
+        {
+          "name": "Def Ploy 2"
+        },
+        {
+          "name": "Def Ploy 3"
+        }
+      ]
+    }
+  },
+  "Garon: King of Nohr": {
+    "name": "Garon",
+    "title": "King of Nohr",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword"
+        },
+        {
+          "name": "Steel Sword"
+        },
+        {
+          "name": "Silver Sword"
+        }
+      ]
+    }
   }
 }
