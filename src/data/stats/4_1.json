@@ -328,6 +328,13 @@
     "Def": 4,
     "Res": 3
   },
+  "Garon: King of Nohr": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 4,
+    "Def": 9,
+    "Res": 7
+  },
   "Gerome: Masked Rider": {
     "HP": 18,
     "Atk": 10,

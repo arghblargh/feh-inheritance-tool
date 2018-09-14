@@ -559,6 +559,13 @@
     "Def": 8,
     "Res": 8
   },
+  "Flora: Cold as Ice": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 5,
+    "Res": 10
+  },
   "Florina: Lovely Flier": {
     "HP": 18,
     "Atk": 7,
@@ -593,6 +600,13 @@
     "Spd": 9,
     "Def": 4,
     "Res": 6
+  },
+  "Garon: King of Nohr": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 5,
+    "Def": 9,
+    "Res": 8
   },
   "Genny: Endearing Ally": {
     "HP": 17,
@@ -1322,6 +1336,13 @@
     "Def": 4,
     "Res": 8
   },
+  "Nina: Eye Spy": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 11,
+    "Def": 3,
+    "Res": 7
+  },
   "Ninian: Bright-Eyed Bride": {
     "HP": 15,
     "Atk": 6,
@@ -1433,6 +1454,13 @@
     "Spd": 9,
     "Def": 4,
     "Res": 5
+  },
+  "Ophelia: Dramatic Heroine": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 9,
+    "Def": 5,
+    "Res": 8
   },
   "Oscar: Agile Horseman": {
     "HP": 18,
@@ -1747,6 +1775,13 @@
     "Atk": 9,
     "Spd": 8,
     "Def": 6,
+    "Res": 4
+  },
+  "Silas: Loyal Knight": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 5,
+    "Def": 10,
     "Res": 4
   },
   "Silvia: Traveling Dancer": {

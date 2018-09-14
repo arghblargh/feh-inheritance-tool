@@ -251,6 +251,13 @@
     "Def": 4,
     "Res": 3
   },
+  "Garon: King of Nohr": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 4,
+    "Def": 8,
+    "Res": 7
+  },
   "Gordin: Altean Archer": {
     "HP": 18,
     "Atk": 6,

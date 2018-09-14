@@ -3064,5 +3064,13 @@
     "might": 14,
     "effect": "Effective against cavalry foes.",
     "upgrade": "Special"
+  },
+  "Breath of Blight": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 400,
+    "might": 16,
+    "effect": "Neutralizes \"effective against dragons\" bonuses. At the start of turn 4, deals 10 damage to foes within 3 spaces, and restores HP to unit = number of foes within 3 spaces × 5. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
   }
 }
