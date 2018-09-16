@@ -123,7 +123,7 @@ export function getUnitsWithSkill(skill, type) {
                 if (reSkill.test(skl.name)) {
                     var rarity = 5;
                     if (skl.unlock)
-                        rarity = skl.unlock;
+                        rarity = Math.max(getLowestRarity(unit), skl.unlock);
                     if (!unitList[rarity])
                         unitList[rarity] = [];
                     unitList[rarity].push(unit);

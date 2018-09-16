@@ -46,6 +46,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .tool {
   display: inline-block;
   width: 100%;

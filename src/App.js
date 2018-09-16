@@ -119,6 +119,13 @@ class SkillInfoRow extends Component {
 
     let skillDropdown, skillLevel;
     let hasSkillLevel = false;
+
+    let fontScale = 1;
+
+    if (this.props.effect.length > 160) {
+      fontScale += (1 / (1 + ((this.props.effect.length - 160) / 10)) - 1) / 10;
+      if (fontScale < 0.9) fontScale = 0.9;
+    }
     
     try {
       if (this.props.skillName && this.props.category === 'Weapon' && weapons[this.props.skillName].upgrade) {
@@ -215,7 +222,12 @@ class SkillInfoRow extends Component {
               <tr>
                 <td></td>
                 <td className="skill-info-container" colSpan="4">
-                  <div className="skill-effect">{this.props.effect}</div>
+                  <div className="skill-effect">
+                    {
+                      fontScale === 1 ? <p>{this.props.effect}</p>
+                        : <p style={{'font-size': fontScale + 'em'}}>{this.props.effect}</p>
+                    }
+                  </div>
                 </td>
               </tr>
             }
@@ -238,7 +250,12 @@ class SkillInfoRow extends Component {
             {hasSkillLevel && skillLevel}
             {!!this.props.showDesc &&
             <td className="skill-info-container">
-              <div className="skill-effect">{this.props.effect}</div>
+              <div className="skill-effect">
+                {
+                  fontScale === 1 ? <p>{this.props.effect}</p>
+                    : <p style={{fontSize: fontScale + 'em'}}>{this.props.effect}</p>
+                }
+              </div>
             </td>
             }
             <td className="skill-info-container">
