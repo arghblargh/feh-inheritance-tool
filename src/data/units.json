@@ -6200,6 +6200,85 @@
       ]
     }
   },
+  "Helbindi: Savage Scourge": {
+    "name": "Helbindi",
+    "title": "Savage Scourge",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "bane": [
+      "Spd"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Býleistr"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeance",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "G Duel Infantry 1",
+          "unlock": 3
+        },
+        {
+          "name": "G Duel Infantry 2",
+          "unlock": 4
+        },
+        {
+          "name": "G Duel Infantry 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1",
+          "unlock": 1
+        },
+        {
+          "name": "Guard 2",
+          "unlock": 2
+        },
+        {
+          "name": "Guard 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Pulse 1",
+          "unlock": 3
+        },
+        {
+          "name": "Infantry Pulse 2",
+          "unlock": 4
+        },
+        {
+          "name": "Infantry Pulse 3"
+        }
+      ]
+    }
+  },
   "Henry: Happy Vampire": {
     "name": "Henry",
     "title": "Happy Vampire",
@@ -8199,6 +8278,160 @@
         },
         {
           "name": "Spur Res 3"
+        }
+      ]
+    }
+  },
+  "Laegjarn: Sheathed Steel": {
+    "name": "Laegjarn",
+    "title": "Sheathed Steel",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "bane": [
+      "Res"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Níu"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "R Duel Flying 1",
+          "unlock": 3
+        },
+        {
+          "name": "R Duel Flying 2",
+          "unlock": 4
+        },
+        {
+          "name": "R Duel Flying 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Atk 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Atk 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Distant Guard 1",
+          "unlock": 3
+        },
+        {
+          "name": "Distant Guard 2",
+          "unlock": 4
+        },
+        {
+          "name": "Distant Guard 3"
+        }
+      ]
+    }
+  },
+  "Laevatein: Searing Steel": {
+    "name": "Laevatein",
+    "title": "Searing Steel",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "bane": [
+      "HP"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Laevatein"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 2
+        },
+        {
+          "name": "Fury 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Def Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Spd Wave 1",
+          "unlock": 3
+        },
+        {
+          "name": "Odd Spd Wave 2",
+          "unlock": 4
+        },
+        {
+          "name": "Odd Spd Wave 3"
         }
       ]
     }

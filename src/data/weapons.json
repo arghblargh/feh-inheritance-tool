@@ -424,6 +424,14 @@
     "might": 8,
     "effect": "Inflicts Spd-5. If unit initiates combat, unit attacks twice."
   },
+  "Breath of Blight": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 400,
+    "might": 16,
+    "effect": "Neutralizes \"effective against dragons\" bonuses. At the start of turn 4, deals 10 damage to foes within 3 spaces, and restores HP to unit = number of foes within 3 spaces × 5. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
   "Breath of Fog": {
     "color": "",
     "type": "Dragon",
@@ -449,6 +457,14 @@
     "effect": "If unit initiates combat, inflicts status on foe restricting movement to 1 space through its next action.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Býleistr": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "At start of odd-numbered turns, grants Atk/Spd/Def/Res+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
+    "restriction": "Exclusive"
   },
   "Camilla's Axe": {
     "color": "Green",
@@ -1950,7 +1966,7 @@
     "effect": "Grants Atk+3. During combat, boosts unit's Atk/Spd by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.)",
     "restriction": "Exclusive"
   },
-  "Niu": {
+  "Níu": {
     "color": "Red",
     "type": "Sword",
     "cost": 400,
@@ -3064,13 +3080,5 @@
     "might": 14,
     "effect": "Effective against cavalry foes.",
     "upgrade": "Special"
-  },
-  "Breath of Blight": {
-    "color": "",
-    "type": "Dragon",
-    "cost": 400,
-    "might": 16,
-    "effect": "Neutralizes \"effective against dragons\" bonuses. At the start of turn 4, deals 10 damage to foes within 3 spaces, and restores HP to unit = number of foes within 3 spaces × 5. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
-    "restriction": "Exclusive"
   }
 }

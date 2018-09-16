@@ -706,6 +706,13 @@
     "Def": 38,
     "Res": 26
   },
+  "Helbindi: Savage Scourge": {
+    "HP": 44,
+    "Atk": 35,
+    "Spd": 18,
+    "Def": 35,
+    "Res": 31
+  },
   "Henry: Happy Vampire": {
     "HP": 36,
     "Atk": 33,
@@ -929,6 +936,20 @@
     "Spd": 25,
     "Def": 22,
     "Res": 30
+  },
+  "Laegjarn: Sheathed Steel": {
+    "HP": 41,
+    "Atk": 32,
+    "Spd": 36,
+    "Def": 36,
+    "Res": 17
+  },
+  "Laevatein: Searing Steel": {
+    "HP": 39,
+    "Atk": 37,
+    "Spd": 31,
+    "Def": 34,
+    "Res": 22
   },
   "Laslow: Dancing Duelist": {
     "HP": 44,
