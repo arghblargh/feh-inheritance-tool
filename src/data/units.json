@@ -16111,13 +16111,16 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Sword"
+          "name": "Iron Sword",
+          "unlock": 1
         },
         {
-          "name": "Steel Sword"
+          "name": "Steel Sword",
+          "unlock": 2
         },
         {
-          "name": "Barrier Blade"
+          "name": "Barrier Blade",
+          "unlock": 3
         },
         {
           "name": "Barrier Blade+"
@@ -16125,15 +16128,18 @@
       ],
       "assist": [
         {
-          "name": "Dance"
+          "name": "Dance",
+          "unlock": 3
         }
       ],
       "passiveA": [
         {
-          "name": "Warding Stance 1"
+          "name": "Warding Stance 1",
+          "unlock": 3
         },
         {
-          "name": "Mirror Stance 1"
+          "name": "Mirror Stance 1",
+          "unlock": 4
         },
         {
           "name": "Mirror Stance 2"
@@ -16141,13 +16147,16 @@
       ],
       "passiveB": [
         {
-          "name": "Torrent Dance 1"
+          "name": "Torrent Dance 1",
+          "unlock": 1
         },
         {
-          "name": "Deluge Dance 1"
+          "name": "Deluge Dance 1",
+          "unlock": 2
         },
         {
-          "name": "Deluge Dance 2"
+          "name": "Deluge Dance 2",
+          "unlock": 4
         }
       ]
     }

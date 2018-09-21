@@ -888,6 +888,13 @@
     "Def": 4,
     "Res": 8
   },
+  "Silvia: Traveling Dancer": {
+    "HP": 15,
+    "Atk": 4,
+    "Spd": 8,
+    "Def": 3,
+    "Res": 6
+  },
   "Soleil: Adorable Adorer": {
     "HP": 17,
     "Atk": 10,
