@@ -187,7 +187,7 @@ export default class BuildManager extends React.PureComponent {
 
                     build.Weapon = build.Weapon.replace(/Blar/, 'Blár').replace(/Raudr/, 'Rauðr').replace(/Urdr/, 'Urðr').replace(/ \(\w+\)/, '');
 
-                    if (/^Atk\/(Def|Res)/.test(build.PassiveA)) {
+                    if (/^Atk\/(Def|Res) \d/.test(build.PassiveA)) {
                         if (/Def/.test(build.PassiveA)) {
                             build.PassiveA = build.PassiveA.replace('Atk/Def ', 'Attack/Def +');
                         }
