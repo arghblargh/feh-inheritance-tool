@@ -17498,6 +17498,77 @@
       ]
     }
   },
+  "Tiki: Legendary Dragon": {
+    "name": "Tiki",
+    "title": "Legendary Dragon",
+    "color": "Blue",
+    "wpnType": "Dragon",
+    "movType": "Armored",
+    "bane": [
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 3
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 3
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Divine Mist"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fierce Stance 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fierce Stance 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fierce Stance 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 1
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 2
+        },
+        {
+          "name": "Bold Fighter 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "With Everyone!"
+        }
+      ]
+    }
+  },
   "Tiki: Naga's Voice": {
     "name": "Tiki",
     "title": "Naga's Voice",

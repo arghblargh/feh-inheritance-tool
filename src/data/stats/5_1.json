@@ -1959,6 +1959,13 @@
     "Def": 8,
     "Res": 7
   },
+  "Tiki: Legendary Dragon": {
+    "HP": 17,
+    "Atk": 10,
+    "Spd": 11,
+    "Def": 4,
+    "Res": 5
+  },
   "Tiki: Naga's Voice": {
     "HP": 18,
     "Atk": 7,

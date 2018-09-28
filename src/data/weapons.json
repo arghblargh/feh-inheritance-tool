@@ -776,6 +776,14 @@
     "effect": "Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
     "restriction": "Exclusive"
   },
+  "Divine Mist": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
   "Divine Naga": {
     "color": "Green",
     "type": "Tome",

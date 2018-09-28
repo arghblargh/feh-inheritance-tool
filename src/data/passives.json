@@ -2684,6 +2684,11 @@
       "effect": "Grants Def/Res+4 to flying allies within 2 spaces during combat.",
       "require": "Spur Def 2|Spur Res 2",
       "restriction": "Flying"
+    },
+    "With Everyone!": {
+      "cost": 300,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Def/Res+5 to unit and adjacent allies for 1 turn.",
+      "restriction": "Exclusive"
     }
   }
 }
