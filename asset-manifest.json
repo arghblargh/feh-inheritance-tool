@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.75999eec.css",
   "main.css.map": "static/css/main.75999eec.css.map",
-  "main.js": "static/js/main.e1425e88.js",
-  "main.js.map": "static/js/main.e1425e88.js.map",
+  "main.js": "static/js/main.d02e30a8.js",
+  "main.js.map": "static/js/main.d02e30a8.js.map",
   "static\\media\\Abel_The_Panther.png": "static/media/Abel_The_Panther.e5be407b.png",
   "static\\media\\Alfonse_Prince_of_Askr.png": "static/media/Alfonse_Prince_of_Askr.5a7d0c74.png",
   "static\\media\\Alfonse_Spring_Prince.png": "static/media/Alfonse_Spring_Prince.219e03da.png",
@@ -286,6 +286,7 @@
   "static\\media\\Tharja_Obsessive_Bride.png": "static/media/Tharja_Obsessive_Bride.8315183b.png",
   "static\\media\\Tiki_Beachside_Scion.png": "static/media/Tiki_Beachside_Scion.d25c939c.png",
   "static\\media\\Tiki_Dragon_Scion.png": "static/media/Tiki_Dragon_Scion.d98705fe.png",
+  "static\\media\\Tiki_Legendary_Dragon.png": "static/media/Tiki_Legendary_Dragon.9f6aded3.png",
   "static\\media\\Tiki_Naga's_Voice.png": "static/media/Tiki_Naga's_Voice.41b6f6ab.png",
   "static\\media\\Tiki_Summering_Scion.png": "static/media/Tiki_Summering_Scion.0ed42c54.png",
   "static\\media\\Titania_Mighty_Mercenary.png": "static/media/Titania_Mighty_Mercenary.1675520a.png",
