@@ -344,6 +344,11 @@
       "cost": 50,
       "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Def+6 during combat."
     },
+    "Fierce Breath": {
+      "cost": 240,
+      "effect": "If foe initiates combat, grants Atk+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+      "require": "Fierce Stance 2"
+    },
     "Fierce Stance 1": {
       "cost": 50,
       "effect": "If foe initiates combat, grants Atk+2 during combat.",
