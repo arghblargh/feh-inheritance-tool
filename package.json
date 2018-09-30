@@ -17,6 +17,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "stats": "curl https://feh-stat-pull.herokuapp.com/stats/[3-5]-{1,40} -o \"src/data/stats/#1_#2.json\""
   }
 }
