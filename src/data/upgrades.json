@@ -101,6 +101,9 @@
             "effect": "If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
         }
     },
+    "Solitary Blade": {
+        "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5."
+    },
     "Wing Sword": {
         "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
@@ -154,6 +157,12 @@
     },
     "Slaying Spear+": {
         "effect": "Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Vidofnir": {
+        "effect": "If unit is within 2 spaces of an infantry or armored ally, grants Atk/Spd+4 during combat.",
+        "common": {
+            "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+7 during combat."
+        }
     },
     "Basilikos": {
         "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5."
@@ -306,6 +315,9 @@
         "common": {
             "effect": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
         }
+    },
+    "Nidhogg": {
+        "effect": "Magic and dragon foes cannot counterattack."
     },
     "Parthia": {
         "effect": "If foe uses bow, dagger, magic, or staff, grants Atk+6 during combat.",
