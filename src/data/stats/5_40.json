@@ -398,6 +398,13 @@
     "Def": 32,
     "Res": 23
   },
+  "Dorcas: Pumpkin Smasher": {
+    "HP": 49,
+    "Atk": 41,
+    "Spd": 25,
+    "Def": 37,
+    "Res": 21
+  },
   "Dorcas: Serene Warrior": {
     "HP": 45,
     "Atk": 35,
@@ -860,6 +867,13 @@
     "Def": 16,
     "Res": 35
   },
+  "Kagero: Beverage Ninja": {
+    "HP": 41,
+    "Atk": 38,
+    "Spd": 21,
+    "Def": 32,
+    "Res": 33
+  },
   "Kagero: Honorable Ninja": {
     "HP": 31,
     "Atk": 35,
@@ -1266,6 +1280,13 @@
     "Def": 28,
     "Res": 25
   },
+  "Mia: Moonlit Witch": {
+    "HP": 36,
+    "Atk": 30,
+    "Spd": 34,
+    "Def": 22,
+    "Res": 28
+  },
   "Micaiah: Priestess of Dawn": {
     "HP": 35,
     "Atk": 35,
@@ -1322,6 +1343,13 @@
     "Def": 36,
     "Res": 31
   },
+  "Myrrh: Spooky Monster": {
+    "HP": 46,
+    "Atk": 38,
+    "Spd": 23,
+    "Def": 40,
+    "Res": 32
+  },
   "Nanna: Nordion Princess": {
     "HP": 36,
     "Atk": 27,
@@ -1356,6 +1384,13 @@
     "Spd": 34,
     "Def": 17,
     "Res": 34
+  },
+  "Niles: Forbidden Tease": {
+    "HP": 37,
+    "Atk": 34,
+    "Spd": 39,
+    "Def": 25,
+    "Res": 29
   },
   "Nina: Eye Spy": {
     "HP": 35,

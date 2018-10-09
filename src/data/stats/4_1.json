@@ -230,6 +230,13 @@
     "Def": 6,
     "Res": 3
   },
+  "Dorcas: Pumpkin Smasher": {
+    "HP": 22,
+    "Atk": 11,
+    "Spd": 5,
+    "Def": 9,
+    "Res": 5
+  },
   "Draug: Gentle Giant": {
     "HP": 23,
     "Atk": 8,

@@ -52,7 +52,7 @@
   "Bonfire": {
     "cost": 200,
     "count": 3,
-    "effect": "Boosts damage dealt by 50% of unit's Def.",
+    "effect": "Boosts damage by 50% of unit's Def.",
     "require": "Glowing Ember"
   },
   "Buckler": {
@@ -64,7 +64,7 @@
   "Chilling Wind": {
     "cost": 100,
     "count": 4,
-    "effect": "Boosts damage dealt by 50% of unit's Res."
+    "effect": "Boosts damage by 50% of unit's Res."
   },
   "Daylight": {
     "cost": 100,
@@ -74,19 +74,19 @@
   "Draconic Aura": {
     "cost": 200,
     "count": 3,
-    "effect": "Boosts Atk by 30%.",
+    "effect": "Boosts damage by 30% of unit's Atk.",
     "require": "Dragon Gaze"
   },
   "Dragon Fang": {
     "cost": 200,
     "count": 4,
-    "effect": "Boosts Atk by 50%.",
+    "effect": "Boosts damage by 50% of unit's Atk.",
     "require": "Dragon Gaze"
   },
   "Dragon Gaze": {
     "cost": 100,
     "count": 4,
-    "effect": "Boosts Atk by 30%."
+    "effect": "Boosts damage by 30% of unit's Atk."
   },
   "Escutcheon": {
     "cost": 100,
@@ -98,7 +98,7 @@
   "Fire Emblem": {
     "cost": 500,
     "count": 2,
-    "effect": "Boosts damage dealt by 30% of unit's Spd. Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
+    "effect": "Boosts damage by 30% of unit's Spd. Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
     "require": "Dragon Gaze",
     "restriction": "Exclusive"
   },
@@ -112,7 +112,7 @@
   "Glacies": {
     "cost": 200,
     "count": 4,
-    "effect": "Boosts damage dealt by 80% of unit's Res.",
+    "effect": "Boosts damage by 80% of unit's Res.",
     "require": "Chilling Wind"
   },
   "Glimmer": {
@@ -124,7 +124,7 @@
   "Glowing Ember": {
     "cost": 100,
     "count": 4,
-    "effect": "Boosts damage dealt by 50% of unit's Def."
+    "effect": "Boosts damage by 50% of unit's Def."
   },
   "Growing Flame": {
     "cost": 300,
@@ -172,13 +172,13 @@
   "Iceberg": {
     "cost": 200,
     "count": 3,
-    "effect": "Boosts damage dealt by 50% of unit's Res.",
+    "effect": "Boosts damage by 50% of unit's Res.",
     "require": "Chilling Wind"
   },
   "Ignis": {
     "cost": 200,
     "count": 4,
-    "effect": "Boosts damage dealt by 80% of unit's Def.",
+    "effect": "Boosts damage by 80% of unit's Def.",
     "require": "Glowing Ember"
   },
   "Imbue": {
@@ -244,20 +244,20 @@
   "Regnal Astra": {
     "cost": 500,
     "count": 2,
-    "effect": "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)",
+    "effect": "Boosts damage by 40% of unit's Spd. (Skill cannot be inherited.)",
     "require": "Astra",
     "restriction": "Exclusive"
   },
   "Reprisal": {
     "cost": 200,
     "count": 2,
-    "effect": "Grants bonus to damage dealt equal to 30% of damage suffered.",
+    "effect": "Boosts damage by 30% of damage dealt to unit.",
     "require": "Retribution"
   },
   "Retribution": {
     "cost": 100,
     "count": 3,
-    "effect": "Grants bonus to damage dealt equal to 30% of damage suffered."
+    "effect": "Boosts damage by 30% of damage dealt to unit."
   },
   "Rising Flame": {
     "cost": 150,
@@ -313,7 +313,7 @@
   "Vengeance": {
     "cost": 200,
     "count": 3,
-    "effect": "Grants bonus to damage dealt equal to 50% of damage suffered.",
+    "effect": "Boosts damage by 50% of damage dealt to unit.",
     "require": "Retribution"
   },
   "Windfire Balm": {

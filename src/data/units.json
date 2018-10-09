@@ -18564,6 +18564,12 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Flying",
+    "boon": [
+      "HP"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -18640,6 +18646,9 @@
     "color": "Green",
     "wpnType": "Dagger",
     "movType": "Armored",
+    "bane": [
+      "HP"
+    ],
     "skills": {
       "weapon": [
         {
@@ -18716,6 +18725,13 @@
     "color": "Blue",
     "wpnType": "Bow",
     "movType": "Armored",
+    "boon": [
+      "HP",
+      "Def"
+    ],
+    "bane": [
+      "Res"
+    ],
     "skills": {
       "weapon": [
         {
@@ -18789,6 +18805,13 @@
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Armored",
+    "boon": [
+      "Atk",
+      "Spd"
+    ],
+    "bane": [
+      "Def"
+    ],
     "skills": {
       "weapon": [
         {
