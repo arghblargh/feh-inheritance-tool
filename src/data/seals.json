@@ -57,6 +57,15 @@
   "Brash Assault 3": {
     "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack."
   },
+  "Brazen Atk/Res 1": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+3 during combat."
+  },
+  "Brazen Atk/Res 2": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+5 during combat."
+  },
+  "Brazen Atk/Res 3": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+7 during combat."
+  },
   "Breath of Life 1": {
     "effect": "If unit initiates combat, restores 3 HP to adjacent allies after combat."
   },
@@ -74,6 +83,18 @@
   },
   "Close Def 3": {
     "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+6 during combat."
+  },
+  "Darting Stance 1": {
+    "effect": "If foe initiates combat, grants Spd+2 during combat.",
+    "restriction": "Offense"
+  },
+  "Darting Stance 2": {
+    "effect": "If foe initiates combat, grants Spd+4 during combat.",
+    "restriction": "Offense"
+  },
+  "Darting Stance 3": {
+    "effect": "If foe initiates combat, grants Spd+6 during combat.",
+    "restriction": "Offense"
   },
   "Def Ploy 1": {
     "effect": "At start of turn, inflicts Def-3 on foes in cardinal directions with Res < unit's Res through their next actions."
@@ -453,6 +474,12 @@
   "Spd Smoke 3": {
     "effect": "Inflicts Spd-7 on foes within 2 spaces of target through their next actions after combat.",
     "restriction": "Offense"
+  },
+  "Spd/Def 1": {
+    "effect": "Grants Spd/Def+1."
+  },
+  "Spd/Def 2": {
+    "effect": "Grants Spd/Def+2."
   },
   "Spur Atk 1": {
     "effect": "Grants Atk+2 to adjacent allies during combat."
