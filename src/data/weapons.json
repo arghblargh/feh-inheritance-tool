@@ -3088,5 +3088,72 @@
     "might": 14,
     "effect": "Effective against cavalry foes.",
     "upgrade": "Special"
+  },
+  "Witchy Wand": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "After combat, if unit attacked, resets Special cooldown of foe, and inflicts the following status on foe through their next actions: \"Inflicts Special cooldown charge -1 per attack during combat. (Only highest value applied. Does not stack.)\" (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.)"
+  },
+  "Witchy Wand+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "After combat, if unit attacked, resets Special cooldown of target and foes within 2 spaces of target, and inflicts the following status on target and foes within 2 spaces of target through their next actions: \"Inflicts Special cooldown charge -1 per attack during combat. (Only highest value applied. Does not stack.)\" (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.)"
+  },
+  "Bottled Juice": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Bottled Juice+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Devilish Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)"
+  },
+  "Devilish Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)",
+    "upgrade": "-"
+  },
+  "Spirit Breath": {
+    "color": "",
+    "type": "Dragon",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. If initiates combat and unit’s Def ≥ foe’s Def+5, unit makes a guaranteed follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
+  "Hack-o'-Lantern": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)"
+  },
+  "Hack-o'-Lantern+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)",
+    "upgrade": "-"
   }
 }

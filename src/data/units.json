@@ -18554,5 +18554,365 @@
         }
       ]
     }
+  },
+  "Mia: Moonlit Witch": {
+    "name": "Mia",
+    "title": "Moonlit Witch",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Witchy Wand",
+          "unlock": 3
+        },
+        {
+          "name": "Witchy Wand+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Recover",
+          "unlock": 3
+        },
+        {
+          "name": "Recover+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Heavenly Light",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Spd/Res Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd/Res Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd/Res Bond 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Fliers",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Kagero: Beverage Ninja": {
+    "name": "Kagero",
+    "title": "Beverage Ninja",
+    "color": "Green",
+    "wpnType": "Dagger",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Bottled Juice",
+          "unlock": 3
+        },
+        {
+          "name": "Bottled Juice+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Mirror Strike 1",
+          "unlock": 4
+        },
+        {
+          "name": "Mirror Strike 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Atk Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Atk Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Atk Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Niles: Forbidden Tease": {
+    "name": "Niles",
+    "title": "Forbidden Tease",
+    "color": "Blue",
+    "wpnType": "Bow",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Devilish Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Devilish Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Smite",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow",
+          "unlock": 1
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Spd Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "Fortify Armor",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Myrrh: Spooky Monster": {
+    "name": "Myrrh",
+    "title": "Spooky Monster",
+    "color": "Red",
+    "wpnType": "Dragon",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Spirit Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Defense +1",
+          "unlock": 1
+        },
+        {
+          "name": "Def/Res 1",
+          "unlock": 2
+        },
+        {
+          "name": "Def/Res 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeful Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 4
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
+  "Dorcas: Pumpkin Smasher": {
+    "name": "Dorcas",
+    "title": "Pumpkin Smasher",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Hack-o'-Lantern",
+          "unlock": 3
+        },
+        {
+          "name": "Hack-o'-Lantern+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fierce Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Sturdy Stance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Sturdy Stance 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wary Fighter 3"
+        }
+      ]
+    }
   }
 }

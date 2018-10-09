@@ -250,6 +250,15 @@
       "effect": "If unit initiates combat, grants Atk+8 during combat.",
       "restriction": "Offense"
     },
+    "Def/Res 1": {
+      "cost": 80,
+      "effect": "Grants Def/Res+1.",
+      "require": "Defense +1|Resistance +1"
+    },
+    "Def/Res 2": {
+      "cost": 160,
+      "effect": "Grants Def/Res+2."
+    },
     "Defense +1": {
       "cost": 30,
       "effect": "Grants Def+1."
@@ -862,6 +871,18 @@
     "Atk/Def Link 3": {
       "cost": 240,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Def+6 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Atk/Spd Link 1": {
+      "cost": 60,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Spd+2 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Atk/Spd Link 2": {
+      "cost": 120,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Spd+4 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Atk/Spd Link 3": {
+      "cost": 240,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
     "Axebreaker 1": {
       "cost": 50,
@@ -2012,6 +2033,18 @@
     "Drive Spd 2": {
       "cost": 240,
       "effect": "Grants Spd+3 to allies within 2 spaces during combat."
+    },
+    "Even Atk Wave 1": {
+      "cost": 60,
+      "effect": "At start of even-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Even Atk Wave 2": {
+      "cost": 120,
+      "effect": "At start of even-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+    },
+    "Even Atk Wave 3": {
+      "cost": 240,
+      "effect": "At start of even-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
     },
     "Even Def Wave 1": {
       "cost": 60,
