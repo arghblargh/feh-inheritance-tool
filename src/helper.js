@@ -152,6 +152,8 @@ export function getLowestRarity(unit) {
     for (let i = 3; i <= 5; i++) {
         if (baseStats[i][1][unit])
             return i;
+        else
+            return 5;
     }
 }
 
