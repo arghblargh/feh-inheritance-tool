@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dropdown, jsonp, storageAvailable } from '../utility.js';
+import { Dropdown, jsonp, storageAvailable } from '../utils/utility.js';
 
 const units = require('../data/units.json');
 

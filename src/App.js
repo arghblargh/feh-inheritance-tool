@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utility.js';
-import { moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait,
-         parseSkills, getRandomUnit, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect, getLowestRarity,
-         calcStats, calcCost, calcTotalCost } from './helper.js';
+import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utils/utility.js';
+import { parseSkills, getRandomUnit, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect, getLowestRarity,
+         calcStats, calcCost, calcTotalCost } from './utils/helper.js';
+import { units, weapons, assists, specials, passives, seals, //upgrades,
+         moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait } from './utils/data.js';
 import BuildManager from './components/BuildManager.js';
-
-const units = require('./data/units.json');
-const weapons = require('./data/weapons.json');
-const assists = require('./data/assists.json');
-const specials = require('./data/specials.json');
-const passives = require('./data/passives.json');
-const seals = require('./data/seals.json');
-// const upgrades = require('./data/upgrades.json');
 
 class SkillInfoRow extends Component {
   constructor(props) {
