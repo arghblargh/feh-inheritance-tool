@@ -848,18 +848,6 @@
       "effect": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
       "restriction": "Flying"
     },
-    "Affinity Breaker 1": {
-      "cost": 60,
-      "effect": ""
-    },
-    "Affinity Breaker 2": {
-      "cost": 120,
-      "effect": ""
-    },
-    "Affinity Breaker 3": {
-      "cost": 240,
-      "effect": ""
-    },
     "Atk/Def Link 1": {
       "cost": 60,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Def+2 to unit and target ally or unit and targeting ally for 1 turn."
@@ -1600,15 +1588,18 @@
     },
     "Special Fighter 1": {
       "cost": 60,
-      "effect": "At start of combat, if unit's HP ≥ 90%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+      "effect": "At start of combat, if unit's HP ≥ 90%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+      "restriction": "Armored"
     },
     "Special Fighter 2": {
       "cost": 120,
-      "effect": "At start of combat, if unit's HP ≥ 70%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+      "effect": "At start of combat, if unit's HP ≥ 70%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+      "restriction": "Armored"
     },
     "Special Fighter 3": {
       "cost": 240,
-      "effect": "At start of combat, if unit's HP ≥ 50%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+      "effect": "At start of combat, if unit's HP ≥ 50%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+      "restriction": "Armored"
     },
     "Swordbreaker 1": {
       "cost": 50,

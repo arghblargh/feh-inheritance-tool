@@ -64,9 +64,8 @@ export function getLowestRarity(unit) {
     for (let i = 3; i <= 5; i++) {
         if (baseStats[i][1][unit])
             return i;
-        else
-            return 5;
     }
+    return 5;
 }
 
 function getWeaponUpgrade(unit) {
@@ -120,7 +119,7 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
     if (restrictions) {
         let rstr = restrictions.split(', ');
         for (let r of rstr) {
-            if (RegExp(r).test(unit))
+            if (r === unit)
                 return true;
 
             if (/Exclusive/.test(r)) {

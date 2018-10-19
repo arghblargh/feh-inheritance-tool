@@ -249,7 +249,8 @@
     "type": "Tome",
     "cost": 400,
     "might": 14,
-    "effect": "Grants Res+3. Grants bonus to unit's Atk = total penalties on foe during combat."
+    "effect": "Grants Res+3. Grants bonus to unit's Atk = total penalties on foe during combat.",
+    "restriction": "Exclusive"
   },
   "Blue Egg": {
     "color": "Blue",

@@ -16848,15 +16848,15 @@
       "weapon": [
         {
           "name": "Iron Dagger",
-          "unlock": 4
+          "unlock": 1
         },
         {
           "name": "Steel Dagger",
-          "unlock": 4
+          "unlock": 2
         },
         {
           "name": "Silver Dagger",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Peshkatz"
@@ -16865,7 +16865,7 @@
       "special": [
         {
           "name": "Night Sky",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Glimmer",
@@ -16875,11 +16875,11 @@
       "passiveA": [
         {
           "name": "Life and Death 1",
-          "unlock": 4
+          "unlock": 1
         },
         {
           "name": "Life and Death 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
           "name": "Life and Death 3",
@@ -16889,7 +16889,7 @@
       "passiveC": [
         {
           "name": "Spur Atk 1",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Spur Atk/Spd 1",
