@@ -1923,6 +1923,14 @@
     "effect": "Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-1 for each magic ally on your team (including unit).",
     "restriction": "Exclusive"
   },
+  "Missiletainn ": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). Grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)",
+    "restriction": "Exclusive"
+  },
   "Mjölnir": {
     "color": "Blue",
     "type": "Tome",
@@ -2386,6 +2394,14 @@
     "might": 14,
     "effect": "If foe initiates combat, grants Def+7 during combat.",
     "upgrade": "-"
+  },
+  "Sagittae": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Def+3. At start of combat, if foe's Atk ≥ unit's Atk+5, grants Atk/Spd/Def/Res+5 during combat.",
+    "restriction": "Exclusive"
   },
   "Sapphire Lance": {
     "color": "Blue",
