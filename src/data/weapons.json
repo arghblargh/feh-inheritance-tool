@@ -119,6 +119,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Aversa's Night": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. At start of turn, if any foe's HP ≤ unit’s HP-3 and that foe is adjacent to another foe, inflicts Atk/Spd/Def/Res-3 on that foe and bonuses on that foe become penalties through its next action.",
+    "restriction": "Exclusive"
+  },
   "Ayra's Blade": {
     "color": "Red",
     "type": "Sword",

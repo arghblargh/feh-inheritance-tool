@@ -675,6 +675,69 @@
       ]
     }
   },
+  "Aversa: Dark One": {
+    "name": "Aversa",
+    "title": "Dark One",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 3
+        },
+        {
+          "name": "Ruin",
+          "unlock": 3
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 3
+        },
+        {
+          "name": "Aversa's Night"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Speed +1",
+          "unlock": 3
+        },
+        {
+          "name": "HP/Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "HP/Spd 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Res Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Res Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Res Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
   "Ayra: Astra's Wielder": {
     "name": "Ayra",
     "title": "Astra's Wielder",
@@ -8287,6 +8350,94 @@
       ]
     }
   },
+  "Kliff: Curious Spirit": {
+    "name": "Kliff",
+    "title": "Curious Spirit",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "HP",
+      "Spd",
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 1
+        },
+        {
+          "name": "Ellight",
+          "unlock": 2
+        },
+        {
+          "name": "Shine",
+          "unlock": 3
+        },
+        {
+          "name": "Sagittae"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Light",
+          "unlock": 3
+        },
+        {
+          "name": "Growing Light",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fortress Def 1",
+          "unlock": 2
+        },
+        {
+          "name": "Fort. Def/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fort. Def/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fort. Def/Res 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "Fortify Res 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
   "L'Arachel: Princess of Light": {
     "name": "L'Arachel",
     "title": "Princess of Light",
@@ -9722,6 +9873,92 @@
         },
         {
           "name": "Threaten Atk 3"
+        }
+      ]
+    }
+  },
+  "Loki: The Trickster": {
+    "name": "Loki",
+    "title": "The Trickster",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "boon": [
+      "Res"
+    ],
+    "bane": [
+      "Def"
+    ],
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Thökk",
+          "unlock": 5
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 2
+        },
+        {
+          "name": "Restore",
+          "unlock": 3
+        },
+        {
+          "name": "Restore+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Still-Water Balm",
+          "unlock": 3
+        },
+        {
+          "name": "Earthwater Balm",
+          "unlock": 4
+        },
+        {
+          "name": "Earthwater Balm+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "C Duel Infantry 1",
+          "unlock": 3
+        },
+        {
+          "name": "C Duel Infantry 2",
+          "unlock": 4
+        },
+        {
+          "name": "C Duel Infantry 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Atk Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Atk Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Atk Wave 3",
+          "unlock": 4
         }
       ]
     }
@@ -13680,6 +13917,85 @@
         },
         {
           "name": "Spur Spd/Def 2"
+        }
+      ]
+    }
+  },
+  "Owain: Chosen One": {
+    "name": "Owain",
+    "title": "Chosen One",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Missiletainn "
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        },
+        {
+          "name": "Blue Flame"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrath 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spur Spd/Def 1",
+          "unlock": 2
+        },
+        {
+          "name": "Spur Spd/Def 2",
+          "unlock": 4
         }
       ]
     }
@@ -18937,263 +19253,6 @@
         {
           "name": "Wary Fighter 3",
           "unlock": 4
-        }
-      ]
-    }
-  },
-  "Loki: The Trickster": {
-    "name": "Loki",
-    "title": "The Trickster",
-    "color": "Neutral",
-    "wpnType": "Staff",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Assault",
-          "unlock": 1
-        },
-        {
-          "name": "Gravity",
-          "unlock": 3
-        },
-        {
-          "name": "Thökk",
-          "unlock": 5
-        }
-      ],
-      "assist": [
-        {
-          "name": "Heal",
-          "unlock": 1
-        },
-        {
-          "name": "Reconcile",
-          "unlock": 2
-        },
-        {
-          "name": "Restore",
-          "unlock": 3
-        },
-        {
-          "name": "Restore+"
-        }
-      ],
-      "special": [
-        {
-          "name": "Earthwater Balm",
-          "unlock": 4
-        },
-        {
-          "name": "Earthwater Balm+"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "C Duel Infantry 1",
-          "unlock": 3
-        },
-        {
-          "name": "C Duel Infantry 2",
-          "unlock": 4
-        },
-        {
-          "name": "C Duel Infantry 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Odd Atk Wave 1",
-          "unlock": 3
-        },
-        {
-          "name": "Odd Atk Wave 2",
-          "unlock": 4
-        },
-        {
-          "name": "Odd Atk Wave 3"
-        }
-      ]
-    }
-  },
-  "Kliff: Curious Spirit": {
-    "name": "Kliff",
-    "title": "Curious Spirit",
-    "color": "Blue",
-    "wpnType": "Tome",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Light",
-          "unlock": 1
-        },
-        {
-          "name": "Ellight",
-          "unlock": 2
-        },
-        {
-          "name": "Shine",
-          "unlock": 3
-        },
-        {
-          "name": "Sagittae"
-        }
-      ],
-      "special": [
-        {
-          "name": "Rising Light",
-          "unlock": 3
-        },
-        {
-          "name": "Growing Light",
-          "unlock": 4
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Fort. Def/Res 1",
-          "unlock": 3
-        },
-        {
-          "name": "Fort. Def/Res 2",
-          "unlock": 4
-        },
-        {
-          "name": "Fort. Def/Res 3"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Chill Spd 1",
-          "unlock": 3
-        },
-        {
-          "name": "Chill Spd 2",
-          "unlock": 3
-        },
-        {
-          "name": "Chill Spd 3",
-          "unlock": 4
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Fortify Res 1",
-          "unlock": 3
-        },
-        {
-          "name": "Fortify Res 2",
-          "unlock": 3
-        },
-        {
-          "name": "Fortify Res 3",
-          "unlock": 4
-        }
-      ]
-    }
-  },
-  "Owain: Chosen One": {
-    "name": "Owain",
-    "title": "Chosen One",
-    "color": "Red",
-    "wpnType": "Sword",
-    "movType": "Infantry",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword",
-          "unlock": 1
-        },
-        {
-          "name": "Steel Sword",
-          "unlock": 2
-        },
-        {
-          "name": "Silver Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Missiletainn "
-        }
-      ],
-      "special": [
-        {
-          "name": "Night Sky",
-          "unlock": 3
-        },
-        {
-          "name": "Astra",
-          "unlock": 4
-        },
-        {
-          "name": "Blue Flame"
-        }
-      ],
-      "passiveA": [
-        {
-          "name": "Atk/Def Bond 1",
-          "unlock": 3
-        },
-        {
-          "name": "Atk/Def Bond 2",
-          "unlock": 4
-        },
-        {
-          "name": "Atk/Def Bond 3"
-        }
-      ],
-      "passiveB": [
-        {
-          "name": "Wrath 1",
-          "unlock": 3
-        },
-        {
-          "name": "Wrath 2",
-          "unlock": 4
-        },
-        {
-          "name": "Wrath 3"
-        }
-      ],
-      "passiveC": [
-        {
-          "name": "Spur Spd 1",
-          "unlock": 1
-        },
-        {
-          "name": "Spur Spd/Def 1",
-          "unlock": 2
-        },
-        {
-          "name": "Spur Spd/Def 2",
-          "unlock": 4
-        }
-      ]
-    }
-  },
-  "Aversa: ": {
-    "name": "Aversa",
-    "title": "",
-    "color": "Red",
-    "wpnType": "Tome",
-    "movType": "Flying",
-    "skills": {
-      "weapon": [
-        {
-          "name": "Iron Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Steel Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Silver Sword",
-          "unlock": 3
-        },
-        {
-          "name": "Eckesachs"
         }
       ]
     }

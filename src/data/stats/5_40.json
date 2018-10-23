@@ -76,6 +76,13 @@
     "Def": 27,
     "Res": 24
   },
+  "Aversa: Dark One": {
+    "HP": 42,
+    "Atk": 33,
+    "Spd": 34,
+    "Def": 17,
+    "Res": 24
+  },
   "Ayra: Astra's Wielder": {
     "HP": 41,
     "Atk": 33,
@@ -937,6 +944,13 @@
     "Def": 20,
     "Res": 24
   },
+  "Kliff: Curious Spirit": {
+    "HP": 37,
+    "Atk": 30,
+    "Spd": 37,
+    "Def": 25,
+    "Res": 28
+  },
   "L'Arachel: Princess of Light": {
     "HP": 33,
     "Atk": 33,
@@ -1090,6 +1104,13 @@
     "Spd": 35,
     "Def": 20,
     "Res": 30
+  },
+  "Loki: The Trickster": {
+    "HP": 42,
+    "Atk": 33,
+    "Spd": 35,
+    "Def": 16,
+    "Res": 25
   },
   "Lon'qu: Solitary Blade": {
     "HP": 45,
@@ -1524,6 +1545,13 @@
     "Spd": 34,
     "Def": 26,
     "Res": 21
+  },
+  "Owain: Chosen One": {
+    "HP": 41,
+    "Atk": 32,
+    "Spd": 37,
+    "Def": 31,
+    "Res": 22
   },
   "Palla: Eldest Whitewing": {
     "HP": 42,

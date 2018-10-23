@@ -416,15 +416,16 @@
       "restriction": "Armored|Infantry, Offense"
     },
     "Fort. Def/Res 1": {
-      "cost": 60,
-      "effect": "Grants Def/Res+2. Inflicts Atk-2."
+      "cost": 100,
+      "effect": "Grants Def/Res+3. Inflicts Atk-3.",
+      "require": "Fortress Def 1|Fortress Res 1"
     },
     "Fort. Def/Res 2": {
-      "cost": 120,
-      "effect": "Grants Def/Res+4. Inflicts Atk-2."
+      "cost": 200,
+      "effect": "Grants Def/Res+4. Inflicts Atk-3."
     },
     "Fort. Def/Res 3": {
-      "cost": 240,
+      "cost": 300,
       "effect": "Grants Def/Res+6. Inflicts Atk-2."
     },
     "Fortress Def 1": {
@@ -515,7 +516,8 @@
     },
     "HP/Atk 1": {
       "cost": 100,
-      "effect": "Grants HP+3, Atk+1."
+      "effect": "Grants HP+3, Atk+1.",
+      "require": "HP +3|Attack +1"
     },
     "HP/Atk 2": {
       "cost": 200,
@@ -523,7 +525,8 @@
     },
     "HP/Def 1": {
       "cost": 100,
-      "effect": "Grants HP+3, Def+1."
+      "effect": "Grants HP+3, Def+1.",
+      "require": "HP +3|Defense +1"
     },
     "HP/Def 2": {
       "cost": 200,
@@ -531,7 +534,8 @@
     },
     "HP/Res 1": {
       "cost": 100,
-      "effect": "Grants HP+3, Res+1."
+      "effect": "Grants HP+3, Res+1.",
+      "require": "HP +3|Resistance +1"
     },
     "HP/Res 2": {
       "cost": 200,
@@ -539,7 +543,8 @@
     },
     "HP/Spd 1": {
       "cost": 100,
-      "effect": "Grants HP+3, Spd+1."
+      "effect": "Grants HP+3, Spd+1.",
+      "require": "HP +3|Speed +1"
     },
     "HP/Spd 2": {
       "cost": 200,

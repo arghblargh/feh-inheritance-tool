@@ -55,6 +55,13 @@
     "Def": 26,
     "Res": 22
   },
+  "Aversa: Dark One": {
+    "HP": 39,
+    "Atk": 31,
+    "Spd": 32,
+    "Def": 15,
+    "Res": 22
+  },
   "Azama: Carefree Monk": {
     "HP": 40,
     "Atk": 19,
@@ -894,6 +901,13 @@
     "Spd": 35,
     "Def": 24,
     "Res": 24
+  },
+  "Silas: Loyal Knight": {
+    "HP": 37,
+    "Atk": 33,
+    "Spd": 22,
+    "Def": 34,
+    "Res": 19
   },
   "Silvia: Traveling Dancer": {
     "HP": 37,
