@@ -116,8 +116,12 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
             return false;
     }
 
+    if (limitStaff && /Staff/.test(unitData) && !/Staff/.test(restrictions))
+        return false;
+
     if (restrictions) {
         let rstr = restrictions.split(', ');
+
         for (let r of rstr) {
             if (r === unit)
                 return true;
@@ -131,9 +135,6 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
 
             if (/Offense/.test(r) && !/Staff/.test(unitData))
                 return true;
-
-            if (limitStaff && /Staff/.test(unitData) && !/Staff/.test(r))
-                return false;
                     
             if (/Melee/.test(r) && /Sword|Lance|Axe|Dragon/.test(unitData))
                 return true;
