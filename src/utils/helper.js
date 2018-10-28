@@ -310,8 +310,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
 
     if (boonBane) {
         for (var bb in boonBane) {
-            if (!bb)
-                continue;
+            if (!boonBane[bb]) continue;
 
             let index = boonBane[bb] === "HP"  ? 0 :
                         boonBane[bb] === "Atk" ? 1 :
