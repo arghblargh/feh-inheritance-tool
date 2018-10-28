@@ -283,7 +283,7 @@ export default class BuildManager extends React.PureComponent {
                     <input name="buildName" type="text" placeholder="Enter Build Name" onChange={this.handleBuildNameChange} />
                 </div>
                 }
-                <div className="link"><a href={this.state.link} target="_blank">More Info...</a></div>
+                <div className="link"><a href={this.state.link} target="_blank" rel="noopener noreferrer">More Info...</a></div>
                 <div className="buttons">
                     <button onClick={this.handleNewClick} hidden={this.state.newBuild}>New</button>
                     <button onClick={this.handleDeleteClick} hidden={!canSave}>{this.state.newBuild ? 'Cancel' : 'Delete'}</button>
