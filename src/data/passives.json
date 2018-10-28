@@ -2009,17 +2009,17 @@
     "Dragon Valor 1": {
       "cost": 30,
       "effect": "If unit survives and uses a dragonstone, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
-      "restriction": "Dragon"
+      "restriction": "Breath"
     },
     "Dragon Valor 2": {
       "cost": 60,
       "effect": "If unit survives, all dragonstone allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
-      "restriction": "Dragon"
+      "restriction": "Breath"
     },
     "Dragon Valor 3": {
       "cost": 120,
       "effect": "If unit survives, all dragonstone allies on team get 2x SP. (Only highest value applied. Does not stack.)",
-      "restriction": "Dragon"
+      "restriction": "Breath"
     },
     "Drive Atk 1": {
       "cost": 120,
@@ -2148,7 +2148,7 @@
       "cost": 200,
       "effect": "At start of turn, grants Def/Res+6 to adjacent dragon allies for 1 turn.",
       "require": "Fortify Def 2|Fortify Res 2",
-      "restriction": "Dragon"
+      "restriction": "Breath"
     },
     "Fortify Fliers": {
       "cost": 200,
@@ -2214,7 +2214,7 @@
       "cost": 200,
       "effect": "Grants Atk/Spd+4 to dragon allies within 2 spaces during combat.",
       "require": "Spur Atk 2|Spur Spd 2",
-      "restriction": "Dragon"
+      "restriction": "Breath"
     },
     "Goad Fliers": {
       "cost": 200,
@@ -2265,7 +2265,7 @@
       "cost": 200,
       "effect": "At start of turn, grants Atk/Spd+6 to adjacent dragon allies for 1 turn.",
       "require": "Hone Atk 2|Hone Spd 2",
-      "restriction": "Dragon"
+      "restriction": "Breath"
     },
     "Hone Fliers": {
       "cost": 200,
@@ -2738,7 +2738,7 @@
       "cost": 200,
       "effect": "Grants Def/Res+4 to dragon allies within 2 spaces during combat.",
       "require": "Spur Def 2|Spur Res 2",
-      "restriction": "Dragon"
+      "restriction": "Breath"
     },
     "Ward Fliers": {
       "cost": 200,

@@ -1793,9 +1793,9 @@
       ]
     }
   },
-  "Canas: Seeker of Wisdom": {
+  "Canas: Wisdom Seeker": {
     "name": "Canas",
-    "title": "Seeker of Wisdom",
+    "title": "Wisdom Seeker",
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
@@ -3069,7 +3069,7 @@
     "name": "Corrin",
     "title": "Fateful Princess",
     "color": "Blue",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -4394,7 +4394,7 @@
     "name": "Fae",
     "title": "Divine Dragon",
     "color": "Green",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -5112,7 +5112,7 @@
     "name": "Garon",
     "title": "King of Nohr",
     "color": "Red",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -7448,7 +7448,7 @@
     "name": "Kana",
     "title": "Dragon Princess",
     "color": "Green",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -7501,7 +7501,7 @@
     "name": "Kana",
     "title": "Dragon Spawn",
     "color": "Blue",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -11396,7 +11396,7 @@
     "name": "Myrrh",
     "title": "Great Dragon",
     "color": "Green",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Flying",
     "skills": {
       "weapon": [
@@ -11449,7 +11449,7 @@
     "name": "Myrrh",
     "title": "Spooky Monster",
     "color": "Red",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Armored",
     "skills": {
       "weapon": [
@@ -12027,7 +12027,7 @@
     "name": "Ninian",
     "title": "Oracle of Destiny",
     "color": "Blue",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -12305,7 +12305,7 @@
     "name": "Nowi",
     "title": "Eternal Youth",
     "color": "Blue",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -13715,7 +13715,7 @@
     "name": "Robin",
     "title": "Fell Reincarnation",
     "color": "Green",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Armored",
     "skills": {
       "weapon": [
@@ -13768,7 +13768,7 @@
     "name": "Robin",
     "title": "Fell Vessel",
     "color": "Neutral",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Flying",
     "skills": {
       "weapon": [
@@ -16868,7 +16868,7 @@
     "name": "Tiki",
     "title": "Beachside Scion",
     "color": "Red",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Flying",
     "skills": {
       "weapon": [
@@ -16926,7 +16926,7 @@
     "name": "Tiki",
     "title": "Dragon Scion",
     "color": "Red",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
@@ -16982,7 +16982,7 @@
     "name": "Tiki",
     "title": "Legendary Dragon",
     "color": "Blue",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Armored",
     "skills": {
       "weapon": [
@@ -17050,7 +17050,7 @@
     "name": "Tiki",
     "title": "Naga's Voice",
     "color": "Red",
-    "wpnType": "Dragon",
+    "wpnType": "Breath",
     "movType": "Infantry",
     "skills": {
       "weapon": [
