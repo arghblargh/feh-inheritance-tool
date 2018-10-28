@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e7ba720d43a93492061e",
+    "revision": "1291ec8bcab4ce442b87",
     "url": "/feh-inheritance-tool/static/css/main.96626ab1.chunk.css"
   },
   {
-    "revision": "e7ba720d43a93492061e",
-    "url": "/feh-inheritance-tool/static/js/main.e7ba720d.chunk.js"
+    "revision": "1291ec8bcab4ce442b87",
+    "url": "/feh-inheritance-tool/static/js/main.1291ec8b.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -145,7 +145,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "bf7cadfe613a45630b7f3427f9a2355e",
-    "url": "/feh-inheritance-tool/static/media/Canas_Seeker_of_Wisdom.bf7cadfe.png"
+    "url": "/feh-inheritance-tool/static/media/Canas_Wisdom_Seeker.bf7cadfe.png"
   },
   {
     "revision": "65c428730beb4bd2856106b2cc0acf32",
@@ -1252,7 +1252,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "e8f85634d5b52e97b940971f40cf662c",
+    "revision": "b2d082cf6f62b4969a3dc7b29d413211",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];

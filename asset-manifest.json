@@ -1,7 +1,7 @@
 {
   "main.css": "/feh-inheritance-tool/static/css/main.96626ab1.chunk.css",
-  "main.js": "/feh-inheritance-tool/static/js/main.e7ba720d.chunk.js",
-  "main.js.map": "/feh-inheritance-tool/static/js/main.e7ba720d.chunk.js.map",
+  "main.js": "/feh-inheritance-tool/static/js/main.1291ec8b.chunk.js",
+  "main.js.map": "/feh-inheritance-tool/static/js/main.1291ec8b.chunk.js.map",
   "static/js/1.902fef7d.chunk.js": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js",
   "static/js/1.902fef7d.chunk.js.map": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js.map",
   "runtime~main.js": "/feh-inheritance-tool/static/js/runtime~main.9075a52a.js",
@@ -38,7 +38,7 @@
   "static/media/Camilla_Spring_Princess.png": "/feh-inheritance-tool/static/media/Camilla_Spring_Princess.355d5cf6.png",
   "static/media/Camilla_Tropical_Beauty.png": "/feh-inheritance-tool/static/media/Camilla_Tropical_Beauty.d1407712.png",
   "static/media/Camus_Sable_Knight.png": "/feh-inheritance-tool/static/media/Camus_Sable_Knight.b9392028.png",
-  "static/media/Canas_Seeker_of_Wisdom.png": "/feh-inheritance-tool/static/media/Canas_Seeker_of_Wisdom.bf7cadfe.png",
+  "static/media/Canas_Wisdom_Seeker.png": "/feh-inheritance-tool/static/media/Canas_Wisdom_Seeker.bf7cadfe.png",
   "static/media/Catria_Middle_Whitewing.png": "/feh-inheritance-tool/static/media/Catria_Middle_Whitewing.65c42873.png",
   "static/media/Catria_Spring_Whitewing.png": "/feh-inheritance-tool/static/media/Catria_Spring_Whitewing.908ee024.png",
   "static/media/Cecilia_Etrurian_General.png": "/feh-inheritance-tool/static/media/Cecilia_Etrurian_General.17934d03.png",
@@ -317,6 +317,6 @@
   "static/media/Zephiel_The_Liberator.png": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png",
   "static/css/main.96626ab1.chunk.css.map": "/feh-inheritance-tool/static/css/main.96626ab1.chunk.css.map",
   "index.html": "/feh-inheritance-tool/index.html",
-  "precache-manifest.480f160f5d7dcf696d7ed4f9e7838de7.js": "/feh-inheritance-tool/precache-manifest.480f160f5d7dcf696d7ed4f9e7838de7.js",
+  "precache-manifest.28c3337bb4552da24496fc81bf753b2e.js": "/feh-inheritance-tool/precache-manifest.28c3337bb4552da24496fc81bf753b2e.js",
   "service-worker.js": "/feh-inheritance-tool/service-worker.js"
 }
