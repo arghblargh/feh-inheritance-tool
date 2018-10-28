@@ -1,6 +1,6 @@
 //import React from 'react';
 import { escapeRegExp } from './utility.js';
-import { units, weapons, assists, specials, passives, seals, upgrades, baseStats } from './data.js';
+import { units, weapons, assists, specials, passives, seals, upgrades, baseStats, growths } from './data.js';
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
@@ -62,7 +62,7 @@ function getDefaultSkills(unit) {
 // Returns the lowest available rarity of a unit, down to 3★
 export function getLowestRarity(unit) {
     for (let i = 3; i <= 5; i++) {
-        if (baseStats[i][1][unit])
+        if (baseStats[i][unit])
             return i;
     }
     return 5;
@@ -253,14 +253,14 @@ function addStatMods(stats, mod) {
 // +6~10: Repeat
 // In case of tie: HP > Atk > Spd > Def > Res
 function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
-    if (!baseStats[rarity][1][unit])
+    if (!baseStats[rarity][unit])
         return [0, 0, 0, 0, 0];
     
     let sortedStats = [];
-    for (let stat in baseStats[5][1][unit]) {
+    for (let stat in baseStats[5][unit]) {
         sortedStats.push({
             "stat": stat,
-            "value": baseStats[5][1][unit][stat],
+            "value": baseStats[5][unit][stat],
             "bonus": 0
         });
     }
@@ -302,28 +302,31 @@ function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
 }
 
 // Calculate unit stats
-export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null, merge = 0, summonerRank = '', getMod = false) {
+export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null, merge = 0, summonerRank = ''/*, getMod = false*/) {
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
-    
-    let baseBonus = level === 40 ? 3 : 1;
+
+    let growthRates = Object.values(growths[unit]);
+
     if (boonBane) {
-        if (boonBane.boon) {
-            let boon = (rarity === 5 && level === 40 && units[unit].boon && units[unit].boon.includes(boonBane.boon)) ? 4 : baseBonus;
-            totalMod[boonBane.boon === "HP"  ? 0 :
-                    boonBane.boon === "Atk" ? 1 :
-                    boonBane.boon === "Spd" ? 2 :
-                    boonBane.boon === "Def" ? 3 :
-                /*boonBane.boon === "Res" ?*/ 4 ] += boon;
+        for (var bb in boonBane) {
+            if (!bb)
+                continue;
+
+            let index = boonBane[bb] === "HP"  ? 0 :
+                        boonBane[bb] === "Atk" ? 1 :
+                        boonBane[bb] === "Spd" ? 2 :
+                        boonBane[bb] === "Def" ? 3 :
+                        /*boonBane[bb] === "Res" ?*/ 4;
+            
+            totalMod[index] += bb === "boon" ? 1 : -1;
+            growthRates[index] += bb === "boon" ? 5 : -5;
         }
-        if (boonBane.bane) {
-            let bane = (rarity === 5 && level === 40 && units[unit].bane && units[unit].bane.includes(boonBane.bane)) ? 4 : baseBonus;
-            totalMod[boonBane.bane === "HP"  ? 0 :
-                    boonBane.bane === "Atk" ? 1 :
-                    boonBane.bane === "Spd" ? 2 :
-                    boonBane.bane === "Def" ? 3 :
-                /*boonBane.bane === "Res" ?*/ 4 ] -= bane;
-        }
+    }
+
+    if (level === 40) {
+        let growthValues = calcGrowthValues(growthRates);
+        totalMod = totalMod.map((x,i) => { return x + growthValues[i]; });
     }
 
     let mergeMod = calcMergeBonus(unit, rarity, merge, totalMod);
@@ -346,10 +349,14 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         applySummonerSupportBonus();
     }
 
-    if (getMod)
-        return totalMod;
-    else
-        return addStatMods(baseStats[rarity][level][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][level][unit])) : null, totalMod);
+    // if (getMod)
+    //     return totalMod;
+    // else
+    return addStatMods(baseStats[rarity][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][unit])) : null, totalMod);
+
+    function calcGrowthValues(growthRates) {
+        return growthRates.map(x => Math.floor(0.39 * Math.floor(x * (0.79 + (0.07 * rarity)))));
+    }
 
     function applySkillStats(skill, type) {
         if (!skill || skill === 'undefined') return;
@@ -475,24 +482,24 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
 }
 
 // Determine boon/bane from input stats
-export function calcBoonBane(unit, rarity, level, merge, rank, skills, stats) {
-    var base = JSON.parse(JSON.stringify(baseStats[rarity][level][unit]));
-    var skillMod = calcStats(unit, skills, rarity, level, null, merge, rank, true);
-    var statArr = [
-        { stat: 'HP', value: stats.HP - base.HP - skillMod[0] },
-        { stat: 'Atk', value: stats.Atk - base.Atk - skillMod[1] },
-        { stat: 'Spd', value: stats.Spd - base.Spd - skillMod[2] },
-        { stat: 'Def', value: stats.Def - base.Def - skillMod[3] },
-        { stat: 'Res', value: stats.Res - base.Res - skillMod[4] }
-    ];
+// export function calcBoonBane(unit, rarity, level, merge, rank, skills, stats) {
+//     var base = JSON.parse(JSON.stringify(baseStats[rarity][level][unit]));
+//     var skillMod = calcStats(unit, skills, rarity, level, null, merge, rank, true);
+//     var statArr = [
+//         { stat: 'HP', value: stats.HP - base.HP - skillMod[0] },
+//         { stat: 'Atk', value: stats.Atk - base.Atk - skillMod[1] },
+//         { stat: 'Spd', value: stats.Spd - base.Spd - skillMod[2] },
+//         { stat: 'Def', value: stats.Def - base.Def - skillMod[3] },
+//         { stat: 'Res', value: stats.Res - base.Res - skillMod[4] }
+//     ];
 
-    statArr = statArr.sort((a, b) => b.value - a.value);
+//     statArr = statArr.sort((a, b) => b.value - a.value);
 
-    if (statArr[0].value - statArr[4].value > 1)
-        return {boon: statArr[0].stat, bane: statArr[4].stat};
-    else
-        return {boon: '', bane: ''};
-}
+//     if (statArr[0].value - statArr[4].value > 1)
+//         return {boon: statArr[0].stat, bane: statArr[4].stat};
+//     else
+//         return {boon: '', bane: ''};
+// }
 
 // Searches for and returns the object containing data for a skill
 function getSkillData(skill) {

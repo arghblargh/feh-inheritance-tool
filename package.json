@@ -1,6 +1,6 @@
 {
   "name": "feh-inheritance-tool",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "homepage": "https://arghblargh.github.io/feh-inheritance-tool",
   "private": true,
   "dependencies": {
@@ -18,6 +18,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "stats": "curl https://feh-stat-pull.herokuapp.com/stats/[3-5]-{1,40} -o \"src/data/stats/#1_#2.json\""
+    "stats": "curl https://feh-stat-pull.herokuapp.com/stats/[3-5]-{1,40} -o \"src/data/stats/#1_#2.json\" https://feh-stat-pull.herokuapp.com/stats/growths -o \"src/data/stats/growths.json\""
   }
 }

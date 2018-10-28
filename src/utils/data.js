@@ -1,18 +1,11 @@
 export const units = require('../data/units.json');
 export const baseStats = {
-    3: {
-        1: require('../data/stats/3_1.json'),
-        40: require('../data/stats/3_40.json')
-    },
-    4: {
-        1: require('../data/stats/4_1.json'),
-        40: require('../data/stats/4_40.json')
-    },
-    5: {
-        1: require('../data/stats/5_1.json'),
-        40: require('../data/stats/5_40.json')
-    }
+    3: require('../data/stats/3_1.json'),
+    4: require('../data/stats/4_1.json'),
+    5: require('../data/stats/5_1.json')
 }
+
+export const growths = require('../data/stats/growths.json');
 
 export const weapons = require('../data/weapons.json');
 export const assists = require('../data/assists.json');

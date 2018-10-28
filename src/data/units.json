@@ -5,12 +5,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -137,10 +131,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -194,9 +184,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -250,9 +237,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -424,11 +408,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -492,12 +471,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -613,11 +586,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -744,9 +712,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -803,10 +768,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -869,10 +830,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -923,12 +880,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -979,13 +930,7 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Res"
-    ],
-    "skills": {
+            "skills": {
       "weapon": [
         {
           "name": "Iron Lance"
@@ -1035,10 +980,7 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": [
-      "Res"
-    ],
-    "skills": {
+        "skills": {
       "weapon": [
         {
           "name": "Iron Axe",
@@ -1090,10 +1032,7 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
-    "skills": {
+        "skills": {
       "weapon": [
         {
           "name": "Iron Axe",
@@ -1215,9 +1154,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1339,11 +1275,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "Atk",
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1407,10 +1338,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1464,11 +1391,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Atk",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1531,9 +1453,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1597,13 +1516,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1670,12 +1582,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1729,13 +1635,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1780,9 +1679,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -1962,13 +1858,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2032,12 +1921,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2088,13 +1971,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": [
-      "HP",
-      "Spd"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2154,9 +2030,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2210,13 +2083,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2270,10 +2136,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2338,9 +2200,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2391,9 +2250,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2456,12 +2312,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2578,11 +2428,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2650,9 +2495,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2703,10 +2545,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2761,12 +2599,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -2947,10 +2779,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3001,9 +2829,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3070,9 +2895,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3123,13 +2945,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3193,13 +3008,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3263,12 +3071,6 @@
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3332,9 +3134,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3388,13 +3187,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3445,9 +3237,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3498,9 +3287,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3612,9 +3398,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3679,9 +3462,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Armored",
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3738,12 +3518,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3803,9 +3577,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3870,13 +3641,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Atk",
-      "Def"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3929,12 +3693,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -3982,9 +3740,6 @@
     "color": "Green",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4046,11 +3801,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4154,9 +3904,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4273,10 +4020,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4340,9 +4083,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4401,9 +4141,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4457,12 +4194,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "bane": [
-      "Spd"
-    ],
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4527,13 +4258,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4672,13 +4396,6 @@
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4738,10 +4455,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "bane": [
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4795,9 +4508,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4923,12 +4633,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -4995,11 +4699,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Atk",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5067,10 +4766,6 @@
     "color": "Red",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5135,9 +4830,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5197,11 +4889,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5252,9 +4939,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5318,9 +5002,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5380,10 +5061,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5501,9 +5178,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5613,9 +5287,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5675,9 +5346,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5728,13 +5396,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5793,12 +5454,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Atk",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5858,13 +5513,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5921,9 +5569,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -5983,10 +5628,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "bane": [
-      "HP",
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6040,9 +5681,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6106,12 +5744,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "bane": [
-      "Res"
-    ],
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6170,9 +5802,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6220,9 +5849,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6270,12 +5896,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6328,9 +5948,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6407,12 +6024,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Armored",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6460,9 +6071,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6526,9 +6134,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6592,13 +6197,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6663,12 +6261,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6725,9 +6317,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6789,9 +6378,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6859,9 +6445,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -6918,10 +6501,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7025,10 +6604,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7082,13 +6657,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7153,10 +6721,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "Atk",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7210,9 +6774,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7276,9 +6837,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Armored",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7332,9 +6890,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7457,10 +7012,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7586,13 +7137,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7709,9 +7253,6 @@
     "color": "Green",
     "wpnType": "Dagger",
     "movType": "Armored",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7788,9 +7329,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7854,13 +7392,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -7919,13 +7450,6 @@
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8043,12 +7567,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8105,9 +7623,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8161,9 +7676,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8220,9 +7732,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8286,13 +7795,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8356,14 +7858,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8444,9 +7938,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8510,10 +8001,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8577,9 +8064,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8656,9 +8140,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8731,9 +8212,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8797,9 +8275,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8926,10 +8401,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -8988,14 +8459,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9046,13 +8509,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9106,14 +8562,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP",
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9167,13 +8615,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9237,13 +8678,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9308,11 +8742,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9376,10 +8805,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "bane": [
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9433,13 +8858,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Spd"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9506,13 +8924,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9564,12 +8975,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Cavalry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9683,10 +9088,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "bane": [
-      "HP",
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9750,14 +9151,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "Atk",
-      "Spd"
-    ],
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9883,12 +9276,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -9969,9 +9356,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10038,9 +9422,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10097,9 +9478,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10156,10 +9534,6 @@
     "color": "Blue",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10221,13 +9595,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Res"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10278,13 +9645,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10347,9 +9707,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10413,10 +9770,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": [
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10470,9 +9823,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10526,13 +9876,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10591,13 +9934,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10651,13 +9987,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10714,13 +10043,6 @@
     "color": "Green",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10779,13 +10101,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Armored",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10910,13 +10225,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -10976,12 +10284,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11044,10 +10346,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11235,10 +10533,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11324,9 +10618,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11385,12 +10676,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11450,12 +10735,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11515,12 +10794,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11584,13 +10857,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11644,12 +10910,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11726,13 +10986,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11797,9 +11050,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11915,9 +11165,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Flying",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -11971,13 +11218,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "HP",
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12031,10 +11271,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12098,12 +11334,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12168,12 +11398,6 @@
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Flying",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12227,13 +11451,6 @@
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Armored",
-    "boon": [
-      "Atk",
-      "Spd"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12310,13 +11527,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": [
-      "HP",
-      "Res"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12519,9 +11729,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12578,12 +11785,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12647,13 +11848,6 @@
     "color": "Blue",
     "wpnType": "Bow",
     "movType": "Armored",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12727,12 +11921,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12791,13 +11979,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12848,12 +12029,6 @@
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12904,13 +12079,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -12975,9 +12143,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13037,12 +12202,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13093,9 +12252,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13151,10 +12307,6 @@
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "bane": [
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13214,12 +12366,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13279,10 +12425,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13349,12 +12491,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13482,14 +12618,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13542,13 +12670,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13599,13 +12720,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13667,9 +12781,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "boon": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13720,10 +12831,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13788,12 +12895,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -13858,12 +12959,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14006,13 +13101,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14076,9 +13164,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14142,13 +13227,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14211,9 +13289,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14278,13 +13353,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14344,12 +13412,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14416,13 +13478,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14482,10 +13537,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14549,10 +13600,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14617,9 +13664,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14673,12 +13717,6 @@
     "color": "Green",
     "wpnType": "Dragon",
     "movType": "Armored",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14732,12 +13770,6 @@
     "color": "Neutral",
     "wpnType": "Dragon",
     "movType": "Flying",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14796,12 +13828,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Armored",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14852,12 +13878,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Atk",
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -14984,10 +14004,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15038,12 +14054,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15099,12 +14109,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15161,13 +14165,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "Atk",
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15227,10 +14224,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Cavalry",
-    "bane": [
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15281,10 +14274,6 @@
     "color": "Blue",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15346,10 +14335,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15403,9 +14388,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Flying",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15464,9 +14446,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15583,13 +14562,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15649,9 +14621,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15721,15 +14690,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Atk",
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15792,13 +14752,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Spd",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15849,12 +14802,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15905,13 +14852,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Atk"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -15971,9 +14911,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16033,9 +14970,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16098,9 +15032,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16160,12 +15091,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16225,14 +15150,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP",
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16355,12 +15272,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16419,12 +15330,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Armored",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16481,10 +15386,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16535,10 +15436,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16592,9 +15489,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16645,10 +15539,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16702,10 +15592,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16761,12 +15647,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16826,10 +15706,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "bane": [
-      "Atk",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16889,13 +15765,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Res"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -16959,10 +15828,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17016,11 +15881,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17084,13 +15944,6 @@
     "color": "Green",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "HP"
-    ],
-    "bane": [
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17157,9 +16010,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17223,12 +16073,6 @@
     "color": "Red",
     "wpnType": "Sword",
     "movType": "Cavalry",
-    "boon": [
-      "Spd"
-    ],
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17288,12 +16132,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17353,12 +16191,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "Atk"
-    ],
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17418,13 +16250,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17475,13 +16300,6 @@
     "color": "Blue",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17608,9 +16426,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Flying",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17664,11 +16479,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17722,13 +16532,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
-    "bane": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17776,10 +16579,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17844,11 +16643,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
-    "boon": [
-      "HP",
-      "Def",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17902,9 +16696,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Armored",
-    "bane": [
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -17963,9 +16754,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18029,9 +16817,6 @@
     "color": "Red",
     "wpnType": "Tome",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18085,10 +16870,6 @@
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Flying",
-    "bane": [
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18147,9 +16928,6 @@
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "bane": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18206,9 +16984,6 @@
     "color": "Blue",
     "wpnType": "Dragon",
     "movType": "Armored",
-    "bane": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18277,9 +17052,6 @@
     "color": "Red",
     "wpnType": "Dragon",
     "movType": "Infantry",
-    "bane": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18399,14 +17171,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Cavalry",
-    "boon": [
-      "HP",
-      "Def"
-    ],
-    "bane": [
-      "Atk",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18653,9 +17417,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Cavalry",
-    "boon": [
-      "HP"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18723,9 +17484,6 @@
     "color": "Neutral",
     "wpnType": "Bow",
     "movType": "Infantry",
-    "boon": [
-      "Def"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18844,9 +17602,6 @@
     "color": "Neutral",
     "wpnType": "Staff",
     "movType": "Infantry",
-    "bane": [
-      "Atk"
-    ],
     "skills": {
       "weapon": [
         {
@@ -18909,11 +17664,6 @@
     "color": "Neutral",
     "wpnType": "Dagger",
     "movType": "Infantry",
-    "bane": [
-      "HP",
-      "Spd",
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
@@ -19031,14 +17781,6 @@
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Cavalry",
-    "boon": [
-      "Atk",
-      "Res"
-    ],
-    "bane": [
-      "HP",
-      "Spd"
-    ],
     "skills": {
       "weapon": [
         {
@@ -19083,9 +17825,6 @@
     "color": "Green",
     "wpnType": "Axe",
     "movType": "Infantry",
-    "boon": [
-      "Res"
-    ],
     "skills": {
       "weapon": [
         {
