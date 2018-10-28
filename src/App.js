@@ -5,6 +5,7 @@ import { parseSkills, getRandomUnit, getUnitsWithSkill, getPossibleSkills, getUp
          calcStats, calcCost, calcTotalCost } from './utils/helper.js';
 import { units, weapons, assists, specials, passives, seals, //upgrades,
          moveIcon, weaponIcon, rarityIcon, skillTypeIcon, unitPortrait } from './utils/data.js';
+import { unitSortFn } from './utils/sort.js';
 import BuildManager from './components/BuildManager.js';
 
 class SkillInfoRow extends Component {
@@ -420,6 +421,13 @@ class SkillInfoTable extends Component {
 class UnitInfo extends Component {
   constructor(props) {
     super(props);
+
+    let unitList = Object.keys(units).sort(unitSortFn['name']);
+
+    this.state = {
+      unitList: unitList
+    };
+
     this.handleUnitSelect = this.handleUnitSelect.bind(this);
     this.handleBoonSelect = this.handleBoonSelect.bind(this);
     this.handleBaneSelect = this.handleBaneSelect.bind(this);
@@ -487,7 +495,7 @@ class UnitInfo extends Component {
               <tr>
                 <td>
                   <Dropdown addClass='unitName'
-                            options={Object.keys(units)}
+                            options={this.state.unitList}
                             value={this.props.state.unitName}
                             onChange={this.handleUnitSelect} />
                 </td>
