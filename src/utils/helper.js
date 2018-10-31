@@ -330,6 +330,25 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
             totalMod = totalMod.map((x,i) => { return x + growthValues[i]; });
         }
     }
+    else
+    {
+        if (boonBane) {
+            for (var bb in boonBane) {
+                if (!boonBane[bb]) continue;
+
+                let index = boonBane[bb] === "HP"  ? 0 :
+                            boonBane[bb] === "Atk" ? 1 :
+                            boonBane[bb] === "Spd" ? 2 :
+                            boonBane[bb] === "Def" ? 3 :
+                            /*boonBane[bb] === "Res" ?*/ 4;
+                
+                totalMod[index] += (bb === "boon" ? 1 : -1) * (level === 40 ? 3 : 1);
+            }
+        }
+
+        if (level === 40) {
+        }
+    }
 
     let mergeMod = calcMergeBonus(unit, rarity, merge, totalMod);
     totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
