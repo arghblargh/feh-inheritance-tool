@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1291ec8bcab4ce442b87",
-    "url": "/feh-inheritance-tool/static/css/main.96626ab1.chunk.css"
+    "revision": "1eb2c1d9938839a35bf9",
+    "url": "/feh-inheritance-tool/static/css/main.dc305479.chunk.css"
   },
   {
-    "revision": "1291ec8bcab4ce442b87",
-    "url": "/feh-inheritance-tool/static/js/main.1291ec8b.chunk.js"
+    "revision": "1eb2c1d9938839a35bf9",
+    "url": "/feh-inheritance-tool/static/js/main.1eb2c1d9.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -270,6 +270,10 @@ self.__precacheManifest = [
   {
     "revision": "577d41699a2c768071764d417b673e64",
     "url": "/feh-inheritance-tool/static/media/Eirika_Anamnesis_Lady.577d4169.png"
+  },
+  {
+    "revision": "1abb6beb490db4f0d88397ed4b212238",
+    "url": "/feh-inheritance-tool/static/media/Eirika_Graceful_Resolve.1abb6beb.png"
   },
   {
     "revision": "75091ce4e7847190e2a46df5fb887499",
@@ -1252,7 +1256,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "b2d082cf6f62b4969a3dc7b29d413211",
+    "revision": "8200370975d691f29c5e00b4bfa438d5",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
