@@ -17995,5 +17995,74 @@
         }
       ]
     }
+  },
+  "Eirika: Graceful Resolve": {
+    "name": "Eirika",
+    "title": "Graceful Resolve",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Storm Sieglinde"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Lunar Brace",
+          "unlock": 5
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Def Wave 1",
+          "unlock": 3
+        },
+        {
+          "name": "Odd Def Wave 2",
+          "unlock": 3
+        },
+        {
+          "name": "Odd Def Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

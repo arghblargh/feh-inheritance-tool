@@ -83,6 +83,18 @@
       "cost": 240,
       "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat."
     },
+    "Atk/Spd Solo 1": {
+      "cost": 60,
+      "effect": "If unit is not adjacent to an ally, grants Atk/Spd+2 during combat."
+    },
+    "Atk/Spd Solo 2": {
+      "cost": 120,
+      "effect": "If unit is not adjacent to an ally, grants Atk/Spd+4 during combat."
+    },
+    "Atk/Spd Solo 3": {
+      "cost": 240,
+      "effect": "If unit is not adjacent to an ally, grants Atk/Spd+6 during combat."
+    },
     "Attack +1": {
       "cost": 30,
       "effect": "Grants Atk+1."
@@ -1356,6 +1368,11 @@
       "cost": 160,
       "effect": "When healing an ally with a staff, restores HP to unit = HP restored to target.",
       "restriction": "Staff"
+    },
+    "Lunar Brace": {
+      "cost": 300,
+      "effect": "Slows Special trigger (cooldown count+1). Deals damage = 50% of foe's Def when Special triggers.",
+      "restriction": "Exclusive"
     },
     "Lunge": {
       "cost": 150,
