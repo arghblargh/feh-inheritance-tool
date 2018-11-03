@@ -311,7 +311,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         let growthRates = Object.values(growths[unit]);
 
         if (boonBane) {
-            for (var bb in boonBane) {
+            for (let bb in boonBane) {
                 if (!boonBane[bb]) continue;
 
                 let index = boonBane[bb] === "HP"  ? 0 :
@@ -333,7 +333,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
     else
     {
         if (boonBane) {
-            for (var bb in boonBane) {
+            for (let bb in boonBane) {
                 if (!boonBane[bb]) continue;
 
                 let index = boonBane[bb] === "HP"  ? 0 :
@@ -575,7 +575,7 @@ export function calcCost(unit, skill, upgrade = null) {
         skillCost = skillData.cost * 1.5;
 
     // If weapon upgrade is selected
-    if (upgrade && weapons[skill] && weapons[skill].upgrade) {
+    if (upgrade && weapons[skill] && (weapons[skill].upgrade || weapons[skill].type === 'Staff')) {
         if (/Legendary/.test(weapons[skill].upgrade))
             skillCost += 400;
         else
