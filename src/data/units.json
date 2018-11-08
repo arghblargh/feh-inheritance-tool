@@ -18104,7 +18104,7 @@
           "unlock": 2
         },
         {
-          "name": "Flametongue",
+          "name": "Water Breath",
           "unlock": 3
         },
         {
@@ -18113,7 +18113,7 @@
       ],
       "assist": [
         {
-          "name": "Rally Atk",
+          "name": "Rally Speed",
           "unlock": 3
         },
         {
@@ -18154,7 +18154,7 @@
         },
         {
           "name": "Fortify Def 2",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Fortify Dragons",
@@ -18180,7 +18180,7 @@
           "unlock": 2
         },
         {
-          "name": "Flametongue",
+          "name": "Water Breath",
           "unlock": 3
         },
         {
@@ -18200,14 +18200,15 @@
       "passiveA": [
         {
           "name": "Atk/Spd Bond 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Atk/Spd Bond 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Atk/Spd Bond 3"
+          "name": "Atk/Spd Bond 3",
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -18225,16 +18226,15 @@
       ],
       "passiveC": [
         {
-          "name": "Hone Atk 1",
-          "unlock": 1
-        },
-        {
-          "name": "Hone Atk 2",
+          "name": "Hone Spd 1",
           "unlock": 3
         },
         {
-          "name": "Hone Dragons",
+          "name": "Hone Spd 2",
           "unlock": 4
+        },
+        {
+          "name": "Hone Dragons"
         }
       ]
     }
@@ -18265,7 +18265,7 @@
           "unlock": 1
         },
         {
-          "name": "Mend",
+          "name": "Reconcile",
           "unlock": 2
         },
         {
@@ -18276,17 +18276,28 @@
           "name": "Martyr+"
         }
       ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Miracle",
+          "unlock": 3
+        }
+      ],
       "passiveA": [
         {
           "name": "Brazen Atk/Res 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Brazen Atk/Res 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Brazen Atk/Res 3"
+          "name": "Brazen Atk/Res 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
@@ -18313,15 +18324,15 @@
     "skills": {
       "weapon": [
         {
-          "name": "Fire",
+          "name": "Flux",
           "unlock": 1
         },
         {
-          "name": "Elfire",
+          "name": "Ruin",
           "unlock": 2
         },
         {
-          "name": "Bolganone",
+          "name": "Fenrir",
           "unlock": 3
         },
         {
@@ -18337,14 +18348,15 @@
       "passiveA": [
         {
           "name": "Atk/Res Bond 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Atk/Res Bond 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Atk/Res Bond 3"
+          "name": "Atk/Res Bond 3",
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -18363,15 +18375,14 @@
       "passiveC": [
         {
           "name": "Spur Atk 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Spur Atk 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Goad Fliers",
-          "unlock": 4
+          "name": "Goad Fliers"
         }
       ]
     }
@@ -18402,15 +18413,32 @@
       ],
       "assist": [
         {
-          "name": "Sing"
+          "name": "Sing",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Spd/Res Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd/Res Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd/Res Bond 3",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Torrent Dance 1"
+          "name": "Torrent Dance 1",
+          "unlock": 3
         },
         {
-          "name": "Torrent Dance 2"
+          "name": "Torrent Dance 2",
+          "unlock": 4
         },
         {
           "name": "Torrent Dance 3"

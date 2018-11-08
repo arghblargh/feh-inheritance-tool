@@ -1158,7 +1158,7 @@
     "type": "Staff",
     "cost": 150,
     "might": 8,
-    "effect": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through their next actions."
+    "effect": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action."
   },
   "Flash+": {
     "color": "Neutral",

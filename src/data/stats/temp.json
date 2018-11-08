@@ -1,91 +1,19 @@
 {
-  "Mikoto: Caring Mother": {
+  "_template": {
     "5": {
       "1": {
-        "HP": 16,
-        "Atk": 9,
-        "Spd": 8,
-        "Def": 5,
-        "Res": 7
+        "HP": 0,
+        "Atk": 0,
+        "Spd": 0,
+        "Def": 0,
+        "Res": 0
       },
       "40": {
-        "HP": 38,
-        "Atk": 35,
-        "Spd": 32,
-        "Def": 20,
-        "Res": 26
-      }
-    }
-  },
-  "Camilla: Flower of Fantasy": {
-    "5": {
-      "1": {
-        "HP": 17,
-        "Atk": 9,
-        "Spd": 8,
-        "Def": 4,
-        "Res": 6
-      },
-      "40": {
-        "HP": 36,
-        "Atk": 37,
-        "Spd": 30,
-        "Def": 17,
-        "Res": 30
-      }
-    }
-  },
-  "Corrin: Dream Prince": {
-    "5": {
-      "1": {
-        "HP": 16,
-        "Atk": 7,
-        "Spd": 7,
-        "Def": 5,
-        "Res": 5
-      },
-      "40": {
-        "HP": 42,
-        "Atk": 35,
-        "Spd": 35,
-        "Def": 31,
-        "Res": 24
-      }
-    }
-  },
-  "Corrin: Dream Princess": {
-    "5": {
-      "1": {
-        "HP": 15,
-        "Atk": 7,
-        "Spd": 7,
-        "Def": 6,
-        "Res": 5
-      },
-      "40": {
-        "HP": 41,
-        "Atk": 31,
-        "Spd": 37,
-        "Def": 32,
-        "Res": 27
-      }
-    }
-  },
-  "Azura: Young Songstress": {
-    "5": {
-      "1": {
-        "HP": 14,
-        "Atk": 7,
-        "Spd": 5,
-        "Def": 4,
-        "Res": 6
-      },
-      "40": {
-        "HP": 36,
-        "Atk": 33,
-        "Spd": 29,
-        "Def": 17,
-        "Res": 25
+        "HP": 0,
+        "Atk": 0,
+        "Spd": 0,
+        "Def": 0,
+        "Res": 0
       }
     }
   }

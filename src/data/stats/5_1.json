@@ -118,6 +118,13 @@
     "Def": 4,
     "Res": 6
   },
+  "Azura: Young Songstress": {
+    "HP": 14,
+    "Atk": 7,
+    "Spd": 5,
+    "Def": 4,
+    "Res": 6
+  },
   "Barst: The Hatchet": {
     "HP": 20,
     "Atk": 9,
@@ -187,6 +194,13 @@
     "Spd": 8,
     "Def": 6,
     "Res": 7
+  },
+  "Camilla: Flower of Fantasy": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 6
   },
   "Camilla: Holiday Traveler": {
     "HP": 18,
@@ -354,6 +368,20 @@
     "Atk": 9,
     "Spd": 9,
     "Def": 4,
+    "Res": 5
+  },
+  "Corrin: Dream Prince": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 5
+  },
+  "Corrin: Dream Princess": {
+    "HP": 15,
+    "Atk": 7,
+    "Spd": 7,
+    "Def": 6,
     "Res": 5
   },
   "Corrin: Enjoying Tradition": {
@@ -1335,6 +1363,13 @@
     "Spd": 7,
     "Def": 9,
     "Res": 4
+  },
+  "Mikoto: Caring Mother": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 7
   },
   "Minerva: Red Dragoon": {
     "HP": 18,
