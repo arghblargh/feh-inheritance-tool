@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "50f3db12fdb303e38fee",
-    "url": "/feh-inheritance-tool/static/css/main.dc305479.chunk.css"
+    "revision": "e1603939cce674ef63d4",
+    "url": "/feh-inheritance-tool/static/css/main.3848d66e.chunk.css"
   },
   {
-    "revision": "50f3db12fdb303e38fee",
-    "url": "/feh-inheritance-tool/static/js/main.50f3db12.chunk.js"
+    "revision": "e1603939cce674ef63d4",
+    "url": "/feh-inheritance-tool/static/js/main.e1603939.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -84,6 +84,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Azura_Lady_of_the_Lake.32a2ad79.png"
   },
   {
+    "revision": "ff6c25020abc1c89728b426c6bf58961",
+    "url": "/feh-inheritance-tool/static/media/Azura_Young_Songstress.ff6c2502.png"
+  },
+  {
     "revision": "586a8e515d61943992cfcd997dffb3b6",
     "url": "/feh-inheritance-tool/static/media/Barst_The_Hatchet.586a8e51.png"
   },
@@ -126,6 +130,10 @@ self.__precacheManifest = [
   {
     "revision": "5bea1d41b61a4ac3c2b102f18fdfe5f9",
     "url": "/feh-inheritance-tool/static/media/Camilla_Bewitching_Beauty.5bea1d41.png"
+  },
+  {
+    "revision": "a28620f6757b2b48fa4f13e64df7fb73",
+    "url": "/feh-inheritance-tool/static/media/Camilla_Flower_of_Fantasy.a28620f6.png"
   },
   {
     "revision": "b2471e3963a2cbfe2796089c9b00f98a",
@@ -222,6 +230,14 @@ self.__precacheManifest = [
   {
     "revision": "fc39d7b51055f060dd802191ce8c9a48",
     "url": "/feh-inheritance-tool/static/media/Cordelia_Perfect_Bride.fc39d7b5.png"
+  },
+  {
+    "revision": "43d75dba4d8f1ffd5483a9d3f610ff91",
+    "url": "/feh-inheritance-tool/static/media/Corrin_Dream_Prince.43d75dba.png"
+  },
+  {
+    "revision": "29ed69a44ea861c889ccf85b64c30ef6",
+    "url": "/feh-inheritance-tool/static/media/Corrin_Dream_Princess.29ed69a4.png"
   },
   {
     "revision": "aa0404aa3c104fb3254caea408b97e51",
@@ -784,6 +800,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Michalis_Ambitious_King.a3a52253.png"
   },
   {
+    "revision": "a1bbda5596079dda2361da272c4bc9c4",
+    "url": "/feh-inheritance-tool/static/media/Mikoto_Caring_Mother.a1bbda55.png"
+  },
+  {
     "revision": "cbecfc1d95af9bf02e8b59ae83ca813e",
     "url": "/feh-inheritance-tool/static/media/Minerva_Red_Dragoon.cbecfc1d.png"
   },
@@ -1256,7 +1276,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "cd3a734457d2338f8dab49293ff9037d",
+    "revision": "306621afcfe5279ecf5a0962d5f0da94",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
