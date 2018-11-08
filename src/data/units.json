@@ -1036,11 +1036,11 @@
       "weapon": [
         {
           "name": "Iron Axe",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Steel Axe",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Hammer",
@@ -1048,6 +1048,9 @@
         },
         {
           "name": "Hammer+"
+        },
+        {
+          "name": "Axe of Virility"
         }
       ],
       "assist": [
@@ -1072,11 +1075,11 @@
       "passiveB": [
         {
           "name": "Brash Assault 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Brash Assault 2",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Brash Assault 3",
@@ -4834,11 +4837,11 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Steel Lance",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Heavy Spear",
@@ -4846,6 +4849,9 @@
         },
         {
           "name": "Heavy Spear+"
+        },
+        {
+          "name": "Florina's Lance"
         }
       ],
       "assist": [
@@ -4857,11 +4863,11 @@
       "passiveA": [
         {
           "name": "Darting Blow 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Darting Blow 2",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Darting Blow 3",
@@ -14449,43 +14455,56 @@
     "skills": {
       "weapon": [
         {
-          "name": "Iron Sword"
+          "name": "Iron Sword",
+          "unlock": 1
         },
         {
-          "name": "Steel Sword"
+          "name": "Steel Sword",
+          "unlock": 2
         },
         {
-          "name": "Slaying Edge"
+          "name": "Slaying Edge",
+          "unlock": 3
         },
         {
           "name": "Slaying Edge+"
+        },
+        {
+          "name": "Golden Dagger"
         }
       ],
       "special": [
         {
-          "name": "Holy Vestments"
+          "name": "Holy Vestments",
+          "unlock": 3
         },
         {
-          "name": "Aegis"
+          "name": "Aegis",
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
-          "name": "HP +3"
+          "name": "HP +3",
+          "unlock": 1
         },
         {
-          "name": "HP/Spd 1"
+          "name": "HP/Spd 1",
+          "unlock": 2
         },
         {
-          "name": "HP/Spd 2"
+          "name": "HP/Spd 2",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
-          "name": "Shield Pulse 1"
+          "name": "Shield Pulse 1",
+          "unlock": 3
         },
         {
-          "name": "Shield Pulse 2"
+          "name": "Shield Pulse 2",
+          "unlock": 4
         },
         {
           "name": "Shield Pulse 3"
@@ -15154,11 +15173,11 @@
       "weapon": [
         {
           "name": "Iron Lance",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Steel Lance",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Killer Lance",
@@ -15166,6 +15185,9 @@
         },
         {
           "name": "Killer Lance+"
+        },
+        {
+          "name": "Shanna's Lance"
         }
       ],
       "special": [
@@ -15181,11 +15203,11 @@
       "passiveB": [
         {
           "name": "Desperation 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Desperation 2",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Desperation 3",
@@ -18061,6 +18083,337 @@
         {
           "name": "Odd Def Wave 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Corrin: Dream Princess": {
+    "name": "Corrin",
+    "title": "Dream Princess",
+    "color": "Green",
+    "wpnType": "Breath",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Rage"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Atk",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Spd",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Spd+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 3
+        },
+        {
+          "name": "Fortify Dragons",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Corrin: Dream Prince": {
+    "name": "Corrin",
+    "title": "Dream Prince",
+    "color": "Blue",
+    "wpnType": "Breath",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Rage"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Null Follow-Up 1",
+          "unlock": 3
+        },
+        {
+          "name": "Null Follow-Up 2",
+          "unlock": 4
+        },
+        {
+          "name": "Null Follow-Up 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Dragons",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Mikoto: Caring Mother": {
+    "name": "Mikoto",
+    "title": "Caring Mother",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Flash",
+          "unlock": 3
+        },
+        {
+          "name": "Flash+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Martyr",
+          "unlock": 3
+        },
+        {
+          "name": "Martyr+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Brazen Atk/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Brazen Atk/Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Rush 1",
+          "unlock": 3
+        },
+        {
+          "name": "Infantry Rush 2",
+          "unlock": 4
+        },
+        {
+          "name": "Infantry Rush 3"
+        }
+      ]
+    }
+  },
+  "Camilla: Flower of Fantasy": {
+    "name": "Camilla",
+    "title": "Flower of Fantasy",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 1
+        },
+        {
+          "name": "Elfire",
+          "unlock": 2
+        },
+        {
+          "name": "Bolganone",
+          "unlock": 3
+        },
+        {
+          "name": "Book of Dreams"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Res Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Res Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Res Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Res Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Res Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 2
+        },
+        {
+          "name": "Goad Fliers",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Azura: Young Songstress": {
+    "name": "Azura",
+    "title": "Young Songstress",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 3
+        },
+        {
+          "name": "Book of Shadows"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Sing"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Torrent Dance 1"
+        },
+        {
+          "name": "Torrent Dance 2"
+        },
+        {
+          "name": "Torrent Dance 3"
         }
       ]
     }

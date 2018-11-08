@@ -21,6 +21,15 @@
   "Atk Smoke 3": {
     "effect": "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat."
   },
+  "Atk/Def Bond 1": {
+    "effect": "If unit is adjacent to an ally, grants Atk/Def+3 during combat."
+  },
+  "Atk/Def Bond 2": {
+    "effect": "If unit is adjacent to an ally, grants Atk/Def+4 during combat."
+  },
+  "Atk/Def Bond 3": {
+    "effect": "If unit is adjacent to an ally, grants Atk/Def+5 during combat."
+  },
   "Attack +1": {
     "effect": "Grants Atk+1."
   },
@@ -251,6 +260,18 @@
   },
   "Fortress Res 3": {
     "effect": "Grants Res+5. Inflicts Atk-3."
+  },
+  "Gale Dance 1": {
+    "effect": "If Sing or Dance is used, grants Spd+2 to target.",
+    "restriction": "Offense"
+  },
+  "Gale Dance 2": {
+    "effect": "If Sing or Dance is used, grants Spd+3 to target.",
+    "restriction": "Offense"
+  },
+  "Gale Dance 3": {
+    "effect": "If Sing or Dance is used, grants Spd+4 to target.",
+    "restriction": "Offense"
   },
   "Guidance 1": {
     "effect": "If unit's HP = 100%, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
@@ -544,6 +565,15 @@
   },
   "Threaten Spd 3": {
     "effect": "At start of turn, inflicts Spd-5 on foes within 2 spaces through their next actions."
+  },
+  "Water Boost 1": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Res+2 during combat."
+  },
+  "Water Boost 2": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Res+4 during combat."
+  },
+  "Water Boost 3": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Res+6 during combat."
   },
   "Initiate Seal Atk 1": {
     "effect": "Grants Atk+1."

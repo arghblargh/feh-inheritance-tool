@@ -71,6 +71,10 @@
         "cost": 300,
         "effect": "Grants Atk/Spd+3 to target ally for 1 turn."
     },
+    "Rally Atk/Spd+": {
+        "cost": 400,
+        "effect": "Grants Atk/Spd+6 to target ally for 1 turn."
+    },
     "Rally Defense": {
         "cost": 150,
         "effect": "Grants Def+4 to target ally for 1 turn."

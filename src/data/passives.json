@@ -904,6 +904,18 @@
       "cost": 240,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Def+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
+    "Atk/Res Link 1": {
+      "cost": 60,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Res+2 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Atk/Res Link 2": {
+      "cost": 120,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Res+4 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Atk/Res Link 3": {
+      "cost": 240,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Res+6 to unit and target ally or unit and targeting ally for 1 turn."
+    },
     "Atk/Spd Link 1": {
       "cost": 60,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Spd+2 to unit and target ally or unit and targeting ally for 1 turn."
@@ -1378,6 +1390,18 @@
       "cost": 150,
       "effect": "If unit initiates combat, unit and target foe swap spaces after combat.",
       "restriction": "Melee"
+    },
+    "Null Follow-Up 1": {
+      "cost": 60,
+      "effect": "If unit’s HP = 100%, disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack."
+    },
+    "Null Follow-Up 2": {
+      "cost": 120,
+      "effect": "If unit’s HP ≥ 50%, disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack."
+    },
+    "Null Follow-Up 3": {
+      "cost": 240,
+      "effect": "Disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack."
     },
     "Obstruct 1": {
       "cost": 50,

@@ -77,6 +77,9 @@
             "effect": "At start of turn, if unit's HP ≤ 80%, grants Atk/Def+7 during combat."
         }
     },
+    "Golden Dagger": {
+        "effect": "At start of combat, if Special is ready, grants Atk/Spd/Def/Res+3 during combat and unit can counterattack regardless of foe's range."
+    },
     "Nameless Blade": {
         "effect": "Deals +10 damage when Special triggers."
     },
@@ -140,6 +143,9 @@
             "effect": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
         }
     },
+    "Florina's Lance": {
+        "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Atk/Spd/Def/Res+4 during combat."
+    },
     "Hinoka's Spear": {
         "effect": "Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
     },
@@ -148,6 +154,9 @@
     },
     "Ridersbane+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Shanna's Lance": {
+        "effect": "Deals +10 damage when Special triggers."
     },
     "Siegmund": {
         "effect": "If unit's HP ≥ 90% and unit initiates combat, unit makes a guaranteed follow-up attack.",
@@ -163,6 +172,9 @@
         "common": {
             "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+7 during combat."
         }
+    },
+    "Axe of Virility": {
+        "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."
     },
     "Basilikos": {
         "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5."

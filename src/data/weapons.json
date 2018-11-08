@@ -127,6 +127,15 @@
     "effect": "Grants Res+3. At start of turn, if any foe's HP ≤ unit’s HP-3 and that foe is adjacent to another foe, inflicts Atk/Spd/Def/Res-3 on that foe and bonuses on that foe become penalties through its next action.",
     "restriction": "Exclusive"
   },
+  "Axe of Virility": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Ayra's Blade": {
     "color": "Red",
     "type": "Sword",
@@ -376,6 +385,22 @@
     "might": 13,
     "effect": "",
     "upgrade": "Mt:1"
+  },
+  "Book of Dreams": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Atk+3. If unit is adjacent to an ally, inflicts Atk/Spd/Def/Res-4 on foe during combat.",
+    "restriction": "Exclusive"
+  },
+  "Book of Shadows": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit is adjacent to an ally, inflicts Atk/Spd/Def/Res-4 on foe during combat.",
+    "restriction": "Exclusive"
   },
   "Bottled Juice": {
     "color": "",
@@ -848,6 +873,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Draconic Rage": {
+    "color": "",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), grants Atk/Spd+5 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
   "Durandal": {
     "color": "Red",
     "type": "Sword",
@@ -1120,6 +1153,29 @@
     "effect": "",
     "upgrade": "Mt:1"
   },
+  "Flash": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 150,
+    "might": 8,
+    "effect": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through their next actions."
+  },
+  "Flash+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 11,
+    "effect": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions."
+  },
+  "Florina's Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Flux": {
     "color": "Red",
     "type": "Tome",
@@ -1231,6 +1287,15 @@
     "might": 14,
     "effect": "Grants Res+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.",
     "restriction": "Exclusive"
+  },
+  "Golden Dagger": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Gradivus": {
     "color": "Blue",
@@ -2462,6 +2527,15 @@
     "might": 10,
     "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit. After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action.",
     "upgrade": "Mt:2"
+  },
+  "Shanna's Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Shell Lance": {
     "color": "Blue",
