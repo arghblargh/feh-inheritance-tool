@@ -1,6 +1,6 @@
 //import React from 'react';
 import { escapeRegExp } from './utility.js';
-import { units, weapons, assists, specials, passives, seals, upgrades, baseStats, growths } from './data.js';
+import { units, weapons, assists, specials, passives, seals, upgrades, baseStats, tempStats, growths } from './data.js';
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
@@ -370,10 +370,14 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         applySummonerSupportBonus();
     }
 
+    let stats = baseStats[rarity][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][unit]))
+                : tempStats[unit][rarity][level] ? JSON.parse(JSON.stringify(tempStats[unit][rarity][level]))
+                : null;
+
     // if (getMod)
     //     return totalMod;
     // else
-    return addStatMods(baseStats[rarity][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][unit])) : null, totalMod);
+    return addStatMods(stats, totalMod);
 
     function calcGrowthValues(growthRates) {
         return growthRates.map(x => Math.floor(0.39 * Math.floor(x * (0.79 + (0.07 * rarity)))));
