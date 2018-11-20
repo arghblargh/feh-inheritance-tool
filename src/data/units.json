@@ -18445,5 +18445,151 @@
         }
       ]
     }
+  },
+  "Ylgr: Fresh Snowfall": {
+    "name": "Ylgr",
+    "title": "Fresh Snowfall",
+    "color": "Blue",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Sylgr"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Sorcery Blade 1",
+          "unlock": 3
+        },
+        {
+          "name": "Sorcery Blade 2",
+          "unlock": 4
+        },
+        {
+          "name": "Sorcery Blade 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Tactic 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Tactic 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd Tactic 3"
+        }
+      ]
+    }
+  },
+  "Surtr: Ruler of Flame": {
+    "name": "Surtr",
+    "title": "Ruler of Flame",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Sinmara"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Steady Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Steady Stance 2",
+          "unlock": 2
+        },
+        {
+          "name": "Steady Stance 3",
+          "unlock": 4
+        },
+        {
+          "name": "Steady Stance 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wary Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Surtr's Menace"
+        }
+      ]
+    }
   }
 }
