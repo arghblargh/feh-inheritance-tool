@@ -371,7 +371,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
     }
 
     let stats = baseStats[rarity][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][unit]))
-                : tempStats[unit][rarity][level] ? JSON.parse(JSON.stringify(tempStats[unit][rarity][level]))
+                : tempStats[unit] && tempStats[unit][rarity][level] ? JSON.parse(JSON.stringify(tempStats[unit][rarity][level]))
                 : null;
 
     // if (getMod)
