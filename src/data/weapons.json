@@ -1642,6 +1642,14 @@
     "effect": "Grants Res+3. At start of turn, if unit's HP ≥ 50%, inflicts Atk/Def-5 on foe on the enemy team with the lowest Res through its next action.",
     "restriction": "Exclusive"
   },
+  "Imhullu": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. At the start of turn 3, deals 5 damage to non-magic foes within 5 columns centered on unit, and inflicts status on those foes preventing counterattacks through their next actions.",
+    "restriction": "Exclusive"
+  },
   "Iron Axe": {
     "color": "Green",
     "type": "Axe",

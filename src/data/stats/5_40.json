@@ -671,6 +671,13 @@
     "Def": 34,
     "Res": 19
   },
+  "Gharnef: Dark Pontifex": {
+    "HP": 38,
+    "Atk": 30,
+    "Spd": 34,
+    "Def": 27,
+    "Res": 23
+  },
   "Gordin: Altean Archer": {
     "HP": 43,
     "Atk": 31,
@@ -1980,6 +1987,13 @@
     "Def": 29,
     "Res": 25
   },
+  "Surtr: Ruler of Flame": {
+    "HP": 50,
+    "Atk": 39,
+    "Spd": 17,
+    "Def": 40,
+    "Res": 33
+  },
   "Tailtiu: Thunder Noble": {
     "HP": 39,
     "Atk": 32,
@@ -2168,6 +2182,13 @@
     "Spd": 30,
     "Def": 36,
     "Res": 16
+  },
+  "Ylgr: Fresh Snowfall": {
+    "HP": 38,
+    "Atk": 33,
+    "Spd": 38,
+    "Def": 22,
+    "Res": 20
   },
   "Zelgius: Jet-Black General": {
     "HP": 46,

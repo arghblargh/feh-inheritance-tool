@@ -18477,7 +18477,7 @@
         },
         {
           "name": "Glimmer",
-          "unlock": 3
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -18496,14 +18496,15 @@
       "passiveB": [
         {
           "name": "Chill Spd 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Chill Spd 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Chill Spd 3"
+          "name": "Chill Spd 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
@@ -18552,17 +18553,17 @@
         },
         {
           "name": "Bonfire",
-          "unlock": 3
+          "unlock": 4
         }
       ],
       "passiveA": [
         {
           "name": "Steady Stance 1",
-          "unlock": 1
+          "unlock": 2
         },
         {
           "name": "Steady Stance 2",
-          "unlock": 2
+          "unlock": 3
         },
         {
           "name": "Steady Stance 3",
@@ -18575,19 +18576,83 @@
       "passiveB": [
         {
           "name": "Wary Fighter 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Wary Fighter 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Wary Fighter 3"
+          "name": "Wary Fighter 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
         {
           "name": "Surtr's Menace"
+        }
+      ]
+    }
+  },
+  "Gharnef: Dark Pontifex": {
+    "name": "Gharnef",
+    "title": "Dark Pontifex",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 1
+        },
+        {
+          "name": "Ruin",
+          "unlock": 2
+        },
+        {
+          "name": "Fenrir",
+          "unlock": 3
+        },
+        {
+          "name": "Imhullu"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Ignis",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Mirror Stance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Mirror Stance 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Atk 3"
         }
       ]
     }

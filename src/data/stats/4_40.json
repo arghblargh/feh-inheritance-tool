@@ -363,6 +363,13 @@
     "Def": 32,
     "Res": 17
   },
+  "Gharnef: Dark Pontifex": {
+    "HP": 35,
+    "Atk": 28,
+    "Spd": 32,
+    "Def": 24,
+    "Res": 21
+  },
   "Gordin: Altean Archer": {
     "HP": 40,
     "Atk": 29,
