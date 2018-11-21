@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8687b6fff3e3f23c1254",
-    "url": "/feh-inheritance-tool/static/css/main.5d2eb6d0.chunk.css"
+    "revision": "4d7aecdf70ecf14b405a",
+    "url": "/feh-inheritance-tool/static/css/main.fdba778b.chunk.css"
   },
   {
-    "revision": "8687b6fff3e3f23c1254",
-    "url": "/feh-inheritance-tool/static/js/main.8687b6ff.chunk.js"
+    "revision": "4d7aecdf70ecf14b405a",
+    "url": "/feh-inheritance-tool/static/js/main.4d7aecdf.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -402,6 +402,10 @@ self.__precacheManifest = [
   {
     "revision": "7767c0bfd84813e60546aab58d1fcb28",
     "url": "/feh-inheritance-tool/static/media/Gerome_Masked_Rider.7767c0bf.png"
+  },
+  {
+    "revision": "9fceb104ff5d9ee541e310f604309fc1",
+    "url": "/feh-inheritance-tool/static/media/Gharnef_Dark_Pontifex.9fceb104.png"
   },
   {
     "revision": "761e9dfef6c9c102ce70bdb9c5080bf2",
@@ -1268,6 +1272,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Xander_Student_Swimmer.96c07083.png"
   },
   {
+    "revision": "593158238d551dd70eb061be82e9e0d7",
+    "url": "/feh-inheritance-tool/static/media/Ylgr_Fresh_Snowfall.59315823.png"
+  },
+  {
     "revision": "7053805bd7af98190406232cce644aa1",
     "url": "/feh-inheritance-tool/static/media/Zelgius_Jet-Black_General.7053805b.png"
   },
@@ -1276,7 +1284,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "b0a6856bc76575f46099943c81744e9a",
+    "revision": "98d8dec4a738cbb83c913487c4aa54a2",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
