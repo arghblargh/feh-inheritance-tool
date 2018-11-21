@@ -142,6 +142,12 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
             if (/Ranged/.test(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
                 return true;
 
+            if (/Physical/.test(r) && /Sword|Lance|Axe|Bow|Dagger/.test(unitData))
+                return true;
+
+            if (/Magic/.test(r) && /Breath|Tome|Staff/.test(unitData))
+                return true;
+
             if (/Color/.test(r)) {
                 let flags = /Color:(.*)/.exec(r)[1];
                 if (/R/.test(flags) && /Red/.test(unitData))

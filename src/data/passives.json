@@ -654,15 +654,18 @@
     },
     "Sorcery Blade 1": {
       "cost": 60,
-      "effect": "If unit HP = 100%, at start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."
+      "effect": "If unit HP = 100%, at start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+      "restriction": "Infantry, Physical"
     },
     "Sorcery Blade 2": {
       "cost": 120,
-      "effect": "If unit HP ≥ 50%, at start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."
+      "effect": "If unit HP ≥ 50%, at start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+      "restriction": "Infantry, Physical"
     },
     "Sorcery Blade 3": {
       "cost": 240,
-      "effect": "At start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."
+      "effect": "At start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+      "restriction": "Infantry, Physical"
     },
     "Spd/Def 1": {
       "cost": 80,
