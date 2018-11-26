@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "57b7a2dad4bafdbe689d",
+    "revision": "70450c85ea80cfaa4f74",
     "url": "/feh-inheritance-tool/static/css/main.fdba778b.chunk.css"
   },
   {
-    "revision": "57b7a2dad4bafdbe689d",
-    "url": "/feh-inheritance-tool/static/js/main.57b7a2da.chunk.js"
+    "revision": "70450c85ea80cfaa4f74",
+    "url": "/feh-inheritance-tool/static/js/main.70450c85.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -1284,7 +1284,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "ce0f35f2bc766ad1b619388fe697fdfd",
+    "revision": "7eb80b4058beb0f1e79b7301e336cb07",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
