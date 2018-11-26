@@ -1280,6 +1280,14 @@
     "effect": "Grants Spd+3. If unit's Spd > foe's Spd, boosts damage dealt by 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)",
     "restriction": "Exclusive"
   },
+  "Gjöll": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. If a penalty inflicted by a skill like Panic or Threaten and/or a negative status effect (preventing counterattacks or restricting movement) is active on foe, unit makes a guaranteed follow-up attack and foe cannot.",
+    "restriction": "Exclusive"
+  },
   "Gleipnir": {
     "color": "Red",
     "type": "Tome",

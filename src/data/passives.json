@@ -1299,6 +1299,11 @@
       "effect": "At start of combat, if unit's HP ≥ 50%, unit makes a guaranteed follow-up attack. (Skill cannot be inherited.)",
       "restriction": "Exclusive"
     },
+    "Freezing Seal": {
+      "cost": 300,
+      "effect": "At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res through its next action.",
+      "restriction": "Exclusive"
+    },
     "G Tomebreaker 1": {
       "cost": 50,
       "effect": "If unit's HP ≥ 90% in combat against a green tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",

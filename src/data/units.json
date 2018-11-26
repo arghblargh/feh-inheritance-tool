@@ -18656,5 +18656,65 @@
         }
       ]
     }
+  },
+  "Hríd: Icy Blade": {
+    "name": "Hríd",
+    "title": "Icy Blade",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Gjöll"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Freezing Seal"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Smoke 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Smoke 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk Smoke 3"
+        }
+      ]
+    }
   }
 }
