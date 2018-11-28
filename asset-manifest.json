@@ -1,7 +1,7 @@
 {
-  "main.css": "/feh-inheritance-tool/static/css/main.fdba778b.chunk.css",
-  "main.js": "/feh-inheritance-tool/static/js/main.70450c85.chunk.js",
-  "main.js.map": "/feh-inheritance-tool/static/js/main.70450c85.chunk.js.map",
+  "main.css": "/feh-inheritance-tool/static/css/main.58d4fccb.chunk.css",
+  "main.js": "/feh-inheritance-tool/static/js/main.06a5d428.chunk.js",
+  "main.js.map": "/feh-inheritance-tool/static/js/main.06a5d428.chunk.js.map",
   "static/js/1.902fef7d.chunk.js": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js",
   "static/js/1.902fef7d.chunk.js.map": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js.map",
   "runtime~main.js": "/feh-inheritance-tool/static/js/runtime~main.9075a52a.js",
@@ -122,6 +122,7 @@
   "static/media/Hinata_Wild_Samurai.png": "/feh-inheritance-tool/static/media/Hinata_Wild_Samurai.f0c25734.png",
   "static/media/Hinoka_Blue_Sky_Warrior.png": "/feh-inheritance-tool/static/media/Hinoka_Blue_Sky_Warrior.9db8091f.png",
   "static/media/Hinoka_Warrior_Princess.png": "/feh-inheritance-tool/static/media/Hinoka_Warrior_Princess.9552ea29.png",
+  "static/media/Hríd_Icy_Blade.png": "/feh-inheritance-tool/static/media/Hríd_Icy_Blade.0aff68ca.png",
   "static/media/Ike_Brave_Mercenary.png": "/feh-inheritance-tool/static/media/Ike_Brave_Mercenary.7a1b0530.png",
   "static/media/Ike_Vanguard_Legend.png": "/feh-inheritance-tool/static/media/Ike_Vanguard_Legend.e0f5c958.png",
   "static/media/Ike_Young_Mercenary.png": "/feh-inheritance-tool/static/media/Ike_Young_Mercenary.7c075440.png",
@@ -323,8 +324,8 @@
   "static/media/Ylgr_Fresh_Snowfall.png": "/feh-inheritance-tool/static/media/Ylgr_Fresh_Snowfall.59315823.png",
   "static/media/Zelgius_Jet-Black_General.png": "/feh-inheritance-tool/static/media/Zelgius_Jet-Black_General.7053805b.png",
   "static/media/Zephiel_The_Liberator.png": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png",
-  "static/css/main.fdba778b.chunk.css.map": "/feh-inheritance-tool/static/css/main.fdba778b.chunk.css.map",
+  "static/css/main.58d4fccb.chunk.css.map": "/feh-inheritance-tool/static/css/main.58d4fccb.chunk.css.map",
   "index.html": "/feh-inheritance-tool/index.html",
-  "precache-manifest.19432d7166f5cad6621a2cfd20a0a0b1.js": "/feh-inheritance-tool/precache-manifest.19432d7166f5cad6621a2cfd20a0a0b1.js",
+  "precache-manifest.78208770536b8c7f0e6586656f11898b.js": "/feh-inheritance-tool/precache-manifest.78208770536b8c7f0e6586656f11898b.js",
   "service-worker.js": "/feh-inheritance-tool/service-worker.js"
 }

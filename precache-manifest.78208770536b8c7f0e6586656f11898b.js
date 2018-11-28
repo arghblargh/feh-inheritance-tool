@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "70450c85ea80cfaa4f74",
-    "url": "/feh-inheritance-tool/static/css/main.fdba778b.chunk.css"
+    "revision": "06a5d428789d6afacbee",
+    "url": "/feh-inheritance-tool/static/css/main.58d4fccb.chunk.css"
   },
   {
-    "revision": "70450c85ea80cfaa4f74",
-    "url": "/feh-inheritance-tool/static/js/main.70450c85.chunk.js"
+    "revision": "06a5d428789d6afacbee",
+    "url": "/feh-inheritance-tool/static/js/main.06a5d428.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -478,6 +478,10 @@ self.__precacheManifest = [
   {
     "revision": "9552ea29daac117ea4e88eef99470983",
     "url": "/feh-inheritance-tool/static/media/Hinoka_Warrior_Princess.9552ea29.png"
+  },
+  {
+    "revision": "0aff68caa5465f1a685f57505b97dfa2",
+    "url": "/feh-inheritance-tool/static/media/Hríd_Icy_Blade.0aff68ca.png"
   },
   {
     "revision": "7a1b0530a49835a6a6fffdf409133e29",
@@ -1284,7 +1288,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "7eb80b4058beb0f1e79b7301e336cb07",
+    "revision": "ca29b3878425e5237701af5f5aaf4fea",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
