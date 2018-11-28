@@ -804,6 +804,13 @@
     "Def": 6,
     "Res": 7
   },
+  "Hríd: Icy Blade": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 4,
+    "Def": 12,
+    "Res": 4
+  },
   "Ike: Brave Mercenary": {
     "HP": 17,
     "Atk": 10,

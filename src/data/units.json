@@ -18693,8 +18693,7 @@
       ],
       "passiveA": [
         {
-          "name": "Distant Counter",
-          "unlock": 3
+          "name": "Distant Counter"
         }
       ],
       "passiveB": [
@@ -18705,14 +18704,15 @@
       "passiveC": [
         {
           "name": "Atk Smoke 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Atk Smoke 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Atk Smoke 3"
+          "name": "Atk Smoke 3",
+          "unlock": 4
         }
       ]
     }
