@@ -1877,6 +1877,9 @@
         },
         {
           "name": "Killer Lance+"
+        },
+        {
+          "name": "Whitewing Lance"
         }
       ],
       "special": [
@@ -4277,6 +4280,9 @@
         },
         {
           "name": "Heavy Spear+"
+        },
+        {
+          "name": "Whitewing Spear"
         }
       ],
       "assist": [
@@ -11688,6 +11694,9 @@
         },
         {
           "name": "Killing Edge+"
+        },
+        {
+          "name": "Scarlet Sword"
         }
       ],
       "special": [
@@ -12513,6 +12522,9 @@
         },
         {
           "name": "Brave Sword+"
+        },
+        {
+          "name": "Gladiator's Blade"
         }
       ],
       "special": [
@@ -13123,6 +13135,9 @@
         },
         {
           "name": "Ruby Sword+"
+        },
+        {
+          "name": "Whitewing Blade"
         }
       ],
       "special": [
@@ -13888,11 +13903,11 @@
       "weapon": [
         {
           "name": "Thunder",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Elthunder",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Blárraven",
@@ -13900,12 +13915,15 @@
         },
         {
           "name": "Blárraven+"
+        },
+        {
+          "name": "Tactical Bolt"
         }
       ],
       "special": [
         {
           "name": "Glowing Ember",
-          "unlock": 4
+          "unlock": 3
         },
         {
           "name": "Bonfire",
@@ -13928,11 +13946,11 @@
       "passiveC": [
         {
           "name": "Spur Def 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Spur Def 2",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Spur Def 3",
@@ -13963,6 +13981,9 @@
         },
         {
           "name": "Gronnwolf+"
+        },
+        {
+          "name": "Tactical Gale"
         }
       ],
       "special": [
@@ -13991,7 +14012,7 @@
       "passiveB": [
         {
           "name": "B Tomebreaker 1",
-          "unlock": 2
+          "unlock": 1
         },
         {
           "name": "B Tomebreaker 2",
@@ -18713,6 +18734,54 @@
         {
           "name": "Atk Smoke 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Eir: Merciful Death": {
+    "name": "Eir",
+    "title": "Merciful Death",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Lyfjaberg"
+        }
+      ],
+      "special": [
+      ],
+      "passiveA": [
+      ],
+      "passiveB": [
+        {
+          "name": "Mystic Boost 1",
+          "unlock": 3
+        },
+        {
+          "name": "Mystic Boost 2",
+          "unlock": 4
+        },
+        {
+          "name": "Mystic Boost 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Sparkling Boost"
         }
       ]
     }

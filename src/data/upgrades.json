@@ -77,6 +77,9 @@
             "effect": "At start of turn, if unit's HP ≤ 80%, grants Atk/Def+7 during combat."
         }
     },
+    "Gladiator's Blade": {
+        "effect": "If unit is within 2 spaces of a flying or infantry ally, grants Atk/Spd+4 during combat."
+    },
     "Golden Dagger": {
         "effect": "At start of combat, if Special is ready, grants Atk/Spd/Def/Res+3 during combat and unit can counterattack regardless of foe's range."
     },
@@ -92,6 +95,9 @@
             "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat."
         }
     },
+    "Scarlet Sword": {
+        "effect": "At the start of turn 1, grants Special cooldown count-2."
+    },
     "Sieglinde": {
         "effect": "Grants bonus to Atk/Spd/Def/Res = highest bonus on allies within 2 spaces during combat. Calculates each stat bonus independently.",
         "common": {
@@ -106,6 +112,9 @@
     },
     "Solitary Blade": {
         "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5."
+    },
+    "Whitewing Blade": {
+        "effect": "If the number of flying allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+3 during combat. If unit initiates combat, unit attacks twice."
     },
     "Wing Sword": {
         "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
@@ -172,6 +181,12 @@
         "common": {
             "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+7 during combat."
         }
+    },
+    "Whitewing Lance": {
+        "effect": "If the number of flying allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+3 during combat. If unit initiates combat, unit attacks twice."
+    },
+    "Whitewing Spear": {
+        "effect": "If the number of flying allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+3 during combat. If unit initiates combat, unit attacks twice."
     },
     "Axe of Virility": {
         "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."
@@ -262,6 +277,9 @@
     "Odin's Grimoire": {
         "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
+    "Tactical Bolt": {
+        "effect": "At start of turn, grants Atk/Spd/Def/Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
     "Excalibur": {
         "effect": "If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.",
         "common": {
@@ -280,6 +298,9 @@
         "common": {
             "effect": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
         }
+    },
+    "Tactical Gale": {
+        "effect": "At start of turn, grants Atk/Spd/Def/Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Wind's Brand": {
         "effect": "During combat, boosts Atk/Spd/Def/Res by number of adjacent allies x 2."

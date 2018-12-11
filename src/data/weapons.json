@@ -1288,6 +1288,15 @@
     "effect": "Grants Atk+3. If a penalty inflicted by a skill like Panic or Threaten and/or a negative status effect (preventing counterattacks or restricting movement) is active on foe, unit makes a guaranteed follow-up attack and foe cannot.",
     "restriction": "Exclusive"
   },
+  "Gladiator's Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit's Atk > foe's Atk, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Gleipnir": {
     "color": "Red",
     "type": "Tome",
@@ -1973,6 +1982,14 @@
     "effect": "Grants Res+3. Skills with \"effective against dragons\" are effective against unit. If foe has no skills with \"effective against dragons,\" inflicts Atk-6 on foe during combat.",
     "restriction": "Exclusive"
   },
+  "Lyfjaberg": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. At start of combat, if unit's HP ≥ 50%, grants Atk/Spd+4 during combat, and if unit initiates combat, foe cannot make a follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions, and if bonus was granted to unit, deals 4 damage to unit.",
+    "restriction": "Exclusive"
+  },
   "Maltet": {
     "color": "Blue",
     "type": "Lance",
@@ -2506,6 +2523,15 @@
     "might": 12,
     "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
   },
+  "Scarlet Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Sealed Falchion": {
     "color": "Red",
     "type": "Sword",
@@ -2988,6 +3014,32 @@
     "effect": "Grants Spd+3. At start of combat, if unit's Spd > foe's Spd, grants Atk/Spd+4 during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
     "restriction": "Exclusive"
   },
+  "Sökkvabekkr": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat, and unit makes a guaranteed follow-up attack, but after combat, if unit attacked, deals 20 damage to the nearest ally.",
+    "restriction": "Exclusive"
+  },
+  "Tactical Bolt": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Tactical Gale": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Tannenboom!": {
     "color": "Blue",
     "type": "Lance",
@@ -3197,6 +3249,33 @@
     "effect": "Grants Spd+3. At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
     "restriction": "Exclusive"
   },
+  "Whitewing Blade": {
+    "color": "Sword",
+    "type": "Red",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Whitewing Lance": {
+    "color": "Lance",
+    "type": "Blue",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Whitewing Spear": {
+    "color": "Lance",
+    "type": "Blue",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Wind": {
     "color": "Green",
     "type": "Tome",
@@ -3297,5 +3376,13 @@
     "might": 14,
     "effect": "Effective against cavalry foes.",
     "upgrade": "Special"
+  },
+  "Ífingr": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against dragon foes. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat and disables foe's skills that guarantee foe's follow-up attack, but after combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on nearest ally through its next action.",
+    "restriction": "Exclusive"
   }
 }
