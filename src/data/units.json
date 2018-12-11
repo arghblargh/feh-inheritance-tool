@@ -18763,8 +18763,27 @@
         }
       ],
       "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 4
+        }
       ],
       "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
       ],
       "passiveB": [
         {

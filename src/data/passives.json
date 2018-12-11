@@ -1417,15 +1417,15 @@
     },
     "Mystic Boost 1": {
       "cost": 60,
-      "effect": "If unit’s HP = 100%, disables foe's skill that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 2 HP after combat."
+      "effect": "Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 2 HP after combat."
     },
     "Mystic Boost 2": {
       "cost": 120,
-      "effect": "If unit’s HP ≥ 50%, disables foe's skill that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 4 HP after combat."
+      "effect": "Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 4 HP after combat."
     },
     "Mystic Boost 3": {
       "cost": 240,
-      "effect": "Disables foe's skill that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 6 HP after combat."
+      "effect": "Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 6 HP after combat."
     },
     "Null Follow-Up 1": {
       "cost": 60,
