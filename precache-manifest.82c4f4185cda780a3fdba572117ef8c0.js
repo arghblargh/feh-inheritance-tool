@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "06a5d428789d6afacbee",
-    "url": "/feh-inheritance-tool/static/css/main.58d4fccb.chunk.css"
+    "revision": "56daa5c92e1e2a439a57",
+    "url": "/feh-inheritance-tool/static/css/main.b37aecce.chunk.css"
   },
   {
-    "revision": "06a5d428789d6afacbee",
-    "url": "/feh-inheritance-tool/static/js/main.06a5d428.chunk.js"
+    "revision": "56daa5c92e1e2a439a57",
+    "url": "/feh-inheritance-tool/static/js/main.56daa5c9.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -282,6 +282,10 @@ self.__precacheManifest = [
   {
     "revision": "fd4bbe3137f305a006ef9e6cc1e0b516",
     "url": "/feh-inheritance-tool/static/media/Effie_Army_of_One.fd4bbe31.png"
+  },
+  {
+    "revision": "985624fed0e519f9aa127e69426ff25f",
+    "url": "/feh-inheritance-tool/static/media/Eir_Merciful_Death.985624fe.png"
   },
   {
     "revision": "577d41699a2c768071764d417b673e64",
@@ -1288,7 +1292,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "ca29b3878425e5237701af5f5aaf4fea",
+    "revision": "4354aa9034508e1d2ae1c312fe5188a2",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
