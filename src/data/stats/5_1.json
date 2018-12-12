@@ -461,6 +461,13 @@
     "Def": 11,
     "Res": 4
   },
+  "Eir: Merciful Death": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 7
+  },
   "Eirika: Anamnesis Lady": {
     "HP": 17,
     "Atk": 7,
