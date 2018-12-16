@@ -1036,6 +1036,14 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Festive Siegmund": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive"
+  },
   "Fire": {
     "color": "Red",
     "type": "Tome",
@@ -1304,6 +1312,21 @@
     "might": 14,
     "effect": "Grants Res+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.",
     "restriction": "Exclusive"
+  },
+  "Glittering Breath": {
+    "color": "",
+    "type": "Breath",
+    "cost": 200,
+    "might": 10,
+    "effect": "During combat, boosts unit's Def/Res by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
+  },
+  "Glittering Breath+": {
+    "color": "",
+    "type": "Breath",
+    "cost": 300,
+    "might": 14,
+    "effect": "During combat, boosts unit's Def/Res by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "upgrade": "-"
   },
   "Golden Dagger": {
     "color": "Red",
@@ -1709,6 +1732,20 @@
     "might": 14,
     "effect": "Grants Def+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.",
     "restriction": "Exclusive"
+  },
+  "Joyous Lantern": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "At start of turn, grants Def/Res+3 to ally with the highest Atk for 1 turn. (Excludes unit.)"
+  },
+  "Joyous Lantern+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "At start of turn, grants Def/Res+5 to ally with the highest Atk for 1 turn. (Excludes unit.)"
   },
   "Juicy Wave": {
     "color": "Blue",

@@ -27,6 +27,18 @@
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Def+5 during combat."
     },
+    "Atk/Def Solo 1": {
+      "cost": 60,
+      "effect": "If unit is not adjacent to an ally, grants Atk/Def+2 during combat."
+    },
+    "Atk/Def Solo 2": {
+      "cost": 120,
+      "effect": "If unit is not adjacent to an ally, grants Atk/Def+4 during combat."
+    },
+    "Atk/Def Solo 3": {
+      "cost": 240,
+      "effect": "If unit is not adjacent to an ally, grants Atk/Def+6 during combat."
+    },
     "Atk/Res Bond 1": {
       "cost": 60,
       "effect": "If unit is adjacent to an ally, grants Atk/Res+3 during combat."
@@ -285,6 +297,18 @@
     "Def/Res 2": {
       "cost": 160,
       "effect": "Grants Def/Res+2."
+    },
+    "Def/Res Bond 1": {
+      "cost": 60,
+      "effect": "If unit is adjacent to an ally, grants Def/Res+3 during combat."
+    },
+    "Def/Res Bond 2": {
+      "cost": 120,
+      "effect": "If unit is adjacent to an ally, grants Def/Res+4 during combat."
+    },
+    "Def/Res Bond 3": {
+      "cost": 240,
+      "effect": "If unit is adjacent to an ally, grants Def/Res+5 during combat."
     },
     "Defense +1": {
       "cost": 30,
@@ -1869,6 +1893,18 @@
       "cost": 240,
       "effect": "At start of turn, if unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
       "restriction": "Armored"
+    },
+    "Atk Opening 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Atk+2 to ally with the highest Atk for 1 turn. (Excludes unit.)"
+    },
+    "Atk Opening 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Atk+4 to ally with the highest Atk for 1 turn. (Excludes unit.)"
+    },
+    "Atk Opening 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Atk+6 to ally with the highest Atk for 1 turn. (Excludes unit.)"
     },
     "Atk Ploy 1": {
       "cost": 60,

@@ -18775,14 +18775,15 @@
       "passiveA": [
         {
           "name": "Darting Blow 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Swift Sparrow 1",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Swift Sparrow 2"
+          "name": "Swift Sparrow 2",
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -18801,6 +18802,231 @@
       "passiveC": [
         {
           "name": "Sparkling Boost"
+        }
+      ]
+    }
+  },
+  "Fae: Holiday Dear": {
+    "name": "Fae",
+    "title": "Holiday Dear",
+    "color": "Green",
+    "wpnType": "Breath",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Glittering Breath",
+          "unlock": 3
+        },
+        {
+          "name": "Glittering Breath+"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Def/Res Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Def/Res Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Def/Res Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeful Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 4
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
+  "Ephraim: Sparkling Gallantly": {
+    "name": "Ephraim",
+    "title": "Sparkling Gallantly",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Festive Siegmund"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Close Guard 1",
+          "unlock": 3
+        },
+        {
+          "name": "Close Guard 2",
+          "unlock": 4
+        },
+        {
+          "name": "Close Guard 3"
+        }
+      ]
+    }
+  },
+  "Eirika: Gentle as Snow": {
+    "name": "Eirika",
+    "title": "Gentle as Snow",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Joyous Lantern",
+          "unlock": 3
+        },
+        {
+          "name": "Joyous Lantern+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Restore",
+          "unlock": 3
+        },
+        {
+          "name": "Restore+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Heavenly Light",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dazzling Staff 1",
+          "unlock": 3
+        },
+        {
+          "name": "Dazzling Staff 2",
+          "unlock": 4
+        },
+        {
+          "name": "Dazzling Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Opening 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Opening 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk Opening 3"
         }
       ]
     }
