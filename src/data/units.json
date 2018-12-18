@@ -19068,14 +19068,15 @@
       "passiveA": [
         {
           "name": "Atk/Res Bond 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Atk/Res Bond 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Atk/Res Bond 3"
+          "name": "Atk/Res Bond 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
