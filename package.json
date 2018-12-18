@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "stats": "curl https://feh-stat-pull.herokuapp.com/stats/[3-5]-{1,40} -o \"src/data/stats/#1_#2.json\" https://feh-stat-pull.herokuapp.com/stats/growths -o \"src/data/stats/growths.json\""
+    "stats": "curl https://feh-stat-pull.herokuapp.com/stats/[3-5]-{1,40} -o \"src/data/stats/#1_#2.json\" https://feh-stat-pull.herokuapp.com/stats/growths -o \"src/data/stats/growths.json\"",
+    "portraits": "PowerShell -Command \"Get-ChildItem -Path src/img/*.png | ForEach-Object { magick convert $_ -resize 75x75 $_ }; Get-ChildItem -Path src/img/*.png | Move-Item -Force -Destination src/img/portrait\""
   },
   "browserslist": [
     ">0.2%",

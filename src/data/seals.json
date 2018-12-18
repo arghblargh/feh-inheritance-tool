@@ -30,6 +30,12 @@
   "Atk/Def Bond 3": {
     "effect": "If unit is adjacent to an ally, grants Atk/Def+5 during combat."
   },
+  "Atk/Spd 1": {
+    "effect": "Grants Atk/Spd+1."
+  },
+  "Atk/Spd 2": {
+    "effect": "Grants Atk/Spd+2."
+  },
   "Attack +1": {
     "effect": "Grants Atk+1."
   },
@@ -183,6 +189,12 @@
   "Drive Def 2": {
     "effect": "Grants Def+3 to allies within 2 spaces during combat."
   },
+  "Drive Res 1": {
+    "effect": "Grants Res+2 to allies within 2 spaces during combat."
+  },
+  "Drive Res 2": {
+    "effect": "Grants Res+3 to allies within 2 spaces during combat."
+  },
   "Drive Spd 1": {
     "effect": "Grants Spd+2 to allies within 2 spaces during combat."
   },
@@ -199,6 +211,18 @@
   },
   "Earth Dance 3": {
     "effect": "If Sing or Dance is used, grants Def+5 to target.",
+    "restriction": "Offense"
+  },
+  "Fierce Stance 1": {
+    "effect": "If foe initiates combat, grants Atk+2 during combat.",
+    "restriction": "Offense"
+  },
+  "Fierce Stance 2": {
+    "effect": "If foe initiates combat, grants Atk+4 during combat.",
+    "restriction": "Offense"
+  },
+  "Fierce Stance 3": {
+    "effect": "If foe initiates combat, grants Atk+6 during combat.",
     "restriction": "Offense"
   },
   "Flashing Blade 1": {

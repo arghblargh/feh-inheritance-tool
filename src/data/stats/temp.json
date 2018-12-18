@@ -16,5 +16,77 @@
         "Res": 0
       }
     }
+  },
+  "Fae: Holiday Dear": {
+    "5": {
+      "1": {
+        "HP": 17,
+        "Atk": 9,
+        "Spd": 4,
+        "Def": 9,
+        "Res": 8
+      },
+      "40": {
+        "HP": 45,
+        "Atk": 35,
+        "Spd": 26,
+        "Def": 33,
+        "Res": 41
+      }
+    }
+  },
+  "Ephraim: Sparkling Gallantly": {
+    "5": {
+      "1": {
+        "HP": 21,
+        "Atk": 11,
+        "Spd": 6,
+        "Def": 10,
+        "Res": 7
+      },
+      "40": {
+        "HP": 45,
+        "Atk": 41,
+        "Spd": 23,
+        "Def": 36,
+        "Res": 29
+      }
+    }
+  },
+  "Eirika: Gentle as Snow": {
+    "5": {
+      "1": {
+        "HP": 18,
+        "Atk": 10,
+        "Spd": 6,
+        "Def": 8,
+        "Res": 10
+      },
+      "40": {
+        "HP": 42,
+        "Atk": 36,
+        "Spd": 23,
+        "Def": 30,
+        "Res": 34
+      }
+    }
+  },
+  "Cecilia: Festive Instructor": {
+    "5": {
+      "1": {
+        "HP": 19,
+        "Atk": 11,
+        "Spd": 6,
+        "Def": 6,
+        "Res": 10
+      },
+      "40": {
+        "HP": 41,
+        "Atk": 35,
+        "Spd": 23,
+        "Def": 30,
+        "Res": 36
+      }
+    }
   }
 }
