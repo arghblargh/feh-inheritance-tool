@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "51710bfa3ba0b3f6f13c",
-    "url": "/feh-inheritance-tool/static/css/main.b37aecce.chunk.css"
+    "revision": "8129fd705e0fd8507c62",
+    "url": "/feh-inheritance-tool/static/css/main.b7c90b28.chunk.css"
   },
   {
-    "revision": "51710bfa3ba0b3f6f13c",
-    "url": "/feh-inheritance-tool/static/js/main.51710bfa.chunk.js"
+    "revision": "8129fd705e0fd8507c62",
+    "url": "/feh-inheritance-tool/static/js/main.8129fd70.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -168,6 +168,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Cecilia_Etrurian_General.17934d03.png"
   },
   {
+    "revision": "bde25b62bc0a19b66f79cf7eb9381e48",
+    "url": "/feh-inheritance-tool/static/media/Cecilia_Festive_Instructor.bde25b62.png"
+  },
+  {
     "revision": "351eca9ae1ee3108d392cce9740cfed1",
     "url": "/feh-inheritance-tool/static/media/Celica_Caring_Princess.351eca9a.png"
   },
@@ -292,6 +296,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Eirika_Anamnesis_Lady.577d4169.png"
   },
   {
+    "revision": "9b5d065a54b714af21b61f7b5cb1e835",
+    "url": "/feh-inheritance-tool/static/media/Eirika_Gentle_as_Snow.9b5d065a.png"
+  },
+  {
     "revision": "1abb6beb490db4f0d88397ed4b212238",
     "url": "/feh-inheritance-tool/static/media/Eirika_Graceful_Resolve.1abb6beb.png"
   },
@@ -340,6 +348,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Ephraim_Sacred_Twin_Lord.16380cfb.png"
   },
   {
+    "revision": "df37608415750aeaa3bf8281a3bc61d3",
+    "url": "/feh-inheritance-tool/static/media/Ephraim_Sparkling_Gallantly.df376084.png"
+  },
+  {
     "revision": "8d277c664880b6993edddb1acb8bd61e",
     "url": "/feh-inheritance-tool/static/media/Est_Junior_Whitewing.8d277c66.png"
   },
@@ -350,6 +362,10 @@ self.__precacheManifest = [
   {
     "revision": "56780eeedef32ed612a46b53adcb0aa9",
     "url": "/feh-inheritance-tool/static/media/Fae_Divine_Dragon.56780eee.png"
+  },
+  {
+    "revision": "45ff180e90dff09b1c93dc38a7477843",
+    "url": "/feh-inheritance-tool/static/media/Fae_Holiday_Dear.45ff180e.png"
   },
   {
     "revision": "1f57abc99798b7f6948efea9e653cee4",
@@ -1292,7 +1308,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "fe417ff0f9a4953e68ebca8f75bdb80e",
+    "revision": "fb4eca9c2b8c4a6bae1f0b76dd052c0a",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
