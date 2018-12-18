@@ -258,6 +258,13 @@
     "Def": 5,
     "Res": 7
   },
+  "Cecilia: Festive Instructor": {
+    "HP": 19,
+    "Atk": 11,
+    "Spd": 6,
+    "Def": 6,
+    "Res": 10
+  },
   "Celica: Caring Princess": {
     "HP": 17,
     "Atk": 8,
@@ -475,6 +482,13 @@
     "Def": 5,
     "Res": 5
   },
+  "Eirika: Gentle as Snow": {
+    "HP": 18,
+    "Atk": 10,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 10
+  },
   "Eirika: Graceful Resolve": {
     "HP": 16,
     "Atk": 5,
@@ -559,6 +573,13 @@
     "Def": 11,
     "Res": 7
   },
+  "Ephraim: Sparkling Gallantly": {
+    "HP": 21,
+    "Atk": 11,
+    "Spd": 6,
+    "Def": 10,
+    "Res": 7
+  },
   "Est: Junior Whitewing": {
     "HP": 17,
     "Atk": 9,
@@ -578,6 +599,13 @@
     "Atk": 5,
     "Spd": 4,
     "Def": 6,
+    "Res": 8
+  },
+  "Fae: Holiday Dear": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 4,
+    "Def": 9,
     "Res": 8
   },
   "Faye: Devoted Heart": {
