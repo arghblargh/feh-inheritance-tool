@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bff53508b1ffd099b057",
-    "url": "/feh-inheritance-tool/static/css/main.b7c90b28.chunk.css"
+    "revision": "116d765b715536ab4487",
+    "url": "/feh-inheritance-tool/static/css/main.9006ad37.chunk.css"
   },
   {
-    "revision": "bff53508b1ffd099b057",
-    "url": "/feh-inheritance-tool/static/js/main.bff53508.chunk.js"
+    "revision": "116d765b715536ab4487",
+    "url": "/feh-inheritance-tool/static/js/main.116d765b.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -65,7 +65,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "2f1d1413e95146998dc38a833468ce0e",
-    "url": "/feh-inheritance-tool/static/media/Ayra_Astra's_Wielder.2f1d1413.png"
+    "url": "/feh-inheritance-tool/static/media/Ayra_Astras_Wielder.2f1d1413.png"
   },
   {
     "revision": "51ef77d7d0e49c1e0d8d9cd5aa94ae79",
@@ -82,6 +82,10 @@ self.__precacheManifest = [
   {
     "revision": "32a2ad79a92057dcf7aea040ca7b2d0b",
     "url": "/feh-inheritance-tool/static/media/Azura_Lady_of_the_Lake.32a2ad79.png"
+  },
+  {
+    "revision": "24c17f5ddb45717f7e71b07d8155a8bd",
+    "url": "/feh-inheritance-tool/static/media/Azura_Vallite_Songstress.24c17f5d.png"
   },
   {
     "revision": "ff6c25020abc1c89728b426c6bf58961",
@@ -117,11 +121,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "5439044d2c7d2f344c5e9cc64143f476",
-    "url": "/feh-inheritance-tool/static/media/Caeda_Talys's_Bride.5439044d.png"
+    "url": "/feh-inheritance-tool/static/media/Caeda_Talyss_Bride.5439044d.png"
   },
   {
     "revision": "70b320e442976775229ec7cf5484a80d",
-    "url": "/feh-inheritance-tool/static/media/Caeda_Talys's_Heart.70b320e4.png"
+    "url": "/feh-inheritance-tool/static/media/Caeda_Talyss_Heart.70b320e4.png"
   },
   {
     "revision": "19b1ecf53de7795e744e9b210660b7dc",
@@ -384,6 +388,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Fir_Sword_Student.68dfb18a.png"
   },
   {
+    "revision": "b58c3f6e7a819f635616abf8b938d93a",
+    "url": "/feh-inheritance-tool/static/media/Fjorm_New_Traditions.b58c3f6e.png"
+  },
+  {
     "revision": "6d4f5ab41e8fcf44e04a5d0e35cd4c71",
     "url": "/feh-inheritance-tool/static/media/Fjorm_Princess_of_Ice.6d4f5ab4.png"
   },
@@ -438,6 +446,10 @@ self.__precacheManifest = [
   {
     "revision": "c71b18a4efa2a6680f2a5b5306d4a5f0",
     "url": "/feh-inheritance-tool/static/media/Gunnthrá_Voice_of_Dreams.c71b18a4.png"
+  },
+  {
+    "revision": "f19bd43c07d59bda3ab23f3970dae788",
+    "url": "/feh-inheritance-tool/static/media/Gunnthrá_Years_First_Dream.f19bd43c.png"
   },
   {
     "revision": "7158d30119f6bfd970ddc5f3a1e8ee8e",
@@ -504,6 +516,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Hríd_Icy_Blade.0aff68ca.png"
   },
   {
+    "revision": "9a2dfe671ac995e4a6622528f2de92db",
+    "url": "/feh-inheritance-tool/static/media/Hríd_Resolute_Prince.9a2dfe67.png"
+  },
+  {
     "revision": "7a1b0530a49835a6a6fffdf409133e29",
     "url": "/feh-inheritance-tool/static/media/Ike_Brave_Mercenary.7a1b0530.png"
   },
@@ -561,7 +577,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "672b1f4a1e56fbde545a8595b257e47d",
-    "url": "/feh-inheritance-tool/static/media/Julia_Naga's_Blood.672b1f4a.png"
+    "url": "/feh-inheritance-tool/static/media/Julia_Nagas_Blood.672b1f4a.png"
   },
   {
     "revision": "7111d37f5c58da0aea669e481882e409",
@@ -613,15 +629,23 @@ self.__precacheManifest = [
   },
   {
     "revision": "5aaca81db9f73c6f011ee6882061567c",
-    "url": "/feh-inheritance-tool/static/media/L'Arachel_Princess_of_Light.5aaca81d.png"
+    "url": "/feh-inheritance-tool/static/media/LArachel_Princess_of_Light.5aaca81d.png"
   },
   {
     "revision": "5d763460245938e456c1794ce5854765",
-    "url": "/feh-inheritance-tool/static/media/Lachesis_Lionheart's_Sister.5d763460.png"
+    "url": "/feh-inheritance-tool/static/media/Lachesis_Lionhearts_Sister.5d763460.png"
+  },
+  {
+    "revision": "826934b6b15be8be9359434df747817e",
+    "url": "/feh-inheritance-tool/static/media/Laegjarn_New_Experiences.826934b6.png"
   },
   {
     "revision": "ee6ff71dda7425c568ec503304b56282",
     "url": "/feh-inheritance-tool/static/media/Laegjarn_Sheathed_Steel.ee6ff71d.png"
+  },
+  {
+    "revision": "12ca23bf6a0be1e20bb0d0f0b8a76c77",
+    "url": "/feh-inheritance-tool/static/media/Laevatein_Kumade_Warrior.12ca23bf.png"
   },
   {
     "revision": "9eeb056fd9277b67a695912c35dd6b88",
@@ -649,7 +673,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "7f80cfc741879c0baf8395efae19b81f",
-    "url": "/feh-inheritance-tool/static/media/Leo_Seashore's_Prince.7f80cfc7.png"
+    "url": "/feh-inheritance-tool/static/media/Leo_Seashores_Prince.7f80cfc7.png"
   },
   {
     "revision": "1fa93853380a09a20a98c3337ee01969",
@@ -705,7 +729,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "9879a59420a371309a8d677bd4790444",
-    "url": "/feh-inheritance-tool/static/media/Lon'qu_Solitary_Blade.9879a594.png"
+    "url": "/feh-inheritance-tool/static/media/Lonqu_Solitary_Blade.9879a594.png"
   },
   {
     "revision": "2e90a47bf66ba25a5738b83bd90ae0d4",
@@ -757,7 +781,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "0846687f38681d9df7fd1d0f4ec43cb9",
-    "url": "/feh-inheritance-tool/static/media/Lyn_Wind's_Embrace.0846687f.png"
+    "url": "/feh-inheritance-tool/static/media/Lyn_Winds_Embrace.0846687f.png"
   },
   {
     "revision": "a7156b23013b55d8360f9bf141f0ed8d",
@@ -769,7 +793,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "d00c7249ffcaa09aa2342a323432cfcd",
-    "url": "/feh-inheritance-tool/static/media/Maria_Minerva's_Sister.d00c7249.png"
+    "url": "/feh-inheritance-tool/static/media/Maria_Minervas_Sister.d00c7249.png"
   },
   {
     "revision": "a642f5da8d1dc92d4e84c83c584e2e12",
@@ -821,7 +845,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "ebf951ea2a412ca250874a491b63a5cf",
-    "url": "/feh-inheritance-tool/static/media/Micaiah_Summer's_Dawn.ebf951ea.png"
+    "url": "/feh-inheritance-tool/static/media/Micaiah_Summers_Dawn.ebf951ea.png"
   },
   {
     "revision": "a3a52253b5ebdb6f6990f6db9226826b",
@@ -989,11 +1013,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "c064b6c21fc72e3c49e2ac4851ea64e9",
-    "url": "/feh-inheritance-tool/static/media/Reinhardt_Thunder's_Fist.c064b6c2.png"
+    "url": "/feh-inheritance-tool/static/media/Reinhardt_Thunders_Fist.c064b6c2.png"
   },
   {
     "revision": "f7117582c7c2e717e3a8b1788c5a5351",
-    "url": "/feh-inheritance-tool/static/media/Reinhardt_Thunder's_Sword.f7117582.png"
+    "url": "/feh-inheritance-tool/static/media/Reinhardt_Thunders_Sword.f7117582.png"
   },
   {
     "revision": "8f5fbe176c559783bf45a0762e10ae34",
@@ -1077,7 +1101,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "325fadf8e8d94a15c6ee914aa60f7714",
-    "url": "/feh-inheritance-tool/static/media/Sanaki_Begnion's_Apostle.325fadf8.png"
+    "url": "/feh-inheritance-tool/static/media/Sanaki_Begnions_Apostle.325fadf8.png"
   },
   {
     "revision": "d1f4a5151c6e66c62cfa9dda339651f0",
@@ -1237,7 +1261,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "41b6f6ab82cdec696184a14a2bf150e9",
-    "url": "/feh-inheritance-tool/static/media/Tiki_Naga's_Voice.41b6f6ab.png"
+    "url": "/feh-inheritance-tool/static/media/Tiki_Nagas_Voice.41b6f6ab.png"
   },
   {
     "revision": "0ed42c54e2c4fc1134c42811df2b742b",
@@ -1308,7 +1332,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "8eb2ba93ea547cee50578f4dffbdbd8c",
+    "revision": "ea905c862c3f2c26c258a5c48d319800",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
