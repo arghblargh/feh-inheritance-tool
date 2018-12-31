@@ -18869,14 +18869,15 @@
       "passiveC": [
         {
           "name": "Armor March 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Armor March 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Armor March 3"
+          "name": "Armor March 3",
+          "unlock": 4
         }
       ]
     }
@@ -18918,14 +18919,15 @@
       "passiveA": [
         {
           "name": "Atk/Def Solo 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Atk/Def Solo 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Atk/Def Solo 3"
+          "name": "Atk/Def Solo 3",
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -19019,14 +19021,15 @@
       "passiveC": [
         {
           "name": "Atk Opening 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Atk Opening 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Atk Opening 3"
+          "name": "Atk Opening 3",
+          "unlock": 4
         }
       ]
     }
@@ -19090,6 +19093,451 @@
         },
         {
           "name": "Def Ploy 3"
+        }
+      ]
+    }
+  },
+  "Azura: Vallite Songstress": {
+    "name": "Azura",
+    "title": "Vallite Songstress",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 1
+        },
+        {
+          "name": "Ellight",
+          "unlock": 2
+        },
+        {
+          "name": "Shine",
+          "unlock": 3
+        },
+        {
+          "name": "Prayer Wheel"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Sing",
+          "unlock": 3
+        },
+        {
+          "name": "Gray Waves"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "B Duel Flying 1",
+          "unlock": 3
+        },
+        {
+          "name": "B Duel Flying 2",
+          "unlock": 4
+        },
+        {
+          "name": "B Duel Flying 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Aerobatics 1",
+          "unlock": 3
+        },
+        {
+          "name": "Aerobatics 2",
+          "unlock": 4
+        },
+        {
+          "name": "Aerobatics 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk Tactic 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk Tactic 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Fjorm: New Traditions": {
+    "name": "Fjorm",
+    "title": "New Traditions",
+    "color": "Green",
+    "wpnType": "Bow",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Kabura Ya",
+          "unlock": 3
+        },
+        {
+          "name": "Kabura Ya+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Spd Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Res Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Res Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Res Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Gunnthrá: Year's First Dream": {
+    "name": "Gunnthrá",
+    "title": "Year's First Dream",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Hikami"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 1
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 2
+        },
+        {
+          "name": "Desperation 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Spd 3",
+          "unlock": 4
+        },
+        {
+          "name": "Joint Hone Spd"
+        }
+      ]
+    }
+  },
+  "Hríd: Resolute Prince": {
+    "name": "Hríd",
+    "title": "Resolute Prince",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Geishun",
+          "unlock": 3
+        },
+        {
+          "name": "Geishun+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Quick Riposte 1",
+          "unlock": 1
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 2
+        },
+        {
+          "name": "Quick Riposte 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Atk 3",
+          "unlock": 4
+        },
+        {
+          "name": "Hone Atk 4"
+        }
+      ]
+    }
+  },
+  "Laegjarn: New Experiences": {
+    "name": "Laegjarn",
+    "title": "New Experiences",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Wagasa",
+          "unlock": 3
+        },
+        {
+          "name": "Wagasa+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Pivot",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Tactic 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def Tactic 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def Tactic 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Laevatein: Kumade Warrior": {
+    "name": "Laevatein",
+    "title": "Kumade Warrior",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Kumade",
+          "unlock": 3
+        },
+        {
+          "name": "Kumade+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 2
+        },
+        {
+          "name": "Rehabilitate",
+          "unlock": 4
+        },
+        {
+          "name": "Rehabilitate+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Kindled-Fire Balm",
+          "unlock": 3
+        },
+        {
+          "name": "Earthfire Balm",
+          "unlock": 4
+        },
+        {
+          "name": "Earthfire Balm+"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrathful Staff 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrathful Staff 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrathful Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Def Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Def Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Def Wave 3",
+          "unlock": 4
         }
       ]
     }

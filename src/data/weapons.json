@@ -3436,5 +3436,80 @@
     "might": 14,
     "effect": "Effective against dragon foes. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat and disables foe's skills that guarantee foe's follow-up attack, but after combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on nearest ally through its next action.",
     "restriction": "Exclusive"
+  },
+  "Prayer Wheel": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If Sing or Dance is used, grants bonus to target's Atk/Spd/Def/Res = highest bonus on target ally for 1 turn. (Example: if target already has a +6 bonus to Atk, grants Atk/Spd/Def/Res+6.)",
+    "restriction": "Exclusive"
+  },
+  "Hikami": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. At start of turn, inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces through their next actions.",
+    "restriction": "Exclusive"
+  },
+  "Kabura Ya": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action."
+  },
+  "Kabura Ya+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action.",
+    "upgrade": "-"
+  },
+  "Geishun": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."
+  },
+  "Geishun+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.",
+    "upgrade": "-"
+  },
+  "Wagasa": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
+  },
+  "Wagasa+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action.",
+    "upgrade": "-"
+  },
+  "Kumade": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "At start of turn, inflicts Atk/Spd-3 on foe on the enemy team with the highest Def through its next action."
+  },
+  "Kumade+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "At start of turn, inflicts Atk/Spd-5 on foe on the enemy team with the highest Def through its next action."
   }
 }

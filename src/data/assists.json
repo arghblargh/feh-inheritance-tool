@@ -13,8 +13,13 @@
         "effect": "Unit moves 1 space away from target ally. Ally moves to unit’s previous space."
     },
     "Future Vision": {
-        "cost": 300,
+        "cost": 400,
         "effect": "Unit and target ally swap spaces. Grants another action to unit. (Additional action granted once per turn only.)",
+        "restriction": "Exclusive"
+    },
+    "Gray Waves": {
+        "cost": 400,
+        "effect": "Grants another action to target ally, and if target is an infantry or flying ally, target can move 1 extra space. (That turn only. Does not stack. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)",
         "restriction": "Exclusive"
     },
     "Harsh Command": {

@@ -118,6 +118,13 @@
     "Def": 21,
     "Res": 28
   },
+  "Azura: Vallite Songstress": {
+    "HP": 33,
+    "Atk": 30,
+    "Spd": 35,
+    "Def": 17,
+    "Res": 24
+  },
   "Azura: Young Songstress": {
     "HP": 36,
     "Atk": 33,
@@ -636,6 +643,13 @@
     "Def": 24,
     "Res": 31
   },
+  "Fjorm: New Traditions": {
+    "HP": 39,
+    "Atk": 35,
+    "Spd": 35,
+    "Def": 20,
+    "Res": 21
+  },
   "Fjorm: Princess of Ice": {
     "HP": 39,
     "Atk": 30,
@@ -733,6 +747,13 @@
     "Spd": 33,
     "Def": 19,
     "Res": 25
+  },
+  "Gunnthrá: Year's First Dream": {
+    "HP": 38,
+    "Atk": 34,
+    "Spd": 37,
+    "Def": 27,
+    "Res": 26
   },
   "Gunter: Inveterate Soldier": {
     "HP": 43,
@@ -845,6 +866,13 @@
     "Spd": 17,
     "Def": 36,
     "Res": 26
+  },
+  "Hríd: Resolute Prince": {
+    "HP": 42,
+    "Atk": 38,
+    "Spd": 19,
+    "Def": 36,
+    "Res": 27
   },
   "Ike: Brave Mercenary": {
     "HP": 43,
@@ -1049,12 +1077,26 @@
     "Def": 22,
     "Res": 30
   },
+  "Laegjarn: New Experiences": {
+    "HP": 38,
+    "Atk": 32,
+    "Spd": 35,
+    "Def": 35,
+    "Res": 17
+  },
   "Laegjarn: Sheathed Steel": {
     "HP": 41,
     "Atk": 32,
     "Spd": 36,
     "Def": 36,
     "Res": 17
+  },
+  "Laevatein: Kumade Warrior": {
+    "HP": 33,
+    "Atk": 36,
+    "Spd": 30,
+    "Def": 27,
+    "Res": 18
   },
   "Laevatein: Searing Steel": {
     "HP": 39,

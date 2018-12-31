@@ -94,6 +94,18 @@
     "count": 4,
     "effect": "Boosts damage by 30% of unit's Atk."
   },
+  "Earthfire Balm": {
+    "cost": 150,
+    "count": 1,
+    "effect": "When healing an ally with a staff, grants Atk/Def+4 to all allies for 1 turn.",
+    "restriction": "Staff"
+  },
+  "Earthfire Balm+": {
+    "cost": 150,
+    "count": 1,
+    "effect": "When healing an ally with a staff, grants Atk/Def+6 to all allies for 1 turn.",
+    "restriction": "Staff"
+  },
   "Earthwater Balm": {
     "cost": 150,
     "count": 1,
