@@ -53,8 +53,7 @@ export class Dropdown extends React.Component {
     }
 
     render() {
-        let self = this;
-        let options = self.props.options.map(function(option) {
+        let options = this.props.options.map(function(option) {
             return (
                 <option key={option} value={option}>
                     {option}
@@ -74,7 +73,7 @@ export class Dropdown extends React.Component {
     handleChange(e) {
         this.props.onChange(e.target.value);
     }
-};
+}
 
 // Text box component
 export class TextBox extends React.PureComponent {
@@ -86,7 +85,7 @@ export class TextBox extends React.PureComponent {
             </div>
         )
     }
-};
+}
 
 // Hover component
 export const Hover = ({ onHover, children }) => (

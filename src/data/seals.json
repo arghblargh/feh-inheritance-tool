@@ -36,6 +36,15 @@
   "Atk/Spd 2": {
     "effect": "Grants Atk/Spd+2."
   },
+  "Atk/Spd Bond 1": {
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd+3 during combat."
+  },
+  "Atk/Spd Bond 2": {
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd+4 during combat."
+  },
+  "Atk/Spd Bond 3": {
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd+5 during combat."
+  },
   "Attack +1": {
     "effect": "Grants Atk+1."
   },
@@ -544,6 +553,12 @@
   "Spur Def 3": {
     "effect": "Grants Def+4 to adjacent allies during combat."
   },
+  "Spur Def/Res 1": {
+    "effect": "Grants Def/Res+2 to adjacent allies during combat."
+  },
+  "Spur Def/Res 2": {
+    "effect": "Grants Def/Res+3 to adjacent allies during combat."
+  },
   "Spur Res 1": {
     "cost": "50",
     "effect": "Grants Res+2 to adjacent allies during combat."
@@ -580,6 +595,15 @@
   },
   "Threaten Def 3": {
     "effect": "At start of turn, inflicts Def-5 on foes within 2 spaces through their next actions."
+  },
+  "Threaten Res 1": {
+    "effect": "At start of turn, inflicts Res-3 on foes within 2 spaces through their next actions."
+  },
+  "Threaten Res 2": {
+    "effect": "At start of turn, inflicts Res-4 on foes within 2 spaces through their next actions."
+  },
+  "Threaten Res 3": {
+    "effect": "At start of turn, inflicts Res-5 on foes within 2 spaces through their next actions."
   },
   "Threaten Spd 1": {
     "effect": "At start of turn, inflicts Spd-3 on foes within 2 spaces through their next actions."
