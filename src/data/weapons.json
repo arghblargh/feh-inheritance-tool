@@ -3449,7 +3449,7 @@
     "color": "Red",
     "type": "Sword",
     "cost": 400,
-    "might": 14,
+    "might": 16,
     "effect": "Grants Spd+3. At start of turn, inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces through their next actions.",
     "restriction": "Exclusive"
   },
