@@ -449,7 +449,7 @@ class UnitInfo extends Component {
   }
 
   handleMergeSelect(mergeBonus) {
-    this.props.onMergeSelect(mergeBonus ? mergeBonus.slice(1) : '');
+    this.props.onMergeSelect(mergeBonus ? mergeBonus.slice(1) : 0);
   }
 
   handleSupportRankSelect(rank) {

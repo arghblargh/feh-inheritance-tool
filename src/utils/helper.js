@@ -258,7 +258,7 @@ function addStatMods(stats, mod) {
 // +5: Fourth and fifth highest base stat
 // +6~10: Repeat
 // In case of tie: HP > Atk > Spd > Def > Res
-function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
+function calcMergeBonus(unit, rarity, merge, totalMod, isNeutral = false) {
     if (!baseStats[rarity][unit])
         return [0, 0, 0, 0, 0];
     
@@ -271,7 +271,7 @@ function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
         });
     }
     for (let i in sortedStats) {
-        sortedStats[i].value += Math.sign(boonBaneMod[i]);
+        sortedStats[i].value += Math.sign(totalMod[i]);
     }
     sortedStats.sort((a,b) => { return b.value - a.value; });
     
@@ -284,6 +284,13 @@ function calcMergeBonus(unit, rarity, merge, boonBaneMod) {
     }
     
     let resultMod = [0,0,0,0,0];
+
+    // if (merge > 0 && isNeutral) {
+    //     for (let i = 0; i < 3; i++) {
+    //         sortedStats[i].bonus += 1;
+    //     }
+    // }
+
     for (let stat of sortedStats) {
         switch (stat.stat) {
             case 'HP':
@@ -328,6 +335,9 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                 
                 totalMod[index] += bb === "boon" ? 1 : -1;
                 growthRates[index] += bb === "boon" ? 5 : -5;
+                // for merge update
+                // totalMod[index] += bb === "boon" ? 1 : merge === 0 ? -1 : 0;
+                // growthRates[index] += bb === "boon" ? 5 : merge === 0 ? -5 : 0;
             }
         }
 
@@ -351,12 +361,9 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                 totalMod[index] += (bb === "boon" ? 1 : -1) * (level === 40 ? 3 : 1);
             }
         }
-
-        if (level === 40) {
-        }
     }
 
-    let mergeMod = calcMergeBonus(unit, rarity, merge, totalMod);
+    let mergeMod = calcMergeBonus(unit, rarity, merge, totalMod, boonBane && Object.values(boonBane).every(x => x === ''));
     totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
 
     if (skills) {
