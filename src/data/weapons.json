@@ -3511,5 +3511,29 @@
     "cost": 300,
     "might": 12,
     "effect": "At start of turn, inflicts Atk/Spd-5 on foe on the enemy team with the highest Def through its next action."
+  },
+  "Hawk King Claw": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Atk+3. If foe's HP = 100% and if unit initiates combat, unit makes a guaranteed follow-up attack. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Exclusive"
+  },
+  "Heron Wing": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. At start of turn, restores 7 HP to allies within 2 spaces of unit. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Exclusive"
+  },
+  "Wolf Queen Fang": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). During combat, boosts unit's Atk/Spd by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Exclusive"
   }
 }

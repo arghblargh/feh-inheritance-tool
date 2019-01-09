@@ -69,13 +69,15 @@ export function getLowestRarity(unit) {
 }
 
 function getWeaponUpgrade(unit) {
-    var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
-    
-    if (upgrades.Evolve[maxWeapon]) {
-        if (upgrades.Evolve[maxWeapon].unit && upgrades.Evolve[maxWeapon].unit.includes(unit))
-            return upgrades.Evolve[maxWeapon].weapon;
-        else
-            return upgrades.Evolve[maxWeapon];
+    if (units[unit].skills.weapon) {
+        var maxWeapon = units[unit].skills.weapon[units[unit].skills.weapon.length - 1].name;
+        
+        if (upgrades.Evolve[maxWeapon]) {
+            if (upgrades.Evolve[maxWeapon].unit && upgrades.Evolve[maxWeapon].unit.includes(unit))
+                return upgrades.Evolve[maxWeapon].weapon;
+            else
+                return upgrades.Evolve[maxWeapon];
+        }
     }
 
     return null;
@@ -136,13 +138,13 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
             if (/Offense/.test(r) && !/Staff/.test(unitData))
                 return true;
                     
-            if (/Melee/.test(r) && /Sword|Lance|Axe|Breath/.test(unitData))
+            if (/Melee/.test(r) && /Sword|Lance|Axe|Breath|Beast/.test(unitData))
                 return true;
 
             if (/Ranged/.test(r) && /Bow|Dagger|Tome|Staff/.test(unitData))
                 return true;
 
-            if (/Physical/.test(r) && /Sword|Lance|Axe|Bow|Dagger/.test(unitData))
+            if (/Physical/.test(r) && /Sword|Lance|Axe|Beast|Bow|Dagger/.test(unitData))
                 return true;
 
             if (/Magic/.test(r) && /Breath|Tome|Staff/.test(unitData))
@@ -171,6 +173,8 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
                 else if (/A/.test(flags) && /Axe/.test(unitData))
                     return true;
                 else if (/Br/.test(flags) && /Breath/.test(unitData))
+                    return true;
+                else if (/Be/.test(flags) && /Beast/.test(unitData))
                     return true;
                 else if (/Tr/.test(flags) && /Tome/.test(unitData) && /Red/.test(unitData))
                     return true;
@@ -498,13 +502,13 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
             if (upgrades[skills.weapon].stats)
                 upgradeMod = JSON.parse(JSON.stringify(upgrades[skills.weapon].stats));
             else {
-                if (/Sword|Lance|Axe|Breath/.test(weapons[skills.weapon].type))
+                if (/Sword|Lance|Axe|Breath|Beast/.test(weapons[skills.weapon].type))
                     upgradeMod = [3, 0, 0, 0, 0];
                 else 
                     upgradeMod = [0, 0, 0, 0, 0];
             }
         }
-        else if (/Sword|Lance|Axe|Breath/.test(weapons[skills.weapon].type))
+        else if (/Sword|Lance|Axe|Breath|Beast/.test(weapons[skills.weapon].type))
             upgradeMod = JSON.parse(JSON.stringify(upgrades.Melee[upgrade]));
         else if (/Bow|Dagger|Tome/.test(weapons[skills.weapon].type))
             upgradeMod = JSON.parse(JSON.stringify(upgrades.Ranged[upgrade]));

@@ -814,6 +814,11 @@
       "effect": "If unit initiates combat, grants Atk/Def+4 during combat.",
       "restriction": "Offense"
     },
+    "Sturdy Impact": {
+      "cost": 300,
+      "effect": "If unit initiates combat, grants Atk+6, Def+10 during combat and foe cannot make a follow-up attack.",
+      "restriction": "Offense"
+    },
     "Sturdy Stance 1": {
       "cost": 120,
       "effect": "If foe initiates combat, grants Atk/Def+2 during combat.",
@@ -1465,6 +1470,18 @@
     "Mystic Boost 3": {
       "cost": 240,
       "effect": "Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 6 HP after combat."
+    },
+    "Null C-Disrupt 1": {
+      "cost": 60,
+      "effect": "If unit’s HP = 100%, neutralizes status effects and disables skills that prevent counterattacks during combat."
+    },
+    "Null C-Disrupt 2": {
+      "cost": 120,
+      "effect": "If unit’s HP ≥ 50%, neutralizes status effects and disables skills that prevent counterattacks during combat."
+    },
+    "Null C-Disrupt 3": {
+      "cost": 240,
+      "effect": "Neutralizes status effects and disables skills that prevent counterattacks during combat."
     },
     "Null Follow-Up 1": {
       "cost": 60,
@@ -2254,6 +2271,12 @@
       "require": "Fortify Def 2|Fortify Res 2",
       "restriction": "Armored"
     },
+    "Fortify Beasts": {
+      "cost": 200,
+      "effect": "At start of turn, grants Def/Res+6 to adjacent beast allies for 1 turn.",
+      "require": "Fortify Def 2|Fortify Res 2",
+      "restriction": "Beast"
+    },
     "Fortify Cavalry": {
       "cost": 200,
       "effect": "At start of turn, grants Def/Res+6 to adjacent cavalry allies for 1 turn.",
@@ -2326,6 +2349,11 @@
       "effect": "If unit survives, all green tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:G"
     },
+    "Glare": {
+      "cost": 300,
+      "effect": "After combat, if unit attacked, inflicts status on target and foes within 1 space of target restricting movement to 1 space through their next actions.",
+      "restriction": "Exclusive"
+    },
     "Goad Armor": {
       "cost": 200,
       "effect": "Grants Atk/Spd+4 to armored allies within 2 spaces during combat.",
@@ -2386,6 +2414,12 @@
     "Hone Atk 4": {
       "cost": 300,
       "effect": "At start of turn, grants Atk+7 to adjacent allies for 1 turn."
+    },
+    "Hone Beasts": {
+      "cost": 200,
+      "effect": "At start of turn, grants Atk/Spd+6 to adjacent beast allies for 1 turn.",
+      "require": "Hone Atk 2|Hone Spd 2",
+      "restriction": "Beast"
     },
     "Hone Cavalry": {
       "cost": 200,
