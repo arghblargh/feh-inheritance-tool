@@ -19599,28 +19599,28 @@
       "passiveB": [
         {
           "name": "Chill Atk 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Chill Atk 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Chill Atk 3",
-          "unlock": 4
+          "name": "Chill Atk 3"
         }
       ],
       "passiveC": [
         {
           "name": "Even Atk Wave 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Even Atk Wave 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Even Atk Wave 3"
+          "name": "Even Atk Wave 3",
+          "unlock": 4
         }
       ]
     }
@@ -19658,42 +19658,41 @@
       "passiveA": [
         {
           "name": "Warding Stance 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Mirror Stance 1",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Mirror Stance 2"
+          "name": "Mirror Stance 2",
+          "unlock": 4
         }
       ],
       "passiveB": [
         {
           "name": "Flier Formation 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Flier Formation 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Flier Formation 3",
-          "unlock": 4
+          "name": "Flier Formation 3"
         }
       ],
       "passiveC": [
         {
-          "name": "Hone Atk 1",
-          "unlock": 2
-        },
-        {
-          "name": "Hone Atk 2",
+          "name": "Hone Spd 1",
           "unlock": 3
         },
         {
-          "name": "Hone Beasts",
+          "name": "Hone Spd 2",
           "unlock": 4
+        },
+        {
+          "name": "Hone Beasts"
         }
       ]
     }
@@ -19730,7 +19729,7 @@
       ],
       "passiveA": [
         {
-          "name": "Steady Stance 1",
+          "name": "Darting Stance 1",
           "unlock": 3
         },
         {
@@ -19743,11 +19742,11 @@
       ],
       "passiveC": [
         {
-          "name": "Fortify Def 1",
+          "name": "Fortify Res 1",
           "unlock": 2
         },
         {
-          "name": "Fortify Def 2",
+          "name": "Fortify Res 2",
           "unlock": 3
         },
         {
@@ -19788,7 +19787,7 @@
         },
         {
           "name": "Moonbow",
-          "unlock": 3
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -19852,7 +19851,7 @@
       ],
       "passiveA": [
         {
-          "name": "Death Blow 1",
+          "name": "Darting Blow 1",
           "unlock": 3
         },
         {

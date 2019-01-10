@@ -13,6 +13,22 @@
     "might": 7,
     "effect": "Restores HP = 50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit."
   },
+  "Adult (Flier)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 200,
+    "might": 9,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Flying"
+  },
+  "Adult (Infantry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 200,
+    "might": 9,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Infantry"
+  },
   "Alondite": {
     "color": "Red",
     "type": "Sword",
@@ -1176,6 +1192,14 @@
     "might": 11,
     "effect": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions."
   },
+  "Fledgling (Flier)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 100,
+    "might": 6,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Flying"
+  },
   "Florina's Lance": {
     "color": "Blue",
     "type": "Lance",
@@ -1265,6 +1289,21 @@
     "might": 16,
     "effect": "Grants Def+3. If allies within 2 spaces use sword, lance, axe, bow, or dagger, grants Atk/Spd+3 to those allies during combat.",
     "restriction": "Exclusive"
+  },
+  "Geishun": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."
+  },
+  "Geishun+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.",
+    "upgrade": "-"
   },
   "Giant Spoon": {
     "color": "Green",
@@ -1627,6 +1666,14 @@
     "effect": "Deals +10 damage when Special triggers.",
     "upgrade": "Mt:1"
   },
+  "Hatchling (Flier)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 50,
+    "might": 4,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Flying"
+  },
   "Hauteclere": {
     "color": "Green",
     "type": "Axe",
@@ -1635,6 +1682,14 @@
     "effect": "Accelerates Special trigger (cooldown count-1).",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Hawk King Claw": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Atk+3. If foe's HP = 100% and if unit initiates combat, unit makes a guaranteed follow-up attack. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Exclusive"
   },
   "Heavy Spear": {
     "color": "Blue",
@@ -1650,6 +1705,14 @@
     "might": 12,
     "effect": "Effective against armored foes."
   },
+  "Heron Wing": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. At start of turn, restores 7 HP to allies within 2 spaces of unit. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Exclusive"
+  },
   "Hibiscus Tome": {
     "color": "Green",
     "type": "Tome",
@@ -1664,6 +1727,14 @@
     "might": 12,
     "effect": "Grants Atk/Spd+1 to allies within 2 spaces during combat.",
     "upgrade": "-"
+  },
+  "Hikami": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Spd+3. At start of turn, inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces through their next actions.",
+    "restriction": "Exclusive"
   },
   "Hinoka's Spear": {
     "color": "Blue",
@@ -1776,6 +1847,21 @@
     "cost": 300,
     "might": 12,
     "effect": "If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "upgrade": "-"
+  },
+  "Kabura Ya": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action."
+  },
+  "Kabura Ya+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action.",
     "upgrade": "-"
   },
   "Kadomatsu": {
@@ -1920,6 +2006,20 @@
     "cost": 300,
     "might": 8,
     "effect": "Effective against foe using magic. After combat, if unit attacked and if foe uses magic, foe suffers Def/Res-7 through foe's next action."
+  },
+  "Kumade": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "At start of turn, inflicts Atk/Spd-3 on foe on the enemy team with the highest Def through its next action."
+  },
+  "Kumade+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "At start of turn, inflicts Atk/Spd-5 on foe on the enemy team with the highest Def through its next action."
   },
   "Laevatein": {
     "color": "Red",
@@ -2289,6 +2389,14 @@
     "effect": "Effective against cavalry foes.",
     "upgrade": "Special"
   },
+  "Prayer Wheel": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If Sing or Dance is used, grants bonus to target's Atk/Spd/Def/Res = highest bonus on target ally for 1 turn. (Example: if target already has a +6 bonus to Atk, grants Atk/Spd/Def/Res+6.)",
+    "restriction": "Exclusive"
+  },
   "Ragnarok": {
     "color": "Red",
     "type": "Tome",
@@ -2385,6 +2493,14 @@
     "cost": 300,
     "might": 10,
     "effect": "Effective against cavalry foes."
+  },
+  "Raven King Beak": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Exclusive"
   },
   "Reese's Tome": {
     "color": "Red",
@@ -3201,6 +3317,15 @@
     "effect": "Grants Atk/Spd+1 to allies within 2 spaces during combat.",
     "upgrade": "-"
   },
+  "Tome of Thoron": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
   "Trilemma": {
     "color": "Neutral",
     "type": "Staff",
@@ -3265,6 +3390,21 @@
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
+  "Wagasa": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
+  },
+  "Wagasa+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action.",
+    "upgrade": "-"
+  },
   "Wargod's Tome": {
     "color": "Blue",
     "type": "Tome",
@@ -3303,6 +3443,14 @@
     "might": 14,
     "effect": "Grants Spd+3. At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
     "restriction": "Exclusive"
+  },
+  "Whelp (Infantry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 50,
+    "might": 4,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Infantry"
   },
   "Whitewing Blade": {
     "color": "Sword",
@@ -3408,6 +3556,14 @@
     "effect": "Grants Def+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Atk/Spd/Def/Res+4 during combat.",
     "restriction": "Exclusive"
   },
+  "Wolf Queen Fang": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). During combat, boosts unit's Atk/Spd by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Exclusive"
+  },
   "Yato": {
     "color": "Red",
     "type": "Sword",
@@ -3416,6 +3572,14 @@
     "effect": "If unit initiates combat, grants Spd+4 during combat.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Yearling (Infantry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 100,
+    "might": 6,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Infantry"
   },
   "Zanbato": {
     "color": "Red",
@@ -3439,163 +3603,5 @@
     "might": 14,
     "effect": "Effective against dragon foes. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat and disables foe's skills that guarantee foe's follow-up attack, but after combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on nearest ally through its next action.",
     "restriction": "Exclusive"
-  },
-  "Prayer Wheel": {
-    "color": "Blue",
-    "type": "Tome",
-    "cost": 400,
-    "might": 14,
-    "effect": "Grants Spd+3. If Sing or Dance is used, grants bonus to target's Atk/Spd/Def/Res = highest bonus on target ally for 1 turn. (Example: if target already has a +6 bonus to Atk, grants Atk/Spd/Def/Res+6.)",
-    "restriction": "Exclusive"
-  },
-  "Hikami": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 400,
-    "might": 16,
-    "effect": "Grants Spd+3. At start of turn, inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces through their next actions.",
-    "restriction": "Exclusive"
-  },
-  "Kabura Ya": {
-    "color": "",
-    "type": "Bow",
-    "cost": 200,
-    "might": 8,
-    "effect": "Effective against flying foes. At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action."
-  },
-  "Kabura Ya+": {
-    "color": "",
-    "type": "Bow",
-    "cost": 300,
-    "might": 12,
-    "effect": "Effective against flying foes. At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action.",
-    "upgrade": "-"
-  },
-  "Geishun": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 200,
-    "might": 10,
-    "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."
-  },
-  "Geishun+": {
-    "color": "Red",
-    "type": "Sword",
-    "cost": 300,
-    "might": 14,
-    "effect": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.",
-    "upgrade": "-"
-  },
-  "Wagasa": {
-    "color": "Blue",
-    "type": "Lance",
-    "cost": 200,
-    "might": 10,
-    "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
-  },
-  "Wagasa+": {
-    "color": "Blue",
-    "type": "Lance",
-    "cost": 300,
-    "might": 14,
-    "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action.",
-    "upgrade": "-"
-  },
-  "Kumade": {
-    "color": "Neutral",
-    "type": "Staff",
-    "cost": 200,
-    "might": 8,
-    "effect": "At start of turn, inflicts Atk/Spd-3 on foe on the enemy team with the highest Def through its next action."
-  },
-  "Kumade+": {
-    "color": "Neutral",
-    "type": "Staff",
-    "cost": 300,
-    "might": 12,
-    "effect": "At start of turn, inflicts Atk/Spd-5 on foe on the enemy team with the highest Def through its next action."
-  },
-  "Hawk King Claw": {
-    "color": "",
-    "type": "Beast",
-    "cost": 400,
-    "might": 14,
-    "effect": "Grants Atk+3. If foe's HP = 100% and if unit initiates combat, unit makes a guaranteed follow-up attack. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
-    "restriction": "Exclusive"
-  },
-  "Heron Wing": {
-    "color": "",
-    "type": "Beast",
-    "cost": 400,
-    "might": 14,
-    "effect": "Grants Spd+3. At start of turn, restores 7 HP to allies within 2 spaces of unit. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
-    "restriction": "Exclusive"
-  },
-  "Wolf Queen Fang": {
-    "color": "",
-    "type": "Beast",
-    "cost": 400,
-    "might": 14,
-    "effect": "Accelerates Special trigger (cooldown count-1). During combat, boosts unit's Atk/Spd by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
-    "restriction": "Exclusive"
-  },
-  "Raven King Beak": {
-    "color": "",
-    "type": "Beast",
-    "cost": 400,
-    "might": 14,
-    "effect": "Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
-    "restriction": "Exclusive"
-  },
-  "Tome of Thoron": {
-    "color": "Blue",
-    "type": "Tome",
-    "cost": 400,
-    "might": 14,
-    "effect": "At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1, and deals +1- damage when Special triggers.",
-    "restriction": "Exclusive",
-    "upgrade": "Legendary"
-  },
-  "Whelp (Infantry)": {
-    "color": "",
-    "type": "Beast",
-    "cost": 0,
-    "might": 4,
-    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers."
-  },
-  "Yearling (Infantry)": {
-    "color": "",
-    "type": "Beast",
-    "cost": 0,
-    "might": 6,
-    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers."
-  },
-  "Adult (Infantry)": {
-    "color": "",
-    "type": "Beast",
-    "cost": 200,
-    "might": 9,
-    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers."
-  },
-  "Hatchling (Flier)": {
-    "color": "",
-    "type": "Beast",
-    "cost": 0,
-    "might": 4,
-    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2."
-  },
-  "Fledgling (Flier)": {
-    "color": "",
-    "type": "Beast",
-    "cost": 0,
-    "might": 6,
-    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2."
-  },
-  "Adult (Flier)": {
-    "color": "",
-    "type": "Beast",
-    "cost": 200,
-    "might": 9,
-    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2."
   }
 }

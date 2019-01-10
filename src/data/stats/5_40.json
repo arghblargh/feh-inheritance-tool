@@ -1112,6 +1112,13 @@
     "Def": 30,
     "Res": 22
   },
+  "Leanne: Forest's Song": {
+    "HP": 36,
+    "Atk": 27,
+    "Spd": 37,
+    "Def": 16,
+    "Res": 34
+  },
   "Legault: The Hurricane": {
     "HP": 39,
     "Atk": 31,
@@ -1504,6 +1511,20 @@
     "Def": 40,
     "Res": 32
   },
+  "Naesala: Sky's Shadow": {
+    "HP": 39,
+    "Atk": 32,
+    "Spd": 38,
+    "Def": 24,
+    "Res": 29
+  },
+  "Nailah: Unflinching Eye": {
+    "HP": 40,
+    "Atk": 31,
+    "Spd": 37,
+    "Def": 32,
+    "Res": 23
+  },
   "Nanna: Nordion Princess": {
     "HP": 36,
     "Atk": 27,
@@ -1748,6 +1769,13 @@
     "Spd": 23,
     "Def": 31,
     "Res": 28
+  },
+  "Reyson: White Prince": {
+    "HP": 37,
+    "Atk": 29,
+    "Spd": 34,
+    "Def": 24,
+    "Res": 26
   },
   "Rhajat: Black Magician": {
     "HP": 36,
@@ -2147,6 +2175,13 @@
     "Spd": 35,
     "Def": 21,
     "Res": 21
+  },
+  "Tibarn: Lord of the Air": {
+    "HP": 41,
+    "Atk": 38,
+    "Spd": 31,
+    "Def": 34,
+    "Res": 18
   },
   "Tiki: Beachside Scion": {
     "HP": 40,
