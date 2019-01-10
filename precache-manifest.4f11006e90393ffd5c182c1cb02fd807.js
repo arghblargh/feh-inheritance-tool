@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "54eeb3bd0249d4b383ce",
-    "url": "/feh-inheritance-tool/static/css/main.9006ad37.chunk.css"
+    "revision": "de98a2204ed251749ce6",
+    "url": "/feh-inheritance-tool/static/css/main.e5d09a74.chunk.css"
   },
   {
-    "revision": "54eeb3bd0249d4b383ce",
-    "url": "/feh-inheritance-tool/static/js/main.54eeb3bd.chunk.js"
+    "revision": "de98a2204ed251749ce6",
+    "url": "/feh-inheritance-tool/static/js/main.de98a220.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -656,6 +656,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Laslow_Dancing_Duelist.2207b8f7.png"
   },
   {
+    "revision": "1e3fb4f35b3f8af45a6c10275e38a621",
+    "url": "/feh-inheritance-tool/static/media/Leanne_Forests_Song.1e3fb4f3.png"
+  },
+  {
     "revision": "f41eee250c9bd9f1a16a9466ee21eb1c",
     "url": "/feh-inheritance-tool/static/media/Legault_The_Hurricane.f41eee25.png"
   },
@@ -880,6 +884,14 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Myrrh_Spooky_Monster.574ac271.png"
   },
   {
+    "revision": "3b8dbe75584bcfe4e442c6fbc451d48d",
+    "url": "/feh-inheritance-tool/static/media/Naesala_Skys_Shadow.3b8dbe75.png"
+  },
+  {
+    "revision": "1636e74efa5a7f16bf12edd56f7beba7",
+    "url": "/feh-inheritance-tool/static/media/Nailah_Unflinching_Eye.1636e74e.png"
+  },
+  {
     "revision": "be2e8088fe73f88e5687774d7c17f3b2",
     "url": "/feh-inheritance-tool/static/media/Nanna_Nordion_Princess.be2e8088.png"
   },
@@ -1018,6 +1030,10 @@ self.__precacheManifest = [
   {
     "revision": "f7117582c7c2e717e3a8b1788c5a5351",
     "url": "/feh-inheritance-tool/static/media/Reinhardt_Thunders_Sword.f7117582.png"
+  },
+  {
+    "revision": "4df2ddacdb6fac855569fe3119d16bd2",
+    "url": "/feh-inheritance-tool/static/media/Reyson_White_Prince.4df2ddac.png"
   },
   {
     "revision": "8f5fbe176c559783bf45a0762e10ae34",
@@ -1248,6 +1264,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Tharja_Obsessive_Bride.8315183b.png"
   },
   {
+    "revision": "d096fa419d5bd2c80ec5ea1a305216db",
+    "url": "/feh-inheritance-tool/static/media/Tibarn_Lord_of_the_Air.d096fa41.png"
+  },
+  {
     "revision": "d25c939c3767278f957ffa75c576e889",
     "url": "/feh-inheritance-tool/static/media/Tiki_Beachside_Scion.d25c939c.png"
   },
@@ -1332,7 +1352,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "928d6e3e5d42efe3114d91ac45914260",
+    "revision": "90ea941e72f97f28929ff7ddc34240f9",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
