@@ -817,7 +817,7 @@
     "Sturdy Impact": {
       "cost": 300,
       "effect": "If unit initiates combat, grants Atk+6, Def+10 during combat and foe cannot make a follow-up attack.",
-      "restriction": "Offense"
+      "restriction": "Offense, Infantry|Flying"
     },
     "Sturdy Stance 1": {
       "cost": 120,

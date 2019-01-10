@@ -113,6 +113,12 @@
     "Solitary Blade": {
         "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
+    "Tyrfing": {
+        "effect": "If unit is adjacent to an ally, grants Atk/Def+5 during combat.",
+        "common": {
+            "effect": "At start of combat, if unit's HP ≥ 50%, grants: \"If unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP. (Once per combat. Does not stack.)\""
+        }
+    },
     "Whitewing Blade": {
         "effect": "If the number of flying allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+3 during combat. If unit initiates combat, unit attacks twice."
     },
@@ -280,6 +286,15 @@
     "Tactical Bolt": {
         "effect": "At start of turn, grants Atk/Spd/Def/Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
+    "Tome of Thoron": {
+        "effect": "If unit initiates combat, grants Spd+6 during combat."
+    },
+    "Divine Naga": {
+        "effect": "At start of combat, if unit's Res ≥ foe's Res+3, grants Atk/Spd/Def/Res+3 during combat.",
+        "common": {
+            "effect": "Effective against dragon foes. Neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat, and disables foe's skills that \"calculate damage using the lower of foe's Def or Res.\""
+        }
+    },
     "Excalibur": {
         "effect": "If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.",
         "common": {
@@ -293,6 +308,12 @@
     },
     "Keen Gronnwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Naga": {
+        "effect": "In combat against a dragon foe, disables foe's skills that \"calculate damage using the lower of foe's Def or Res\", and unit can counterattack regardless of foe's range.",
+        "common": {
+            "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat."
+        }
     },
     "Spectral Tome+": {
         "common": {

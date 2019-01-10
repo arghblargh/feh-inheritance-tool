@@ -16359,6 +16359,9 @@
         },
         {
           "name": "Blárblade+"
+        },
+        {
+          "name": "Tome of Thoron"
         }
       ],
       "assist": [
@@ -19551,6 +19554,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Hatchling (Flier)",
+          "unlock": 1
+        },
+        {
+          "name": "Fledgling (Flier)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Flier)",
+          "unlock": 3
+        },
+        {
           "name": "Hawk King Claw"
         }
       ],
@@ -19619,6 +19634,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Hatchling (Flier)",
+          "unlock": 1
+        },
+        {
+          "name": "Fledgling (Flier)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Flier)",
+          "unlock": 3
+        },
+        {
           "name": "Heron Wing"
         }
       ],
@@ -19680,6 +19707,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Hatchling (Flier)",
+          "unlock": 1
+        },
+        {
+          "name": "Fledgling (Flier)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Flier)",
+          "unlock": 3
+        },
+        {
           "name": "Heron Wing"
         }
       ],
@@ -19727,6 +19766,18 @@
     "skills": {
       "weapon": [
         {
+          "name": "Whelp (Infantry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Infantry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Infantry)",
+          "unlock": 3
+        },
+        {
           "name": "Wolf Queen Fang"
         }
       ],
@@ -19772,6 +19823,60 @@
     "wpnType": "Beast",
     "movType": "Flying",
     "skills": {
+      "weapon": [
+        {
+          "name": "Hatchling (Flier)",
+          "unlock": 1
+        },
+        {
+          "name": "Fledgling (Flier)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Flier)",
+          "unlock": 3
+        },
+        {
+          "name": "Raven King Beak"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Blazing Wind",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1",
+          "unlock": 1
+        },
+        {
+          "name": "Guard 2",
+          "unlock": 2
+        },
+        {
+          "name": "Guard 3",
+          "unlock": 4
+        }
+      ]
     }
   }
 }

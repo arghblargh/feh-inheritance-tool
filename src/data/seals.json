@@ -1,4 +1,16 @@
 {
+  "Aerobatics 1": {
+    "effect": "If unit HP = 100%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+    "restriction": "Flying"
+  },
+  "Aerobatics 2": {
+    "effect": "If unit HP ≥ 50%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+    "restriction": "Flying"
+  },
+  "Aerobatics 3": {
+    "effect": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+    "restriction": "Flying"
+  },
   "Armored Boots": {
     "effect": "At start of turn, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)",
     "restriction": "Armored"
@@ -107,6 +119,18 @@
   },
   "Close Def 3": {
     "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+6 during combat."
+  },
+  "Darting Blow 1": {
+    "effect": "If unit initiates combat, grants Spd+2 during combat.",
+    "restriction": "Offense"
+  },
+  "Darting Blow 2": {
+    "effect": "If unit initiates combat, grants Spd+4 during combat.",
+    "restriction": "Offense"
+  },
+  "Darting Blow 3": {
+    "effect": "If unit initiates combat, grants Spd+6 during combat.",
+    "restriction": "Offense"
   },
   "Darting Stance 1": {
     "effect": "If foe initiates combat, grants Spd+2 during combat.",
@@ -613,6 +637,18 @@
   },
   "Threaten Spd 3": {
     "effect": "At start of turn, inflicts Spd-5 on foes within 2 spaces through their next actions."
+  },
+  "Torrent Dance 1": {
+    "effect": "If Sing or Dance is used, grants Res+3 to target.",
+    "restriction": "Offense"
+  },
+  "Torrent Dance 2": {
+    "effect": "If Sing or Dance is used, grants Res+4 to target.",
+    "restriction": "Offense"
+  },
+  "Torrent Dance 3": {
+    "effect": "If Sing or Dance is used, grants Res+5 to target.",
+    "restriction": "Offense"
   },
   "Water Boost 1": {
     "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Res+2 during combat."

@@ -854,7 +854,8 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against dragon foes. Neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Divine Tyrfing": {
     "color": "Red",
@@ -2151,7 +2152,8 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+2 during combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Naglfar": {
     "color": "Red",
@@ -3219,7 +3221,8 @@
     "cost": 400,
     "might": 16,
     "effect": "If unit's HP ≤ 50%, grants Def+4 during combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Urvan": {
     "color": "Green",
@@ -3535,5 +3538,64 @@
     "might": 14,
     "effect": "Accelerates Special trigger (cooldown count-1). During combat, boosts unit's Atk/Spd by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
     "restriction": "Exclusive"
+  },
+  "Raven King Beak": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "restriction": "Exclusive"
+  },
+  "Tome of Thoron": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1, and deals +1- damage when Special triggers.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Whelp (Infantry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 0,
+    "might": 4,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers."
+  },
+  "Yearling (Infantry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 0,
+    "might": 6,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers."
+  },
+  "Adult (Infantry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 200,
+    "might": 9,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers."
+  },
+  "Hatchling (Flier)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 0,
+    "might": 4,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2."
+  },
+  "Fledgling (Flier)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 0,
+    "might": 6,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2."
+  },
+  "Adult (Flier)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 200,
+    "might": 9,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2."
   }
 }

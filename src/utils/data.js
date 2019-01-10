@@ -27,6 +27,7 @@ export const moveIcon = {
 export const weaponIcon = {
     "Red" : {
         "Sword"  : require('../img/icon/weapon/red/Sword.png'),
+        "Beast"  : require('../img/icon/weapon/red/Beast.png'),
         "Breath" : require('../img/icon/weapon/red/Breath.png'),
         "Tome"   : require('../img/icon/weapon/red/Tome.png'),
         "Bow"    : require('../img/icon/weapon/red/Bow.png'),
@@ -34,6 +35,7 @@ export const weaponIcon = {
     },
     "Blue" : {
         "Lance"  : require('../img/icon/weapon/blue/Lance.png'),
+        "Beast"  : require('../img/icon/weapon/blue/Beast.png'),
         "Breath" : require('../img/icon/weapon/blue/Breath.png'),
         "Tome"   : require('../img/icon/weapon/blue/Tome.png'),
         "Bow"    : require('../img/icon/weapon/blue/Bow.png'),
@@ -41,6 +43,7 @@ export const weaponIcon = {
     },
     "Green" : {
         "Axe"    : require('../img/icon/weapon/green/Axe.png'),
+        "Beast"  : require('../img/icon/weapon/green/Beast.png'),
         "Breath" : require('../img/icon/weapon/green/Breath.png'),
         "Tome"   : require('../img/icon/weapon/green/Tome.png'),
         "Bow"    : require('../img/icon/weapon/green/Bow.png'),
@@ -48,6 +51,7 @@ export const weaponIcon = {
     },
     "Neutral" : {
         "Bow"    : require('../img/icon/weapon/neutral/Bow.png'),
+        "Beast"  : require('../img/icon/weapon/neutral/Beast.png'),
         "Dagger" : require('../img/icon/weapon/neutral/Dagger.png'),
         "Breath" : require('../img/icon/weapon/neutral/Breath.png'),
         "Staff"  : require('../img/icon/weapon/neutral/Staff.png')
