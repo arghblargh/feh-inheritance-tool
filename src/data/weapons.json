@@ -3603,5 +3603,64 @@
     "might": 14,
     "effect": "Effective against dragon foes. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat and disables foe's skills that guarantee foe's follow-up attack, but after combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on nearest ally through its next action.",
     "restriction": "Exclusive"
+  },
+  "It's Curtains": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "At the start of turn 1, grants Special cooldown count-2."
+  },
+  "It's Curtains+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "At the start of turn 1, grants Special cooldown count-2.",
+    "upgrade": "-"
+  },
+  "Grandscratcher": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "At the start of turn 1, grants Special cooldown count-1 to ally with the highest Atk. (If that ally does not have a Special skill, this skill has no effect.)"
+  },
+  "Grandscratcher+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "At the start of turn 1, grants Special cooldown count-1 to ally with the highest Atk. (If that ally does not have a Special skill, this skill has no effect.)"
+  },
+  "Red-Hot Ducks": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) After combat, if unit attacked, inflicts Def/Res-5 on foes within 2 spaces of target through their next actions."
+  },
+  "Red-Hot Ducks+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) After combat, if unit attacked, inflicts Def/Res-7 on foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Splashy Bucket": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against dragon foes. Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" After combat, if unit attacked, inflicts Def/Res-5 on foes within 2 spaces of target through their next actions."
+  },
+  "Splashy Bucket+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against dragon foes. Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" After combat, if unit attacked, inflicts Def/Res-7 on foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
   }
 }

@@ -19877,5 +19877,337 @@
         }
       ]
     }
+  },
+  "Ryoma: Samurai at Ease": {
+    "name": "Ryoma",
+    "title": "Samurai at Ease",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "It's Curtains",
+          "unlock": 3
+        },
+        {
+          "name": "It's Curtains+"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Spd 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Def Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Def Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Def Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Sakura: Hot Spring Healer": {
+    "name": "Sakura",
+    "title": "Hot Spring Healer",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Grandscratcher",
+          "unlock": 3
+        },
+        {
+          "name": "Grandscratcher+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Physic",
+          "unlock": 3
+        },
+        {
+          "name": "Physic+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Kindled-Fire Balm",
+          "unlock": 3
+        },
+        {
+          "name": "Fireflood Balm",
+          "unlock": 4
+        },
+        {
+          "name": "Fireflood Balm+"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrathful Staff 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrathful Staff 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrathful Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Opening 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Opening 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd Opening 3"
+        }
+      ]
+    }
+  },
+  "Elise: Bubbling Flower": {
+    "name": "Elise",
+    "title": "Bubbling Flower",
+    "color": "Red",
+    "wpnType": "Dagger",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Red-Hot Ducks",
+          "unlock": 3
+        },
+        {
+          "name": "Red-Hot Ducks+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Up Atk",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Up Atk+",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk Feint 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk Feint 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk Feint 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Dagger Valor 1",
+          "unlock": 1
+        },
+        {
+          "name": "Dagger Valor 2",
+          "unlock": 2
+        },
+        {
+          "name": "Dagger Valor 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Hinoka: Relaxed Warrior": {
+    "name": "Hinoka",
+    "title": "Relaxed Warrior",
+    "color": "Green",
+    "wpnType": "Dagger",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Splashy Bucket",
+          "unlock": 3
+        },
+        {
+          "name": "Splashy Bucket+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Spd Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Bond 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Spd Link 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Spd Link 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Link 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Air Orders 1",
+          "unlock": 3
+        },
+        {
+          "name": "Air Orders 2",
+          "unlock": 4
+        },
+        {
+          "name": "Air Orders 3"
+        }
+      ]
+    }
+  },
+  "Camilla: Steamy Secrets": {
+    "name": "Camilla",
+    "title": "Steamy Secrets",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        }
+      ]
+    }
   }
 }

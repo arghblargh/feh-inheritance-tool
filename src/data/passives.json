@@ -955,6 +955,18 @@
       "effect": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
       "restriction": "Flying"
     },
+    "Atk Feint 1": {
+      "cost": 60,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk-3 on foes in cardinal directions of unit through their next actions."
+    },
+    "Atk Feint 2": {
+      "cost": 120,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk-5 on foes in cardinal directions of unit through their next actions."
+    },
+    "Atk Feint 3": {
+      "cost": 240,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk-7 on foes in cardinal directions of unit through their next actions."
+    },
     "Atk/Def Link 1": {
       "cost": 60,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Def+2 to unit and target ally or unit and targeting ally for 1 turn."
@@ -1911,6 +1923,21 @@
     }
   },
   "C": {
+    "Air Orders 1": {
+      "cost": 60,
+      "effect": "If unit's HP = 100%, at start of turn, grants the following status to adjacent flying allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+      "restriction": "Flying"
+    },
+    "Air Orders 2": {
+      "cost": 120,
+      "effect": "If unit's HP ≥ 50% HP, at start of turn, grants the following status to adjacent flying allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+      "restriction": "Flying"
+    },
+    "Air Orders 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants the following status to adjacent flying allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+      "restriction": "Flying"
+    },
     "Armor March 1": {
       "cost": 60,
       "effect": "At start of turn, if unit's HP = 100% and unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
@@ -2662,6 +2689,18 @@
       "cost": 300,
       "effect": "At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)",
       "restriction": "Exclusive"
+    },
+    "Spd Opening 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Spd+2 to ally with the highest Spd for 1 turn. (Excludes unit.)"
+    },
+    "Spd Opening 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Spd+4 to ally with the highest Spd for 1 turn. (Excludes unit.)"
+    },
+    "Spd Opening 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Spd+6 to ally with the highest Spd for 1 turn. (Excludes unit.)"
     },
     "Spd Ploy 1": {
       "cost": 60,

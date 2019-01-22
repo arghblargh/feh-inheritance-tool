@@ -1,6 +1,7 @@
 //import React from 'react';
 import { escapeRegExp } from './utility.js';
 import { units, weapons, assists, specials, passives, seals, upgrades, baseStats, tempStats, growths } from './data.js';
+import { wpnSortFn } from './sort.js';
 
 // Parses skills. Returns an object of { skillType : skillName }
 export function parseSkills(skillData) {
@@ -204,7 +205,7 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
 export function getPossibleSkills(unit) {
     let skills = {};
     skills.weapons = ['', ...new Set(Object.keys(weapons).filter(skill =>  
-        checkRestrictions(unit, skill, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), false, weapons[skill].color)))];
+        checkRestrictions(unit, skill, weapons[skill].type + (weapons[skill].restriction ? ', ' + weapons[skill].restriction : ''), false, weapons[skill].color)))].sort(wpnSortFn['name']);
     skills.assists = ['', ...new Set(Object.keys(assists).filter(skill =>
         checkRestrictions(unit, skill, assists[skill].restriction, true)))];
     skills.specials = ['', ...new Set(Object.keys(specials).filter(skill =>
