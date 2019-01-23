@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5326f2037f2b8c7220cd",
-    "url": "/feh-inheritance-tool/static/css/main.e5d09a74.chunk.css"
+    "revision": "519a2409c6e130474bd4",
+    "url": "/feh-inheritance-tool/static/css/main.2edde723.chunk.css"
   },
   {
-    "revision": "5326f2037f2b8c7220cd",
-    "url": "/feh-inheritance-tool/static/js/main.5326f203.chunk.js"
+    "revision": "519a2409c6e130474bd4",
+    "url": "/feh-inheritance-tool/static/js/main.519a2409.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -146,6 +146,10 @@ self.__precacheManifest = [
   {
     "revision": "355d5cf6d33adadf7336938f4396aa29",
     "url": "/feh-inheritance-tool/static/media/Camilla_Spring_Princess.355d5cf6.png"
+  },
+  {
+    "revision": "d9fabbe3319c149d1f7a6611e737638d",
+    "url": "/feh-inheritance-tool/static/media/Camilla_Steamy_Secrets.d9fabbe3.png"
   },
   {
     "revision": "d14077120b5a594cc3a9277691c53e63",
@@ -322,6 +326,10 @@ self.__precacheManifest = [
   {
     "revision": "00c2b1d040b7f968fcf912fcaed520c7",
     "url": "/feh-inheritance-tool/static/media/Elincia_Lost_Princess.00c2b1d0.png"
+  },
+  {
+    "revision": "4b94a7f8ef55fd555c9ce461141ef0d8",
+    "url": "/feh-inheritance-tool/static/media/Elise_Bubbling_Flower.4b94a7f8.png"
   },
   {
     "revision": "15e07de326f0fd28df44e6546cf598d9",
@@ -506,6 +514,10 @@ self.__precacheManifest = [
   {
     "revision": "9db8091fa46bb912659db5f76cf272c3",
     "url": "/feh-inheritance-tool/static/media/Hinoka_Blue_Sky_Warrior.9db8091f.png"
+  },
+  {
+    "revision": "c4a4e0c2654c77ca73a4b3ca054e591f",
+    "url": "/feh-inheritance-tool/static/media/Hinoka_Relaxed_Warrior.c4a4e0c2.png"
   },
   {
     "revision": "9552ea29daac117ea4e88eef99470983",
@@ -1088,6 +1100,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Ryoma_Peerless_Samurai.34cd1c45.png"
   },
   {
+    "revision": "261507612456514bab2a6bd0706712c6",
+    "url": "/feh-inheritance-tool/static/media/Ryoma_Samurai_at_Ease.26150761.png"
+  },
+  {
     "revision": "890233d104e83d7efd62456cedb90c29",
     "url": "/feh-inheritance-tool/static/media/Ryoma_Supreme_Samurai.890233d1.png"
   },
@@ -1106,6 +1122,10 @@ self.__precacheManifest = [
   {
     "revision": "a9089c72a448b5928be4dee41a059087",
     "url": "/feh-inheritance-tool/static/media/Sakura_Gentle_Nekomata.a9089c72.png"
+  },
+  {
+    "revision": "ca6644c0ee16667110a70f7335d5d045",
+    "url": "/feh-inheritance-tool/static/media/Sakura_Hot-Spring_Healer.ca6644c0.png"
   },
   {
     "revision": "53e5f6cc5198489c5787fc20d6b0f4a2",
@@ -1352,7 +1372,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "929d9d60aa61648c40a66f351505df4d",
+    "revision": "c9c3445a98da16240e2ae2852dd8c66c",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
