@@ -19955,7 +19955,7 @@
       ]
     }
   },
-  "Sakura: Hot Spring Healer": {
+  "Sakura: Hot-Spring Healer": {
     "name": "Sakura",
     "title": "Hot Spring Healer",
     "color": "Neutral",
@@ -20206,6 +20206,50 @@
         {
           "name": "Steel Dagger",
           "unlock": 2
+        },
+        {
+          "name": "Ouch Pouch",
+          "unlock": 3
+        },
+        {
+          "name": "Ouch Pouch+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd 1",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd 2"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Attack 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Attack 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Fliers",
+          "unlock": 4
         }
       ]
     }

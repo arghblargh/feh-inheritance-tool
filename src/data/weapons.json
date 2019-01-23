@@ -3662,5 +3662,20 @@
     "might": 12,
     "effect": "Effective against dragon foes. Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" After combat, if unit attacked, inflicts Def/Res-7 on foes within 2 spaces of target through their next actions.",
     "upgrade": "-"
+  },
+  "Ouch Pouch": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "At the start of turn 1, grants Special cooldown count-2. After combat, if unit attacked, inflicts Def/Res-5 on foes within 2 spaces of target through their next actions."
+  },
+  "Ouch Pouch+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "At the start of turn 1, grants Special cooldown count-2. After combat, if unit attacked, inflicts Def/Res-7 on foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
   }
 }

@@ -93,6 +93,15 @@
   "Brash Assault 3": {
     "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack."
   },
+  "Brazen Atk/Def 1": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Def+3 during combat."
+  },
+  "Brazen Atk/Def 2": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Def+5 during combat."
+  },
+  "Brazen Atk/Def 3": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Def+7 during combat."
+  },
   "Brazen Atk/Res 1": {
     "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+3 during combat."
   },
@@ -246,6 +255,15 @@
     "effect": "If Sing or Dance is used, grants Def+5 to target.",
     "restriction": "Offense"
   },
+  "Even Def Wave 1": {
+    "effect": "At start of even-numbered turns, grants Def+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  "Even Def Wave 2": {
+    "effect": "At start of even-numbered turns, grants Def+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  "Even Def Wave 3": {
+    "effect": "At start of even-numbered turns, grants Def+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
   "Fierce Stance 1": {
     "effect": "If foe initiates combat, grants Atk+2 during combat.",
     "restriction": "Offense"
@@ -257,6 +275,15 @@
   "Fierce Stance 3": {
     "effect": "If foe initiates combat, grants Atk+6 during combat.",
     "restriction": "Offense"
+  },
+  "Fire Boost 1": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Atk+2 during combat."
+  },
+  "Fire Boost 2": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Atk+4 during combat."
+  },
+  "Fire Boost 3": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Atk+6 during combat."
   },
   "Flashing Blade 1": {
     "effect": "If unit's Spd ≥ foe's Spd+5, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
