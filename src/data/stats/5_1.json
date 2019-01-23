@@ -223,6 +223,13 @@
     "Def": 8,
     "Res": 4
   },
+  "Camilla: Steamy Secrets": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 6
+  },
   "Camilla: Tropical Beauty": {
     "HP": 17,
     "Atk": 7,
@@ -530,6 +537,13 @@
     "Spd": 10,
     "Def": 5,
     "Res": 8
+  },
+  "Elise: Bubbling Flower": {
+    "HP": 15,
+    "Atk": 7,
+    "Spd": 11,
+    "Def": 3,
+    "Res": 7
   },
   "Elise: Budding Flower": {
     "HP": 15,
@@ -851,6 +865,13 @@
     "Atk": 6,
     "Spd": 9,
     "Def": 4,
+    "Res": 7
+  },
+  "Hinoka: Relaxed Warrior": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 3,
     "Res": 7
   },
   "Hinoka: Warrior Princess": {
@@ -1868,6 +1889,13 @@
     "Def": 5,
     "Res": 4
   },
+  "Ryoma: Samurai at Ease": {
+    "HP": 18,
+    "Atk": 11,
+    "Spd": 10,
+    "Def": 4,
+    "Res": 4
+  },
   "Ryoma: Supreme Samurai": {
     "HP": 17,
     "Atk": 8,
@@ -1902,6 +1930,13 @@
     "Spd": 8,
     "Def": 4,
     "Res": 8
+  },
+  "Sakura: Hot-Spring Healer": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 6
   },
   "Sakura: Loving Priestess": {
     "HP": 17,
