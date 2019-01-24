@@ -19928,15 +19928,14 @@
       "passiveB": [
         {
           "name": "Chill Spd 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Chill Spd 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Chill Spd 3",
-          "unlock": 4
+          "name": "Chill Spd 3"
         }
       ],
       "passiveC": [
@@ -19998,7 +19997,7 @@
           "unlock": 2
         },
         {
-          "name": "Kindled-Fire Balm",
+          "name": "Still-Water Balm",
           "unlock": 3
         },
         {
@@ -20012,14 +20011,15 @@
       "passiveB": [
         {
           "name": "Wrathful Staff 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Wrathful Staff 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Wrathful Staff 3"
+          "name": "Wrathful Staff 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
@@ -20071,8 +20071,7 @@
           "unlock": 3
         },
         {
-          "name": "Rally Up Atk+",
-          "unlock": 3
+          "name": "Rally Up Atk+"
         }
       ],
       "passiveA": [
@@ -20091,15 +20090,14 @@
       "passiveB": [
         {
           "name": "Atk Feint 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Atk Feint 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Atk Feint 3",
-          "unlock": 4
+          "name": "Atk Feint 3"
         }
       ],
       "passiveC": [
@@ -20165,15 +20163,14 @@
       "passiveB": [
         {
           "name": "Atk/Spd Link 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Atk/Spd Link 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Atk/Spd Link 3",
-          "unlock": 4
+          "name": "Atk/Spd Link 3"
         }
       ],
       "passiveC": [

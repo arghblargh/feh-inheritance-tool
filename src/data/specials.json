@@ -131,6 +131,18 @@
     "effect": "Boosts damage by 30% of unit's Spd. Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
     "require": "Dragon Gaze",
     "restriction": "Exclusive"
+  },,
+  "Fireflood Balm": {
+    "cost": 150,
+    "count": 1,
+    "effect": "When healing an ally with a staff, grants Atk/Res+4 to all allies for 1 turn.",
+    "restriction": "Staff"
+  },
+  "Fireflood Balm+": {
+    "cost": 150,
+    "count": 1,
+    "effect": "When healing an ally with a staff, grants Atk/Res+6 to all allies for 1 turn.",
+    "restriction": "Staff"
   },
   "Galeforce": {
     "cost": 500,
