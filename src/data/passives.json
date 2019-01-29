@@ -325,6 +325,18 @@
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Def/Res+5 during combat."
     },
+    "Def/Res Solo 1": {
+      "cost": 60,
+      "effect": "If unit is not adjacent to an ally, grants Def/Res+2 during combat."
+    },
+    "Def/Res Solo 2": {
+      "cost": 120,
+      "effect": "If unit is not adjacent to an ally, grants Def/Res+4 during combat."
+    },
+    "Def/Res Solo 3": {
+      "cost": 240,
+      "effect": "If unit is not adjacent to an ally, grants Def/Res+6 during combat."
+    },
     "Defense +1": {
       "cost": 30,
       "effect": "Grants Def+1."
@@ -2940,6 +2952,11 @@
     "Threaten Spd 3": {
       "cost": 200,
       "effect": "At start of turn, inflicts Spd-5 on foes within 2 spaces through their next actions."
+    },
+    "Upheaval": {
+      "cost": 300,
+      "effect": "At the start of turn 1, deals 7 damage to all foes, and if defending in Aether Raids during anima season, destroys offensive structure within same column as unit. (Does not affect structures that cannot be destroyed.)",
+      "restriction": "Exclusive"
     },
     "Ward Armor": {
       "cost": 200,

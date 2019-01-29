@@ -3677,5 +3677,13 @@
     "might": 12,
     "effect": "At the start of turn 1, grants Special cooldown count-2. After combat, if unit attacked, inflicts Def/Res-7 on foes within 2 spaces of target through their next actions.",
     "upgrade": "-"
+  },
+  "Fell Breath": {
+    "color": "",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. At the start of combat, if foe's HP < 100%, grants Atk/Res+6 during combat and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
   }
 }

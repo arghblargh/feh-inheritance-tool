@@ -20250,5 +20250,73 @@
         }
       ]
     }
+  },
+  "Duma: God of Strength": {
+    "name": "Duma",
+    "title": "God of Strength",
+    "color": "Neutral",
+    "wpnType": "Breath",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Fell Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Def/Res Solo 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def/Res Solo 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def/Res Solo 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Upheaval"
+        }
+      ]
+    }
   }
 }
