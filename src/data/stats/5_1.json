@@ -475,6 +475,13 @@
     "Def": 13,
     "Res": 3
   },
+  "Duma: God of Strength": {
+    "HP": 24,
+    "Atk": 10,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 7
+  },
   "Effie: Army of One": {
     "HP": 22,
     "Atk": 12,
