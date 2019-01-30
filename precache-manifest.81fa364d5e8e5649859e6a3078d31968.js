@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6179e8ff5d9b5d82063e",
-    "url": "/feh-inheritance-tool/static/css/main.2edde723.chunk.css"
+    "revision": "c7d1a7cca977a2519bcc",
+    "url": "/feh-inheritance-tool/static/css/main.c8845f98.chunk.css"
   },
   {
-    "revision": "6179e8ff5d9b5d82063e",
-    "url": "/feh-inheritance-tool/static/js/main.6179e8ff.chunk.js"
+    "revision": "c7d1a7cca977a2519bcc",
+    "url": "/feh-inheritance-tool/static/js/main.c7d1a7cc.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -290,6 +290,10 @@ self.__precacheManifest = [
   {
     "revision": "b8b366885801e62fa90ef0841d5742cc",
     "url": "/feh-inheritance-tool/static/media/Draug_Gentle_Giant.b8b36688.png"
+  },
+  {
+    "revision": "33c1d7b51256ffbcfe23f78b43b9ec0e",
+    "url": "/feh-inheritance-tool/static/media/Duma_God_of_Strength.33c1d7b5.png"
   },
   {
     "revision": "fd4bbe3137f305a006ef9e6cc1e0b516",
@@ -1372,7 +1376,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "4aa79b82b834009fc6bb9efb94ab19d5",
+    "revision": "c5fc7eb801ee17c854117152968d0414",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
