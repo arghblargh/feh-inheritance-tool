@@ -3782,7 +3782,7 @@
   },
   "Oboro's Spear": {
     "color": "Blue",
-    "type": "Spear",
+    "type": "Lance",
     "cost": 400,
     "might": 16,
     "effect": "Effective against armored foes.",
