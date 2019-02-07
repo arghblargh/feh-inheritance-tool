@@ -290,11 +290,11 @@ function calcMergeBonus(unit, rarity, merge, totalMod, isNeutral = false) {
     
     let resultMod = [0,0,0,0,0];
 
-    // if (merge > 0 && isNeutral) {
-    //     for (let i = 0; i < 3; i++) {
-    //         sortedStats[i].bonus += 1;
-    //     }
-    // }
+    if (merge > 0 && isNeutral) {
+        for (let i = 0; i < 3; i++) {
+            sortedStats[i].bonus += 1;
+        }
+    }
 
     for (let stat of sortedStats) {
         switch (stat.stat) {
@@ -338,11 +338,8 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
                             boonBane[bb] === "Def" ? 3 :
                             /*boonBane[bb] === "Res" ?*/ 4;
                 
-                totalMod[index] += bb === "boon" ? 1 : -1;
-                growthRates[index] += bb === "boon" ? 5 : -5;
-                // for merge update
-                // totalMod[index] += bb === "boon" ? 1 : merge === 0 ? -1 : 0;
-                // growthRates[index] += bb === "boon" ? 5 : merge === 0 ? -5 : 0;
+                totalMod[index] += bb === "boon" ? 1 : merge === 0 ? -1 : 0;
+                growthRates[index] += bb === "boon" ? 5 : merge === 0 ? -5 : 0;
             }
         }
 

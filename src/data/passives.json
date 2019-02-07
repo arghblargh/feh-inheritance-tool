@@ -530,6 +530,11 @@
       "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
       "restriction": "Offense"
     },
+    "Fury 4": {
+      "cost": 300,
+      "effect": "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit.",
+      "restriction": "Offense"
+    },
     "G Duel Infantry 1": {
       "cost": 60,
       "effect": "Grants HP+3. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
@@ -1602,6 +1607,18 @@
       "cost": 240,
       "effect": "At the start of every second turn, restores 10 HP."
     },
+    "Res Feint 1": {
+      "cost": 60,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Res-3 on foes in cardinal directions of unit through their next actions."
+    },
+    "Res Feint 2": {
+      "cost": 120,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Res-5 on foes in cardinal directions of unit through their next actions."
+    },
+    "Res Feint 3": {
+      "cost": 240,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Res-7 on foes in cardinal directions of unit through their next actions."
+    },
     "Rockslide Dance 1": {
       "cost": 120,
       "effect": "If Sing or Dance is used, grants Spd+2 and Def+3 to target.",
@@ -2648,6 +2665,18 @@
       "cost": 120,
       "effect": "If unit survives, all red tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:R"
+    },
+    "Res Opening 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Res+2 to ally with the highest Res for 1 turn. (Excludes unit.)"
+    },
+    "Res Opening 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Res+4 to ally with the highest Res for 1 turn. (Excludes unit.)"
+    },
+    "Res Opening 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Res+6 to ally with the highest Res for 1 turn. (Excludes unit.)"
     },
     "Res Ploy 1": {
       "cost": 60,

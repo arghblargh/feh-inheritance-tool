@@ -250,6 +250,9 @@
         },
         {
           "name": "Slaying Axe+"
+        },
+        {
+          "name": "Grado Poleax"
         }
       ],
       "special": [
@@ -6162,6 +6165,9 @@
         },
         {
           "name": "Ruby Sword+"
+        },
+        {
+          "name": "Hinata's Katana"
         }
       ],
       "special": [
@@ -11816,6 +11822,9 @@
         },
         {
           "name": "Killer Bow+"
+        },
+        {
+          "name": "Niles's Bow"
         }
       ],
       "special": [
@@ -12174,6 +12183,9 @@
         },
         {
           "name": "Gronnblade+"
+        },
+        {
+          "name": "Iris's Tome"
         }
       ],
       "assist": [
@@ -12397,6 +12409,9 @@
         },
         {
           "name": "Heavy Spear+"
+        },
+        {
+          "name": "Oboro's Spear"
         }
       ],
       "assist": [
@@ -15088,6 +15103,9 @@
         },
         {
           "name": "Ruby Sword+"
+        },
+        {
+          "name": "Silverbrand"
         }
       ],
       "assist": [
@@ -16816,6 +16834,9 @@
         },
         {
           "name": "Rauðrblade+"
+        },
+        {
+          "name": "Tharja's Hex"
         }
       ],
       "special": [
@@ -20315,6 +20336,354 @@
       "passiveC": [
         {
           "name": "Upheaval"
+        }
+      ]
+    }
+  },
+  "Greil: Heroic Exemplar": {
+    "name": "Greil",
+    "title": "Heroic Exemplar",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Faithful Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Faithful Axe+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Aether"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1",
+          "unlock": 2
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 3
+        },
+        {
+          "name": "Fury 3",
+          "unlock": 4
+        },
+        {
+          "name": "Fury 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wary Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 4
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
+  "Soren: Addled Strategist": {
+    "name": "Soren",
+    "title": "Addled Strategist",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 1
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 2
+        },
+        {
+          "name": "Blárblooms",
+          "unlock": 3
+        },
+        {
+          "name": "Blárblooms+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Atk/Spd",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Spd+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Res Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Res Bond 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd Feint 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Feint 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd Feint 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Opening 1",
+          "unlock": 3
+        },
+        {
+          "name": "Res Opening 2",
+          "unlock": 4
+        },
+        {
+          "name": "Res Opening 3"
+        }
+      ]
+    }
+  },
+  "Mist: Purest Spirit": {
+    "name": "Mist",
+    "title": "Purest Spirit",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Gronnblooms",
+          "unlock": 3
+        },
+        {
+          "name": "Gronnblooms+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Def/Res",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Def/Res+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Res Feint 1",
+          "unlock": 3
+        },
+        {
+          "name": "Res Feint 2",
+          "unlock": 4
+        },
+        {
+          "name": "Res Feint 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "G Tome Valor 1",
+          "unlock": 3
+        },
+        {
+          "name": "G Tome Valor 2",
+          "unlock": 4
+        },
+        {
+          "name": "G Tome Valor 3"
+        }
+      ]
+    }
+  },
+  "Ike: Stalwart Heart": {
+    "name": "Ike",
+    "title": "Stalwart Heart",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Heart's Blade",
+          "unlock": 3
+        },
+        {
+          "name": "Heart's Blade+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
+        {
+          "name": "Sol",
+          "unlock": 4
+        },
+        {
+          "name": "Radiant Aether"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Spd Wave 1",
+          "unlock": 3
+        },
+        {
+          "name": "Even Spd Wave 2",
+          "unlock": 4
+        },
+        {
+          "name": "Even Spd Wave 3"
+        }
+      ]
+    }
+  },
+  "Titania: Warm Knight": {
+    "name": "Titania",
+    "title": "Warm Knight",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 1
+        },
+        {
+          "name": "Elfire",
+          "unlock": 2
+        },
+        {
+          "name": "Loyal Wreath",
+          "unlock": 3
+        },
+        {
+          "name": "Loyal Wreath+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Triangle Adept 1",
+          "unlock": 1
+        },
+        {
+          "name": "Triangle Adept 2",
+          "unlock": 2
+        },
+        {
+          "name": "Triangle Adept 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Res Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Res Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Res Link 3"
         }
       ]
     }

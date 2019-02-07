@@ -904,7 +904,8 @@
     "cost": 400,
     "might": 16,
     "effect": "If unit initiates combat, grants Atk+4 during combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Dusk Uchiwa": {
     "color": "",
@@ -3685,5 +3686,143 @@
     "might": 16,
     "effect": "Grants Atk+3. At the start of combat, if foe's HP < 100%, grants Atk/Res+6 during combat and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
     "restriction": "Exclusive"
+  },
+  "Faithful Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat."
+  },
+  "Faithful Axe+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "upgrade": "-"
+  },
+  "Blárblooms": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat."
+  },
+  "Blárblooms+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "upgrade": "-"
+  },
+  "Gronnblooms": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat."
+  },
+  "Gronnblooms+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "upgrade": "-"
+  },
+  "Heart's Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat."
+  },
+  "Heart's Blade+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "upgrade": "-"
+  },
+  "Loyal Wreath": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat."
+  },
+  "Loyal Wreath+": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "upgrade": "-"
+  },
+  "Iris's Tome": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Adds total bonuses on unit to damage dealt.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Tharja's Hex": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Adds total bonuses on unit to damage dealt.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Oboro's Spear": {
+    "color": "Blue",
+    "type": "Spear",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Grado Poleax": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Hinata's Katana": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "If foe initiates combat, grants Atk/Def+4 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Silverbrand": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Niles's Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }

@@ -46,6 +46,12 @@
             "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat."
         }
     },
+    "Durandal": {
+        "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
+        "common": {
+            "effect": "If unit initiates combat, grants Atk+6 during combat."
+        }
+    },
     "Eckesachs": {
         "effect": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat.",
         "common": {
@@ -83,6 +89,9 @@
     "Golden Dagger": {
         "effect": "At start of combat, if Special is ready, grants Atk/Spd/Def/Res+3 during combat and unit can counterattack regardless of foe's range."
     },
+    "Hinata's Katana": {
+        "effect": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
+    },
     "Nameless Blade": {
         "effect": "Deals +10 damage when Special triggers."
     },
@@ -103,6 +112,9 @@
         "common": {
             "effect": "At start of turn, grants Atk+4 to adjacent allies for 1 turn."
         }
+    },
+    "Silverbrand": {
+        "effect": "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
     "Sol Katti": {
         "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
@@ -164,6 +176,9 @@
     "Hinoka's Spear": {
         "effect": "Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
     },
+    "Oboro's Spear": {
+        "effect": "If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+6 during combat."
+    },
     "Rhomphaia": {
         "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
@@ -214,6 +229,9 @@
     "Draconic Poleax": {
         "effect": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
+    "Grado Poleax": {
+        "effect": "If a bonus granted by a skill like Rally or Hone and/or extra movement granted by a skill like Armored March or Armored Boots is active, grants Spd/Def+5 during combat."
+    },
     "Hauteclere": {
         "effect": "Deals +10 damage when Special triggers."
     },
@@ -261,6 +279,9 @@
     "Reese's Tome": {
         "effect": "At start of turn, inflicts Spd/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions."
     },
+    "Tharja's Hex": {
+        "effect": "Inflicts Atk/Spd-4 on foes within 2 spaces during combat."
+    },
     "Aura": {
         "effect": "If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.",
         "common": {
@@ -305,6 +326,9 @@
         "common": {
             "effect": "After combat, if unit attacked, restores 4 HP."
         }
+    },
+    "Iris's Tome": {
+        "effect": "At start of even-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
     },
     "Keen Gronnwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
@@ -372,6 +396,9 @@
     },
     "Nidhogg": {
         "effect": "Magic and dragon foes cannot counterattack."
+    },
+    "Niles's Bow": {
+        "effect": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)"
     },
     "Parthia": {
         "effect": "If foe uses bow, dagger, magic, or staff, grants Atk+6 during combat.",

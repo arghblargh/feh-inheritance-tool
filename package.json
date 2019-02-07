@@ -1,6 +1,6 @@
 {
   "name": "feh-inheritance-tool",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "homepage": "https://arghblargh.github.io/feh-inheritance-tool",
   "private": true,
   "dependencies": {
