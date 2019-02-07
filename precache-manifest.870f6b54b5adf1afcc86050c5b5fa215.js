@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c7d1a7cca977a2519bcc",
-    "url": "/feh-inheritance-tool/static/css/main.c8845f98.chunk.css"
+    "revision": "52583cc6b14dacd57fb9",
+    "url": "/feh-inheritance-tool/static/css/main.207cc11d.chunk.css"
   },
   {
-    "revision": "c7d1a7cca977a2519bcc",
-    "url": "/feh-inheritance-tool/static/js/main.c7d1a7cc.chunk.js"
+    "revision": "52583cc6b14dacd57fb9",
+    "url": "/feh-inheritance-tool/static/js/main.52583cc6.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -456,6 +456,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Gray_Wry_Comrade.f53545ca.png"
   },
   {
+    "revision": "6caa9b677ca4bcb86d0ba43b46358c54",
+    "url": "/feh-inheritance-tool/static/media/Greil_Heroic_Exemplar.6caa9b67.png"
+  },
+  {
     "revision": "c71b18a4efa2a6680f2a5b5306d4a5f0",
     "url": "/feh-inheritance-tool/static/media/Gunnthrá_Voice_of_Dreams.c71b18a4.png"
   },
@@ -538,6 +542,10 @@ self.__precacheManifest = [
   {
     "revision": "7a1b0530a49835a6a6fffdf409133e29",
     "url": "/feh-inheritance-tool/static/media/Ike_Brave_Mercenary.7a1b0530.png"
+  },
+  {
+    "revision": "02d665c6993e1f919f505bee8a194fac",
+    "url": "/feh-inheritance-tool/static/media/Ike_Stalwart_Heart.02d665c6.png"
   },
   {
     "revision": "e0f5c95836222961bd6bebf05941fc58",
@@ -884,6 +892,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Mist_Helpful_Sister.0a7a2360.png"
   },
   {
+    "revision": "918ce6daf5994d6074291614f864c5db",
+    "url": "/feh-inheritance-tool/static/media/Mist_Purest_Spirit.918ce6da.png"
+  },
+  {
     "revision": "69a23672aa56cdf40e1bbce26cecf7d4",
     "url": "/feh-inheritance-tool/static/media/Morgan_Lad_from_Afar.69a23672.png"
   },
@@ -1220,6 +1232,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Sophia_Nabata_Prophet.75fe3cb7.png"
   },
   {
+    "revision": "7158b9cadfbf7904b8044d8a3d4caca2",
+    "url": "/feh-inheritance-tool/static/media/Soren_Addled_Strategist.7158b9ca.png"
+  },
+  {
     "revision": "f6d0137195a6d02388250e2b1aefb3c4",
     "url": "/feh-inheritance-tool/static/media/Soren_Shrewd_Strategist.f6d01371.png"
   },
@@ -1316,6 +1332,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Titania_Mighty_Mercenary.1675520a.png"
   },
   {
+    "revision": "dbd38e3a691eb68f41cba17f4917e74f",
+    "url": "/feh-inheritance-tool/static/media/Titania_Warm_Knight.dbd38e3a.png"
+  },
+  {
     "revision": "69475eb1ef36ede892a3af3960dd9099",
     "url": "/feh-inheritance-tool/static/media/Tobin_The_Clueless_One.69475eb1.png"
   },
@@ -1376,7 +1396,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "c5fc7eb801ee17c854117152968d0414",
+    "revision": "d8025d74269464c54e98dacea0e5edd1",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
