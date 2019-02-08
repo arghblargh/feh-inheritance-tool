@@ -20366,6 +20366,14 @@
       ],
       "special": [
         {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        },
+        {
           "name": "Aether"
         }
       ],
@@ -20389,14 +20397,15 @@
       "passiveB": [
         {
           "name": "Wary Fighter 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Wary Fighter 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Wary Fighter 3"
+          "name": "Wary Fighter 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
@@ -20440,6 +20449,10 @@
       ],
       "assist": [
         {
+          "name": "Rally Speed",
+          "unlock": 3
+        },
+        {
           "name": "Rally Atk/Spd",
           "unlock": 4
         },
@@ -20450,28 +20463,28 @@
       "passiveA": [
         {
           "name": "Atk/Res Bond 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Atk/Res Bond 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Atk/Res Bond 3",
-          "unlock": 4
+          "name": "Atk/Res Bond 3"
         }
       ],
       "passiveB": [
         {
           "name": "Spd Feint 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Spd Feint 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Spd Feint 3"
+          "name": "Spd Feint 3",
+          "unlock": 4
         }
       ],
       "passiveC": [
@@ -20515,6 +20528,10 @@
       ],
       "assist": [
         {
+          "name": "Rally Resistance",
+          "unlock": 3
+        },
+        {
           "name": "Rally Def/Res",
           "unlock": 4
         },
@@ -20523,6 +20540,10 @@
         }
       ],
       "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
         {
           "name": "Swift Sparrow 1",
           "unlock": 4
@@ -20547,14 +20568,15 @@
       "passiveC": [
         {
           "name": "G Tome Valor 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "G Tome Valor 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "G Tome Valor 3"
+          "name": "G Tome Valor 3",
+          "unlock": 4
         }
       ]
     }
@@ -20617,14 +20639,15 @@
       "passiveC": [
         {
           "name": "Even Spd Wave 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Even Spd Wave 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Even Spd Wave 3"
+          "name": "Even Spd Wave 3",
+          "unlock": 4
         }
       ]
     }
@@ -20662,28 +20685,28 @@
       "passiveA": [
         {
           "name": "Triangle Adept 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Triangle Adept 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Triangle Adept 3",
-          "unlock": 4
+          "name": "Triangle Adept 3"
         }
       ],
       "passiveB": [
         {
           "name": "Atk/Res Link 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Atk/Res Link 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Atk/Res Link 3"
+          "name": "Atk/Res Link 3",
+          "unlock": 4
         }
       ]
     }

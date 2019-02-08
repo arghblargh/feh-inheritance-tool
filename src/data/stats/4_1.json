@@ -1056,6 +1056,13 @@
     "Def": 5,
     "Res": 8
   },
+  "Titania: Warm Knight": {
+    "HP": 15,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 3,
+    "Res": 5
+  },
   "Tobin: The Clueless One": {
     "HP": 17,
     "Atk": 7,

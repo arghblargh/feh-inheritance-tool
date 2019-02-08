@@ -762,6 +762,13 @@
     "Def": 6,
     "Res": 3
   },
+  "Greil: Heroic Exemplar": {
+    "HP": 23,
+    "Atk": 11,
+    "Spd": 5,
+    "Def": 10,
+    "Res": 6
+  },
   "Gunnthrá: Voice of Dreams": {
     "HP": 15,
     "Atk": 7,
@@ -908,6 +915,13 @@
     "Spd": 6,
     "Def": 9,
     "Res": 5
+  },
+  "Ike: Stalwart Heart": {
+    "HP": 21,
+    "Atk": 9,
+    "Spd": 10,
+    "Def": 9,
+    "Res": 6
   },
   "Ike: Vanguard Legend": {
     "HP": 19,
@@ -1511,6 +1525,13 @@
     "Def": 5,
     "Res": 8
   },
+  "Mist: Purest Spirit": {
+    "HP": 17,
+    "Atk": 10,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 4
+  },
   "Morgan: Lad from Afar": {
     "HP": 18,
     "Atk": 7,
@@ -2099,6 +2120,13 @@
     "Def": 6,
     "Res": 7
   },
+  "Soren: Addled Strategist": {
+    "HP": 18,
+    "Atk": 9,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 3
+  },
   "Soren: Shrewd Strategist": {
     "HP": 17,
     "Atk": 7,
@@ -2266,6 +2294,13 @@
     "Spd": 8,
     "Def": 6,
     "Res": 8
+  },
+  "Titania: Warm Knight": {
+    "HP": 16,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 4,
+    "Res": 6
   },
   "Tobin: The Clueless One": {
     "HP": 18,

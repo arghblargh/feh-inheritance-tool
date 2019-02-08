@@ -6,6 +6,13 @@
     "Def": 22,
     "Res": 22
   },
+  "Alfonse: Prince of Askr": {
+    "HP": 39,
+    "Atk": 31,
+    "Spd": 22,
+    "Def": 28,
+    "Res": 19
+  },
   "Arthur: Hapless Hero": {
     "HP": 39,
     "Atk": 28,
@@ -740,6 +747,13 @@
     "Spd": 31,
     "Def": 22,
     "Res": 25
+  },
+  "Sharena: Princess of Askr": {
+    "HP": 39,
+    "Atk": 28,
+    "Spd": 28,
+    "Def": 25,
+    "Res": 19
   },
   "Sheena: Princess of Gra": {
     "HP": 41,

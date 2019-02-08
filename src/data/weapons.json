@@ -3808,8 +3808,8 @@
     "upgrade": "Legendary"
   },
   "Silverbrand": {
-    "color": "Blue",
-    "type": "Lance",
+    "color": "Red",
+    "type": "Sword",
     "cost": 400,
     "might": 16,
     "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
