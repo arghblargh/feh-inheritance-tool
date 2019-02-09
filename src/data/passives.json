@@ -434,7 +434,8 @@
     "Fierce Breath": {
       "cost": 240,
       "effect": "If foe initiates combat, grants Atk+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
-      "require": "Fierce Stance 2"
+      "require": "Fierce Stance 2",
+      "restriction": "Armored|Infantry, Melee"
     },
     "Fierce Stance 1": {
       "cost": 50,
@@ -791,7 +792,8 @@
     "Steady Breath": {
       "cost": 240,
       "effect": "If foe initiates combat, grants Def+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
-      "require": "Steady Stance 2"
+      "require": "Steady Stance 2",
+      "restriction": "Armored|Infantry, Melee"
     },
     "Steady Posture 1": {
       "cost": 120,
@@ -818,7 +820,8 @@
     },
     "Steady Stance 4": {
       "cost": 300,
-      "effect": "If foe initiates combat, grants Def+8 during combat."
+      "effect": "If foe initiates combat, grants Def+8 during combat.",
+      "restrictions": "Offense"
     },
     "Sturdy Blow 1": {
       "cost": 120,
@@ -834,7 +837,7 @@
     "Sturdy Impact": {
       "cost": 300,
       "effect": "If unit initiates combat, grants Atk+6, Def+10 during combat and foe cannot make a follow-up attack.",
-      "restriction": "Offense, Infantry|Flying"
+      "restriction": "Infantry|Flying, Offense"
     },
     "Sturdy Stance 1": {
       "cost": 120,
@@ -917,7 +920,9 @@
     },
     "Warding Breath": {
       "cost": 240,
-      "effect": "If foe initiates combat, grants Res+4 during combat. Grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)"
+      "effect": "If foe initiates combat, grants Res+4 during combat. Grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+      "require": "Warding Stance 2",
+      "restriction": "Armored|Infantry, Melee"
     },
     "Warding Stance 1": {
       "cost": 50,
@@ -1281,15 +1286,18 @@
     },
     "Dull Close 1": {
       "cost": 50,
-      "effect": "At start of combat, if unit's HP ≥ 100% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+      "effect": "At start of combat, if unit's HP ≥ 100% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Melee"
     },
     "Dull Close 2": {
       "cost": 100,
-      "effect": "At start of combat, if unit's HP ≥ 50% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+      "effect": "At start of combat, if unit's HP ≥ 50% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Melee"
     },
     "Dull Close 3": {
       "cost": 200,
-      "effect": "If foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+      "effect": "If foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Melee"
     },
     "Dull Ranged 1": {
       "cost": 50,
@@ -1502,27 +1510,33 @@
     },
     "Null C-Disrupt 1": {
       "cost": 60,
-      "effect": "If unit’s HP = 100%, neutralizes status effects and disables skills that prevent counterattacks during combat."
+      "effect": "If unit’s HP = 100%, neutralizes status effects and disables skills that prevent counterattacks during combat.",
+      "restriction": "Infantry"
     },
     "Null C-Disrupt 2": {
       "cost": 120,
-      "effect": "If unit’s HP ≥ 50%, neutralizes status effects and disables skills that prevent counterattacks during combat."
+      "effect": "If unit’s HP ≥ 50%, neutralizes status effects and disables skills that prevent counterattacks during combat.",
+      "restriction": "Infantry"
     },
     "Null C-Disrupt 3": {
       "cost": 240,
-      "effect": "Neutralizes status effects and disables skills that prevent counterattacks during combat."
+      "effect": "Neutralizes status effects and disables skills that prevent counterattacks during combat.",
+      "restriction": "Infantry"
     },
     "Null Follow-Up 1": {
       "cost": 60,
-      "effect": "If unit’s HP = 100%, disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack."
+      "effect": "If unit’s HP = 100%, disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack.",
+      "restriction": "Infantry"
     },
     "Null Follow-Up 2": {
       "cost": 120,
-      "effect": "If unit’s HP ≥ 50%, disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack."
+      "effect": "If unit’s HP ≥ 50%, disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack.",
+      "restriction": "Infantry"
     },
     "Null Follow-Up 3": {
       "cost": 240,
-      "effect": "Disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack."
+      "effect": "Disables foe's skills that guarantee foe's follow-up attack and foe's skills that prevent unit's follow-up attack.",
+      "restriction": "Infantry"
     },
     "Obstruct 1": {
       "cost": 50,
@@ -2008,15 +2022,18 @@
     },
     "Atk Smoke 1": {
       "cost": 60,
-      "effect": "Inflicts Atk-3 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Atk-3 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Atk Smoke 2": {
       "cost": 120,
-      "effect": "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Atk Smoke 3": {
       "cost": 240,
-      "effect": "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Atk Tactic 1": {
       "cost": 60,
@@ -2173,15 +2190,18 @@
     },
     "Def Smoke 1": {
       "cost": 60,
-      "effect": "Inflicts Def-3 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Def-3 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Def Smoke 2": {
       "cost": 120,
-      "effect": "Inflicts Def-5 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Def-5 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Def Smoke 3": {
       "cost": 240,
-      "effect": "Inflicts Def-7 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Def-7 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Def Tactic 1": {
       "cost": 60,
@@ -2692,15 +2712,18 @@
     },
     "Res Smoke 1": {
       "cost": 60,
-      "effect": "Inflicts Res-3 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Res-3 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Res Smoke 2": {
       "cost": 120,
-      "effect": "Inflicts Res-5 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Res-5 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Res Smoke 3": {
       "cost": 240,
-      "effect": "Inflicts Res-7 on foes within 2 spaces of target through their next actions after combat."
+      "effect": "Inflicts Res-7 on foes within 2 spaces of target through their next actions after combat.",
+      "restriction": "Offense"
     },
     "Res Tactic 1": {
       "cost": 60,

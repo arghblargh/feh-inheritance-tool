@@ -25,13 +25,16 @@
     "effect": "At start of turn, inflicts Atk-5 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
   "Atk Smoke 1": {
-    "effect": "Inflicts Atk-3 on foes within 2 spaces of target through their next actions after combat."
+    "effect": "Inflicts Atk-3 on foes within 2 spaces of target through their next actions after combat.",
+    "restriction": "Offense"
   },
   "Atk Smoke 2": {
-    "effect": "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat."
+    "effect": "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat.",
+    "restriction": "Offense"
   },
   "Atk Smoke 3": {
-    "effect": "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat."
+    "effect": "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat.",
+    "restriction": "Offense"
   },
   "Atk/Def Bond 1": {
     "effect": "If unit is adjacent to an ally, grants Atk/Def+3 during combat."
