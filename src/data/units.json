@@ -20710,5 +20710,271 @@
         }
       ]
     }
+  },
+  "Keaton: Lupine Collector": {
+    "name": "Keaton",
+    "title": "Lupine Collector",
+    "color": "Red",
+    "wpnType": "Beast",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Infantry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Infantry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Infantry)",
+          "unlock": 3
+        },
+        {
+          "name": "Wolfskin Fang"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Spiral 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Spiral 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Spiral 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Beast Valor 1",
+          "unlock": 3
+        },
+        {
+          "name": "Beast Valor 2",
+          "unlock": 4
+        },
+        {
+          "name": "Beast Valor 3"
+        }
+      ]
+    }
+  },
+  "Velouria: Wolf Cub": {
+    "name": "Velouria",
+    "title": "Wolf Cub",
+    "color": "Neutral",
+    "wpnType": "Beast",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Infantry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Infantry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Infantry)",
+          "unlock": 3
+        },
+        {
+          "name": "Wolfpup Fang"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Close Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Close Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Close Def 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Ward Beasts"
+        }
+      ]
+    }
+  },
+  "Kaden: Kitsune Braggart": {
+    "name": "Kaden",
+    "title": "Kitsune Braggart",
+    "color": "Green",
+    "wpnType": "Beast",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Infantry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Infantry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Infantry)",
+          "unlock": 3
+        },
+        {
+          "name": "Kitsune Fang"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Pivot",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd/Res Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd/Res Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd/Res Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Goad Beasts"
+        }
+      ]
+    }
+  },
+  "Selkie: Free Spirit": {
+    "name": "Selkie",
+    "title": "Free Spirit",
+    "color": "Blue",
+    "wpnType": "Beast",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Infantry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Infantry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Infantry)",
+          "unlock": 3
+        },
+        {
+          "name": "Foxkit Fang"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Sabotage Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Sabotage Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Sabotage Atk 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Res Wave 1",
+          "unlock": 3
+        },
+        {
+          "name": "Even Res Wave 2",
+          "unlock": 4
+        },
+        {
+          "name": "Even Res Wave 3"
+        }
+      ]
+    }
+  },
+  "Panne: Proud Taguel": {
+    "name": "Panne",
+    "title": "Proud Taguel",
+    "color": "Blue",
+    "wpnType": "Beast",
+    "movType": "Infantry",
+    "skills": {
+    }
   }
 }

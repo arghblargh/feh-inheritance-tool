@@ -1465,11 +1465,11 @@
     },
     "Live for Bounty": {
       "cost": 100,
-      "effect": "If unit survives, get 1.5x shards/crystals from a Training Tower map. (Only highest value applied. Does not stack.)"
+      "effect": "While unit lives, get 1.5x shards/crystals from a Training Tower map. (Only highest value applied. Does not stack.)"
     },
     "Live for Honor": {
       "cost": 100,
-      "effect": "If unit survives, get 1.5x badges from a Training Tower map. (Only highest value applied. Does not stack.)"
+      "effect": "While unit lives, get 1.5x badges from a Training Tower map. (Only highest value applied. Does not stack.)"
     },
     "Live to Serve 1": {
       "cost": 40,
@@ -1648,6 +1648,18 @@
       "cost": 300,
       "effect": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1.",
       "restriction": "Exclusive"
+    },
+    "Sabotage Atk 1": {
+      "cost": 60,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-3 on that foe through its next action."
+    },
+    "Sabotage Atk 2": {
+      "cost": 120,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-5 on that foe through its next action."
+    },
+    "Sabotage Atk 3": {
+      "cost": 240,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-7 on that foe through its next action."
     },
     "Sacae's Blessing": {
       "cost": 300,
@@ -2049,92 +2061,107 @@
     },
     "Axe Experience 1": {
       "cost": 30,
-      "effect": "If unit survives and uses an axe, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses an axe, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Axe"
     },
     "Axe Experience 2": {
       "cost": 60,
-      "effect": "If unit survives, all axe allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Axe"
     },
     "Axe Experience 3": {
       "cost": 120,
-      "effect": "If unit survives, all axe allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Axe"
     },
     "Axe Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses an axe, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses an axe, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Axe"
     },
     "Axe Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all axe allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Axe"
     },
     "Axe Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all axe allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Axe"
     },
     "B Tome Exp. 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a blue tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a blue tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:B"
     },
     "B Tome Exp. 2": {
       "cost": 60,
-      "effect": "If unit survives, all blue tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:B"
     },
     "B Tome Exp. 3": {
       "cost": 120,
-      "effect": "If unit survives, all blue tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:B"
     },
     "B Tome Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a blue tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a blue tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:B"
     },
     "B Tome Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all blue tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:B"
     },
     "B Tome Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all blue tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:B"
+    },
+    "Beast Valor 1": {
+      "cost": 30,
+      "effect": "While unit lives and uses beast damage, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "restriction": "Beast"
+    },
+    "Beast Valor 2": {
+      "cost": 60,
+      "effect": "While unit lives, all beast allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "restriction": "Beast"
+    },
+    "Beast Valor 3": {
+      "cost": 120,
+      "effect": "While unit lives, all beast allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "restriction": "Beast"
     },
     "Bow Experience 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a bow, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Bow"
     },
     "Bow Experience 2": {
       "cost": 60,
-      "effect": "If unit survives, all bow allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Bow"
     },
     "Bow Experience 3": {
       "cost": 120,
-      "effect": "If unit survives, all bow allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Bow"
     },
     "Bow Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a bow, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a bow, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Bow"
     },
     "Bow Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all bow allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Bow"
     },
     "Bow Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all bow allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Bow"
     },
     "Breath of Life 1": {
@@ -2163,17 +2190,17 @@
     },
     "Dagger Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a dagger, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a dagger, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Dagger"
     },
     "Dagger Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all dagger allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all dagger allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Dagger"
     },
     "Dagger Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all dagger allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all dagger allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Dagger"
     },
     "Def Ploy 1": {
@@ -2229,17 +2256,17 @@
     },
     "Dragon Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a dragonstone, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a dragonstone, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Breath"
     },
     "Dragon Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all dragonstone allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all dragonstone allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Breath"
     },
     "Dragon Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all dragonstone allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all dragonstone allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Breath"
     },
     "Drive Atk 1": {
@@ -2397,32 +2424,32 @@
     },
     "G Tome Exp. 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a green tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a green tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:G"
     },
     "G Tome Exp. 2": {
       "cost": 60,
-      "effect": "If unit survives, all green tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:G"
     },
     "G Tome Exp. 3": {
       "cost": 120,
-      "effect": "If unit survives, all green tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:G"
     },
     "G Tome Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a green tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:G"
     },
     "G Tome Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all green tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:G"
     },
     "G Tome Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all green tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:G"
     },
     "Glare": {
@@ -2435,6 +2462,12 @@
       "effect": "Grants Atk/Spd+4 to armored allies within 2 spaces during combat.",
       "require": "Spur Atk 2|Spur Spd 2",
       "restriction": "Armored"
+    },
+    "Goad Beasts": {
+      "cost": 200,
+      "effect": "Grants Atk/Spd+4 to beast allies within 2 spaces during combat.",
+      "require": "Spur Atk 2|Spur Spd 2",
+      "restriction": "Beast"
     },
     "Goad Cavalry": {
       "cost": 200,
@@ -2578,17 +2611,17 @@
     },
     "Lance Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a lance, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a lance, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Lance"
     },
     "Lance Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all lance allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all lance allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Lance"
     },
     "Lance Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all lance allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all lance allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Lance"
     },
     "Odd Atk Wave 1": {
@@ -2658,32 +2691,32 @@
     },
     "R Tome Exp. 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a red tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a red tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:R"
     },
     "R Tome Exp. 2": {
       "cost": 60,
-      "effect": "If unit survives combat, all red tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives combat, all red tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:R"
     },
     "R Tome Exp. 3": {
       "cost": 120,
-      "effect": "If unit survives combat, all red tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives combat, all red tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:R"
     },
     "R Tome Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a red tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a red tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:R"
     },
     "R Tome Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all red tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all red tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:R"
     },
     "R Tome Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all red tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all red tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:R"
     },
     "Res Opening 1": {
@@ -2909,17 +2942,17 @@
     },
     "Staff Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a Staff, unit gets 1.5x SP after combat or after using a healing Assist skill. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a Staff, unit gets 1.5x SP after combat or after using a healing Assist skill. (Only highest value applied. Does not stack.)",
       "restriction": "Staff"
     },
     "Staff Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all Staff allies on team get 1.5x SP after combat or after using healing Assist skills. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all Staff allies on team get 1.5x SP after combat or after using healing Assist skills. (Only highest value applied. Does not stack.)",
       "restriction": "Staff"
     },
     "Staff Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all Staff allies on team get 2x SP after combat or after using healing Assist skills. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all Staff allies on team get 2x SP after combat or after using healing Assist skills. (Only highest value applied. Does not stack.)",
       "restriction": "Staff"
     },
     "Surtr's Menace": {
@@ -2929,32 +2962,32 @@
     },
     "Sword Exp. 1": {
       "cost": 30,
-      "effect": "If unit survives, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
     },
     "Sword Exp. 2": {
       "cost": 60,
-      "effect": "If unit survives, all sword allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
     },
     "Sword Exp. 3": {
       "cost": 120,
-      "effect": "If unit survives, all sword allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
     },
     "Sword Valor 1": {
       "cost": 30,
-      "effect": "If unit survives and uses a sword, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a sword, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
     },
     "Sword Valor 2": {
       "cost": 60,
-      "effect": "If unit survives, all sword allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
     },
     "Sword Valor 3": {
       "cost": 120,
-      "effect": "If unit survives, all sword allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
     },
     "Threaten Atk 1": {
@@ -3015,6 +3048,12 @@
       "effect": "Grants Def/Res+4 to armored allies within 2 spaces during combat.",
       "require": "Spur Def 2|Spur Res 2",
       "restriction": "Armored"
+    },
+    "Ward Beasts": {
+      "cost": 200,
+      "effect": "Grants Def/Res+4 to beast allies within 2 spaces during combat.",
+      "require": "Spur Def 2|Spur Res 2",
+      "restriction": "Beast"
     },
     "Ward Cavalry": {
       "cost": 200,

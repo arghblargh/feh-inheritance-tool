@@ -3823,5 +3823,37 @@
     "effect": "Accelerates Special trigger (cooldown count-1). Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Wolfskin Fang": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 9,
+    "effect": "Inflicts Spd-5. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Exclusive"
+  },
+  "Wolfpup Fang": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. At the start of turn 1, grants special cooldown count-2 to unit and unit's support partner (if any). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Exclusive"
+  },
+  "Kitsune Fang": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Def+3. Grants allies within 2 spaces bonus to Atk/Spd/Def/Res during combat = bonus on each of unit's stats. Calculates each stat bonus independently. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Foxkit Fang": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. At start of combat, if unit's Res > foe's Res, and if foes uses sword, lance, axe, dragonstone, or beast damage, grants bonus to Atk/Spd/Def/Res = 50% of difference between stats. (Maximum bonus of +8 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
   }
 }
