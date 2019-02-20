@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4c5607db23459aafbbfa",
-    "url": "/feh-inheritance-tool/static/css/main.207cc11d.chunk.css"
+    "revision": "a589f4e96ad616b87fc6",
+    "url": "/feh-inheritance-tool/static/css/main.53d33550.chunk.css"
   },
   {
-    "revision": "4c5607db23459aafbbfa",
-    "url": "/feh-inheritance-tool/static/js/main.4c5607db.chunk.js"
+    "revision": "a589f4e96ad616b87fc6",
+    "url": "/feh-inheritance-tool/static/js/main.a589f4e9.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -608,6 +608,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Julius_Scion_of_Darkness.7111d37f.png"
   },
   {
+    "revision": "72e22ffebe5add928fd2bcd5d2302743",
+    "url": "/feh-inheritance-tool/static/media/Kaden_Kitsune_Braggart.72e22ffe.png"
+  },
+  {
     "revision": "39cb071b3a92d8adcf0e49e076ff4811",
     "url": "/feh-inheritance-tool/static/media/Kagero_Beverage_Ninja.39cb071b.png"
   },
@@ -642,6 +646,10 @@ self.__precacheManifest = [
   {
     "revision": "2ae7ad839a26dd2426dee6f67803dbcf",
     "url": "/feh-inheritance-tool/static/media/Kaze_Easygoing_Ninja.2ae7ad83.png"
+  },
+  {
+    "revision": "c1825c7e21a6712eaf949ca94f574b6b",
+    "url": "/feh-inheritance-tool/static/media/Keaton_Lupine_Collector.c1825c7e.png"
   },
   {
     "revision": "4f305ef51635d65c793e028fa2249bd7",
@@ -1028,6 +1036,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Palla_Eldest_Whitewing.c879db05.png"
   },
   {
+    "revision": "7e5bfa4c2a4f664297b4ca904927126d",
+    "url": "/feh-inheritance-tool/static/media/Panne_Proud_Taguel.7e5bfa4c.png"
+  },
+  {
     "revision": "15fbc77ffc3a5a1ddade227acecfe096",
     "url": "/feh-inheritance-tool/static/media/Peri_Playful_Slayer.15fbc77f.png"
   },
@@ -1162,6 +1174,10 @@ self.__precacheManifest = [
   {
     "revision": "cc992b54a07d79435d27f9c2b19f0def",
     "url": "/feh-inheritance-tool/static/media/Seliph_Heir_of_Light.cc992b54.png"
+  },
+  {
+    "revision": "965eb10dd84c140d799ad1f1c576df04",
+    "url": "/feh-inheritance-tool/static/media/Selkie_Free_Spirit.965eb10d.png"
   },
   {
     "revision": "8cca08ad6711243f99da3320406c7f59",
@@ -1348,6 +1364,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Valter_Dark_Moonstone.45515aeb.png"
   },
   {
+    "revision": "83e8144697f81ed961868fdb22b4434d",
+    "url": "/feh-inheritance-tool/static/media/Velouria_Wolf_Cub.83e81446.png"
+  },
+  {
     "revision": "df7842e5348db54c0762bb3715ab8a0e",
     "url": "/feh-inheritance-tool/static/media/Veronica_Brave_Princess.df7842e5.png"
   },
@@ -1396,7 +1416,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "1f6022a8e2ddd499579e22053beaa0fd",
+    "revision": "1c6a828115d6c252bb5de0189dfea65a",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
