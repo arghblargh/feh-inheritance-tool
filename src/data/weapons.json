@@ -13,6 +13,14 @@
     "might": 7,
     "effect": "Restores HP = 50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit."
   },
+  "Adult (Cavalry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 200,
+    "might": 9,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Cavalry"
+  },
   "Adult (Flier)": {
     "color": "",
     "type": "Beast",
@@ -3444,6 +3452,14 @@
     "effect": "Grants Spd+3. At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
     "restriction": "Exclusive"
   },
+  "Whelp (Cavalry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 50,
+    "might": 4,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Cavalry"
+  },
   "Whelp (Infantry)": {
     "color": "",
     "type": "Beast",
@@ -3572,6 +3588,14 @@
     "effect": "If unit initiates combat, grants Spd+4 during combat.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Yearling (Cavalry)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 100,
+    "might": 6,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Cavalry"
   },
   "Yearling (Infantry)": {
     "color": "",
@@ -3854,6 +3878,14 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants Res+3. At start of combat, if unit's Res > foe's Res, and if foes uses sword, lance, axe, dragonstone, or beast damage, grants bonus to Atk/Spd/Def/Res = 50% of difference between stats. (Maximum bonus of +8 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Taguel Fang": {
+    "color": "",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against cavalry foes. If unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+3 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
     "restriction": "Exclusive"
   }
 }

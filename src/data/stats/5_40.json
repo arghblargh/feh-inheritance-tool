@@ -216,13 +216,6 @@
     "Def": 31,
     "Res": 23
   },
-  "Camilla: Spring Princess": {
-    "HP": 39,
-    "Atk": 35,
-    "Spd": 25,
-    "Def": 30,
-    "Res": 19
-  },
   "Camilla: Steamy Secrets": {
     "HP": 38,
     "Atk": 33,
@@ -1028,6 +1021,13 @@
     "Def": 16,
     "Res": 35
   },
+  "Kaden: Kitsune Braggart": {
+    "HP": 38,
+    "Atk": 32,
+    "Spd": 36,
+    "Def": 25,
+    "Res": 25
+  },
   "Kagero: Beverage Ninja": {
     "HP": 41,
     "Atk": 38,
@@ -1090,6 +1090,13 @@
     "Spd": 36,
     "Def": 17,
     "Res": 34
+  },
+  "Keaton: Lupine Collector": {
+    "HP": 45,
+    "Atk": 41,
+    "Spd": 24,
+    "Def": 38,
+    "Res": 19
   },
   "Klein: Silver Nobleman": {
     "HP": 40,
@@ -1763,6 +1770,13 @@
     "Def": 28,
     "Res": 26
   },
+  "Panne: Proud Taguel": {
+    "HP": 41,
+    "Atk": 29,
+    "Spd": 34,
+    "Def": 30,
+    "Res": 23
+  },
   "Peri: Playful Slayer": {
     "HP": 35,
     "Atk": 33,
@@ -2000,6 +2014,13 @@
     "Spd": 24,
     "Def": 30,
     "Res": 22
+  },
+  "Selkie: Free Spirit": {
+    "HP": 35,
+    "Atk": 29,
+    "Spd": 38,
+    "Def": 19,
+    "Res": 35
   },
   "Serra: Outspoken Cleric": {
     "HP": 33,
@@ -2322,6 +2343,13 @@
     "Spd": 31,
     "Def": 34,
     "Res": 19
+  },
+  "Velouria: Wolf Cub": {
+    "HP": 40,
+    "Atk": 35,
+    "Spd": 37,
+    "Def": 33,
+    "Res": 23
   },
   "Veronica: Brave Princess": {
     "HP": 36,

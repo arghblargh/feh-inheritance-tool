@@ -790,6 +790,13 @@
     "Def": 5,
     "Res": 6
   },
+  "Panne: Proud Taguel": {
+    "HP": 16,
+    "Atk": 6,
+    "Spd": 10,
+    "Def": 8,
+    "Res": 3
+  },
   "Peri: Playful Slayer": {
     "HP": 15,
     "Atk": 9,
