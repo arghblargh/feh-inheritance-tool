@@ -20920,7 +20920,7 @@
           "name": "Foxkit Fang"
         }
       ],
-      "assist": [
+      "special": [
         {
           "name": "Chilling Wind",
           "unlock": 3
@@ -20996,7 +20996,7 @@
           "name": "Taguel Fang"
         }
       ],
-      "assist": [
+      "special": [
         {
           "name": "Night Sky",
           "unlock": 3
