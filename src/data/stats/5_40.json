@@ -216,6 +216,13 @@
     "Def": 31,
     "Res": 23
   },
+  "Camilla: Spring Princess": {
+    "HP": 39,
+    "Atk": 35,
+    "Spd": 25,
+    "Def": 30,
+    "Res": 19
+  },
   "Camilla: Steamy Secrets": {
     "HP": 38,
     "Atk": 33,
@@ -1895,6 +1902,13 @@
     "Spd": 34,
     "Def": 25,
     "Res": 24
+  },
+  "Roy: Blazing Lion": {
+    "HP": 39,
+    "Atk": 34,
+    "Spd": 38,
+    "Def": 32,
+    "Res": 26
   },
   "Roy: Brave Lion": {
     "HP": 38,

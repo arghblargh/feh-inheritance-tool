@@ -1903,6 +1903,13 @@
     "Def": 45,
     "Res": 40
   },
+  "Roy: Blazing Lion": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 65,
+    "Def": 55,
+    "Res": 50
+  },
   "Roy: Brave Lion": {
     "HP": 50,
     "Atk": 55,

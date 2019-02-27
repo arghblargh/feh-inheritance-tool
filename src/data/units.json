@@ -21034,5 +21034,73 @@
         }
       ]
     }
+  },
+  "Roy: Blazing Lion": {
+    "name": "Roy",
+    "title": "Blazing Lion",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Dragonbind"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Bonus Doubler 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bonus Doubler 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bonus Doubler 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Renewal 1",
+          "unlock": 1
+        },
+        {
+          "name": "Renewal 2",
+          "unlock": 2
+        },
+        {
+          "name": "Renewal 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Human Virtue"
+        }
+      ]
+    }
   }
 }

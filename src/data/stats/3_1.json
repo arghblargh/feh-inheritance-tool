@@ -286,6 +286,13 @@
     "Def": 7,
     "Res": 3
   },
+  "Gunter: Inveterate Soldier": {
+    "HP": 20,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 10,
+    "Res": 4
+  },
   "Gwendolyn: Adorable Knight": {
     "HP": 22,
     "Atk": 7,
