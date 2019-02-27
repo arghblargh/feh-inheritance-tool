@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d0de8d370b5ad84d4d92",
-    "url": "/feh-inheritance-tool/static/css/main.53d33550.chunk.css"
+    "revision": "500b72c690f827818aea",
+    "url": "/feh-inheritance-tool/static/css/main.c20b6b06.chunk.css"
   },
   {
-    "revision": "d0de8d370b5ad84d4d92",
-    "url": "/feh-inheritance-tool/static/js/main.d0de8d37.chunk.js"
+    "revision": "500b72c690f827818aea",
+    "url": "/feh-inheritance-tool/static/js/main.500b72c6.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -1108,6 +1108,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Roderick_Steady_Squire.5e1c2fc3.png"
   },
   {
+    "revision": "9ab7d62907f321e2ba9abfd03ed5ebdf",
+    "url": "/feh-inheritance-tool/static/media/Roy_Blazing_Lion.9ab7d629.png"
+  },
+  {
     "revision": "37ddd01bf11c8ac9a15330355b69150a",
     "url": "/feh-inheritance-tool/static/media/Roy_Brave_Lion.37ddd01b.png"
   },
@@ -1416,7 +1420,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "995257b0b5f6b8463ae838b675a5e829",
+    "revision": "b3080f8794cdeec8d1ea3e8926988581",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
