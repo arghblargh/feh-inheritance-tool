@@ -3950,7 +3950,7 @@
     "type": "Bow",
     "cost": 400,
     "might": 8,
-    "effect": "Effective against dragon foes. Inflicts Spd-2. If unit initiates combat, unit attacks twice.",
+    "effect": "Effective against flying foes. Inflicts Spd-2. If unit initiates combat, unit attacks twice.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   }
