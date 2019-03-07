@@ -7829,6 +7829,9 @@
         },
         {
           "name": "Brave Bow+"
+        },
+        {
+          "name": "Argent Bow"
         }
       ],
       "special": [
@@ -15958,6 +15961,9 @@
         },
         {
           "name": "Fenrir+"
+        },
+        {
+          "name": "Eternal Tome"
         }
       ],
       "special": [
@@ -21099,6 +21105,360 @@
       "passiveC": [
         {
           "name": "Human Virtue"
+        }
+      ]
+    }
+  },
+  "Idunn: Dark Priestess": {
+    "name": "Idunn",
+    "title": "Dark Priestess",
+    "color": "Red",
+    "wpnType": "Breath",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Demonic Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fortress Def 1",
+          "unlock": 2
+        },
+        {
+          "name": "Fort. Def/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Fort. Def/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Fort. Def/Res 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeful Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Ward Dragons",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Lugh: Anima Child": {
+    "name": "Lugh",
+    "title": "Anima Child",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Gronnserpent",
+          "unlock": 3
+        },
+        {
+          "name": "Gronnserpent+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Resistance",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Up Res",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Up Res+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Mirror Stance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Mirror Stance 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk Feint 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk Feint 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk Feint 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Sue: Doe of the Plains": {
+    "name": "Sue",
+    "title": "Doe of the Plains",
+    "color": "Green",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Short Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Short Bow+"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Def 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Spd 3",
+          "unlock": 4
+        },
+        {
+          "name": "Hone Spd 4"
+        }
+      ]
+    }
+  },
+  "Thea: Stormy Flier": {
+    "name": "Thea",
+    "title": "Stormy Flier",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Vanguard",
+          "unlock": 3
+        },
+        {
+          "name": "Vanguard+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Ignis",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Steady Posture 1",
+          "unlock": 2
+        },
+        {
+          "name": "Steady Posture 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Seal Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Seal Spd/Def 1",
+          "unlock": 4
+        },
+        {
+          "name": "Seal Spd/Def 2"
+        }
+      ]
+    }
+  },
+  "Rutger: Lone Swordsman": {
+    "name": "Rutger",
+    "title": "Lone Swordsman",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Slaying Edge",
+          "unlock": 3
+        },
+        {
+          "name": "Slaying Edge+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeance",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Def Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Def Bond 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vantage 1",
+          "unlock": 1
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 2
+        },
+        {
+          "name": "Vantage 3",
+          "unlock": 4
         }
       ]
     }

@@ -264,6 +264,9 @@
             "effect": "Grants Atk+3 to allies within 2 spaces during combat."
         }
     },
+    "Eternal Tome": {
+        "effect": "If foe initiates combat, grants Def/Res+4 during combat."
+    },
     "Forblaze": {
         "effect": "If unit initiates combat, grants Atk+6 during combat."
     },
@@ -298,6 +301,9 @@
             "effect": "After combat, if unit attacked, restores 4 HP."
         }
     },
+    "Dark Aura": {
+        "effect": "If unit is within 2 spaces of a sword, lance, axe, dragon, or beast ally, grants Atk/Spd+5 to unit during combat."
+    },
     "Keen Blárwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
@@ -309,6 +315,9 @@
     },
     "Tome of Thoron": {
         "effect": "If unit initiates combat, grants Spd+6 during combat."
+    },
+    "Dark Excalibur": {
+        "effect": "At the start of turn 1, grants Special cooldown count-2."
     },
     "Divine Naga": {
         "effect": "At start of combat, if unit's Res ≥ foe's Res+3, grants Atk/Spd/Def/Res+3 during combat.",
@@ -372,6 +381,9 @@
         "common": {
             "effect": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
         }
+    },
+    "Argent Bow": {
+        "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
     },
     "Clarisse's Bow+": {
         "common": {

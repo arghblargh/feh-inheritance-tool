@@ -116,6 +116,30 @@
         "cost": 400,
         "effect": "Grants Atk+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn."
     },
+    "Rally Up Def": {
+        "cost": 300,
+        "effect": "Grants Def+3 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn."
+    },
+    "Rally Up Def+": {
+        "cost": 400,
+        "effect": "Grants Def+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn."
+    },
+    "Rally Up Res": {
+        "cost": 300,
+        "effect": "Grants Res+3 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn."
+    },
+    "Rally Up Res+": {
+        "cost": 400,
+        "effect": "Grants Res+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn."
+    },
+    "Rally Up Spd": {
+        "cost": 300,
+        "effect": "Grants Spd+3 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn."
+    },
+    "Rally Up Spd+": {
+        "cost": 400,
+        "effect": "Grants Spd+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn."
+    },
     "Reciprocal Aid": {
         "cost": 150,
         "effect": "Unit and target ally swap HP. (Neither can go above their max HP.)"

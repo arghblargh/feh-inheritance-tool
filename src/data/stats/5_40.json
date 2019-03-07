@@ -909,6 +909,13 @@
     "Def": 36,
     "Res": 27
   },
+  "Idunn: Dark Priestess": {
+    "HP": 45,
+    "Atk": 35,
+    "Spd": 26,
+    "Def": 39,
+    "Res": 34
+  },
   "Ike: Brave Mercenary": {
     "HP": 43,
     "Atk": 36,
@@ -1342,6 +1349,13 @@
     "Spd": 30,
     "Def": 13,
     "Res": 35
+  },
+  "Lugh: Anima Child": {
+    "HP": 37,
+    "Atk": 35,
+    "Spd": 36,
+    "Def": 17,
+    "Res": 31
   },
   "Lukas: Sharp Soldier": {
     "HP": 45,
@@ -1931,6 +1945,13 @@
     "Def": 27,
     "Res": 30
   },
+  "Rutger: Lone Swordsman": {
+    "HP": 44,
+    "Atk": 32,
+    "Spd": 39,
+    "Def": 29,
+    "Res": 24
+  },
   "Ryoma: Dancing Samurai": {
     "HP": 36,
     "Atk": 32,
@@ -2190,6 +2211,13 @@
     "Def": 35,
     "Res": 22
   },
+  "Sue: Doe of the Plains": {
+    "HP": 36,
+    "Atk": 32,
+    "Spd": 38,
+    "Def": 23,
+    "Res": 20
+  },
   "Sully: Crimson Knight": {
     "HP": 42,
     "Atk": 26,
@@ -2280,6 +2308,13 @@
     "Spd": 35,
     "Def": 21,
     "Res": 21
+  },
+  "Thea: Stormy Flier": {
+    "HP": 37,
+    "Atk": 31,
+    "Spd": 35,
+    "Def": 31,
+    "Res": 28
   },
   "Tibarn: Lord of the Air": {
     "HP": 41,

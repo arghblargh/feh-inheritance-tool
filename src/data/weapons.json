@@ -758,8 +758,9 @@
     "type": "Tome",
     "cost": 400,
     "might": 14,
-    "effect": "At start of turn, if adjacent allies use sword, axe, lance, or dragonstone, grants Atk+6 to those allies for 1 turn.",
-    "restriction": "Exclusive"
+    "effect": "At start of turn, if adjacent allies use sword, axe, lance, dragonstone, or beast damage, grants Atk+6 to those allies for 1 turn.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Dark Breath": {
     "color": "",
@@ -782,7 +783,8 @@
     "cost": 400,
     "might": 14,
     "effect": "Deals +10 damage when Special triggers.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Dark Greatsword": {
     "color": "Red",
@@ -3895,5 +3897,61 @@
     "might": 16,
     "effect": "Effective against dragon foes. Unit can counterattack regardless of foe's range.",
     "restriction": "Exclusive"
+  },
+  "Demonic Breath": {
+    "color": "Red",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. Effective against armored foes. At start of combat, if a negative status effect is active on unit, or if unit's HP < 100%, neutralizes penalties on unit and grants Atk/Spd/Def/Res+4 during combat. If foe's range = 2, calculates damage using the lower of foe's Def and Res.",
+    "restriction": "Exclusive"
+  },
+  "Short Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. Grants +10 to damage when Special triggers."
+  },
+  "Short Bow+": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. Grants +10 to damage when Special triggers.",
+    "upgrade": "-"
+  },
+  "Vanguard": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Def+7 during combat."
+  },
+  "Vanguard+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Def+7 during combat.",
+    "upgrade": "-"
+  },
+  "Eternal Tome": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Argent Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 8,
+    "effect": "Effective against dragon foes. Inflicts Spd-2. If unit initiates combat, unit attacks twice.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }

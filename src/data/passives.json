@@ -154,15 +154,18 @@
     },
     "Bonus Doubler 1": {
       "cost": 60,
-      "effect": "Grants bonus to Atk/Spd/Def/Res during combat = 50% of current bonus on each of unit's stats. Calculates each stat bonus independently."
+      "effect": "Grants bonus to Atk/Spd/Def/Res during combat = 50% of current bonus on each of unit's stats. Calculates each stat bonus independently.",
+      "restriction": "Infantry"
     },
     "Bonus Doubler 2": {
       "cost": 120,
-      "effect": "Grants bonus to Atk/Spd/Def/Res during combat = 75% of current bonus on each of unit's stats. Calculates each stat bonus independently."
+      "effect": "Grants bonus to Atk/Spd/Def/Res during combat = 75% of current bonus on each of unit's stats. Calculates each stat bonus independently.",
+      "restriction": "Infantry"
     },
     "Bonus Doubler 3": {
       "cost": 240,
-      "effect": "Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently."
+      "effect": "Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently.",
+      "restriction": "Infantry"
     },
     "Bracing Blow 1": {
       "cost": 120,
@@ -1771,6 +1774,17 @@
       "effect": "Inflicts Spd-7 on foe through its next action after combat.",
       "restriction": "Offense"
     },
+    "Seal Spd/Def 1": {
+      "cost": 80,
+      "effect": "Inflicts Spd/Def-3 on foe through its next action after combat.",
+      "require": "Seal Spd 1|Seal Def 1",
+      "restriction": "Offense"
+    },
+    "Seal Spd/Def 2": {
+      "cost": 160,
+      "effect": "Inflicts Spd/Def-5 on foe through its next action after combat.",
+      "restriction": "Offense"
+    },
     "Shield Pulse 1": {
       "cost": 60,
       "effect": "At start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1.",
@@ -2571,6 +2585,10 @@
     "Hone Spd 3": {
       "cost": 200,
       "effect": "At start of turn, grants Spd+4 to adjacent allies for 1 turn."
+    },
+    "Hone Spd 4": {
+      "cost": 200,
+      "effect": "At start of turn, grants Spd+7 to adjacent allies for 1 turn."
     },
     "Human Virtue": {
       "cost": 300,
