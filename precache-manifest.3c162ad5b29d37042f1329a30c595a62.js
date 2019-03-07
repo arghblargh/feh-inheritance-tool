@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "500b72c690f827818aea",
-    "url": "/feh-inheritance-tool/static/css/main.c20b6b06.chunk.css"
+    "revision": "a4f3758b4fb2d49eb302",
+    "url": "/feh-inheritance-tool/static/css/main.5f6c3183.chunk.css"
   },
   {
-    "revision": "500b72c690f827818aea",
-    "url": "/feh-inheritance-tool/static/js/main.500b72c6.chunk.js"
+    "revision": "a4f3758b4fb2d49eb302",
+    "url": "/feh-inheritance-tool/static/js/main.a4f3758b.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -540,6 +540,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Hríd_Resolute_Prince.9a2dfe67.png"
   },
   {
+    "revision": "d3d971276b8db1ec23509bbc108368c8",
+    "url": "/feh-inheritance-tool/static/media/Idunn_Dark_Priestess.d3d97127.png"
+  },
+  {
     "revision": "7a1b0530a49835a6a6fffdf409133e29",
     "url": "/feh-inheritance-tool/static/media/Ike_Brave_Mercenary.7a1b0530.png"
   },
@@ -786,6 +790,10 @@ self.__precacheManifest = [
   {
     "revision": "9825f8ecd9706808b3771513be1c61cf",
     "url": "/feh-inheritance-tool/static/media/Lucius_The_Light.9825f8ec.png"
+  },
+  {
+    "revision": "740be7238aee5e1285801794459879d3",
+    "url": "/feh-inheritance-tool/static/media/Lugh_Anima_Child.740be723.png"
   },
   {
     "revision": "82ea59ab0d9ae57c1b16dfc7f84ab4e5",
@@ -1124,6 +1132,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Roy_Youthful_Gifts.420b044e.png"
   },
   {
+    "revision": "203aafdb2be25377237ed76dc7b55b26",
+    "url": "/feh-inheritance-tool/static/media/Rutger_Lone_Swordsman.203aafdb.png"
+  },
+  {
     "revision": "e0efabc3df02bb29b66d5656456ebb90",
     "url": "/feh-inheritance-tool/static/media/Ryoma_Dancing_Samurai.e0efabc3.png"
   },
@@ -1272,6 +1284,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Subaki_Perfect_Expert.62568622.png"
   },
   {
+    "revision": "9702201cd28f0aa65fc51e0bfa34044a",
+    "url": "/feh-inheritance-tool/static/media/Sue_Doe_of_the_Plains.9702201c.png"
+  },
+  {
     "revision": "e75e400eec7001cd90d092d3b30c7be6",
     "url": "/feh-inheritance-tool/static/media/Sully_Crimson_Knight.e75e400e.png"
   },
@@ -1322,6 +1338,10 @@ self.__precacheManifest = [
   {
     "revision": "8315183bd6a592c01ce9e081faaa5744",
     "url": "/feh-inheritance-tool/static/media/Tharja_Obsessive_Bride.8315183b.png"
+  },
+  {
+    "revision": "f84571d0d6ade254596a720849134fe0",
+    "url": "/feh-inheritance-tool/static/media/Thea_Stormy_Flier.f84571d0.png"
   },
   {
     "revision": "d096fa419d5bd2c80ec5ea1a305216db",
@@ -1420,7 +1440,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "b3080f8794cdeec8d1ea3e8926988581",
+    "revision": "7bd80d5f87057d8f9dcf623d7683d1bb",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
