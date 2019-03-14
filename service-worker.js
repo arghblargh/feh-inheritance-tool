@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/feh-inheritance-tool/precache-manifest.19adee3f47ff4710bdb82360b3328c2a.js"
+  "/feh-inheritance-tool/precache-manifest.db9d8062a597c685799b893b7a9809b2.js"
 );
 
 workbox.clientsClaim();
