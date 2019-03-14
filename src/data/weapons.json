@@ -3907,14 +3907,14 @@
     "restriction": "Exclusive"
   },
   "Short Bow": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 200,
     "might": 8,
     "effect": "Effective against flying foes. Grants +10 to damage when Special triggers."
   },
   "Short Bow+": {
-    "color": "Neutral",
+    "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,

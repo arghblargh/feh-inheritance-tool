@@ -149,7 +149,7 @@
     "count": 5,
     "effect": "If unit initiates combat, grants unit another action after combat. (Once per turn.)",
     "require": "Astra",
-    "restriction": "Weapon:SwLA"
+    "restriction": "Weapon:SwLABe"
   },
   "Glacies": {
     "cost": 200,
