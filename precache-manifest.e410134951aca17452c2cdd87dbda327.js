@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1a1bd23f9348d4321b58",
-    "url": "/feh-inheritance-tool/static/css/main.5f6c3183.chunk.css"
+    "revision": "697dace844ed8dcdc221",
+    "url": "/feh-inheritance-tool/static/css/main.bb8cbde5.chunk.css"
   },
   {
-    "revision": "1a1bd23f9348d4321b58",
-    "url": "/feh-inheritance-tool/static/js/main.1a1bd23f.chunk.js"
+    "revision": "697dace844ed8dcdc221",
+    "url": "/feh-inheritance-tool/static/js/main.697dace8.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -114,6 +114,10 @@ self.__precacheManifest = [
   {
     "revision": "aa6016c53fcdfb01556f7008f9206bdc",
     "url": "/feh-inheritance-tool/static/media/Boey_Skillful_Survivor.aa6016c5.png"
+  },
+  {
+    "revision": "d51997bc6216f39e069c6fd47aef3019",
+    "url": "/feh-inheritance-tool/static/media/Bruno_Masked_Hare.d51997bc.png"
   },
   {
     "revision": "373cc72d8d1012c3387c951b735a4a5e",
@@ -764,6 +768,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Lloyd_White_Wolf.648c35a3.png"
   },
   {
+    "revision": "5fca8b11a1eeed196a8d4727212d8122",
+    "url": "/feh-inheritance-tool/static/media/Loki_Spring_Trickster.5fca8b11.png"
+  },
+  {
     "revision": "88ff93ea8149d1b0e0f21ae8dcdd1712",
     "url": "/feh-inheritance-tool/static/media/Loki_The_Trickster.88ff93ea.png"
   },
@@ -846,6 +854,10 @@ self.__precacheManifest = [
   {
     "revision": "b4edea2c0e13577da4ea3432f354d4ce",
     "url": "/feh-inheritance-tool/static/media/Marisa_Crimson_Flash.b4edea2c.png"
+  },
+  {
+    "revision": "c62123b9a95f8aa333afb6aece582c8f",
+    "url": "/feh-inheritance-tool/static/media/Marisa_Crimson_Rabbit.c62123b9.png"
   },
   {
     "revision": "b8f8c7deb6182bf1bc90fc5005ff6975",
@@ -1038,6 +1050,10 @@ self.__precacheManifest = [
   {
     "revision": "0719c996632c44f8f1dc21fc76480d24",
     "url": "/feh-inheritance-tool/static/media/Owain_Chosen_One.0719c996.png"
+  },
+  {
+    "revision": "2b168015a6465d26cf738287d9f2e994",
+    "url": "/feh-inheritance-tool/static/media/Palla_Eldest_Bun-Bun.2b168015.png"
   },
   {
     "revision": "c879db05ff07de095e9e330d964e7024",
@@ -1400,6 +1416,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Veronica_Emblian_Princess.d30f66a2.png"
   },
   {
+    "revision": "b3b730b162cb7ab3a388031c28ddcfbc",
+    "url": "/feh-inheritance-tool/static/media/Veronica_Spring_Princess.b3b730b1.png"
+  },
+  {
     "revision": "175628e4b611aee86fa6c13ee8436eb5",
     "url": "/feh-inheritance-tool/static/media/Virion_Elite_Archer.175628e4.png"
   },
@@ -1440,7 +1460,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "683389bb24922c372e982d868171bde1",
+    "revision": "0a4c5b90e8dd488abeee76b620bf0ecb",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
