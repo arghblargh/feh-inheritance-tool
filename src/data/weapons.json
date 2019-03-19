@@ -3953,5 +3953,57 @@
     "effect": "Effective against flying foes. Inflicts Spd-2. If unit initiates combat, unit attacks twice.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Veðrfölnir's Egg": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. At start of combat if unit's HP ≥ 75%, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Ovoid Staff": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "At start of turn, restores 7 HP to unit and adjacent allies."
+  },
+  "Ovoid Staff+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "At start of turn, restores 7 HP to unit and adjacent allies."
+  },
+  "Pegasus Carrot": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Pegasus Carrot+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Flashing Carrot": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+2 during combat."
+  },
+  "Flashing Carrot+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+2 during combat.",
+    "upgrade": "-"
   }
 }

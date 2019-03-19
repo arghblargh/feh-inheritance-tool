@@ -21462,5 +21462,301 @@
         }
       ]
     }
+  },
+  "Palla: Eldest Bun-Bun": {
+    "name": "Palla",
+    "title": "Eldest Bun-Bun",
+    "color": "Red",
+    "wpnType": "Dagger",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Pegasus Carrot",
+          "unlock": 3
+        },
+        {
+          "name": "Pegasus Carrot+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Disarm Trap 1",
+          "unlock": 3
+        },
+        {
+          "name": "Disarm Trap 2",
+          "unlock": 4
+        },
+        {
+          "name": "Disarm Trap 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Fliers",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Marisa: Crimson Rabbit": {
+    "name": "Marisa",
+    "title": "Crimson Rabbit",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Flashing Carrot",
+          "unlock": 3
+        },
+        {
+          "name": "Flashing Carrot+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Resposition",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd/Def Link 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd/Def Link 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd/Def Link 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Flier Guidance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Flier Guidance 2",
+          "unlock": 2
+        },
+        {
+          "name": "Flier Guidance 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Bruno: Masked Hare": {
+    "name": "Bruno",
+    "title": "Masked Hare",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Ovoid Staff",
+          "unlock": 3
+        },
+        {
+          "name": "Ovoid Staff+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Martyr",
+          "unlock": 3
+        },
+        {
+          "name": "Martyr+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Miracle",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Push 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Def Push 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Def Push 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dazzling Staff 1",
+          "unlock": 1
+        },
+        {
+          "name": "Dazzling Staff 2",
+          "unlock": 2
+        },
+        {
+          "name": "Dazzling Staff 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Veronica: Spring Princess": {
+    "name": "Veronica",
+    "title": "Spring Princess",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 3
+        },
+        {
+          "name": "Veðrfölnir's Egg"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "G Duel Flying 1",
+          "unlock": 1
+        },
+        {
+          "name": "G Duel Flying 2",
+          "unlock": 2
+        },
+        {
+          "name": "G Duel Flying 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Res 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Loki: Spring Trickster": {
+    "name": "Loki",
+    "title": "Spring Trickster",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        }
+      ]
+    }
   }
 }

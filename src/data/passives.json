@@ -27,6 +27,18 @@
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Def+5 during combat."
     },
+    "Atk/Def Push 1": {
+      "cost": 60,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Def Push 2": {
+      "cost": 120,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Def+4, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Def Push 3": {
+      "cost": 240,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Def+5, but if unit attacked, deals 1 damage to unit after combat."
+    },
     "Atk/Def Solo 1": {
       "cost": 60,
       "effect": "If unit is not adjacent to an ally, grants Atk/Def+2 during combat."
@@ -550,6 +562,21 @@
       "cost": 300,
       "effect": "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit.",
       "restriction": "Offense"
+    },
+    "G Duel Flying 1": {
+      "cost": 60,
+      "effect": "Grants HP+3. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+      "restriction": "Flying, Color:G"
+    },
+    "G Duel Flying 2": {
+      "cost": 120,
+      "effect": "Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+      "restriction": "Flying, Color:G"
+    },
+    "G Duel Flying 3": {
+      "cost": 240,
+      "effect": "Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+      "restriction": "Flying, Color:G"
     },
     "G Duel Infantry 1": {
       "cost": 60,
@@ -1289,6 +1316,18 @@
       "cost": 200,
       "effect": "If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
     },
+    "Disarm Trap 1": {
+      "cost": 60,
+      "effect": "While attacking in Aether Raids, if unit’s HP = 100% and ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect."
+    },
+    "Disarm Trap 2": {
+      "cost": 120,
+      "effect": "While attacking in Aether Raids, if unit’s HP ≥ 50% and ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect."
+    },
+    "Disarm Trap 3": {
+      "cost": 240,
+      "effect": "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect."
+    },
     "Double Lion": {
       "cost": 300,
       "effect": "If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 1 damage to unit after combat. (Does not stack.)",
@@ -1831,6 +1870,18 @@
     "Spd Feint 3": {
       "cost": 240,
       "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-7 on foes in cardinal directions of unit through their next actions."
+    },
+    "Spd/Def Link 1": {
+      "cost": 60,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Spd/Def+2 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Spd/Def Link 2": {
+      "cost": 120,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Spd/Def+4 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Spd/Def Link 3": {
+      "cost": 240,
+      "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Spd/Def+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
     "Spd/Res Link 1": {
       "cost": 60,
