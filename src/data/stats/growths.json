@@ -174,6 +174,13 @@
     "Def": 55,
     "Res": 30
   },
+  "Bruno: Masked Hare": {
+    "HP": 55,
+    "Atk": 50,
+    "Spd": 45,
+    "Def": 60,
+    "Res": 25
+  },
   "Caeda: Talys's Bride": {
     "HP": 40,
     "Atk": 50,
@@ -1301,6 +1308,13 @@
     "Def": 35,
     "Res": 50
   },
+  "Loki: Spring Trickster": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 50,
+    "Res": 40
+  },
   "Loki: The Trickster": {
     "HP": 55,
     "Atk": 55,
@@ -1446,6 +1460,13 @@
     "Atk": 50,
     "Spd": 60,
     "Def": 55,
+    "Res": 35
+  },
+  "Marisa: Crimson Rabbit": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 70,
+    "Def": 50,
     "Res": 35
   },
   "Marth: Altean Groom": {
@@ -1783,6 +1804,13 @@
     "Spd": 65,
     "Def": 55,
     "Res": 35
+  },
+  "Palla: Eldest Bun-Bun": {
+    "HP": 45,
+    "Atk": 70,
+    "Spd": 55,
+    "Def": 30,
+    "Res": 55
   },
   "Palla: Eldest Whitewing": {
     "HP": 55,
@@ -2406,6 +2434,13 @@
     "Spd": 60,
     "Def": 40,
     "Res": 35
+  },
+  "Veronica: Spring Princess": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 30,
+    "Res": 45
   },
   "Virion: Elite Archer": {
     "HP": 60,

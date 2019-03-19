@@ -426,6 +426,12 @@
   "HP/Res 2": {
     "effect": "Grants HP+4, Res+2."
   },
+  "HP/Spd 1": {
+    "effect": "Grants HP+3, Spd+1."
+  },
+  "HP/Spd 2": {
+    "effect": "Grants HP+4, Spd+2."
+  },
   "Iote's Shield": {
     "effect": "Neutralizes \"effective against flying\" bonuses.",
     "restriction": "Flying"
@@ -589,6 +595,15 @@
   "Spd/Def 2": {
     "effect": "Grants Spd/Def+2."
   },
+  "Spd/Res Bond 1": {
+    "effect": "If unit is adjacent to an ally, grants Spd/Res+3 during combat."
+  },
+  "Spd/Res Bond 2": {
+    "effect": "If unit is adjacent to an ally, grants Spd/Res+4 during combat."
+  },
+  "Spd/Res Bond 3": {
+    "effect": "If unit is adjacent to an ally, grants Spd/Res+5 during combat."
+  },
   "Spur Atk 1": {
     "effect": "Grants Atk+2 to adjacent allies during combat."
   },
@@ -679,6 +694,15 @@
   "Torrent Dance 3": {
     "effect": "If Sing or Dance is used, grants Res+5 to target.",
     "restriction": "Offense"
+  },
+  "Warding Stance 1": {
+    "effect": "If foe initiates combat, grants Res+2 during combat."
+  },
+  "Warding Stance 2": {
+    "effect": "If foe initiates combat, grants Res+4 during combat."
+  },
+  "Warding Stance 3": {
+    "effect": "If foe initiates combat, grants Res+6 during combat."
   },
   "Water Boost 1": {
     "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Res+2 during combat."

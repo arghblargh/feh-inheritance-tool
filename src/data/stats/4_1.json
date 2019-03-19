@@ -587,6 +587,13 @@
     "Def": 4,
     "Res": 7
   },
+  "Loki: Spring Trickster": {
+    "HP": 16,
+    "Atk": 6,
+    "Spd": 8,
+    "Def": 4,
+    "Res": 8
+  },
   "Lon'qu: Solitary Blade": {
     "HP": 18,
     "Atk": 7,
@@ -873,6 +880,13 @@
     "Spd": 9,
     "Def": 5,
     "Res": 3
+  },
+  "Rutger: Lone Swordsman": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 9,
+    "Def": 6,
+    "Res": 4
   },
   "Saias: Bishop of Flame": {
     "HP": 16,

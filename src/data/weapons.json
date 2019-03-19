@@ -4005,5 +4005,20 @@
     "might": 14,
     "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+2 during combat.",
     "upgrade": "-"
+  },
+  "Beguiling Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+2 during combat."
+  },
+  "Beguiling Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+2 during combat.",
+    "upgrade": "-"
   }
 }

@@ -21500,14 +21500,15 @@
       "passiveA": [
         {
           "name": "Darting Blow 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Swift Sparrow 1",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Swift Sparrow 2"
+          "name": "Swift Sparrow 2",
+          "unlock": 4
         }
       ],
       "passiveB": [
@@ -21525,16 +21526,15 @@
       ],
       "passiveC": [
         {
-          "name": "Hone Spd 1",
-          "unlock": 1
+          "name": "Hone Atk 1",
+          "unlock": 3
         },
         {
-          "name": "Hone Spd 2",
-          "unlock": 2
-        },
-        {
-          "name": "Hone Fliers",
+          "name": "Hone Atk 2",
           "unlock": 4
+        },
+        {
+          "name": "Hone Fliers"
         }
       ]
     }
@@ -21586,15 +21586,14 @@
       "passiveC": [
         {
           "name": "Flier Guidance 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Flier Guidance 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Flier Guidance 3",
-          "unlock": 4
+          "name": "Flier Guidance 3"
         }
       ]
     }
@@ -21663,15 +21662,14 @@
       "passiveB": [
         {
           "name": "Dazzling Staff 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Dazzling Staff 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Dazzling Staff 3",
-          "unlock": 4
+          "name": "Dazzling Staff 3"
         }
       ]
     }
@@ -21713,15 +21711,14 @@
       "passiveA": [
         {
           "name": "G Duel Flying 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "G Duel Flying 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "G Duel Flying 3",
-          "unlock": 4
+          "name": "G Duel Flying 3"
         }
       ],
       "passiveB": [
@@ -21755,6 +21752,50 @@
         {
           "name": "Steel Bow",
           "unlock": 2
+        },
+        {
+          "name": "Beguiling Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Beguiling Bow+"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Flier Formation 1",
+          "unlock": 1
+        },
+        {
+          "name": "Flier Formation 2",
+          "unlock": 2
+        },
+        {
+          "name": "Flier Formation 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Goad Fliers"
         }
       ]
     }

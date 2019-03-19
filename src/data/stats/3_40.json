@@ -692,6 +692,13 @@
     "Def": 22,
     "Res": 24
   },
+  "Rutger: Lone Swordsman": {
+    "HP": 40,
+    "Atk": 28,
+    "Spd": 35,
+    "Def": 25,
+    "Res": 21
+  },
   "Saias: Bishop of Flame": {
     "HP": 33,
     "Atk": 29,
