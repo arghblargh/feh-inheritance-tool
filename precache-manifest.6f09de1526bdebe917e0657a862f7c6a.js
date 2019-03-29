@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dd91bf13c9bdbbdb6e93",
-    "url": "/feh-inheritance-tool/static/css/main.bb8cbde5.chunk.css"
+    "revision": "0605bf80c0d583d7ad4a",
+    "url": "/feh-inheritance-tool/static/css/main.133e31c1.chunk.css"
   },
   {
-    "revision": "dd91bf13c9bdbbdb6e93",
-    "url": "/feh-inheritance-tool/static/js/main.dd91bf13.chunk.js"
+    "revision": "0605bf80c0d583d7ad4a",
+    "url": "/feh-inheritance-tool/static/js/main.0605bf80.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -1452,6 +1452,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Ylgr_Fresh_Snowfall.59315823.png"
   },
   {
+    "revision": "3c7ee6652ccbae5afd95be8415227cf6",
+    "url": "/feh-inheritance-tool/static/media/Yune_Chaos_Goddess.3c7ee665.png"
+  },
+  {
     "revision": "7053805bd7af98190406232cce644aa1",
     "url": "/feh-inheritance-tool/static/media/Zelgius_Jet-Black_General.7053805b.png"
   },
@@ -1460,7 +1464,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "18f7410538b936b0a73f0a474d2d6a2a",
+    "revision": "201e460c126c59064301f3859deb2844",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
