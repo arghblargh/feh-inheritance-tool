@@ -4020,5 +4020,13 @@
     "might": 12,
     "effect": "Effective against flying foes. At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+2 during combat.",
     "upgrade": "-"
+  },
+  "Chaos Manifest": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. If a penalty inflicted by a skill like Panic or Threaten and/or a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack.",
+    "restriction": "Exclusive"
   }
 }

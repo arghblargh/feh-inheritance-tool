@@ -1718,6 +1718,18 @@
       "cost": 240,
       "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-7 on that foe through its next action."
     },
+    "Sabotage Res 1": {
+      "cost": 60,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-3 on that foe through its next action."
+    },
+    "Sabotage Res 2": {
+      "cost": 120,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-5 on that foe through its next action."
+    },
+    "Sabotage Res 3": {
+      "cost": 240,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-7 on that foe through its next action."
+    },
     "Sacae's Blessing": {
       "cost": 300,
       "effect": "If foe uses sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
@@ -2255,6 +2267,11 @@
     "Breath of Life 3": {
       "cost": 200,
       "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat."
+    },
+    "Chaos Named": {
+      "cost": 300,
+      "effect": "At start of turn, if foes within 3 columns centered on unit have Res < unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)",
+      "restriction": "Exclusive"
     },
     "Close Guard 1": {
       "cost": 60,

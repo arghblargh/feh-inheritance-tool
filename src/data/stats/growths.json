@@ -2498,6 +2498,13 @@
     "Def": 35,
     "Res": 35
   },
+  "Yune: Chaos Goddess": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 25,
+    "Res": 65
+  },
   "Zelgius: Jet-Black General": {
     "HP": 55,
     "Atk": 60,

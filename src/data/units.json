@@ -22265,5 +22265,74 @@
         }
       ]
     }
+  },
+  "Yune: Chaos Goddess": {
+    "name": "Yune",
+    "title": "Chaos Goddess",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 3
+        },
+        {
+          "name": "Chaos Manifest"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Res Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Res Bond 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Sabotage Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "Sabotage Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "Sabotage Res 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Chaos Named"
+        }
+      ]
+    }
   }
 }
