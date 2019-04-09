@@ -68,6 +68,10 @@
         "cost": 300,
         "effect": "Grants Atk/Def+3 to target ally for 1 turn."
     },
+    "Rally Atk/Def+": {
+        "cost": 300,
+        "effect": "Grants Atk/Def+6 to target ally for 1 turn."
+    },
     "Rally Atk/Res": {
         "cost": 300,
         "effect": "Grants Atk/Res+3 to target ally for 1 turn."

@@ -46,6 +46,9 @@
             "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat."
         }
     },
+    "Bull Blade": {
+        "effect": "If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice."
+    },
     "Durandal": {
         "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
         "common": {
@@ -88,6 +91,9 @@
     },
     "Golden Dagger": {
         "effect": "At start of combat, if Special is ready, grants Atk/Spd/Def/Res+3 during combat and unit can counterattack regardless of foe's range."
+    },
+    "Hana's Katana": {
+        "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
     },
     "Hinata's Katana": {
         "effect": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
@@ -178,6 +184,12 @@
     },
     "Oboro's Spear": {
         "effect": "If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+6 during combat."
+    },
+    "Panther Lance": {
+        "effect": "If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice."
+    },
+    "Peri's Lance": {
+        "effect": "At start of combat, if unit's HP < 100%, grants Atk/Spd/Def/Res+4 during combat."
     },
     "Rhomphaia": {
         "effect": "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"

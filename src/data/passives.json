@@ -441,6 +441,10 @@
       "cost": 240,
       "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat."
     },
+    "Distant Def 4": {
+      "cost": 300,
+      "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+8 during combat."
+    },
     "Dragonskin": {
       "cost": 300,
       "effect": "Neutralizes \"effective against flying\" bonuses. If foe initiates combat, grants Def/Res+4 during combat.",
@@ -1898,6 +1902,18 @@
       "cost": 240,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Spd/Def+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
+    "Spd/Def Solo 1": {
+      "cost": 60,
+      "effect": "If unit is not adjacent to an ally, grants Spd/Def+2 during combat."
+    },
+    "Spd/Def Solo 2": {
+      "cost": 120,
+      "effect": "If unit is not adjacent to an ally, grants Spd/Def+4 during combat."
+    },
+    "Spd/Def Solo 3": {
+      "cost": 240,
+      "effect": "If unit is not adjacent to an ally, grants Spd/Def+6 during combat."
+    },
     "Spd/Res Link 1": {
       "cost": 60,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Spd/Res+2 to unit and target ally or unit and targeting ally for 1 turn."
@@ -2210,6 +2226,21 @@
       "cost": 120,
       "effect": "While unit lives, all blue tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Tome, Color:B"
+    },
+    "Beast Exp. 1": {
+      "cost": 30,
+      "effect": "While unit lives and uses beast damage, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "restriction": "Beast"
+    },
+    "Beast Exp. 2": {
+      "cost": 60,
+      "effect": "While unit lives, all beast allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "restriction": "Beast"
+    },
+    "Beast Exp. 3": {
+      "cost": 120,
+      "effect": "While unit lives, all beast allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "restriction": "Beast"
     },
     "Beast Valor 1": {
       "cost": 30,

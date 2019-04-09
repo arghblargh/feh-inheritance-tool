@@ -13,6 +13,27 @@
     "Def": 28,
     "Res": 19
   },
+  "Alm: Hero of Prophecy": {
+    "HP": 41,
+    "Atk": 29,
+    "Spd": 26,
+    "Def": 24,
+    "Res": 19
+  },
+  "Amelia: Rose of the War": {
+    "HP": 43,
+    "Atk": 30,
+    "Spd": 30,
+    "Def": 31,
+    "Res": 20
+  },
+  "Ares: Black Knight": {
+    "HP": 36,
+    "Atk": 32,
+    "Spd": 26,
+    "Def": 29,
+    "Res": 15
+  },
   "Arthur: Hapless Hero": {
     "HP": 39,
     "Atk": 28,
@@ -41,12 +62,33 @@
     "Def": 14,
     "Res": 21
   },
+  "Ayra: Astra's Wielder": {
+    "HP": 37,
+    "Atk": 29,
+    "Spd": 33,
+    "Def": 27,
+    "Res": 18
+  },
   "Azama: Carefree Monk": {
     "HP": 39,
     "Atk": 18,
     "Spd": 23,
     "Def": 28,
     "Res": 22
+  },
+  "Azura: Lady of the Lake": {
+    "HP": 33,
+    "Atk": 27,
+    "Spd": 29,
+    "Def": 18,
+    "Res": 24
+  },
+  "Azura: Vallite Songstress": {
+    "HP": 30,
+    "Atk": 26,
+    "Spd": 31,
+    "Def": 14,
+    "Res": 21
   },
   "Barst: The Hatchet": {
     "HP": 42,
@@ -83,6 +125,13 @@
     "Def": 28,
     "Res": 15
   },
+  "Bruno: Masked Hare": {
+    "HP": 37,
+    "Atk": 26,
+    "Spd": 21,
+    "Def": 31,
+    "Res": 12
+  },
   "Caeda: Talys's Heart": {
     "HP": 33,
     "Atk": 22,
@@ -104,6 +153,20 @@
     "Def": 24,
     "Res": 27
   },
+  "Camilla: Flower of Fantasy": {
+    "HP": 33,
+    "Atk": 33,
+    "Spd": 26,
+    "Def": 14,
+    "Res": 26
+  },
+  "Camilla: Steamy Secrets": {
+    "HP": 34,
+    "Atk": 29,
+    "Spd": 31,
+    "Def": 14,
+    "Res": 24
+  },
   "Camus: Sable Knight": {
     "HP": 38,
     "Atk": 28,
@@ -124,6 +187,20 @@
     "Spd": 22,
     "Def": 19,
     "Res": 25
+  },
+  "Cecilia: Festive Instructor": {
+    "HP": 37,
+    "Atk": 31,
+    "Spd": 20,
+    "Def": 26,
+    "Res": 32
+  },
+  "Celica: Caring Princess": {
+    "HP": 35,
+    "Atk": 28,
+    "Spd": 29,
+    "Def": 19,
+    "Res": 19
   },
   "Cherche: Wyvern Friend": {
     "HP": 42,
@@ -167,6 +244,20 @@
     "Def": 19,
     "Res": 22
   },
+  "Corrin: Dream Prince": {
+    "HP": 38,
+    "Atk": 31,
+    "Spd": 31,
+    "Def": 27,
+    "Res": 21
+  },
+  "Corrin: Dream Princess": {
+    "HP": 37,
+    "Atk": 27,
+    "Spd": 33,
+    "Def": 28,
+    "Res": 23
+  },
   "Corrin: Fateful Prince": {
     "HP": 38,
     "Atk": 28,
@@ -181,12 +272,33 @@
     "Def": 30,
     "Res": 18
   },
+  "Deirdre: Lady of the Forest": {
+    "HP": 33,
+    "Atk": 29,
+    "Spd": 24,
+    "Def": 13,
+    "Res": 31
+  },
+  "Delthea: Free Spirit": {
+    "HP": 30,
+    "Atk": 32,
+    "Spd": 30,
+    "Def": 11,
+    "Res": 27
+  },
   "Donnel: Village Hero": {
     "HP": 39,
     "Atk": 31,
     "Spd": 25,
     "Def": 28,
     "Res": 20
+  },
+  "Dorcas: Serene Warrior": {
+    "HP": 41,
+    "Atk": 31,
+    "Spd": 20,
+    "Def": 31,
+    "Res": 21
   },
   "Draug: Gentle Giant": {
     "HP": 46,
@@ -195,12 +307,40 @@
     "Def": 35,
     "Res": 15
   },
+  "Duma: God of Strength": {
+    "HP": 44,
+    "Atk": 36,
+    "Spd": 18,
+    "Def": 30,
+    "Res": 27
+  },
   "Effie: Army of One": {
     "HP": 46,
     "Atk": 36,
     "Spd": 19,
     "Def": 29,
     "Res": 20
+  },
+  "Eir: Merciful Death": {
+    "HP": 32,
+    "Atk": 28,
+    "Spd": 33,
+    "Def": 12,
+    "Res": 27
+  },
+  "Eirika: Gentle as Snow": {
+    "HP": 38,
+    "Atk": 32,
+    "Spd": 20,
+    "Def": 26,
+    "Res": 30
+  },
+  "Eirika: Graceful Resolve": {
+    "HP": 34,
+    "Atk": 27,
+    "Spd": 35,
+    "Def": 24,
+    "Res": 18
   },
   "Eirika: Restoration Lady": {
     "HP": 38,
@@ -209,12 +349,54 @@
     "Def": 23,
     "Res": 24
   },
+  "Eldigan: Lionheart": {
+    "HP": 41,
+    "Atk": 28,
+    "Spd": 21,
+    "Def": 30,
+    "Res": 16
+  },
+  "Elincia: Lost Princess": {
+    "HP": 32,
+    "Atk": 30,
+    "Spd": 32,
+    "Def": 21,
+    "Res": 24
+  },
+  "Elise: Bubbling Flower": {
+    "HP": 31,
+    "Atk": 29,
+    "Spd": 33,
+    "Def": 15,
+    "Res": 19
+  },
+  "Elise: Budding Flower": {
+    "HP": 27,
+    "Atk": 28,
+    "Spd": 28,
+    "Def": 16,
+    "Res": 28
+  },
   "Eliwood: Knight of Lycia": {
     "HP": 35,
     "Atk": 27,
     "Spd": 26,
     "Def": 20,
     "Res": 28
+  },
+  "Ephraim: Restoration Lord": {
+    "HP": 41,
+    "Atk": 31,
+    "Spd": 22,
+    "Def": 28,
+    "Res": 17
+  },
+  "Ephraim: Sparkling Gallantly": {
+    "HP": 41,
+    "Atk": 37,
+    "Spd": 20,
+    "Def": 32,
+    "Res": 25
   },
   "Est: Junior Whitewing": {
     "HP": 33,
@@ -230,6 +412,20 @@
     "Def": 22,
     "Res": 26
   },
+  "Fae: Holiday Dear": {
+    "HP": 41,
+    "Atk": 31,
+    "Spd": 22,
+    "Def": 29,
+    "Res": 36
+  },
+  "Faye: Devoted Heart": {
+    "HP": 38,
+    "Atk": 26,
+    "Spd": 21,
+    "Def": 22,
+    "Res": 27
+  },
   "Felicia: Maid Mayhem": {
     "HP": 31,
     "Atk": 20,
@@ -243,6 +439,13 @@
     "Spd": 32,
     "Def": 21,
     "Res": 27
+  },
+  "Fjorm: New Traditions": {
+    "HP": 35,
+    "Atk": 31,
+    "Spd": 31,
+    "Def": 17,
+    "Res": 18
   },
   "Florina: Lovely Flier": {
     "HP": 38,
@@ -272,6 +475,13 @@
     "Def": 29,
     "Res": 28
   },
+  "Genny: Endearing Ally": {
+    "HP": 29,
+    "Atk": 31,
+    "Spd": 22,
+    "Def": 18,
+    "Res": 30
+  },
   "Gharnef: Dark Pontifex": {
     "HP": 34,
     "Atk": 26,
@@ -285,6 +495,20 @@
     "Spd": 22,
     "Def": 28,
     "Res": 14
+  },
+  "Gray: Wry Comrade": {
+    "HP": 39,
+    "Atk": 31,
+    "Spd": 28,
+    "Def": 26,
+    "Res": 19
+  },
+  "Gunnthrá: Year's First Dream": {
+    "HP": 34,
+    "Atk": 30,
+    "Spd": 33,
+    "Def": 24,
+    "Res": 22
   },
   "Gunter: Inveterate Soldier": {
     "HP": 39,
@@ -314,6 +538,13 @@
     "Def": 24,
     "Res": 26
   },
+  "Hector: General of Ostia": {
+    "HP": 48,
+    "Atk": 32,
+    "Spd": 21,
+    "Def": 33,
+    "Res": 16
+  },
   "Henry: Twisted Mind": {
     "HP": 41,
     "Atk": 20,
@@ -327,6 +558,62 @@
     "Spd": 21,
     "Def": 32,
     "Res": 15
+  },
+  "Hinoka: Relaxed Warrior": {
+    "HP": 34,
+    "Atk": 31,
+    "Spd": 31,
+    "Def": 13,
+    "Res": 23
+  },
+  "Hinoka: Warrior Princess": {
+    "HP": 37,
+    "Atk": 31,
+    "Spd": 28,
+    "Def": 22,
+    "Res": 21
+  },
+  "Hríd: Icy Blade": {
+    "HP": 37,
+    "Atk": 33,
+    "Spd": 14,
+    "Def": 32,
+    "Res": 22
+  },
+  "Hríd: Resolute Prince": {
+    "HP": 38,
+    "Atk": 34,
+    "Spd": 16,
+    "Def": 32,
+    "Res": 23
+  },
+  "Ike: Brave Mercenary": {
+    "HP": 39,
+    "Atk": 32,
+    "Spd": 24,
+    "Def": 31,
+    "Res": 17
+  },
+  "Ike: Young Mercenary": {
+    "HP": 38,
+    "Atk": 31,
+    "Spd": 27,
+    "Def": 28,
+    "Res": 15
+  },
+  "Innes: Regal Strategician": {
+    "HP": 32,
+    "Atk": 29,
+    "Spd": 30,
+    "Def": 12,
+    "Res": 27
+  },
+  "Jaffar: Angel of Death": {
+    "HP": 37,
+    "Atk": 23,
+    "Spd": 29,
+    "Def": 22,
+    "Res": 19
   },
   "Jagen: Veteran Knight": {
     "HP": 34,
@@ -356,12 +643,26 @@
     "Def": 21,
     "Res": 19
   },
+  "Julia: Naga's Blood": {
+    "HP": 34,
+    "Atk": 31,
+    "Spd": 23,
+    "Def": 14,
+    "Res": 28
+  },
   "Julius: Scion of Darkness": {
     "HP": 34,
     "Atk": 31,
     "Spd": 24,
     "Def": 13,
     "Res": 31
+  },
+  "Kaden: Kitsune Braggart": {
+    "HP": 34,
+    "Atk": 28,
+    "Spd": 32,
+    "Def": 22,
+    "Res": 22
   },
   "Kagero: Honorable Ninja": {
     "HP": 28,
@@ -377,12 +678,33 @@
     "Def": 27,
     "Res": 25
   },
+  "Karel: Sword Demon": {
+    "HP": 43,
+    "Atk": 26,
+    "Spd": 31,
+    "Def": 22,
+    "Res": 17
+  },
+  "Katarina: Wayward One": {
+    "HP": 31,
+    "Atk": 28,
+    "Spd": 30,
+    "Def": 13,
+    "Res": 28
+  },
   "Kaze: Easygoing Ninja": {
     "HP": 31,
     "Atk": 26,
     "Spd": 32,
     "Def": 14,
     "Res": 30
+  },
+  "Keaton: Lupine Collector": {
+    "HP": 41,
+    "Atk": 37,
+    "Spd": 21,
+    "Def": 34,
+    "Res": 16
   },
   "Klein: Silver Nobleman": {
     "HP": 36,
@@ -391,12 +713,40 @@
     "Def": 17,
     "Res": 21
   },
+  "Kliff: Curious Spirit": {
+    "HP": 33,
+    "Atk": 26,
+    "Spd": 32,
+    "Def": 21,
+    "Res": 25
+  },
+  "L'Arachel: Princess of Light": {
+    "HP": 30,
+    "Atk": 29,
+    "Spd": 27,
+    "Def": 14,
+    "Res": 27
+  },
   "Lachesis: Lionheart's Sister": {
     "HP": 35,
     "Atk": 28,
     "Spd": 22,
     "Def": 19,
     "Res": 26
+  },
+  "Laegjarn: New Experiences": {
+    "HP": 34,
+    "Atk": 28,
+    "Spd": 31,
+    "Def": 31,
+    "Res": 14
+  },
+  "Laevatein: Kumade Warrior": {
+    "HP": 30,
+    "Atk": 32,
+    "Spd": 26,
+    "Def": 24,
+    "Res": 15
   },
   "Laslow: Dancing Duelist": {
     "HP": 40,
@@ -405,12 +755,33 @@
     "Def": 26,
     "Res": 19
   },
+  "Leanne: Forest's Song": {
+    "HP": 32,
+    "Atk": 23,
+    "Spd": 33,
+    "Def": 13,
+    "Res": 30
+  },
+  "Legault: The Hurricane": {
+    "HP": 35,
+    "Atk": 27,
+    "Spd": 34,
+    "Def": 21,
+    "Res": 16
+  },
   "Legion: Masked Maniac": {
     "HP": 42,
     "Atk": 32,
     "Spd": 31,
     "Def": 19,
     "Res": 15
+  },
+  "Leo: Sorcerous Prince": {
+    "HP": 35,
+    "Atk": 25,
+    "Spd": 19,
+    "Def": 22,
+    "Res": 26
   },
   "Leon: True of Heart": {
     "HP": 35,
@@ -419,12 +790,26 @@
     "Def": 26,
     "Res": 13
   },
+  "Libra: Fetching Friar": {
+    "HP": 36,
+    "Atk": 31,
+    "Spd": 28,
+    "Def": 24,
+    "Res": 25
+  },
   "Lilina: Delightful Noble": {
     "HP": 32,
     "Atk": 33,
     "Spd": 22,
     "Def": 16,
     "Res": 27
+  },
+  "Linde: Light Mage": {
+    "HP": 32,
+    "Atk": 31,
+    "Spd": 32,
+    "Def": 12,
+    "Res": 23
   },
   "Linus: Mad Dog": {
     "HP": 38,
@@ -454,6 +839,20 @@
     "Def": 19,
     "Res": 19
   },
+  "Lucina: Brave Princess": {
+    "HP": 37,
+    "Atk": 30,
+    "Spd": 32,
+    "Def": 24,
+    "Res": 16
+  },
+  "Lucina: Future Witness": {
+    "HP": 39,
+    "Atk": 30,
+    "Spd": 32,
+    "Def": 22,
+    "Res": 16
+  },
   "Lucius: The Light": {
     "HP": 34,
     "Atk": 28,
@@ -461,12 +860,47 @@
     "Def": 11,
     "Res": 31
   },
+  "Lugh: Anima Child": {
+    "HP": 34,
+    "Atk": 31,
+    "Spd": 32,
+    "Def": 14,
+    "Res": 27
+  },
   "Lukas: Sharp Soldier": {
     "HP": 41,
     "Atk": 31,
     "Spd": 19,
     "Def": 34,
     "Res": 14
+  },
+  "Luke: Rowdy Squire": {
+    "HP": 39,
+    "Atk": 30,
+    "Spd": 24,
+    "Def": 26,
+    "Res": 17
+  },
+  "Lute: Prodigy": {
+    "HP": 30,
+    "Atk": 32,
+    "Spd": 28,
+    "Def": 13,
+    "Res": 30
+  },
+  "Lyn: Brave Lady": {
+    "HP": 32,
+    "Atk": 29,
+    "Spd": 31,
+    "Def": 15,
+    "Res": 24
+  },
+  "Lyn: Lady of the Plains": {
+    "HP": 34,
+    "Atk": 24,
+    "Spd": 33,
+    "Def": 23,
+    "Res": 25
   },
   "Lyon: Shadow Prince": {
     "HP": 37,
@@ -488,6 +922,13 @@
     "Spd": 30,
     "Def": 16,
     "Res": 28
+  },
+  "Marisa: Crimson Rabbit": {
+    "HP": 38,
+    "Atk": 29,
+    "Spd": 34,
+    "Def": 24,
+    "Res": 18
   },
   "Marth: Altean Prince": {
     "HP": 37,
@@ -517,6 +958,13 @@
     "Def": 24,
     "Res": 16
   },
+  "Mia: Lady of Blades": {
+    "HP": 34,
+    "Atk": 28,
+    "Spd": 36,
+    "Def": 24,
+    "Res": 22
+  },
   "Michalis: Ambitious King": {
     "HP": 39,
     "Atk": 30,
@@ -524,12 +972,54 @@
     "Def": 31,
     "Res": 16
   },
+  "Minerva: Red Dragoon": {
+    "HP": 36,
+    "Atk": 27,
+    "Spd": 29,
+    "Def": 28,
+    "Res": 19
+  },
+  "Mist: Helpful Sister": {
+    "HP": 35,
+    "Atk": 24,
+    "Spd": 24,
+    "Def": 17,
+    "Res": 30
+  },
+  "Mist: Purest Spirit": {
+    "HP": 33,
+    "Atk": 30,
+    "Spd": 30,
+    "Def": 14,
+    "Res": 20
+  },
+  "Morgan: Lad from Afar": {
+    "HP": 34,
+    "Atk": 29,
+    "Spd": 30,
+    "Def": 17,
+    "Res": 23
+  },
+  "Myrrh: Spooky Monster": {
+    "HP": 42,
+    "Atk": 34,
+    "Spd": 20,
+    "Def": 35,
+    "Res": 28
+  },
   "Naesala: Sky's Shadow": {
     "HP": 35,
     "Atk": 28,
     "Spd": 34,
     "Def": 21,
     "Res": 25
+  },
+  "Nanna: Nordion Princess": {
+    "HP": 33,
+    "Atk": 23,
+    "Spd": 30,
+    "Def": 18,
+    "Res": 23
   },
   "Narcian: Wyvern General": {
     "HP": 38,
@@ -545,12 +1035,26 @@
     "Def": 20,
     "Res": 21
   },
+  "Nephenee: Fierce Halberdier": {
+    "HP": 34,
+    "Atk": 27,
+    "Spd": 31,
+    "Def": 30,
+    "Res": 17
+  },
   "Niles: Cruel to Be Kind": {
     "HP": 34,
     "Atk": 22,
     "Spd": 30,
     "Def": 14,
     "Res": 30
+  },
+  "Ninian: Oracle of Destiny": {
+    "HP": 38,
+    "Atk": 21,
+    "Spd": 29,
+    "Def": 20,
+    "Res": 23
   },
   "Nino: Pious Mage": {
     "HP": 30,
@@ -600,6 +1104,13 @@
     "Spd": 29,
     "Def": 23,
     "Res": 22
+  },
+  "Olwen: Blue Mage Knight": {
+    "HP": 31,
+    "Atk": 23,
+    "Spd": 30,
+    "Def": 17,
+    "Res": 26
   },
   "Oscar: Agile Horseman": {
     "HP": 36,
@@ -664,6 +1175,13 @@
     "Def": 23,
     "Res": 22
   },
+  "Reyson: White Prince": {
+    "HP": 33,
+    "Atk": 25,
+    "Spd": 30,
+    "Def": 21,
+    "Res": 22
+  },
   "Robin: High Deliverer": {
     "HP": 36,
     "Atk": 25,
@@ -685,6 +1203,20 @@
     "Def": 22,
     "Res": 21
   },
+  "Roy: Blazing Lion": {
+    "HP": 35,
+    "Atk": 30,
+    "Spd": 34,
+    "Def": 28,
+    "Res": 22
+  },
+  "Roy: Brave Lion": {
+    "HP": 34,
+    "Atk": 28,
+    "Spd": 30,
+    "Def": 23,
+    "Res": 21
+  },
   "Roy: Young Lion": {
     "HP": 40,
     "Atk": 26,
@@ -698,6 +1230,27 @@
     "Spd": 35,
     "Def": 25,
     "Res": 21
+  },
+  "Ryoma: Peerless Samurai": {
+    "HP": 37,
+    "Atk": 30,
+    "Spd": 31,
+    "Def": 23,
+    "Res": 18
+  },
+  "Ryoma: Samurai at Ease": {
+    "HP": 36,
+    "Atk": 31,
+    "Spd": 32,
+    "Def": 24,
+    "Res": 20
+  },
+  "Saber: Driven Mercenary": {
+    "HP": 36,
+    "Atk": 27,
+    "Spd": 29,
+    "Def": 28,
+    "Res": 19
   },
   "Saias: Bishop of Flame": {
     "HP": 33,
@@ -713,12 +1266,26 @@
     "Def": 29,
     "Res": 13
   },
+  "Sakura: Hot-Spring Healer": {
+    "HP": 33,
+    "Atk": 31,
+    "Spd": 28,
+    "Def": 22,
+    "Res": 18
+  },
   "Sakura: Loving Priestess": {
     "HP": 33,
     "Atk": 24,
     "Spd": 26,
     "Def": 21,
     "Res": 26
+  },
+  "Sanaki: Begnion's Apostle": {
+    "HP": 30,
+    "Atk": 33,
+    "Spd": 23,
+    "Def": 14,
+    "Res": 30
   },
   "Selena: Cutting Wit": {
     "HP": 34,
@@ -733,6 +1300,13 @@
     "Spd": 21,
     "Def": 26,
     "Res": 19
+  },
+  "Selkie: Free Spirit": {
+    "HP": 32,
+    "Atk": 25,
+    "Spd": 34,
+    "Def": 16,
+    "Res": 31
   },
   "Serra: Outspoken Cleric": {
     "HP": 30,
@@ -776,6 +1350,48 @@
     "Def": 32,
     "Res": 29
   },
+  "Shigure: Uplifting Artist": {
+    "HP": 36,
+    "Atk": 29,
+    "Spd": 33,
+    "Def": 23,
+    "Res": 22
+  },
+  "Sigurd: Holy Knight": {
+    "HP": 37,
+    "Atk": 31,
+    "Spd": 28,
+    "Def": 30,
+    "Res": 14
+  },
+  "Silas: Loyal Knight": {
+    "HP": 36,
+    "Atk": 31,
+    "Spd": 21,
+    "Def": 32,
+    "Res": 18
+  },
+  "Silvia: Traveling Dancer": {
+    "HP": 36,
+    "Atk": 23,
+    "Spd": 32,
+    "Def": 14,
+    "Res": 26
+  },
+  "Soleil: Adorable Adorer": {
+    "HP": 34,
+    "Atk": 34,
+    "Spd": 31,
+    "Def": 24,
+    "Res": 21
+  },
+  "Sonya: Vengeful Mage": {
+    "HP": 33,
+    "Atk": 29,
+    "Spd": 27,
+    "Def": 13,
+    "Res": 28
+  },
   "Sophia: Nabata Prophet": {
     "HP": 36,
     "Atk": 29,
@@ -783,12 +1399,26 @@
     "Def": 24,
     "Res": 25
   },
+  "Soren: Addled Strategist": {
+    "HP": 34,
+    "Atk": 31,
+    "Spd": 29,
+    "Def": 12,
+    "Res": 21
+  },
   "Soren: Shrewd Strategist": {
     "HP": 33,
     "Atk": 29,
     "Spd": 29,
     "Def": 14,
     "Res": 25
+  },
+  "Sothe: Zephyr": {
+    "HP": 35,
+    "Atk": 32,
+    "Spd": 29,
+    "Def": 19,
+    "Res": 18
   },
   "Stahl: Viridian Knight": {
     "HP": 41,
@@ -804,12 +1434,26 @@
     "Def": 31,
     "Res": 19
   },
+  "Sue: Doe of the Plains": {
+    "HP": 33,
+    "Atk": 28,
+    "Spd": 34,
+    "Def": 20,
+    "Res": 17
+  },
   "Sully: Crimson Knight": {
     "HP": 38,
     "Atk": 23,
     "Spd": 30,
     "Def": 21,
     "Res": 24
+  },
+  "Surtr: Ruler of Flame": {
+    "HP": 45,
+    "Atk": 35,
+    "Spd": 14,
+    "Def": 36,
+    "Res": 29
   },
   "Tailtiu: Thunder Noble": {
     "HP": 35,
@@ -825,12 +1469,47 @@
     "Def": 22,
     "Res": 21
   },
+  "Takumi: Wild Card": {
+    "HP": 36,
+    "Atk": 28,
+    "Spd": 29,
+    "Def": 22,
+    "Res": 15
+  },
+  "Tana: Winged Princess": {
+    "HP": 33,
+    "Atk": 30,
+    "Spd": 32,
+    "Def": 22,
+    "Res": 22
+  },
   "Tharja: Dark Shadow": {
     "HP": 35,
     "Atk": 28,
     "Spd": 30,
     "Def": 20,
     "Res": 17
+  },
+  "Thea: Stormy Flier": {
+    "HP": 34,
+    "Atk": 27,
+    "Spd": 31,
+    "Def": 27,
+    "Res": 24
+  },
+  "Tibarn: Lord of the Air": {
+    "HP": 37,
+    "Atk": 34,
+    "Spd": 27,
+    "Def": 30,
+    "Res": 15
+  },
+  "Tiki: Dragon Scion": {
+    "HP": 37,
+    "Atk": 27,
+    "Spd": 26,
+    "Def": 28,
+    "Res": 25
   },
   "Tiki: Naga's Voice": {
     "HP": 36,
@@ -846,6 +1525,13 @@
     "Def": 22,
     "Res": 26
   },
+  "Titania: Warm Knight": {
+    "HP": 32,
+    "Atk": 26,
+    "Spd": 29,
+    "Def": 14,
+    "Res": 26
+  },
   "Ursula: Blue Crow": {
     "HP": 32,
     "Atk": 25,
@@ -859,6 +1545,20 @@
     "Spd": 27,
     "Def": 30,
     "Res": 16
+  },
+  "Velouria: Wolf Cub": {
+    "HP": 36,
+    "Atk": 31,
+    "Spd": 33,
+    "Def": 29,
+    "Res": 20
+  },
+  "Veronica: Spring Princess": {
+    "HP": 34,
+    "Atk": 31,
+    "Spd": 32,
+    "Def": 13,
+    "Res": 22
   },
   "Virion: Elite Archer": {
     "HP": 42,
@@ -887,6 +1587,13 @@
     "Spd": 21,
     "Def": 33,
     "Res": 14
+  },
+  "Yune: Chaos Goddess": {
+    "HP": 34,
+    "Atk": 29,
+    "Spd": 23,
+    "Def": 13,
+    "Res": 33
   },
   "Zephiel: The Liberator": {
     "HP": 51,

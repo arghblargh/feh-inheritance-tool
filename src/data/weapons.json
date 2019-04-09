@@ -13,6 +13,14 @@
     "might": 7,
     "effect": "Restores HP = 50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit."
   },
+  "Adult (Armored)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 200,
+    "might": 9,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.",
+    "restriction": "Armored"
+  },
   "Adult (Cavalry)": {
     "color": "",
     "type": "Beast",
@@ -3454,6 +3462,14 @@
     "effect": "Grants Spd+3. At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
     "restriction": "Exclusive"
   },
+  "Whelp (Armored)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 200,
+    "might": 9,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.",
+    "restriction": "Armored"
+  },
   "Whelp (Cavalry)": {
     "color": "",
     "type": "Beast",
@@ -3590,6 +3606,14 @@
     "effect": "If unit initiates combat, grants Spd+4 during combat.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Yearling (Armored)": {
+    "color": "",
+    "type": "Beast",
+    "cost": 100,
+    "might": 6,
+    "effect": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.",
+    "restriction": "Armored"
   },
   "Yearling (Cavalry)": {
     "color": "",
@@ -4028,5 +4052,73 @@
     "might": 14,
     "effect": "Grants Res+3. If a penalty inflicted by a skill like Panic or Threaten and/or a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack.",
     "restriction": "Exclusive"
+  },
+  "Lion King Fang": {
+    "color": "Neutral",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Atk+3. If foe initiates combat, grants Atk/Spd/Def/Res+4 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.",
+    "restriction": "Exclusive"
+  },
+  "Sabertooth Fang": {
+    "color": "Blue",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Def+3.If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces of unit and target through their next actions after movement. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "restriction": "Exclusive"
+  },
+  "Brazen Cat Fang": {
+    "color": "Red",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit is not adjacent to an ally, grants Spd/Def+6 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Covert Cat Fang": {
+    "color": "Green",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Def+3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies within 2 spaces during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Panther Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "During combat, boosts unit's Atk/Def by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.)",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Bull Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "During combat, boosts unit's Atk/Def by number of allies within 2 spaces x 2. (Maximum bonus of +6 to each stat.)",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Peri's Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Hana's Katana": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }

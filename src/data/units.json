@@ -21,6 +21,9 @@
         },
         {
           "name": "Brave Lance+"
+        },
+        {
+          "name": "Panther Lance"
         }
       ],
       "special": [
@@ -1552,6 +1555,9 @@
         },
         {
           "name": "Brave Sword+"
+        },
+        {
+          "name": "Bull Blade"
         }
       ],
       "special": [
@@ -5854,6 +5860,9 @@
         },
         {
           "name": "Armorslayer+"
+        },
+        {
+          "name": "Hana's Katana"
         }
       ],
       "assist": [
@@ -13470,6 +13479,9 @@
         },
         {
           "name": "Killer Lance+"
+        },
+        {
+          "name": "Peri's Lance"
         }
       ],
       "special": [
@@ -22331,6 +22343,330 @@
       "passiveC": [
         {
           "name": "Chaos Named"
+        }
+      ]
+    }
+  },
+  "Haar: Black Tempest": {
+    "name": "Haar",
+    "title": "Black Tempest",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Brave Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Brave Axe+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Guard 1",
+          "unlock": 3
+        },
+        {
+          "name": "Guard 2",
+          "unlock": 4
+        },
+        {
+          "name": "Guard 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Def Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Def Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Def Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Caineghis: Gallia's Lion King": {
+    "name": "Caineghis",
+    "title": "Gallia's Lion King",
+    "color": "Neutral",
+    "wpnType": "Beast",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Armored)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Armored)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Armored)",
+          "unlock": 3
+        },
+        {
+          "name": "Lion King Fang"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Def 1",
+          "unlock": 2
+        },
+        {
+          "name": "Distant Def 2",
+          "unlock": 3
+        },
+        {
+          "name": "Distant Def 3",
+          "unlock": 4
+        },
+        {
+          "name": "Distant Def 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeful Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Distant Guard 1",
+          "unlock": 1
+        },
+        {
+          "name": "Distant Guard 2",
+          "unlock": 2
+        },
+        {
+          "name": "Distant Guard 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Mordecai: Kindhearted Tiger": {
+    "name": "Mordecai",
+    "title": "Kindhearted Tiger",
+    "color": "Blue",
+    "wpnType": "Beast",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Infantry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Infantry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Infantry)",
+          "unlock": 3
+        },
+        {
+          "name": "Sabertooth Fang"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Smite",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Def Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Beast Exp. 1",
+          "unlock": 1
+        },
+        {
+          "name": "Beast Exp. 2",
+          "unlock": 2
+        },
+        {
+          "name": "Beast Exp. 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Lethe: Gallia's Valkyrie": {
+    "name": "Lethe",
+    "title": "Gallia's Valkyrie",
+    "color": "Red",
+    "wpnType": "Beast",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Cavalry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Cavalry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Cavalry)",
+          "unlock": 3
+        },
+        {
+          "name": "Brazen Cat Fang"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Spd/Def Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd/Def Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd/Def Solo 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Beasts",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Ranulf: Friend of Nations": {
+    "name": "Ranulf",
+    "title": "Friend of Nations",
+    "color": "Green",
+    "wpnType": "Beast",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Cavalry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Cavalry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Cavalry)",
+          "unlock": 3
+        },
+        {
+          "name": "Covert Cat Fang"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Atk/Def",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Def+",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Atk 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spur Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Ward Beasts",
+          "unlock": 4
         }
       ]
     }
