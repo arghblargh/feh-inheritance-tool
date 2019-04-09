@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0605bf80c0d583d7ad4a",
-    "url": "/feh-inheritance-tool/static/css/main.133e31c1.chunk.css"
+    "revision": "aeaf5136492102c530ae",
+    "url": "/feh-inheritance-tool/static/css/main.99d85f4b.chunk.css"
   },
   {
-    "revision": "0605bf80c0d583d7ad4a",
-    "url": "/feh-inheritance-tool/static/js/main.0605bf80.chunk.js"
+    "revision": "aeaf5136492102c530ae",
+    "url": "/feh-inheritance-tool/static/js/main.aeaf5136.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -134,6 +134,10 @@ self.__precacheManifest = [
   {
     "revision": "19b1ecf53de7795e744e9b210660b7dc",
     "url": "/feh-inheritance-tool/static/media/Cain_The_Bull.19b1ecf5.png"
+  },
+  {
+    "revision": "311ffaa03f8ebc8a5cd564ae5a815ee4",
+    "url": "/feh-inheritance-tool/static/media/Caineghis_Gallias_Lion_King.311ffaa0.png"
   },
   {
     "revision": "5bea1d41b61a4ac3c2b102f18fdfe5f9",
@@ -480,6 +484,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Gwendolyn_Adorable_Knight.8f153258.png"
   },
   {
+    "revision": "5ed6d073d222bd1dd76257d8309aad3d",
+    "url": "/feh-inheritance-tool/static/media/Haar_Black_Tempest.5ed6d073.png"
+  },
+  {
     "revision": "4697b873e3c8234626e72167c2733a2b",
     "url": "/feh-inheritance-tool/static/media/Hana_Focused_Samurai.4697b873.png"
   },
@@ -728,6 +736,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Leon_True_of_Heart.b8aa3bcd.png"
   },
   {
+    "revision": "7a475e0fd07199866110f9763f2afe35",
+    "url": "/feh-inheritance-tool/static/media/Lethe_Gallias_Valkyrie.7a475e0f.png"
+  },
+  {
     "revision": "8b5098d81bc94dfa14c8b3b2b2bc1b91",
     "url": "/feh-inheritance-tool/static/media/Lewyn_Guiding_Breeze.8b5098d8.png"
   },
@@ -924,6 +936,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Mist_Purest_Spirit.918ce6da.png"
   },
   {
+    "revision": "798af03aa9ba487b4b5c0d1d60e247d4",
+    "url": "/feh-inheritance-tool/static/media/Mordecai_Kindhearted_Tiger.798af03a.png"
+  },
+  {
     "revision": "69a23672aa56cdf40e1bbce26cecf7d4",
     "url": "/feh-inheritance-tool/static/media/Morgan_Lad_from_Afar.69a23672.png"
   },
@@ -1078,6 +1094,10 @@ self.__precacheManifest = [
   {
     "revision": "eac06b3d82254c4ebf56138ee768715b",
     "url": "/feh-inheritance-tool/static/media/Raigh_Dark_Child.eac06b3d.png"
+  },
+  {
+    "revision": "574ffb6cad9950d006703a87565b372b",
+    "url": "/feh-inheritance-tool/static/media/Ranulf_Friend_of_Nations.574ffb6c.png"
   },
   {
     "revision": "0969379fc1ed97b6d9e125b1bc02aa47",
@@ -1464,7 +1484,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "201e460c126c59064301f3859deb2844",
+    "revision": "0ac7a6ae9333a014b4fdf8b9b201e6c8",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
