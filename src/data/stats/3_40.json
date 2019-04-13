@@ -146,6 +146,13 @@
     "Def": 24,
     "Res": 18
   },
+  "Caineghis: Gallia's Lion King": {
+    "HP": 43,
+    "Atk": 33,
+    "Spd": 20,
+    "Def": 33,
+    "Res": 26
+  },
   "Camilla: Bewitching Beauty": {
     "HP": 34,
     "Atk": 26,
@@ -524,6 +531,13 @@
     "Def": 34,
     "Res": 24
   },
+  "Haar: Black Tempest": {
+    "HP": 41,
+    "Atk": 33,
+    "Spd": 22,
+    "Def": 32,
+    "Res": 15
+  },
   "Hana: Focused Samurai": {
     "HP": 34,
     "Atk": 31,
@@ -790,6 +804,13 @@
     "Def": 26,
     "Res": 13
   },
+  "Lethe: Gallia's Valkyrie": {
+    "HP": 37,
+    "Atk": 29,
+    "Spd": 34,
+    "Def": 22,
+    "Res": 16
+  },
   "Libra: Fetching Friar": {
     "HP": 36,
     "Atk": 31,
@@ -993,6 +1014,13 @@
     "Def": 14,
     "Res": 20
   },
+  "Mordecai: Kindhearted Tiger": {
+    "HP": 43,
+    "Atk": 33,
+    "Spd": 21,
+    "Def": 35,
+    "Res": 17
+  },
   "Morgan: Lad from Afar": {
     "HP": 34,
     "Atk": 29,
@@ -1153,6 +1181,13 @@
     "Spd": 25,
     "Def": 19,
     "Res": 25
+  },
+  "Ranulf: Friend of Nations": {
+    "HP": 36,
+    "Atk": 26,
+    "Spd": 33,
+    "Def": 29,
+    "Res": 14
   },
   "Raven: Peerless Fighter": {
     "HP": 37,
