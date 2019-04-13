@@ -1,7 +1,7 @@
 {
   "main.css": "/feh-inheritance-tool/static/css/main.99d85f4b.chunk.css",
-  "main.js": "/feh-inheritance-tool/static/js/main.aeaf5136.chunk.js",
-  "main.js.map": "/feh-inheritance-tool/static/js/main.aeaf5136.chunk.js.map",
+  "main.js": "/feh-inheritance-tool/static/js/main.f46b110a.chunk.js",
+  "main.js.map": "/feh-inheritance-tool/static/js/main.f46b110a.chunk.js.map",
   "static/js/1.902fef7d.chunk.js": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js",
   "static/js/1.902fef7d.chunk.js.map": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js.map",
   "runtime~main.js": "/feh-inheritance-tool/static/js/runtime~main.9075a52a.js",
@@ -375,6 +375,6 @@
   "static/media/Zephiel_The_Liberator.png": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png",
   "static/css/main.99d85f4b.chunk.css.map": "/feh-inheritance-tool/static/css/main.99d85f4b.chunk.css.map",
   "index.html": "/feh-inheritance-tool/index.html",
-  "precache-manifest.2c7b9d18e8bbdf840ac24dea10111a2d.js": "/feh-inheritance-tool/precache-manifest.2c7b9d18e8bbdf840ac24dea10111a2d.js",
+  "precache-manifest.2e876af8c5fdc62c87d1d2cb2ee65cb1.js": "/feh-inheritance-tool/precache-manifest.2e876af8c5fdc62c87d1d2cb2ee65cb1.js",
   "service-worker.js": "/feh-inheritance-tool/service-worker.js"
 }
