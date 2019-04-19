@@ -123,6 +123,15 @@
   "Breath of Life 3": {
     "effect": "If unit initiates combat, restores 7 HP to adjacent allies after combat."
   },
+  "Chill Atk 1": {
+    "effect": "At the start of each turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action."
+  },
+  "Chill Atk 2": {
+    "effect": "At the start of each turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action."
+  },
+  "Chill Atk 3": {
+    "effect": "At the start of each turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."
+  },
   "Close Def 1": {
     "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Def/Res+2 during combat."
   },
@@ -266,6 +275,15 @@
   },
   "Even Def Wave 3": {
     "effect": "At start of even-numbered turns, grants Def+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  "Even Res Wave 1": {
+    "effect": "At start of even-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  "Even Res Wave 2": {
+    "effect": "At start of even-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  "Even Res Wave 3": {
+    "effect": "At start of even-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
   },
   "Fierce Stance 1": {
     "effect": "If foe initiates combat, grants Atk+2 during combat.",
@@ -712,6 +730,15 @@
   },
   "Water Boost 3": {
     "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Res+6 during combat."
+  },
+  "Wind Boost 1": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Spd+2 during combat."
+  },
+  "Wind Boost 2": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Spd+4 during combat."
+  },
+  "Wind Boost 3": {
+    "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Spd+6 during combat."
   },
   "Initiate Seal Atk 1": {
     "effect": "Grants Atk+1."

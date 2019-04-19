@@ -22670,5 +22670,361 @@
         }
       ]
     }
+  },
+  "Felicia: Off the Menu": {
+    "name": "Felicia",
+    "title": "Off the Menu",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Eldhrímnir"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Spd/Def Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd/Def Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd/Def Bond 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Close Guard 1",
+          "unlock": 3
+        },
+        {
+          "name": "Close Guard 2",
+          "unlock": 4
+        },
+        {
+          "name": "Close Guard 3"
+        }
+      ]
+    }
+  },
+  "Flora: Signature Dish": {
+    "name": "Flora",
+    "title": "Signature Dish",
+    "color": "Red",
+    "wpnType": "Dagger",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Sæhrímnir"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "AR-D Atk/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "AR-D Atk/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "AR-D Atk/Res 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 1
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 2
+        },
+        {
+          "name": "Armor March 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Genny: Dressed with Care": {
+    "name": "Genny",
+    "title": "Dressed with Care",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Toasty Skewer",
+          "unlock": 3
+        },
+        {
+          "name": "Toasty Skewer+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Physic",
+          "unlock": 3
+        },
+        {
+          "name": "Physic+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Kindled-Fire Balm",
+          "unlock": 3
+        },
+        {
+          "name": "Fireflood Balm",
+          "unlock": 4
+        },
+        {
+          "name": "Fireflood Balm+"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrathful Staff 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrathful Staff 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrathful Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Opening 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def Opening 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def Opening 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Lukas: Buffet for One": {
+    "name": "Lukas",
+    "title": "Buffet for One",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Luncheon Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Luncheon Lance+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Pivot",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "AR-O Atk/Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "AR-O Atk/Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "AR-O Atk/Def 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wary Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wary Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wary Fighter 3"
+        }
+      ]
+    }
+  },
+  "Leo: Extra Tomatoes": {
+    "name": "Leo",
+    "title": "Extra Tomatoes",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Sandwiches!",
+          "unlock": 3
+        },
+        {
+          "name": "Sandwiches!+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Distant Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Distant Def 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Quick Riposte 1",
+          "unlock": 3
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 4
+        },
+        {
+          "name": "Quick Riposte 3"
+        }
+      ]
+    }
   }
 }

@@ -440,6 +440,13 @@
     "Def": 2,
     "Res": 8
   },
+  "Felicia: Off the Menu": {
+    "HP": 20,
+    "Atk": 7,
+    "Spd": 10,
+    "Def": 7,
+    "Res": 6
+  },
   "Fir: Sword Student": {
     "HP": 18,
     "Atk": 5,
@@ -453,6 +460,13 @@
     "Spd": 8,
     "Def": 4,
     "Res": 3
+  },
+  "Flora: Signature Dish": {
+    "HP": 18,
+    "Atk": 11,
+    "Spd": 4,
+    "Def": 6,
+    "Res": 9
   },
   "Florina: Lovely Flier": {
     "HP": 17,
@@ -480,6 +494,13 @@
     "Atk": 8,
     "Spd": 4,
     "Def": 8,
+    "Res": 7
+  },
+  "Genny: Dressed with Care": {
+    "HP": 15,
+    "Atk": 9,
+    "Spd": 4,
+    "Def": 3,
     "Res": 7
   },
   "Genny: Endearing Ally": {
@@ -790,6 +811,13 @@
     "Def": 4,
     "Res": 2
   },
+  "Leo: Extra Tomatoes": {
+    "HP": 14,
+    "Atk": 10,
+    "Spd": 5,
+    "Def": 4,
+    "Res": 5
+  },
   "Leo: Sorcerous Prince": {
     "HP": 16,
     "Atk": 6,
@@ -887,6 +915,13 @@
     "Spd": 11,
     "Def": 3,
     "Res": 6
+  },
+  "Lukas: Buffet for One": {
+    "HP": 24,
+    "Atk": 8,
+    "Spd": 5,
+    "Def": 11,
+    "Res": 2
   },
   "Lukas: Sharp Soldier": {
     "HP": 18,

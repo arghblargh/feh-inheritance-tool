@@ -4120,5 +4120,65 @@
     "effect": "Effective against armored foes.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Eldhrímnir": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against beast foes. Grants Spd+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Spd by 50% of difference between stats during combat. (Calculates reduction before combat. Maximum penalty of -8.)",
+    "restriction": "Exclusive"
+  },
+  "Sæhrímnir": {
+    "color": "Red",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat. (Calculates reduction before combat. Maximum penalty of -8.) After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action.",
+    "restriction": "Exclusive"
+  },
+  "Luncheon Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Atk/Def+4 during combat."
+  },
+  "Luncheon Lance+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Atk/Def+4 during combat.",
+    "upgrade": "-"
+  },
+  "Sandwiches!": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If foe initiates combat, grants Atk/Res+4 during combat."
+  },
+  "Sandwiches!+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If foe initiates combat, grants Atk/Res+4 during combat.",
+    "upgrade": "-"
+  },
+  "Toasty Skewer": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "If a foe initiates combat against an ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat."
+  },
+  "Toasty Skewer+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "If a foe initiates combat against an ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat."
   }
 }
