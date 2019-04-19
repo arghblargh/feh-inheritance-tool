@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f46b110ab6bb77c27eb2",
-    "url": "/feh-inheritance-tool/static/css/main.99d85f4b.chunk.css"
+    "revision": "d3a440f8effaf0f4697e",
+    "url": "/feh-inheritance-tool/static/css/main.a83f129a.chunk.css"
   },
   {
-    "revision": "f46b110ab6bb77c27eb2",
-    "url": "/feh-inheritance-tool/static/js/main.f46b110a.chunk.js"
+    "revision": "d3a440f8effaf0f4697e",
+    "url": "/feh-inheritance-tool/static/js/main.d3a440f8.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -400,6 +400,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Felicia_Maid_Mayhem.a01c1f42.png"
   },
   {
+    "revision": "299ccdd5f784c26c026b7b6501df4176",
+    "url": "/feh-inheritance-tool/static/media/Felicia_Off_the_Menu.299ccdd5.png"
+  },
+  {
     "revision": "1e2982e688a1948ceb2c31915592dade",
     "url": "/feh-inheritance-tool/static/media/Finn_Lance_of_Legend.1e2982e6.png"
   },
@@ -418,6 +422,10 @@ self.__precacheManifest = [
   {
     "revision": "4aacf47d7e4659f0cbf5050abacb03be",
     "url": "/feh-inheritance-tool/static/media/Flora_Cold_as_Ice.4aacf47d.png"
+  },
+  {
+    "revision": "190363f45613d50e57119f9b56a9ad67",
+    "url": "/feh-inheritance-tool/static/media/Flora_Signature_Dish.190363f4.png"
   },
   {
     "revision": "ccb2319fdeaf437e14d61485a574bcb1",
@@ -442,6 +450,10 @@ self.__precacheManifest = [
   {
     "revision": "3b03f191dffffa4cd708f9ec2d45677d",
     "url": "/feh-inheritance-tool/static/media/Garon_King_of_Nohr.3b03f191.png"
+  },
+  {
+    "revision": "81c0a1aedc0104b2f70926f2177b494f",
+    "url": "/feh-inheritance-tool/static/media/Genny_Dressed_with_Care.81c0a1ae.png"
   },
   {
     "revision": "25d00b75912ee6c538c84d0e406eb513",
@@ -724,6 +736,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Lene_Yearning_Dancer.3278998d.png"
   },
   {
+    "revision": "41674f5dcaa125e882046f7b496ca82d",
+    "url": "/feh-inheritance-tool/static/media/Leo_Extra_Tomatoes.41674f5d.png"
+  },
+  {
     "revision": "7f80cfc741879c0baf8395efae19b81f",
     "url": "/feh-inheritance-tool/static/media/Leo_Seashores_Prince.7f80cfc7.png"
   },
@@ -814,6 +830,10 @@ self.__precacheManifest = [
   {
     "revision": "740be7238aee5e1285801794459879d3",
     "url": "/feh-inheritance-tool/static/media/Lugh_Anima_Child.740be723.png"
+  },
+  {
+    "revision": "87a8ae8ac3d864a85e4dae4863f0e612",
+    "url": "/feh-inheritance-tool/static/media/Lukas_Buffet_for_One.87a8ae8a.png"
   },
   {
     "revision": "82ea59ab0d9ae57c1b16dfc7f84ab4e5",
@@ -1484,7 +1504,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "acd4b0bed3db63d9e7f04d446782dd14",
+    "revision": "26068893f01455492e21bb125efa99ef",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
