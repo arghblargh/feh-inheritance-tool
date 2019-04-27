@@ -20,6 +20,13 @@
     "Def": 24,
     "Res": 19
   },
+  "Alm: Saint-King": {
+    "HP": 36,
+    "Atk": 33,
+    "Spd": 33,
+    "Def": 22,
+    "Res": 19
+  },
   "Amelia: Rose of the War": {
     "HP": 43,
     "Atk": 30,
@@ -881,6 +888,13 @@
     "Def": 17,
     "Res": 26
   },
+  "Loki: Spring Trickster": {
+    "HP": 35,
+    "Atk": 27,
+    "Spd": 30,
+    "Def": 23,
+    "Res": 22
+  },
   "Lon'qu: Solitary Blade": {
     "HP": 41,
     "Atk": 25,
@@ -1174,6 +1188,13 @@
     "Spd": 30,
     "Def": 17,
     "Res": 26
+  },
+  "Ophelia: Dramatic Heroine": {
+    "HP": 34,
+    "Atk": 33,
+    "Spd": 29,
+    "Def": 17,
+    "Res": 20
   },
   "Oscar: Agile Horseman": {
     "HP": 36,

@@ -320,6 +320,11 @@
       "effect": "If unit initiates combat, grants Spd+6 during combat.",
       "restriction": "Offense"
     },
+    "Darting Blow 4": {
+      "cost": 200,
+      "effect": "If unit initiates combat, grants Spd+9 during combat.",
+      "restriction": "Offense"
+    },
     "Darting Stance 1": {
       "cost": 50,
       "effect": "If foe initiates combat, grants Spd+2 during combat.",

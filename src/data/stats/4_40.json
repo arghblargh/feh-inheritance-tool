@@ -20,6 +20,13 @@
     "Def": 25,
     "Res": 20
   },
+  "Alm: Saint-King": {
+    "HP": 37,
+    "Atk": 35,
+    "Spd": 35,
+    "Def": 23,
+    "Res": 20
+  },
   "Amelia: Rose of the War": {
     "HP": 44,
     "Atk": 31,
@@ -1293,6 +1300,13 @@
     "Spd": 32,
     "Def": 18,
     "Res": 27
+  },
+  "Ophelia: Dramatic Heroine": {
+    "HP": 35,
+    "Atk": 34,
+    "Spd": 31,
+    "Def": 18,
+    "Res": 22
   },
   "Oscar: Agile Horseman": {
     "HP": 37,

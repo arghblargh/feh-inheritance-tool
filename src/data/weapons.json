@@ -4180,5 +4180,13 @@
     "cost": 300,
     "might": 12,
     "effect": "If a foe initiates combat against an ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat."
+  },
+  "Luna Arc": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash.)",
+    "restriction": "Exclusive"
   }
 }

@@ -27,6 +27,13 @@
     "Def": 50,
     "Res": 40
   },
+  "Alm: Saint-King": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 50,
+    "Res": 45
+  },
   "Amelia: Rose of the War": {
     "HP": 65,
     "Atk": 65,
