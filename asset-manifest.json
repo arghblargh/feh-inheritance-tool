@@ -1,7 +1,7 @@
 {
-  "main.css": "/feh-inheritance-tool/static/css/main.a83f129a.chunk.css",
-  "main.js": "/feh-inheritance-tool/static/js/main.3f373e17.chunk.js",
-  "main.js.map": "/feh-inheritance-tool/static/js/main.3f373e17.chunk.js.map",
+  "main.css": "/feh-inheritance-tool/static/css/main.0a1a7489.chunk.css",
+  "main.js": "/feh-inheritance-tool/static/js/main.44ea059d.chunk.js",
+  "main.js.map": "/feh-inheritance-tool/static/js/main.44ea059d.chunk.js.map",
   "static/js/1.902fef7d.chunk.js": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js",
   "static/js/1.902fef7d.chunk.js.map": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js.map",
   "runtime~main.js": "/feh-inheritance-tool/static/js/runtime~main.9075a52a.js",
@@ -10,6 +10,7 @@
   "static/media/Alfonse_Prince_of_Askr.png": "/feh-inheritance-tool/static/media/Alfonse_Prince_of_Askr.5a7d0c74.png",
   "static/media/Alfonse_Spring_Prince.png": "/feh-inheritance-tool/static/media/Alfonse_Spring_Prince.219e03da.png",
   "static/media/Alm_Hero_of_Prophecy.png": "/feh-inheritance-tool/static/media/Alm_Hero_of_Prophecy.6652fcef.png",
+  "static/media/Alm_Saint-King.png": "/feh-inheritance-tool/static/media/Alm_Saint-King.91fd7d87.png",
   "static/media/Amelia_Rose_of_the_War.png": "/feh-inheritance-tool/static/media/Amelia_Rose_of_the_War.f97f5285.png",
   "static/media/Anna_Commander.png": "/feh-inheritance-tool/static/media/Anna_Commander.f1e26496.png",
   "static/media/Arden_Strong_and_Tough.png": "/feh-inheritance-tool/static/media/Arden_Strong_and_Tough.e98d88c7.png",
@@ -378,8 +379,8 @@
   "static/media/Yune_Chaos_Goddess.png": "/feh-inheritance-tool/static/media/Yune_Chaos_Goddess.3c7ee665.png",
   "static/media/Zelgius_Jet-Black_General.png": "/feh-inheritance-tool/static/media/Zelgius_Jet-Black_General.7053805b.png",
   "static/media/Zephiel_The_Liberator.png": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png",
-  "static/css/main.a83f129a.chunk.css.map": "/feh-inheritance-tool/static/css/main.a83f129a.chunk.css.map",
+  "static/css/main.0a1a7489.chunk.css.map": "/feh-inheritance-tool/static/css/main.0a1a7489.chunk.css.map",
   "index.html": "/feh-inheritance-tool/index.html",
-  "precache-manifest.1b93d548e80ec666082977756abceacd.js": "/feh-inheritance-tool/precache-manifest.1b93d548e80ec666082977756abceacd.js",
+  "precache-manifest.48fd5e016d05bc40403c649b4ade6d92.js": "/feh-inheritance-tool/precache-manifest.48fd5e016d05bc40403c649b4ade6d92.js",
   "service-worker.js": "/feh-inheritance-tool/service-worker.js"
 }

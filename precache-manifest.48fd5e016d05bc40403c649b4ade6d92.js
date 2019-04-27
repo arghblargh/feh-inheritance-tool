@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3f373e17409489a69bf0",
-    "url": "/feh-inheritance-tool/static/css/main.a83f129a.chunk.css"
+    "revision": "44ea059d203fdbc8942f",
+    "url": "/feh-inheritance-tool/static/css/main.0a1a7489.chunk.css"
   },
   {
-    "revision": "3f373e17409489a69bf0",
-    "url": "/feh-inheritance-tool/static/js/main.3f373e17.chunk.js"
+    "revision": "44ea059d203fdbc8942f",
+    "url": "/feh-inheritance-tool/static/js/main.44ea059d.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "6652fcef46e6ea76431623f22233a12c",
     "url": "/feh-inheritance-tool/static/media/Alm_Hero_of_Prophecy.6652fcef.png"
+  },
+  {
+    "revision": "91fd7d87ae34c38c61ccc44db4cb9cb5",
+    "url": "/feh-inheritance-tool/static/media/Alm_Saint-King.91fd7d87.png"
   },
   {
     "revision": "f97f5285d48ef562038f07893768193c",
@@ -1504,7 +1508,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "00739caaf67a65a41b89c5f56a17db1d",
+    "revision": "3f3e67224fb74e16e3d1952a13b3dfb6",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
