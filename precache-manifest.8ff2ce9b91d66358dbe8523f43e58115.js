@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "44ea059d203fdbc8942f",
-    "url": "/feh-inheritance-tool/static/css/main.0a1a7489.chunk.css"
+    "revision": "9062cbdb02c9bd7d98f4",
+    "url": "/feh-inheritance-tool/static/css/main.6d3dea83.chunk.css"
   },
   {
-    "revision": "44ea059d203fdbc8942f",
-    "url": "/feh-inheritance-tool/static/js/main.44ea059d.chunk.js"
+    "revision": "9062cbdb02c9bd7d98f4",
+    "url": "/feh-inheritance-tool/static/js/main.9062cbdb.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -106,6 +106,10 @@ self.__precacheManifest = [
   {
     "revision": "4afd1e91d52f59e0f386bdef1d2bd945",
     "url": "/feh-inheritance-tool/static/media/Berkut_Prideful_Prince.4afd1e91.png"
+  },
+  {
+    "revision": "c9f2a4f44c9e5048cbf22de6e9b79fd0",
+    "url": "/feh-inheritance-tool/static/media/Berkut_Purgatorial_Prince.c9f2a4f4.png"
   },
   {
     "revision": "92c08a642fce0f256f019e9944bc61c5",
@@ -280,12 +284,20 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Corrin_Novice_Vacationer.fc12b9c2.png"
   },
   {
+    "revision": "7147968b5d6f7bb714d0be4617fbba17",
+    "url": "/feh-inheritance-tool/static/media/Corrin_Wailing_Soul.7147968b.png"
+  },
+  {
     "revision": "9cafb270005764c2012c441d74d90c2e",
     "url": "/feh-inheritance-tool/static/media/Deirdre_Lady_of_the_Forest.9cafb270.png"
   },
   {
     "revision": "150d2fc26d1893bcee2d75c608827bae",
     "url": "/feh-inheritance-tool/static/media/Delthea_Free_Spirit.150d2fc2.png"
+  },
+  {
+    "revision": "4a7c177403e7b1ad4516a7f35adfa596",
+    "url": "/feh-inheritance-tool/static/media/Delthea_Tatarrahs_Puppet.4a7c1774.png"
   },
   {
     "revision": "309595147f8e9fbf5039f90236ea3309",
@@ -880,6 +892,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Mae_Bundle_of_Energy.b27c3b4c.png"
   },
   {
+    "revision": "f2e8b63a36fb3419f98d059789e203a9",
+    "url": "/feh-inheritance-tool/static/media/Mareeta_The_Blades_Pawn.f2e8b63a.png"
+  },
+  {
     "revision": "d00c7249ffcaa09aa2342a323432cfcd",
     "url": "/feh-inheritance-tool/static/media/Maria_Minervas_Sister.d00c7249.png"
   },
@@ -1428,6 +1444,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Tiki_Summering_Scion.0ed42c54.png"
   },
   {
+    "revision": "78ee78eca96674c56cd1ce79eec694a1",
+    "url": "/feh-inheritance-tool/static/media/Tiki_Torpid_Dragon.78ee78ec.png"
+  },
+  {
     "revision": "1675520ac1c933db47282222eebbba29",
     "url": "/feh-inheritance-tool/static/media/Titania_Mighty_Mercenary.1675520a.png"
   },
@@ -1508,7 +1528,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "3f3e67224fb74e16e3d1952a13b3dfb6",
+    "revision": "e23ef33a550db6f0cdee7c550080d8a6",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
