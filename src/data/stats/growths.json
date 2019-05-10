@@ -160,6 +160,13 @@
     "Def": 55,
     "Res": 40
   },
+  "Berkut: Purgatorial Prince": {
+    "HP": 50,
+    "Atk": 70,
+    "Spd": 30,
+    "Def": 55,
+    "Res": 50
+  },
   "Beruka: Quiet Assassin": {
     "HP": 60,
     "Atk": 50,
@@ -454,6 +461,13 @@
     "Def": 40,
     "Res": 45
   },
+  "Corrin: Wailing Soul": {
+    "HP": 65,
+    "Atk": 65,
+    "Spd": 70,
+    "Def": 55,
+    "Res": 50
+  },
   "Deirdre: Lady of the Forest": {
     "HP": 45,
     "Atk": 55,
@@ -467,6 +481,13 @@
     "Spd": 60,
     "Def": 25,
     "Res": 55
+  },
+  "Delthea: Tatarrah's Puppet": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 55,
+    "Def": 35,
+    "Res": 50
   },
   "Donnel: Village Hero": {
     "HP": 60,
@@ -1504,6 +1525,13 @@
     "Def": 30,
     "Res": 50
   },
+  "Mareeta: The Blade's Pawn": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 70,
+    "Def": 50,
+    "Res": 45
+  },
   "Maria: Minerva's Sister": {
     "HP": 45,
     "Atk": 50,
@@ -2462,6 +2490,13 @@
     "Spd": 55,
     "Def": 55,
     "Res": 40
+  },
+  "Tiki: Torpid Dragon": {
+    "HP": 65,
+    "Atk": 60,
+    "Spd": 55,
+    "Def": 75,
+    "Res": 50
   },
   "Titania: Mighty Mercenary": {
     "HP": 45,

@@ -4188,5 +4188,81 @@
     "might": 16,
     "effect": "Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash.)",
     "restriction": "Exclusive"
+  },
+  "Bow of Devotion": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Daybreak Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1)",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Panther Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Bull Spear": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Death": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit.",
+    "restriction": "Exclusive"
+  },
+  "Shadow Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "restriction": "Exclusive"
+  },
+  "Kriemhild": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "If a bow, dagger, magic, or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally.",
+    "restriction": "Exclusive"
+  },
+  "Savage Breath": {
+    "color": "Neutral",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. Grants Atk/Spd/Def/Res+X. (Calculates X based on number of allies within 2 spaces of unit: 0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥3 allies grants +0.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
+  "Razing Breath": {
+    "color": "Neutral",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
   }
 }

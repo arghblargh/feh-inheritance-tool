@@ -104,6 +104,9 @@
     "Mystletainn": {
         "effect": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
+    "Panther Sword": {
+        "effect": "If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice."
+    },
     "Regal Blade": {
         "effect": "If unit is within 2 spaces of an infantry magic ally, grants Atk/Spd/Def/Res+3 during combat.",
         "common": {
@@ -157,6 +160,9 @@
             "effect": "If foe initiates combat, grants Res+7 during combat."
         }
     },
+    "Bull Spear": {
+        "effect": "If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice."
+    },
     "Carrot Lance+": {
         "common": {
             "effect": "After combat, if unit attacked, restores 4 HP."
@@ -164,6 +170,9 @@
     },
     "Dauntless Lance": {
         "effect": "If foe initiates combat, grants Spd/Def+4 during combat."
+    },
+    "Daybreak Lance": {
+        "effect": "If foe initiates combat, grants Atk/Def+4 during combat."
     },
     "Fensalir": {
         "effect": "If unit is adjacent to an ally, grants Spd/Def+5 during combat.",
@@ -396,6 +405,9 @@
     },
     "Argent Bow": {
         "effect": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action."
+    },
+    "Bow of Devotion": {
+        "effect": "If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow up attack."
     },
     "Clarisse's Bow+": {
         "common": {

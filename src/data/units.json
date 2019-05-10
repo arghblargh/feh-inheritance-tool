@@ -23109,5 +23109,335 @@
         }
       ]
     }
+  },
+  "Berkut: Purgatorial Prince": {
+    "name": "Berkut",
+    "title": "Purgatorial Prince",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Kriemhild"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Reprisal",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Warding Stance 2",
+          "unlock": 3
+        },
+        {
+          "name": "Warding Stance 3",
+          "unlock": 4
+        },
+        {
+          "name": "Warding Stance 4"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Res Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Res Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Res Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Corrin: Wailing Soul": {
+    "name": "Corrin",
+    "title": "Wailing Soul",
+    "color": "Neutral",
+    "wpnType": "Breath",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Savage Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        },
+        {
+          "name": "Lunar Flash"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Solo 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Spd Solo 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Solo 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Sudden Panic 1",
+          "unlock": 3
+        },
+        {
+          "name": "Sudden Panic 2",
+          "unlock": 4
+        },
+        {
+          "name": "Sudden Panic 3"
+        }
+      ]
+    }
+  },
+  "Mareeta: The Blade's Pawn": {
+    "name": "Mareeta",
+    "title": "The Blade's Pawn",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Shadow Sword"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Flashing Blade 1",
+          "unlock": 2
+        },
+        {
+          "name": "Flashing Blade 2",
+          "unlock": 3
+        },
+        {
+          "name": "Flashing Blade 3",
+          "unlock": 4
+        },
+        {
+          "name": "Flashing Blade 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Null Follow-Up 1",
+          "unlock": 3
+        },
+        {
+          "name": "Null Follow-Up 2",
+          "unlock": 4
+        },
+        {
+          "name": "Null Follow-Up 3"
+        }
+      ]
+    }
+  },
+  "Tiki: Torpid Dragon": {
+    "name": "Tiki",
+    "title": "Torpid Dragon",
+    "color": "Neutral",
+    "wpnType": "Breath",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Razing Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Ignis",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Brazen Atk/Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Brazen Atk/Spd 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Solitary Dream"
+        }
+      ]
+    }
+  },
+  "Delthea: Tatarrah's Puppet": {
+    "name": "Delthea",
+    "title": "Tatarrah's Puppet",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 1
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 2
+        },
+        {
+          "name": "Thoron",
+          "unlock": 3
+        },
+        {
+          "name": "Death"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Death Blow 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Atk Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Atk Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Atk Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

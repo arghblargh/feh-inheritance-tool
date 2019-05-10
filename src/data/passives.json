@@ -2,11 +2,11 @@
   "A": {
     "AR-D Atk/Res 1": {
       "cost": 60,
-      "effect": "If defending in Aether Raids and if unit's HP = 100%, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+      "effect": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
     },
     "AR-D Atk/Res 2": {
       "cost": 120,
-      "effect": "If defending in Aether Raids and if unit's HP ≥ 50% HP, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+      "effect": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
     },
     "AR-D Atk/Res 3": {
       "cost": 240,
@@ -14,11 +14,11 @@
     },
     "AR-O Atk/Def 1": {
       "cost": 60,
-      "effect": "If attacking in Aether Raids and if unit's HP = 100%, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+      "effect": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)"
     },
     "AR-O Atk/Def 2": {
       "cost": 120,
-      "effect": "If attacking in Aether Raids and if unit's HP ≥ 50% HP, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+      "effect": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +7; 3 grants +5; 4 grants +3; ≥5 grants +1. Destroyed defensive structures are not counted.)"
     },
     "AR-O Atk/Def 3": {
       "cost": 240,
@@ -539,6 +539,11 @@
       "effect": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
       "restriction": "Armored|Infantry, Offense"
     },
+    "Flashing Blade 4": {
+      "cost": 300,
+      "effect": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 and deals +5 damage per unit's attack. (Only highest value applied. Does not stack.)",
+      "restriction": "Armored|Infantry, Offense"
+    },
     "Fort. Def/Res 1": {
       "cost": 100,
       "effect": "Grants Def/Res+3. Inflicts Atk-3.",
@@ -907,7 +912,7 @@
     },
     "Steady Stance 4": {
       "cost": 300,
-      "effect": "If foe initiates combat, grants Def+8 during combat.",
+      "effect": "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
       "restrictions": "Offense"
     },
     "Sturdy Blow 1": {
@@ -1022,6 +1027,11 @@
     "Warding Stance 3": {
       "cost": 200,
       "effect": "If foe initiates combat, grants Res+6 during combat."
+    },
+    "Warding Stance 4": {
+      "cost": 300,
+      "effect": "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+      "restrictions": "Offense"
     },
     "Water Boost 1": {
       "cost": 50,
@@ -1969,6 +1979,18 @@
       "cost": 240,
       "effect": "At start of combat, if unit's HP ≥ 50%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
       "restriction": "Armored"
+    },
+    "Sudden Panic 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit's HP = 100% HP and any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts【Panic】on that foe. 【Panic】Converts bonuses on target into penalties through its next action."
+    },
+    "Sudden Panic 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit's HP ≥ 50% HP and any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts【Panic】on that foe. 【Panic】Converts bonuses on target into penalties through its next action."
+    },
+    "Sudden Panic 3": {
+      "cost": 240,
+      "effect": "At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts【Panic】on that foe. 【Panic】Converts bonuses on target into penalties through its next action."
     },
     "Swordbreaker 1": {
       "cost": 50,
@@ -2959,6 +2981,11 @@
     "Savage Blow 3": {
       "cost": 200,
       "effect": "If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat."
+    },
+    "Solitary Dream": {
+      "cost": 300,
+      "effect": "At start of turn, if unit is adjacent to only dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)",
+      "restriction": "Exclusive"
     },
     "Sparkling Boost": {
       "cost": 300,
