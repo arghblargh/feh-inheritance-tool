@@ -245,7 +245,8 @@
     "cost": 500,
     "count": 2,
     "effect": "Treats foe’s Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.",
-    "require": "Moonbow"
+    "require": "Moonbow",
+    "restriction": "Exclusive"
   },
   "Miracle": {
     "cost": 200,
