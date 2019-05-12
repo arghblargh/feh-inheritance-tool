@@ -4074,7 +4074,7 @@
     "type": "Beast",
     "cost": 400,
     "might": 14,
-    "effect": "Grants Spd+3. If unit is not adjacent to an ally, grants Spd/Def+6 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "effect": "Grants Spd+3. If unit is not adjacent to an ally, grants Atk/Spd+6 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
     "restriction": "Exclusive"
   },
   "Covert Cat Fang": {
