@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e66d69f721a59069adfa",
-    "url": "/feh-inheritance-tool/static/css/main.6d3dea83.chunk.css"
+    "revision": "45b1c0e1e3efe6c2eb0b",
+    "url": "/feh-inheritance-tool/static/css/main.e79ee007.chunk.css"
   },
   {
-    "revision": "e66d69f721a59069adfa",
-    "url": "/feh-inheritance-tool/static/js/main.e66d69f7.chunk.js"
+    "revision": "45b1c0e1e3efe6c2eb0b",
+    "url": "/feh-inheritance-tool/static/js/main.45b1c0e1.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -428,6 +428,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Fir_Sword_Student.68dfb18a.png"
   },
   {
+    "revision": "53c18212d051ef13586a82a512f5b504",
+    "url": "/feh-inheritance-tool/static/media/Fjorm_Bride_of_Rime.53c18212.png"
+  },
+  {
     "revision": "b58c3f6e7a819f635616abf8b938d93a",
     "url": "/feh-inheritance-tool/static/media/Fjorm_New_Traditions.b58c3f6e.png"
   },
@@ -824,6 +828,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Lonqu_Solitary_Blade.9879a594.png"
   },
   {
+    "revision": "a2449a6b051074c0bc5488342502a023",
+    "url": "/feh-inheritance-tool/static/media/Louise_Eternal_Devotion.a2449a6b.png"
+  },
+  {
     "revision": "2e90a47bf66ba25a5738b83bd90ae0d4",
     "url": "/feh-inheritance-tool/static/media/Lucina_Brave_Princess.2e90a47b.png"
   },
@@ -1120,6 +1128,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Panne_Proud_Taguel.7e5bfa4c.png"
   },
   {
+    "revision": "4ad39047c5b74471a13b4f6d3ba53155",
+    "url": "/feh-inheritance-tool/static/media/Pent_Fancy_Fiancé.4ad39047.png"
+  },
+  {
     "revision": "15fbc77ffc3a5a1ddade227acecfe096",
     "url": "/feh-inheritance-tool/static/media/Peri_Playful_Slayer.15fbc77f.png"
   },
@@ -1316,6 +1328,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Siegbert_Future_King.ead6e908.png"
   },
   {
+    "revision": "42e88c421536ef0a4136d5dce7bcfae0",
+    "url": "/feh-inheritance-tool/static/media/Sigrun_Steadfast_Bride.42e88c42.png"
+  },
+  {
     "revision": "ea18023e212439d8eb260739089b838a",
     "url": "/feh-inheritance-tool/static/media/Sigurd_Holy_Knight.ea18023e.png"
   },
@@ -1402,6 +1418,10 @@ self.__precacheManifest = [
   {
     "revision": "194c34ed0e3f1776b88925185af02617",
     "url": "/feh-inheritance-tool/static/media/Tana_Winged_Princess.194c34ed.png"
+  },
+  {
+    "revision": "567a35bb61f6a1a31ba3eff23d93b9bd",
+    "url": "/feh-inheritance-tool/static/media/Tanith_Forthright_Heart.567a35bb.png"
   },
   {
     "revision": "6dcfca83aebf8f859cf270c9c29b9709",
@@ -1528,7 +1548,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "e1093b1801a6862d8b698c6f59cc0ff2",
+    "revision": "c357182f5d172dbfda33ddf2e50c5099",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
