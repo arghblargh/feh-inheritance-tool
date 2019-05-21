@@ -114,6 +114,15 @@
   "Brazen Atk/Res 3": {
     "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+7 during combat."
   },
+  "Brazen Atk/Spd 1": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Spd+3 during combat."
+  },
+  "Brazen Atk/Spd 2": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Spd+5 during combat."
+  },
+  "Brazen Atk/Spd 3": {
+    "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Spd+7 during combat."
+  },
   "Breath of Life 1": {
     "effect": "If unit initiates combat, restores 3 HP to adjacent allies after combat."
   },
@@ -517,6 +526,15 @@
   "Quickened Pulse": {
     "effect": "At the start of turn 1, grants Special cooldown count-1."
   },
+  "Renewal 1": {
+    "effect": "At the start of every fourth turn, restores 10 HP."
+  },
+  "Renewal 2": {
+    "effect": "At the start of every third turn, restores 10 HP."
+  },
+  "Renewal 3": {
+    "effect": "At the start of every second turn, restores 10 HP."
+  },
   "Res Ploy 1": {
     "effect": "At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit's Res through their next actions."
   },
@@ -612,6 +630,12 @@
   },
   "Spd/Def 2": {
     "effect": "Grants Spd/Def+2."
+  },
+  "Spd/Res 1": {
+    "effect": "Grants Spd/Res+1."
+  },
+  "Spd/Res 2": {
+    "effect": "Grants Spd/Res+2."
   },
   "Spd/Res Bond 1": {
     "effect": "If unit is adjacent to an ally, grants Spd/Res+3 during combat."

@@ -559,12 +559,26 @@
     "Def": 22,
     "Res": 29
   },
+  "Fjorm: Bride of Rime": {
+    "HP": 39,
+    "Atk": 32,
+    "Spd": 32,
+    "Def": 15,
+    "Res": 21
+  },
   "Fjorm: New Traditions": {
     "HP": 36,
     "Atk": 33,
     "Spd": 33,
     "Def": 18,
     "Res": 19
+  },
+  "Flora: Cold as Ice": {
+    "HP": 35,
+    "Atk": 32,
+    "Spd": 21,
+    "Def": 16,
+    "Res": 36
   },
   "Flora: Signature Dish": {
     "HP": 40,
@@ -642,6 +656,13 @@
     "Spd": 30,
     "Def": 27,
     "Res": 20
+  },
+  "Greil: Heroic Exemplar": {
+    "HP": 44,
+    "Atk": 39,
+    "Spd": 16,
+    "Def": 36,
+    "Res": 27
   },
   "Gunnthrá: Year's First Dream": {
     "HP": 35,
@@ -1014,6 +1035,13 @@
     "Def": 20,
     "Res": 20
   },
+  "Louise: Eternal Devotion": {
+    "HP": 36,
+    "Atk": 28,
+    "Spd": 32,
+    "Def": 15,
+    "Res": 28
+  },
   "Lucina: Brave Princess": {
     "HP": 38,
     "Atk": 32,
@@ -1357,6 +1385,13 @@
     "Def": 28,
     "Res": 21
   },
+  "Pent: Fancy Fiancé": {
+    "HP": 35,
+    "Atk": 31,
+    "Spd": 32,
+    "Def": 17,
+    "Res": 19
+  },
   "Peri: Playful Slayer": {
     "HP": 33,
     "Atk": 31,
@@ -1588,6 +1623,13 @@
     "Def": 24,
     "Res": 24
   },
+  "Sigrun: Steadfast Bride": {
+    "HP": 33,
+    "Atk": 29,
+    "Spd": 36,
+    "Def": 24,
+    "Res": 28
+  },
   "Sigurd: Holy Knight": {
     "HP": 38,
     "Atk": 33,
@@ -1714,6 +1756,13 @@
     "Def": 23,
     "Res": 23
   },
+  "Tanith: Forthright Heart": {
+    "HP": 35,
+    "Atk": 32,
+    "Spd": 34,
+    "Def": 30,
+    "Res": 19
+  },
   "Tharja: Dark Shadow": {
     "HP": 36,
     "Atk": 30,
@@ -1839,6 +1888,13 @@
     "Spd": 22,
     "Def": 35,
     "Res": 15
+  },
+  "Ylgr: Fresh Snowfall": {
+    "HP": 35,
+    "Atk": 31,
+    "Spd": 36,
+    "Def": 20,
+    "Res": 18
   },
   "Yune: Chaos Goddess": {
     "HP": 35,

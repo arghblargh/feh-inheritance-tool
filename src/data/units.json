@@ -23436,5 +23436,339 @@
         }
       ]
     }
+  },
+  "Fjorm: Bride of Rime": {
+    "name": "Fjorm",
+    "title": "Bride of Rime",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Gjallarbrú"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 2
+        },
+        {
+          "name": "Restore",
+          "unlock": 3
+        },
+        {
+          "name": "Restore+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "HP +3",
+          "unlock": 3
+        },
+        {
+          "name": "HP/Atk 1",
+          "unlock": 2
+        },
+        {
+          "name": "HP/Atk 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dazzling Staff 1",
+          "unlock": 3
+        },
+        {
+          "name": "Dazzling Staff 2",
+          "unlock": 4
+        },
+        {
+          "name": "Dazzling Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Ground Orders 1",
+          "unlock": 3
+        },
+        {
+          "name": "Ground Orders 2",
+          "unlock": 4
+        },
+        {
+          "name": "Ground Orders 3"
+        }
+      ]
+    }
+  },
+  "Pent: Fancy Fiancé": {
+    "name": "Pent",
+    "title": "Fancy Fiancé",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 1
+        },
+        {
+          "name": "Ellight",
+          "unlock": 2
+        },
+        {
+          "name": "Vessel of Cheer",
+          "unlock": 3
+        },
+        {
+          "name": "Vessel of Cheer+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Up Atk",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Up Atk+"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dull Ranged 1",
+          "unlock": 1
+        },
+        {
+          "name": "Dull Ranged 2",
+          "unlock": 2
+        },
+        {
+          "name": "Dull Ranged 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Pulse Smoke 1",
+          "unlock": 3
+        },
+        {
+          "name": "Pulse Smoke 2",
+          "unlock": 4
+        },
+        {
+          "name": "Pulse Smoke 3"
+        }
+      ]
+    }
+  },
+  "Sigrun: Steadfast Bride": {
+    "name": "Sigrun",
+    "title": "Steadfast Bride",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Cake Cutter",
+          "unlock": 3
+        },
+        {
+          "name": "Cake Cutter+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "AR-D Spd/Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "AR-D Spd/Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "AR-D Spd/Def 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Air Orders 1",
+          "unlock": 3
+        },
+        {
+          "name": "Air Orders 2",
+          "unlock": 4
+        },
+        {
+          "name": "Air Orders 3"
+        }
+      ]
+    }
+  },
+  "Tanith: Forthright Heart": {
+    "name": "Tanith",
+    "title": "Forthright Heart",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Lofty Blossoms",
+          "unlock": 3
+        },
+        {
+          "name": "Lofty Blossoms+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Harsh Command",
+          "unlock": 3
+        },
+        {
+          "name": "Harsh Command+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Atk 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Fortify Fliers",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Louise: Eternal Devotion": {
+    "name": "Louise",
+    "title": "Eternal Devotion",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Bouquet Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Bouquet Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Bond 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Cavalry",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

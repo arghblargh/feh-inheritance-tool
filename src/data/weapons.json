@@ -4264,5 +4264,55 @@
     "might": 16,
     "effect": "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
     "restriction": "Exclusive"
+  },
+  "Gjallarbrú": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 400,
+    "might": 14,
+    "effect": "Calculates damage from staff like other weapons. At start of turn, if foe's HP ≤ unit's HP-3 and foe is in cardinal directions, inflicts【Isolation】on foe. 【Isolation】Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+ etc.)",
+    "restriction": "Exclusive"
+  },
+  "Vessel of Cheer": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+  },
+  "Vessel of Cheer+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+  },
+  "Cake Cutter": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+  },
+  "Cake Cutter+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+  },
+  "Lofty Blossoms": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+  },
+  "Lofty Blossoms+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
   }
 }

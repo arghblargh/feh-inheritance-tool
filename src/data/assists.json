@@ -26,6 +26,10 @@
         "cost": 150,
         "effect": "Converts penalties on target into bonuses."
     },
+    "Harsh Command+": {
+        "cost": 300,
+        "effect": "Neutralizes target ally’s penalties (From skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally’s next action. Converts any penalties on target ally to bonuses."
+    },
     "Heal": {
         "cost": 50,
         "effect": "Restores 5 HP to target ally.",

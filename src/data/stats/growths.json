@@ -713,6 +713,13 @@
     "Def": 45,
     "Res": 55
   },
+  "Fjorm: Bride of Rime": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 55,
+    "Def": 30,
+    "Res": 45
+  },
   "Fjorm: New Traditions": {
     "HP": 50,
     "Atk": 60,
@@ -1406,6 +1413,13 @@
     "Def": 40,
     "Res": 40
   },
+  "Louise: Eternal Devotion": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 30,
+    "Res": 50
+  },
   "Lucina: Brave Princess": {
     "HP": 55,
     "Atk": 60,
@@ -1924,6 +1938,13 @@
     "Def": 50,
     "Res": 45
   },
+  "Pent: Fancy Fiancé": {
+    "HP": 45,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 35,
+    "Res": 35
+  },
   "Peri: Playful Slayer": {
     "HP": 45,
     "Atk": 55,
@@ -2267,6 +2288,13 @@
     "Def": 55,
     "Res": 30
   },
+  "Sigrun: Steadfast Bride": {
+    "HP": 45,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 50,
+    "Res": 55
+  },
   "Sigurd: Holy Knight": {
     "HP": 50,
     "Atk": 60,
@@ -2420,6 +2448,13 @@
     "Spd": 60,
     "Def": 45,
     "Res": 45
+  },
+  "Tanith: Forthright Heart": {
+    "HP": 45,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 60,
+    "Res": 40
   },
   "Tharja: \"Normal Girl\"": {
     "HP": 55,

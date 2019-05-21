@@ -12,6 +12,18 @@
       "cost": 240,
       "effect": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
     },
+    "AR-D Spd/Def 1": {
+      "cost": 60,
+      "effect": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Spd/Def 2": {
+      "cost": 120,
+      "effect": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Spd/Def 3": {
+      "cost": 240,
+      "effect": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
     "AR-O Atk/Def 1": {
       "cost": 60,
       "effect": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)"
@@ -2678,6 +2690,21 @@
       "require": "Spur Atk 2|Spur Spd 2",
       "restriction": "Flying"
     },
+    "Ground Orders 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit's HP = 100%, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+      "restriction": "Flying"
+    },
+    "Ground Orders 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit's HP ≥ 50%, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+      "restriction": "Flying"
+    },
+    "Ground Orders 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants the following status effect to adjacent infantry, armored, and cavalry allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+      "restriction": "Flying"
+    },
     "Guidance 1": {
       "cost": 60,
       "effect": "If unit's HP = 100%, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
@@ -2888,6 +2915,21 @@
     "Panic Ploy 3": {
       "cost": 240,
       "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions."
+    },
+    "Pulse Smoke 1": {
+      "cost": 60,
+      "effect": "Inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
+      "restriction": "Offense"
+    },
+    "Pulse Smoke 2": {
+      "cost": 120,
+      "effect": "Inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
+      "restriction": "Offense"
+    },
+    "Pulse Smoke 3": {
+      "cost": 240,
+      "effect": "Inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
+      "restriction": "Offense"
     },
     "R Tome Exp. 1": {
       "cost": 30,
