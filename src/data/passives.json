@@ -2918,12 +2918,12 @@
     },
     "Pulse Smoke 1": {
       "cost": 60,
-      "effect": "Inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
+      "effect": "If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 1 space of target after combat. (No effect on Special cooldown counts already at maximum.)",
       "restriction": "Offense"
     },
     "Pulse Smoke 2": {
       "cost": 120,
-      "effect": "Inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
+      "effect": "If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
       "restriction": "Offense"
     },
     "Pulse Smoke 3": {
