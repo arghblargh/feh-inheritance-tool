@@ -4314,5 +4314,19 @@
     "cost": 300,
     "might": 14,
     "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+  },
+  "Bouquet Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+  },
+  "Bouquet Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
   }
 }
