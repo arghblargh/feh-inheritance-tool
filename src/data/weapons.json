@@ -4285,7 +4285,8 @@
     "type": "Tome",
     "cost": 300,
     "might": 12,
-    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
+    "upgrade": "-"
   },
   "Cake Cutter": {
     "color": "Red",
@@ -4299,7 +4300,8 @@
     "type": "Sword",
     "cost": 300,
     "might": 14,
-    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
+    "upgrade": "-"
   },
   "Lofty Blossoms": {
     "color": "Blue",
@@ -4313,7 +4315,8 @@
     "type": "Lance",
     "cost": 300,
     "might": 14,
-    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
+    "upgrade": "-"
   },
   "Bouquet Bow": {
     "color": "",
@@ -4327,6 +4330,7 @@
     "type": "Bow",
     "cost": 300,
     "might": 12,
-    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+    "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
+    "upgrade": "-"
   }
 }
