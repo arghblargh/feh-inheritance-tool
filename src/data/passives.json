@@ -36,6 +36,18 @@
       "cost": 240,
       "effect": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
     },
+    "AR-O Atk/Spd 1": {
+      "cost": 60,
+      "effect": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-O Atk/Spd 2": {
+      "cost": 120,
+      "effect": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +7; 3 grants +5; 4 grants +3; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-O Atk/Spd 3": {
+      "cost": 240,
+      "effect": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+    },
     "Armored Blow 1": {
       "cost": 50,
       "effect": "If unit initiates combat, grants Def+2 during combat.",
@@ -2456,6 +2468,11 @@
     "Distant Guard 3": {
       "cost": 240,
       "effect": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+4 during combat.\""
+    },
+    "Divine Fang": {
+      "cost": 300,
+      "effect": "At start of turn, grants \"effective against dragons\" to adjacent allies for 1 turn.",
+      "restriction": "Exclusive"
     },
     "Dragon Valor 1": {
       "cost": 30,

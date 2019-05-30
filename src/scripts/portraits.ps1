@@ -1,3 +1,4 @@
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $FullList = (Get-Content src/data/units.json) -join "`n" | ConvertFrom-Json | ForEach-Object { $_.PSObject.Properties | Select-Object -Expand Name } | ForEach-Object { $_ -Replace ":","" -Replace " ","_" -Replace '"',"" -Replace "'","" }
 $CurrentList = Get-ChildItem -Path src/img/portrait/*.png | ForEach-Object { $_.Name -Replace ".png","" }
 

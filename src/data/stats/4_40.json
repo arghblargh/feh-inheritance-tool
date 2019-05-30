@@ -13,6 +13,13 @@
     "Def": 30,
     "Res": 20
   },
+  "Alfonse: Spring Prince": {
+    "HP": 38,
+    "Atk": 33,
+    "Spd": 31,
+    "Def": 27,
+    "Res": 16
+  },
   "Alm: Hero of Prophecy": {
     "HP": 42,
     "Atk": 31,
@@ -762,6 +769,13 @@
     "Def": 33,
     "Res": 18
   },
+  "Ike: Stalwart Heart": {
+    "HP": 42,
+    "Atk": 35,
+    "Spd": 36,
+    "Def": 32,
+    "Res": 17
+  },
   "Ike: Young Mercenary": {
     "HP": 39,
     "Atk": 33,
@@ -838,6 +852,13 @@
     "Spd": 34,
     "Def": 23,
     "Res": 23
+  },
+  "Kagero: Beverage Ninja": {
+    "HP": 38,
+    "Atk": 36,
+    "Spd": 19,
+    "Def": 29,
+    "Res": 31
   },
   "Kagero: Honorable Ninja": {
     "HP": 29,
@@ -1028,6 +1049,13 @@
     "Def": 24,
     "Res": 24
   },
+  "Loki: The Trickster": {
+    "HP": 39,
+    "Atk": 31,
+    "Spd": 33,
+    "Def": 14,
+    "Res": 23
+  },
   "Lon'qu: Solitary Blade": {
     "HP": 42,
     "Atk": 27,
@@ -1210,6 +1238,13 @@
     "Def": 33,
     "Res": 17
   },
+  "Mikoto: Caring Mother": {
+    "HP": 35,
+    "Atk": 33,
+    "Spd": 30,
+    "Def": 18,
+    "Res": 24
+  },
   "Minerva: Red Dragoon": {
     "HP": 37,
     "Atk": 28,
@@ -1259,6 +1294,20 @@
     "Def": 22,
     "Res": 26
   },
+  "Naga: Dragon Divinity": {
+    "HP": 35,
+    "Atk": 27,
+    "Spd": 34,
+    "Def": 31,
+    "Res": 23
+  },
+  "Nailah: Unflinching Eye": {
+    "HP": 37,
+    "Atk": 28,
+    "Spd": 35,
+    "Def": 30,
+    "Res": 21
+  },
   "Nanna: Nordion Princess": {
     "HP": 34,
     "Atk": 24,
@@ -1293,6 +1342,13 @@
     "Spd": 32,
     "Def": 15,
     "Res": 32
+  },
+  "Niles: Forbidden Tease": {
+    "HP": 35,
+    "Atk": 32,
+    "Spd": 37,
+    "Def": 23,
+    "Res": 26
   },
   "Ninian: Oracle of Destiny": {
     "HP": 39,
@@ -1370,6 +1426,20 @@
     "Spd": 32,
     "Def": 24,
     "Res": 19
+  },
+  "Owain: Chosen One": {
+    "HP": 38,
+    "Atk": 30,
+    "Spd": 35,
+    "Def": 28,
+    "Res": 20
+  },
+  "Palla: Eldest Bun-Bun": {
+    "HP": 36,
+    "Atk": 35,
+    "Spd": 32,
+    "Def": 15,
+    "Res": 26
   },
   "Palla: Eldest Whitewing": {
     "HP": 39,

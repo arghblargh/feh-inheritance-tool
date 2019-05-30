@@ -4332,5 +4332,13 @@
     "might": 12,
     "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
     "upgrade": "-"
+  },
+  "Divine Breath": {
+    "color": "Neutral",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. Effective against dragon foes. Grants Atk/Spd/Def/Res+X during combat. (X = number of dragon allies and allies that have \"effective against dragons\" within 2 spaces ×3. Maximum bonus of +9 to each stat.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
   }
 }
