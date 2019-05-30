@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7b2d01b3eea78e293dcd",
-    "url": "/feh-inheritance-tool/static/css/main.e79ee007.chunk.css"
+    "revision": "0593cf3e1d0c89bed795",
+    "url": "/feh-inheritance-tool/static/css/main.b96d49ef.chunk.css"
   },
   {
-    "revision": "7b2d01b3eea78e293dcd",
-    "url": "/feh-inheritance-tool/static/js/main.7b2d01b3.chunk.js"
+    "revision": "0593cf3e1d0c89bed795",
+    "url": "/feh-inheritance-tool/static/js/main.0593cf3e.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -1008,6 +1008,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Naesala_Skys_Shadow.3b8dbe75.png"
   },
   {
+    "revision": "58a31790021e38ef1f5ecf40e8ffe9d2",
+    "url": "/feh-inheritance-tool/static/media/Naga_Dragon_Divinity.58a31790.png"
+  },
+  {
     "revision": "1636e74efa5a7f16bf12edd56f7beba7",
     "url": "/feh-inheritance-tool/static/media/Nailah_Unflinching_Eye.1636e74e.png"
   },
@@ -1548,7 +1552,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "15b2cbd78589e460c9aab277477afd39",
+    "revision": "ec9f40c76e58f270d5f7dee47341152d",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
