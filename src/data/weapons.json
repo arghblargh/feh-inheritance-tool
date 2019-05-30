@@ -4334,7 +4334,7 @@
     "upgrade": "-"
   },
   "Divine Breath": {
-    "color": "Neutral",
+    "color": "Blue",
     "type": "Breath",
     "cost": 400,
     "might": 16,
