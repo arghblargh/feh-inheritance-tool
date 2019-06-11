@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "486d40905c2042c4013b",
-    "url": "/feh-inheritance-tool/static/css/main.b96d49ef.chunk.css"
+    "revision": "92303346c9b92c6b1f55",
+    "url": "/feh-inheritance-tool/static/css/main.ea5aa9a3.chunk.css"
   },
   {
-    "revision": "486d40905c2042c4013b",
-    "url": "/feh-inheritance-tool/static/js/main.486d4090.chunk.js"
+    "revision": "92303346c9b92c6b1f55",
+    "url": "/feh-inheritance-tool/static/js/main.92303346.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -122,6 +122,10 @@ self.__precacheManifest = [
   {
     "revision": "aa6016c53fcdfb01556f7008f9206bdc",
     "url": "/feh-inheritance-tool/static/media/Boey_Skillful_Survivor.aa6016c5.png"
+  },
+  {
+    "revision": "d98707fd9d44b8ca039a0f5c61ec1f2a",
+    "url": "/feh-inheritance-tool/static/media/Brady_Daunting_Priest.d98707fd.png"
   },
   {
     "revision": "d51997bc6216f39e069c6fd47aef3019",
@@ -286,6 +290,10 @@ self.__precacheManifest = [
   {
     "revision": "7147968b5d6f7bb714d0be4617fbba17",
     "url": "/feh-inheritance-tool/static/media/Corrin_Wailing_Soul.7147968b.png"
+  },
+  {
+    "revision": "d1149aab49eb158031de3d8d867bfec1",
+    "url": "/feh-inheritance-tool/static/media/Cynthia_Hero_Chaser.d1149aab.png"
   },
   {
     "revision": "9cafb270005764c2012c441d74d90c2e",
@@ -700,6 +708,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Keaton_Lupine_Collector.c1825c7e.png"
   },
   {
+    "revision": "54832f73285ddcf24ce6b5bd4c89f0de",
+    "url": "/feh-inheritance-tool/static/media/Kjelle_Fair_Fighter.54832f73.png"
+  },
+  {
     "revision": "4f305ef51635d65c793e028fa2249bd7",
     "url": "/feh-inheritance-tool/static/media/Klein_Silver_Nobleman.4f305ef5.png"
   },
@@ -1010,6 +1022,10 @@ self.__precacheManifest = [
   {
     "revision": "58a31790021e38ef1f5ecf40e8ffe9d2",
     "url": "/feh-inheritance-tool/static/media/Naga_Dragon_Divinity.58a31790.png"
+  },
+  {
+    "revision": "77a6f9c570a9175aca0ab614ceb2729f",
+    "url": "/feh-inheritance-tool/static/media/Nah_Little_Miss.77a6f9c5.png"
   },
   {
     "revision": "1636e74efa5a7f16bf12edd56f7beba7",
@@ -1536,6 +1552,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Xander_Student_Swimmer.96c07083.png"
   },
   {
+    "revision": "19fa44d5a6bbe3af89833050435bae5b",
+    "url": "/feh-inheritance-tool/static/media/Yarne_Timid_Taguel.19fa44d5.png"
+  },
+  {
     "revision": "593158238d551dd70eb061be82e9e0d7",
     "url": "/feh-inheritance-tool/static/media/Ylgr_Fresh_Snowfall.59315823.png"
   },
@@ -1552,7 +1572,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "da814bcb1eafbd56209e70e9adf60b40",
+    "revision": "fa3282052d26a7b9af8313087e4e4300",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
