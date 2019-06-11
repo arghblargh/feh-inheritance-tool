@@ -146,13 +146,6 @@
     "Def": 28,
     "Res": 15
   },
-  "Brady: Daunting Priest": {
-    "HP": 37,
-    "Atk": 29,
-    "Spd": 28,
-    "Def": 20,
-    "Res": 24
-  },
   "Bruno: Masked Hare": {
     "HP": 37,
     "Atk": 26,
@@ -320,13 +313,6 @@
     "Spd": 33,
     "Def": 27,
     "Res": 23
-  },
-  "Cynthia: Hero Chaser": {
-    "HP": 34,
-    "Atk": 28,
-    "Spd": 33,
-    "Def": 23,
-    "Res": 25
   },
   "Deirdre: Lady of the Forest": {
     "HP": 33,
@@ -832,13 +818,6 @@
     "Def": 34,
     "Res": 16
   },
-  "Kjelle: Fair Fighter": {
-    "HP": 43,
-    "Atk": 36,
-    "Spd": 19,
-    "Def": 33,
-    "Res": 24
-  },
   "Klein: Silver Nobleman": {
     "HP": 36,
     "Atk": 27,
@@ -1216,13 +1195,6 @@
     "Spd": 32,
     "Def": 29,
     "Res": 22
-  },
-  "Nah: Little Miss": {
-    "HP": 40,
-    "Atk": 30,
-    "Spd": 22,
-    "Def": 33,
-    "Res": 28
   },
   "Nailah: Unflinching Eye": {
     "HP": 36,
@@ -1873,13 +1845,6 @@
     "Atk": 28,
     "Spd": 21,
     "Def": 33,
-    "Res": 14
-  },
-  "Yarne: Timid Taguel": {
-    "HP": 36,
-    "Atk": 31,
-    "Spd": 29,
-    "Def": 28,
     "Res": 14
   },
   "Ylgr: Fresh Snowfall": {
