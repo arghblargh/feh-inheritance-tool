@@ -12,6 +12,18 @@
       "cost": 240,
       "effect": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
     },
+    "AR-D Def/Res 1": {
+      "cost": 60,
+      "effect": "If defending in Aether Raids, grants Def/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Def/Res 2": {
+      "cost": 120,
+      "effect": "If defending in Aether Raids, grants Def/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Def/Res 3": {
+      "cost": 240,
+      "effect": "If defending in Aether Raids, grants Def/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
     "AR-D Spd/Def 1": {
       "cost": 60,
       "effect": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
@@ -110,6 +122,18 @@
     "Atk/Res Bond 3": {
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Res+5 during combat."
+    },
+    "Atk/Res Push 1": {
+      "cost": 60,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Res+3, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Res Push 2": {
+      "cost": 120,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Res+4, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Res Push 3": {
+      "cost": 240,
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Res+5, but if unit attacked, deals 1 damage to unit after combat."
     },
     "Atk/Res Solo 1": {
       "cost": 60,
@@ -2803,6 +2827,21 @@
       "cost": 300,
       "effect": "At start of turn, if unit is adjacent to any allies that are not beast or dragon allies, grants Atk/Spd+6 to unit and those allies for 1 turn.",
       "restriction": "Exclusive"
+    },
+    "Infantry Breath 1": {
+      "cost": 60,
+      "effect": "Adjacent infantry allies gain: \"If foe initiates combat, grants Special cooldown charge +1 per attack during combat. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
+    },
+    "Infantry Breath 2": {
+      "cost": 120,
+      "effect": "Adjacent infantry allies gain: \"If foe initiates combat, grants Def/Res+1 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
+    },
+    "Infantry Breath 3": {
+      "cost": 240,
+      "effect": "Adjacent infantry allies gain: \"If foe initiates combat, grants Def/Res+2 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
+      "restriction": "Infantry"
     },
     "Infantry Flash 1": {
       "cost": 60,

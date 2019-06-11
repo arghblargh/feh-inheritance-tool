@@ -7626,6 +7626,9 @@
         },
         {
           "name": "Poison Dagger+"
+        },
+        {
+          "name": "Kagero's Dart"
         }
       ],
       "special": [
@@ -13271,6 +13274,9 @@
         },
         {
           "name": "Sapphire Lance+"
+        },
+        {
+          "name": "Loyal Greatlance"
         }
       ],
       "assist": [
@@ -14899,6 +14905,9 @@
         },
         {
           "name": "Smoke Dagger+"
+        },
+        {
+          "name": "Saizo's Star"
         }
       ],
       "assist": [
@@ -23802,7 +23811,7 @@
         },
         {
           "name": "Luna",
-          "unlock": 3
+          "unlock": 4
         }
       ],
       "passiveA": [
@@ -23835,6 +23844,358 @@
       "passiveC": [
         {
           "name": "Divine Fang"
+        }
+      ]
+    }
+  },
+  "Yarne: Timid Taguel": {
+    "name": "Yarne",
+    "title": "Timid Taguel",
+    "color": "Green",
+    "wpnType": "Beast",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Whelp (Cavalry)",
+          "unlock": 1
+        },
+        {
+          "name": "Yearling (Cavalry)",
+          "unlock": 2
+        },
+        {
+          "name": "Adult (Cavalry)",
+          "unlock": 3
+        },
+        {
+          "name": "Bunny Fang"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Astra",
+          "unlock": 4
+        },
+        {
+          "name": "Galeforce"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Escape Route 1",
+          "unlock": 1
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 2
+        },
+        {
+          "name": "Escape Route 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Spd Wave 1",
+          "unlock": 3
+        },
+        {
+          "name": "Odd Spd Wave 2",
+          "unlock": 4
+        },
+        {
+          "name": "Odd Spd Wave 3"
+        }
+      ]
+    }
+  },
+  "Kjelle: Fair Fighter": {
+    "name": "Kjelle",
+    "title": "Fair Fighter",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Barrier Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Barrier Lance+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "AR-D Def/Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "AR-D Def/Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "AR-D Def/Res 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ]
+    }
+  },
+  "Brady: Daunting Priest": {
+    "name": "Brady",
+    "title": "Daunting Priest",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Slow",
+          "unlock": 3
+        },
+        {
+          "name": "Slow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Recover",
+          "unlock": 3
+        },
+        {
+          "name": "Recover+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Heavenly Light",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Push 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Res Push 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Res Push 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Rush 1",
+          "unlock": 3
+        },
+        {
+          "name": "Infantry Rush 2",
+          "unlock": 4
+        },
+        {
+          "name": "Infantry Rush 3"
+        }
+      ]
+    }
+  },
+  "Nah: Little Miss": {
+    "name": "Nah",
+    "title": "Little Miss",
+    "color": "Red",
+    "wpnType": "Breath",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Oracle's Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Bonus Doubler 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bonus Doubler 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bonus Doubler 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Quick Riposte 1",
+          "unlock": 3
+        },
+        {
+          "name": "Quick Riposte 2",
+          "unlock": 4
+        },
+        {
+          "name": "Quick Riposte 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Breath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Infantry Breath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Infantry Breath 3"
+        }
+      ]
+    }
+  },
+  "Cynthia: Hero Chaser": {
+    "name": "Cynthia",
+    "title": "Hero Chaser",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Firesweep Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Firesweep L+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Shove",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd/Def Link 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd/Def Link 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd/Def Link 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Drive Atk 1",
+          "unlock": 4
+        },
+        {
+          "name": "Drive Atk 2"
         }
       ]
     }

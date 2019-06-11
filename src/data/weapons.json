@@ -59,7 +59,8 @@
     "cost": 400,
     "might": 11,
     "effect": "Inflicts Spd-2. If unit initiates combat, unit attacks twice.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Ardent Service": {
     "color": "Green",
@@ -4340,5 +4341,63 @@
     "might": 16,
     "effect": "Grants Atk+3. Effective against dragon foes. Grants Atk/Spd/Def/Res+X during combat. (X = number of dragon allies and allies that have \"effective against dragons\" within 2 spaces ×3. Maximum bonus of +9 to each stat.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
     "restriction": "Exclusive"
+  },
+  "Bunny Fang": {
+    "color": "Green",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. Effective against cavalry foes. After combat, if unit's HP ≤ 75%, grants Special cooldown count-2. Effect:【Beast (Cavalry)】 【Beast (Cavalry)】 At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Barrier Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Res+7 during combat."
+  },
+  "Barrier Lance+": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Res+7 during combat.",
+    "upgrade": "-"
+  },
+  "Oracle's Breath": {
+    "color": "Red",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. If a bonus granted by a skill like Rally or Hone is active on unit, foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
+  "Loyal Greatlance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1)",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Kagero's Dart": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 14,
+    "effect": "At start of combat, if unit's Atk > foe's Atk, grants Atk/Spd+4 during combat. Effect:【Dagger ７】 【Dagger ７】 After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Saizo's Star": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 14,
+    "effect": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }

@@ -37,6 +37,9 @@
         "Thoron": "Thoron+",
         "Gronnwolf+": "Keen Gronnwolf+"
     },
+    "Amiti": {
+        "effect": "If unit initiates combat, grants Atk/Spd+4 during combat."
+    },
     "Armorsmasher+": {
         "effect": "Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
@@ -190,6 +193,9 @@
     },
     "Hinoka's Spear": {
         "effect": "Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
+    },
+    "Loyal Greatlance": {
+        "effect": "Grants Atk/Spd+3 to infantry and cavalry allies within 2 spaces during combat. If unit is within 2 spaces of an infantry or cavalry ally, grants Atk/Spd+3 during combat."
     },
     "Oboro's Spear": {
         "effect": "If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+6 during combat."
@@ -456,10 +462,16 @@
     "Felicia's Plate": {
         "effect": "Grants Special Cooldown charge +1 if foe uses magic. (Only highest value applied. Does not stack.)"
     },
+    "Kagero's Dart": {
+        "effect": "If unit initiates combat, reduces damage from foe's first attack by 50%."
+    },
     "Rogue Dagger+": {
         "common": {
             "effect": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions. Also grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
         }
+    },
+    "Saizo's Star": {
+        "effect": "Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of target's stats. Calculates each stat bonus independently."
     },
     "Seashell+": {
         "common": {
