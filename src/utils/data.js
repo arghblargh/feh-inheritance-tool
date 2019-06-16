@@ -1,9 +1,6 @@
 export const units = require('../data/units.json');
-export const baseStats = {
-    3: require('../data/stats/3_1.json'),
-    4: require('../data/stats/4_1.json'),
-    5: require('../data/stats/5_1.json')
-}
+export const rarity = require('../data/stats/rarity.json');
+export const baseStats = require('../data/stats/5_1.json');
 export const tempStats = require('../data/stats/temp.json');
 
 export const growths = require('../data/stats/growths.json');

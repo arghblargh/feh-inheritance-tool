@@ -470,8 +470,14 @@ class UnitInfo extends Component {
     let lvOptions = [];
 
     switch (getLowestRarity(this.props.state.unitName)) {
+      case 1:
+        lvOptions = ['1★40', '1★1'];
+        // eslint-disable-next-line
+      case 2:
+        lvOptions = ['2★40', '2★1'].concat(lvOptions);
+        // eslint-disable-next-line
       case 3:
-        lvOptions = ['3★40', '3★1'];
+        lvOptions = ['3★40', '3★1'].concat(lvOptions);
         // eslint-disable-next-line
       case 4:
         lvOptions = ['4★40', '4★1'].concat(lvOptions);

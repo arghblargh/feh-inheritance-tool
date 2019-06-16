@@ -1,6 +1,6 @@
 //import React from 'react';
 import { escapeRegExp } from './utility.js';
-import { units, weapons, assists, specials, passives, seals, upgrades, baseStats, tempStats, growths } from './data.js';
+import { units, rarity, weapons, assists, specials, passives, seals, upgrades, baseStats, tempStats, growths } from './data.js';
 import { wpnSortFn } from './sort.js';
 
 // Parses skills. Returns an object of { skillType : skillName }
@@ -62,11 +62,7 @@ function getDefaultSkills(unit) {
 
 // Returns the lowest available rarity of a unit, down to 3★
 export function getLowestRarity(unit) {
-    for (let i = 3; i <= 5; i++) {
-        if (baseStats[i][unit])
-            return i;
-    }
-    return 5;
+    return rarity[unit];
 }
 
 function getWeaponUpgrade(unit) {
@@ -263,22 +259,11 @@ function addStatMods(stats, mod) {
 // +5: Fourth and fifth highest base stat
 // +6~10: Repeat
 // In case of tie: HP > Atk > Spd > Def > Res
-function calcMergeBonus(unit, rarity, merge, totalMod, isNeutral = false) {
-    if (!baseStats[rarity][unit])
+function calcMergeBonus(unit, merge, isNeutral = false) {
+    if (!baseStats[unit])
         return [0, 0, 0, 0, 0];
     
-    let sortedStats = [];
-    for (let stat in baseStats[5][unit]) {
-        sortedStats.push({
-            "stat": stat,
-            "value": baseStats[5][unit][stat],
-            "bonus": 0
-        });
-    }
-    for (let i in sortedStats) {
-        sortedStats[i].value += Math.sign(totalMod[i]);
-    }
-    sortedStats.sort((a,b) => { return b.value - a.value; });
+    let sortedStats = sortStats(unit);
     
     let index = 0;
     for (let i = 0; i < merge; i++) {
@@ -319,53 +304,49 @@ function calcMergeBonus(unit, rarity, merge, totalMod, isNeutral = false) {
     return resultMod;
 }
 
+// Sort stats from highest to lowest
+function sortStats(unit) {
+    let sortedStats = [];
+    for (let stat in baseStats[unit]) {
+        sortedStats.push({
+            "stat": stat,
+            "value": baseStats[unit][stat],
+            "bonus": 0
+        });
+    }
+    sortedStats.sort((a,b) => { return b.value - a.value; });
+
+    return sortedStats;
+}
+
 // Calculate unit stats
 export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null, merge = 0, summonerRank = ''/*, getMod = false*/) {
     let totalMod = [0,0,0,0,0]; // HP, Atk, Spd, Def, Res
     let temp;
 
-    if (growths[unit])
-    {
-        let growthRates = Object.values(growths[unit]);
+    let growthRates = Object.values(growths[unit]);
 
-        if (boonBane) {
-            for (let bb in boonBane) {
-                if (!boonBane[bb]) continue;
+    if (boonBane) {
+        for (let bb in boonBane) {
+            if (!boonBane[bb]) continue;
 
-                let index = boonBane[bb] === "HP"  ? 0 :
-                            boonBane[bb] === "Atk" ? 1 :
-                            boonBane[bb] === "Spd" ? 2 :
-                            boonBane[bb] === "Def" ? 3 :
-                            /*boonBane[bb] === "Res" ?*/ 4;
-                
-                totalMod[index] += bb === "boon" ? 1 : merge === 0 ? -1 : 0;
-                growthRates[index] += bb === "boon" ? 5 : merge === 0 ? -5 : 0;
-            }
-        }
-
-        if (level === 40) {
-            let growthValues = calcGrowthValues(growthRates);
-            totalMod = totalMod.map((x,i) => { return x + growthValues[i]; });
-        }
-    }
-    else
-    {
-        if (boonBane) {
-            for (let bb in boonBane) {
-                if (!boonBane[bb]) continue;
-
-                let index = boonBane[bb] === "HP"  ? 0 :
-                            boonBane[bb] === "Atk" ? 1 :
-                            boonBane[bb] === "Spd" ? 2 :
-                            boonBane[bb] === "Def" ? 3 :
-                            /*boonBane[bb] === "Res" ?*/ 4;
-                
-                totalMod[index] += (bb === "boon" ? 1 : -1) * (level === 40 ? 3 : 1);
-            }
+            let index = boonBane[bb] === "HP"  ? 0 :
+                        boonBane[bb] === "Atk" ? 1 :
+                        boonBane[bb] === "Spd" ? 2 :
+                        boonBane[bb] === "Def" ? 3 :
+                        /*boonBane[bb] === "Res" ?*/ 4;
+            
+            totalMod[index] += bb === "boon" ? 1 : merge === 0 ? -1 : 0;
+            growthRates[index] += bb === "boon" ? 5 : merge === 0 ? -5 : 0;
         }
     }
 
-    let mergeMod = calcMergeBonus(unit, rarity, merge, totalMod, boonBane && Object.values(boonBane).every(x => x === ''));
+    if (level === 40) {
+        let growthValues = calcGrowthValues(growthRates);
+        totalMod = totalMod.map((x,i) => { return x + growthValues[i]; });
+    }
+
+    let mergeMod = calcMergeBonus(unit, merge, boonBane && Object.values(boonBane).every(x => x === ''));
     totalMod = totalMod.map((x,i) => { return x + mergeMod[i]; });
 
     if (skills) {
@@ -385,7 +366,7 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
         applySummonerSupportBonus();
     }
 
-    let stats = baseStats[rarity][unit] ? JSON.parse(JSON.stringify(baseStats[rarity][unit]))
+    let stats = baseStats[unit] ? calcBaseStats(unit, rarity)
                 : tempStats[unit] && tempStats[unit][rarity][level] ? JSON.parse(JSON.stringify(tempStats[unit][rarity][level]))
                 : null;
 
@@ -393,6 +374,25 @@ export function calcStats(unit, skills, rarity = 5, level = 40, boonBane = null,
     //     return totalMod;
     // else
     return addStatMods(stats, totalMod);
+
+    function calcBaseStats(unit, rarity) {
+        if (!baseStats[unit])
+            return [0, 0, 0, 0, 0];
+            
+        let stats = JSON.parse(JSON.stringify(baseStats[unit]));
+        let statArr = [stats.HP, stats.Atk, stats.Spd, stats.Def, stats.Res];
+        let order = [0].concat(statArr.slice(1).map((lhs, i) => statArr.slice(1).filter((rhs, j) => (i < j && lhs >= rhs) || (i > j && lhs > rhs)).length));
+
+        statArr = statArr.map((val, i) => val - Math.floor((5 - rarity + (order[i] < 2 ? 1 : 0)) / 2));
+
+        stats.HP = statArr[0];
+        stats.Atk = statArr[1];
+        stats.Spd = statArr[2];
+        stats.Def = statArr[3];
+        stats.Res = statArr[4];
+
+        return stats;
+    }
 
     function calcGrowthValues(growthRates) {
         return growthRates.map(x => Math.floor(0.39 * Math.floor(x * (0.79 + (0.07 * rarity)))));
