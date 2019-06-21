@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "15ee3ff01d5b9d5ef73f",
-    "url": "/feh-inheritance-tool/static/css/main.833733e0.chunk.css"
+    "revision": "c67d9fdacfd3faad5d4c",
+    "url": "/feh-inheritance-tool/static/css/main.91cfb61b.chunk.css"
   },
   {
-    "revision": "15ee3ff01d5b9d5ef73f",
-    "url": "/feh-inheritance-tool/static/js/main.15ee3ff0.chunk.js"
+    "revision": "c67d9fdacfd3faad5d4c",
+    "url": "/feh-inheritance-tool/static/js/main.c67d9fda.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -508,6 +508,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Greil_Heroic_Exemplar.6caa9b67.png"
   },
   {
+    "revision": "e076c534fe4df145462317852e04fa34",
+    "url": "/feh-inheritance-tool/static/media/Gunnthrá_Beaming_Smile.e076c534.png"
+  },
+  {
     "revision": "c71b18a4efa2a6680f2a5b5306d4a5f0",
     "url": "/feh-inheritance-tool/static/media/Gunnthrá_Voice_of_Dreams.c71b18a4.png"
   },
@@ -558,6 +562,10 @@ self.__precacheManifest = [
   {
     "revision": "3d989d17b5ee005d33138f6c6d2e3b8e",
     "url": "/feh-inheritance-tool/static/media/Helbindi_Savage_Scourge.3d989d17.png"
+  },
+  {
+    "revision": "aa14b1a7788e918eb4d0009056ca7226",
+    "url": "/feh-inheritance-tool/static/media/Helbindi_Seaside_Scourge.aa14b1a7.png"
   },
   {
     "revision": "3a50cb09e761f0e996d905bcc8c60671",
@@ -728,12 +736,20 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Lachesis_Lionhearts_Sister.5d763460.png"
   },
   {
+    "revision": "ccd8a523c97577bf0c37d67d2a580d4c",
+    "url": "/feh-inheritance-tool/static/media/Laegjarn_Burning_Sun.ccd8a523.png"
+  },
+  {
     "revision": "826934b6b15be8be9359434df747817e",
     "url": "/feh-inheritance-tool/static/media/Laegjarn_New_Experiences.826934b6.png"
   },
   {
     "revision": "ee6ff71dda7425c568ec503304b56282",
     "url": "/feh-inheritance-tool/static/media/Laegjarn_Sheathed_Steel.ee6ff71d.png"
+  },
+  {
+    "revision": "7f910f30afaee59897de3051abce1899",
+    "url": "/feh-inheritance-tool/static/media/Laevatein_Bonfires_Blaze.7f910f30.png"
   },
   {
     "revision": "12ca23bf6a0be1e20bb0d0f0b8a76c77",
@@ -1556,6 +1572,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Yarne_Timid_Taguel.19fa44d5.png"
   },
   {
+    "revision": "52ceb463cd699f9e0562e7f0da531d07",
+    "url": "/feh-inheritance-tool/static/media/Ylgr_Breaking_the_Ice.52ceb463.png"
+  },
+  {
     "revision": "593158238d551dd70eb061be82e9e0d7",
     "url": "/feh-inheritance-tool/static/media/Ylgr_Fresh_Snowfall.59315823.png"
   },
@@ -1572,7 +1592,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "7e6253c772f66d00e40b1976523fb019",
+    "revision": "55a894584d529c031775676a66210adf",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
