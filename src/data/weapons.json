@@ -4387,7 +4387,7 @@
     "type": "Dagger",
     "cost": 400,
     "might": 14,
-    "effect": "At start of combat, if unit's Atk > foe's Atk, grants Atk/Spd+4 during combat. Effect:【Dagger ７】 【Dagger ７】 After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.",
+    "effect": "At start of combat, if unit's Atk > foe's Atk, grants Atk/Spd+4 during combat. Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
   },
@@ -4399,5 +4399,73 @@
     "effect": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Tropical Treats": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat. Effect:【Dagger 5】 【Dagger 5】 After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Tropical Treats+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat. Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Buoy Board": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat."
+  },
+  "Buoy Board+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat.",
+    "upgrade": "-"
+  },
+  "Sandfort Spade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat."
+  },
+  "Sandfort Spade+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat.",
+    "upgrade": "-"
+  },
+  "Shoreline Rake": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat."
+  },
+  "Shoreline Rake+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat.",
+    "upgrade": "-"
+  },
+  "Worldsea Wave": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "restriction": "Exclusive"
   }
 }

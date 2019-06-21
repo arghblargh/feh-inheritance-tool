@@ -24199,5 +24199,352 @@
         }
       ]
     }
+  },
+  "Gunnthrá: Beaming Smile": {
+    "name": "Gunnthrá",
+    "title": "Beaming Smile",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Tropical Treats",
+          "unlock": 3
+        },
+        {
+          "name": "Tropical Treats+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Resistance",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Def/Res",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Def/Res+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "AR-O Spd/Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "AR-O Spd/Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "AR-O Spd/Res 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Disarm Trap 1",
+          "unlock": 3
+        },
+        {
+          "name": "Disarm Trap 2",
+          "unlock": 4
+        },
+        {
+          "name": "Disarm Trap 3"
+        }
+      ]
+    }
+  },
+  "Laegjarn: Burning Sun": {
+    "name": "Laegjarn",
+    "title": "Burning Sun",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 1
+        },
+        {
+          "name": "Ellight",
+          "unlock": 2
+        },
+        {
+          "name": "Shine",
+          "unlock": 3
+        },
+        {
+          "name": "Worldsea Wave"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Flier Formation 1",
+          "unlock": 3
+        },
+        {
+          "name": "Flier Formation 2",
+          "unlock": 4
+        },
+        {
+          "name": "Flier Formation 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Fliers",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Laevatein: Bonfire's Blaze": {
+    "name": "Laevatein",
+    "title": "Bonfire's Blaze",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Buoy Board",
+          "unlock": 3
+        },
+        {
+          "name": "Buoy Board+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Smite",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Mirror Strike 1",
+          "unlock": 3
+        },
+        {
+          "name": "Mirror Strike 2",
+          "unlock": 4
+        },
+        {
+          "name": "Mirror Impact"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Def/Res Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Def/Res Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Def/Res Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Atk Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Atk Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Atk Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Helbindi: Seaside Scourge": {
+    "name": "Helbindi",
+    "title": "Seaside Scourge",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Sandfort Spade",
+          "unlock": 3
+        },
+        {
+          "name": "Sandfort Spade+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Def",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Def+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "R Duel Infantry 1",
+          "unlock": 3
+        },
+        {
+          "name": "R Duel Infantry 2",
+          "unlock": 4
+        },
+        {
+          "name": "R Duel Infantry 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Panic Ploy 1",
+          "unlock": 1
+        },
+        {
+          "name": "Panic Ploy 2",
+          "unlock": 2
+        },
+        {
+          "name": "Panic Ploy 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Ylgr: Breaking the Ice": {
+    "name": "Ylgr",
+    "title": "Breaking the Ice",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Shoreline Rake",
+          "unlock": 3
+        },
+        {
+          "name": "Shoreline Rake+"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Flashing Blade 1",
+          "unlock": 3
+        },
+        {
+          "name": "Flashing Blade 2",
+          "unlock": 4
+        },
+        {
+          "name": "Flashing Blade 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Def Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Def Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Def Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

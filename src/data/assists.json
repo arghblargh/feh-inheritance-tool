@@ -80,6 +80,10 @@
         "cost": 300,
         "effect": "Grants Atk/Res+3 to target ally for 1 turn."
     },
+    "Rally Atk/Res+": {
+        "cost": 400,
+        "effect": "Grants Atk/Res+6 to target ally for 1 turn."
+    },
     "Rally Atk/Spd": {
         "cost": 300,
         "effect": "Grants Atk/Spd+3 to target ally for 1 turn."
@@ -96,6 +100,10 @@
         "cost": 300,
         "effect": "Grants Def/Res+3 to target ally for 1 turn."
     },
+    "Rally Def/Res+": {
+        "cost": 400,
+        "effect": "Grants Def/Res+6 to target ally for 1 turn."
+    },
     "Rally Resistance": {
         "cost": 150,
         "effect": "Grants Res+4 to target ally for 1 turn."
@@ -111,6 +119,10 @@
     "Rally Spd/Res": {
         "cost": 300,
         "effect": "Grants Spd/Res+3 to target ally for 1 turn."
+    },
+    "Rally Spd/Res+": {
+        "cost": 300,
+        "effect": "Grants Spd/Res+6 to target ally for 1 turn."
     },
     "Rally Speed": {
         "cost": 150,

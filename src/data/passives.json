@@ -60,6 +60,18 @@
       "cost": 240,
       "effect": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
     },
+    "AR-O Spd/Res 1": {
+      "cost": 60,
+      "effect": "If attacking in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-O Spd/Res 2": {
+      "cost": 120,
+      "effect": "If attacking in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +7; 3 grants +5; 4 grants +3; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-O Spd/Res 3": {
+      "cost": 240,
+      "effect": "If attacking in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+    },
     "Armored Blow 1": {
       "cost": 50,
       "effect": "If unit initiates combat, grants Def+2 during combat.",
@@ -783,6 +795,11 @@
       "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
       "restriction": "Offense"
     },
+    "Mirror Impact": {
+      "cost": 300,
+      "effect": "If unit initiates combat, grants Atk+6, Res+10 during combat and foe cannot make a follow-up attack.",
+      "restriction": "Offense"
+    },
     "Mirror Stance 1": {
       "cost": 120,
       "effect": "If foe initiates combat, grants Atk/Res+2 during combat.",
@@ -824,6 +841,21 @@
       "cost": 240,
       "effect": "Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
       "restriction": "Flying, Color:R"
+    },
+    "R Duel Infantry 1": {
+      "cost": 60,
+      "effect": "Grants HP+3. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+      "restriction": "Infantry, Color:R"
+    },
+    "R Duel Infantry 2": {
+      "cost": 120,
+      "effect": "Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+      "restriction": "Infantry, Color:R"
+    },
+    "R Duel Infantry 3": {
+      "cost": 240,
+      "effect": "Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+      "restriction": "Infantry, Color:R"
     },
     "Resistance +1": {
       "cost": 30,
@@ -1004,6 +1036,11 @@
     "Swift Sparrow 2": {
       "cost": 240,
       "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
+      "restriction": "Offense"
+    },
+    "Swift Sparrow 3": {
+      "cost": 300,
+      "effect": "If unit initiates combat, grants Atk+6, Spd+7 during combat.",
       "restriction": "Offense"
     },
     "Swift Stance 1": {
