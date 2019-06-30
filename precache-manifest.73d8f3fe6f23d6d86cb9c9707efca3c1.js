@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "71ce56604cbf2d6ea006",
-    "url": "/feh-inheritance-tool/static/css/main.91cfb61b.chunk.css"
+    "revision": "f1ba4aaac5221db3b12d",
+    "url": "/feh-inheritance-tool/static/css/main.21b0c4ef.chunk.css"
   },
   {
-    "revision": "71ce56604cbf2d6ea006",
-    "url": "/feh-inheritance-tool/static/js/main.71ce5660.chunk.js"
+    "revision": "f1ba4aaac5221db3b12d",
+    "url": "/feh-inheritance-tool/static/js/main.f1ba4aaa.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -374,6 +374,10 @@ self.__precacheManifest = [
   {
     "revision": "753a790a713b4fa335b33e8f603f6344",
     "url": "/feh-inheritance-tool/static/media/Elise_Tropical_Flower.753a790a.png"
+  },
+  {
+    "revision": "2e18cf17aef3b4255cda89233cc075e5",
+    "url": "/feh-inheritance-tool/static/media/Eliwood_Blazing_Knight.2e18cf17.png"
   },
   {
     "revision": "71775f84e75e1a785c8f747aa0bcd59c",
@@ -1592,7 +1596,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "3b204f99c927b642ad8d2487baefbc41",
+    "revision": "650c4e41dbcef12f24882a8b360eb886",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
