@@ -3383,6 +3383,11 @@
       "effect": "At the start of turn 1, deals 7 damage to all foes, and if defending in Aether Raids during anima season, destroys offensive structure within same column as unit. (Does not affect structures that cannot be destroyed.)",
       "restriction": "Exclusive"
     },
+    "Visions of Arcadia": {
+      "cost": 300,
+      "effect": "At start of turn, if a dragon or beast ally is deployed, grants Atk/Def+6 to ally with the highest Atk for 1 turn.",
+      "restriction": "Exclusive"
+    },
     "Ward Armor": {
       "cost": 200,
       "effect": "Grants Def/Res+4 to armored allies within 2 spaces during combat.",

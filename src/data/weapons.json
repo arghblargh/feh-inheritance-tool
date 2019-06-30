@@ -4467,5 +4467,13 @@
     "might": 14,
     "effect": "Grants Spd+3. If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
     "restriction": "Exclusive"
+  },
+  "Ardent Durandal": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. At start of turn, grants 【Bonus Doubler】 to ally with the highest Atk. 【Bonus Doubler】 Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.",
+    "restriction": "Exclusive"
   }
 }

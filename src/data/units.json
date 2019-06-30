@@ -24546,5 +24546,80 @@
         }
       ]
     }
+  },
+  "Eliwood: Blazing Knight": {
+    "name": "Eliwood",
+    "title": "Blazing Knight",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Ardent Durandal"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Spd/Res",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Spd/Res+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 3
+        },
+        {
+          "name": "Death Blow 3",
+          "unlock": 4
+        },
+        {
+          "name": "Death Blow 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Atk 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Atk 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Visions of Arcadia"
+        }
+      ]
+    }
   }
 }

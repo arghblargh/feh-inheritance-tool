@@ -622,6 +622,13 @@
     "Def": 3,
     "Res": 6
   },
+  "Eliwood: Blazing Knight": {
+    "HP": 18,
+    "Atk": 6,
+    "Spd": 10,
+    "Def": 9,
+    "Res": 3
+  },
   "Eliwood: Devoted Love": {
     "HP": 23,
     "Atk": 10,
