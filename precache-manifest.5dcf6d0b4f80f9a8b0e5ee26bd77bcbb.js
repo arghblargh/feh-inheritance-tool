@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f1ba4aaac5221db3b12d",
-    "url": "/feh-inheritance-tool/static/css/main.21b0c4ef.chunk.css"
+    "revision": "3ce664c3ac1d246c050c",
+    "url": "/feh-inheritance-tool/static/css/main.5582a4c9.chunk.css"
   },
   {
-    "revision": "f1ba4aaac5221db3b12d",
-    "url": "/feh-inheritance-tool/static/js/main.f1ba4aaa.chunk.js"
+    "revision": "3ce664c3ac1d246c050c",
+    "url": "/feh-inheritance-tool/static/js/main.3ce664c3.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -436,6 +436,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Finn_Lance_of_Legend.1e2982e6.png"
   },
   {
+    "revision": "fff5b869d47e9478204a0ad128259123",
+    "url": "/feh-inheritance-tool/static/media/Fiora_Defrosted_Illian.fff5b869.png"
+  },
+  {
     "revision": "68dfb18aecc71476a114134d3d28e869",
     "url": "/feh-inheritance-tool/static/media/Fir_Sword_Student.68dfb18a.png"
   },
@@ -816,6 +820,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Libra_Fetching_Friar.643ca007.png"
   },
   {
+    "revision": "32bead5150069206f8b11d4c06703d73",
+    "url": "/feh-inheritance-tool/static/media/Lilina_Beachside_Bloom.32bead51.png"
+  },
+  {
     "revision": "1001f544036640196de1fb8f9a8a210c",
     "url": "/feh-inheritance-tool/static/media/Lilina_Blush_of_Youth.1001f544.png"
   },
@@ -910,6 +918,10 @@ self.__precacheManifest = [
   {
     "revision": "5bdae49e1e09df9f65c53c9915aa8e67",
     "url": "/feh-inheritance-tool/static/media/Lyn_Bride_of_the_Plains.5bdae49e.png"
+  },
+  {
+    "revision": "6f9cfbd8b138d0df614b6eaa329c1ab0",
+    "url": "/feh-inheritance-tool/static/media/Lyn_Lady_of_the_Beach.6f9cfbd8.png"
   },
   {
     "revision": "7fa9ca1a7f911b12947fb807926cb112",
@@ -1524,6 +1536,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Ursula_Blue_Crow.c159be4e.png"
   },
   {
+    "revision": "c0734490466817b7b7c655d262d7eabd",
+    "url": "/feh-inheritance-tool/static/media/Ursula_Clear-Blue_Crow.c0734490.png"
+  },
+  {
     "revision": "45515aeb6aa9708c46266454431d7b31",
     "url": "/feh-inheritance-tool/static/media/Valter_Dark_Moonstone.45515aeb.png"
   },
@@ -1550,6 +1566,10 @@ self.__precacheManifest = [
   {
     "revision": "739a2d7ce30a05272bba36ee02cb376b",
     "url": "/feh-inheritance-tool/static/media/Walhart_The_Conqueror.739a2d7c.png"
+  },
+  {
+    "revision": "33b0a9e51df2391bb57b4e0f00b8aa76",
+    "url": "/feh-inheritance-tool/static/media/Wolt_Sunbeam_Archer.33b0a9e5.png"
   },
   {
     "revision": "6562217becd19d49ec3d7a6dd554cc63",
@@ -1596,7 +1616,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "650c4e41dbcef12f24882a8b360eb886",
+    "revision": "5c99cc3270af7f4a87fced443570abaf",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
