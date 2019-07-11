@@ -321,6 +321,10 @@
       "cost": 240,
       "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Spd+7 during combat."
     },
+    "Brazen Atk/Spd 4": {
+      "cost": 300,
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk+9 and Spd+10 during combat."
+    },
     "Brazen Def/Res 1": {
       "cost": 60,
       "effect": "At start of combat, if unit's HP ≤ 80%, grants Def/Res+3 during combat."
@@ -1433,6 +1437,18 @@
       "cost": 240,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Def/Res+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
+    "Def/Res Ruse 1": {
+      "cost": 60,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def/Res-1 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
+    "Def/Res Ruse 2": {
+      "cost": 120,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
+    "Def/Res Ruse 3": {
+      "cost": 240,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def/Res-5 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
     "Deluge Dance 1": {
       "cost": 120,
       "effect": "If Sing or Dance is used, grants Spd+2 and Res+3 to target.",
@@ -1857,6 +1873,18 @@
     "Sabotage Atk 3": {
       "cost": 240,
       "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-7 on that foe through its next action."
+    },
+    "Sabotage Def 1": {
+      "cost": 60,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Def-3 on that foe through its next action."
+    },
+    "Sabotage Def 2": {
+      "cost": 120,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Def-5 on that foe through its next action."
+    },
+    "Sabotage Def 3": {
+      "cost": 240,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action."
     },
     "Sabotage Res 1": {
       "cost": 60,

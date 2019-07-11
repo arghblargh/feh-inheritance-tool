@@ -116,6 +116,9 @@
             "effect": "At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat."
         }
     },
+    "Rowdy Sword": {
+        "effect": "If a bonus granted by a skill like Rally or Hone is not active on foe, grants Atk/Def+6 during combat."
+    },
     "Scarlet Sword": {
         "effect": "At the start of turn 1, grants Special cooldown count-2."
     },
@@ -224,6 +227,9 @@
     "Slaying Spear+": {
         "effect": "Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
+    "Steady Lance": {
+        "effect": "If unit initiates combat, grants Spd+6 during combat."
+    },
     "Vidofnir": {
         "effect": "If unit is within 2 spaces of an infantry or armored ally, grants Atk/Spd+4 during combat.",
         "common": {
@@ -296,6 +302,9 @@
     },
     "Forblaze": {
         "effect": "If unit initiates combat, grants Atk+6 during combat."
+    },
+    "Hermit's Tome": {
+        "effect": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2."
     },
     "Keen Rauðrwolf+": {
         "effect": "Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
@@ -487,6 +496,9 @@
         "common": {
             "effect": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
         }
+    },
+    "Spy's Dagger": {
+        "effect": "Grants bonus to unit's Atk = total penalties on foe during combat."
     },
     "Staff": {
         "Wrathful": {

@@ -10068,6 +10068,9 @@
         },
         {
           "name": "Brave Sword+"
+        },
+        {
+          "name": "Rowdy Sword"
         }
       ],
       "special": [
@@ -11036,6 +11039,9 @@
         },
         {
           "name": "Rogue Dagger+"
+        },
+        {
+          "name": "Spy's Dagger"
         }
       ],
       "assist": [
@@ -13677,6 +13683,9 @@
         },
         {
           "name": "Rauðrwolf+"
+        },
+        {
+          "name": "Hermit's Tome"
         }
       ],
       "assist": [
@@ -14384,6 +14393,9 @@
         },
         {
           "name": "Firesweep L+"
+        },
+        {
+          "name": "Steady Lance"
         }
       ],
       "assist": [
@@ -24618,6 +24630,349 @@
       "passiveC": [
         {
           "name": "Visions of Arcadia"
+        }
+      ]
+    }
+  },
+  "Lilina: Beachside Bloom": {
+    "name": "Lilina",
+    "title": "Beachside Bloom",
+    "color": "Red",
+    "wpnType": "Dagger",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Broadleaf Fan",
+          "unlock": 3
+        },
+        {
+          "name": "Broadleaf Fan+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Resistance",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Up Res",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Up Res+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Res Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Res Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Sabotage Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Sabotage Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Sabotage Def 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Opening 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk Opening 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk Opening 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Lyn: Lady of the Beach": {
+    "name": "Lyn",
+    "title": "Lady of the Beach",
+    "color": "Blue",
+    "wpnType": "Bow",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Deep-Blue Bow"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Sturdy Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Sturdy Blow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Sturdy Impact"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Spd Link 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Link 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Link 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Distant Guard 1",
+          "unlock": 1
+        },
+        {
+          "name": "Distant Guard 2",
+          "unlock": 2
+        },
+        {
+          "name": "Distant Guard 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Ursula: Clear-Blue Crow": {
+    "name": "Ursula",
+    "title": "Clear-Blue Crow",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Scallop Blade",
+          "unlock": 3
+        },
+        {
+          "name": "Scallop Blade+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Speed",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Spd",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Spd+"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Def/Res Ruse 1",
+          "unlock": 3
+        },
+        {
+          "name": "Def/Res Ruse 2",
+          "unlock": 4
+        },
+        {
+          "name": "Def/Res Ruse 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Res Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Res Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Res Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Wolt: Sunbeam Archer": {
+    "name": "Wolt",
+    "title": "Sunbeam Archer",
+    "color": "Green",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Big-Catch Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Big-Catch Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Atk/Spd 1",
+          "unlock": 2
+        },
+        {
+          "name": "Brazen Atk/Spd 2",
+          "unlock": 3
+        },
+        {
+          "name": "Brazen Atk/Spd 3",
+          "unlock": 4
+        },
+        {
+          "name": "Brazen Atk/Spd 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Spd 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Fiora: Defrosted Illian": {
+    "name": "Fiora",
+    "title": "Defrosted Illian",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Petal Parasol",
+          "unlock": 3
+        },
+        {
+          "name": "Petal Parasol+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd/Res Link 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd/Res Link 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd/Res Link 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Smoke 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk Smoke 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk Smoke 3"
         }
       ]
     }

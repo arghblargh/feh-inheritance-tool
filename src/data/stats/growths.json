@@ -727,6 +727,13 @@
     "Def": 55,
     "Res": 35
   },
+  "Fiora: Defrosted Illian": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 50,
+    "Res": 50
+  },
   "Fir: Sword Student": {
     "HP": 50,
     "Atk": 45,
@@ -1392,6 +1399,13 @@
     "Def": 50,
     "Res": 50
   },
+  "Lilina: Beachside Bloom": {
+    "HP": 40,
+    "Atk": 70,
+    "Spd": 45,
+    "Def": 30,
+    "Res": 60
+  },
   "Lilina: Blush of Youth": {
     "HP": 40,
     "Atk": 60,
@@ -1559,6 +1573,13 @@
     "Spd": 55,
     "Def": 40,
     "Res": 45
+  },
+  "Lyn: Lady of the Beach": {
+    "HP": 45,
+    "Atk": 60,
+    "Spd": 65,
+    "Def": 35,
+    "Res": 50
   },
   "Lyn: Lady of the Plains": {
     "HP": 45,
@@ -2631,6 +2652,13 @@
     "Def": 35,
     "Res": 50
   },
+  "Ursula: Clear-Blue Crow": {
+    "HP": 45,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 30,
+    "Res": 50
+  },
   "Valter: Dark Moonstone": {
     "HP": 55,
     "Atk": 55,
@@ -2671,6 +2699,13 @@
     "Atk": 60,
     "Spd": 50,
     "Def": 65,
+    "Res": 30
+  },
+  "Wolt: Sunbeam Archer": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 45,
     "Res": 30
   },
   "Wrys: Kindly Priest": {

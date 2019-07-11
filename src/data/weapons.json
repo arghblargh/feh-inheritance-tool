@@ -4475,5 +4475,94 @@
     "might": 16,
     "effect": "Grants Atk+3. At start of turn, grants 【Bonus Doubler】 to ally with the highest Atk. 【Bonus Doubler】 Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.",
     "restriction": "Exclusive"
+  },
+  "Broadleaf Fan": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants bonus to unit's Atk = total penalties on foe during combat. Effect:【Dagger 5】 【Dagger 5】After combat, if unit attacked, inflicts Def/Res-5 on target and foes withing 2 spaces of target through their next actions."
+  },
+  "Broadleaf Fan+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants bonus to unit's Atk = total penalties on foe during combat. Effect:【Dagger 7】 【Dagger 7】After combat, if unit attacked, inflicts Def/Res-7 on target and foes withing 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Scallop Blade": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "If【Penalty】is active on foe, grants Atk/Spd+5 during combat. Effect:【Dagger 5】 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threathen and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).  【Dagger 5】 After combat, if unit attacked, inflicts Def/Res-5 on target and foes withing 2 spaces of target through their next actions."
+  },
+  "Scallop Blade+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "If【Penalty】is active on foe, grants Atk/Spd+5 during combat. Effect:【Dagger 7】 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threathen and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).  【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes withing 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Big-Catch Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. If【Penalty】is active on foe, grants Atk/Spd+5 during combat. 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threathen and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard)."
+  },
+  "Big-Catch Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. If【Penalty】is active on foe, grants Atk/Spd+5 during combat. 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threathen and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+    "upgrade": "-"
+  },
+  "Deep-Blue Bow": {
+    "color": "Blue",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. Effective against flying and armored foes. If foe's HP = 100% and unit initiates combat, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Rowdy Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 11,
+    "effect": "Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Steady Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Unit and foe cannot counterattack.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Spy's Dagger": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 14,
+    "effect": "After combat, if unit attacked, grants Def/Res+6 to unit and allies within 2 spaces of unit for 1 turn. Effect:【Dagger 6】 【Dagger 6】 After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Hermit's Tome": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against cavalry foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }
