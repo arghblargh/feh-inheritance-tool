@@ -4741,6 +4741,9 @@
         },
         {
           "name": "Firesweep Bow+"
+        },
+        {
+          "name": "Bow of Devotion"
         }
       ],
       "special": [
@@ -10008,6 +10011,9 @@
         },
         {
           "name": "Killer Lance+"
+        },
+        {
+          "name": "Daybreak Lance"
         }
       ],
       "special": [
@@ -16498,6 +16504,9 @@
         },
         {
           "name": "Ruby Sword+"
+        },
+        {
+          "name": "Panther Sword"
         }
       ],
       "assist": [
@@ -16616,6 +16625,9 @@
         },
         {
           "name": "Sapphire Lance+"
+        },
+        {
+          "name": "Bull Spear"
         }
       ],
       "assist": [
