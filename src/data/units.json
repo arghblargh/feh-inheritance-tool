@@ -24988,5 +24988,428 @@
         }
       ]
     }
+  },
+  "Byleth: Proven Professor": {
+    "name": "Byleth",
+    "title": "Proven Professor",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Creator Sword"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        },
+        {
+          "name": "Ruptured Sky"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fury 1",
+          "unlock": 2
+        },
+        {
+          "name": "Fury 2",
+          "unlock": 3
+        },
+        {
+          "name": "Fury 3",
+          "unlock": 4
+        },
+        {
+          "name": "Fury 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrath 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Atk Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Atk Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Atk Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Byleth: Tested Professor": {
+    "name": "Byleth",
+    "title": "Tested Professor",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Creator Sword"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        },
+        {
+          "name": "Ruptured Sky"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Spd 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Spd Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Spd Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Spd Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Claude: The Schemer": {
+    "name": "Claude",
+    "title": "The Schemer",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Cunning Bow"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Glimmer",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Lull Spd/Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Lull Spd/Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Lull Spd/Def 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Smoke 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def Smoke 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def Smoke 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Dimitri: The Protector": {
+    "name": "Dmitri",
+    "title": "The Protector",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Noble Lance"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeance",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 3
+        },
+        {
+          "name": "Death Blow 3",
+          "unlock": 4
+        },
+        {
+          "name": "Death Blow 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Lull Atk/Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Lull Atk/Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Lull Atk/Def 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Edelgard: The Future": {
+    "name": "Edelgard",
+    "title": "The Future",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Victorious Axe"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dull Close 1",
+          "unlock": 1
+        },
+        {
+          "name": "Dull Close 2",
+          "unlock": 2
+        },
+        {
+          "name": "Dull Close 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Rouse Atk/Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Rouse Atk/Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Rouse Atk/Def 3"
+        }
+      ]
+    }
+  },
+  "Kronya: Gleaming Blade": {
+    "name": "Kronya",
+    "title": "Gleaming Blade",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Athame"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 3
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 4
+        },
+        {
+          "name": "Desperation 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Distant Guard 1",
+          "unlock": 1
+        },
+        {
+          "name": "Distant Guard 2",
+          "unlock": 2
+        },
+        {
+          "name": "Distant Guard 3",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

@@ -202,6 +202,20 @@
     "Def": 60,
     "Res": 25
   },
+  "Byleth: Proven Professor": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 70,
+    "Def": 60,
+    "Res": 40
+  },
+  "Byleth: Tested Professor": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 70,
+    "Def": 60,
+    "Res": 40
+  },
   "Caeda: Talys's Bride": {
     "HP": 40,
     "Atk": 50,
@@ -398,6 +412,13 @@
     "Def": 45,
     "Res": 35
   },
+  "Claude: The Schemer": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 35,
+    "Res": 40
+  },
   "Clive: Idealistic Knight": {
     "HP": 60,
     "Atk": 55,
@@ -503,6 +524,13 @@
     "Def": 35,
     "Res": 50
   },
+  "Dimitri: The Protector": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 55,
+    "Def": 55,
+    "Res": 35
+  },
   "Donnel: Village Hero": {
     "HP": 60,
     "Atk": 65,
@@ -537,6 +565,13 @@
     "Spd": 35,
     "Def": 60,
     "Res": 55
+  },
+  "Edelgard: The Future": {
+    "HP": 55,
+    "Atk": 70,
+    "Spd": 50,
+    "Def": 65,
+    "Res": 35
   },
   "Effie: Army of One": {
     "HP": 65,
@@ -1251,6 +1286,13 @@
     "Spd": 75,
     "Def": 50,
     "Res": 45
+  },
+  "Kronya: Gleaming Blade": {
+    "HP": 60,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 40,
+    "Res": 50
   },
   "L'Arachel: Princess of Light": {
     "HP": 40,

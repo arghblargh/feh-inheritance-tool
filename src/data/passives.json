@@ -1699,6 +1699,36 @@
       "effect": "When healing an ally with a staff, restores HP to unit = HP restored to target.",
       "restriction": "Staff"
     },
+    "Lull Atk/Def 1": {
+      "cost": 60,
+      "effect": "Inflicts Atk/Def-1 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Atk/Def 2": {
+      "cost": 120,
+      "effect": "Inflicts Atk/Def-2 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Atk/Def 3": {
+      "cost": 240,
+      "effect": "Inflicts Atk/Def-3 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Spd/Def 1": {
+      "cost": 60,
+      "effect": "Inflicts Spd/Def-1 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Spd/Def 2": {
+      "cost": 120,
+      "effect": "Inflicts Spd/Def-2 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Spd/Def 3": {
+      "cost": 240,
+      "effect": "Inflicts Spd/Def-3 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
     "Lunar Brace": {
       "cost": 300,
       "effect": "Slows Special trigger (cooldown count+1). Deals damage = 50% of foe's Def when Special triggers.",
@@ -3132,6 +3162,21 @@
     "Res Tactic 3": {
       "cost": 240,
       "effect": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Rouse Atk/Def 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit is not adjacent to an ally, grants Atk/Def+2 for 1 turn.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Rouse Atk/Def 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit is not adjacent to an ally, grants Atk/Def+4 for 1 turn.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Rouse Atk/Def 3": {
+      "cost": 240,
+      "effect": "At start of turn, if unit is not adjacent to an ally, grants Atk/Def+6 for 1 turn.",
+      "restriction": "Infantry|Cavalry"
     },
     "Savage Blow 1": {
       "cost": 50,

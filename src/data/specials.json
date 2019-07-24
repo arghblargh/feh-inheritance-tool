@@ -328,6 +328,13 @@
     "count": 4,
     "effect": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res)."
   },
+  "Ruptured Sky": {
+    "cost": 500,
+    "count": 2,
+    "effect": "Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.",
+    "require": "Draconic Aura",
+    "restriction": "Weapon:SwLATrTbTgBoDa"
+  },
   "Sacred Cowl": {
     "cost": 200,
     "count": 2,

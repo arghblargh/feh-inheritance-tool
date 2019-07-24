@@ -179,7 +179,7 @@ function checkRestrictions(unit, skill, restrictions, limitStaff = false, color 
                     return true;
                 else if (/Tg/.test(flags) && /Tome/.test(unitData) && /Green/.test(unitData))
                     return true;
-                else if (/B/.test(flags) && /Bow/.test(unitData))
+                else if (/Bo/.test(flags) && /Bow/.test(unitData))
                     return true;
                 else if (/Da/.test(flags) && /Dagger/.test(unitData))
                     return true;

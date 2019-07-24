@@ -4564,5 +4564,45 @@
     "effect": "Effective against cavalry foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Creator Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). During combat, disables foe's skills that guarantee foe's follow-up attack or prevent unit's follow-up attack, and neutralizes skills that grant \"Special cooldown charge +X\" to foe or inflict \"Special cooldown charge -X\" on unit.",
+    "restriction": "Exclusive"
+  },
+  "Cunning Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. Effective against flying foes. When total bonuses on unit + total penalties on foe ≥ 10, inflicts Atk/Spd/Def/Res-5 on foe during combat. (Example: if unit has a +5 bonus and foe has a -5 penalty, the calculated total will be 10.)",
+    "restriction": "Exclusive"
+  },
+  "Noble Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. At start of combat, if both unit's and foe's HP = 100% or if both unit's and foe's HP < 100%, unit makes a guaranteed follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Victorious Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), unit makes a guaranteed follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Athame": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Res+3. At start of combat, if foe’s HP < 100%, grants Atk/Spd+5 during combat, and if foe initiates combat, unit can counterattack before foe’s first attack. Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "restriction": "Exclusive"
   }
 }
