@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "22bfa28f6430e484f591",
-    "url": "/feh-inheritance-tool/static/css/main.5582a4c9.chunk.css"
+    "revision": "9b276840c395af83ab36",
+    "url": "/feh-inheritance-tool/static/css/main.5f7af6a2.chunk.css"
   },
   {
-    "revision": "22bfa28f6430e484f591",
-    "url": "/feh-inheritance-tool/static/js/main.22bfa28f.chunk.js"
+    "revision": "9b276840c395af83ab36",
+    "url": "/feh-inheritance-tool/static/js/main.9b276840.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -136,6 +136,14 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Bruno_Masked_Knight.373cc72d.png"
   },
   {
+    "revision": "d2518fa56a203b3a0840c85faf4e0350",
+    "url": "/feh-inheritance-tool/static/media/Byleth_Proven_Professor.d2518fa5.png"
+  },
+  {
+    "revision": "629fef4fc28ca2dc7767de0b9aff8fa2",
+    "url": "/feh-inheritance-tool/static/media/Byleth_Tested_Professor.629fef4f.png"
+  },
+  {
     "revision": "5439044d2c7d2f344c5e9cc64143f476",
     "url": "/feh-inheritance-tool/static/media/Caeda_Talyss_Bride.5439044d.png"
   },
@@ -248,6 +256,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Clarisse_Sniper_in_the_Dark.b247b3d4.png"
   },
   {
+    "revision": "426e6a6f4ec4c6fdf6c8a2b458d0a20b",
+    "url": "/feh-inheritance-tool/static/media/Claude_The_Schemer.426e6a6f.png"
+  },
+  {
     "revision": "98072998aa9915e2d038f0ac803135db",
     "url": "/feh-inheritance-tool/static/media/Clive_Idealistic_Knight.98072998.png"
   },
@@ -308,6 +320,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Delthea_Tatarrahs_Puppet.4a7c1774.png"
   },
   {
+    "revision": "8dbd36b720f356ca04137cad7c29548a",
+    "url": "/feh-inheritance-tool/static/media/Dimitri_The_Protector.8dbd36b7.png"
+  },
+  {
     "revision": "309595147f8e9fbf5039f90236ea3309",
     "url": "/feh-inheritance-tool/static/media/Donnel_Village_Hero.30959514.png"
   },
@@ -326,6 +342,10 @@ self.__precacheManifest = [
   {
     "revision": "33c1d7b51256ffbcfe23f78b43b9ec0e",
     "url": "/feh-inheritance-tool/static/media/Duma_God_of_Strength.33c1d7b5.png"
+  },
+  {
+    "revision": "01b9f89eb0b093825ef4a7fd97bc6d8c",
+    "url": "/feh-inheritance-tool/static/media/Edelgard_The_Future.01b9f89e.png"
   },
   {
     "revision": "fd4bbe3137f305a006ef9e6cc1e0b516",
@@ -734,6 +754,10 @@ self.__precacheManifest = [
   {
     "revision": "90d5c6e8b87aa76e518f2b69cb47e782",
     "url": "/feh-inheritance-tool/static/media/Kliff_Curious_Spirit.90d5c6e8.png"
+  },
+  {
+    "revision": "d658642f0884b9aca34ed02ba717fe58",
+    "url": "/feh-inheritance-tool/static/media/Kronya_Gleaming_Blade.d658642f.png"
   },
   {
     "revision": "5aaca81db9f73c6f011ee6882061567c",
@@ -1616,7 +1640,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "504b527a2b6fcf3efc98b813ea92dcaf",
+    "revision": "907b6deb89967a23ec1f42bfa0e0fd63",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
