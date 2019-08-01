@@ -1,4 +1,11 @@
 {
+  "???: Masked Knight": {
+    "HP": 40,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 40,
+    "Res": 45
+  },
   "Abel: The Panther": {
     "HP": 50,
     "Atk": 60,
@@ -89,6 +96,41 @@
     "Spd": 60,
     "Def": 30,
     "Res": 40
+  },
+  "Axe Cavalier": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 45,
+    "Def": 45,
+    "Res": 50
+  },
+  "Axe Dragon": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 50,
+    "Def": 60,
+    "Res": 35
+  },
+  "Axe Fighter": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 50,
+    "Res": 40
+  },
+  "Axe Flier": {
+    "HP": 45,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 40,
+    "Res": 60
+  },
+  "Axe Knight": {
+    "HP": 70,
+    "Atk": 65,
+    "Spd": 30,
+    "Def": 65,
+    "Res": 35
   },
   "Ayra: Astra's Wielder": {
     "HP": 50,
@@ -181,12 +223,82 @@
     "Def": 60,
     "Res": 30
   },
+  "Blue Bow": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 50,
+    "Res": 30
+  },
+  "Blue Cavalier": {
+    "HP": 40,
+    "Atk": 60,
+    "Spd": 45,
+    "Def": 30,
+    "Res": 60
+  },
+  "Blue Fáfnir": {
+    "HP": 50,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 50
+  },
+  "Blue Flier": {
+    "HP": 40,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 30,
+    "Res": 55
+  },
+  "Blue Mage": {
+    "HP": 45,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 35,
+    "Res": 50
+  },
+  "Blue Manakete": {
+    "HP": 60,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 50,
+    "Res": 50
+  },
+  "Blue Thief": {
+    "HP": 45,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 25,
+    "Res": 55
+  },
   "Boey: Skillful Survivor": {
     "HP": 55,
     "Atk": 50,
     "Spd": 50,
     "Def": 55,
     "Res": 30
+  },
+  "Bow Cavalier": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 40,
+    "Def": 45,
+    "Res": 40
+  },
+  "Bow Fighter": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 50,
+    "Res": 30
+  },
+  "Bow Flier": {
+    "HP": 45,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 30,
+    "Res": 50
   },
   "Brady: Daunting Priest": {
     "HP": 50,
@@ -418,6 +530,13 @@
     "Spd": 60,
     "Def": 35,
     "Res": 40
+  },
+  "Cleric": {
+    "HP": 40,
+    "Atk": 50,
+    "Spd": 50,
+    "Def": 40,
+    "Res": 60
   },
   "Clive: Idealistic Knight": {
     "HP": 60,
@@ -895,6 +1014,55 @@
     "Def": 55,
     "Res": 45
   },
+  "Green Bow": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 50,
+    "Res": 30
+  },
+  "Green Cavalier": {
+    "HP": 40,
+    "Atk": 60,
+    "Spd": 45,
+    "Def": 30,
+    "Res": 60
+  },
+  "Green Fáfnir": {
+    "HP": 50,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 50
+  },
+  "Green Flier": {
+    "HP": 40,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 30,
+    "Res": 55
+  },
+  "Green Mage": {
+    "HP": 45,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 35,
+    "Res": 50
+  },
+  "Green Manakete": {
+    "HP": 60,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 50,
+    "Res": 50
+  },
+  "Green Thief": {
+    "HP": 45,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 25,
+    "Res": 55
+  },
   "Greil: Heroic Exemplar": {
     "HP": 55,
     "Atk": 70,
@@ -929,6 +1097,13 @@
     "Spd": 40,
     "Def": 50,
     "Res": 30
+  },
+  "Gustav: Exsanguinator": {
+    "HP": 55,
+    "Atk": 65,
+    "Spd": 50,
+    "Def": 60,
+    "Res": 35
   },
   "Gwendolyn: Adorable Knight": {
     "HP": 60,
@@ -993,10 +1168,17 @@
     "Def": 60,
     "Res": 50
   },
+  "Hel: Death Sovereign": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 70,
+    "Def": 60,
+    "Res": 30
+  },
   "Helbindi: Savage Scourge": {
     "HP": 60,
     "Atk": 60,
-    "Spd": 30,
+    "Spd": 40,
     "Def": 60,
     "Res": 55
   },
@@ -1323,7 +1505,7 @@
     "Res": 30
   },
   "Laegjarn: Sheathed Steel": {
-    "HP": 55,
+    "HP": 60,
     "Atk": 55,
     "Spd": 60,
     "Def": 65,
@@ -1344,11 +1526,46 @@
     "Res": 35
   },
   "Laevatein: Searing Steel": {
-    "HP": 50,
+    "HP": 55,
     "Atk": 60,
     "Spd": 55,
     "Def": 60,
+    "Res": 45
+  },
+  "Lance Cavalier": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 45,
+    "Def": 45,
+    "Res": 50
+  },
+  "Lance Dragon": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 50,
+    "Def": 60,
+    "Res": 35
+  },
+  "Lance Fighter": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 50,
     "Res": 40
+  },
+  "Lance Flier": {
+    "HP": 45,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 40,
+    "Res": 60
+  },
+  "Lance Knight": {
+    "HP": 70,
+    "Atk": 65,
+    "Spd": 30,
+    "Def": 65,
+    "Res": 35
   },
   "Laslow: Dancing Duelist": {
     "HP": 55,
@@ -1441,6 +1658,13 @@
     "Def": 50,
     "Res": 50
   },
+  "Líf: Lethal Swordsman": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 50,
+    "Def": 60,
+    "Res": 50
+  },
   "Lilina: Beachside Bloom": {
     "HP": 40,
     "Atk": 70,
@@ -1515,8 +1739,8 @@
     "HP": 55,
     "Atk": 55,
     "Spd": 60,
-    "Def": 30,
-    "Res": 45
+    "Def": 35,
+    "Res": 50
   },
   "Lon'qu: Solitary Blade": {
     "HP": 60,
@@ -2127,6 +2351,55 @@
     "Def": 35,
     "Res": 50
   },
+  "Red Bow": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 50,
+    "Res": 30
+  },
+  "Red Cavalier": {
+    "HP": 40,
+    "Atk": 60,
+    "Spd": 45,
+    "Def": 30,
+    "Res": 60
+  },
+  "Red Fáfnir": {
+    "HP": 50,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 50
+  },
+  "Red Flier": {
+    "HP": 40,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 30,
+    "Res": 55
+  },
+  "Red Mage": {
+    "HP": 45,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 35,
+    "Res": 50
+  },
+  "Red Manakete": {
+    "HP": 60,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 50,
+    "Res": 50
+  },
+  "Red Thief": {
+    "HP": 45,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 25,
+    "Res": 55
+  },
   "Reinhardt: Thunder's Fist": {
     "HP": 50,
     "Atk": 55,
@@ -2491,6 +2764,13 @@
     "Def": 40,
     "Res": 40
   },
+  "Sothis: Girl on the Throne": {
+    "HP": 55,
+    "Atk": 65,
+    "Spd": 70,
+    "Def": 60,
+    "Res": 55
+  },
   "Stahl: Viridian Knight": {
     "HP": 60,
     "Atk": 55,
@@ -2532,6 +2812,41 @@
     "Spd": 30,
     "Def": 70,
     "Res": 60
+  },
+  "Sword Cavalier": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 45,
+    "Def": 45,
+    "Res": 50
+  },
+  "Sword Dragon": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 50,
+    "Def": 60,
+    "Res": 35
+  },
+  "Sword Fighter": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 50,
+    "Res": 40
+  },
+  "Sword Flier": {
+    "HP": 45,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 40,
+    "Res": 60
+  },
+  "Sword Knight": {
+    "HP": 70,
+    "Atk": 65,
+    "Spd": 30,
+    "Def": 65,
+    "Res": 35
   },
   "Tailtiu: Thunder Noble": {
     "HP": 50,
@@ -2617,6 +2932,20 @@
     "Def": 55,
     "Res": 50
   },
+  "Thief": {
+    "HP": 45,
+    "Atk": 50,
+    "Spd": 65,
+    "Def": 25,
+    "Res": 55
+  },
+  "Thrasir: Omnicidal Witch": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 65,
+    "Def": 40,
+    "Res": 50
+  },
   "Tibarn: Lord of the Air": {
     "HP": 50,
     "Atk": 65,
@@ -2687,6 +3016,13 @@
     "Def": 65,
     "Res": 50
   },
+  "Troubadour": {
+    "HP": 35,
+    "Atk": 55,
+    "Spd": 40,
+    "Def": 35,
+    "Res": 70
+  },
   "Ursula: Blue Crow": {
     "HP": 45,
     "Atk": 50,
@@ -2720,6 +3056,13 @@
     "Atk": 55,
     "Spd": 60,
     "Def": 40,
+    "Res": 35
+  },
+  "Veronica: Emblian Princess": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 40,
+    "Def": 50,
     "Res": 35
   },
   "Veronica: Spring Princess": {

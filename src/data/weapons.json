@@ -4604,5 +4604,13 @@
     "might": 16,
     "effect": "Grants Res+3. At start of combat, if foe’s HP < 100%, grants Atk/Spd+5 during combat, and if foe initiates combat, unit can counterattack before foe’s first attack. Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
     "restriction": "Exclusive"
+  },
+  "Sublime Surge": {
+    "color": "Red",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Neutralizes \"effective against dragons\" bonuses. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
   }
 }

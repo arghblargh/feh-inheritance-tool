@@ -3451,6 +3451,21 @@
       "cost": 200,
       "effect": "At start of turn, inflicts Spd-5 on foes within 2 spaces through their next actions."
     },
+    "Time's Pulse 1": {
+      "cost": 60,
+      "effect": "At the start of every third turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.",
+      "restriction": "Infantry"
+    },
+    "Time's Pulse 2": {
+      "cost": 120,
+      "effect": "At the start of every second turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.",
+      "restriction": "Infantry"
+    },
+    "Time's Pulse 3": {
+      "cost": 240,
+      "effect": "At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.",
+      "restriction": "Infantry"
+    },
     "Upheaval": {
       "cost": 300,
       "effect": "At the start of turn 1, deals 7 damage to all foes, and if defending in Aether Raids during anima season, destroys offensive structure within same column as unit. (Does not affect structures that cannot be destroyed.)",

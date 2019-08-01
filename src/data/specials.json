@@ -342,6 +342,13 @@
     "require": "Holy Vestments",
     "restriction": "Melee"
   },
+  "Sirius": {
+    "cost": 500,
+    "count": 2,
+    "effect": "Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.",
+    "require": "Noontime",
+    "restriction": "Exclusive"
+  },
   "Sol": {
     "cost": 200,
     "count": 3,

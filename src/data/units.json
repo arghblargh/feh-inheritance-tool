@@ -25411,5 +25411,84 @@
         }
       ]
     }
+  },
+  "Sothis: Girl on the Throne": {
+    "name": "Sothis",
+    "title": "Girl on the Throne",
+    "color": "Red",
+    "wpnType": "Breath",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Sublime Surge"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
+        {
+          "name": "Noontime",
+          "unlock": 4
+        },
+        {
+          "name": "Sirius"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Solo 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Spd Solo 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Solo 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrath 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Time's Pulse 1",
+          "unlock": 3
+        },
+        {
+          "name": "Time's Pulse 2",
+          "unlock": 4
+        },
+        {
+          "name": "Time's Pulse 3"
+        }
+      ]
+    }
   }
 }
