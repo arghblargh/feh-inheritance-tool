@@ -1,11 +1,4 @@
 {
-  "???: Masked Knight": {
-    "HP": 16,
-    "Atk": 7,
-    "Spd": 9,
-    "Def": 5,
-    "Res": 6
-  },
   "Abel: The Panther": {
     "HP": 17,
     "Atk": 7,
@@ -96,41 +89,6 @@
     "Spd": 8,
     "Def": 4,
     "Res": 7
-  },
-  "Axe Cavalier": {
-    "HP": 19,
-    "Atk": 8,
-    "Spd": 5,
-    "Def": 6,
-    "Res": 8
-  },
-  "Axe Dragon": {
-    "HP": 19,
-    "Atk": 9,
-    "Spd": 5,
-    "Def": 10,
-    "Res": 4
-  },
-  "Axe Fighter": {
-    "HP": 20,
-    "Atk": 7,
-    "Spd": 7,
-    "Def": 8,
-    "Res": 5
-  },
-  "Axe Flier": {
-    "HP": 18,
-    "Atk": 6,
-    "Spd": 9,
-    "Def": 4,
-    "Res": 10
-  },
-  "Axe Knight": {
-    "HP": 25,
-    "Atk": 10,
-    "Spd": 3,
-    "Def": 12,
-    "Res": 4
   },
   "Ayra: Astra's Wielder": {
     "HP": 19,
@@ -223,82 +181,12 @@
     "Def": 9,
     "Res": 5
   },
-  "Blue Bow": {
-    "HP": 19,
-    "Atk": 8,
-    "Spd": 7,
-    "Def": 7,
-    "Res": 3
-  },
-  "Blue Cavalier": {
-    "HP": 16,
-    "Atk": 9,
-    "Spd": 6,
-    "Def": 4,
-    "Res": 8
-  },
-  "Blue Fáfnir": {
-    "HP": 17,
-    "Atk": 7,
-    "Spd": 10,
-    "Def": 8,
-    "Res": 5
-  },
-  "Blue Flier": {
-    "HP": 17,
-    "Atk": 7,
-    "Spd": 9,
-    "Def": 3,
-    "Res": 8
-  },
-  "Blue Mage": {
-    "HP": 18,
-    "Atk": 7,
-    "Spd": 8,
-    "Def": 5,
-    "Res": 6
-  },
-  "Blue Manakete": {
-    "HP": 18,
-    "Atk": 8,
-    "Spd": 8,
-    "Def": 7,
-    "Res": 6
-  },
-  "Blue Thief": {
-    "HP": 17,
-    "Atk": 6,
-    "Spd": 10,
-    "Def": 3,
-    "Res": 8
-  },
   "Boey: Skillful Survivor": {
     "HP": 19,
     "Atk": 7,
     "Spd": 5,
     "Def": 8,
     "Res": 5
-  },
-  "Bow Cavalier": {
-    "HP": 18,
-    "Atk": 9,
-    "Spd": 5,
-    "Def": 5,
-    "Res": 6
-  },
-  "Bow Fighter": {
-    "HP": 19,
-    "Atk": 8,
-    "Spd": 7,
-    "Def": 7,
-    "Res": 3
-  },
-  "Bow Flier": {
-    "HP": 17,
-    "Atk": 8,
-    "Spd": 8,
-    "Def": 4,
-    "Res": 7
   },
   "Brady: Daunting Priest": {
     "HP": 19,
@@ -530,13 +418,6 @@
     "Spd": 11,
     "Def": 5,
     "Res": 4
-  },
-  "Cleric": {
-    "HP": 17,
-    "Atk": 6,
-    "Spd": 6,
-    "Def": 6,
-    "Res": 9
   },
   "Clive: Idealistic Knight": {
     "HP": 19,
@@ -1014,55 +895,6 @@
     "Def": 6,
     "Res": 3
   },
-  "Green Bow": {
-    "HP": 19,
-    "Atk": 8,
-    "Spd": 7,
-    "Def": 7,
-    "Res": 3
-  },
-  "Green Cavalier": {
-    "HP": 16,
-    "Atk": 9,
-    "Spd": 6,
-    "Def": 4,
-    "Res": 8
-  },
-  "Green Fáfnir": {
-    "HP": 17,
-    "Atk": 7,
-    "Spd": 10,
-    "Def": 8,
-    "Res": 5
-  },
-  "Green Flier": {
-    "HP": 17,
-    "Atk": 7,
-    "Spd": 9,
-    "Def": 3,
-    "Res": 8
-  },
-  "Green Mage": {
-    "HP": 18,
-    "Atk": 7,
-    "Spd": 8,
-    "Def": 5,
-    "Res": 6
-  },
-  "Green Manakete": {
-    "HP": 18,
-    "Atk": 8,
-    "Spd": 8,
-    "Def": 7,
-    "Res": 6
-  },
-  "Green Thief": {
-    "HP": 17,
-    "Atk": 6,
-    "Spd": 10,
-    "Def": 3,
-    "Res": 8
-  },
   "Greil: Heroic Exemplar": {
     "HP": 23,
     "Atk": 11,
@@ -1097,13 +929,6 @@
     "Spd": 7,
     "Def": 11,
     "Res": 5
-  },
-  "Gustav: Exsanguinator": {
-    "HP": 18,
-    "Atk": 9,
-    "Spd": 4,
-    "Def": 9,
-    "Res": 7
   },
   "Gwendolyn: Adorable Knight": {
     "HP": 23,
@@ -1166,13 +991,6 @@
     "Atk": 10,
     "Spd": 6,
     "Def": 12,
-    "Res": 4
-  },
-  "Hel: Death Sovereign": {
-    "HP": 18,
-    "Atk": 9,
-    "Spd": 9,
-    "Def": 8,
     "Res": 4
   },
   "Helbindi: Savage Scourge": {
@@ -1532,41 +1350,6 @@
     "Def": 9,
     "Res": 6
   },
-  "Lance Cavalier": {
-    "HP": 19,
-    "Atk": 8,
-    "Spd": 5,
-    "Def": 6,
-    "Res": 8
-  },
-  "Lance Dragon": {
-    "HP": 19,
-    "Atk": 9,
-    "Spd": 5,
-    "Def": 10,
-    "Res": 4
-  },
-  "Lance Fighter": {
-    "HP": 20,
-    "Atk": 7,
-    "Spd": 7,
-    "Def": 8,
-    "Res": 5
-  },
-  "Lance Flier": {
-    "HP": 18,
-    "Atk": 6,
-    "Spd": 9,
-    "Def": 4,
-    "Res": 10
-  },
-  "Lance Knight": {
-    "HP": 25,
-    "Atk": 10,
-    "Spd": 3,
-    "Def": 12,
-    "Res": 4
-  },
   "Laslow: Dancing Duelist": {
     "HP": 20,
     "Atk": 9,
@@ -1657,13 +1440,6 @@
     "Spd": 8,
     "Def": 6,
     "Res": 7
-  },
-  "Líf: Lethal Swordsman": {
-    "HP": 18,
-    "Atk": 11,
-    "Spd": 8,
-    "Def": 8,
-    "Res": 6
   },
   "Lilina: Beachside Bloom": {
     "HP": 18,
@@ -2351,55 +2127,6 @@
     "Def": 6,
     "Res": 5
   },
-  "Red Bow": {
-    "HP": 19,
-    "Atk": 8,
-    "Spd": 7,
-    "Def": 7,
-    "Res": 3
-  },
-  "Red Cavalier": {
-    "HP": 16,
-    "Atk": 9,
-    "Spd": 6,
-    "Def": 4,
-    "Res": 8
-  },
-  "Red Fáfnir": {
-    "HP": 17,
-    "Atk": 7,
-    "Spd": 10,
-    "Def": 8,
-    "Res": 5
-  },
-  "Red Flier": {
-    "HP": 17,
-    "Atk": 7,
-    "Spd": 9,
-    "Def": 3,
-    "Res": 8
-  },
-  "Red Mage": {
-    "HP": 18,
-    "Atk": 7,
-    "Spd": 8,
-    "Def": 5,
-    "Res": 6
-  },
-  "Red Manakete": {
-    "HP": 18,
-    "Atk": 8,
-    "Spd": 8,
-    "Def": 7,
-    "Res": 6
-  },
-  "Red Thief": {
-    "HP": 17,
-    "Atk": 6,
-    "Spd": 10,
-    "Def": 3,
-    "Res": 8
-  },
   "Reinhardt: Thunder's Fist": {
     "HP": 16,
     "Atk": 8,
@@ -2813,41 +2540,6 @@
     "Def": 12,
     "Res": 9
   },
-  "Sword Cavalier": {
-    "HP": 19,
-    "Atk": 8,
-    "Spd": 5,
-    "Def": 6,
-    "Res": 8
-  },
-  "Sword Dragon": {
-    "HP": 19,
-    "Atk": 9,
-    "Spd": 5,
-    "Def": 10,
-    "Res": 4
-  },
-  "Sword Fighter": {
-    "HP": 20,
-    "Atk": 7,
-    "Spd": 7,
-    "Def": 8,
-    "Res": 5
-  },
-  "Sword Flier": {
-    "HP": 18,
-    "Atk": 6,
-    "Spd": 9,
-    "Def": 4,
-    "Res": 10
-  },
-  "Sword Knight": {
-    "HP": 25,
-    "Atk": 10,
-    "Spd": 3,
-    "Def": 12,
-    "Res": 4
-  },
   "Tailtiu: Thunder Noble": {
     "HP": 17,
     "Atk": 8,
@@ -2932,20 +2624,6 @@
     "Def": 7,
     "Res": 6
   },
-  "Thief": {
-    "HP": 17,
-    "Atk": 6,
-    "Spd": 10,
-    "Def": 3,
-    "Res": 8
-  },
-  "Thrasir: Omnicidal Witch": {
-    "HP": 18,
-    "Atk": 9,
-    "Spd": 9,
-    "Def": 6,
-    "Res": 5
-  },
   "Tibarn: Lord of the Air": {
     "HP": 19,
     "Atk": 10,
@@ -3016,13 +2694,6 @@
     "Def": 5,
     "Res": 4
   },
-  "Troubadour": {
-    "HP": 15,
-    "Atk": 8,
-    "Spd": 4,
-    "Def": 5,
-    "Res": 11
-  },
   "Ursula: Blue Crow": {
     "HP": 16,
     "Atk": 7,
@@ -3057,13 +2728,6 @@
     "Spd": 10,
     "Def": 4,
     "Res": 4
-  },
-  "Veronica: Emblian Princess": {
-    "HP": 17,
-    "Atk": 9,
-    "Spd": 5,
-    "Def": 7,
-    "Res": 6
   },
   "Veronica: Spring Princess": {
     "HP": 16,
