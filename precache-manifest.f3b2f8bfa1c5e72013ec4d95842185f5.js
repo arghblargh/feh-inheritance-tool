@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9b276840c395af83ab36",
-    "url": "/feh-inheritance-tool/static/css/main.5f7af6a2.chunk.css"
+    "revision": "9154b0c14d34e42b4796",
+    "url": "/feh-inheritance-tool/static/css/main.cebc08e8.chunk.css"
   },
   {
-    "revision": "9b276840c395af83ab36",
-    "url": "/feh-inheritance-tool/static/js/main.9b276840.chunk.js"
+    "revision": "9154b0c14d34e42b4796",
+    "url": "/feh-inheritance-tool/static/js/main.9154b0c1.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -1444,6 +1444,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Sothe_Zephyr.0074e4c5.png"
   },
   {
+    "revision": "9b407a2c742a543b7da1014f45f49831",
+    "url": "/feh-inheritance-tool/static/media/Sothis_Girl_on_the_Throne.9b407a2c.png"
+  },
+  {
     "revision": "a45f44de7f15fede92aef38e90c3f63d",
     "url": "/feh-inheritance-tool/static/media/Stahl_Viridian_Knight.a45f44de.png"
   },
@@ -1640,7 +1644,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "907b6deb89967a23ec1f42bfa0e0fd63",
+    "revision": "b18155f73432a55879ed3f4a95240519",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
