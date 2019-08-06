@@ -122,6 +122,9 @@
     "Scarlet Sword": {
         "effect": "At the start of turn 1, grants Special cooldown count-2."
     },
+    "Selena's Blade": {
+        "effect": "Deals +10 damage when Special triggers."
+    },
     "Sieglinde": {
         "effect": "Grants bonus to Atk/Spd/Def/Res = highest bonus on allies within 2 spaces during combat. Calculates each stat bonus independently.",
         "common": {
@@ -248,6 +251,9 @@
     "Basilikos": {
         "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
+    "Beruka's Axe": {
+        "effect": "At start of combat, if unit's HP ≥ 50%, inflicts Atk-4 on foe during combat and Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+    },
     "Camilla's Axe": {
         "effect": "Grants Atk/Spd+3 to cavalry and flying allies within 2 spaces during combat."
     },
@@ -337,6 +343,9 @@
             "effect": "After combat, if unit attacked, restores 4 HP."
         }
     },
+    "Book of Orchids": {
+        "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn."
+    },
     "Dark Aura": {
         "effect": "If unit is within 2 spaces of a sword, lance, axe, dragon, or beast ally, grants Atk/Spd+5 to unit during combat."
     },
@@ -371,6 +380,9 @@
         "common": {
             "effect": "After combat, if unit attacked, restores 4 HP."
         }
+    },
+    "Inscribed Tome": {
+        "effect": "If foe initiates combat and uses sword, lance, axe, or beast damage, unit can counterattack regardless of foe's range."
     },
     "Iris's Tome": {
         "effect": "At start of even-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"

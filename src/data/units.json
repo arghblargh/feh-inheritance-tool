@@ -1246,6 +1246,9 @@
         },
         {
           "name": "Killer Axe+"
+        },
+        {
+          "name": "Beruka's Axe"
         }
       ],
       "special": [
@@ -1367,6 +1370,9 @@
         },
         {
           "name": "Gronnowl+"
+        },
+        {
+          "name": "Inscribed Tome"
         }
       ],
       "special": [
@@ -10535,6 +10541,9 @@
         },
         {
           "name": "Blárowl+"
+        },
+        {
+          "name": "Book of Orchids"
         }
       ],
       "assist": [
@@ -15216,6 +15225,9 @@
         },
         {
           "name": "Armorslayer+"
+        },
+        {
+          "name": "Selena's Blade"
         }
       ],
       "assist": [

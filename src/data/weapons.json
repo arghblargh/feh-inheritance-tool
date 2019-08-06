@@ -4612,5 +4612,41 @@
     "might": 16,
     "effect": "Neutralizes \"effective against dragons\" bonuses. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
     "restriction": "Exclusive"
+  },
+  "Selena's Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes. At start of combat, if foes Atk ≥ unit's Atk +3, grants Atk/Spd/Def/Res+3 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Beruka's Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Book of Orchids": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "If unit initiates combat, grants Atk+6 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Inscribed Tome": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }
