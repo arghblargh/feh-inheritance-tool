@@ -62,7 +62,10 @@ function getDefaultSkills(unit) {
 
 // Returns the lowest available rarity of a unit, down to 3★
 export function getLowestRarity(unit) {
-    return rarity[unit];
+    if (rarity[unit])
+        return rarity[unit];
+    else
+        return 5;
 }
 
 function getWeaponUpgrade(unit) {

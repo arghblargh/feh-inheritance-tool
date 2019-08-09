@@ -503,6 +503,13 @@
     "Def": 50,
     "Res": 50
   },
+  "Death Knight: The Reaper": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 45,
+    "Def": 50,
+    "Res": 50
+  },
   "Deirdre: Lady of the Forest": {
     "HP": 45,
     "Atk": 55,
@@ -1021,6 +1028,13 @@
     "Def": 55,
     "Res": 45
   },
+  "Hilda: Idle Maiden": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 45
+  },
   "Hinata: Wild Samurai": {
     "HP": 60,
     "Atk": 55,
@@ -1062,6 +1076,13 @@
     "Spd": 35,
     "Def": 60,
     "Res": 50
+  },
+  "Hubert: Sinister Servant": {
+    "HP": 55,
+    "Atk": 65,
+    "Spd": 55,
+    "Def": 35,
+    "Res": 45
   },
   "Idunn: Dark Priestess": {
     "HP": 60,
@@ -1735,6 +1756,13 @@
     "Def": 55,
     "Res": 30
   },
+  "Mercedes: Kindly Devotee": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 40,
+    "Res": 55
+  },
   "Merric: Wind Mage": {
     "HP": 55,
     "Atk": 45,
@@ -2084,6 +2112,13 @@
     "Spd": 55,
     "Def": 40,
     "Res": 55
+  },
+  "Petra: Princess of Brigid": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 65,
+    "Def": 45,
+    "Res": 35
   },
   "Priscilla: Delicate Princess": {
     "HP": 45,

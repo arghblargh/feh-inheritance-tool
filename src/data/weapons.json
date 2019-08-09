@@ -2455,6 +2455,21 @@
     "might": 13,
     "effect": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt."
   },
+  "Rauðrfox": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat."
+  },
+  "Rauðrfox+": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat.",
+    "upgrade": "-"
+  },
   "Rauðrowl": {
     "color": "Red",
     "type": "Tome",
@@ -4648,5 +4663,29 @@
     "effect": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Freikugel": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Spd+3. At start of ally's combat, if unit is within 2 spaces of any allies with Def > unit's Def, grants Atk/Spd+4 to those allies during combat. At start of unit's combat, if unit is not within 2 spaces of any allies with Def > unit's Def, grants Atk/Spd+6 to unit during combat.",
+    "restriction": "Exclusive"
+  },
+  "Hunting Blade": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). Effective against beast foes. At start of combat, if unit's Atk/Spd/Def/Res < that of an ally within 2 spaces, grants +5 to unit's corresponding stat during combat. Calculates each stat bonus independently. Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "restriction": "Exclusive"
+  },
+  "Scythe of Sariel": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If a bonus granted by a skill like Rally or Hone and/or extra movement granted by a skill like Armor March or Armored Boots is active on foe, grants Atk/Spd/Def/Res+4 to unit during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
   }
 }

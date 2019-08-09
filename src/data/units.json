@@ -25502,5 +25502,358 @@
         }
       ]
     }
+  },
+  "Hilda: Idle Maiden": {
+    "name": "Hilda",
+    "title": "Idle Maiden",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Freikugel"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Null Follow-Up 1",
+          "unlock": 3
+        },
+        {
+          "name": "Null Follow-Up 2",
+          "unlock": 4
+        },
+        {
+          "name": "Null Follow-Up 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Opening 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def Opening 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def Opening 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Hubert: Sinister Servant": {
+    "name": "Hubert",
+    "title": "Sinister Servant",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Flux",
+          "unlock": 1
+        },
+        {
+          "name": "Ruin",
+          "unlock": 2
+        },
+        {
+          "name": "Rauðrfox",
+          "unlock": 3
+        },
+        {
+          "name": "Rauðrfox+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Thunder",
+          "unlock": 3
+        },
+        {
+          "name": "Growing Thunder",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Res 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Inf. Hexblade 1",
+          "unlock": 3
+        },
+        {
+          "name": "Inf. Hexblade 2",
+          "unlock": 4
+        },
+        {
+          "name": "Inf. Hexblade 3"
+        }
+      ]
+    }
+  },
+  "Mercedes: Kindly Devotee": {
+    "name": "Mercedes",
+    "title": "Kindly Devotee",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Gravity",
+          "unlock": 3
+        },
+        {
+          "name": "Gravity+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 2
+        },
+        {
+          "name": "Martyr",
+          "unlock": 3
+        },
+        {
+          "name": "Martyr+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Miracle",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "AR-D Spd/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "AR-D Spd/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "AR-D Spd/Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Res Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Res Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Res Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Petra: Princess of Brigid": {
+    "name": "Petra",
+    "title": "Princess of Brigid",
+    "color": "Blue",
+    "wpnType": "Dagger",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Hunting Blade"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Form 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Form 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Form 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Aerobatics 1",
+          "unlock": 1
+        },
+        {
+          "name": "Aerobatics 2",
+          "unlock": 2
+        },
+        {
+          "name": "Aerobatics 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Ground Orders 1",
+          "unlock": 3
+        },
+        {
+          "name": "Ground Orders 2",
+          "unlock": 4
+        },
+        {
+          "name": "Ground Orders 3"
+        }
+      ]
+    }
+  },
+  "Death Knight: The Reaper": {
+    "name": "Death Knight",
+    "title": "The Reaper",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Scythe of Sariel"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Flame",
+          "unlock": 3
+        },
+        {
+          "name": "Blazing Flame",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Escape Route 1",
+          "unlock": 3
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 4
+        },
+        {
+          "name": "Escape Route 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Close Guard 1",
+          "unlock": 3
+        },
+        {
+          "name": "Close Guard 2",
+          "unlock": 4
+        },
+        {
+          "name": "Close Guard 3"
+        }
+      ]
+    }
   }
 }

@@ -36,6 +36,18 @@
       "cost": 240,
       "effect": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
     },
+    "AR-D Spd/Res 1": {
+      "cost": 60,
+      "effect": "If defending in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Spd/Res 2": {
+      "cost": 120,
+      "effect": "If defending in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Spd/Res 3": {
+      "cost": 240,
+      "effect": "If defending in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
     "AR-O Atk/Def 1": {
       "cost": 60,
       "effect": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)"
@@ -178,6 +190,18 @@
     "Atk/Spd Bond 3": {
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Spd+5 during combat."
+    },
+    "Atk/Spd Form 1": {
+      "cost": 60,
+      "effect": "Grants Atk/Spd+X to unit during combat. (X = number of allies within 2 spaces; max 3.)"
+    },
+    "Atk/Spd Form 2": {
+      "cost": 120,
+      "effect": "Grants Atk/Spd+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)"
+    },
+    "Atk/Spd Form 3": {
+      "cost": 240,
+      "effect": "Grants Atk/Spd+X to unit during combat. (X = 2 × number of allies within 2 spaces, + 1; max 7.)"
     },
     "Atk/Spd Push 1": {
       "cost": 60,
@@ -2922,6 +2946,21 @@
       "cost": 300,
       "effect": "At start of turn, if unit is adjacent to any allies that are not beast or dragon allies, grants Atk/Spd+6 to unit and those allies for 1 turn.",
       "restriction": "Exclusive"
+    },
+    "Inf. Hexblade 1": {
+      "cost": 60,
+      "effect": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+      "restriction": "Infantry"
+    },
+    "Inf. Hexblade 2": {
+      "cost": 120,
+      "effect": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, grants Atk/Spd+1 to those allies and calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+      "restriction": "Infantry"
+    },
+    "Inf. Hexblade 3": {
+      "cost": 240,
+      "effect": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, grants Atk/Spd+2 to those allies and calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+      "restriction": "Infantry"
     },
     "Infantry Breath 1": {
       "cost": 60,
