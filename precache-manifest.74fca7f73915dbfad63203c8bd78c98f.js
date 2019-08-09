@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4b3051c2c3eafa3e1f33",
-    "url": "/feh-inheritance-tool/static/css/main.cebc08e8.chunk.css"
+    "revision": "add04b029ca447583928",
+    "url": "/feh-inheritance-tool/static/css/main.3d674a74.chunk.css"
   },
   {
-    "revision": "4b3051c2c3eafa3e1f33",
-    "url": "/feh-inheritance-tool/static/js/main.4b3051c2.chunk.js"
+    "revision": "add04b029ca447583928",
+    "url": "/feh-inheritance-tool/static/js/main.add04b02.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -308,6 +308,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Cynthia_Hero_Chaser.d1149aab.png"
   },
   {
+    "revision": "ab4502ca5844779072ba96ec56800a48",
+    "url": "/feh-inheritance-tool/static/media/Death_Knight_The_Reaper.ab4502ca.png"
+  },
+  {
     "revision": "9cafb270005764c2012c441d74d90c2e",
     "url": "/feh-inheritance-tool/static/media/Deirdre_Lady_of_the_Forest.9cafb270.png"
   },
@@ -604,6 +608,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Henry_Twisted_Mind.48a4cd26.png"
   },
   {
+    "revision": "ac6e20a27cb0d9bc0a5f5e02e5ea694f",
+    "url": "/feh-inheritance-tool/static/media/Hilda_Idle_Maiden.ac6e20a2.png"
+  },
+  {
     "revision": "f0c25734e896c9c461e1bb60e10fc7af",
     "url": "/feh-inheritance-tool/static/media/Hinata_Wild_Samurai.f0c25734.png"
   },
@@ -626,6 +634,10 @@ self.__precacheManifest = [
   {
     "revision": "9a2dfe671ac995e4a6622528f2de92db",
     "url": "/feh-inheritance-tool/static/media/Hríd_Resolute_Prince.9a2dfe67.png"
+  },
+  {
+    "revision": "df25f19aba0cc5f95d71920a80a035ca",
+    "url": "/feh-inheritance-tool/static/media/Hubert_Sinister_Servant.df25f19a.png"
   },
   {
     "revision": "d3d971276b8db1ec23509bbc108368c8",
@@ -1012,6 +1024,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Matthew_Faithful_Spy.e996f730.png"
   },
   {
+    "revision": "d08eb7ab6cfad1de36bef40c11e8a5ed",
+    "url": "/feh-inheritance-tool/static/media/Mercedes_Kindly_Devotee.d08eb7ab.png"
+  },
+  {
     "revision": "5a0c9b1f455a3776127f0e08d7c6be12",
     "url": "/feh-inheritance-tool/static/media/Merric_Wind_Mage.5a0c9b1f.png"
   },
@@ -1210,6 +1226,10 @@ self.__precacheManifest = [
   {
     "revision": "15fbc77ffc3a5a1ddade227acecfe096",
     "url": "/feh-inheritance-tool/static/media/Peri_Playful_Slayer.15fbc77f.png"
+  },
+  {
+    "revision": "dd0417e63dff6a72048e9ff8fd61e1da",
+    "url": "/feh-inheritance-tool/static/media/Petra_Princess_of_Brigid.dd0417e6.png"
   },
   {
     "revision": "dc6e845e74d22ea480100fa5d1492ff5",
@@ -1644,7 +1664,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "9409676acc342b5b944e9219c09cd7cd",
+    "revision": "4533bfa7867418ba9667d408872a90b1",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
