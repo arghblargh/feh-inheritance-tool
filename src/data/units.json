@@ -26161,9 +26161,9 @@
       ]
     }
   },
-  "Sigrun: Royal Protector": {
+  "Sigrun: Loyal Protector": {
     "name": "Sigrun",
-    "title": "Royal Protector",
+    "title": "Loyal Protector",
     "color": "Blue",
     "wpnType": "Lance",
     "movType": "Flying",
@@ -26194,11 +26194,11 @@
       "passiveB": [
         {
           "name": "Def/Res Link 1",
-          "unlock": 2
+          "unlock": 1
         },
         {
           "name": "Def/Res Link 2",
-          "unlock": 3
+          "unlock": 2
         },
         {
           "name": "Def/Res Link 3",
@@ -26208,15 +26208,14 @@
       "passiveC": [
         {
           "name": "Hone Atk 1",
-          "unlock": 1
+          "unlock": 3
         },
         {
           "name": "Hone Atk 2",
-          "unlock": 2
+          "unlock": 4
         },
         {
-          "name": "Hone Fliers",
-          "unlock": 4
+          "name": "Hone Fliers"
         }
       ]
     }

@@ -2484,6 +2484,13 @@
     "Def": 7,
     "Res": 3
   },
+  "Sigrun: Loyal Protector": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 4,
+    "Res": 10
+  },
   "Sigrun: Steadfast Bride": {
     "HP": 16,
     "Atk": 7,
