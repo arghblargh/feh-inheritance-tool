@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "add04b029ca447583928",
-    "url": "/feh-inheritance-tool/static/css/main.3d674a74.chunk.css"
+    "revision": "a79eed15818754d4452d",
+    "url": "/feh-inheritance-tool/static/css/main.8b28b74b.chunk.css"
   },
   {
-    "revision": "add04b029ca447583928",
-    "url": "/feh-inheritance-tool/static/js/main.add04b02.chunk.js"
+    "revision": "a79eed15818754d4452d",
+    "url": "/feh-inheritance-tool/static/js/main.a79eed15.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "6652fcef46e6ea76431623f22233a12c",
     "url": "/feh-inheritance-tool/static/media/Alm_Hero_of_Prophecy.6652fcef.png"
+  },
+  {
+    "revision": "baaea2b628e6290aaeb799346b95d6b3",
+    "url": "/feh-inheritance-tool/static/media/Alm_Imperial_Ascent.baaea2b6.png"
   },
   {
     "revision": "91fd7d87ae34c38c61ccc44db4cb9cb5",
@@ -170,6 +174,10 @@ self.__precacheManifest = [
   {
     "revision": "b2471e3963a2cbfe2796089c9b00f98a",
     "url": "/feh-inheritance-tool/static/media/Camilla_Holiday_Traveler.b2471e39.png"
+  },
+  {
+    "revision": "a55fbc375e249b41ace5204dadda244c",
+    "url": "/feh-inheritance-tool/static/media/Camilla_Light_of_Nohr.a55fbc37.png"
   },
   {
     "revision": "355d5cf6d33adadf7336938f4396aa29",
@@ -410,6 +418,10 @@ self.__precacheManifest = [
   {
     "revision": "e53223c8ea729207e98c9e8bc579a2ed",
     "url": "/feh-inheritance-tool/static/media/Eliwood_Knight_of_Lycia.e53223c8.png"
+  },
+  {
+    "revision": "092e659d91f00c2fe248ac520ead8ea1",
+    "url": "/feh-inheritance-tool/static/media/Eliwood_Marquess_Pherae.092e659d.png"
   },
   {
     "revision": "a08c854d1aac6189a7484de2ab806d5e",
@@ -1044,6 +1056,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Micaiah_Priestess_of_Dawn.8c0e7c50.png"
   },
   {
+    "revision": "0b0b93737dfa0709c6b0f4ee7d044f52",
+    "url": "/feh-inheritance-tool/static/media/Micaiah_Queen_of_Dawn.0b0b9373.png"
+  },
+  {
     "revision": "ebf951ea2a412ca250874a491b63a5cf",
     "url": "/feh-inheritance-tool/static/media/Micaiah_Summers_Dawn.ebf951ea.png"
   },
@@ -1664,7 +1680,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "4533bfa7867418ba9667d408872a90b1",
+    "revision": "0c33c6d957fbfbf0e7f6d50c488aca60",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
