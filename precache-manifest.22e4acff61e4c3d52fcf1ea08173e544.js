@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a79eed15818754d4452d",
-    "url": "/feh-inheritance-tool/static/css/main.8b28b74b.chunk.css"
+    "revision": "76cec606ffa311a70930",
+    "url": "/feh-inheritance-tool/static/css/main.25addaf8.chunk.css"
   },
   {
-    "revision": "a79eed15818754d4452d",
-    "url": "/feh-inheritance-tool/static/js/main.a79eed15.chunk.js"
+    "revision": "76cec606ffa311a70930",
+    "url": "/feh-inheritance-tool/static/js/main.76cec606.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -1440,6 +1440,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Siegbert_Future_King.ead6e908.png"
   },
   {
+    "revision": "1e8844b44f1607a4f0220bbc2008af1f",
+    "url": "/feh-inheritance-tool/static/media/Sigrun_Loyal_Protector.1e8844b4.png"
+  },
+  {
     "revision": "42e88c421536ef0a4136d5dce7bcfae0",
     "url": "/feh-inheritance-tool/static/media/Sigrun_Steadfast_Bride.42e88c42.png"
   },
@@ -1680,7 +1684,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "0c33c6d957fbfbf0e7f6d50c488aca60",
+    "revision": "a6d1532649a1411881c9f8fd42ef29c2",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
