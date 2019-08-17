@@ -27,6 +27,13 @@
     "Def": 50,
     "Res": 40
   },
+  "Alm: Imperial Ascent": {
+    "HP": 55,
+    "Atk": 70,
+    "Spd": 60,
+    "Def": 60,
+    "Res": 35
+  },
   "Alm: Saint-King": {
     "HP": 50,
     "Atk": 60,
@@ -263,6 +270,13 @@
     "Atk": 55,
     "Spd": 60,
     "Def": 55,
+    "Res": 45
+  },
+  "Camilla: Light of Nohr": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 65,
+    "Def": 40,
     "Res": 45
   },
   "Camilla: Spring Princess": {
@@ -684,6 +698,13 @@
     "Spd": 50,
     "Def": 40,
     "Res": 55
+  },
+  "Eliwood: Marquess Pherae": {
+    "HP": 50,
+    "Atk": 65,
+    "Spd": 60,
+    "Def": 60,
+    "Res": 30
   },
   "Ephraim: Legendary Lord": {
     "HP": 55,
@@ -1787,6 +1808,13 @@
   "Micaiah: Priestess of Dawn": {
     "HP": 45,
     "Atk": 60,
+    "Spd": 50,
+    "Def": 30,
+    "Res": 60
+  },
+  "Micaiah: Queen of Dawn": {
+    "HP": 45,
+    "Atk": 70,
     "Spd": 50,
     "Def": 30,
     "Res": 60

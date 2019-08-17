@@ -25855,5 +25855,370 @@
         }
       ]
     }
+  },
+  "Alm: Imperial Ascent": {
+    "name": "Alm",
+    "title": "Imperial Ascent",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Dracofalchion"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Scendscale"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Def 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Atk 1",
+          "unlock": 2
+        },
+        {
+          "name": "Threat. Atk/Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threat. Atk/Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Threat. Atk/Spd 3"
+        }
+      ]
+    }
+  },
+  "Camilla: Light of Nohr": {
+    "name": "Camilla",
+    "title": "Light of Nohr",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Sanngriðr"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Reconcile",
+          "unlock": 2
+        },
+        {
+          "name": "Restore",
+          "unlock": 3
+        },
+        {
+          "name": "Restore+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Push 1",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Push 2",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Push 3",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Push 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrathful Staff 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrathful Staff 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrathful Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk Tactic 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk Tactic 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk Tactic 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Eliwood: Marquess Pherae": {
+    "name": "Eliwood",
+    "title": "Marquess Pherae",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Ninis's Ice Lance"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Def",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Def+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Atk/Spd Ruse 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Ruse 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Ruse 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Opening 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd Opening 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd Opening 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Micaiah: Queen of Dawn": {
+    "name": "Micaiah",
+    "title": "Queen of Dawn",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 3
+        },
+        {
+          "name": "Light of Dawn"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice",
+          "unlock": 3
+        },
+        {
+          "name": "Sacrifice"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Bond 1",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Res Bond 2",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Res Bond 3",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Res Bond 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Yune's Whispers"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Ground Orders 1",
+          "unlock": 1
+        },
+        {
+          "name": "Ground Orders 2",
+          "unlock": 2
+        },
+        {
+          "name": "Ground Orders 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Sigrun: Royal Protector": {
+    "name": "Sigrun",
+    "title": "Royal Protector",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Reprisal Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Reprisal Lance+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Swap",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Def/Res Link 1",
+          "unlock": 2
+        },
+        {
+          "name": "Def/Res Link 2",
+          "unlock": 3
+        },
+        {
+          "name": "Def/Res Link 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Fliers",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

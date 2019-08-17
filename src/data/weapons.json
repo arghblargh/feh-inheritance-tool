@@ -4687,5 +4687,37 @@
     "might": 16,
     "effect": "Accelerates Special trigger (cooldown count-1). If a bonus granted by a skill like Rally or Hone and/or extra movement granted by a skill like Armor March or Armored Boots is active on foe, grants Atk/Spd/Def/Res+4 to unit during combat and foe cannot make a follow-up attack.",
     "restriction": "Exclusive"
+  },
+  "Dracofalchion": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against dragon foes. Grants Atk+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Atk/Spd/Def/Res+5 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Sanngriðr": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 400,
+    "might": 14,
+    "effect": "Foe cannot counterattack. If unit initiates combat, grants Atk/Spd+3 during combat. After combat, if unit attacked, inflicts【Gravity】on target and foes within 1 space of target. 【Gravity】 Restricts target's movement to 1 space through its next action.",
+    "restriction": "Exclusive"
+  },
+  "Ninis's Ice Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against dragon and beast foes. Grants Spd+3. If unit initiates combat, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Light of Dawn": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against armored and cavalry foes. Grants Res+3. Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of target's stats. Calculates each stat bonus independently.",
+    "restriction": "Exclusive"
   }
 }

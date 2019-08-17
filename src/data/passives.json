@@ -147,6 +147,10 @@
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Res+5 during combat."
     },
+    "Atk/Res Bond 4": {
+      "cost": 300,
+      "effect": "If unit is adjacent to an ally, grants Atk/Res+7 to unit and neutralizes unit's penalties to Atk/Res during combat."
+    },
     "Atk/Res Push 1": {
       "cost": 60,
       "effect": "At start of combat, if unit's HP = 100%, grants Atk/Res+3, but if unit attacked, deals 1 damage to unit after combat."
@@ -214,6 +218,10 @@
     "Atk/Spd Push 3": {
       "cost": 240,
       "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Spd Push 4": {
+      "cost": 300,
+      "effect": "At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+7, but after combat, if unit attacked, deals 5 damage to unit."
     },
     "Atk/Spd Solo 1": {
       "cost": 60,
@@ -897,6 +905,11 @@
       "cost": 120,
       "effect": "Grants Res+3."
     },
+    "Scendscale": {
+      "cost": 300,
+      "effect": "Deals damage = 25% of unit's Atk, but after combat, if unit attacked, deals 7 damage to unit.",
+      "restriction": "Exclusive"
+    },
     "Sorcery Blade 1": {
       "cost": 60,
       "effect": "If unit HP = 100%, at start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
@@ -1234,6 +1247,18 @@
     "Atk/Spd Link 3": {
       "cost": 240,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn."
+    },
+    "Atk/Spd Ruse 1": {
+      "cost": 60,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd-1 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
+    "Atk/Spd Ruse 2": {
+      "cost": 120,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd-3 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
+    "Atk/Spd Ruse 3": {
+      "cost": 240,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd-5 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
     },
     "Axebreaker 1": {
       "cost": 50,
@@ -2301,6 +2326,11 @@
       "cost": 240,
       "effect": "Calculate damage from staff like other weapons.",
       "restriction": "Staff"
+    },
+    "Yune's Whispers": {
+      "cost": 240,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk/Spd-6 on that foe through its next action.",
+      "restriction": "Exclusive"
     }
   },
   "C": {
@@ -3441,6 +3471,19 @@
       "cost": 120,
       "effect": "While unit lives, all sword allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
+    },
+    "Threat. Atk/Spd 1": {
+      "cost": 100,
+      "effect": "At start of turn, inflicts Atk/Spd-3 on foes within 2 spaces through their next actions.",
+      "require": "Threaten Atk 1|Threaten Spd 1"
+    },
+    "Threat. Atk/Spd 2": {
+      "cost": 200,
+      "effect": "At start of turn, inflicts Atk/Spd-4 on foes within 2 spaces through their next actions."
+    },
+    "Threat. Atk/Spd 3": {
+      "cost": 300,
+      "effect": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd+5 to unit for 1 turn and inflicts Atk/Spd-5 on foes within 2 spaces through their next actions."
     },
     "Threaten Atk 1": {
       "cost": 50,
