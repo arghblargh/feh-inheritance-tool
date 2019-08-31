@@ -26219,5 +26219,76 @@
         }
       ]
     }
+  },
+  "Julia: Crusader of Light": {
+    "name": "Julia",
+    "title": "Crusader of Light",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 1
+        },
+        {
+          "name": "Ellight",
+          "unlock": 2
+        },
+        {
+          "name": "Shine",
+          "unlock": 3
+        },
+        {
+          "name": "Virtuous Naga"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Mirror Strike 1",
+          "unlock": 3
+        },
+        {
+          "name": "Mirror Strike 2",
+          "unlock": 4
+        },
+        {
+          "name": "Mirror Impact"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Light and Dark"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk/Res Oath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Res Oath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Res Oath 3"
+        }
+      ]
+    }
   }
 }

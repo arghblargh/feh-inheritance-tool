@@ -1217,6 +1217,13 @@
     "Def": 50,
     "Res": 50
   },
+  "Julia: Crusader of Light": {
+    "HP": 50,
+    "Atk": 70,
+    "Spd": 50,
+    "Def": 35,
+    "Res": 60
+  },
   "Julia: Naga's Blood": {
     "HP": 50,
     "Atk": 60,

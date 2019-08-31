@@ -1725,6 +1725,11 @@
       "effect": "If unit's HP ≥ 50% in combat against a lance foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "restriction": "Color:BGN"
     },
+    "Light and Dark": {
+      "cost": 300,
+      "effect": "Inflicts Atk/Spd/Def/Res-2 on foe, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.), and disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" during combat.",
+      "restriction": "Exclusive"
+    },
     "Live for Bounty": {
       "cost": 100,
       "effect": "While unit lives, get 1.5x shards/crystals from a Training Tower map. (Only highest value applied. Does not stack.)"
@@ -2363,6 +2368,18 @@
       "cost": 240,
       "effect": "At start of turn, if unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
       "restriction": "Armored"
+    },
+    "Atk/Res Oath 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+3 for 1 turn."
+    },
+    "Atk/Res Oath 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+4 for 1 turn."
+    },
+    "Atk/Res Oath 3": {
+      "cost": 240,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+5 for 1 turn."
     },
     "Atk Opening 1": {
       "cost": 60,

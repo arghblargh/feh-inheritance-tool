@@ -4719,5 +4719,13 @@
     "might": 14,
     "effect": "Effective against armored and cavalry foes. Grants Res+3. Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of target's stats. Calculates each stat bonus independently.",
     "restriction": "Exclusive"
+  },
+  "Virtuous Naga": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against dragon foes. Grants Atk+3. At start of combat, if unit's Atk > foe's Atk, grants Atk/Res+6 during combat.",
+    "restriction": "Exclusive"
   }
 }
