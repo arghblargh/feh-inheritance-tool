@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "76cec606ffa311a70930",
-    "url": "/feh-inheritance-tool/static/css/main.25addaf8.chunk.css"
+    "revision": "63dff5efe36d71d9e453",
+    "url": "/feh-inheritance-tool/static/css/main.7face035.chunk.css"
   },
   {
-    "revision": "76cec606ffa311a70930",
-    "url": "/feh-inheritance-tool/static/js/main.76cec606.chunk.js"
+    "revision": "63dff5efe36d71d9e453",
+    "url": "/feh-inheritance-tool/static/js/main.63dff5ef.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -714,6 +714,10 @@ self.__precacheManifest = [
   {
     "revision": "f9185b065692fb7896bf9c9b0223067d",
     "url": "/feh-inheritance-tool/static/media/Joshua_Tempest_King.f9185b06.png"
+  },
+  {
+    "revision": "926850e6a38b6f72fe44b10df5ecaffe",
+    "url": "/feh-inheritance-tool/static/media/Julia_Crusader_of_Light.926850e6.png"
   },
   {
     "revision": "672b1f4a1e56fbde545a8595b257e47d",
@@ -1684,7 +1688,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "a6d1532649a1411881c9f8fd42ef29c2",
+    "revision": "db0d3c79efa333d28976dcdd073dda97",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
