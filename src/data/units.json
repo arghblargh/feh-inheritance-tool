@@ -26290,5 +26290,334 @@
         }
       ]
     }
+  },
+  "Berkut: Debonair Noble": {
+    "name": "Berkut",
+    "title": "Debonair Noble",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Verðandi"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "B Duel Infantry 1",
+          "unlock": 3
+        },
+        {
+          "name": "B Duel Infantry 2",
+          "unlock": 4
+        },
+        {
+          "name": "B Duel Infantry 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Distant Guard 1",
+          "unlock": 1
+        },
+        {
+          "name": "Distant Guard 2",
+          "unlock": 2
+        },
+        {
+          "name": "Distant Guard 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Ishtar: Thunder's Waltz": {
+    "name": "Ishtar",
+    "title": "Thunder's Waltz",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 1
+        },
+        {
+          "name": "Elfire",
+          "unlock": 2
+        },
+        {
+          "name": "Bolganone",
+          "unlock": 3
+        },
+        {
+          "name": "Mögþrasir"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Swift Sparrow 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 1
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 2
+        },
+        {
+          "name": "Desperation 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Air Orders 1",
+          "unlock": 3
+        },
+        {
+          "name": "Air Orders 2",
+          "unlock": 4
+        },
+        {
+          "name": "Air Orders 3"
+        }
+      ]
+    }
+  },
+  "Nephenee: Sincere Dancer": {
+    "name": "Nephenee",
+    "title": "Sincere Dancer",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Fiddlestick Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Fiddlestick Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Earth Dance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Caldera Dance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Caldera Dance 2",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Tactic 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Tactic 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd Tactic 3"
+        }
+      ]
+    }
+  },
+  "Reinhardt: Lightning's Rondo": {
+    "name": "Reinhardt",
+    "title": "Lightning's Rondo",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 3
+        },
+        {
+          "name": "Vafþrúðnir"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 1
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 2
+        },
+        {
+          "name": "Death Blow 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Atk 3",
+          "unlock": 4
+        },
+        {
+          "name": "Joint Hone Atk"
+        }
+      ]
+    }
+  },
+  "Rinea: Reminiscent Belle": {
+    "name": "Rinea",
+    "title": "Reminiscent Belle",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 1
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Goblet",
+          "unlock": 3
+        },
+        {
+          "name": "Silver Goblet+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bracing Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Bracing Blow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Torrent Dance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fireflood Dance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Fireflood Dance 2",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

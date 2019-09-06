@@ -4727,5 +4727,59 @@
     "might": 14,
     "effect": "Effective against dragon foes. Grants Atk+3. At start of combat, if unit's Atk > foe's Atk, grants Atk/Res+6 during combat.",
     "restriction": "Exclusive"
+  },
+  "Verðandi": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "If Sing or Dance is used, grants Atk/Spd/Def/Res+4 to target.",
+    "restriction": "Exclusive"
+  },
+  "Mögþrasir": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 8,
+    "effect": "Inflicts Spd-2. If unit initiates combat, unit attacks twice.",
+    "restriction": "Exclusive"
+  },
+  "Vafþrúðnir": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 9,
+    "effect": "Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
+    "restriction": "Exclusive"
+  },
+  "Fiddlestick Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. Grants Def/Res+4 to allies within 2 spaces during combat against sword, lance, axe, dragonstone, or beast foes."
+  },
+  "Fiddlestick Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. Grants Def/Res+4 to allies within 2 spaces during combat against sword, lance, axe, dragonstone, or beast foes.",
+    "upgrade": "-"
+  },
+  "Silver Goblet": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants Def/Res+4 to allies within 2 spaces during combat against bow, dagger, magic, or staff foes."
+  },
+  "Silver Goblet+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants Def/Res+4 to allies within 2 spaces during combat against bow, dagger, magic, or staff foes.",
+    "upgrade": "-"
   }
 }

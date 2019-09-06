@@ -160,6 +160,13 @@
     "Def": 60,
     "Res": 25
   },
+  "Berkut: Debonair Noble": {
+    "HP": 55,
+    "Atk": 65,
+    "Spd": 40,
+    "Def": 70,
+    "Res": 45
+  },
   "Berkut: Prideful Prince": {
     "HP": 55,
     "Atk": 60,
@@ -1168,6 +1175,13 @@
     "Def": 30,
     "Res": 45
   },
+  "Ishtar: Thunder's Waltz": {
+    "HP": 45,
+    "Atk": 65,
+    "Spd": 65,
+    "Def": 30,
+    "Res": 45
+  },
   "Jaffar: Angel of Death": {
     "HP": 55,
     "Atk": 45,
@@ -1959,6 +1973,13 @@
     "Def": 60,
     "Res": 35
   },
+  "Nephenee: Sincere Dancer": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 65,
+    "Def": 45,
+    "Res": 50
+  },
   "Niles: Cruel to Be Kind": {
     "HP": 45,
     "Atk": 45,
@@ -2197,6 +2218,13 @@
     "Def": 35,
     "Res": 50
   },
+  "Reinhardt: Lightning's Rondo": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 40,
+    "Def": 55,
+    "Res": 45
+  },
   "Reinhardt: Thunder's Fist": {
     "HP": 50,
     "Atk": 55,
@@ -2224,6 +2252,13 @@
     "Spd": 60,
     "Def": 40,
     "Res": 40
+  },
+  "Rinea: Reminiscent Belle": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 45,
+    "Res": 50
   },
   "Robin: Fell Reincarnation": {
     "HP": 55,
