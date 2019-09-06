@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "63dff5efe36d71d9e453",
-    "url": "/feh-inheritance-tool/static/css/main.7face035.chunk.css"
+    "revision": "edf5f96d20924b173f5d",
+    "url": "/feh-inheritance-tool/static/css/main.803b209c.chunk.css"
   },
   {
-    "revision": "63dff5efe36d71d9e453",
-    "url": "/feh-inheritance-tool/static/js/main.63dff5ef.chunk.js"
+    "revision": "edf5f96d20924b173f5d",
+    "url": "/feh-inheritance-tool/static/js/main.edf5f96d.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -106,6 +106,10 @@ self.__precacheManifest = [
   {
     "revision": "33658b13a8f75aaa9757ab192442daea",
     "url": "/feh-inheritance-tool/static/media/Bartre_Fearless_Warrior.33658b13.png"
+  },
+  {
+    "revision": "b580f05edea0556652d284f18e111625",
+    "url": "/feh-inheritance-tool/static/media/Berkut_Debonair_Noble.b580f05e.png"
   },
   {
     "revision": "4afd1e91d52f59e0f386bdef1d2bd945",
@@ -688,6 +692,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Ishtar_Thunder_Goddess.b13627df.png"
   },
   {
+    "revision": "77ac5f94df6b75f261f1dbd1829b9cad",
+    "url": "/feh-inheritance-tool/static/media/Ishtar_Thunders_Waltz.77ac5f94.png"
+  },
+  {
     "revision": "c74031636a4076aa0dd4d13a5ca445c6",
     "url": "/feh-inheritance-tool/static/media/Jaffar_Angel_of_Death.c7403163.png"
   },
@@ -1140,6 +1148,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Nephenee_Fierce_Halberdier.78fe7dfb.png"
   },
   {
+    "revision": "eebeb5fb4327334c2af3083e5456ecda",
+    "url": "/feh-inheritance-tool/static/media/Nephenee_Sincere_Dancer.eebeb5fb.png"
+  },
+  {
     "revision": "6ddc4b2563227893f4ef1ab5f0377513",
     "url": "/feh-inheritance-tool/static/media/Niles_Cruel_to_Be_Kind.6ddc4b25.png"
   },
@@ -1276,6 +1288,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Rebecca_Wildflower.c8c6d3ee.png"
   },
   {
+    "revision": "88800bdc0f0520ecc5ec33ce9cfa622c",
+    "url": "/feh-inheritance-tool/static/media/Reinhardt_Lightnings_Rondo.88800bdc.png"
+  },
+  {
     "revision": "c064b6c21fc72e3c49e2ac4851ea64e9",
     "url": "/feh-inheritance-tool/static/media/Reinhardt_Thunders_Fist.c064b6c2.png"
   },
@@ -1290,6 +1306,10 @@ self.__precacheManifest = [
   {
     "revision": "8f5fbe176c559783bf45a0762e10ae34",
     "url": "/feh-inheritance-tool/static/media/Rhajat_Black_Magician.8f5fbe17.png"
+  },
+  {
+    "revision": "4bc8573a97ae794b66f5e7b3b83bd796",
+    "url": "/feh-inheritance-tool/static/media/Rinea_Reminiscent_Belle.4bc8573a.png"
   },
   {
     "revision": "11aed0281def99a2368a2ffeab7ae49c",
@@ -1688,7 +1708,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "db0d3c79efa333d28976dcdd073dda97",
+    "revision": "020374340b952a185e366b8a30ec4177",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
