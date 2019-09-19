@@ -384,6 +384,18 @@
       "cost": 240,
       "effect": "At start of combat, if unit's HP ≤ 80%, grants Def/Res+7 during combat."
     },
+    "Brazen Spd/Def 1": {
+      "cost": 60,
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Spd/Def+3 during combat."
+    },
+    "Brazen Spd/Def 2": {
+      "cost": 120,
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Spd/Def+5 during combat."
+    },
+    "Brazen Spd/Def 3": {
+      "cost": 240,
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Spd/Def+7 during combat."
+    },
     "C Duel Infantry 1": {
       "cost": 60,
       "effect": "Grants HP+3. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
@@ -960,6 +972,18 @@
     "Spd/Def Bond 3": {
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Spd/Def+5 during combat."
+    },
+    "Spd/Def Form 1": {
+      "cost": 60,
+      "effect": "Grants Spd/Def+X to unit during combat. (X = number of allies within 2 spaces; max 3.)"
+    },
+    "Spd/Def Form 2": {
+      "cost": 120,
+      "effect": "Grants Spd/Def+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)"
+    },
+    "Spd/Def Form 3": {
+      "cost": 240,
+      "effect": "Grants Spd/Def+X to unit during combat. (X = 2 × number of allies within 2 spaces, + 1; max 7.)"
     },
     "Spd/Def Solo 1": {
       "cost": 60,
@@ -1791,6 +1815,21 @@
     "Lull Atk/Def 3": {
       "cost": 240,
       "effect": "Inflicts Atk/Def-3 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Atk/Spd 1": {
+      "cost": 60,
+      "effect": "Inflicts Atk/Spd-1 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Atk/Spd 2": {
+      "cost": 120,
+      "effect": "Inflicts Atk/Spd-2 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Lull Atk/Spd 3": {
+      "cost": 240,
+      "effect": "Inflicts Atk/Spd-3 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat.",
       "restriction": "Infantry|Cavalry"
     },
     "Lull Spd/Def 1": {

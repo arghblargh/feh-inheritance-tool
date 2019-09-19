@@ -277,7 +277,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk+3. If unit's Atk > foe's Atk, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Blessed Bouquet": {
     "color": "Blue",
@@ -1307,7 +1308,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Def+3. If allies within 2 spaces use sword, lance, axe, bow, or dagger, grants Atk/Spd+3 to those allies during combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Geishun": {
     "color": "Red",
@@ -2238,7 +2240,8 @@
     "cost": 400,
     "might": 14,
     "effect": "Effective against flying foes. Grants Spd+3. Neutralizes magic foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Muninn's Egg": {
     "color": "Green",
@@ -3389,7 +3392,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, reduces damage from foe's second attack onward by 80%.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Urðr": {
     "color": "Green",
@@ -4781,5 +4785,37 @@
     "might": 12,
     "effect": "Grants Def/Res+4 to allies within 2 spaces during combat against bow, dagger, magic, or staff foes.",
     "upgrade": "-"
+  },
+  "Ethereal Breath": {
+    "color": "Green",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). Effective against dragon foes. Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat. Reduces damage from area-of-effect Specials by 80% (excluding Røkkr area-of-effect Specials). If foe's range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
+  "Rapier": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored and cavalary foes. Grants Spd+3. If unit's HP ≤ 75% and foe initiates combat, unit can counterattack before foe's first attack.",
+    "restriction": "Exclusive"
+  },
+  "Sable Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive"
+  },
+  "Mercurius": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. At start of turn, if unit's HP ≥ 50%, grants Atk/Spd/Def/Res+4 to unit and sword, lance, axe, bow, dagger, or beast allies within 2 spaces for 1 turn. (Bonus granted to unit even if no allies are within 2 spaces.)",
+    "restriction": "Exclusive"
   }
 }

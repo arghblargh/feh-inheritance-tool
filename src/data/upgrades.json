@@ -49,6 +49,12 @@
             "effect": "Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat."
         }
     },
+    "Blazing Durandal": {
+        "effect": "If unit initiates combat, grants Spd+7 and Def+10 during combat and foe cannot make a follow-up attack.",
+        "common": {
+            "effect": "Grants Atk+3. If unit initiates combat, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+        }
+    },
     "Bull Blade": {
         "effect": "If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice."
     },
@@ -197,6 +203,12 @@
     "Florina's Lance": {
         "effect": "If foe initiates combat and uses sword, lance, axe, or dragonstone, grants Atk/Spd/Def/Res+4 during combat."
     },
+    "Geirskögul": {
+        "effect": "Grants Def/Res+3 to sword, lance, axe, bow, dagger, or beast allies within 2 spaces during combat, and if foe initiates combat against those allies, grants Special cooldown charge +1 per attack to those allies. (Only highest value applied. Does not stack.)",
+        "common": {
+            "effect": "Effective against dragon foes. Grants Def+3. Grants Atk/Spd+3 to sword, lance, axe, bow, dagger, or beast allies within 2 spaces during combat."
+        }
+    },
     "Hinoka's Spear": {
         "effect": "Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
     },
@@ -290,6 +302,9 @@
     },
     "Slaying Hammer+": {
         "effect": "Neutralizes armored foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+    },
+    "Urvan": {
+        "effect": "Reduces damage from foe's first attack by 40%. If foe initiates combat, foe can make a follow-up attack before unit can counterattack."
     },
     "Brynhildr": {
         "effect": "If foe uses bow, dagger, magic, or staff and unit's Def ≥ foe's Def+1, foe cannot make a follow-up attack.",
@@ -456,6 +471,9 @@
         "common": {
             "effect": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
         }
+    },
+    "Mulagir": {
+        "effect": "At start of combat, if unit's Spd > foe's Spd, grants Atk/Spd/Def/Res+4 during combat."
     },
     "Nidhogg": {
         "effect": "Magic and dragon foes cannot counterattack."

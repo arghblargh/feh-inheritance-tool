@@ -83,6 +83,13 @@
     "Def": 30,
     "Res": 60
   },
+  "Astram: Midia's Hero": {
+    "HP": 60,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 65,
+    "Res": 40
+  },
   "Athena: Borderland Sword": {
     "HP": 45,
     "Atk": 55,
@@ -144,6 +151,13 @@
     "Atk": 60,
     "Spd": 55,
     "Def": 30,
+    "Res": 45
+  },
+  "Bantu: Tiki's Guardian": {
+    "HP": 65,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 60,
     "Res": 45
   },
   "Barst: The Hatchet": {
@@ -1931,6 +1945,13 @@
     "Def": 55,
     "Res": 50
   },
+  "Nagi: Dragon Avatar": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 35,
+    "Def": 70,
+    "Res": 70
+  },
   "Nah: Little Miss": {
     "HP": 60,
     "Atk": 65,
@@ -2035,6 +2056,13 @@
     "Spd": 60,
     "Def": 50,
     "Res": 35
+  },
+  "Norne: The Volunteer": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 50
   },
   "Nowi: Eternal Witch": {
     "HP": 40,
@@ -2175,6 +2203,13 @@
     "Spd": 65,
     "Def": 45,
     "Res": 35
+  },
+  "Phina: Roving Dancer": {
+    "HP": 55,
+    "Atk": 65,
+    "Spd": 65,
+    "Def": 45,
+    "Res": 45
   },
   "Priscilla: Delicate Princess": {
     "HP": 45,
@@ -2560,6 +2595,13 @@
     "Spd": 65,
     "Def": 30,
     "Res": 55
+  },
+  "Sirius: Mysterious Knight": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 65,
+    "Def": 60,
+    "Res": 30
   },
   "Soleil: Adorable Adorer": {
     "HP": 45,

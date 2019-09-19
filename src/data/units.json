@@ -26619,5 +26619,448 @@
         }
       ]
     }
+  },
+  "Nagi: Dragon Avatar": {
+    "name": "Nagi",
+    "title": "Dragon Avatar",
+    "color": "Green",
+    "wpnType": "Breath",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Ethereal Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
+        {
+          "name": "Sol",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Dragon Valor 1",
+          "unlock": 1
+        },
+        {
+          "name": "Dragon Valor 2",
+          "unlock": 2
+        },
+        {
+          "name": "Dragon Valor 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Nagi: Dragon Avatar": {
+    "name": "Nagi",
+    "title": "Dragon Avatar",
+    "color": "Green",
+    "wpnType": "Breath",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Ethereal Breath"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
+        {
+          "name": "Sol",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Dragon Valor 1",
+          "unlock": 1
+        },
+        {
+          "name": "Dragon Valor 2",
+          "unlock": 2
+        },
+        {
+          "name": "Dragon Valor 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Norne: The Volunteer": {
+    "name": "Norne",
+    "title": "The Volunteer",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Guard Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Guard Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reposition",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Spd/Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Brazen Spd/Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Brazen Spd/Def 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd/Def Link 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd/Def Link 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd/Def Link 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Phina: Roving Dancer": {
+    "name": "Phina",
+    "title": "Roving Dancer",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Guard Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Rapier"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Spd/Def Form 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd/Def Form 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd/Def Form 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Earth Dance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Geyser Dance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Geyser Dance 2",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Sirius: Mysterious Knight": {
+    "name": "Sirius",
+    "title": "Mysterious Knight",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Guard Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Sable Lance"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Solo 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Spd Solo 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Solo 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Lull Atk/Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Lull Atk/Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Lull Atk/Spd 3"
+        }
+      ]
+    }
+  },
+  "Bantu: Tiki's Guardian": {
+    "name": "Bantu",
+    "title": "Tiki's Guardian",
+    "color": "Red",
+    "wpnType": "Breath",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Dark Breath",
+          "unlock": 3
+        },
+        {
+          "name": "Dark Breath+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fierce Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fierce Stance 2",
+          "unlock": 2
+        },
+        {
+          "name": "Fierce Stance 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Savage Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Savage Blow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Savage Blow 3"
+        }
+      ]
+    }
+  },
+  "Astram: Midia's Hero": {
+    "name": "Astram",
+    "title": "Midia's Hero",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Guard Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Mercurius"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Wind Boost 1",
+          "unlock": 1
+        },
+        {
+          "name": "Wind Boost 2",
+          "unlock": 2
+        },
+        {
+          "name": "Wind Boost 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrath 3"
+        }
+      ]
+    }
   }
 }
