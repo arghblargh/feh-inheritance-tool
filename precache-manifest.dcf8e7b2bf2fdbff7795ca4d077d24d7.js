@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "edf5f96d20924b173f5d",
-    "url": "/feh-inheritance-tool/static/css/main.803b209c.chunk.css"
+    "revision": "8529651816b0d0d8fe1a",
+    "url": "/feh-inheritance-tool/static/css/main.a3d27f51.chunk.css"
   },
   {
-    "revision": "edf5f96d20924b173f5d",
-    "url": "/feh-inheritance-tool/static/js/main.edf5f96d.chunk.js"
+    "revision": "8529651816b0d0d8fe1a",
+    "url": "/feh-inheritance-tool/static/js/main.85296518.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Arvis_Emperor_of_Flame.418d0ea0.png"
   },
   {
+    "revision": "6d66af759427c1dbb5ad0bb397a78794",
+    "url": "/feh-inheritance-tool/static/media/Astram_Midias_Hero.6d66af75.png"
+  },
+  {
     "revision": "298191a13f4abaafaabda08f68c39d68",
     "url": "/feh-inheritance-tool/static/media/Athena_Borderland_Sword.298191a1.png"
   },
@@ -98,6 +102,10 @@ self.__precacheManifest = [
   {
     "revision": "ff6c25020abc1c89728b426c6bf58961",
     "url": "/feh-inheritance-tool/static/media/Azura_Young_Songstress.ff6c2502.png"
+  },
+  {
+    "revision": "56297985b31288287a9d95c7abdfa0e6",
+    "url": "/feh-inheritance-tool/static/media/Bantu_Tikis_Guardian.56297985.png"
   },
   {
     "revision": "586a8e515d61943992cfcd997dffb3b6",
@@ -1124,6 +1132,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Naga_Dragon_Divinity.58a31790.png"
   },
   {
+    "revision": "9a9c91e28bda351600c4a1799185077c",
+    "url": "/feh-inheritance-tool/static/media/Nagi_Dragon_Avatar.9a9c91e2.png"
+  },
+  {
     "revision": "77a6f9c570a9175aca0ab614ceb2729f",
     "url": "/feh-inheritance-tool/static/media/Nah_Little_Miss.77a6f9c5.png"
   },
@@ -1182,6 +1194,10 @@ self.__precacheManifest = [
   {
     "revision": "3534233be5966bf7a40a06ba9b38233b",
     "url": "/feh-inheritance-tool/static/media/Noire_Shade_Seeker.3534233b.png"
+  },
+  {
+    "revision": "72a5898f28b1fdc17cfe33092f0d8513",
+    "url": "/feh-inheritance-tool/static/media/Norne_The_Volunteer.72a5898f.png"
   },
   {
     "revision": "8956829eea9366882be74117b71e4d05",
@@ -1262,6 +1278,10 @@ self.__precacheManifest = [
   {
     "revision": "dd0417e63dff6a72048e9ff8fd61e1da",
     "url": "/feh-inheritance-tool/static/media/Petra_Princess_of_Brigid.dd0417e6.png"
+  },
+  {
+    "revision": "5d14f90bc37d07decc47d6cf00374415",
+    "url": "/feh-inheritance-tool/static/media/Phina_Roving_Dancer.5d14f90b.png"
   },
   {
     "revision": "dc6e845e74d22ea480100fa5d1492ff5",
@@ -1482,6 +1502,10 @@ self.__precacheManifest = [
   {
     "revision": "dc39963e1c91ca3658f2d669e719ba1f",
     "url": "/feh-inheritance-tool/static/media/Silvia_Traveling_Dancer.dc39963e.png"
+  },
+  {
+    "revision": "7609aa50360836d9e5f9e059309e2d18",
+    "url": "/feh-inheritance-tool/static/media/Sirius_Mysterious_Knight.7609aa50.png"
   },
   {
     "revision": "3323f4a633ffcd59cebfaad150a41ea1",
@@ -1708,7 +1732,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "020374340b952a185e366b8a30ec4177",
+    "revision": "55c098c36dac4462835cae1d3a7c61e2",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
