@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8529651816b0d0d8fe1a",
-    "url": "/feh-inheritance-tool/static/css/main.a3d27f51.chunk.css"
+    "revision": "97d47df9250afba2652f",
+    "url": "/feh-inheritance-tool/static/css/main.6c31994c.chunk.css"
   },
   {
-    "revision": "8529651816b0d0d8fe1a",
-    "url": "/feh-inheritance-tool/static/js/main.85296518.chunk.js"
+    "revision": "97d47df9250afba2652f",
+    "url": "/feh-inheritance-tool/static/js/main.97d47df9.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -14,6 +14,30 @@ self.__precacheManifest = [
   {
     "revision": "9075a52a897809d549c4",
     "url": "/feh-inheritance-tool/static/js/runtime~main.9075a52a.js"
+  },
+  {
+    "revision": "0d9a7366b4f6ababa7fdcec3bd29677f",
+    "url": "/feh-inheritance-tool/static/media/158px-Dozla_Harvest_Attendant.webp.0d9a7366.png"
+  },
+  {
+    "revision": "83b3ad1c435047492eed8eb5494d82a3",
+    "url": "/feh-inheritance-tool/static/media/158px-Hector_Dressed-Up_Duo.webp.83b3ad1c.png"
+  },
+  {
+    "revision": "c6a9a199755f3321d8ccb5bcc36c3b79",
+    "url": "/feh-inheritance-tool/static/media/158px-Ilyana_Treat_Harvester.webp.c6a9a199.png"
+  },
+  {
+    "revision": "d160f4c6fb52b1216805377ecdcd37c2",
+    "url": "/feh-inheritance-tool/static/media/158px-LArachel_Harvest_Princess.webp.d160f4c6.png"
+  },
+  {
+    "revision": "6643402903ebeea1f85a3dbe11d2f37b",
+    "url": "/feh-inheritance-tool/static/media/158px-Rolf_Tricky_Archer.webp.66434029.png"
+  },
+  {
+    "revision": "0700d0e36975ed37c95da316568fb7fc",
+    "url": "/feh-inheritance-tool/static/media/158px-Thrasir_Omnicidal_Witch.webp.0700d0e3.png"
   },
   {
     "revision": "e5be407bff9cacf8c91d41ac4ff6729b",
@@ -1732,7 +1756,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.90ab4c67.png"
   },
   {
-    "revision": "55c098c36dac4462835cae1d3a7c61e2",
+    "revision": "ec2cd3ba2a8331f6bcc183f6a9677c63",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
