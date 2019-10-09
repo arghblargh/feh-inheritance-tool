@@ -594,6 +594,13 @@
     "Def": 60,
     "Res": 45
   },
+  "Dozla: Harvest Attendant": {
+    "HP": 55,
+    "Atk": 70,
+    "Spd": 50,
+    "Def": 60,
+    "Res": 45
+  },
   "Draug: Gentle Giant": {
     "HP": 60,
     "Atk": 50,
@@ -1021,6 +1028,13 @@
     "Def": 70,
     "Res": 50
   },
+  "Hector: Dressed-Up Duo": {
+    "HP": 55,
+    "Atk": 70,
+    "Spd": 50,
+    "Def": 60,
+    "Res": 50
+  },
   "Hector: General of Ostia": {
     "HP": 65,
     "Atk": 60,
@@ -1160,6 +1174,13 @@
     "Spd": 55,
     "Def": 55,
     "Res": 30
+  },
+  "Ilyana: Treat Harvester": {
+    "HP": 50,
+    "Atk": 70,
+    "Spd": 40,
+    "Def": 50,
+    "Res": 60
   },
   "Inigo: Indigo Dancer": {
     "HP": 50,
@@ -1370,6 +1391,13 @@
     "Spd": 65,
     "Def": 40,
     "Res": 50
+  },
+  "L'Arachel: Harvest Princess": {
+    "HP": 50,
+    "Atk": 65,
+    "Spd": 60,
+    "Def": 45,
+    "Res": 30
   },
   "L'Arachel: Princess of Light": {
     "HP": 40,
@@ -2344,6 +2372,13 @@
     "Def": 45,
     "Res": 40
   },
+  "Rolf: Tricky Archer": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 60,
+    "Def": 50,
+    "Res": 45
+  },
   "Roy: Blazing Lion": {
     "HP": 50,
     "Atk": 55,
@@ -2776,6 +2811,13 @@
     "Atk": 60,
     "Spd": 55,
     "Def": 55,
+    "Res": 50
+  },
+  "Thrasir: Omnicidal Witch": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 70,
+    "Def": 40,
     "Res": 50
   },
   "Tibarn: Lord of the Air": {

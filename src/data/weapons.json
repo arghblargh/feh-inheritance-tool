@@ -4817,5 +4817,73 @@
     "might": 16,
     "effect": "Grants Atk+3. At start of turn, if unit's HP ≥ 50%, grants Atk/Spd/Def/Res+4 to unit and sword, lance, axe, bow, dagger, or beast allies within 2 spaces for 1 turn. (Bonus granted to unit even if no allies are within 2 spaces.)",
     "restriction": "Exclusive"
+  },
+  "Pumpkin-a-Box": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit. Effect:【Dagger 5】  【Dagger 5】 After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Pumpkin-a-Box+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit. Effect:【Dagger 7】  【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Conjurer Curios": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes. Grants Atk+3. If it is an odd-numbered turn or foe's HP < 100% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat.",
+    "restriction": "Exclusive"
+  },
+  "Spooky Censer": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."
+  },
+  "Spooky Censer+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
+    "upgrade": "-"
+  },
+  "Madness Flask": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."
+  },
+  "Madness Flask+": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
+    "upgrade": "-"
+  },
+  "Candlewax Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against flying foes. Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."
+  },
+  "Candlewax Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against flying foes. Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
+    "upgrade": "-"
   }
 }

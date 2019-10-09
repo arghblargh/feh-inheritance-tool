@@ -26994,5 +26994,399 @@
         }
       ]
     }
+  },
+  "Thrasir: Omnicidal Witch": {
+    "name": "Thrasir",
+    "title": "Omnicidal Witch",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Rexcalibur",
+          "unlock": 3
+        },
+        {
+          "name": "Ífingr"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Flashing Blade 1",
+          "unlock": 2
+        },
+        {
+          "name": "Flashing Blade 2",
+          "unlock": 3
+        },
+        {
+          "name": "Flashing Blade 3",
+          "unlock": 4
+        },
+        {
+          "name": "Flashing Blade 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Killing Intent"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Panic Smoke 1",
+          "unlock": 1
+        },
+        {
+          "name": "Panic Smoke 2",
+          "unlock": 2
+        },
+        {
+          "name": "Panic Smoke 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Dozla: Harvest Attendant": {
+    "name": "Dozla",
+    "title": "Harvest Attendant",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Pumpkin-a-Box",
+          "unlock": 3
+        },
+        {
+          "name": "Pumpkin-a-Box+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Defense",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Def",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Def+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "AR-D Atk/Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "AR-D Atk/Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "AR-D Atk/Def 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 4
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
+  "Hector: Dressed-Up Duo": {
+    "name": "Hector",
+    "title": "Dressed-Up Duo",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Conjurer Curios"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Odd Follow-Up 1",
+          "unlock": 3
+        },
+        {
+          "name": "Odd Follow-Up 2",
+          "unlock": 4
+        },
+        {
+          "name": "Odd Follow-Up 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Hone Atk 2",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Armor",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Ilyana: Treat Harvester": {
+    "name": "Ilyana",
+    "title": "Treat Harvester",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 1
+        },
+        {
+          "name": "Ellight",
+          "unlock": 2
+        },
+        {
+          "name": "Spooky Censer",
+          "unlock": 3
+        },
+        {
+          "name": "Spooky Censer+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk/Res Gap 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Res Gap 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Res Gap 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "L'Arachel: Harvest Princess": {
+    "name": "L'Arachel",
+    "title": "Harvest Princess",
+    "color": "Green",
+    "wpnType": "Tome",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Wind",
+          "unlock": 1
+        },
+        {
+          "name": "Elwind",
+          "unlock": 2
+        },
+        {
+          "name": "Madness Flask",
+          "unlock": 3
+        },
+        {
+          "name": "Madness Flask+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Attack",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Spd",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Spd+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 1
+        },
+        {
+          "name": "Swift Sparrow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Swift Sparrow 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Spd/Res Ruse 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd/Res Ruse 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd/Res Ruse 3"
+        }
+      ]
+    }
+  },
+  "Rolf: Tricky Archer": {
+    "name": "Rolf",
+    "title": "Tricky Archer",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Candlewax Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Candlewax Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Shove",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Desperation 1",
+          "unlock": 3
+        },
+        {
+          "name": "Desperation 2",
+          "unlock": 4
+        },
+        {
+          "name": "Desperation 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Spd Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Spd Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Spd Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

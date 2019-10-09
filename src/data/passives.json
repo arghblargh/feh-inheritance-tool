@@ -1,5 +1,17 @@
 {
   "A": {
+    "AR-D Atk/Def 1": {
+      "cost": 60,
+      "effect": "If defending in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Atk/Def 2": {
+      "cost": 120,
+      "effect": "If defending in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
+    "AR-D Atk/Def 3": {
+      "cost": 240,
+      "effect": "If defending in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    },
     "AR-D Atk/Res 1": {
       "cost": 60,
       "effect": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
@@ -1754,6 +1766,11 @@
       "effect": "If unit initiates combat, unit moves 1 space away after combat.",
       "restriction": "Melee"
     },
+    "Killing Intent": {
+      "cost": 300,
+      "effect": "At start of combat, if foe's HP < 100% or if【Penalty】is active on foe, inflicts Spd/Res-5 on foe, and if unit initiates combat, unit can make a follow-up attack before foe can counterattack. 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+      "restriction": "Exclusive"
+    },
     "Knock Back": {
       "cost": 150,
       "effect": "If unit initiates combat, target foe moves 1 space away after combat.",
@@ -1910,6 +1927,21 @@
     "Obstruct 3": {
       "cost": 200,
       "effect": "If unit's HP ≥ 50%, foes cannot move through spaces adjacent to unit. (Does not affect foes with Pass skills.)"
+    },
+    "Odd Follow-Up 1": {
+      "cost": 60,
+      "effect": "If it is an odd-numbered turn and unit's HP = 100%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "restriction": "Armored"
+    },
+    "Odd Follow-Up 2": {
+      "cost": 120,
+      "effect": "If it is an odd-numbered turn and unit's HP ≥ 50%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "restriction": "Armored"
+    },
+    "Odd Follow-Up 3": {
+      "cost": 240,
+      "effect": "If it is an odd-numbered turn, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "restriction": "Armored"
     },
     "Pass 1": {
       "cost": 50,
@@ -2226,6 +2258,18 @@
       "cost": 240,
       "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grant Spd/Res+6 to unit and target ally or unit and targeting ally for 1 turn."
     },
+    "Spd/Res Ruse 1": {
+      "cost": 60,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Res-1 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
+    "Spd/Res Ruse 2": {
+      "cost": 120,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
+    "Spd/Res Ruse 3": {
+      "cost": 240,
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Res-5 and【Guard】on foes in cardinal directions of unit and target through their next actions. 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+    },
     "Special Fighter 1": {
       "cost": 60,
       "effect": "At start of combat, if unit's HP ≥ 90%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
@@ -2432,6 +2476,18 @@
       "cost": 240,
       "effect": "At start of turn, if unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
       "restriction": "Armored"
+    },
+    "Atk/Res Gap 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Atk/Res+1 to ally with the highest Atk+Res total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Res Gap 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Atk/Res+3 to ally with the highest Atk+Res total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Res Gap 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Atk/Res+5 to ally with the highest Atk+Res total for 1 turn. (Excludes unit.)"
     },
     "Atk/Res Oath 1": {
       "cost": 60,
@@ -3220,6 +3276,18 @@
     "Panic Ploy 3": {
       "cost": 240,
       "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions."
+    },
+    "Panic Smoke 1": {
+      "cost": 60,
+      "effect": "If unit initiates combat, inflicts【Panic】on target and foes within 1 space of target after combat. 【Panic】 Converts bonuses on target into penalties through its next action."
+    },
+    "Panic Smoke 2": {
+      "cost": 120,
+      "effect": "If unit initiates combat, inflicts【Panic】on target and foes within 2 spaces of target after combat. 【Panic】 Converts bonuses on target into penalties through its next action."
+    },
+    "Panic Smoke 3": {
+      "cost": 240,
+      "effect": "Inflicts【Panic】on target and foes within 2 spaces of target after combat. 【Panic】 Converts bonuses on target into penalties through its next action."
     },
     "Pulse Smoke 1": {
       "cost": 60,
