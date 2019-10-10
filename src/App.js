@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile } from './utils/utility.js';
+import { Dropdown, TextBox, escapeRegExp, storageAvailable, isMobile, normalizeName } from './utils/utility.js';
 import { parseSkills, getRandomUnit, getUnitsWithSkill, getPossibleSkills, getUpgradeEffect, getLowestRarity,
          calcStats, calcCost, calcTotalCost } from './utils/helper.js';
 import { units, weapons, assists, specials, passives, seals, //upgrades,
@@ -93,7 +93,7 @@ class SkillInfoRow extends Component {
         else {
           if (this.props.usePortraits) {
             for (let unitName of inheritList[rarity]) {
-              result.push(<img className="unit-portrait-small" src={unitPortrait[unitName]} title={unitName} alt={unitName} key={unitName} />)
+              result.push(<img className="unit-portrait-small" src={unitPortrait[normalizeName(unitName)]} title={unitName} alt={unitName} key={unitName} />)
             }
             result.push(' ');
           }
@@ -489,7 +489,7 @@ class UnitInfo extends Component {
     return (
       <div>
         <div className="unit-info-container">
-          <img className="unit-portrait" src={unitPortrait[this.props.state.unitName]} title={this.props.state.unitName} alt={this.props.state.unitName} />
+          <img className="unit-portrait" src={unitPortrait[normalizeName(this.props.state.unitName)]} title={this.props.state.unitName} alt={this.props.state.unitName} />
         </div>
         <div className="unit-info-container">
           <table>

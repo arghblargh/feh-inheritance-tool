@@ -6,6 +6,10 @@ export function escapeRegExp(str) {
     return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 }
 
+export function normalizeName(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, "").replace(/\s/g, '_').replace(/[!:"']/g, '');
+}
+
 export function jsonp(url) {
     return new Promise(function(resolve, reject) {
         var callbackName = 'jsonp_callback_' + Math.round(100000 * Math.random());

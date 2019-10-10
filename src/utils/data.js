@@ -1,3 +1,5 @@
+import { normalizeName } from './utility.js';
+
 export const units = require('../data/units.json');
 export const rarity = require('../data/stats/rarity.json');
 export const baseStats = require('../data/stats/5_1.json');
@@ -73,11 +75,12 @@ export const skillTypeIcon = {
 
 // Load all unit portraits from file
 export const unitPortrait = Object.keys(units).reduce(function(previous, current) {
+    current = normalizeName(current);
     try {
-        previous[current] = require('../img/portrait/' + current.replace(/\s/g, '_').replace(/[!:"']/g, '') + '.png');
+        previous[current] = require('../img/portrait/' + current + '.webp');
     }
     catch (e) {
-        previous[current] = require('../img/portrait/_temp.png');
+        previous[current] = require('../img/portrait/_temp.webp');
     }
     return previous;
 }, {});
