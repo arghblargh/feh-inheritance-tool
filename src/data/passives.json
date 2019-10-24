@@ -207,6 +207,10 @@
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Spd+5 during combat."
     },
+    "Atk/Spd Bond 4": {
+      "cost": 300,
+      "effect": "If unit is adjacent to an ally, grants Atk/Spd+7 to unit and neutralizes unit's penalties to Atk/Spd during combat."
+    },
     "Atk/Spd Form 1": {
       "cost": 60,
       "effect": "Grants Atk/Spd+X to unit during combat. (X = number of allies within 2 spaces; max 3.)"
@@ -3192,6 +3196,10 @@
     "Joint Hone Atk": {
       "cost": 300,
       "effect": "At start of turn, if unit is adjacent to an ally, grants Atk+5 to unit and adjacent allies for 1 turn."
+    },
+    "Joint Hone Def": {
+      "cost": 300,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Def+5 to unit and adjacent allies for 1 turn."
     },
     "Joint Hone Spd": {
       "cost": 300,

@@ -3480,7 +3480,8 @@
     "cost": 400,
     "might": 14,
     "effect": "Grants Spd+3. At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Whelp (Armored)": {
     "color": "",
@@ -4885,5 +4886,62 @@
     "might": 12,
     "effect": "Effective against flying foes. Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
     "upgrade": "-"
+  },
+  "Astra Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk+3. If unit's Atk > foe's Def, boosts damage by 50% of unit's Atk minus foe's Def.",
+    "restriction": "Exclusive"
+  },
+  "Sol Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Res+3. When unit deals damage to foe during combat, restores 10 HP to unit. (Triggers even if 0 damage is dealt.)",
+    "restriction": "Exclusive"
+  },
+  "Melancholy": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": "After combat, if unit attacked, resets Special cooldown of target and foes within 2 spaces of target, and inflicts【Guard】on target and foes within 2 spaces of target. (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.) 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+  },
+  "Melancholy+": {
+    "color": "Neutral",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": "After combat, if unit attacked, resets Special cooldown of target and foes within 2 spaces of target, and inflicts【Guard】on target and foes within 2 spaces of target. (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.) 【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)"
+  },
+  "Guardian's Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Frederick's Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Dignified Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against flying foes. At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }

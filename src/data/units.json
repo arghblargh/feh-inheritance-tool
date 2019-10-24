@@ -5240,6 +5240,9 @@
         },
         {
           "name": "Hammer+"
+        },
+        {
+          "name": "Frederick's Axe"
         }
       ],
       "special": [
@@ -5984,6 +5987,9 @@
         },
         {
           "name": "Killer Axe+"
+        },
+        {
+          "name": "Guardian's Axe"
         }
       ],
       "special": [
@@ -18059,6 +18065,9 @@
         },
         {
           "name": "Silver Bow+"
+        },
+        {
+          "name": "Dignified Bow"
         }
       ],
       "special": [
@@ -27385,6 +27394,437 @@
         {
           "name": "Odd Spd Wave 3",
           "unlock": 4
+        }
+      ]
+    }
+  },
+  "Catria: Mild Middle Sister": {
+    "name": "Catria",
+    "title": "Mild Middle Sister",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Astra Blade"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Harsh Command",
+          "unlock": 3
+        },
+        {
+          "name": "Harsh Command+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Bond 1",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Bond 2",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Bond 3",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Bond 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Aerobatics 1",
+          "unlock": 1
+        },
+        {
+          "name": "Aerobatics 2",
+          "unlock": 2
+        },
+        {
+          "name": "Aerobatics 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Tactic 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd Tactic 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd Tactic 3"
+        }
+      ]
+    }
+  },
+  "Forsyth: Loyal Lieutenant": {
+    "name": "Forsyth",
+    "title": "Loyal Lieutenant",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Sol Lance"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Bonfire",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Def/Res Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def/Res Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def/Res Bond 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Def 1",
+          "unlock": 2
+        },
+        {
+          "name": "Fortify Def 2",
+          "unlock": 3
+        },
+        {
+          "name": "Fortify Def 3",
+          "unlock": 4
+        },
+        {
+          "name": "Joint Hone Def"
+        }
+      ]
+    }
+  },
+  "Python: Apathetic Archer": {
+    "name": "Python",
+    "title": "Apathetic Archer",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Short Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Short Bow+"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Steady Blow 1",
+          "unlock": 4
+        },
+        {
+          "name": "Steady Blow 2"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "B Tomebreaker 1",
+          "unlock": 1
+        },
+        {
+          "name": "B Tomebreaker 2",
+          "unlock": 2
+        },
+        {
+          "name": "B Tomebreaker 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Silque: Adherent of Mila": {
+    "name": "Silque",
+    "title": "Adherent of Mila",
+    "color": "Neutral",
+    "wpnType": "Staff",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Assault",
+          "unlock": 1
+        },
+        {
+          "name": "Melancholy",
+          "unlock": 3
+        },
+        {
+          "name": "Melancholy+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Heal",
+          "unlock": 1
+        },
+        {
+          "name": "Mend",
+          "unlock": 2
+        },
+        {
+          "name": "Recover",
+          "unlock": 3
+        },
+        {
+          "name": "Recover+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Imbue",
+          "unlock": 2
+        },
+        {
+          "name": "Solid-Earth Balm",
+          "unlock": 3
+        },
+        {
+          "name": "Earthfire Balm",
+          "unlock": 4
+        },
+        {
+          "name": "Earthfire Balm+"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dazzling Staff 1",
+          "unlock": 3
+        },
+        {
+          "name": "Dazzling Staff 2",
+          "unlock": 4
+        },
+        {
+          "name": "Dazzling Staff 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Staff Exp. 1",
+          "unlock": 1
+        },
+        {
+          "name": "Staff Exp. 2",
+          "unlock": 2
+        },
+        {
+          "name": "Staff Exp. 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Valbar: Open and Honest": {
+    "name": "Valbar",
+    "title": "Open and Honest",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Brave Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Brave Lance+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Retribution",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeance",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Attack +1",
+          "unlock": 1
+        },
+        {
+          "name": "HP/Atk 1",
+          "unlock": 2
+        },
+        {
+          "name": "HP/Atk 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Obstruct 1",
+          "unlock": 3
+        },
+        {
+          "name": "Obstruct 2",
+          "unlock": 4
+        },
+        {
+          "name": "Obstruct 3"
+        }
+      ]
+    }
+  },
+  "Conrad: Masked Knight": {
+    "name": "Conrad",
+    "title": "Masked Knight",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Barrier Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Barrier Lance+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Bracing Stance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Bracing Stance 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1",
+          "unlock": 3
+        },
+        {
+          "name": "Chill Atk 2",
+          "unlock": 4
+        },
+        {
+          "name": "Chill Atk 3"
         }
       ]
     }

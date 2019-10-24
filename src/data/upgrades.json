@@ -280,6 +280,12 @@
     "Draconic Poleax": {
         "effect": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
     },
+    "Frederick's Axe": {
+        "effect": "If unit initiates combat, grants Atk+6 during combat."
+    },
+    "Guardian's Axe": {
+        "effect": "Inflicts Atk/Def-3 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat."
+    },
     "Grado Poleax": {
         "effect": "If a bonus granted by a skill like Rally or Hone and/or extra movement granted by a skill like Armored March or Armored Boots is active, grants Spd/Def+5 during combat."
     },
@@ -376,6 +382,12 @@
     "Tome of Thoron": {
         "effect": "If unit initiates combat, grants Spd+6 during combat."
     },
+    "Weirding Tome": {
+        "effect": "If【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit during combat. 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+        "common": {
+            "effect": "Grants Spd+3. At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Spd/Res-5 on that foe through its next action."
+        }
+    },
     "Dark Excalibur": {
         "effect": "At the start of turn 1, grants Special cooldown count-2."
     },
@@ -460,6 +472,9 @@
         "common": {
             "effect": "Effective against flying foes. After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
         }
+    },
+    "Dignified Bow": {
+        "effect": "At start of combat, if unit's max HP ≥ foe's HP+1, grants Atk/Spd/Def/Res+4 to unit during combat."
     },
     "Fujin Yumi": {
         "effect": "If unit's HP ≥ 50%, unit can move adjacent to any ally within 2 spaces.",

@@ -342,6 +342,13 @@
     "Def": 7,
     "Res": 6
   },
+  "Catria: Mild Middle Sister": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 8,
+    "Res": 7
+  },
   "Catria: Spring Whitewing": {
     "HP": 17,
     "Atk": 6,
@@ -460,6 +467,13 @@
     "Spd": 6,
     "Def": 8,
     "Res": 4
+  },
+  "Conrad: Masked Knight": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 5,
+    "Def": 8,
+    "Res": 9
   },
   "Cordelia: Knight Paradise": {
     "HP": 17,
@@ -873,6 +887,13 @@
     "Spd": 8,
     "Def": 6,
     "Res": 8
+  },
+  "Forsyth: Loyal Lieutenant": {
+    "HP": 23,
+    "Atk": 10,
+    "Spd": 5,
+    "Def": 11,
+    "Res": 7
   },
   "Frederick: Horizon Watcher": {
     "HP": 18,
@@ -2246,6 +2267,13 @@
     "Def": 4,
     "Res": 8
   },
+  "Python: Apathetic Archer": {
+    "HP": 19,
+    "Atk": 6,
+    "Spd": 7,
+    "Def": 7,
+    "Res": 5
+  },
   "Quan: Luminous Lancer": {
     "HP": 20,
     "Atk": 11,
@@ -2624,6 +2652,13 @@
     "Def": 10,
     "Res": 4
   },
+  "Silque: Adherent of Mila": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 4,
+    "Def": 5,
+    "Res": 12
+  },
   "Silvia: Traveling Dancer": {
     "HP": 16,
     "Atk": 5,
@@ -2903,6 +2938,13 @@
     "Spd": 8,
     "Def": 3,
     "Res": 6
+  },
+  "Valbar: Open and Honest": {
+    "HP": 21,
+    "Atk": 11,
+    "Spd": 6,
+    "Def": 8,
+    "Res": 9
   },
   "Valter: Dark Moonstone": {
     "HP": 18,
