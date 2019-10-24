@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c6547b455ad42423fa73",
-    "url": "/feh-inheritance-tool/static/css/main.8a95c97d.chunk.css"
+    "revision": "f1bf4af7ab774cd97cc9",
+    "url": "/feh-inheritance-tool/static/css/main.513eaa39.chunk.css"
   },
   {
-    "revision": "c6547b455ad42423fa73",
-    "url": "/feh-inheritance-tool/static/js/main.c6547b45.chunk.js"
+    "revision": "f1bf4af7ab774cd97cc9",
+    "url": "/feh-inheritance-tool/static/js/main.f1bf4af7.chunk.js"
   },
   {
     "revision": "902fef7da8bb3863aae2",
@@ -216,6 +216,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Catria_Middle_Whitewing.a150b09b.webp"
   },
   {
+    "revision": "9fb1c30804be71eb8a1ed50518697232",
+    "url": "/feh-inheritance-tool/static/media/Catria_Mild_Middle_Sister.9fb1c308.webp"
+  },
+  {
     "revision": "0ee30f6d913968d4811ab1dbf282807c",
     "url": "/feh-inheritance-tool/static/media/Catria_Spring_Whitewing.0ee30f6d.webp"
   },
@@ -282,6 +286,10 @@ self.__precacheManifest = [
   {
     "revision": "e8830183d54704c1a49badbe557de419",
     "url": "/feh-inheritance-tool/static/media/Clive_Idealistic_Knight.e8830183.webp"
+  },
+  {
+    "revision": "32a567217dc39ac112b6cb39c28aacd2",
+    "url": "/feh-inheritance-tool/static/media/Conrad_Masked_Knight.32a56721.webp"
   },
   {
     "revision": "0bab44364b6e2ee2c65c04800d46c28c",
@@ -518,6 +526,10 @@ self.__precacheManifest = [
   {
     "revision": "c3b648b03005332e24f882cbaf128f3f",
     "url": "/feh-inheritance-tool/static/media/Florina_Lovely_Flier.c3b648b0.webp"
+  },
+  {
+    "revision": "0109d6582c72c3290bd23d07c31cd71a",
+    "url": "/feh-inheritance-tool/static/media/Forsyth_Loyal_Lieutenant.0109d658.webp"
   },
   {
     "revision": "eeb3ce8c535d5f449508786f87c67eaa",
@@ -1304,6 +1316,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Priscilla_Delicate_Princess.9f285a3a.webp"
   },
   {
+    "revision": "f86a7043a162bbb1a4aa66cdf363fbc7",
+    "url": "/feh-inheritance-tool/static/media/Python_Apathetic_Archer.f86a7043.webp"
+  },
+  {
     "revision": "b7605d2e83ad156df055dbd7f7b5b1f6",
     "url": "/feh-inheritance-tool/static/media/Quan_Luminous_Lancer.b7605d2e.webp"
   },
@@ -1520,6 +1536,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Silas_Loyal_Knight.144cfdab.webp"
   },
   {
+    "revision": "8834200d46b9b217f1dec31ce2df02bb",
+    "url": "/feh-inheritance-tool/static/media/Silque_Adherent_of_Mila.8834200d.webp"
+  },
+  {
     "revision": "58b6686d36f35780fbd7929376753dbb",
     "url": "/feh-inheritance-tool/static/media/Silvia_Traveling_Dancer.58b6686d.webp"
   },
@@ -1680,6 +1700,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Ursula_Clear-Blue_Crow.d91fda6d.webp"
   },
   {
+    "revision": "250e1a37d9192e3185c15475e6804480",
+    "url": "/feh-inheritance-tool/static/media/Valbar_Open_and_Honest.250e1a37.webp"
+  },
+  {
     "revision": "59fb0f4bb4ec0f3290209d8a7b6dc139",
     "url": "/feh-inheritance-tool/static/media/Valter_Dark_Moonstone.59fb0f4b.webp"
   },
@@ -1752,7 +1776,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.236fac8c.webp"
   },
   {
-    "revision": "4e3a18a3e7f522667894d0fe7e698021",
+    "revision": "8a44f6c99190e900a198751c71533613",
     "url": "/feh-inheritance-tool/index.html"
   }
 ];
