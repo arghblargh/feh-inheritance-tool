@@ -25853,14 +25853,15 @@
       "passiveC": [
         {
           "name": "Close Guard 1",
-          "unlock": 3
+          "unlock": 1
         },
         {
           "name": "Close Guard 2",
-          "unlock": 4
+          "unlock": 2
         },
         {
-          "name": "Close Guard 3"
+          "name": "Close Guard 3",
+          "unlock": 4
         }
       ]
     }
@@ -27825,6 +27826,957 @@
         },
         {
           "name": "Chill Atk 3"
+        }
+      ]
+    }
+  },
+  "Leif: Unifier of Thracia": {
+    "name": "Leif",
+    "title": "Unifier of Thracia",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Meisterbogen"
+        }
+      ],
+      "special": [
+        {
+          "name": "Night Sky",
+          "unlock": 3
+        },
+        {
+          "name": "Astra",
+          "unlock": 4
+        },
+        {
+          "name": "Njörun's Zeal"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Res Push 1",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Res Push 2",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Res Push 3",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Res Push 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "S Drink"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Smoke 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def Smoke 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def Smoke 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Tethys: Beloved Dancer": {
+    "name": "Tethys",
+    "title": "Beloved Dancer",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "The Cleaner",
+          "unlock": 3
+        },
+        {
+          "name": "The Cleaner+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Spd/Res Bond 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd/Res Bond 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd/Res Bond 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Dagger Exp. 1",
+          "unlock": 3
+        },
+        {
+          "name": "Dagger Exp. 2",
+          "unlock": 4
+        },
+        {
+          "name": "Dagger Exp. 3"
+        }
+      ]
+    }
+  },
+  "Ross: His Father's Son": {
+    "name": "Ross",
+    "title": "His Father's Son",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Brave Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Brave Axe+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Smite",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fire Boost 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Boost 2",
+          "unlock": 2
+        },
+        {
+          "name": "Fire Boost 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threaten Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Threaten Def 3"
+        }
+      ]
+    }
+  },
+  "Gerik: Desert Tiger": {
+    "name": "Gerik",
+    "title": "Desert Tiger",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Firesweep Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Firesweep Axe+"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Moonbow",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Blow 1",
+          "unlock": 2
+        },
+        {
+          "name": "Darting Blow 2",
+          "unlock": 3
+        },
+        {
+          "name": "Darting Blow 3",
+          "unlock": 4
+        },
+        {
+          "name": "Darting Blow 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Sudden Panic 1",
+          "unlock": 1
+        },
+        {
+          "name": "Sudden Panic 2",
+          "unlock": 2
+        },
+        {
+          "name": "Sudden Panic 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Infantry Pulse 1",
+          "unlock": 3
+        },
+        {
+          "name": "Infantry Pulse 2",
+          "unlock": 4
+        },
+        {
+          "name": "Infantry Pulse 3"
+        }
+      ]
+    }
+  },
+  "Ewan: Eager Student": {
+    "name": "Ewan",
+    "title": "Eager Student",
+    "color": "Red",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire",
+          "unlock": 1
+        },
+        {
+          "name": "Elfire",
+          "unlock": 2
+        },
+        {
+          "name": "Rauðrserpent",
+          "unlock": 3
+        },
+        {
+          "name": "Rauðrserpent+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Darting Stance 1",
+          "unlock": 1
+        },
+        {
+          "name": "Swift Stance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Swift Stance 2",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Sabotage Spd 1",
+          "unlock": 3
+        },
+        {
+          "name": "Sabotage Spd 2",
+          "unlock": 4
+        },
+        {
+          "name": "Sabotage Spd 3"
+        }
+      ]
+    }
+  },
+  "Ephraim: Dynastic Duo": {
+    "name": "Ephraim",
+    "title": "Dynastic Duo",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Slaying Spear",
+          "unlock": 3
+        },
+        {
+          "name": "Reginleif"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Heavy Blade 1",
+          "unlock": 2
+        },
+        {
+          "name": "Heavy Blade 2",
+          "unlock": 3
+        },
+        {
+          "name": "Heavy Blade 3",
+          "unlock": 4
+        },
+        {
+          "name": "Heavy Blade 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Lull Atk/Def 1",
+          "unlock": 3
+        },
+        {
+          "name": "Lull Atk/Def 2",
+          "unlock": 4
+        },
+        {
+          "name": "Lull Atk/Def 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Odd Atk Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Odd Atk Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Odd Atk Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Cormag: Aloof Lanceman": {
+    "name": "Cormag",
+    "title": "Aloof Lanceman",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Slaying Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Slaying Lance+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Ignis",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Dull Close 1",
+          "unlock": 1
+        },
+        {
+          "name": "Dull Close 2",
+          "unlock": 2
+        },
+        {
+          "name": "Dull Close 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def Opening 1",
+          "unlock": 3
+        },
+        {
+          "name": "Def Opening 2",
+          "unlock": 4
+        },
+        {
+          "name": "Def Opening 3"
+        }
+      ]
+    }
+  },
+  "Perceval: Knightly Ideal": {
+    "name": "Perceval",
+    "title": "Knightly Ideal",
+    "color": "Blue",
+    "wpnType": "Lance",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Lance",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Lance",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Lance",
+          "unlock": 3
+        },
+        {
+          "name": "Prized Lance"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Solo 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Def Solo 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Def Solo 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Lull Atk/Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Lull Atk/Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Lull Atk/Spd 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Rouse Def/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Rouse Def/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Rouse Def/Res 3"
+        }
+      ]
+    }
+  },
+  "Larum: Sprightly Dancer": {
+    "name": "Larum",
+    "title": "Sprightly Dancer",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Dragonslasher",
+          "unlock": 3
+        },
+        {
+          "name": "Dragonslasher+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Disarm Trap 1",
+          "unlock": 1
+        },
+        {
+          "name": "Disarm Trap 2",
+          "unlock": 2
+        },
+        {
+          "name": "Disarm Trap 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd/Res Gap 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spd/Res Gap 2",
+          "unlock": 4
+        },
+        {
+          "name": "Spd/Res Gap 3"
+        }
+      ]
+    }
+  },
+  "Igrene: Nabata Protector": {
+    "name": "Igrene",
+    "title": "Nabata Protector",
+    "color": "Red",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Guardian's Bow"
+        }
+      ],
+      "special": [
+        {
+          "name": "Rising Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Blazing Wind",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Life and Death 1",
+          "unlock": 2
+        },
+        {
+          "name": "Life and Death 2",
+          "unlock": 3
+        },
+        {
+          "name": "Life and Death 3",
+          "unlock": 4
+        },
+        {
+          "name": "Life and Death 4"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Spiral 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Spiral 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Spiral 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Pulse Smoke 1",
+          "unlock": 1
+        },
+        {
+          "name": "Pulse Smoke 2",
+          "unlock": 2
+        },
+        {
+          "name": "Pulse Smoke 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Echidna: Unyielding Idealist": {
+    "name": "Echidna",
+    "title": "Unyielding Idealist",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Rearguard",
+          "unlock": 3
+        },
+        {
+          "name": "Rearguard+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
+        {
+          "name": "Sol",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Brazen Spd/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Brazen Spd/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Brazen Spd/Res 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Drive Atk 1",
+          "unlock": 2
+        },
+        {
+          "name": "Drive Atk 2",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Chad: Lycian Wildcat": {
+    "name": "Chad",
+    "title": "Lycian Wildcat",
+    "color": "Neutral",
+    "wpnType": "Dagger",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Rogue Dagger",
+          "unlock": 3
+        },
+        {
+          "name": "Rogue Dagger+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Draw Back",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Escape Route 1",
+          "unlock": 3
+        },
+        {
+          "name": "Escape Route 2",
+          "unlock": 4
+        },
+        {
+          "name": "Escape Route 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spd Smoke 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spd Smoke 2",
+          "unlock": 2
+        },
+        {
+          "name": "Spd Smoke 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Brunnya: Devoted General": {
+    "name": "Brunnya",
+    "title": "Devoted General",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 1
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 2
+        },
+        {
+          "name": "Thoron",
+          "unlock": 3
+        },
+        {
+          "name": "Fimbulvetr"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Death Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Death Blow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Death Blow 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Res Smoke 1",
+          "unlock": 1
+        },
+        {
+          "name": "Res Smoke 2",
+          "unlock": 2
+        },
+        {
+          "name": "Res Smoke 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Altina: Dawn's Trueblade": {
+    "name": "Altina",
+    "title": "Dawn's Trueblade",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Ragnell·Alondite"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Iceberg",
+          "unlock": 4
+        },
+        {
+          "name": "Twin Blades"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Ashera's Chosen"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vantage 1",
+          "unlock": 1
+        },
+        {
+          "name": "Vantage 2",
+          "unlock": 2
+        },
+        {
+          "name": "Vantage 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Atk/Def Oath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Oath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Oath 3"
         }
       ]
     }

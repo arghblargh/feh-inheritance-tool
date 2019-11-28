@@ -270,6 +270,13 @@
     "count": 3,
     "effect": "Boosts damage dealt by 50%."
   },
+  "Njörun's Zeal": {
+    "cost": 500,
+    "count": 3,
+    "effect": "If unit initiates combat, grants another action to unit after combat. (Once per turn.) When Special triggers, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort through their next action.",
+    "require": "Astra",
+    "restriction": "Exclusive"
+  },
   "Noontime": {
     "cost": 200,
     "count": 2,
@@ -372,6 +379,13 @@
     "count": 1,
     "effect": "When healing an ally with a staff, grants Spd+4 to all allies for 1 turn.",
     "restriction": "Staff"
+  },
+  "Twin Blades": {
+    "cost": 500,
+    "count": 2,
+    "effect": "Boosts damage by 40% of unit's Res. Disables non-Special skills that \"reduce damage by X%\".",
+    "require": "Iceberg",
+    "restriction": "Exclusive"
   },
   "Vengeance": {
     "cost": 200,

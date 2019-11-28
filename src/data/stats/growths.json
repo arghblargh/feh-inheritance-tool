@@ -41,6 +41,13 @@
     "Def": 50,
     "Res": 45
   },
+  "Altina: Dawn's Trueblade": {
+    "HP": 55,
+    "Atk": 70,
+    "Spd": 40,
+    "Def": 45,
+    "Res": 60
+  },
   "Amelia: Rose of the War": {
     "HP": 65,
     "Atk": 65,
@@ -223,6 +230,13 @@
     "Def": 45,
     "Res": 50
   },
+  "Brunnya: Devoted General": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 55,
+    "Def": 40,
+    "Res": 55
+  },
   "Bruno: Masked Hare": {
     "HP": 55,
     "Atk": 50,
@@ -391,6 +405,13 @@
     "Def": 50,
     "Res": 40
   },
+  "Chad: Lycian Wildcat": {
+    "HP": 60,
+    "Atk": 55,
+    "Spd": 65,
+    "Def": 45,
+    "Res": 40
+  },
   "Charlotte: Money Maiden": {
     "HP": 60,
     "Atk": 60,
@@ -495,6 +516,13 @@
     "Spd": 60,
     "Def": 35,
     "Res": 40
+  },
+  "Cormag: Aloof Lanceman": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 50,
+    "Res": 45
   },
   "Corrin: Dream Prince": {
     "HP": 60,
@@ -629,6 +657,13 @@
     "Def": 60,
     "Res": 55
   },
+  "Echidna: Unyielding Idealist": {
+    "HP": 60,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 45
+  },
   "Edelgard: The Future": {
     "HP": 55,
     "Atk": 70,
@@ -748,6 +783,13 @@
     "Def": 60,
     "Res": 30
   },
+  "Ephraim: Dynastic Duo": {
+    "HP": 50,
+    "Atk": 70,
+    "Spd": 50,
+    "Def": 65,
+    "Res": 45
+  },
   "Ephraim: Legendary Lord": {
     "HP": 55,
     "Atk": 60,
@@ -789,6 +831,13 @@
     "Spd": 55,
     "Def": 50,
     "Res": 30
+  },
+  "Ewan: Eager Student": {
+    "HP": 50,
+    "Atk": 70,
+    "Spd": 60,
+    "Def": 45,
+    "Res": 70
   },
   "Fae: Divine Dragon": {
     "HP": 70,
@@ -943,6 +992,13 @@
     "Spd": 45,
     "Def": 40,
     "Res": 60
+  },
+  "Gerik: Desert Tiger": {
+    "HP": 65,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 50,
+    "Res": 45
   },
   "Gerome: Masked Rider": {
     "HP": 60,
@@ -1167,6 +1223,13 @@
     "Spd": 50,
     "Def": 70,
     "Res": 70
+  },
+  "Igrene: Nabata Protector": {
+    "HP": 55,
+    "Atk": 70,
+    "Spd": 65,
+    "Def": 45,
+    "Res": 40
   },
   "Ike: Brave Mercenary": {
     "HP": 60,
@@ -1476,6 +1539,13 @@
     "Def": 60,
     "Res": 45
   },
+  "Larum: Sprightly Dancer": {
+    "HP": 45,
+    "Atk": 60,
+    "Spd": 70,
+    "Def": 35,
+    "Res": 60
+  },
   "Laslow: Dancing Duelist": {
     "HP": 55,
     "Atk": 60,
@@ -1510,6 +1580,13 @@
     "Spd": 65,
     "Def": 50,
     "Res": 40
+  },
+  "Leif: Unifier of Thracia": {
+    "HP": 50,
+    "Atk": 70,
+    "Spd": 45,
+    "Def": 50,
+    "Res": 45
   },
   "Lene: Yearning Dancer": {
     "HP": 45,
@@ -2239,6 +2316,13 @@
     "Def": 35,
     "Res": 35
   },
+  "Perceval: Knightly Ideal": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 65,
+    "Def": 45,
+    "Res": 50
+  },
   "Peri: Playful Slayer": {
     "HP": 45,
     "Atk": 55,
@@ -2405,6 +2489,13 @@
     "Atk": 55,
     "Spd": 60,
     "Def": 50,
+    "Res": 45
+  },
+  "Ross: His Father's Son": {
+    "HP": 70,
+    "Atk": 70,
+    "Spd": 55,
+    "Def": 65,
     "Res": 45
   },
   "Roy: Blazing Lion": {
@@ -2820,6 +2911,13 @@
     "Def": 60,
     "Res": 40
   },
+  "Tethys: Beloved Dancer": {
+    "HP": 50,
+    "Atk": 50,
+    "Spd": 60,
+    "Def": 45,
+    "Res": 65
+  },
   "Tharja: \"Normal Girl\"": {
     "HP": 55,
     "Atk": 55,
@@ -3029,47 +3127,5 @@
     "Spd": 55,
     "Def": 65,
     "Res": 25
-  },
-  "Yarne: Timid Taguel": {
-    "HP": 50,
-    "Atk": 60,
-    "Spd": 60,
-    "Def": 55,
-    "Res": 30
-  },
-  "Ylgr: Breaking the Ice": {
-    "HP": 60,
-    "Atk": 60,
-    "Spd": 55,
-    "Def": 55,
-    "Res": 45
-  },
-  "Ylgr: Fresh Snowfall": {
-    "HP": 50,
-    "Atk": 60,
-    "Spd": 65,
-    "Def": 35,
-    "Res": 35
-  },
-  "Yune: Chaos Goddess": {
-    "HP": 50,
-    "Atk": 55,
-    "Spd": 50,
-    "Def": 25,
-    "Res": 65
-  },
-  "Zelgius: Jet-Black General": {
-    "HP": 55,
-    "Atk": 60,
-    "Spd": 60,
-    "Def": 65,
-    "Res": 35
-  },
-  "Zephiel: The Liberator": {
-    "HP": 70,
-    "Atk": 60,
-    "Spd": 30,
-    "Def": 60,
-    "Res": 45
   }
 }

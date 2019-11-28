@@ -4,12 +4,12 @@
   "homepage": "https://arghblargh.github.io/feh-inheritance-tool",
   "private": true,
   "dependencies": {
-    "react": "16.6.0",
-    "react-dom": "16.6.0"
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   },
   "devDependencies": {
-    "gh-pages": "2.0.1",
-    "react-scripts": "2.0.5"
+    "gh-pages": "2.1.1",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "stats": "curl https://feh-stat-pull.herokuapp.com/stats -o \"src/data/stats/5_1.json\" https://feh-stat-pull.herokuapp.com/stats/growths -o \"src/data/stats/growths.json\" https://feh-stat-pull.herokuapp.com/units/rarity -o \"src/data/stats/rarity.json\"",
-    "portraits": "PowerShell src/scripts/portraits.ps1"
+    "portraits": "pwsh src/scripts/portraits.ps1"
   },
   "browserslist": [
     ">0.2%",

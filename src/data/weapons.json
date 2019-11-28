@@ -4943,5 +4943,97 @@
     "effect": "Effective against flying foes. At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Meisterbogen": {
+    "color": "",
+    "type": "Bow",
+    "cost": 400,
+    "might": 9,
+    "effect": "Effective against flying foes. Inflicts Spd-5. Unit attacks twice (even if foe initiates combat). When under player's control, unit gains: \"If unit initiates combat, foe cannot make a follow-up attack.\"",
+    "restriction": "Exclusive"
+  },
+  "Firesweep Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 11,
+    "effect": "Unit and foe cannot counterattack."
+  },
+  "Firesweep Axe+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 15,
+    "effect": "Unit and foe cannot counterattack."
+  },
+  "Reginleif": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored and cavalry foes. Grants Atk+3. If unit’s Atk > foe’s Atk and/or extra movement granted by another skill is active on unit, unit makes a guaranteed follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Prized Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+4 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+    "restriction": "Exclusive"
+  },
+  "Dragonslasher": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "Effective against dragon foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Dragonslasher+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "Effective against dragon foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Guardian's Bow": {
+    "color": "Red",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit's Spd > foe's Spd, inflicts Atk/Spd/Def-5 on foe during combat.",
+    "restriction": "Exclusive"
+  },
+  "Rearguard": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 200,
+    "might": 10,
+    "effect": "If foe initiates combat, grants Def+7 during combat."
+  },
+  "Rearguard+": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 300,
+    "might": 14,
+    "effect": "If foe initiates combat, grants Def+7 during combat.",
+    "upgrade": "-"
+  },
+  "Fimbulvetr": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. At start of combat, if【Penalty】 is active on unit or if unit's HP < 100%, neutralizes penalties on unit and grants Atk/Spd/Def/Res+4 during combat. 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+    "restriction": "Exclusive"
+  },
+  "Ragnell·Alondite": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 10,
+    "effect": "Unit can counterattack regardless of foe's range. Inflicts Spd-5. Unit attacks twice (even if foe initiates combat).",
+    "restriction": "Exclusive"
   }
 }

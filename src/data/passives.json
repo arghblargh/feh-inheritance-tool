@@ -111,6 +111,11 @@
       "effect": "If unit initiates combat, grants Def+6 during combat.",
       "restriction": "Offense"
     },
+    "Ashera's Chosen": {
+      "cost": 300,
+      "effect": "Neutralizes \"effective against flying\" bonuses. If unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, grants Atk/Def+6 during combat.",
+      "restriction": "Exclusive"
+    },
     "Atk/Def Bond 1": {
       "cost": 60,
       "effect": "If unit is adjacent to an ally, grants Atk/Def+3 during combat."
@@ -174,6 +179,10 @@
     "Atk/Res Push 3": {
       "cost": 240,
       "effect": "At start of combat, if unit's HP = 100%, grants Atk/Res+5, but if unit attacked, deals 1 damage to unit after combat."
+    },
+    "Atk/Res Push 4": {
+      "cost": 300,
+      "effect": "At start of combat, if unit's HP ≥ 25%, grants Atk/Res+7, but after combat, if unit attacked, deals 5 damage to unit."
     },
     "Atk/Res Solo 1": {
       "cost": 60,
@@ -411,6 +420,18 @@
     "Brazen Spd/Def 3": {
       "cost": 240,
       "effect": "At start of combat, if unit's HP ≤ 80%, grants Spd/Def+7 during combat."
+    },
+    "Brazen Spd/Res 1": {
+      "cost": 60,
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Spd/Res+3 during combat."
+    },
+    "Brazen Spd/Res 2": {
+      "cost": 120,
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Spd/Res+5 during combat."
+    },
+    "Brazen Spd/Res 3": {
+      "cost": 240,
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Spd/Res+7 during combat."
     },
     "C Duel Infantry 1": {
       "cost": 60,
@@ -790,6 +811,11 @@
       "effect": "If unit's Atk > foe's Atk, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
       "restriction": "Offense"
     },
+    "Heavy Blade 4": {
+      "cost": 300,
+      "effect": "If unit's Atk > foe's Atk, grants Special cooldown charge +1 and deals +5 damage to foe per unit's attack. (Only highest value applied. Does not stack.)",
+      "restriction": "Offense"
+    },
     "HP +3": {
       "cost": 40,
       "effect": "Grants HP+3."
@@ -872,6 +898,11 @@
     "Life and Death 3": {
       "cost": 200,
       "effect": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
+      "restriction": "Offense"
+    },
+    "Life and Death 4": {
+      "cost": 300,
+      "effect": "Grants Atk/Spd+7. Inflicts Def/Res-5.",
       "restriction": "Offense"
     },
     "Mirror Impact": {
@@ -2082,6 +2113,18 @@
       "cost": 240,
       "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-7 on that foe through its next action."
     },
+    "Sabotage Spd 1": {
+      "cost": 60,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-3 on that foe through its next action."
+    },
+    "Sabotage Spd 2": {
+      "cost": 120,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-5 on that foe through its next action."
+    },
+    "Sabotage Spd 3": {
+      "cost": 240,
+      "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-7 on that foe through its next action."
+    },
     "Sacae's Blessing": {
       "cost": 300,
       "effect": "If foe uses sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
@@ -2480,6 +2523,30 @@
       "cost": 240,
       "effect": "At start of turn, if unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
       "restriction": "Armored"
+    },
+    "Atk/Def Gap 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Atk/Def+1 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Def Gap 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Atk/Def+3 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Def Gap 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Atk/Def+5 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Def Oath 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Def+3 for 1 turn."
+    },
+    "Atk/Def Oath 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Def+4 for 1 turn."
+    },
+    "Atk/Def Oath 3": {
+      "cost": 240,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Def+5 for 1 turn."
     },
     "Atk/Res Gap 1": {
       "cost": 60,
@@ -3408,6 +3475,21 @@
       "effect": "At start of turn, if unit is not adjacent to an ally, grants Atk/Def+6 for 1 turn.",
       "restriction": "Infantry|Cavalry"
     },
+    "Rouse Def/Res 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit is not adjacent to an ally, grants Def/Res+2 for 1 turn.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Rouse Def/Res 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit is not adjacent to an ally, grants Def/Res+4 for 1 turn.",
+      "restriction": "Infantry|Cavalry"
+    },
+    "Rouse Def/Res 3": {
+      "cost": 240,
+      "effect": "At start of turn, if unit is not adjacent to an ally, grants Def/Res+6 for 1 turn.",
+      "restriction": "Infantry|Cavalry"
+    },
     "Savage Blow 1": {
       "cost": 50,
       "effect": "If unit initiates combat, deals 3 damage to foes within 2 spaces of target after combat."
@@ -3480,6 +3562,18 @@
     "Spd Tactic 3": {
       "cost": 240,
       "effect": "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2."
+    },
+    "Spd/Res Gap 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Spd/Res+1 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)"
+    },
+    "Spd/Res Gap 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Spd/Res+3 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)"
+    },
+    "Spd/Res Gap 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Spd/Res+5 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)"
     },
     "Spur Atk 1": {
       "cost": 50,
