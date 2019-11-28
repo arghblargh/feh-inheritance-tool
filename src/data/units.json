@@ -638,6 +638,9 @@
         },
         {
           "name": "Wo Dao+"
+        },
+        {
+          "name": "Concealed Blade"
         }
       ],
       "special": [
@@ -5590,6 +5593,9 @@
         },
         {
           "name": "Brave Bow+"
+        },
+        {
+          "name": "Renowned Bow"
         }
       ],
       "assist": [
@@ -7762,6 +7768,9 @@
         },
         {
           "name": "Water Breath+"
+        },
+        {
+          "name": "Sun Dragonstone"
         }
       ],
       "special": [
@@ -16584,6 +16593,9 @@
         },
         {
           "name": "Sapphire Lance+"
+        },
+        {
+          "name": "Golden Naginata"
         }
       ],
       "assist": [

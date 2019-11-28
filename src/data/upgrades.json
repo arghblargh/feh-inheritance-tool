@@ -58,6 +58,9 @@
     "Bull Blade": {
         "effect": "If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice."
     },
+    "Concealed Blade": {
+        "effect": "If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
+    },
     "Durandal": {
         "effect": "If unit initiates combat, grants Atk/Spd+4 during combat.",
         "common": {
@@ -209,6 +212,9 @@
             "effect": "Effective against dragon foes. Grants Def+3. Grants Atk/Spd+3 to sword, lance, axe, bow, dagger, or beast allies within 2 spaces during combat."
         }
     },
+    "Golden Naginata": {
+        "effect": "At the start of combat, if unit's HP ≥ 70%, deals +7 damage."
+    },
     "Hinoka's Spear": {
         "effect": "Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
     },
@@ -311,6 +317,9 @@
     },
     "Urvan": {
         "effect": "Reduces damage from foe's first attack by 40%. If foe initiates combat, foe can make a follow-up attack before unit can counterattack."
+    },
+    "Sun Dragonstone": {
+        "effect": "Inflicts Atk/Spd-3 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat."
     },
     "Brynhildr": {
         "effect": "If foe uses bow, dagger, magic, or staff and unit's Def ≥ foe's Def+1, foe cannot make a follow-up attack.",
@@ -501,6 +510,9 @@
         "common": {
             "effect": "Effective against flying foes. Reduces damage from magic foe's first attack by 30%."
         }
+    },
+    "Renowned Bow": {
+        "effect": "Inflicts Atk/Def-4 on foes within 2 spaces during combat."
     },
     "Dancer's Fan+": {
         "common": {

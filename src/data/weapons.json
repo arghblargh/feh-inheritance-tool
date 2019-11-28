@@ -5035,5 +5035,41 @@
     "might": 10,
     "effect": "Unit can counterattack regardless of foe's range. Inflicts Spd-5. Unit attacks twice (even if foe initiates combat).",
     "restriction": "Exclusive"
+  },
+  "Concealed Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Deals +10 damage when Special triggers.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Golden Naginata": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if foe's Atk ≥ unit's Atk+3, grants Atk/Spd/Def/Res+3 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Renowned Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 400,
+    "might": 9,
+    "effect": "Effective against flying foes. Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Sun Dragonstone": {
+    "color": "Green",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "If foe initiates combat or if a bonus granted by a skill like Rally or Hone is not active on foe, grants Atk/Spd/Def/Res+4 to unit during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }
