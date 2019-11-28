@@ -1,23 +1,23 @@
-self.__precacheManifest = [
+self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1bf4af7ab774cd97cc9",
-    "url": "/feh-inheritance-tool/static/css/main.513eaa39.chunk.css"
+    "revision": "9d329b9d0c06ead6450b7a69665c2537",
+    "url": "/feh-inheritance-tool/index.html"
   },
   {
-    "revision": "f1bf4af7ab774cd97cc9",
-    "url": "/feh-inheritance-tool/static/js/main.f1bf4af7.chunk.js"
+    "revision": "e01b14413f8b56b4cf68",
+    "url": "/feh-inheritance-tool/static/css/main.ec19a5e0.chunk.css"
   },
   {
-    "revision": "902fef7da8bb3863aae2",
-    "url": "/feh-inheritance-tool/static/js/1.902fef7d.chunk.js"
+    "revision": "a6b68b5daab955cee15c",
+    "url": "/feh-inheritance-tool/static/js/2.03c40c79.chunk.js"
   },
   {
-    "revision": "9075a52a897809d549c4",
-    "url": "/feh-inheritance-tool/static/js/runtime~main.9075a52a.js"
+    "revision": "e01b14413f8b56b4cf68",
+    "url": "/feh-inheritance-tool/static/js/main.b6b19704.chunk.js"
   },
   {
-    "revision": "09c370bf948b8d93238060a4acf0a8fa",
-    "url": "/feh-inheritance-tool/static/media/_temp.09c370bf.webp"
+    "revision": "ba2bfc6b6cccb97745db",
+    "url": "/feh-inheritance-tool/static/js/runtime-main.14defee6.js"
   },
   {
     "revision": "e52a8f51827ac29c83231415724bf961",
@@ -42,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "6ef7688cd663f8215dc271e9ec4ae9e9",
     "url": "/feh-inheritance-tool/static/media/Alm_Saint-King.6ef7688c.webp"
+  },
+  {
+    "revision": "e7679743be4477003ae4569f452685f3",
+    "url": "/feh-inheritance-tool/static/media/Altina_Dawns_Trueblade.e7679743.webp"
   },
   {
     "revision": "a4cc152471bbbd4c43fd43cdc356d6c9",
@@ -148,6 +152,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Brady_Daunting_Priest.9475c43d.webp"
   },
   {
+    "revision": "be2e119f648a8a76a039c803e4352e72",
+    "url": "/feh-inheritance-tool/static/media/Brunnya_Devoted_General.be2e119f.webp"
+  },
+  {
     "revision": "9a69ac513e03a46e7052a823e667d21d",
     "url": "/feh-inheritance-tool/static/media/Bruno_Masked_Hare.9a69ac51.webp"
   },
@@ -244,6 +252,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Celica_Warrior_Priestess.07f82e6b.webp"
   },
   {
+    "revision": "6dc5af970ebd6db35b6c45eb8984f8e4",
+    "url": "/feh-inheritance-tool/static/media/Chad_Lycian_Wildcat.6dc5af97.webp"
+  },
+  {
     "revision": "f5df7b3840a2cb55497606452fa24bc8",
     "url": "/feh-inheritance-tool/static/media/Charlotte_Money_Maiden.f5df7b38.webp"
   },
@@ -302,6 +314,10 @@ self.__precacheManifest = [
   {
     "revision": "545cde83f37571815ba47fa093f163e2",
     "url": "/feh-inheritance-tool/static/media/Cordelia_Perfect_Bride.545cde83.webp"
+  },
+  {
+    "revision": "c7abf2c9b7e8ee9283da7d7cf877896d",
+    "url": "/feh-inheritance-tool/static/media/Cormag_Aloof_Lanceman.c7abf2c9.webp"
   },
   {
     "revision": "38bf55f4c0b048c5ba0a0c86d67892c5",
@@ -380,6 +396,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Duma_God_of_Strength.c460f652.webp"
   },
   {
+    "revision": "13b3beca2b667a599d93d16071dfe79a",
+    "url": "/feh-inheritance-tool/static/media/Echidna_Unyielding_Idealist.13b3beca.webp"
+  },
+  {
     "revision": "b6ec06663ab248a2caef5aeb428e7031",
     "url": "/feh-inheritance-tool/static/media/Edelgard_The_Future.b6ec0666.webp"
   },
@@ -448,6 +468,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Eliwood_Marquess_Pherae.59f2a1c6.webp"
   },
   {
+    "revision": "887790a66ae0b84489b14b20f95ef2b2",
+    "url": "/feh-inheritance-tool/static/media/Ephraim_Dynastic_Duo.887790a6.webp"
+  },
+  {
     "revision": "ed665740810e2f0f519dd2a76c1fb1ac",
     "url": "/feh-inheritance-tool/static/media/Ephraim_Legendary_Lord.ed665740.webp"
   },
@@ -470,6 +494,10 @@ self.__precacheManifest = [
   {
     "revision": "c58d040626cd0277250cd5535096d1ec",
     "url": "/feh-inheritance-tool/static/media/Ethlyn_Spirited_Princess.c58d0406.webp"
+  },
+  {
+    "revision": "6cd4dedef7c9748727056ec07da7f854",
+    "url": "/feh-inheritance-tool/static/media/Ewan_Eager_Student.6cd4dede.webp"
   },
   {
     "revision": "9f97ae159cca99f60b8b6eaeb28ce3df",
@@ -558,6 +586,10 @@ self.__precacheManifest = [
   {
     "revision": "6b44339251abf745947ecfeab6f30872",
     "url": "/feh-inheritance-tool/static/media/Genny_Endearing_Ally.6b443392.webp"
+  },
+  {
+    "revision": "f44c0bba980a7dafa0a80d1f2cd7e028",
+    "url": "/feh-inheritance-tool/static/media/Gerik_Desert_Tiger.f44c0bba.webp"
   },
   {
     "revision": "8700484741446f31515f8ad0e7dd38b8",
@@ -686,6 +718,10 @@ self.__precacheManifest = [
   {
     "revision": "7f48e26132cfd7949c56340cc586cbaf",
     "url": "/feh-inheritance-tool/static/media/Idunn_Dark_Priestess.7f48e261.webp"
+  },
+  {
+    "revision": "0bd57f85c905ab2925d2aefe66c0de2f",
+    "url": "/feh-inheritance-tool/static/media/Igrene_Nabata_Protector.0bd57f85.webp"
   },
   {
     "revision": "fb6379c52fb1ed5e17e8d90a47ff3a96",
@@ -864,6 +900,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Laevatein_Searing_Steel.75062ee4.webp"
   },
   {
+    "revision": "e397c83f8e9853a5a2ced840ce22874b",
+    "url": "/feh-inheritance-tool/static/media/Larum_Sprightly_Dancer.e397c83f.webp"
+  },
+  {
     "revision": "cc3354878ab92b37a3877f89dd11e14b",
     "url": "/feh-inheritance-tool/static/media/Laslow_Dancing_Duelist.cc335487.webp"
   },
@@ -882,6 +922,10 @@ self.__precacheManifest = [
   {
     "revision": "b959406d522fd789137aeed0e70c53b8",
     "url": "/feh-inheritance-tool/static/media/Leif_Prince_of_Leonster.b959406d.webp"
+  },
+  {
+    "revision": "5cdb44a0da9adee4aba512e3eeb9ced7",
+    "url": "/feh-inheritance-tool/static/media/Leif_Unifier_of_Thracia.5cdb44a0.webp"
   },
   {
     "revision": "ecd895364e6becfba77474c4bd24c19a",
@@ -1300,6 +1344,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Pent_Fancy_Fiance.2316657f.webp"
   },
   {
+    "revision": "3b25915823e742c220388ce8ce961d0e",
+    "url": "/feh-inheritance-tool/static/media/Perceval_Knightly_Ideal.3b259158.webp"
+  },
+  {
     "revision": "85c5b8efd389a995ecdfa9c0f19cd865",
     "url": "/feh-inheritance-tool/static/media/Peri_Playful_Slayer.85c5b8ef.webp"
   },
@@ -1394,6 +1442,10 @@ self.__precacheManifest = [
   {
     "revision": "3029419c73b98cc2f2721dea8cffaa1d",
     "url": "/feh-inheritance-tool/static/media/Rolf_Tricky_Archer.3029419c.webp"
+  },
+  {
+    "revision": "e81cef55625e526e08085a086982f633",
+    "url": "/feh-inheritance-tool/static/media/Ross_His_Fathers_Son.e81cef55.webp"
   },
   {
     "revision": "726a5676c9e858ccde355bc7bdd7769e",
@@ -1632,6 +1684,10 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Tanith_Forthright_Heart.f580c279.webp"
   },
   {
+    "revision": "b792c1b3eedf8fe247c710f0d3ba7448",
+    "url": "/feh-inheritance-tool/static/media/Tethys_Beloved_Dancer.b792c1b3.webp"
+  },
+  {
     "revision": "22e4edbe25e1cbdf1353efb3f6d5b347",
     "url": "/feh-inheritance-tool/static/media/Tharja_Dark_Shadow.22e4edbe.webp"
   },
@@ -1776,7 +1832,7 @@ self.__precacheManifest = [
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.236fac8c.webp"
   },
   {
-    "revision": "8a44f6c99190e900a198751c71533613",
-    "url": "/feh-inheritance-tool/index.html"
+    "revision": "09c370bf948b8d93238060a4acf0a8fa",
+    "url": "/feh-inheritance-tool/static/media/_temp.09c370bf.webp"
   }
-];
+]);
