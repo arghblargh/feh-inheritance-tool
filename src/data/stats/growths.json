@@ -839,6 +839,13 @@
     "Def": 45,
     "Res": 70
   },
+  "Eyvel: Mistress of Fiana": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 55,
+    "Def": 70,
+    "Res": 45
+  },
   "Fae: Divine Dragon": {
     "HP": 70,
     "Atk": 65,
@@ -1448,6 +1455,13 @@
     "Def": 70,
     "Res": 35
   },
+  "Kempf: Conniving General": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 45,
+    "Res": 45
+  },
   "Kjelle: Fair Fighter": {
     "HP": 55,
     "Atk": 70,
@@ -1860,6 +1874,13 @@
     "Spd": 55,
     "Def": 30,
     "Res": 50
+  },
+  "Mareeta: Sword of Stars": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 70,
+    "Def": 50,
+    "Res": 45
   },
   "Mareeta: The Blade's Pawn": {
     "HP": 55,
@@ -2281,6 +2302,13 @@
     "Def": 45,
     "Res": 35
   },
+  "Osian: Scolded Soldier": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 50
+  },
   "Owain: Chosen One": {
     "HP": 55,
     "Atk": 55,
@@ -2315,6 +2343,13 @@
     "Spd": 60,
     "Def": 35,
     "Res": 35
+  },
+  "Peony: Sweet Dream": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 65,
+    "Def": 30,
+    "Res": 45
   },
   "Perceval: Knightly Ideal": {
     "HP": 50,
@@ -2911,6 +2946,13 @@
     "Def": 60,
     "Res": 40
   },
+  "Tanya: Dagdar's Kid": {
+    "HP": 55,
+    "Atk": 55,
+    "Spd": 65,
+    "Def": 45,
+    "Res": 45
+  },
   "Tethys: Beloved Dancer": {
     "HP": 50,
     "Atk": 50,
@@ -3079,13 +3121,6 @@
     "Def": 45,
     "Res": 25
   },
-  "Walhart: The Conqueror": {
-    "HP": 50,
-    "Atk": 60,
-    "Spd": 50,
-    "Def": 65,
-    "Res": 30
-  },
   "Wolt: Sunbeam Archer": {
     "HP": 50,
     "Atk": 60,
@@ -3127,5 +3162,47 @@
     "Spd": 55,
     "Def": 65,
     "Res": 25
+  },
+  "Yarne: Timid Taguel": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 55,
+    "Res": 30
+  },
+  "Ylgr: Breaking the Ice": {
+    "HP": 60,
+    "Atk": 60,
+    "Spd": 55,
+    "Def": 55,
+    "Res": 45
+  },
+  "Ylgr: Fresh Snowfall": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 65,
+    "Def": 35,
+    "Res": 35
+  },
+  "Yune: Chaos Goddess": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 50,
+    "Def": 25,
+    "Res": 65
+  },
+  "Zelgius: Jet-Black General": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 60,
+    "Def": 65,
+    "Res": 35
+  },
+  "Zephiel: The Liberator": {
+    "HP": 70,
+    "Atk": 60,
+    "Spd": 30,
+    "Def": 60,
+    "Res": 45
   }
 }
