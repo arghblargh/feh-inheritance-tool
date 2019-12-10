@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae1d11e80dd2a12893005327f4970feb",
+    "revision": "27f7e0d631ed231396b92c37b1bd9a2a",
     "url": "/feh-inheritance-tool/index.html"
   },
   {
-    "revision": "4ad92cd94d49c4c55190",
+    "revision": "a1ba53519a9b3bfed8b2",
     "url": "/feh-inheritance-tool/static/css/main.ec19a5e0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/js/2.03c40c79.chunk.js"
   },
   {
-    "revision": "4ad92cd94d49c4c55190",
-    "url": "/feh-inheritance-tool/static/js/main.fa09f9d4.chunk.js"
+    "revision": "a1ba53519a9b3bfed8b2",
+    "url": "/feh-inheritance-tool/static/js/main.76ee57ac.chunk.js"
   },
   {
     "revision": "ba2bfc6b6cccb97745db",
