@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27f7e0d631ed231396b92c37b1bd9a2a",
+    "revision": "462d3939ea63f112fb1d18a2ce58df47",
     "url": "/feh-inheritance-tool/index.html"
   },
   {
-    "revision": "a1ba53519a9b3bfed8b2",
+    "revision": "cb54f7e9ec094989cde6",
     "url": "/feh-inheritance-tool/static/css/main.ec19a5e0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/js/2.03c40c79.chunk.js"
   },
   {
-    "revision": "a1ba53519a9b3bfed8b2",
-    "url": "/feh-inheritance-tool/static/js/main.76ee57ac.chunk.js"
+    "revision": "cb54f7e9ec094989cde6",
+    "url": "/feh-inheritance-tool/static/js/main.57bcfb06.chunk.js"
   },
   {
     "revision": "ba2bfc6b6cccb97745db",
@@ -500,6 +500,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Ewan_Eager_Student.6cd4dede.webp"
   },
   {
+    "revision": "ba1fa67b3634181d5ab9ee1c55aa8cee",
+    "url": "/feh-inheritance-tool/static/media/Eyvel_Mistress_of_Fiana.ba1fa67b.webp"
+  },
+  {
     "revision": "9f97ae159cca99f60b8b6eaeb28ce3df",
     "url": "/feh-inheritance-tool/static/media/Fae_Divine_Dragon.9f97ae15.webp"
   },
@@ -768,6 +772,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Jaffar_Angel_of_Death.d26e9ab7.webp"
   },
   {
+    "revision": "3687253b6202aca2821dd4602b6efba6",
+    "url": "/feh-inheritance-tool/static/media/Jaffar_Angel_of_Night.3687253b.webp"
+  },
+  {
     "revision": "84812a7fdb21893dc3dfd1230b6fae27",
     "url": "/feh-inheritance-tool/static/media/Jagen_Veteran_Knight.84812a7f.webp"
   },
@@ -846,6 +854,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f15d79cf26a017553bcac25f4e0698f",
     "url": "/feh-inheritance-tool/static/media/Keaton_Lupine_Collector.3f15d79c.webp"
+  },
+  {
+    "revision": "7cbb8a9eb8eb99f358fd5f5ece0cd869",
+    "url": "/feh-inheritance-tool/static/media/Kempf_Conniving_General.7cbb8a9e.webp"
   },
   {
     "revision": "2398151496da2688bba38766907327d1",
@@ -1084,6 +1096,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Mae_Bundle_of_Energy.2b4a3213.webp"
   },
   {
+    "revision": "65981d4f1993674225d80697270daf00",
+    "url": "/feh-inheritance-tool/static/media/Mareeta_Sword_of_Stars.65981d4f.webp"
+  },
+  {
     "revision": "4682f522f18d8ddb8e0d3468853838f0",
     "url": "/feh-inheritance-tool/static/media/Mareeta_The_Blades_Pawn.4682f522.webp"
   },
@@ -1118,6 +1134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d5176ae1cfea7af29a8062f23d1e675",
     "url": "/feh-inheritance-tool/static/media/Marth_Hero-King.1d5176ae.webp"
+  },
+  {
+    "revision": "7065f4d154c96850e1325c63285397c4",
+    "url": "/feh-inheritance-tool/static/media/Marth_Royal_Altean_Duo.7065f4d1.webp"
   },
   {
     "revision": "83db54d626934621e48be81d7130a56d",
@@ -1256,6 +1276,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Ninian_Oracle_of_Destiny.db7bb8e4.webp"
   },
   {
+    "revision": "11ea7fb311845020afcd5b6d0ae3c344",
+    "url": "/feh-inheritance-tool/static/media/Nino_Flower_of_Frost.11ea7fb3.webp"
+  },
+  {
     "revision": "df93aa5a4cc1c37b7556180516549901",
     "url": "/feh-inheritance-tool/static/media/Nino_Pale_Flower.df93aa5a.webp"
   },
@@ -1324,6 +1348,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Oscar_Agile_Horseman.abe04d0d.webp"
   },
   {
+    "revision": "212f976813652d97a2a04fa31845bbfb",
+    "url": "/feh-inheritance-tool/static/media/Osian_Scolded_Soldier.212f9768.webp"
+  },
+  {
     "revision": "c662331bcc0583ef8ae11cef7257b79c",
     "url": "/feh-inheritance-tool/static/media/Owain_Chosen_One.c662331b.webp"
   },
@@ -1342,6 +1370,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2316657f02461b61c7b0e515be7afb81",
     "url": "/feh-inheritance-tool/static/media/Pent_Fancy_Fiance.2316657f.webp"
+  },
+  {
+    "revision": "7bb3de317943b11445a0de7dcdbc6ece",
+    "url": "/feh-inheritance-tool/static/media/Peony_Sweet_Dream.7bb3de31.webp"
   },
   {
     "revision": "3b25915823e742c220388ce8ce961d0e",
@@ -1628,6 +1660,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Sothis_Girl_on_the_Throne.9594a20f.webp"
   },
   {
+    "revision": "935ae06c7fa3c6ae2fe7fec56f472c9d",
+    "url": "/feh-inheritance-tool/static/media/Sothis_Silver_Specter.935ae06c.webp"
+  },
+  {
     "revision": "d997a28f7734cac3539e8a1397b1556a",
     "url": "/feh-inheritance-tool/static/media/Stahl_Viridian_Knight.d997a28f.webp"
   },
@@ -1682,6 +1718,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f580c27964d3a4c1024674c0e30c90cb",
     "url": "/feh-inheritance-tool/static/media/Tanith_Forthright_Heart.f580c279.webp"
+  },
+  {
+    "revision": "3d3f9a05f92006d32dcfdc2ba607ecbb",
+    "url": "/feh-inheritance-tool/static/media/Tanya_Dagdars_Kid.3d3f9a05.webp"
   },
   {
     "revision": "b792c1b3eedf8fe247c710f0d3ba7448",
@@ -1830,6 +1870,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "236fac8c502fa35683aba9c263b04ac2",
     "url": "/feh-inheritance-tool/static/media/Zephiel_The_Liberator.236fac8c.webp"
+  },
+  {
+    "revision": "5cf9a8bec34661a0ad51a26517bcbc9b",
+    "url": "/feh-inheritance-tool/static/media/Zephiel_Winters_Crown.5cf9a8be.webp"
   },
   {
     "revision": "09c370bf948b8d93238060a4acf0a8fa",
