@@ -128,6 +128,18 @@
       "cost": 240,
       "effect": "If unit is adjacent to an ally, grants Atk/Def+5 during combat."
     },
+    "Atk/Def Form 1": {
+      "cost": 60,
+      "effect": "Grants Atk/Def+X to unit during combat. (X = number of allies within 2 spaces; max 3.)"
+    },
+    "Atk/Def Form 2": {
+      "cost": 120,
+      "effect": "Grants Atk/Def+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)"
+    },
+    "Atk/Def Form 3": {
+      "cost": 240,
+      "effect": "Grants Atk/Def+X to unit during combat. (X = 2 × number of allies within 2 spaces, + 1; max 7.)"
+    },
     "Atk/Def Push 1": {
       "cost": 60,
       "effect": "At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat."
