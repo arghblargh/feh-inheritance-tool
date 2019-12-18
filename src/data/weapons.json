@@ -5071,5 +5071,113 @@
     "effect": "If foe initiates combat or if a bonus granted by a skill like Rally or Hone is not active on foe, grants Atk/Spd/Def/Res+4 to unit during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
     "restriction": "Exclusive",
     "upgrade": "Legendary"
+  },
+  "Flower of Joy": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Res+3. Grants Atk/Spd+3 to any ally in a cardinal direction from unit during that ally's combat.",
+    "restriction": "Exclusive"
+  },
+  "Vouge": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 50%, unit can counterattack regardless of foe's range.",
+    "restriction": "Exclusive"
+  },
+  "Mareeta's Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+4 and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.",
+    "restriction": "Exclusive"
+  },
+  "Guard Sword": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)"
+  },
+  "Guard Sword+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)",
+    "upgrade": "-"
+  },
+  "Venin Edge": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target, and inflicts status on those foes preventing counterattacks through their next actions.",
+    "restriction": "Exclusive"
+  },
+  "Bellringer": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": "When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.)"
+  },
+  "Bellringer+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.)",
+    "upgrade": "-"
+  },
+  "Snow's Grace": {
+    "color": "Green",
+    "type": "Breath",
+    "cost": 400,
+    "might": 16,
+    "effect": "Neutralizes \"effective against dragons\" bonuses. Grants Spd+3. At start of combat, if unit's HP ≥ 50%, grants Atk/Spd/Def/Res+5 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "restriction": "Exclusive"
+  },
+  "Tannenbit": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 200,
+    "might": 8,
+    "effect": "When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.)"
+  },
+  "Tannenbit+": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 300,
+    "might": 12,
+    "effect": "When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.)",
+    "upgrade": "-"
+  },
+  "Tanngrisnir": {
+    "color": "",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying foes. Grants Spd+3. If a bonus granted by a skill like Rally or Hone and/or extra movement granted by a skill like Armor March or Armored Boots is active, grants Atk/Spd/Def/Res+3 and Special cooldown charge +1 per unit's attack during combat. (Only highest value applied. Does not stack.)",
+    "restriction": "Exclusive"
+  },
+  "Minty Cane": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.) Effect:【Dagger 5】 【Dagger 5】 After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Minty Cane+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.) Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
   }
 }

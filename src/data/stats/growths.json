@@ -1315,6 +1315,13 @@
     "Def": 45,
     "Res": 40
   },
+  "Jaffar: Angel of Night": {
+    "HP": 60,
+    "Atk": 60,
+    "Spd": 65,
+    "Def": 50,
+    "Res": 45
+  },
   "Jagen: Veteran Knight": {
     "HP": 40,
     "Atk": 45,
@@ -1945,6 +1952,13 @@
     "Def": 55,
     "Res": 40
   },
+  "Marth: Royal Altean Duo": {
+    "HP": 55,
+    "Atk": 60,
+    "Spd": 70,
+    "Def": 50,
+    "Res": 45
+  },
   "Mathilda: Legendary Knight": {
     "HP": 45,
     "Atk": 50,
@@ -2181,6 +2195,13 @@
     "Atk": 45,
     "Spd": 60,
     "Def": 40,
+    "Res": 50
+  },
+  "Nino: Flower of Frost": {
+    "HP": 50,
+    "Atk": 55,
+    "Spd": 70,
+    "Def": 45,
     "Res": 50
   },
   "Nino: Pale Flower": {
@@ -2848,6 +2869,13 @@
     "Def": 60,
     "Res": 55
   },
+  "Sothis: Silver Specter": {
+    "HP": 60,
+    "Atk": 70,
+    "Spd": 75,
+    "Def": 50,
+    "Res": 60
+  },
   "Stahl: Viridian Knight": {
     "HP": 60,
     "Atk": 55,
@@ -3121,6 +3149,13 @@
     "Def": 45,
     "Res": 25
   },
+  "Walhart: The Conqueror": {
+    "HP": 50,
+    "Atk": 60,
+    "Spd": 50,
+    "Def": 65,
+    "Res": 30
+  },
   "Wolt: Sunbeam Archer": {
     "HP": 50,
     "Atk": 60,
@@ -3204,5 +3239,12 @@
     "Spd": 30,
     "Def": 60,
     "Res": 45
+  },
+  "Zephiel: Winter's Crown": {
+    "HP": 60,
+    "Atk": 65,
+    "Spd": 35,
+    "Def": 70,
+    "Res": 55
   }
 }

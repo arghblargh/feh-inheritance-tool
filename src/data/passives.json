@@ -921,6 +921,11 @@
       "effect": "If foe initiates combat, grants Atk/Res+4 during combat.",
       "restriction": "Offense"
     },
+    "Mirror Stance 3": {
+      "cost": 300,
+      "effect": "If foe initiates combat, grants Atk/Res+6 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+      "restriction": "Offense"
+    },
     "Mirror Strike 1": {
       "cost": 120,
       "effect": "If unit initiates combat, grants Atk/Res+2 during combat.",
@@ -1526,6 +1531,21 @@
       "effect": "At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)",
       "restriction": "Exclusive"
     },
+    "Close Call 1": {
+      "cost": 60,
+      "effect": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 2 (max 20%). If unit initiates combat, unit moves 1 space away after combat.",
+      "restriction": "Infantry, Weapon:SwLA"
+    },
+    "Close Call 2": {
+      "cost": 120,
+      "effect": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 3 (max 30%). If unit initiates combat, unit moves 1 space away after combat.",
+      "restriction": "Infantry, Weapon:SwLA"
+    },
+    "Close Call 3": {
+      "cost": 240,
+      "effect": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If unit initiates combat, unit moves 1 space away after combat.",
+      "restriction": "Infantry, Weapon:SwLA"
+    },
     "Crusader's Ward": {
       "cost": 300,
       "effect": "If unit receives consecutive attacks and foe's Range = 2, reduces damage from foe's second attack onward by 80%. (Skill cannot be inherited.)",
@@ -1542,6 +1562,21 @@
     "Daggerbreaker 3": {
       "cost": 200,
       "effect": "If unit's HP ≥ 50% in combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack."
+    },
+    "Daring Fighter 1": {
+      "cost": 60,
+      "effect": "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat. If unit's HP ≤ 40% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "restriction": "Armored"
+    },
+    "Daring Fighter 2": {
+      "cost": 120,
+      "effect": "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat. If unit's HP ≤ 60% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "restriction": "Armored"
+    },
+    "Daring Fighter 3": {
+      "cost": 240,
+      "effect": "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat. If unit's HP ≤ 80% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "restriction": "Armored"
     },
     "Dazzling Staff 1": {
       "cost": 60,
@@ -2787,6 +2822,18 @@
       "effect": "While unit lives, all dagger allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Dagger"
     },
+    "Def/Res Gap 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Def/Res+1 to ally with the highest Def+Res total for 1 turn. (Excludes unit.)"
+    },
+    "Def/Res Gap 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Def/Res+3 to ally with the highest Def+Res total for 1 turn. (Excludes unit.)"
+    },
+    "Def/Res Gap 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Def/Res+5 to ally with the highest Def+Res total for 1 turn. (Excludes unit.)"
+    },
     "Def Opening 1": {
       "cost": 60,
       "effect": "At start of turn, grants Def+2 to ally with the highest Def for 1 turn. (Excludes unit.)"
@@ -3022,6 +3069,10 @@
     "Fortify Res 3": {
       "cost": 200,
       "effect": "At start of turn, grants Res+4 to adjacent allies for 1 turn."
+    },
+    "Fortify Res 4": {
+      "cost": 300,
+      "effect": "At start of turn, grants Res+7 to adjacent allies for 1 turn."
     },
     "G Tome Exp. 1": {
       "cost": 30,
@@ -3726,6 +3777,19 @@
       "cost": 120,
       "effect": "While unit lives, all sword allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "restriction": "Sword"
+    },
+    "Threat. Atk/Res 1": {
+      "cost": 100,
+      "effect": "At start of turn, inflicts Atk/Res-3 on foes within 2 spaces through their next actions.",
+      "require": "Threaten Atk 1|Threaten Res 1"
+    },
+    "Threat. Atk/Res 2": {
+      "cost": 200,
+      "effect": "At start of turn, inflicts Atk/Res-4 on foes within 2 spaces through their next actions."
+    },
+    "Threat. Atk/Res 3": {
+      "cost": 300,
+      "effect": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Res+5 to unit for 1 turn and inflicts Atk/Res-5 on foes within 2 spaces through their next actions."
     },
     "Threat. Atk/Spd 1": {
       "cost": 100,

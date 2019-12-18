@@ -28792,5 +28792,783 @@
         }
       ]
     }
+  },
+  "Tanya: Dagdar's Kid": {
+    "name": "Tanya",
+    "title": "Dagdar's Kid",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Shining Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Shining Bow+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Ardent Sacrifice",
+          "unlock": 3
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Pass 1",
+          "unlock": 3
+        },
+        {
+          "name": "Pass 2",
+          "unlock": 4
+        },
+        {
+          "name": "Pass 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spur Spd/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Spur Spd/Res 2",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Peony: Sweet Dream": {
+    "name": "Peony",
+    "title": "Sweet Dream",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Flying",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Light",
+          "unlock": 1
+        },
+        {
+          "name": "Ellight",
+          "unlock": 2
+        },
+        {
+          "name": "Shine",
+          "unlock": 3
+        },
+        {
+          "name": "Flower of Joy"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Dance",
+          "unlock": 3
+        },
+        {
+          "name": "Gentle Dream"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "B Duel Flying 1",
+          "unlock": 3
+        },
+        {
+          "name": "B Duel Flying 2",
+          "unlock": 4
+        },
+        {
+          "name": "B Duel Flying 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Aerobatics 1",
+          "unlock": 1
+        },
+        {
+          "name": "Aerobatics 2",
+          "unlock": 2
+        },
+        {
+          "name": "Aerobatics 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Fortify Res 1",
+          "unlock": 2
+        },
+        {
+          "name": "Fortify Res 2",
+          "unlock": 3
+        },
+        {
+          "name": "Fortify Res 3",
+          "unlock": 4
+        },
+        {
+          "name": "Fortify Res 4"
+        }
+      ]
+    }
+  },
+  "Osian: Scolded Soldier": {
+    "name": "Osian",
+    "title": "Scolded Soldier",
+    "color": "Green",
+    "wpnType": "Axe",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Axe",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Axe",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Axe",
+          "unlock": 3
+        },
+        {
+          "name": "Vouge"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
+        {
+          "name": "Noontime",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Warding Stance",
+          "unlock": 1
+        },
+        {
+          "name": "Mirror Stance 1",
+          "unlock": 2
+        },
+        {
+          "name": "Mirror Stance 2",
+          "unlock": 3
+        },
+        {
+          "name": "Mirror Stance 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Wrath 1",
+          "unlock": 3
+        },
+        {
+          "name": "Wrath 2",
+          "unlock": 4
+        },
+        {
+          "name": "Wrath 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Even Atk Wave 1",
+          "unlock": 1
+        },
+        {
+          "name": "Even Atk Wave 2",
+          "unlock": 2
+        },
+        {
+          "name": "Even Atk Wave 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Mareeta: Sword of Stars": {
+    "name": "Mareeta",
+    "title": "Sword of Stars",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Mareeta's Sword"
+        }
+      ],
+      "special": [
+        {
+          "name": "New Moon",
+          "unlock": 3
+        },
+        {
+          "name": "Luna",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Solo 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Spd Solo 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Spd Solo 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Close Call 1",
+          "unlock": 3
+        },
+        {
+          "name": "Close Call 2",
+          "unlock": 4
+        },
+        {
+          "name": "Close Call 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Rouse Atk/Def 1",
+          "unlock": 1
+        },
+        {
+          "name": "Rouse Atk/Def 2",
+          "unlock": 2
+        },
+        {
+          "name": "Rouse Atk/Def 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Eyvel: Mistress of Fiana": {
+    "name": "Eyvel",
+    "title": "Mistress of Fiana",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Infantry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Guard Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Guard Sword+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Glowing Ember",
+          "unlock": 3
+        },
+        {
+          "name": "Ignis",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Def Form 1",
+          "unlock": 3
+        },
+        {
+          "name": "Atk/Def Form 2",
+          "unlock": 4
+        },
+        {
+          "name": "Atk/Def Form 3"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Chill Atk 1",
+          "unlock": 1
+        },
+        {
+          "name": "Chill Atk 2",
+          "unlock": 2
+        },
+        {
+          "name": "Chill Atk 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Kempf: Conniving General": {
+    "name": "Kempf",
+    "title": "Conniving General",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Cavalry",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Sword",
+          "unlock": 3
+        },
+        {
+          "name": "Venin Edge"
+        }
+      ],
+      "special": [
+        {
+          "name": "Holy Vestments",
+          "unlock": 3
+        },
+        {
+          "name": "Aegis",
+          "unlock": 4
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Fortress Res 1",
+          "unlock": 1
+        },
+        {
+          "name": "Fortress Res 2",
+          "unlock": 2
+        },
+        {
+          "name": "Fortress Res 3",
+          "unlock": 4
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Savage Blow 1",
+          "unlock": 3
+        },
+        {
+          "name": "Savage Blow 2",
+          "unlock": 4
+        },
+        {
+          "name": "Savage Blow 3"
+        }
+      ]
+    }
+  },
+  "Zephiel: Winter's Crown": {
+    "name": "Zephiel",
+    "title": "Winter's Crown",
+    "color": "Red",
+    "wpnType": "Sword",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Sword",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Sword",
+          "unlock": 2
+        },
+        {
+          "name": "Bellringer",
+          "unlock": 3
+        },
+        {
+          "name": "Bellringer+"
+        }
+      ],
+      "special": [
+        {
+          "name": "Chilling Wind",
+          "unlock": 3
+        },
+        {
+          "name": "Glacies",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Vengeful Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Vengeful Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Vengeful Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Def/Res Gap 1",
+          "unlock": 1
+        },
+        {
+          "name": "Def/Res Gap 2",
+          "unlock": 2
+        },
+        {
+          "name": "Def/Res Gap 3",
+          "unlock": 4
+        }
+      ]
+    }
+  },
+  "Sothis: Silver Specter": {
+    "name": "Sothis",
+    "title": "Silver Specter",
+    "color": "Green",
+    "wpnType": "Breath",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Fire Breath",
+          "unlock": 1
+        },
+        {
+          "name": "Fire Breath+",
+          "unlock": 2
+        },
+        {
+          "name": "Flametongue",
+          "unlock": 3
+        },
+        {
+          "name": "Snow's Grace"
+        }
+      ],
+      "special": [
+        {
+          "name": "Daylight",
+          "unlock": 3
+        },
+        {
+          "name": "Noontime",
+          "unlock": 4
+        },
+        {
+          "name": "Sirius"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Distant Counter"
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Special Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Special Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Special Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Threaten Res 1",
+          "unlock": 2
+        },
+        {
+          "name": "Threat. Atk/Res 1",
+          "unlock": 3
+        },
+        {
+          "name": "Threat. Atk/Res 2",
+          "unlock": 4
+        },
+        {
+          "name": "Threat. Atk/Res 3"
+        }
+      ]
+    }
+  },
+  "Nino: Flower of Frost": {
+    "name": "Nino",
+    "title": "Flower of Frost",
+    "color": "Blue",
+    "wpnType": "Tome",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Thunder",
+          "unlock": 1
+        },
+        {
+          "name": "Elthunder",
+          "unlock": 2
+        },
+        {
+          "name": "Tannenbit",
+          "unlock": 3
+        },
+        {
+          "name": "Tannenbit+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Rally Resistance",
+          "unlock": 3
+        },
+        {
+          "name": "Rally Atk/Res",
+          "unlock": 4
+        },
+        {
+          "name": "Rally Atk/Res+"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Form 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Spd Form 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Form 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Bold Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Bold Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Bold Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Armor March 1",
+          "unlock": 3
+        },
+        {
+          "name": "Armor March 2",
+          "unlock": 4
+        },
+        {
+          "name": "Armor March 3"
+        }
+      ]
+    }
+  },
+  "Marth: Royal Altean Duo": {
+    "name": "Marth",
+    "title": "Royal Altean Duo",
+    "color": "Neutral",
+    "wpnType": "Bow",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Bow",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Bow",
+          "unlock": 2
+        },
+        {
+          "name": "Silver Bow",
+          "unlock": 3
+        },
+        {
+          "name": "Tanngrisnir"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Gaze",
+          "unlock": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "unlock": 4
+        },
+        {
+          "name": "Fire Emblem"
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Atk/Spd Form 1",
+          "unlock": 1
+        },
+        {
+          "name": "Atk/Spd Form 2",
+          "unlock": 2
+        },
+        {
+          "name": "Atk/Spd Form 3",
+          "unlock": 4
+        }
+      ],
+      "passiveB": [
+        {
+          "name": "Daring Fighter 1",
+          "unlock": 3
+        },
+        {
+          "name": "Daring Fighter 2",
+          "unlock": 4
+        },
+        {
+          "name": "Daring Fighter 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Hone Spd 1",
+          "unlock": 2
+        },
+        {
+          "name": "Hone Spd 2",
+          "unlock": 3
+        },
+        {
+          "name": "Hone Spd 3",
+          "unlock": 4
+        },
+        {
+          "name": "Joint Hone Spd"
+        }
+      ]
+    }
+  },
+  "Jaffar: Angel of Night": {
+    "name": "Jaffar",
+    "title": "Angel of Night",
+    "color": "Green",
+    "wpnType": "Dagger",
+    "movType": "Armored",
+    "skills": {
+      "weapon": [
+        {
+          "name": "Iron Dagger",
+          "unlock": 1
+        },
+        {
+          "name": "Steel Dagger",
+          "unlock": 2
+        },
+        {
+          "name": "Minty Cane",
+          "unlock": 3
+        },
+        {
+          "name": "Minty Cane+"
+        }
+      ],
+      "assist": [
+        {
+          "name": "Reciprocal Aid",
+          "unlock": 3
+        }
+      ],
+      "passiveA": [
+        {
+          "name": "Def/Res Bond 1",
+          "unlock": 3
+        },
+        {
+          "name": "Def/Res Bond 2",
+          "unlock": 4
+        },
+        {
+          "name": "Def/Res Bond 3"
+        }
+      ],
+      "passiveC": [
+        {
+          "name": "Spur Spd 1",
+          "unlock": 1
+        },
+        {
+          "name": "Spur Spd 2",
+          "unlock": 2
+        },
+        {
+          "name": "Goad Armor",
+          "unlock": 4
+        }
+      ]
+    }
   }
 }

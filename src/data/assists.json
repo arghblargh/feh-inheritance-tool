@@ -17,6 +17,11 @@
         "effect": "Unit and target ally swap spaces. Grants another action to unit. (Additional action granted once per turn only.)",
         "restriction": "Exclusive"
     },
+    "Gentle Dream": {
+        "cost": 400,
+        "effect": "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): \"Unit can move to a space adjacent to any ally within 2 spaces.\" (That turn only. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)",
+        "restriction": "Exclusive"
+    },
     "Gray Waves": {
         "cost": 400,
         "effect": "Grants another action to target ally, and if target is an infantry or flying ally, target can move 1 extra space. (That turn only. Does not stack. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)",
