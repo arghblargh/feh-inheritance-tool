@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b955381f34149f0d27809420f9ff70b4",
+    "revision": "e1493b5421d70414eaa108ce48dc2936",
     "url": "/feh-inheritance-tool/index.html"
   },
   {
-    "revision": "6d91bf838562596dce64",
+    "revision": "deaa251a907a4e0d9277",
     "url": "/feh-inheritance-tool/static/css/main.ec19a5e0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/js/2.03c40c79.chunk.js"
   },
   {
-    "revision": "6d91bf838562596dce64",
-    "url": "/feh-inheritance-tool/static/js/main.6d90d694.chunk.js"
+    "revision": "deaa251a907a4e0d9277",
+    "url": "/feh-inheritance-tool/static/js/main.7d7a4472.chunk.js"
   },
   {
     "revision": "ba2bfc6b6cccb97745db",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e52a8f51827ac29c83231415724bf961",
     "url": "/feh-inheritance-tool/static/media/Abel_The_Panther.e52a8f51.webp"
+  },
+  {
+    "revision": "81cd6d6a4dee906e2d9eba03888bae5e",
+    "url": "/feh-inheritance-tool/static/media/Alfonse_Askran_Duo.81cd6d6a.webp"
   },
   {
     "revision": "ff38084f485910a50725085c64bd4756",
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3e983919dc97ef52234b480a054a461f",
     "url": "/feh-inheritance-tool/static/media/Anna_Commander.3e983919.webp"
+  },
+  {
+    "revision": "bc8bfa2fac7fceec41560783e6516b8f",
+    "url": "/feh-inheritance-tool/static/media/Anna_Wealth-Wisher.bc8bfa2f.webp"
   },
   {
     "revision": "6f9468788c2de35d678290f1dfc15976",
@@ -248,6 +256,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Celica_Imprisoned_Soul.de2edc0c.webp"
   },
   {
+    "revision": "66192d0e134dc28a362ceb4f9a981fcd",
+    "url": "/feh-inheritance-tool/static/media/Celica_Queen_of_Valentia.66192d0e.webp"
+  },
+  {
     "revision": "07f82e6b92ee16e7ca9161c152ed8d85",
     "url": "/feh-inheritance-tool/static/media/Celica_Warrior_Priestess.07f82e6b.webp"
   },
@@ -410,6 +422,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "552487cb830e11e8942be553c7e258e8",
     "url": "/feh-inheritance-tool/static/media/Eir_Merciful_Death.552487cb.webp"
+  },
+  {
+    "revision": "cda335cb4395adfe79ab1c7afade4c9f",
+    "url": "/feh-inheritance-tool/static/media/Eir_Renewed_Life.cda335cb.webp"
   },
   {
     "revision": "736aa92e28f5b3ff999eaca61ebcca3b",
@@ -962,6 +978,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52cd755fd758177d2001c560f9973e1e",
     "url": "/feh-inheritance-tool/static/media/Lethe_Gallias_Valkyrie.52cd755f.webp"
+  },
+  {
+    "revision": "47de897808415ebf72886ba39e03847f",
+    "url": "/feh-inheritance-tool/static/media/Lethe_New_Years_Claw.47de8978.webp"
   },
   {
     "revision": "253a817fc008d0bc34e070ed6f55744a",
@@ -1558,6 +1578,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0119188e3c8954647a26f0e1eb2961a4",
     "url": "/feh-inheritance-tool/static/media/Selkie_Free_Spirit.0119188e.webp"
+  },
+  {
+    "revision": "b83e99c11f90cf995887b2266e310e4c",
+    "url": "/feh-inheritance-tool/static/media/Selkie_New_Years_Spirit.b83e99c1.webp"
   },
   {
     "revision": "14730f973dedd8cd6e71a14e108e03f6",
