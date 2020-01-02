@@ -283,6 +283,13 @@
     "effect": "Restores HP = 30% of damage dealt.",
     "require": "Daylight"
   },
+  "Open the Future": {
+    "cost": 500,
+    "count": 2,
+    "effect": "Boosts damage by 50% of unit's Def. Restores HP = 25% of damage dealt.",
+    "require": "Bonfire",
+    "restriction": "Exclusive"
+  },
   "Pavise": {
     "cost": 200,
     "count": 3,

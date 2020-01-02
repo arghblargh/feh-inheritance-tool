@@ -5179,5 +5179,52 @@
     "might": 12,
     "effect": "When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.) Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
     "upgrade": "-"
+  },
+  "Saintly Seraphim": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Res. (Ignores reductions to Res from Special skills.)",
+    "restriction": "Exclusive"
+  },
+  "New Foxkit Fang": {
+    "color": "Neutral",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). If unit's Res > foe's Res, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage.) If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Guardian Fang": {
+    "color": "Green",
+    "type": "Beast",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Temari": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 200,
+    "might": 8,
+    "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk/Spd-5 on that foe through its next action. Effect:【Dagger 5】 【Dagger 5】 After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+  },
+  "Temari+": {
+    "color": "",
+    "type": "Dagger",
+    "cost": 300,
+    "might": 12,
+    "effect": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk/Spd-5 on that foe through its next action. Effect:【Dagger 7】 【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "upgrade": "-"
+  },
+  "Imbued Koma": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if Special is ready, grants Atk/Spd/Def/Res+5 during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
   }
 }

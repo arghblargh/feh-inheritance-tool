@@ -6,6 +6,13 @@
     "Def": 8,
     "Res": 6
   },
+  "Alfonse: Askran Duo": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 5,
+    "Res": 8
+  },
   "Alfonse: Prince of Askr": {
     "HP": 19,
     "Atk": 9,
@@ -61,6 +68,13 @@
     "Spd": 10,
     "Def": 5,
     "Res": 6
+  },
+  "Anna: Wealth-Wisher": {
+    "HP": 18,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 3,
+    "Res": 9
   },
   "Arden: Strong and Tough": {
     "HP": 25,
@@ -398,6 +412,13 @@
     "Def": 5,
     "Res": 7
   },
+  "Celica: Queen of Valentia": {
+    "HP": 18,
+    "Atk": 10,
+    "Spd": 8,
+    "Def": 5,
+    "Res": 6
+  },
   "Celica: Warrior Priestess": {
     "HP": 16,
     "Atk": 7,
@@ -684,6 +705,13 @@
     "Spd": 9,
     "Def": 4,
     "Res": 7
+  },
+  "Eir: Renewed Life": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 6,
+    "Res": 6
   },
   "Eirika: Anamnesis Lady": {
     "HP": 17,
@@ -1650,6 +1678,13 @@
     "Spd": 10,
     "Def": 4,
     "Res": 6
+  },
+  "Lethe: New Year's Claw": {
+    "HP": 17,
+    "Atk": 9,
+    "Spd": 11,
+    "Def": 5,
+    "Res": 5
   },
   "Lewyn: Guiding Breeze": {
     "HP": 16,
@@ -2693,6 +2728,13 @@
     "Spd": 10,
     "Def": 4,
     "Res": 9
+  },
+  "Selkie: New Year's Spirit": {
+    "HP": 16,
+    "Atk": 7,
+    "Spd": 11,
+    "Def": 3,
+    "Res": 10
   },
   "Serra: Outspoken Cleric": {
     "HP": 16,

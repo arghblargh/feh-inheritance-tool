@@ -630,6 +630,11 @@
       "effect": "Unit can counterattack regardless of foe's range.",
       "restriction": "Melee"
     },
+    "Distant Ward": {
+      "cost": 300,
+      "effect": "If magic, staff, or dragonstone foe initiates combat, grants Atk/Res+5 to unit during combat and unit can counterattack regardless of foe's range.",
+      "restriction": "Melee"
+    },
     "Distant Def 1": {
       "cost": 60,
       "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+2 during combat."
@@ -2301,6 +2306,11 @@
       "effect": "Restores HP = 30% of damage dealt when Special triggers. (Stacks with effects of skills like Sol.)",
       "restriction": "Exclusive"
     },
+    "Soul of Zofia": {
+      "cost": 300,
+      "effect": "Neutralizes effects that guarantee foe's follow-up attacks or prevent unit's follow-up attacks during combat. If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "restriction": "Exclusive"
+    },
     "Special Spiral 1": {
       "cost": 60,
       "effect": "If unit's HP = 100% and if Special triggers before or during combat, grants Special cooldown count-2 after combat.",
@@ -2619,6 +2629,30 @@
       "cost": 240,
       "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+5 for 1 turn."
     },
+    "Atk/Spd Gap 1": {
+      "cost": 60,
+      "effect": "At start of turn, grants Atk/Spd+1 to ally with the highest Atk+Spd total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Spd Gap 2": {
+      "cost": 120,
+      "effect": "At start of turn, grants Atk/Spd+3 to ally with the highest Atk+Spd total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Spd Gap 3": {
+      "cost": 240,
+      "effect": "At start of turn, grants Atk/Spd+5 to ally with the highest Atk+Spd total for 1 turn. (Excludes unit.)"
+    },
+    "Atk/Spd Oath 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Spd+3 for 1 turn."
+    },
+    "Atk/Spd Oath 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Spd+4 for 1 turn."
+    },
+    "Atk/Spd Oath 3": {
+      "cost": 240,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Atk/Spd+5 for 1 turn."
+    },
     "Atk Opening 1": {
       "cost": 60,
       "effect": "At start of turn, grants Atk+2 to ally with the highest Atk for 1 turn. (Excludes unit.)"
@@ -2845,6 +2879,18 @@
     "Def/Res Gap 3": {
       "cost": 240,
       "effect": "At start of turn, grants Def/Res+5 to ally with the highest Def+Res total for 1 turn. (Excludes unit.)"
+    },
+    "Def/Res Oath 1": {
+      "cost": 60,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Def/Res+3 for 1 turn."
+    },
+    "Def/Res Oath 2": {
+      "cost": 120,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Def/Res+4 for 1 turn."
+    },
+    "Def/Res Oath 3": {
+      "cost": 240,
+      "effect": "At start of turn, if unit is adjacent to an ally, grants Def/Res+5 for 1 turn."
     },
     "Def Opening 1": {
       "cost": 60,
