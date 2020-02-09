@@ -564,5 +564,29 @@
         "Dazzling": {
             "effect": "The enemy cannot counterattack."
         }
+    },
+    "Knightly Lance": {
+        "effect": "If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+3 to unit and to that ally during combat."
+    },
+    "Arthur's Axe": {
+        "effect": "At start of combat, if【Penalty】 is active on unit or if unit's HP < 100%, grants Atk/Spd/Def/Res+5 during combat. 【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard)."
+    },
+    "Lordly Lance": {
+        "effect": "If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+3 to unit and to that ally during combat."
+    },
+    "Resolute Blade": {
+        "effect": "If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)"
+    },
+    "Cordelia's Lance": {
+        "effect": "At start of combat, if unit's HP ≥ 70%, grants Atk/Spd+4 during combat."
+    },
+    "Rebecca's Bow": {
+        "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Spd/Def/Res+4 during combat."
+    },
+    "Corvus Tome": {
+        "effect": "At start of combat, if foe's Atk ≥ unit's Atk+3, inflicts Atk/Res-6 on foe during combat and Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"
+    },
+    "Light Brand": {
+        "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP = 100%, grants Spd/Def+4 to unit during combat."
     }
 }

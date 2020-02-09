@@ -229,6 +229,13 @@
     "effect": "When healing an ally with a staff, restores an additional 10 HP to target ally.",
     "restriction": "Staff"
   },
+  "Imperial Astra": {
+    "cost": 500,
+    "count": 2,
+    "effect": "Boosts damage by 40% of unit's Spd.",
+    "require": "Astra",
+    "restriction": "Exclusive"
+  },
   "Kindled-Fire Balm": {
     "cost": 150,
     "count": 1,

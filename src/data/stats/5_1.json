@@ -41,12 +41,26 @@
     "Def": 11,
     "Res": 5
   },
+  "Alm: Lovebird Duo": {
+    "HP": 18,
+    "Atk": 11,
+    "Spd": 10,
+    "Def": 6,
+    "Res": 6
+  },
   "Alm: Saint-King": {
     "HP": 18,
     "Atk": 11,
     "Spd": 11,
     "Def": 4,
     "Res": 3
+  },
+  "Altena: Luminous Rider": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 6,
+    "Def": 9,
+    "Res": 7
   },
   "Altina: Dawn's Trueblade": {
     "HP": 18,
@@ -398,6 +412,13 @@
     "Def": 6,
     "Res": 10
   },
+  "Ced: Hero on the Wind": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 11,
+    "Def": 4,
+    "Res": 7
+  },
   "Celica: Caring Princess": {
     "HP": 17,
     "Atk": 8,
@@ -515,6 +536,13 @@
     "Atk": 7,
     "Spd": 5,
     "Def": 8,
+    "Res": 9
+  },
+  "Conrad: Unmasked Knight": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 6,
+    "Def": 7,
     "Res": 9
   },
   "Cordelia: Knight Paradise": {
@@ -748,6 +776,13 @@
     "Def": 8,
     "Res": 6
   },
+  "Eleonora: Shooting Starlet": {
+    "HP": 18,
+    "Atk": 7,
+    "Spd": 8,
+    "Def": 8,
+    "Res": 7
+  },
   "Elincia: Estival Princess": {
     "HP": 15,
     "Atk": 5,
@@ -894,6 +929,13 @@
     "Spd": 3,
     "Def": 4,
     "Res": 7
+  },
+  "Faye: Drawn Heartstring": {
+    "HP": 19,
+    "Atk": 7,
+    "Spd": 4,
+    "Def": 7,
+    "Res": 8
   },
   "Felicia: Maid Mayhem": {
     "HP": 15,
@@ -1336,6 +1378,13 @@
     "Def": 3,
     "Res": 3
   },
+  "Itsuki: Finding a Path": {
+    "HP": 19,
+    "Atk": 9,
+    "Spd": 8,
+    "Def": 7,
+    "Res": 8
+  },
   "Jaffar: Angel of Death": {
     "HP": 17,
     "Atk": 7,
@@ -1497,6 +1546,13 @@
     "Def": 8,
     "Res": 7
   },
+  "Kiria: Cool Façade": {
+    "HP": 16,
+    "Atk": 11,
+    "Spd": 5,
+    "Def": 7,
+    "Res": 8
+  },
   "Kjelle: Fair Fighter": {
     "HP": 23,
     "Atk": 10,
@@ -1587,6 +1643,13 @@
     "Spd": 7,
     "Def": 9,
     "Res": 6
+  },
+  "Larcei: Keen Kin": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 8,
+    "Res": 8
   },
   "Larum: Sprightly Dancer": {
     "HP": 18,
@@ -1699,6 +1762,13 @@
     "Spd": 8,
     "Def": 6,
     "Res": 7
+  },
+  "Líf: Lethal Swordsman": {
+    "HP": 18,
+    "Atk": 11,
+    "Spd": 8,
+    "Def": 8,
+    "Res": 6
   },
   "Lilina: Beachside Bloom": {
     "HP": 18,
@@ -1916,6 +1986,13 @@
     "Spd": 7,
     "Def": 3,
     "Res": 8
+  },
+  "Mamori: Microwavin' Idol": {
+    "HP": 19,
+    "Atk": 11,
+    "Spd": 5,
+    "Def": 12,
+    "Res": 9
   },
   "Mareeta: Sword of Stars": {
     "HP": 17,
@@ -2617,6 +2694,13 @@
     "Def": 5,
     "Res": 6
   },
+  "Rudolf: Emperor of Rigel": {
+    "HP": 24,
+    "Atk": 10,
+    "Spd": 4,
+    "Def": 11,
+    "Res": 7
+  },
   "Rutger: Lone Swordsman": {
     "HP": 20,
     "Atk": 8,
@@ -2764,6 +2848,13 @@
     "Def": 6,
     "Res": 7
   },
+  "Shannan: Wielder of Astra": {
+    "HP": 19,
+    "Atk": 8,
+    "Spd": 8,
+    "Def": 11,
+    "Res": 5
+  },
   "Sharena: Princess of Askr": {
     "HP": 19,
     "Atk": 8,
@@ -2847,6 +2938,13 @@
     "Spd": 4,
     "Def": 5,
     "Res": 12
+  },
+  "Silque: Selfless Cleric": {
+    "HP": 16,
+    "Atk": 9,
+    "Spd": 3,
+    "Def": 8,
+    "Res": 7
   },
   "Silvia: Traveling Dancer": {
     "HP": 16,
@@ -3134,6 +3232,20 @@
     "Spd": 5,
     "Def": 5,
     "Res": 4
+  },
+  "Travant: King of Thracia": {
+    "HP": 20,
+    "Atk": 8,
+    "Spd": 7,
+    "Def": 10,
+    "Res": 5
+  },
+  "Tsubasa: Madcap Idol": {
+    "HP": 17,
+    "Atk": 8,
+    "Spd": 10,
+    "Def": 7,
+    "Res": 8
   },
   "Ursula: Blue Crow": {
     "HP": 16,

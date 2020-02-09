@@ -2101,7 +2101,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Def+3. If foe's Def ≥ foe's Res+5, deals +7 damage.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Light Breath": {
     "color": "",
@@ -2593,7 +2594,8 @@
     "cost": 400,
     "might": 16,
     "effect": "Grants Atk+3. Deals +10 damage when Special triggers.",
-    "restriction": "Exclusive"
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   },
   "Rexcalibur": {
     "color": "Green",
@@ -5226,5 +5228,191 @@
     "might": 14,
     "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if Special is ready, grants Atk/Spd/Def/Res+5 during combat and foe cannot make a follow-up attack.",
     "restriction": "Exclusive"
+  },
+  "Earthly Gáe Bolg": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Def+3. In combat against an infantry, armored, or cavalry foe, inflicts Atk/Def-5 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+    "restriction": "Exclusive"
+  },
+  "Winds of Silesse": {
+    "color": "Green",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Spd+3. If unit is not adjacent to an ally, grants Atk/Spd+6 to unit during combat.",
+    "restriction": "Exclusive"
+  },
+  "Balmung": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Spd+3. If foe initiates combat or if foe's HP = 100% at start of combat, neutralizes penalties on unit and grants Atk/Spd/Def/Res+5 to unit during combat.",
+    "restriction": "Exclusive"
+  },
+  "Larcei's Edge": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if unit's Spd > foe's Spd or if foe's HP = 100%, grants Atk/Spd/Def/Res+4 to unit and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "restriction": "Exclusive"
+  },
+  "Mirage Longbow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against flying foes. Grants Spd+3. If unit's Spd > foe's Spd, foe cannot counterattack.",
+    "restriction": "Exclusive"
+  },
+  "Mirage Falchion": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 14,
+    "effect": "Effective against dragon foes. Grants Def+3. If unit initiates combat, grants bonus to unit's Atk/Def during combat = 3 + number of allies who have already acted × 2 (max value of 7). If foe initiates combat, grants bonus to unit's Atk/Def during combat = 7 - number of foes who have already acted × 2 (min value of 3).",
+    "restriction": "Exclusive"
+  },
+  "Mirage Rod": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants Atk+3. Inflicts Atk/Res-6 on foes within 2 spaces during combat.",
+    "restriction": "Exclusive"
+  },
+  "Mirage Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Res+3. If unit is within 2 spaces of an ally, grants Def/Res+6 to unit during combat and foe cannot make a follow-up attack.",
+    "restriction": "Exclusive"
+  },
+  "Mirage Feather": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored and cavalry foes. Grants Spd+3. If unit initiates combat after an ally has already acted, grants Atk/Spd+6 during combat and unit can make a follow-up attack before foe can counterattack.",
+    "restriction": "Exclusive"
+  },
+  "Knightly Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Accelerates Special trigger (cooldown count-1).",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Arthur's Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Spd/Def/Res+3 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Lordly Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Effective against armored foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Cordelia's Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "Inflicts Spd-2. If unit initiates combat, unit attacks twice.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Rebecca's Bow": {
+    "color": "Neutral",
+    "type": "Bow",
+    "cost": 400,
+    "might": 14,
+    "effect": "Accelerates Special trigger (cooldown count-1). Effective against flying foes.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Corvus Tome": {
+    "color": "Red",
+    "type": "Tome",
+    "cost": 400,
+    "might": 14,
+    "effect": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Scepter of Love": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "",
+    "restriction": "Exclusive"
+  },
+  "Thorn Lance": {
+    "color": "Blue",
+    "type": "Lance",
+    "cost": 400,
+    "might": 16,
+    "effect": "",
+    "restriction": "Exclusive"
+  },
+  "Melee Bouquet": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 200,
+    "might": 10,
+    "effect": ""
+  },
+  "Melee Bouquet+": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 300,
+    "might": 14,
+    "effect": "",
+    "upgrade": "-"
+  },
+  "Budding Bow": {
+    "color": "",
+    "type": "Bow",
+    "cost": 200,
+    "might": 8,
+    "effect": ""
+  },
+  "Budding Bow+": {
+    "color": "",
+    "type": "Bow",
+    "cost": 300,
+    "might": 12,
+    "effect": "",
+    "upgrade": "-"
+  },
+  "Rapport Wand": {
+    "color": "",
+    "type": "Staff",
+    "cost": 200,
+    "might": 8,
+    "effect": ""
+  },
+  "Rapport Wand+": {
+    "color": "",
+    "type": "Staff",
+    "cost": 300,
+    "might": 12,
+    "effect": ""
   }
 }
