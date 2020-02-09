@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1493b5421d70414eaa108ce48dc2936",
+    "revision": "8ab6d3e1a6d0647c88c8686b13bb7230",
     "url": "/feh-inheritance-tool/index.html"
   },
   {
-    "revision": "deaa251a907a4e0d9277",
+    "revision": "544612b98d9c54e00a5b",
     "url": "/feh-inheritance-tool/static/css/main.ec19a5e0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/js/2.03c40c79.chunk.js"
   },
   {
-    "revision": "deaa251a907a4e0d9277",
-    "url": "/feh-inheritance-tool/static/js/main.7d7a4472.chunk.js"
+    "revision": "544612b98d9c54e00a5b",
+    "url": "/feh-inheritance-tool/static/js/main.27ce78ae.chunk.js"
   },
   {
     "revision": "ba2bfc6b6cccb97745db",
@@ -44,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Alm_Imperial_Ascent.c9ffc6a3.webp"
   },
   {
+    "revision": "c0355b1cf86cd4a9c12337b683fcd109",
+    "url": "/feh-inheritance-tool/static/media/Alm_Lovebird_Duo.c0355b1c.webp"
+  },
+  {
     "revision": "6ef7688cd663f8215dc271e9ec4ae9e9",
     "url": "/feh-inheritance-tool/static/media/Alm_Saint-King.6ef7688c.webp"
+  },
+  {
+    "revision": "4bf2a9008b01480a21c5c048ee9e82d3",
+    "url": "/feh-inheritance-tool/static/media/Altena_Luminous_Rider.4bf2a900.webp"
   },
   {
     "revision": "e7679743be4477003ae4569f452685f3",
@@ -248,6 +256,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Cecilia_Festive_Instructor.bf96292c.webp"
   },
   {
+    "revision": "c5cdb9671bfd1b5408f9cb8d3f4d9e2f",
+    "url": "/feh-inheritance-tool/static/media/Ced_Hero_on_the_Wind.c5cdb967.webp"
+  },
+  {
     "revision": "ea9b3145908c76e80444a4afcf982eb9",
     "url": "/feh-inheritance-tool/static/media/Celica_Caring_Princess.ea9b3145.webp"
   },
@@ -314,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "32a567217dc39ac112b6cb39c28aacd2",
     "url": "/feh-inheritance-tool/static/media/Conrad_Masked_Knight.32a56721.webp"
+  },
+  {
+    "revision": "0a5668531a6cdb12ae0a435944d7ea87",
+    "url": "/feh-inheritance-tool/static/media/Conrad_Unmasked_Knight.0a566853.webp"
   },
   {
     "revision": "0bab44364b6e2ee2c65c04800d46c28c",
@@ -448,6 +464,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Eldigan_Lionheart.630e5cd5.webp"
   },
   {
+    "revision": "c696b012c175eb7099275877200fd316",
+    "url": "/feh-inheritance-tool/static/media/Eleonora_Shooting_Starlet.c696b012.webp"
+  },
+  {
     "revision": "dbed5c12a3abc236a6c6ccf1da5fc3c4",
     "url": "/feh-inheritance-tool/static/media/Elincia_Estival_Princess.dbed5c12.webp"
   },
@@ -530,6 +550,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "86ba90271696729295b779fde468c1ea",
     "url": "/feh-inheritance-tool/static/media/Faye_Devoted_Heart.86ba9027.webp"
+  },
+  {
+    "revision": "140f82c76672352e58259f514cf6240a",
+    "url": "/feh-inheritance-tool/static/media/Faye_Drawn_Heartstring.140f82c7.webp"
   },
   {
     "revision": "0a71318b9ed40b06d89c108b9347739b",
@@ -784,6 +808,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Ishtar_Thunders_Waltz.c2f43a08.webp"
   },
   {
+    "revision": "b66a8f9e703dd0bd4fc74b21d8322855",
+    "url": "/feh-inheritance-tool/static/media/Itsuki_Finding_a_Path.b66a8f9e.webp"
+  },
+  {
     "revision": "d26e9ab72428d495b130b0a0555e734d",
     "url": "/feh-inheritance-tool/static/media/Jaffar_Angel_of_Death.d26e9ab7.webp"
   },
@@ -876,6 +904,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Kempf_Conniving_General.7cbb8a9e.webp"
   },
   {
+    "revision": "ef6a43e6dec6bbd1f638659b02792a48",
+    "url": "/feh-inheritance-tool/static/media/Kiria_Cool_Facade.ef6a43e6.webp"
+  },
+  {
     "revision": "2398151496da2688bba38766907327d1",
     "url": "/feh-inheritance-tool/static/media/Kjelle_Fair_Fighter.23981514.webp"
   },
@@ -926,6 +958,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75062ee45951a15215d474193b9fd698",
     "url": "/feh-inheritance-tool/static/media/Laevatein_Searing_Steel.75062ee4.webp"
+  },
+  {
+    "revision": "99afc54febf7b1781028c2d20d8afbaa",
+    "url": "/feh-inheritance-tool/static/media/Larcei_Keen_Kin.99afc54f.webp"
   },
   {
     "revision": "e397c83f8e9853a5a2ced840ce22874b",
@@ -990,6 +1026,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "90c5ff38f474f4b3bc77d72ebe1446bd",
     "url": "/feh-inheritance-tool/static/media/Libra_Fetching_Friar.90c5ff38.webp"
+  },
+  {
+    "revision": "7cf5018d11e93de2ef3f0b6f5170be9f",
+    "url": "/feh-inheritance-tool/static/media/Lif_Lethal_Swordsman.7cf5018d.webp"
   },
   {
     "revision": "54701dec3ee08ee987c2c5a176bfc0da",
@@ -1114,6 +1154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b4a3213e2005631bb9027b576802101",
     "url": "/feh-inheritance-tool/static/media/Mae_Bundle_of_Energy.2b4a3213.webp"
+  },
+  {
+    "revision": "f41cd4313b9941c8bcedc07aa4398a42",
+    "url": "/feh-inheritance-tool/static/media/Mamori_Microwavin_Idol.f41cd431.webp"
   },
   {
     "revision": "65981d4f1993674225d80697270daf00",
@@ -1516,6 +1560,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Roy_Youthful_Gifts.a7059471.webp"
   },
   {
+    "revision": "bc0e5e77c825a3237f2496a06796df13",
+    "url": "/feh-inheritance-tool/static/media/Rudolf_Emperor_of_Rigel.bc0e5e77.webp"
+  },
+  {
     "revision": "4cff5b278cf18efb40b8849048c89a2b",
     "url": "/feh-inheritance-tool/static/media/Rutger_Lone_Swordsman.4cff5b27.webp"
   },
@@ -1600,6 +1648,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feh-inheritance-tool/static/media/Shanna_Sprightly_Flier.db611586.webp"
   },
   {
+    "revision": "025c8b462cac0fb57262b1566e8254db",
+    "url": "/feh-inheritance-tool/static/media/Shannan_Wielder_of_Astra.025c8b46.webp"
+  },
+  {
     "revision": "eee4451e583b7a2e1f69ef0ec6d6c090",
     "url": "/feh-inheritance-tool/static/media/Sharena_Princess_of_Askr.eee4451e.webp"
   },
@@ -1646,6 +1698,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8834200d46b9b217f1dec31ce2df02bb",
     "url": "/feh-inheritance-tool/static/media/Silque_Adherent_of_Mila.8834200d.webp"
+  },
+  {
+    "revision": "d9694f78b9337b4d98799fdd000e6fa8",
+    "url": "/feh-inheritance-tool/static/media/Silque_Selfless_Cleric.d9694f78.webp"
   },
   {
     "revision": "58b6686d36f35780fbd7929376753dbb",
@@ -1810,6 +1866,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d96f71a3e29350637da8f212ab1b8b53",
     "url": "/feh-inheritance-tool/static/media/Tobin_The_Clueless_One.d96f71a3.webp"
+  },
+  {
+    "revision": "c690e5eea18658eb9229c57976d9553c",
+    "url": "/feh-inheritance-tool/static/media/Travant_King_of_Thracia.c690e5ee.webp"
+  },
+  {
+    "revision": "aca745af0d320bf5b88910015ded66b8",
+    "url": "/feh-inheritance-tool/static/media/Tsubasa_Madcap_Idol.aca745af.webp"
   },
   {
     "revision": "98bfa4f983dfabf4f53813cbc75778f7",
