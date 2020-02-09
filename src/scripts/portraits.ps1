@@ -7,7 +7,9 @@ function Remove-StringNormalize
     [Text.Encoding]::ASCII.GetString([Text.Encoding]::GetEncoding("Cyrillic").GetBytes($String))
 }
 
-$FullList = (Get-Content src/data/units.json) -join "`n" | ConvertFrom-Json | ForEach-Object { $_.PSObject.Properties | Select-Object -Expand Name } | ForEach-Object { Remove-StringNormalize -String $_ }
+$StatList = Get-Content src/data/stats/rarity.json -raw | ConvertFrom-Json | ForEach-Object { $_.PSObject.Properties | Select-Object -Expand Name } | ForEach-Object { Remove-StringNormalize -String $_ }
+$UnitList = Get-Content src/data/units.json -raw | ConvertFrom-Json | ForEach-Object { $_.PSObject.Properties | Select-Object -Expand Name } | ForEach-Object { Remove-StringNormalize -String $_ }
+$FullList = $StatList + $UnitList | Select -uniq
 $CurrentList = Get-ChildItem -Path src/img/portrait/* | ForEach-Object { [io.path]::GetFileNameWithoutExtension($_) }
 
 $DiffList = $FullList | Where-Object { $CurrentList -notcontains $_ } | ForEach-Object { "https://feheroes.gamepedia.com/File:" + $_ + "_Face_FC.webp" } | ForEach-Object { (Invoke-WebRequest $_).Links | Where-Object { $_.href -match "Face_FC.webp" } | Select-Object href -First 1 -ExpandProperty href }
