@@ -1075,6 +1075,9 @@
         },
         {
           "name": "Brave Axe+"
+        },
+        {
+          "name": "Devil Axe"
         }
       ],
       "assist": [
@@ -7220,6 +7223,9 @@
         },
         {
           "name": "Silver Dagger+"
+        },
+        {
+          "name": "Jakob's Tray"
         }
       ],
       "assist": [
@@ -8549,6 +8555,9 @@
         },
         {
           "name": "Silver Sword+"
+        },
+        {
+          "name": "Laslow's Blade"
         }
       ],
       "special": [
@@ -11683,6 +11692,9 @@
         },
         {
           "name": "Blárserpent+"
+        },
+        {
+          "name": "Father's Tactics"
         }
       ],
       "special": [

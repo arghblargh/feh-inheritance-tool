@@ -588,5 +588,17 @@
     },
     "Light Brand": {
         "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP = 100%, grants Spd/Def+4 to unit during combat."
+    },
+    "Laslow's Blade": {
+        "effect": "If unit is within 3 spaces of 2 or more allies who each have total bonuses ≥ 10, grants Atk/Def+3 during combat and unit attacks twice."
+    },
+    "Devil Axe": {
+        "effect": "At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1, and deals +10 damage when Special triggers."
+    },
+    "Jakob's Tray": {
+        "effect": "If unit is within 3 spaces of an ally who has HP < 100%, grants Atk/Spd/Def/Res+4 to unit during combat."
+    },
+    "Father's Tactics": {
+        "effect": "Grants Atk/Spd+3 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Spd+3 to unit during combat."
     }
 }

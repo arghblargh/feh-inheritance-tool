@@ -5360,7 +5360,7 @@
     "type": "Axe",
     "cost": 400,
     "might": 16,
-    "effect": "",
+    "effect": "Grants Spd+3. At start of combat, if a bonus granted by a skill like Rally or Hone is active on unit or if unit's HP ≥ 70% at start of combat, grants bonus to unit's Atk = 25% of foe's Def and inflicts penalty on foe's Atk = 25% of foe's Res during combat.",
     "restriction": "Exclusive"
   },
   "Thorn Lance": {
@@ -5368,7 +5368,7 @@
     "type": "Lance",
     "cost": 400,
     "might": 16,
-    "effect": "",
+    "effect": "Accelerates Special trigger (cooldown count-1). At start of combat, if unit's Atk > foe's Atk, inflicts Atk/Def-6 on foe during combat and foe cannot make a follow-up attack.",
     "restriction": "Exclusive"
   },
   "Melee Bouquet": {
@@ -5376,14 +5376,14 @@
     "type": "Sword",
     "cost": 200,
     "might": 10,
-    "effect": ""
+    "effect": "If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack."
   },
   "Melee Bouquet+": {
     "color": "Red",
     "type": "Sword",
     "cost": 300,
     "might": 14,
-    "effect": "",
+    "effect": "If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.",
     "upgrade": "-"
   },
   "Budding Bow": {
@@ -5391,14 +5391,14 @@
     "type": "Bow",
     "cost": 200,
     "might": 8,
-    "effect": ""
+    "effect": "Effective against flying foes. If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack."
   },
   "Budding Bow+": {
     "color": "",
     "type": "Bow",
     "cost": 300,
     "might": 12,
-    "effect": "",
+    "effect": "Effective against flying foes. If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.",
     "upgrade": "-"
   },
   "Rapport Wand": {
@@ -5406,13 +5406,49 @@
     "type": "Staff",
     "cost": 200,
     "might": 8,
-    "effect": ""
+    "effect": "At start of turn, grants Atk/Def+3 to ally with the highest Spd for 1 turn. (Excludes unit.)"
   },
   "Rapport Wand+": {
     "color": "",
     "type": "Staff",
     "cost": 300,
     "might": 12,
-    "effect": ""
+    "effect": "At start of turn, grants Atk/Def+5 to ally with the highest Spd for 1 turn. (Excludes unit.)"
+  },
+  "Laslow's Blade": {
+    "color": "Red",
+    "type": "Sword",
+    "cost": 400,
+    "might": 16,
+    "effect": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd/Def/Res+4 to target or targeting ally and allies within 2 spaces of unit and target or targeting ally for 1 turn after movement. (Excludes unit.)",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Devil Axe": {
+    "color": "Green",
+    "type": "Axe",
+    "cost": 400,
+    "might": 16,
+    "effect": "Grants Atk/Spd/Def/Res+4 during combat, but if unit attacked, deals 4 damage to unit after combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Jakob's Tray": {
+    "color": "Neutral",
+    "type": "Dagger",
+    "cost": 400,
+    "might": 14,
+    "effect": "If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat. Effect:【Dagger 7】【Dagger 7】 After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
+  },
+  "Father's Tactics": {
+    "color": "Blue",
+    "type": "Tome",
+    "cost": 400,
+    "might": 12,
+    "effect": "At start of combat, if unit's Res > foe's Res, grants Atk/Spd/Def/Res+4 during combat.",
+    "restriction": "Exclusive",
+    "upgrade": "Legendary"
   }
 }
